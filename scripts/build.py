@@ -25,6 +25,13 @@ ARGS = sys.argv[2:] if TRIM else sys.argv[1:]
 SRC = Path(ARGS[0]) if ARGS else ROOT / "data" / "snapshot.json"
 OUT = Path(ARGS[1]) if len(ARGS) > 1 else ROOT / "_site"
 OVERRIDES = ROOT / "data" / "overrides.json"
+EXTRA = ROOT / "data" / "catalog_extra.json"
+COMPANIES = ROOT / "data" / "barnivore_companies.json"
+# Производитель для ссылок на сайты самих производителей (не Barnivore).
+MANUFACTURER_SITES = {"williamgrant.com": "William Grant & Sons", "hofbraeu-muenchen.de": "Hofbräu München"}
+EXTRA_CATEGORY = {"Вино": "Вино", "Игристое и шампанское": "Игристое вино", "Пиво": "Пиво",
+                  "Ликёры, настойки, биттеры": "Ликёр", "Вермут и креплёные вина": "Вермут и креплёное вино",
+                  "Крепкие напитки": "Крепкий алкоголь", "Сидр, перри, медовуха": "Сидр", "Прочее": "Алкогольный напиток"}
 
 # Ссылки на доказательства публикуются только из assessment.references[].url
 # и только с этих типов источников.
@@ -94,7 +101,11 @@ def norm_category(c):
 # Порядок важен: «вино игристое» раньше «вина», «пивной напиток» раньше общего «напитка».
 KIND_WORDS = [
     ("Игристое вино", r"игрист\w*|шампанск\w*"),
+    ("Игристое вино", r"просекко|prosecco|креман\w*|франчакорт\w*"),
     ("Вермут", r"вермут\w*"),
+    ("Портвейн", r"портвейн\w*"),
+    ("Саке", r"саке|сакэ"),
+    ("Писко", r"писко"),
     ("Херес", r"херес\w*"),
     ("Вино", r"вин(?:о|а|ный|ное)"),
     ("Пиво", r"пив(?:о|а|ной|ное)"),
@@ -114,7 +125,7 @@ KIND_WORDS = [
 ]
 
 
-GENERIC_CATS = {"Крепкий алкоголь", "Напиток", "Спиртной", "Пиво / сидр", "Алкогольный напиток, категория не уточнена"}
+GENERIC_CATS = {"Вермут и креплёное вино", "Крепкий алкоголь", "Напиток", "Спиртной", "Пиво / сидр", "Алкогольный напиток, категория не уточнена"}
 
 
 def kind_from_name(name, category):
@@ -229,6 +240,17 @@ def main():
             overrides[(o["network"], o["name"])] = o
     used_overrides = set()
     skipped = {"unclear": 0}
+    company_by_url = json.loads(COMPANIES.read_text(encoding="utf-8")) if COMPANIES.exists() else {}
+
+    def producer_of(refs):
+        """Производитель — компания, ответившая на запрос (Barnivore или сайт производителя), а не поставщик из карточки сети."""
+        for ref in refs:
+            if ref["url"] in company_by_url:
+                return company_by_url[ref["url"]]
+            host = re.sub(r"^https?://(www\.)?([^/]+).*", r"\2", ref["url"])
+            if host in MANUFACTURER_SITES:
+                return MANUFACTURER_SITES[host]
+        return None
 
     def add(r, kind):
         a = r.get("assessment")
@@ -282,10 +304,10 @@ def main():
         rec = [
             None,  # id
             status,
-            nets(clean(r.get("network"))),
+            [nets(clean(r.get("network")))],
             name,
             brands(clean(r.get("brand"))),
-            prods(clean(r.get("producer_as_reported"))),
+            prods(producer_of(refs)),
             countries(norm_country(r.get("country_as_reported"))),
             "f" if r.get("origin_classification") == "foreign" else "u",
             cats(cat),
@@ -317,6 +339,31 @@ def main():
             skipped_ru += 1
             continue
         add(r, "v")
+
+    # Сводный каталог сетей (уже отобранный scripts/import_catalog.py): одна запись может быть в нескольких сетях.
+    extra_count = 0
+    if EXTRA.exists():
+        extra = json.loads(EXTRA.read_text(encoding="utf-8"))
+        for it in extra["items"]:
+            name = clean_name(it["name"])
+            refs = [{"type": "Barnivore", "url": it["barnivore_url"]}]
+            pub = {"status": it["status"], "reviewed_at": date_only(extra.get("copied_at")), "evidence_date": clean(it.get("evidence_date")),
+                   "evidence_date_precision": None, "rationale": clean(it["rationale"]),
+                   "scope": [clean(x) for x in it.get("scope") or [] if clean(x)], "identity": None,
+                   "packaging": None, "caveats": [], "refs": refs}
+            k = json.dumps(pub, ensure_ascii=False, sort_keys=True)
+            if k not in assess_index:
+                assess_index[k] = len(assessments)
+                assessments.append(pub)
+            cat = kind_from_name(name, EXTRA_CATEGORY.get(it["category"], it["category"]))
+            color, sugar, sparkling = wine_attrs(name, cat)
+            chains = it["chains"]
+            groups["x:" + it["id"]] = [
+                it["id"], STATUS_CODE[it["status"]], [nets(c["network"]) for c in chains], name, -1,
+                prods(it.get("company")), countries(norm_country(it.get("country"))), "f" if it.get("country") else "u",
+                cats(cat), None, None, None, None, date_only(chains[0]["checked_at"]), 1, assess_index[k],
+                color, sugar, 1 if sparkling else 0]
+            extra_count += 1
 
     records = list(groups.values())
     ids = [r[0] for r in records]
@@ -383,7 +430,7 @@ def main():
     print(f"Снимок {meta['as_of']}: решений {len(data['verified'])} -> {len(verified)} записей; "
           f"сетей с решениями {len(nets.items)}; российское производство исключено: {skipped_ru}; "
           f"без однозначного ответа исключено: {skipped['unclear']}; "
-          f"пересмотрено решений: {len(used_overrides)}.")
+          f"пересмотрено решений: {len(used_overrides)}; из сводного каталога сетей: {extra_count}.")
 
 
 if __name__ == "__main__":

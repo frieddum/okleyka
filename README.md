@@ -28,6 +28,20 @@
 токены или ссылки вне поля источников (`assessment.references[].url`). В публикацию попадают
 только поля из белого списка в `scripts/build.py`: новые поля в JSON на сайт сами не попадут.
 
+## Сводный каталог сетей
+
+Второй источник — сводный каталог сетей (`catalog_public.json`) с выгрузкой Barnivore (`companies.jsonl`).
+Он импортируется отдельно, по тем же правилам, что и снимок:
+
+```
+python scripts/import_catalog.py путь/catalog_public.json путь/barnivore_export/companies.jsonl
+```
+
+Скрипт пишет `data/catalog_extra.json` (только публикуемые позиции, без цитат) и
+`data/barnivore_companies.json` (адрес страницы Barnivore → компания). Правила отбора, решения
+по компаниям и найденные ошибки сопоставления записаны в начале `scripts/import_catalog.py`.
+Приватный реестр (`catalog_private.xlsx`) в репозиторий не кладётся и не используется.
+
 ## Пересмотр решений
 
 `data/overrides.json` — решения, пересмотренные поверх снимка: статус, основание и область действия.

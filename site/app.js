@@ -12,7 +12,7 @@
     { key: 'st', title: 'Статус', get: r => r.st,
       label: v => STATUS[v].group, order: 'fixed',
       hint: 'Здесь только позиции с сохранённым решением. Позиции каталогов без проверки не публикуются.' },
-    { key: 'net', title: 'Сеть', get: r => r.net, order: 'total' },
+    { key: 'net', title: 'Сеть', get: r => r.nets, order: 'total' },
     { key: 'kind', title: 'Вид напитка', get: r => r.cat || NONE, label: v => v === NONE ? 'Вид не указан' : v, order: 'total', limit: 8 },
     { key: 'country', title: 'Страна по данным каталога', get: r => r.country || NONE,
       label: v => v === NONE ? 'Не указана в каталоге' : v, order: 'total', limit: 8, search: true },
@@ -174,7 +174,7 @@
     const d = META.dicts;
     const at = (list, i) => i < 0 ? null : list[i];
     return {
-      id: arr[0], st: arr[1], net: d.networks[arr[2]], name: arr[3], brand: at(d.brands, arr[4]),
+      id: arr[0], st: arr[1], nets: arr[2].map(i => d.networks[i]), name: arr[3], brand: at(d.brands, arr[4]),
       producer: at(d.producers, arr[5]), country: at(d.countries, arr[6]), origin: arr[7], cat: at(d.categories, arr[8]),
       volMl: arr[9], volRaw: arr[10], abv: arr[11], vin: arr[12], checked: arr[13], merged: arr[14],
       a: arr[15] >= 0 ? ASSESS[arr[15]] : null, color: arr[16], sugar: arr[17], sp: !!arr[18],
@@ -189,10 +189,18 @@
     groupTotals = {};
     for (const g of GROUPS) {
       const m = new Map();
-      for (const r of RECS) { const v = g.get(r); if (v != null) m.set(v, (m.get(v) || 0) + 1); }
+      for (const r of RECS) for (const v of values(g, r)) m.set(v, (m.get(v) || 0) + 1);
       groupTotals[g.key] = m;
     }
   }
+
+  // Значения группы для записи: у сети их может быть несколько, у остальных групп одно или ни одного.
+  function values(g, r) {
+    const v = g.get(r);
+    return Array.isArray(v) ? v : (v == null ? [] : [v]);
+  }
+  const passes = (g, r) => values(g, r).some(v => state.f[g.key].has(v));
+  const bump = (m, g, r) => { for (const v of values(g, r)) m.set(v, (m.get(v) || 0) + 1); };
 
   /* ---------- Состояние и адрес ---------- */
   const state = { q: '', f: {}, sort: 'rel', p: 1, id: null };
@@ -246,15 +254,14 @@
     for (const r of base) {
       let failed = null, nfail = 0;
       for (const g of active) {
-        if (!state.f[g.key].has(g.get(r))) { nfail++; failed = g; if (nfail > 1) break; }
+        if (!passes(g, r)) { nfail++; failed = g; if (nfail > 1) break; }
       }
       if (nfail > 1) continue;
       if (nfail === 0) {
         out.push(r);
-        for (const g of GROUPS) { const v = g.get(r); if (v != null) counts[g.key].set(v, (counts[g.key].get(v) || 0) + 1); }
+        for (const g of GROUPS) bump(counts[g.key], g, r);
       } else {
-        const v = failed.get(r);
-        if (v != null) counts[failed.key].set(v, (counts[failed.key].get(v) || 0) + 1);
+        bump(counts[failed.key], failed, r);
       }
     }
     // Счётчики для групп без выбора тоже должны учитывать только прошедшие записи; для выбранных — без своей группы.
@@ -405,7 +412,7 @@
     return f.map(x => `<span>${esc(x)}</span>`).join('');
   }
   function rowHTML(r, tokens) {
-    const where = [`<span class="net">${esc(r.net)}</span>`];
+    const where = [`<span class="net">${esc(r.nets.join(', '))}</span>`];
     const facts = factsHTML(r);
     return `<li class="row"><a href="${esc(urlFor({ id: r.id, p: state.p }))}" data-id="${esc(r.id)}">
       <div class="status-col">${pill(r.st)}</div>
@@ -527,10 +534,10 @@
     let html = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a>
       <div>${pill(r.st)}</div>
       <h1>${esc(r.name)}</h1>
-      <p class="sub">${esc(r.net)}${r.checked ? ` ${fmtShort(r.checked)}` : ''}</p>
+      <p class="sub">${esc(r.nets.join(', '))}${r.checked ? ` ${fmtShort(r.checked)}` : ''}</p>
       <div class="label-box"><dl class="kv">
         ${kv('Бренд', r.brand)}
-        ${kv('Производитель или импортёр', r.producer)}
+        ${kv('Производитель', r.producer)}
         ${kv('Страна', r.country)}
         ${kv('Вид', r.cat)}
         ${kv('Объём', vol)}
@@ -552,7 +559,7 @@
       }
       if (src.length) html += `<p class="source">Источник: ${src.join(', ')}</p>`;
     }
-    const same = RECS.filter(x => x !== r && x.net === r.net && x.nameKey === r.nameKey);
+    const same = RECS.filter(x => x !== r && x.nameKey === r.nameKey && x.nets.some(n => r.nets.includes(n)));
     if (same.length) {
       html += `<section class="section"><h2>То же название в этой сети</h2>
         <p class="note">Статус между этими записями не переносится.</p>
