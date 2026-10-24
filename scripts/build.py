@@ -349,7 +349,7 @@ def main():
             refs = [{"type": "Barnivore", "url": it["barnivore_url"]}]
             pub = {"status": it["status"], "reviewed_at": date_only(extra.get("copied_at")), "evidence_date": clean(it.get("evidence_date")),
                    "evidence_date_precision": None, "rationale": clean(it["rationale"]),
-                   "scope": [clean(x) for x in it.get("scope") or [] if clean(x)], "identity": None,
+                   "scope": [clean(x)[0].upper() + clean(x)[1:] for x in it.get("scope") or [] if clean(x)], "identity": None,
                    "packaging": None, "caveats": [], "refs": refs}
             k = json.dumps(pub, ensure_ascii=False, sort_keys=True)
             if k not in assess_index:
