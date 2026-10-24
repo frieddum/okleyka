@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Оклейка — веганский статус алкоголя в российских сетях</title>
+<meta name="description" content="Независимый справочник: веганский и невеганский алкоголь в каталогах российских сетей. Решения с датой, областью действия и источником.">
+<meta name="color-scheme" content="light dark">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/golos-text-normal-400-700-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#results">К результатам</a>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="wordmark" href="./">Оклейка</a>
+    <span class="tagline">Независимый справочник веганского статуса алкоголя в российских сетях</span>
+    <nav class="nav" aria-label="Разделы">
+      <a href="./" aria-current="page">Справочник</a>
+      <a href="method.html">Методика</a>
+    </nav>
+  </div>
+</header>
+
+<div class="searchbar" id="searchbar">
+  <div class="wrap">
+    <form class="search-field" role="search" id="search-form">
+      <label for="q" class="visually-hidden">Поиск по названию, бренду или производителю</label>
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><path d="M13 13l5 5"/></svg>
+      <input id="q" name="q" type="search" autocomplete="off" spellcheck="false" enterkeyhint="search"
+             placeholder="Название, бренд или производитель" aria-describedby="snapshot-line">
+      <button type="button" class="clear-q" id="clear-q" aria-label="Очистить поиск" hidden>×</button>
+    </form>
+    <p class="snapshot-line" id="snapshot-line">Загружаю снимок каталогов…</p>
+  </div>
+</div>
+
+<main class="wrap" id="main">
+  <div class="layout" id="list-view">
+    <aside class="filters" id="filters" aria-label="Фильтры">
+      <div class="filters-head">
+        <h2>Фильтры</h2>
+        <button type="button" id="close-filters" aria-label="Закрыть фильтры">×</button>
+      </div>
+      <div class="filters-body" id="filters-body"></div>
+      <div class="filters-foot">
+        <button type="button" class="reset-all" id="reset-mobile">Сбросить</button>
+        <button type="button" class="show" id="show-results">Показать</button>
+      </div>
+    </aside>
+
+    <section aria-labelledby="count" id="results-col">
+      <div class="quick" id="quick">
+        <div class="quick-row" id="quick-status" role="group" aria-label="Статус"></div>
+        <div class="quick-row" id="quick-net" role="group" aria-label="Сеть"></div>
+      </div>
+      <div class="results-head">
+        <h2 class="count" id="count" tabindex="-1" aria-live="polite">…</h2>
+        <label class="sort" for="sort">Порядок
+          <select id="sort">
+            <option value="rel">Сначала точные совпадения</option>
+            <option value="name">По названию</option>
+            <option value="date">По дате подтверждения</option>
+          </select>
+        </label>
+      </div>
+      <div class="applied" id="applied" aria-label="Выбранные фильтры"></div>
+      <div id="notices"></div>
+      <ol class="list" id="results"></ol>
+      <nav class="pager" id="pager" aria-label="Страницы выдачи"></nav>
+    </section>
+  </div>
+
+  <article class="card" id="card-view" hidden></article>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>Независимый проект. Не связан с Barnivore, торговыми сетями и производителями. Это не магазин: наличие и цены не отслеживаются.</p>
+    <p>Часть решений опирается на страницы <a href="https://www.barnivore.com/" rel="noopener">barnivore.com</a>. У каждой такой записи есть ссылка на исходную страницу и дата сверки. Ответ производителя важнее плашки Barnivore. Подробнее в <a href="method.html">методике</a>.</p>
+    <p id="footer-snapshot"></p>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>

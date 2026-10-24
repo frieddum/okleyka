@@ -1,0 +1,839 @@
+'use strict';
+(() => {
+  const PAGE = 25;
+  const ST_ORDER = ['v', 'n', 'u', 'c', 'x'];
+  const STATUS = {
+    v: { label: 'Веганское', group: 'Веганское',
+      explain: 'Сохранённое решение: веганское. Источник сообщает, что животные продукты при производстве не используются. Решение действует в пределах, указанных ниже, и не гарантирует состав текущей партии.' },
+    n: { label: 'Невеганское', group: 'Невеганское',
+      explain: 'Сохранённое решение: невеганское. По источнику при производстве используются продукты животного происхождения. Подробности в основании решения.' },
+    u: { label: 'Неясно', group: 'Неясно',
+      explain: 'Сохранённое решение: неясно. Сведений недостаточно, чтобы отнести напиток к веганским или невеганским.' },
+    c: { label: 'Противоречие', group: 'Противоречие в источниках',
+      explain: 'Источники противоречат друг другу, поэтому статус не присвоен. Подробности в основании решения.' },
+    x: { label: 'Не проверено', group: 'Не проверено',
+      explain: 'Запись есть в каталоге сети, но не сопоставлена с источниками. Это не значит, что напиток невеганский: статус просто не проверялся.' },
+  };
+  const NONE = '__none';
+  const MONTHS = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
+
+  const GROUPS = [
+    { key: 'st', title: 'Статус', get: r => r.st,
+      label: v => STATUS[v].group, order: 'fixed',
+      hint: '«Не проверено» не значит «невеганское»: такие записи просто не сопоставлены с источниками.' },
+    { key: 'net', title: 'Сеть', get: r => r.net, order: 'total' },
+    { key: 'kind', title: 'Вид напитка', get: r => r.cat || NONE, label: v => v === NONE ? 'Вид не указан' : v, order: 'total', limit: 8 },
+    { key: 'country', title: 'Страна по данным каталога', get: r => r.country || NONE,
+      label: v => v === NONE ? 'Не указана в каталоге' : v, order: 'total', limit: 8, search: true },
+    { key: 'color', title: 'Цвет', wine: true, get: r => r.color, order: 'total' },
+    { key: 'sugar', title: 'Сахар', wine: true, get: r => r.sugar, order: 'fixedList',
+      list: ['Брют', 'Сухое', 'Полусухое', 'Полусладкое', 'Сладкое'] },
+    { key: 'sp', title: 'Тип', wine: true, get: r => r.sp ? '1' : null, label: () => 'Игристое' },
+    { key: 'vin', title: 'Урожай', wine: true, get: r => r.vin == null ? null : String(r.vin), order: 'desc' },
+  ];
+  const GROUP = Object.fromEntries(GROUPS.map(g => [g.key, g]));
+
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const fmtInt = n => n.toLocaleString('ru-RU');
+  const plural = (n, one, few, many) => {
+    const a = Math.abs(n) % 100, b = a % 10;
+    if (a > 10 && a < 20) return many;
+    if (b > 1 && b < 5) return few;
+    if (b === 1) return one;
+    return many;
+  };
+  const records_word = n => plural(n, 'запись', 'записи', 'записей');
+  const fmtDate = s => {
+    if (!s) return null;
+    const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s);
+    return m ? `${m[3]}.${m[2]}.${m[1]}` : s;
+  };
+  const fmtEvidence = a => {
+    if (!a.evidence_date) return { text: 'без даты', note: a.evidence_date_precision === 'undated' ? 'источник не датирован' : 'дата в снимке не указана' };
+    const m = /^(\d{4})-(\d{2})$/.exec(a.evidence_date);
+    if (m && a.evidence_date_precision === 'month') return { text: `${MONTHS[+m[2] - 1]} ${m[1]}`, note: null };
+    return { text: a.evidence_date, note: 'точность даты в источнике не указана' };
+  };
+  const fmtVolume = r => {
+    if (r.volMl != null) return r.volMl >= 1000 ? `${(r.volMl / 1000).toLocaleString('ru-RU', { maximumFractionDigits: 3 })}\u00a0л` : `${fmtInt(r.volMl)}\u00a0мл`;
+    return null;
+  };
+  const fmtAbv = r => r.abv == null ? null : `${r.abv.toLocaleString('ru-RU')}\u202f%`;
+
+  /* ---------- Нормализация и поиск ---------- */
+  const HOMO = { 'а': 'a', 'в': 'b', 'е': 'e', 'к': 'k', 'м': 'm', 'н': 'h', 'о': 'o', 'р': 'p', 'с': 'c', 'т': 't', 'у': 'y', 'х': 'x' };
+  const TR = { 'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ж': 'zh', 'з': 'z', 'и': 'i', 'й': 'i', 'к': 'k', 'л': 'l', 'м': 'm', 'н': 'n', 'о': 'o', 'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'у': 'u', 'ф': 'f', 'х': 'kh', 'ц': 'ts', 'ч': 'ch', 'ш': 'sh', 'щ': 'sch', 'ъ': '', 'ы': 'y', 'ь': '', 'э': 'e', 'ю': 'yu', 'я': 'ya' };
+  const LAT = /[a-z]/, CYR = /[а-я]/;
+
+  function tokenize(s) {
+    if (!s) return [];
+    const base = s.toLowerCase().replace(/ё/g, 'е').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/ß/g, 'ss').replace(/æ/g, 'ae').replace(/œ/g, 'oe').replace(/ø/g, 'o');
+    const out = [];
+    for (let t of base.split(/[^a-z0-9а-я]+/)) {
+      if (!t) continue;
+      if (LAT.test(t) && CYR.test(t)) {
+        const fixed = t.replace(/[а-я]/g, c => HOMO[c] || c);
+        if (!CYR.test(fixed)) t = fixed;
+      }
+      out.push(t);
+    }
+    return out;
+  }
+  function skeleton(t) {
+    let s = '';
+    for (const c of t) s += TR[c] !== undefined ? TR[c] : c;
+    return s.replace(/dzh/g, 'j').replace(/zh/g, 'j').replace(/sch/g, 'sh').replace(/ph/g, 'f').replace(/w/g, 'v')
+      .replace(/ck/g, 'k').replace(/q/g, 'k').replace(/x/g, 'ks').replace(/c(?=[eiy])/g, 's').replace(/c/g, 'k')
+      .replace(/kh/g, 'h').replace(/y/g, 'i').replace(/(.)\1+/g, '$1');
+  }
+  function editDistance(a, b, max) {
+    if (Math.abs(a.length - b.length) > max) return max + 1;
+    let prev2 = null, prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+    for (let i = 1; i <= a.length; i++) {
+      const cur = [i];
+      let rowMin = i;
+      for (let j = 1; j <= b.length; j++) {
+        let v = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+        if (prev2 && i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) v = Math.min(v, prev2[j - 2] + 1);
+        cur[j] = v;
+        if (v < rowMin) rowMin = v;
+      }
+      if (rowMin > max) return max + 1;
+      prev2 = prev; prev = cur;
+    }
+    return prev[b.length];
+  }
+  const FIELD_W = [1, 0.9, 0.6, 0.35];
+
+  function buildIndex(recs) {
+    const vocab = new Map(), skel = new Map(), skelRep = new Map();
+    const add = (map, key, val) => { let a = map.get(key); if (!a) map.set(key, a = []); a.push(val); };
+    recs.forEach((r, i) => {
+      const fields = [r.name, r.brand, r.producer, [r.country, r.cat].filter(Boolean).join(' ')];
+      fields.forEach((f, fi) => {
+        const seen = new Set();
+        for (const t of tokenize(f)) {
+          if (seen.has(t)) continue;
+          seen.add(t);
+          add(vocab, t, i * 4 + fi);
+          if (!/^\d+$/.test(t)) {
+            const sk = skeleton(t);
+            add(skel, sk, i * 4 + fi);
+            if (!skelRep.has(sk) || (LAT.test(t) && !LAT.test(skelRep.get(sk)))) skelRep.set(sk, t);
+          }
+        }
+      });
+    });
+    const vocabKeys = [...vocab.keys()].sort();
+    const skelKeys = [...skel.keys()].sort();
+    return { vocab, skel, skelRep, vocabKeys, skelKeys };
+  }
+  function prefixRange(keys, p) {
+    let lo = 0, hi = keys.length;
+    while (lo < hi) { const m = (lo + hi) >> 1; if (keys[m] < p) lo = m + 1; else hi = m; }
+    const out = [];
+    for (let i = lo; i < keys.length && keys[i].startsWith(p); i++) out.push(keys[i]);
+    return out;
+  }
+  function search(qstr) {
+    const qtokens = [...new Set(tokenize(qstr))];
+    if (!qtokens.length || !INDEX) return null;
+    const fuzzy = [];
+    let acc = null;
+    for (const qt of qtokens) {
+      const hits = new Map();
+      const put = (postings, score) => {
+        for (const p of postings) {
+          const ri = p >> 2, s = score * FIELD_W[p & 3];
+          if ((hits.get(ri) || 0) < s) hits.set(ri, s);
+        }
+      };
+      const isNum = /^\d+$/.test(qt);
+      for (const k of prefixRange(INDEX.vocabKeys, qt)) put(INDEX.vocab.get(k), k === qt ? 10 : 7);
+      if (!isNum && qt.length >= 4) {
+        for (const k of INDEX.vocabKeys) if (k.length > qt.length && !k.startsWith(qt) && k.includes(qt)) put(INDEX.vocab.get(k), 4);
+      }
+      if (!isNum) {
+        const qs = skeleton(qt);
+        for (const k of prefixRange(INDEX.skelKeys, qs)) put(INDEX.skel.get(k), k === qs ? 6 : 5);
+        if (!hits.size && qs.length >= 3) {
+          const max = qs.length >= 7 ? 2 : 1;
+          const found = [];
+          for (const k of INDEX.skelKeys) {
+            if (k.length < qs.length - max) continue;
+            const d = editDistance(qs, k, max);
+            const dp = k.length > qs.length ? editDistance(qs, k.slice(0, qs.length), max) : max + 1;
+            if (d <= max || dp <= max) { put(INDEX.skel.get(k), 2); found.push(k); }
+          }
+          if (found.length) fuzzy.push({ q: qt, as: [...new Set(found.map(k => INDEX.skelRep.get(k)))].slice(0, 4) });
+        }
+      }
+      if (!acc) acc = hits;
+      else {
+        const next = new Map();
+        for (const [ri, s] of hits) if (acc.has(ri)) next.set(ri, acc.get(ri) + s);
+        acc = next;
+      }
+      if (!acc.size) break;
+    }
+    return { hits: acc || new Map(), fuzzy, tokens: qtokens };
+  }
+
+  /* ---------- Данные ---------- */
+  let META = null, RECS = [], BY_ID = new Map(), INDEX = null, ASSESS = [];
+  let observedLoaded = false, observedFailed = false;
+  let groupTotals = {};
+  const collator = new Intl.Collator('ru', { sensitivity: 'base', numeric: true });
+
+  function unpack(arr) {
+    const d = META.dicts;
+    const at = (list, i) => i < 0 ? null : list[i];
+    return {
+      id: arr[0], st: arr[1], net: d.networks[arr[2]], name: arr[3], brand: at(d.brands, arr[4]),
+      producer: at(d.producers, arr[5]), country: at(d.countries, arr[6]), origin: arr[7], cat: at(d.categories, arr[8]),
+      volMl: arr[9], volRaw: arr[10], abv: arr[11], vin: arr[12], checked: arr[13], merged: arr[14],
+      a: arr[15] >= 0 ? ASSESS[arr[15]] : null, color: arr[16], sugar: arr[17], sp: !!arr[18],
+    };
+  }
+  function ingest(list) {
+    for (const arr of list) RECS.push(unpack(arr));
+    RECS.sort((a, b) => collator.compare(a.name, b.name));
+    RECS.forEach((r, i) => { r.rank = i; r.nameKey = tokenize(r.name).join(' '); r.brandKey = r.brand ? tokenize(r.brand).join(' ') : null; });
+    BY_ID = new Map(RECS.map(r => [r.id, r]));
+    INDEX = buildIndex(RECS);
+    groupTotals = {};
+    for (const g of GROUPS) {
+      const m = new Map();
+      for (const r of RECS) { const v = g.get(r); if (v != null) m.set(v, (m.get(v) || 0) + 1); }
+      groupTotals[g.key] = m;
+    }
+  }
+
+  /* ---------- Состояние и адрес ---------- */
+  const state = { q: '', f: {}, sort: 'rel', p: 1, id: null };
+  GROUPS.forEach(g => state.f[g.key] = new Set());
+  const DEFAULT_ST = ['v'];
+
+  function readURL() {
+    const sp = new URLSearchParams(location.search);
+    state.q = sp.get('q') || '';
+    state.sort = ['rel', 'name', 'date'].includes(sp.get('sort')) ? sp.get('sort') : 'rel';
+    state.p = Math.max(1, parseInt(sp.get('p'), 10) || 1);
+    state.id = sp.get('id') || null;
+    for (const g of GROUPS) {
+      const raw = sp.get(g.key);
+      if (g.key === 'st') state.f.st = new Set(raw === null ? DEFAULT_ST : raw.split('').filter(c => STATUS[c]));
+      else state.f[g.key] = new Set(raw ? raw.split('|').filter(Boolean) : []);
+    }
+  }
+  function urlFor(over = {}) {
+    const s = { ...state, ...over };
+    const sp = new URLSearchParams();
+    if (s.q) sp.set('q', s.q);
+    for (const g of GROUPS) {
+      const set = (over.f && over.f[g.key]) || state.f[g.key];
+      if (g.key === 'st') {
+        const v = ST_ORDER.filter(c => set.has(c)).join('');
+        if (v !== DEFAULT_ST.join('')) sp.set('st', v);
+      } else if (set.size) sp.set(g.key, [...set].join('|'));
+    }
+    if (s.sort !== 'rel') sp.set('sort', s.sort);
+    if (s.p > 1) sp.set('p', s.p);
+    if (s.id) sp.set('id', s.id);
+    const qs = sp.toString();
+    return qs ? `?${qs}` : location.pathname;
+  }
+  function writeURL(push) {
+    const url = urlFor();
+    if (url === location.search || (url === location.pathname && !location.search)) return;
+    history[push ? 'pushState' : 'replaceState'](null, '', url);
+  }
+
+  /* ---------- Выборка ---------- */
+  let lastResult = null;
+  function compute() {
+    const sres = state.q.trim() ? search(state.q) : null;
+    const base = sres ? [...sres.hits.keys()].map(i => RECS[i]) : RECS;
+    const active = GROUPS.filter(g => state.f[g.key].size);
+    const counts = {};
+    GROUPS.forEach(g => counts[g.key] = new Map());
+    const out = [];
+    for (const r of base) {
+      let failed = null, nfail = 0;
+      for (const g of active) {
+        if (!state.f[g.key].has(g.get(r))) { nfail++; failed = g; if (nfail > 1) break; }
+      }
+      if (nfail > 1) continue;
+      if (nfail === 0) {
+        out.push(r);
+        for (const g of GROUPS) { const v = g.get(r); if (v != null) counts[g.key].set(v, (counts[g.key].get(v) || 0) + 1); }
+      } else {
+        const v = failed.get(r);
+        if (v != null) counts[failed.key].set(v, (counts[failed.key].get(v) || 0) + 1);
+      }
+    }
+    // Счётчики для групп без выбора тоже должны учитывать только прошедшие записи; для выбранных — без своей группы.
+    // Для невыбранных групп записи, отсеянные другой группой, не учитываются (выше это уже так).
+    const score = r => sres ? sres.hits.get(r.rank) : 0;
+    const stIdx = r => ST_ORDER.indexOf(r.st);
+    if (state.sort === 'name') out.sort((a, b) => a.rank - b.rank);
+    else if (state.sort === 'date') {
+      const key = r => (r.a && r.a.evidence_date) || '';
+      out.sort((a, b) => (key(b) > key(a) ? 1 : key(b) < key(a) ? -1 : 0) || stIdx(a) - stIdx(b) || a.rank - b.rank);
+    } else out.sort((a, b) => (score(b) - score(a)) || stIdx(a) - stIdx(b) || a.rank - b.rank);
+    lastResult = { out, counts, sres };
+    return lastResult;
+  }
+
+  /* ---------- Фильтры: построение и обновление ---------- */
+  const groupEls = {};
+  const expanded = new Set();
+  function optionValues(g) {
+    const totals = groupTotals[g.key] || new Map();
+    let vals = [...totals.keys()];
+    if (g.key === 'st') vals = ST_ORDER.slice();
+    else if (g.order === 'fixedList') vals = g.list.filter(v => totals.has(v));
+    else if (g.order === 'desc') vals.sort((a, b) => b.localeCompare(a));
+    else vals.sort((a, b) => (a === NONE) - (b === NONE) || totals.get(b) - totals.get(a) || collator.compare(a, b));
+    return vals;
+  }
+  function buildFilters() {
+    const body = $('#filters-body');
+    body.innerHTML = '';
+    let wineBox = null;
+    for (const g of GROUPS) {
+      const fs = document.createElement('fieldset');
+      fs.className = 'fgroup';
+      fs.dataset.group = g.key;
+      if (g.wine) {
+        if (!wineBox) {
+          wineBox = document.createElement('fieldset');
+          wineBox.className = 'fgroup';
+          wineBox.id = 'wine-box';
+          wineBox.innerHTML = '<legend>Вино: по словам в названии</legend>';
+          body.appendChild(wineBox);
+        }
+        fs.className = 'subgroup';
+        fs.style.border = '0'; fs.style.padding = '0'; fs.style.margin = '';
+        fs.innerHTML = `<legend class="sublegend">${esc(g.title)}</legend>`;
+      } else {
+        fs.innerHTML = `<legend>${esc(g.title)}</legend>`;
+      }
+      if (g.search) {
+        fs.insertAdjacentHTML('beforeend', `<label class="visually-hidden" for="find-${g.key}">Найти в списке «${esc(g.title)}»</label><input class="inner-search" id="find-${g.key}" type="search" placeholder="Найти страну" autocomplete="off">`);
+      }
+      const list = document.createElement('div');
+      list.className = 'opts';
+      fs.appendChild(list);
+      const items = new Map();
+      for (const v of optionValues(g)) {
+        const id = `f-${g.key}-${items.size}`;
+        const lab = document.createElement('label');
+        lab.className = 'opt';
+        lab.htmlFor = id;
+        const sw = g.key === 'st' ? `<span class="swatch st-${v}" aria-hidden="true"></span>` : '';
+        lab.innerHTML = `<input type="checkbox" id="${id}" value="${esc(v)}">${sw}<span class="lab">${esc(g.label ? g.label(v) : v)}</span><span class="n"></span>`;
+        list.appendChild(lab);
+        items.set(v, lab);
+      }
+      if (g.limit && items.size > g.limit) {
+        fs.insertAdjacentHTML('beforeend', `<button type="button" class="more-btn" data-more="${g.key}"></button>`);
+      }
+      if (g.hint) fs.insertAdjacentHTML('beforeend', `<p class="hint">${esc(g.hint)}</p>`);
+      (g.wine ? wineBox : body).appendChild(fs);
+      groupEls[g.key] = { fs, items, more: fs.querySelector('.more-btn'), find: fs.querySelector('.inner-search') };
+    }
+    if (wineBox) wineBox.insertAdjacentHTML('beforeend', '<p class="hint">Цвет, сахар и тип отмечены, только если они прямо названы в карточке сети. Остальные вина в этих фильтрах не участвуют.</p>');
+    body.insertAdjacentHTML('beforeend', '<div class="fgroup"><button type="button" class="reset-all" id="reset-all">Сбросить фильтры</button></div>');
+  }
+
+  function updateFilters(counts) {
+    for (const g of GROUPS) {
+      const el = groupEls[g.key];
+      if (!el) continue;
+      const sel = state.f[g.key];
+      const c = counts[g.key];
+      const findText = el.find ? tokenize(el.find.value).join(' ') : '';
+      let shown = 0, hiddenByLimit = 0;
+      const isOpen = expanded.has(g.key) || findText;
+      for (const [v, lab] of el.items) {
+        const n = c.get(v) || 0;
+        const input = lab.firstElementChild;
+        input.checked = sel.has(v);
+        lab.classList.toggle('zero', n === 0);
+        const nEl = lab.querySelector('.n');
+        nEl.textContent = (g.key === 'st' && v === 'x' && !observedLoaded) ? '…' : fmtInt(n);
+        let visible = true;
+        if (findText) visible = tokenize(g.label ? g.label(v) : v).join(' ').includes(findText);
+        else if (g.wine || g.limit) visible = n > 0 || sel.has(v);
+        if (visible && g.limit && !isOpen && !sel.has(v)) {
+          if (shown >= g.limit) { visible = false; hiddenByLimit++; }
+        }
+        lab.hidden = !visible;
+        if (visible) shown++;
+      }
+      if (el.more) {
+        el.more.hidden = !!findText || (!expanded.has(g.key) && hiddenByLimit === 0);
+        el.more.textContent = expanded.has(g.key) ? 'Свернуть' : `Показать все (${el.items.size})`;
+      }
+      if (g.wine) el.fs.hidden = shown === 0;
+    }
+    const wineBox = $('#wine-box');
+    if (wineBox) wineBox.hidden = GROUPS.filter(g => g.wine).every(g => groupEls[g.key].fs.hidden);
+  }
+
+  /* ---------- Быстрые ряды (телефон) ---------- */
+  function activeFilterCount() {
+    let n = 0;
+    for (const g of GROUPS) if (g.key !== 'st' && g.key !== 'net') n += state.f[g.key].size;
+    return n;
+  }
+  function renderQuick(counts) {
+    const st = state.f.st;
+    $('#quick-status').innerHTML = ST_ORDER.map(c => {
+      const n = (c === 'x' && !observedLoaded) ? '…' : fmtInt(counts.st.get(c) || 0);
+      return `<button type="button" class="chip" data-quick="st" data-v="${c}" aria-pressed="${st.has(c)}"><span class="swatch st-${c}" style="width:9px;height:9px;border-radius:2px" aria-hidden="true"></span>${esc(STATUS[c].label)} <span class="n">${n}</span></button>`;
+    }).join('');
+    const nets = optionValues(GROUP.net);
+    const extra = activeFilterCount();
+    $('#quick-net').innerHTML =
+      `<button type="button" class="chip filters-btn" id="open-filters" aria-haspopup="dialog">Все фильтры${extra ? ` <span class="badge">${extra}</span>` : ''}</button>` +
+      `<button type="button" class="chip" data-quick="net" data-v="" aria-pressed="${state.f.net.size === 0}">Все сети</button>` +
+      nets.map(v => `<button type="button" class="chip" data-quick="net" data-v="${esc(v)}" aria-pressed="${state.f.net.has(v)}">${esc(v)} <span class="n">${fmtInt(counts.net.get(v) || 0)}</span></button>`).join('');
+  }
+
+  /* ---------- Выдача ---------- */
+  function highlight(text, tokens) {
+    let html = esc(text);
+    if (!tokens || !tokens.length) return html;
+    const parts = tokens.filter(t => t.length > 1).map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/е/g, '[её]'));
+    if (!parts.length) return html;
+    const re = new RegExp(`(${parts.join('|')})`, 'giu');
+    return esc(text).replace(re, '<mark>$1</mark>');
+  }
+  function pill(st) { return `<span class="pill st st-${st}">${esc(STATUS[st].label)}</span>`; }
+  function factsHTML(r) {
+    const f = [];
+    if (r.brand && !r.nameKey.includes(r.brandKey)) f.push(r.brand);
+    if (r.producer) f.push(r.producer);
+    if (r.country) f.push(r.country);
+    const vol = fmtVolume(r); if (vol) f.push(vol);
+    const abv = fmtAbv(r); if (abv) f.push(abv);
+    if (r.vin) f.push(`урожай ${r.vin}`);
+    return f.map(x => `<span>${esc(x)}</span>`).join('');
+  }
+  function rowHTML(r, tokens) {
+    const where = [`<span class="net">${esc(r.net)}</span>`,
+      `<span>${r.checked ? `в каталоге ${fmtDate(r.checked)}` : 'дата наблюдения не указана'}</span>`];
+    if (r.a) where.push(`<span>подтверждение источника: ${esc(fmtEvidence(r.a).text)}</span>`);
+    const facts = factsHTML(r);
+    return `<li class="row"><a href="${esc(urlFor({ id: r.id, p: state.p }))}" data-id="${esc(r.id)}">
+      <div class="status-col">${pill(r.st)}</div>
+      <div class="body">
+        <div class="name">${highlight(r.name, tokens)}</div>
+        ${facts ? `<div class="facts">${facts}</div>` : ''}
+        <div class="where">${where.join('')}</div>
+        ${r.a && r.a.rationale ? `<div class="why">${esc(r.a.rationale)}</div>` : ''}
+      </div></a></li>`;
+  }
+  function tagFor(g, v) {
+    const label = g.key === 'st' ? STATUS[v].label : (g.label ? g.label(v) : v);
+    const name = g.wine ? g.title.toLowerCase() : g.title.toLowerCase();
+    return `<button type="button" class="tag" data-remove="${g.key}" data-v="${esc(v)}" aria-label="Убрать фильтр ${esc(name)}: ${esc(label)}">${esc(label)}<span class="x" aria-hidden="true">×</span></button>`;
+  }
+  function renderApplied() {
+    const tags = [];
+    if (state.q.trim()) tags.push(`<button type="button" class="tag" data-remove="q" aria-label="Очистить поиск">«${esc(state.q.trim())}»<span class="x" aria-hidden="true">×</span></button>`);
+    for (const g of GROUPS) for (const v of state.f[g.key]) tags.push(tagFor(g, v));
+    const nonDefault = state.q.trim() || GROUPS.some(g => g.key === 'st'
+      ? ST_ORDER.filter(c => state.f.st.has(c)).join('') !== DEFAULT_ST.join('')
+      : state.f[g.key].size);
+    if (nonDefault) tags.push('<button type="button" class="tag clear" data-remove="all">Сбросить всё</button>');
+    $('#applied').innerHTML = tags.join('');
+  }
+  function sumMap(m) { let s = 0; for (const v of m.values()) s += v; return s; }
+  function renderNotices(res) {
+    const notes = [];
+    if (res.sres && res.sres.fuzzy.length) {
+      const parts = res.sres.fuzzy.map(f => `«${esc(f.q)}» → ${f.as.map(a => `<b>${esc(a)}</b>`).join(', ')}`);
+      notes.push(`<div class="notice">Точного совпадения нет, показаны похожие написания: ${parts.join('; ')}. Похожее написание не означает, что это тот же напиток.</div>`);
+    }
+    if (res.sres) {
+      const hidden = ST_ORDER.filter(c => !state.f.st.has(c) && (res.counts.st.get(c) || 0) > 0);
+      if (state.f.st.size && hidden.length) {
+        const n = hidden.reduce((s, c) => s + res.counts.st.get(c), 0);
+        const det = hidden.map(c => `${STATUS[c].label.toLowerCase()}: ${fmtInt(res.counts.st.get(c))}`).join(', ');
+        notes.push(`<div class="notice">Ещё ${fmtInt(n)} ${plural(n, 'совпадение', 'совпадения', 'совпадений')} с другими статусами (${det}). <button type="button" data-action="all-statuses">Показать все статусы</button></div>`);
+      }
+    }
+    if (!observedLoaded && !observedFailed && META) {
+      const n = META.rows.unmatched_after_merge;
+      notes.push(`<div class="loading-line">Загружаю ещё ${fmtInt(n)} ${plural(n, 'непроверенную запись', 'непроверенные записи', 'непроверенных записей')}…</div>`);
+    }
+    if (observedFailed) notes.push('<div class="notice">Не удалось загрузить непроверенные записи. Обновите страницу, чтобы попробовать ещё раз.</div>');
+    $('#notices').innerHTML = notes.join('');
+  }
+  function renderEmpty(res) {
+    const tips = [];
+    if (state.q.trim()) tips.push(`<li><button type="button" data-remove="q">Очистить поиск</button></li>`);
+    for (const g of GROUPS) {
+      if (!state.f[g.key].size) continue;
+      const n = sumMap(res.counts[g.key]);
+      if (g.key === 'st') {
+        if (n > 0) tips.push(`<li><button type="button" data-action="all-statuses">Показать все статусы</button>: ${fmtInt(n)} ${records_word(n)}</li>`);
+      } else if (n > 0) {
+        tips.push(`<li><button type="button" data-remove="${g.key}" data-v="*">Убрать фильтр «${esc(g.title)}»</button>: ${fmtInt(n)} ${records_word(n)}</li>`);
+      }
+    }
+    const waiting = !observedLoaded && !observedFailed ? '<p>Непроверенные записи ещё загружаются, выдача может пополниться.</p>' : '';
+    return `<li class="empty"><h2>Ничего не нашлось</h2>
+      <p>По этому запросу и фильтрам записей нет. Отсутствие в справочнике не значит, что напитка нет в продаже: снимок каталогов неполный.</p>
+      ${waiting}${tips.length ? `<ul>${tips.join('')}</ul>` : ''}</li>`;
+  }
+  function pageLinks(total) {
+    const pages = Math.max(1, Math.ceil(total / PAGE));
+    if (state.p > pages) state.p = pages;
+    const from = total ? (state.p - 1) * PAGE + 1 : 0, to = Math.min(total, state.p * PAGE);
+    let html = `<span class="range">${fmtInt(from)}–${fmtInt(to)} из ${fmtInt(total)}</span>`;
+    if (pages <= 1) return total ? html : '';
+    const link = (p, text, label) => p === state.p
+      ? `<span class="cur" aria-current="page">${text}</span>`
+      : `<a href="${esc(urlFor({ p }))}" data-page="${p}"${label ? ` aria-label="${label}"` : ''}>${text}</a>`;
+    if (state.p > 1) html += link(state.p - 1, '←', 'Предыдущая страница');
+    const set = new Set([1, pages, state.p - 1, state.p, state.p + 1].filter(p => p >= 1 && p <= pages));
+    let prev = 0;
+    for (const p of [...set].sort((a, b) => a - b)) {
+      if (p - prev > 1) html += '<span class="gap">…</span>';
+      html += link(p, fmtInt(p), `Страница ${p}`);
+      prev = p;
+    }
+    if (state.p < pages) html += link(state.p + 1, '→', 'Следующая страница');
+    return html;
+  }
+
+  function renderList() {
+    const res = compute();
+    const total = res.out.length;
+    $('#count').innerHTML = `${fmtInt(total)} <span class="word">${records_word(total)}</span>`;
+    $('#sort').value = state.sort;
+    $('#pager').innerHTML = pageLinks(total);
+    const slice = res.out.slice((state.p - 1) * PAGE, state.p * PAGE);
+    const tokens = res.sres ? res.sres.tokens : null;
+    $('#results').innerHTML = slice.length ? slice.map(r => rowHTML(r, tokens)).join('') : renderEmpty(res);
+    updateFilters(res.counts);
+    renderQuick(res.counts);
+    renderApplied();
+    renderNotices(res);
+    $('#show-results').textContent = `Показать ${fmtInt(total)} ${records_word(total)}`;
+  }
+
+  /* ---------- Карточка ---------- */
+  function kv(label, value, note) {
+    if (value == null || value === '') return '';
+    return `<dt>${esc(label)}</dt><dd>${esc(value)}${note ? `<span class="note">${esc(note)}</span>` : ''}</dd>`;
+  }
+  function refHTML(ref) {
+    const short = ref.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
+    const label = ref.type === 'Barnivore' ? 'Страница на Barnivore' : 'Сайт производителя';
+    return `<li>${label}: <a href="${esc(ref.url)}" rel="noopener nofollow" target="_blank">${esc(short)}</a></li>`;
+  }
+  function renderCard() {
+    const view = $('#card-view');
+    const r = BY_ID.get(state.id);
+    const backHref = urlFor({ id: null });
+    if (!r) {
+      if (!observedLoaded && !observedFailed) {
+        view.innerHTML = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a><p>Загружаю запись…</p>`;
+        return;
+      }
+      document.title = 'Запись не найдена — Оклейка';
+      view.innerHTML = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a>
+        <h1>Запись не найдена</h1><p class="sub">Возможно, снимок каталогов обновился и этой записи в нём больше нет. Попробуйте найти напиток через поиск.</p>`;
+      return;
+    }
+    document.title = `${r.name} — Оклейка`;
+    const a = r.a;
+    const vol = fmtVolume(r) || (r.volRaw ? `${r.volRaw} (как в карточке)` : null);
+    const countryNote = r.origin === 'u' ? 'происхождение в снимке не установлено' : null;
+    let html = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a>
+      <h1>${esc(r.name)}</h1>
+      <p class="sub">${esc(r.net)} · ${r.checked ? `в каталоге сети ${fmtDate(r.checked)}` : 'дата наблюдения в каталоге не указана'}</p>
+      <div class="verdict st st-${r.st}">
+        <div class="head">${pill(r.st)}${r.st === 'c' ? `<strong>${esc(STATUS.c.group)}</strong>` : ''}</div>
+        <p>${esc(STATUS[r.st].explain)}</p>
+      </div>
+      <div class="label-box"><h2>Данные карточки</h2><dl class="kv">
+        ${kv('Бренд', r.brand)}
+        ${kv('Организация в карточке', r.producer, r.producer ? 'Может быть импортёром или поставщиком, а не заводом.' : null)}
+        ${kv('Страна по данным каталога', r.country || 'не указана', countryNote)}
+        ${kv('Вид напитка', r.cat)}
+        ${kv('Объём', vol)}
+        ${kv('Крепость', fmtAbv(r))}
+        ${kv('Урожай', r.vin)}
+        ${kv('Цвет и сахар (по названию)', [r.color, r.sugar && r.sugar.toLowerCase()].filter(Boolean).join(', ') || null)}
+      </dl></div>`;
+    if (a) {
+      const ev = fmtEvidence(a);
+      html += `<section class="section"><h2>Основание решения</h2>
+          <p class="rationale">${esc(a.rationale || 'Основание в снимке не приведено.')}</p></section>
+        <div class="label-box"><h2>Даты и область действия</h2><dl class="kv">
+          ${kv('Дата подтверждения источника', ev.text, ev.note)}
+          ${kv('Дата решения в справочнике', fmtDate(a.reviewed_at))}
+          ${kv('Дата наблюдения в каталоге', r.checked ? fmtDate(r.checked) : 'не указана', 'Это разные даты: подтверждение относится к источнику, наблюдение к каталогу сети.')}
+          ${kv('Совпадение с товаром', a.identity)}
+          ${kv('Упаковка', a.packaging)}
+        </dl></div>`;
+      if (a.scope.length) html += `<section class="section"><h2>Область действия и исключения</h2><ul>${a.scope.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`;
+      if (a.caveats.length) html += `<section class="section"><h2>Оговорки</h2><ul>${a.caveats.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`;
+      html += `<section class="section"><h2>Источник</h2>`;
+      if (a.refs.length) {
+        html += `<ul>${a.refs.map(refHTML).join('')}</ul>`;
+        if (a.refs.some(x => x.type === 'Barnivore')) html += `<p class="note">Сведения Barnivore сверены ${esc(fmtDate(a.reviewed_at))} (дата решения). Справочник не связан с Barnivore. Если ответ производителя расходится с плашкой Barnivore, решение основано на ответе производителя.</p>`;
+      } else {
+        html += '<p>Ссылка на источник в снимке не опубликована.</p>';
+      }
+      html += '</section>';
+    }
+    html += `<section class="section"><h2>Наблюдение в сети</h2>
+      <p>${esc(r.net)}: запись найдена в каталоге ${r.checked ? fmtDate(r.checked) : 'в снимке от ' + fmtDate(META.as_of) + ' (точная дата наблюдения не указана)'}. Это наблюдение на дату, а не наличие в магазинах сейчас.</p>
+      ${r.merged > 1 ? `<p class="note">В каталоге сети ${fmtInt(r.merged)} одинаковых строки с этими данными, здесь они показаны одной записью.</p>` : ''}
+    </section>`;
+
+    const same = RECS.filter(x => x !== r && x.net === r.net && x.nameKey === r.nameKey);
+    if (same.length) {
+      html += `<section class="section"><h2>Другие записи с тем же названием в этой сети</h2>
+        <p class="note">Это могут быть другие объёмы, партии или карточки. Статус между ними не переносится.</p>
+        <ul class="related">${same.slice(0, 12).map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(x.name)}</a> <span class="note">${esc([fmtVolume(x), fmtAbv(x), x.producer].filter(Boolean).join(' · '))}</span></li>`).join('')}</ul></section>`;
+    }
+    if (r.st === 'x' && r.brandKey) {
+      const br = RECS.filter(x => x.a && x.brandKey === r.brandKey).slice(0, 6);
+      if (br.length) {
+        html += `<section class="section"><h2>Решения по другим позициям бренда «${esc(r.brand)}»</h2>
+          <p class="note">Эти решения относятся к другим записям и к этой не применены: линейка, объём, урожай или рынок могут отличаться. Смотрите область действия в каждой карточке.</p>
+          <ul class="related">${br.map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(x.name)}</a> <span class="note">${esc(x.net)}</span></li>`).join('')}</ul></section>`;
+      }
+    }
+    html += `<p><button type="button" class="copy" id="copy-link">Скопировать ссылку на запись</button> <span id="copy-status" class="note" role="status"></span></p>`;
+    view.innerHTML = html;
+  }
+
+  /* ---------- Переключение видов ---------- */
+  let cameFromList = false;
+  function render() {
+    const inCard = !!state.id;
+    $('#list-view').hidden = inCard;
+    $('#card-view').hidden = !inCard;
+    if (inCard) renderCard();
+    else {
+      document.title = 'Оклейка — веганский статус алкоголя в российских сетях';
+      renderList();
+    }
+    if ($('#q').value !== state.q && document.activeElement !== $('#q')) $('#q').value = state.q;
+    $('#clear-q').hidden = !state.q;
+  }
+  function update({ push = false, resetPage = true } = {}) {
+    if (resetPage) state.p = 1;
+    writeURL(push);
+    render();
+  }
+  function openCard(id) {
+    cameFromList = !state.id;
+    state.id = id;
+    writeURL(true);
+    render();
+    window.scrollTo(0, 0);
+    const h = $('#card-view h1');
+    if (h) { h.tabIndex = -1; h.focus({ preventScroll: true }); }
+  }
+  function closeCard() {
+    if (cameFromList) { history.back(); return; }
+    state.id = null;
+    writeURL(true);
+    render();
+  }
+
+  /* ---------- События ---------- */
+  function toggle(key, v, on) {
+    const set = state.f[key];
+    if (on === undefined) on = !set.has(v);
+    if (on) set.add(v); else set.delete(v);
+  }
+  let typingTimer = null;
+  function bind() {
+    const q = $('#q');
+    q.addEventListener('input', () => {
+      clearTimeout(typingTimer);
+      $('#clear-q').hidden = !q.value;
+      typingTimer = setTimeout(() => {
+        state.q = q.value;
+        if (state.id) state.id = null;
+        update();
+      }, 140);
+    });
+    $('#search-form').addEventListener('submit', e => {
+      e.preventDefault();
+      clearTimeout(typingTimer);
+      state.q = q.value; state.id = null;
+      update({ push: true });
+      if (matchMedia('(max-width: 900px)').matches) q.blur();
+    });
+    $('#clear-q').addEventListener('click', () => { q.value = ''; state.q = ''; update(); q.focus(); });
+    document.addEventListener('keydown', e => {
+      if (e.key === '/' && !/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) { e.preventDefault(); q.focus(); q.select(); }
+      if (e.key === 'Escape') {
+        if ($('#filters').classList.contains('open')) closeFilters();
+        else if (document.activeElement === q && q.value) { q.value = ''; state.q = ''; update(); }
+      }
+    });
+    $('#filters-body').addEventListener('change', e => {
+      const t = e.target;
+      if (t.type !== 'checkbox') return;
+      const key = t.closest('[data-group]').dataset.group;
+      toggle(key, t.value, t.checked);
+      update();
+    });
+    $('#filters-body').addEventListener('input', e => {
+      if (e.target.classList.contains('inner-search')) updateFilters(lastResult.counts);
+    });
+    $('#filters-body').addEventListener('click', e => {
+      const more = e.target.closest('[data-more]');
+      if (more) {
+        const k = more.dataset.more;
+        if (expanded.has(k)) expanded.delete(k); else expanded.add(k);
+        updateFilters(lastResult.counts);
+      }
+      if (e.target.id === 'reset-all') resetAll();
+    });
+    $('#reset-mobile').addEventListener('click', resetAll);
+    $('#sort').addEventListener('change', e => { state.sort = e.target.value; update(); });
+    document.addEventListener('click', e => {
+      const a = e.target.closest('a[data-id]');
+      if (a && !e.ctrlKey && !e.metaKey && !e.shiftKey && e.button === 0) { e.preventDefault(); openCard(a.dataset.id); return; }
+      const back = e.target.closest('a[data-back]');
+      if (back && !e.ctrlKey && !e.metaKey && e.button === 0) { e.preventDefault(); closeCard(); return; }
+      const pg = e.target.closest('a[data-page]');
+      if (pg && !e.ctrlKey && !e.metaKey && e.button === 0) {
+        e.preventDefault();
+        state.p = +pg.dataset.page;
+        update({ push: true, resetPage: false });
+        window.scrollTo(0, Math.max(0, $('#results-col').getBoundingClientRect().top + window.scrollY - 90));
+        $('#count').focus({ preventScroll: true });
+        return;
+      }
+      const rm = e.target.closest('[data-remove]');
+      if (rm) {
+        const k = rm.dataset.remove;
+        if (k === 'q') { state.q = ''; $('#q').value = ''; }
+        else if (k === 'all') { resetAll(); return; }
+        else if (rm.dataset.v === '*') state.f[k].clear();
+        else toggle(k, rm.dataset.v, false);
+        update();
+        return;
+      }
+      const act = e.target.closest('[data-action="all-statuses"]');
+      if (act) { state.f.st = new Set(ST_ORDER); update(); return; }
+      const qk = e.target.closest('[data-quick]');
+      if (qk) {
+        const k = qk.dataset.quick, v = qk.dataset.v;
+        if (k === 'net' && !v) state.f.net.clear();
+        else toggle(k, v);
+        update();
+        const again = document.querySelector(`[data-quick="${k}"][data-v="${CSS.escape(v)}"]`);
+        if (again) again.focus({ preventScroll: true });
+        return;
+      }
+      if (e.target.closest('#open-filters')) { openFilters(); return; }
+      if (e.target.id === 'copy-link') copyLink();
+    });
+    $('#close-filters').addEventListener('click', closeFilters);
+    $('#show-results').addEventListener('click', () => { closeFilters(); window.scrollTo(0, 0); });
+    window.addEventListener('popstate', () => {
+      const wasCard = !!state.id;
+      readURL();
+      cameFromList = false;
+      render();
+      if (wasCard && !state.id && lastScroll != null) window.scrollTo(0, lastScroll);
+    });
+  }
+  let lastScroll = null;
+  window.addEventListener('scroll', () => { if (!state.id) lastScroll = window.scrollY; }, { passive: true });
+
+  function resetAll() {
+    state.q = ''; $('#q').value = '';
+    for (const g of GROUPS) state.f[g.key] = new Set(g.key === 'st' ? DEFAULT_ST : []);
+    expanded.clear();
+    update();
+  }
+  let filtersOpener = null;
+  function openFilters() {
+    filtersOpener = document.activeElement;
+    $('#filters').classList.add('open');
+    $('#filters').setAttribute('role', 'dialog');
+    $('#filters').setAttribute('aria-modal', 'true');
+    document.body.style.overflow = 'hidden';
+    $('#close-filters').focus();
+  }
+  function closeFilters() {
+    $('#filters').classList.remove('open');
+    $('#filters').removeAttribute('role');
+    $('#filters').removeAttribute('aria-modal');
+    document.body.style.overflow = '';
+    const opener = document.getElementById('open-filters') || filtersOpener;
+    if (opener) opener.focus({ preventScroll: true });
+  }
+  const canonical = () => `${location.origin}${location.pathname}?id=${encodeURIComponent(state.id)}`;
+  async function copyLink() {
+    const s = $('#copy-status');
+    try {
+      await navigator.clipboard.writeText(canonical());
+      s.textContent = 'Ссылка скопирована.';
+    } catch {
+      s.innerHTML = `Скопируйте вручную: <input value="${esc(canonical())}" readonly size="40" id="copy-fallback" aria-label="Ссылка на запись">`;
+      const inp = $('#copy-fallback'); inp.focus(); inp.select();
+    }
+  }
+
+  /* ---------- Запуск ---------- */
+  async function getJSON(url) {
+    const res = await fetch(url, { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`${url}: ${res.status}`);
+    return res.json();
+  }
+  async function start() {
+    readURL();
+    $('#q').value = state.q;
+    bind();
+    try {
+      META = await getJSON('data/meta.json');
+      const ver = encodeURIComponent(META.snapshot_finished_utc || META.as_of);
+      const verified = await getJSON(`data/verified.json?v=${ver}`);
+      ASSESS = verified.assessments;
+      ingest(verified.records);
+      const c = META.counts;
+      $('#snapshot-line').innerHTML = `Снимок каталогов ${fmtDate(META.as_of)}, неполный: ${fmtInt(c.observations)} ${plural(c.observations, 'наблюдение', 'наблюдения', 'наблюдений')}, решения есть для ${fmtInt(c.verified_assessments)}. Наличие в магазинах не отслеживается. <a href="method.html">Как устроен справочник</a>`;
+      $('#footer-snapshot').textContent = `Данные: снимок от ${fmtDate(META.as_of)}. Сбор ${META.snapshot_started_utc ? META.snapshot_started_utc.slice(0, 16).replace('T', ' ') : '—'}–${META.snapshot_finished_utc ? META.snapshot_finished_utc.slice(11, 16) : '—'} UTC.`;
+      buildFilters();
+      render();
+      getJSON(`data/observed.json?v=${ver}`).then(obs => {
+        const act = document.activeElement;
+        const box = act && act.type === 'checkbox' && act.closest('[data-group]');
+        const keep = box ? { g: box.dataset.group, v: act.value } : (act && act.id ? { id: act.id } : null);
+        ingest(obs.records);
+        observedLoaded = true;
+        buildFilters();
+        render();
+        if (keep) {
+          const el = keep.id ? document.getElementById(keep.id)
+            : [...document.querySelectorAll(`[data-group="${keep.g}"] input[type=checkbox]`)].find(i => i.value === keep.v);
+          if (el) el.focus({ preventScroll: true });
+        }
+      }).catch(() => { observedFailed = true; render(); });
+    } catch (err) {
+      $('#count').textContent = 'Не удалось загрузить данные';
+      $('#results').innerHTML = '<li class="empty"><p>Файлы справочника не загрузились. Проверьте соединение и обновите страницу.</p></li>';
+    }
+  }
+  start();
+})();
