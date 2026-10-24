@@ -31,10 +31,9 @@
       <label for="q" class="visually-hidden">Поиск по названию, бренду или производителю</label>
       <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><path d="M13 13l5 5"/></svg>
       <input id="q" name="q" type="search" autocomplete="off" spellcheck="false" enterkeyhint="search"
-             placeholder="Название, бренд или производитель" aria-describedby="snapshot-line">
+             placeholder="Название, бренд или производитель">
       <button type="button" class="clear-q" id="clear-q" aria-label="Очистить поиск" hidden>×</button>
     </form>
-    <p class="snapshot-line" id="snapshot-line">Загружаю снимок каталогов…</p>
   </div>
 </div>
 
@@ -63,7 +62,6 @@
           <select id="sort">
             <option value="rel">Сначала точные совпадения</option>
             <option value="name">По названию</option>
-            <option value="date">По дате подтверждения</option>
           </select>
         </label>
       </div>
@@ -79,9 +77,7 @@
 
 <footer class="footer">
   <div class="wrap">
-    <p>Независимый проект. Не связан с Barnivore, торговыми сетями и производителями. Это не магазин: наличие и цены не отслеживаются.</p>
-    <p>Часть решений опирается на страницы <a href="https://www.barnivore.com/" rel="noopener">barnivore.com</a>. У каждой такой записи есть ссылка на исходную страницу и дата сверки. Ответ производителя важнее плашки Barnivore. Подробнее в <a href="method.html">методике</a>.</p>
-    <p id="footer-snapshot"></p>
+    <p>Независимый проект, не связан с Barnivore, сетями и производителями. Часть сведений взята с <a href="https://www.barnivore.com/" rel="noopener">barnivore.com</a>. <a href="method.html">Методика</a></p>
   </div>
 </footer>
 

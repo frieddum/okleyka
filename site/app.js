@@ -3,14 +3,10 @@
   const PAGE = 25;
   const ST_ORDER = ['v', 'n', 'u', 'c'];
   const STATUS = {
-    v: { label: 'Веганское', group: 'Веганское',
-      explain: 'Сохранённое решение: веганское. Источник сообщает, что животные продукты при производстве не используются. Решение действует в пределах, указанных ниже, и не гарантирует состав текущей партии.' },
-    n: { label: 'Невеганское', group: 'Невеганское',
-      explain: 'Сохранённое решение: невеганское. По источнику при производстве используются продукты животного происхождения. Подробности в основании решения.' },
-    u: { label: 'Неясно', group: 'Неясно',
-      explain: 'Сохранённое решение: неясно. Сведений недостаточно, чтобы отнести напиток к веганским или невеганским.' },
-    c: { label: 'Противоречие', group: 'Противоречие в источниках',
-      explain: 'Источники противоречат друг другу, поэтому статус не присвоен. Подробности в основании решения.' },
+    v: { label: 'Веганское', group: 'Веганское' },
+    n: { label: 'Невеганское', group: 'Невеганское' },
+    u: { label: 'Неясно', group: 'Неясно' },
+    c: { label: 'Противоречие', group: 'Противоречие в источниках' },
   };
   const NONE = '__none';
   const MONTHS = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
@@ -42,16 +38,14 @@
     return many;
   };
   const records_word = n => plural(n, 'запись', 'записи', 'записей');
-  const fmtDate = s => {
-    if (!s) return null;
-    const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s);
-    return m ? `${m[3]}.${m[2]}.${m[1]}` : s;
+  const fmtShort = s => {
+    const m = /^(\d{2})(\d{2})-(\d{2})-(\d{2})/.exec(s || '');
+    return m ? `${m[4]}.${m[3]}.${m[2]}` : s;
   };
   const fmtEvidence = a => {
-    if (!a.evidence_date) return { text: 'без даты', note: a.evidence_date_precision === 'undated' ? 'источник не датирован' : 'дата в снимке не указана' };
-    const m = /^(\d{4})-(\d{2})$/.exec(a.evidence_date);
-    if (m && a.evidence_date_precision === 'month') return { text: `${MONTHS[+m[2] - 1]} ${m[1]}`, note: null };
-    return { text: a.evidence_date, note: 'точность даты в источнике не указана' };
+    const m = /^(\d{4})-(\d{2})$/.exec(a.evidence_date || '');
+    if (m && a.evidence_date_precision === 'month') return { text: `${MONTHS[+m[2] - 1]} ${m[1]}` };
+    return { text: a.evidence_date };
   };
   const fmtVolume = r => {
     if (r.volMl != null) return r.volMl >= 1000 ? `${(r.volMl / 1000).toLocaleString('ru-RU', { maximumFractionDigits: 3 })}\u00a0л` : `${fmtInt(r.volMl)}\u00a0мл`;
@@ -216,7 +210,7 @@
   function readURL() {
     const sp = new URLSearchParams(location.search);
     state.q = sp.get('q') || '';
-    state.sort = ['rel', 'name', 'date'].includes(sp.get('sort')) ? sp.get('sort') : 'rel';
+    state.sort = ['rel', 'name'].includes(sp.get('sort')) ? sp.get('sort') : 'rel';
     state.p = Math.max(1, parseInt(sp.get('p'), 10) || 1);
     state.id = sp.get('id') || null;
     for (const g of GROUPS) {
@@ -276,10 +270,7 @@
     const score = r => sres ? sres.hits.get(r.rank) : 0;
     const stIdx = r => ST_ORDER.indexOf(r.st);
     if (state.sort === 'name') out.sort((a, b) => a.rank - b.rank);
-    else if (state.sort === 'date') {
-      const key = r => (r.a && r.a.evidence_date) || '';
-      out.sort((a, b) => (key(b) > key(a) ? 1 : key(b) < key(a) ? -1 : 0) || stIdx(a) - stIdx(b) || a.rank - b.rank);
-    } else out.sort((a, b) => (score(b) - score(a)) || stIdx(a) - stIdx(b) || a.rank - b.rank);
+    else out.sort((a, b) => (score(b) - score(a)) || stIdx(a) - stIdx(b) || a.rank - b.rank);
     lastResult = { out, counts, sres };
     return lastResult;
   }
@@ -422,9 +413,7 @@
     return f.map(x => `<span>${esc(x)}</span>`).join('');
   }
   function rowHTML(r, tokens) {
-    const where = [`<span class="net">${esc(r.net)}</span>`,
-      `<span>${r.checked ? `в каталоге ${fmtDate(r.checked)}` : 'дата наблюдения не указана'}</span>`];
-    if (r.a) where.push(`<span>подтверждение источника: ${esc(fmtEvidence(r.a).text)}</span>`);
+    const where = [`<span class="net">${esc(r.net)}</span>`];
     const facts = factsHTML(r);
     return `<li class="row"><a href="${esc(urlFor({ id: r.id, p: state.p }))}" data-id="${esc(r.id)}">
       <div class="status-col">${pill(r.st)}</div>
@@ -542,57 +531,40 @@
     }
     document.title = `${r.name} — Оклейка`;
     const a = r.a;
-    const vol = fmtVolume(r) || (r.volRaw ? `${r.volRaw} (как в карточке)` : null);
-    const countryNote = r.origin === 'u' ? 'происхождение в снимке не установлено' : null;
+    const vol = fmtVolume(r) || r.volRaw;
     let html = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a>
+      <div>${pill(r.st)}</div>
       <h1>${esc(r.name)}</h1>
-      <p class="sub">${esc(r.net)} · ${r.checked ? `в каталоге сети ${fmtDate(r.checked)}` : 'дата наблюдения в каталоге не указана'}</p>
-      <div class="verdict st st-${r.st}">
-        <div class="head">${pill(r.st)}${r.st === 'c' ? `<strong>${esc(STATUS.c.group)}</strong>` : ''}</div>
-        <p>${esc(STATUS[r.st].explain)}</p>
-      </div>
-      <div class="label-box"><h2>Данные карточки</h2><dl class="kv">
+      <p class="sub">${esc(r.net)}${r.checked ? ` ${fmtShort(r.checked)}` : ''}</p>
+      <div class="label-box"><dl class="kv">
         ${kv('Бренд', r.brand)}
-        ${kv('Организация в карточке', r.producer, r.producer ? 'Может быть импортёром или поставщиком, а не заводом.' : null)}
-        ${kv('Страна по данным каталога', r.country || 'не указана', countryNote)}
-        ${kv('Вид напитка', r.cat)}
+        ${kv('Производитель или импортёр', r.producer)}
+        ${kv('Страна', r.country)}
+        ${kv('Вид', r.cat)}
         ${kv('Объём', vol)}
         ${kv('Крепость', fmtAbv(r))}
         ${kv('Урожай', r.vin)}
-        ${kv('Цвет и сахар (по названию)', [r.color, r.sugar && r.sugar.toLowerCase()].filter(Boolean).join(', ') || null)}
+        ${kv('Цвет и сахар', [r.color, r.sugar && r.sugar.toLowerCase()].filter(Boolean).join(', ') || null)}
       </dl></div>`;
     if (a) {
-      const ev = fmtEvidence(a);
-      html += `<section class="section"><h2>Основание решения</h2>
-          <p class="rationale">${esc(a.rationale || 'Основание в снимке не приведено.')}</p></section>
-        <div class="label-box"><h2>Даты и область действия</h2><dl class="kv">
-          ${kv('Дата подтверждения источника', ev.text, ev.note)}
-          ${kv('Дата решения в справочнике', fmtDate(a.reviewed_at))}
-          ${kv('Дата наблюдения в каталоге', r.checked ? fmtDate(r.checked) : 'не указана', 'Это разные даты: подтверждение относится к источнику, наблюдение к каталогу сети.')}
-          ${kv('Совпадение с товаром', a.identity)}
-          ${kv('Упаковка', a.packaging)}
-        </dl></div>`;
-      if (a.scope.length) html += `<section class="section"><h2>Область действия и исключения</h2><ul>${a.scope.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`;
-      if (a.caveats.length) html += `<section class="section"><h2>Оговорки</h2><ul>${a.caveats.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`;
-      html += `<section class="section"><h2>Источник</h2>`;
-      if (a.refs.length) {
-        html += `<ul>${a.refs.map(refHTML).join('')}</ul>`;
-        if (a.refs.some(x => x.type === 'Barnivore')) html += `<p class="note">Сведения Barnivore сверены ${esc(fmtDate(a.reviewed_at))} (дата решения). Справочник не связан с Barnivore. Если ответ производителя расходится с плашкой Barnivore, решение основано на ответе производителя.</p>`;
-      } else {
-        html += '<p>Ссылка на источник в снимке не опубликована.</p>';
+      if (a.rationale) html += `<section class="section"><h2>Почему</h2><p class="rationale">${esc(a.rationale)}</p></section>`;
+      if (a.scope.length) html += `<section class="section"><h2>Область действия</h2><ul>${a.scope.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`;
+      if (a.packaging && !/^Упаковка отдельно не проверена\.?$/.test(a.packaging)) html += `<section class="section"><h2>Упаковка</h2><p>${esc(a.packaging)}</p></section>`;
+      const src = [];
+      for (const ref of a.refs) {
+        const short = ref.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
+        src.push(`<a href="${esc(ref.url)}" rel="noopener nofollow" target="_blank">${esc(short)}</a>${ref.type === 'Barnivore' && a.reviewed_at ? `, скопировано ${fmtShort(a.reviewed_at)}` : ''}`);
       }
-      html += '</section>';
+      const parts = [];
+      if (src.length) parts.push(`Источник: ${src.join('; ')}`);
+      if (a.evidence_date) parts.push(`Подтверждение: ${esc(fmtEvidence(a).text)}`);
+      if (parts.length) html += `<p class="source">${parts.join('. ')}.</p>`;
     }
-    html += `<section class="section"><h2>Наблюдение в сети</h2>
-      <p>${esc(r.net)}: запись найдена в каталоге ${r.checked ? fmtDate(r.checked) : 'в снимке от ' + fmtDate(META.as_of) + ' (точная дата наблюдения не указана)'}. Это наблюдение на дату, а не наличие в магазинах сейчас.</p>
-      ${r.merged > 1 ? `<p class="note">В каталоге сети ${fmtInt(r.merged)} одинаковых строки с этими данными, здесь они показаны одной записью.</p>` : ''}
-    </section>`;
-
     const same = RECS.filter(x => x !== r && x.net === r.net && x.nameKey === r.nameKey);
     if (same.length) {
-      html += `<section class="section"><h2>Другие записи с тем же названием в этой сети</h2>
-        <p class="note">Это могут быть другие объёмы, партии или карточки. Статус между ними не переносится.</p>
-        <ul class="related">${same.slice(0, 12).map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(x.name)}</a> <span class="note">${esc([fmtVolume(x), fmtAbv(x), x.producer].filter(Boolean).join(' · '))}</span></li>`).join('')}</ul></section>`;
+      html += `<section class="section"><h2>То же название в этой сети</h2>
+        <p class="note">Статус между этими записями не переносится.</p>
+        <ul class="related">${same.slice(0, 12).map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(x.name)}</a> <span class="note">${esc([fmtVolume(x), fmtAbv(x)].filter(Boolean).join(' · '))}</span></li>`).join('')}</ul></section>`;
     }
     html += `<p><button type="button" class="copy" id="copy-link">Скопировать ссылку на запись</button> <span id="copy-status" class="note" role="status"></span></p>`;
     view.innerHTML = html;
@@ -790,9 +762,6 @@
       const verified = await getJSON(`data/verified.json?v=${ver}`);
       ASSESS = verified.assessments;
       ingest(verified.records);
-      const shown = META.rows.verified_after_merge;
-      $('#snapshot-line').innerHTML = `Снимок каталогов ${fmtDate(META.as_of)}. Только позиции с проверенным решением: ${fmtInt(shown)} ${records_word(shown)}. Наличие в магазинах не отслеживается. <a href="method.html">Как устроен справочник</a>`;
-      $('#footer-snapshot').textContent = `Данные: снимок от ${fmtDate(META.as_of)}. Сбор ${META.snapshot_started_utc ? META.snapshot_started_utc.slice(0, 16).replace('T', ' ') : '—'}–${META.snapshot_finished_utc ? META.snapshot_finished_utc.slice(11, 16) : '—'} UTC.`;
       buildFilters();
       render();
     } catch (err) {
