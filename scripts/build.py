@@ -228,6 +228,7 @@ def main():
                     fail(f"overrides.json: недопустимый источник {ref!r}")
             overrides[(o["network"], o["name"])] = o
     used_overrides = set()
+    skipped = {"unclear": 0}
 
     def add(r, kind):
         a = r.get("assessment")
@@ -242,6 +243,10 @@ def main():
         status = STATUS_CODE.get(a["status"])
         if not status:
             fail(f"неизвестный статус {a['status']!r}")
+        # «Неясно» не публикуется: на сайте только позиции с однозначным ответом производителя.
+        if status == "u":
+            skipped["unclear"] += 1
+            return
         name = clean_name(r.get("name"))
         if not name:
             fail("запись без названия")
@@ -377,6 +382,7 @@ def main():
 
     print(f"Снимок {meta['as_of']}: решений {len(data['verified'])} -> {len(verified)} записей; "
           f"сетей с решениями {len(nets.items)}; российское производство исключено: {skipped_ru}; "
+          f"без однозначного ответа исключено: {skipped['unclear']}; "
           f"пересмотрено решений: {len(used_overrides)}.")
 
 
