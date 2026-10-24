@@ -213,12 +213,8 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .st { --c: var(--unchecked); --bg: transparent; }
 .st-v { --c: var(--vegan); --bg: var(--vegan-bg); }
 .st-n { --c: var(--nonvegan); --bg: var(--nonvegan-bg); }
-.st-u { --c: var(--unclear); --bg: var(--unclear-bg); }
-.st-c { --c: var(--unclear); --bg: var(--unclear-bg); }
 .swatch.st-v { background: var(--vegan); }
 .swatch.st-n { background: var(--nonvegan); }
-.swatch.st-u { background: var(--unclear); }
-.swatch.st-c { background: repeating-linear-gradient(135deg, var(--unclear) 0 2px, transparent 2px 4px); border: 1px solid var(--unclear); }
 .pill {
   display: inline-flex; align-items: center; gap: 6px;
   padding: 2px 9px; border-radius: 3px;
@@ -226,7 +222,6 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
   color: var(--c); background: var(--bg); border: 1px solid var(--c);
 }
 .pill.st-v, .pill.st-n { background: var(--c); color: var(--paper); }
-.pill.st-c { background: repeating-linear-gradient(135deg, var(--bg) 0 6px, transparent 6px 9px); }
 .pill svg { width: 12px; height: 12px; }
 
 /* Шапка выдачи */

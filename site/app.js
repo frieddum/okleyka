@@ -1,11 +1,10 @@
 'use strict';
 (() => {
   const PAGE = 25;
-  const ST_ORDER = ['v', 'n', 'c'];
+  const ST_ORDER = ['v', 'n'];
   const STATUS = {
     v: { label: 'Веганское', group: 'Веганское' },
     n: { label: 'Невеганское', group: 'Невеганское' },
-    c: { label: 'Противоречие', group: 'Противоречие в источниках' },
   };
   const NONE = '__none';
 
@@ -540,8 +539,8 @@
         ${kv('Цвет и сахар', [r.color, r.sugar && r.sugar.toLowerCase()].filter(Boolean).join(', ') || null)}
       </dl></div>`;
     if (a) {
-      const was = { vegan: 'v', nonvegan: 'n', conflict: 'c' }[a.revised_from];
-      const revised = was ? `<p class="note">Решение пересмотрено, раньше было «${esc(STATUS[was].label)}».</p>` : '';
+      const was = { vegan: 'Веганское', nonvegan: 'Невеганское', unclear: 'Неясно', conflict: 'Противоречие' }[a.revised_from];
+      const revised = was ? `<p class="note">Решение пересмотрено, раньше было «${was}».</p>` : '';
       if (a.rationale) html += `<section class="section"><h2>Почему</h2><p class="rationale">${esc(a.rationale)}</p>${revised}</section>`;
       if (a.scope.length) html += `<section class="section"><h2>Область действия</h2><ul>${a.scope.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`;
       if (a.packaging && !/^Упаковка отдельно не проверена\.?$/.test(a.packaging)) html += `<section class="section"><h2>Упаковка</h2><p>${esc(a.packaging)}</p></section>`;

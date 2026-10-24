@@ -243,8 +243,8 @@ def main():
         status = STATUS_CODE.get(a["status"])
         if not status:
             fail(f"неизвестный статус {a['status']!r}")
-        # «Неясно» не публикуется: на сайте только позиции с однозначным ответом производителя.
-        if status == "u":
+        # «Неясно» и «Противоречие» не публикуются: на сайте только позиции с однозначным ответом производителя.
+        if status in ("u", "c"):
             skipped["unclear"] += 1
             return
         name = clean_name(r.get("name"))
