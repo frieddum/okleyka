@@ -9,7 +9,6 @@
     c: { label: 'Противоречие', group: 'Противоречие в источниках' },
   };
   const NONE = '__none';
-  const MONTHS = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
 
   const GROUPS = [
     { key: 'st', title: 'Статус', get: r => r.st,
@@ -41,11 +40,6 @@
   const fmtShort = s => {
     const m = /^(\d{2})(\d{2})-(\d{2})-(\d{2})/.exec(s || '');
     return m ? `${m[4]}.${m[3]}.${m[2]}` : s;
-  };
-  const fmtEvidence = a => {
-    const m = /^(\d{4})-(\d{2})$/.exec(a.evidence_date || '');
-    if (m && a.evidence_date_precision === 'month') return { text: `${MONTHS[+m[2] - 1]} ${m[1]}` };
-    return { text: a.evidence_date };
   };
   const fmtVolume = r => {
     if (r.volMl != null) return r.volMl >= 1000 ? `${(r.volMl / 1000).toLocaleString('ru-RU', { maximumFractionDigits: 3 })}\u00a0л` : `${fmtInt(r.volMl)}\u00a0мл`;
@@ -553,12 +547,9 @@
       const src = [];
       for (const ref of a.refs) {
         const short = ref.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
-        src.push(`<a href="${esc(ref.url)}" rel="noopener nofollow" target="_blank">${esc(short)}</a>${ref.type === 'Barnivore' && a.reviewed_at ? `, скопировано ${fmtShort(a.reviewed_at)}` : ''}`);
+        src.push(`<a href="${esc(ref.url)}" rel="noopener nofollow" target="_blank">${esc(short)}</a>`);
       }
-      const parts = [];
-      if (src.length) parts.push(`Источник: ${src.join('; ')}`);
-      if (a.evidence_date) parts.push(`Подтверждение: ${esc(fmtEvidence(a).text)}`);
-      if (parts.length) html += `<p class="source">${parts.join('. ')}.</p>`;
+      if (src.length) html += `<p class="source">Источник: ${src.join(', ')}</p>`;
     }
     const same = RECS.filter(x => x !== r && x.net === r.net && x.nameKey === r.nameKey);
     if (same.length) {
@@ -566,7 +557,6 @@
         <p class="note">Статус между этими записями не переносится.</p>
         <ul class="related">${same.slice(0, 12).map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(x.name)}</a> <span class="note">${esc([fmtVolume(x), fmtAbv(x)].filter(Boolean).join(' · '))}</span></li>`).join('')}</ul></section>`;
     }
-    html += `<p><button type="button" class="copy" id="copy-link">Скопировать ссылку на запись</button> <span id="copy-status" class="note" role="status"></span></p>`;
     view.innerHTML = html;
   }
 
@@ -696,7 +686,6 @@
         return;
       }
       if (e.target.closest('#open-filters')) { openFilters(); return; }
-      if (e.target.id === 'copy-link') copyLink();
     });
     $('#close-filters').addEventListener('click', closeFilters);
     $('#show-results').addEventListener('click', () => { closeFilters(); window.scrollTo(0, 0); });
@@ -733,17 +722,6 @@
     document.body.style.overflow = '';
     const opener = document.getElementById('open-filters') || filtersOpener;
     if (opener) opener.focus({ preventScroll: true });
-  }
-  const canonical = () => `${location.origin}${location.pathname}?id=${encodeURIComponent(state.id)}`;
-  async function copyLink() {
-    const s = $('#copy-status');
-    try {
-      await navigator.clipboard.writeText(canonical());
-      s.textContent = 'Ссылка скопирована.';
-    } catch {
-      s.innerHTML = `Скопируйте вручную: <input value="${esc(canonical())}" readonly size="40" id="copy-fallback" aria-label="Ссылка на запись">`;
-      const inp = $('#copy-fallback'); inp.focus(); inp.select();
-    }
   }
 
   /* ---------- Запуск ---------- */
