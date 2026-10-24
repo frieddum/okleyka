@@ -303,6 +303,7 @@ dl.kv dt:first-of-type, dl.kv dt:first-of-type + dd { border-top: 0; }
 .section p, .section li { max-width: 68ch; }
 .section ul { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
 .rationale { font-family: var(--f-display); font-size: 1.15rem; line-height: 1.5; margin: 0; padding-left: 14px; border-left: 2px solid var(--rule-strong); }
+.src-date { color: var(--ink-3); font-size: var(--fs-xs); }
 .source { font-size: var(--fs-s); color: var(--ink-2); margin: 0 0 26px; overflow-wrap: anywhere; }
 .related { list-style: none; padding: 0; margin: 0; }
 .related li { border-top: 1px solid var(--rule); padding: 8px 0; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }

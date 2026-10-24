@@ -547,7 +547,8 @@
       const src = [];
       for (const ref of a.refs) {
         const short = ref.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
-        src.push(`<a href="${esc(ref.url)}" rel="noopener nofollow" target="_blank">${esc(short)}</a>`);
+        const date = ref.type === 'Barnivore' && a.reviewed_at ? ` <span class="src-date" title="Дата копирования">${fmtShort(a.reviewed_at)}</span>` : '';
+        src.push(`<a href="${esc(ref.url)}" rel="noopener nofollow" target="_blank">${esc(short)}</a>${date}`);
       }
       if (src.length) html += `<p class="source">Источник: ${src.join(', ')}</p>`;
     }

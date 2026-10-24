@@ -55,7 +55,7 @@
     </div>
 
     <h2>Независимость</h2>
-    <p>Проект не связан с Barnivore, сетями и производителями. Сведения с <a href="https://www.barnivore.com/" rel="noopener">barnivore.com</a> используются по <a href="https://www.barnivore.com/terms" rel="noopener">условиям сайта</a>: в карточке есть ссылка на исходную страницу. Сведения скопированы <span data-m="copied">…</span>. Шрифты Golos Text и Old Standard TT под лицензией SIL OFL.</p>
+    <p>Проект не связан с Barnivore, сетями и производителями. Сведения с <a href="https://www.barnivore.com/" rel="noopener">barnivore.com</a> используются по <a href="https://www.barnivore.com/terms" rel="noopener">условиям сайта</a>: в карточке есть ссылка на исходную страницу и дата копирования. Шрифты Golos Text и Old Standard TT под лицензией SIL OFL.</p>
     <p>Нашли ошибку? Напишите в <a href="https://github.com/frieddum/okleyka/issues" rel="noopener">Issues</a> со ссылкой на карточку.</p>
   </article>
 </main>
@@ -77,7 +77,6 @@
     const ver_ = await (await fetch(`data/verified.json?v=${ver}`, { cache: 'no-cache' })).json();
     const set = (k, v) => document.querySelectorAll(`[data-m="${k}"]`).forEach(el => el.textContent = v);
     const r = meta.rows;
-    { const d = meta.as_of.split('-'); set('copied', `${d[2]}.${d[1]}.${d[0]}`); }
     set('verified', `${f(r.verified_after_merge)} ${plural(r.verified_after_merge, 'запись', 'записи', 'записей')}`);
     const netIdx = new Map(meta.dicts.networks.map((n, i) => [i, n]));
     const ver2 = new Map(), vegan = new Map();
