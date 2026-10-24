@@ -1,0 +1,845 @@
+{
+ "note": "Пересмотренные решения поверх снимка. Запись ищется по сети и точному названию. Основание — переписка производителей на страницах источников из снимка.",
+ "overrides": [
+  {
+   "network": "Магнит",
+   "name": "Белое вино игристое Asti сладкое Tosti 7% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (июль 2025): всё производство и розлив в Канелли без животных продуктов, включая этикетки и клей; базовое вино из Венето тоже без них.",
+   "scope": [
+    "Вина Tosti 1820, производство в Канелли."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Белое вино игристое Prosecco сухое Tosti 11% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (июль 2025): всё производство и розлив в Канелли без животных продуктов, включая этикетки и клей; базовое вино из Венето тоже без них.",
+   "scope": [
+    "Вина Tosti 1820, производство в Канелли."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Белое вино сухое La Moza Matsu 12.5% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (2019): вина Matsu веганские, сертифицированы V-Label.",
+   "scope": [
+    "Вина марки Matsu."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Белое сладкое игристое вино Canti Асти Мускат 7% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (2014): для Asti и Prosecco Canti не используются животные вещества; желатин применяется только в трёх названных красных и розовом.",
+   "scope": [
+    "Asti и Prosecco Canti."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Белое сухое вино игристое Canti Просекко 11% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (2014): для Asti и Prosecco Canti не используются животные вещества; желатин применяется только в трёх названных красных и розовом.",
+   "scope": [
+    "Asti и Prosecco Canti."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино 770 Miles Зинфандель красное сухое 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): при изготовлении вин используются оклеивающие вещества животного происхождения.",
+   "scope": [
+    "Вина Les Grands Chais de France."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино 770 Miles Шардоне белое сухое 13% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): при изготовлении вин используются оклеивающие вещества животного происхождения.",
+   "scope": [
+    "Вина Les Grands Chais de France."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Анжу розовое полусладкое 11% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): при изготовлении вин используются оклеивающие вещества животного происхождения.",
+   "scope": [
+    "Вина Les Grands Chais de France."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино белое Вердехо сухое Cuarenta Vendimias 12.5% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (2022): все вина DO Rueda и IGP Castilla y León веганские с 2018 года; Cuarenta Vendimias — DO Rueda.",
+   "scope": [
+    "Вина DO Rueda с урожая 2018 и позже."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино белое полусухое Катарратто Пино Гри L'Auratae 12.5% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель указывает «vegan» на этикетке всех трёх вин L'Auratae.",
+   "scope": [
+    "Pinot Grigio, Nero d'Avola и Rosato L'Auratae."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино белое Совиньон блан сухое Cuarenta Vendimias 13.5% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (2022): все вина DO Rueda и IGP Castilla y León веганские с 2018 года; Cuarenta Vendimias — DO Rueda.",
+   "scope": [
+    "Вина DO Rueda с урожая 2018 и позже."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино игристое розовое брют Zonin Prosecco Rose 11% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (2017): Zonin Prosecco на 100% веганский, делается только на заводе в Гамбеллара.",
+   "scope": [
+    "Zonin Prosecco."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино игристое Beau de France белое брют 11% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): при изготовлении вин используются оклеивающие вещества животного происхождения.",
+   "scope": [
+    "Вина Les Grands Chais de France."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино игристое Beau de France белое полусладкое 10.5% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): при изготовлении вин используются оклеивающие вещества животного происхождения.",
+   "scope": [
+    "Вина Les Grands Chais de France."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино игристое Champagne Veuve Bonneval белое брют 12.5% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): при изготовлении вин используются оклеивающие вещества животного происхождения.",
+   "scope": [
+    "Вина Les Grands Chais de France."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино игристое Champagne Veuve Bonneval розовое брют 12.5% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): при изготовлении вин используются оклеивающие вещества животного происхождения.",
+   "scope": [
+    "Вина Les Grands Chais de France."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино красное полусухое Неро Давола L'Auratae 13.5% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель указывает «vegan» на этикетке всех трёх вин L'Auratae.",
+   "scope": [
+    "Pinot Grigio, Nero d'Avola и Rosato L'Auratae."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино красное сухое 13.5% Vinas Del Vero Luces 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): все вина осветляются в том числе животными веществами, веганских вин нет.",
+   "scope": [
+    "Вина Viñas del Vero."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино розовое сухое L'Auratae 12.5% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель указывает «vegan» на этикетке всех трёх вин L'Auratae.",
+   "scope": [
+    "Pinot Grigio, Nero d'Avola и Rosato L'Auratae."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Domaine de la Grande Garrigue красное сухое 13.5% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): при изготовлении вин используются оклеивающие вещества животного происхождения.",
+   "scope": [
+    "Вина Les Grands Chais de France."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Faustino VII Гарнача красное сухое 14.5% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2016): «наше вино не веганское».",
+   "scope": [
+    "Вина Faustino."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Gaston Andre Petit Chablis белое сухое 12.5% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): при изготовлении вин используются оклеивающие вещества животного происхождения.",
+   "scope": [
+    "Вина Les Grands Chais de France."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Muralhas de Moncao белое сухое 12.5% 750мл",
+   "status": "vegan",
+   "rationale": "На этикетках Muralhas de Monção Vinho Verde белого и розового стоит знак vegan (фото, август 2026).",
+   "scope": [
+    "Muralhas de Monção белое и розовое."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Muralhas De Moncao Верде розовое полусухое 12% 750мл",
+   "status": "vegan",
+   "rationale": "На этикетках Muralhas de Monção Vinho Verde белого и розового стоит знак vegan (фото, август 2026).",
+   "scope": [
+    "Muralhas de Monção белое и розовое."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Ramon Bilbao Crianza красное сухое 13.5% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (2020): Ramón Bilbao Crianza официально веганский, отмечено на этикетке.",
+   "scope": [
+    "Ramón Bilbao Crianza."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Tomaiolo Orvieto Classico белое сухое 12.5% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель: в производстве не используются вещества животного происхождения, весь цикл в собственном погребе.",
+   "scope": [
+    "Вина Castellani."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Torres San Valentin белое полусухое 11% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель: перечень веганских продуктов включает Torres 5, Torres 10 и San Valentin; при фильтрации вин не используются рыбий клей, яичный белок и молоко.",
+   "scope": [
+    "Названные продукты Torres."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Torres San Valentin красное сухое 14.5% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель: перечень веганских продуктов включает Torres 5, Torres 10 и San Valentin; при фильтрации вин не используются рыбий клей, яичный белок и молоко.",
+   "scope": [
+    "Названные продукты Torres."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Urban riesling mosel белое полусухое 11% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (2014): Urban Riesling не содержит животных веществ.",
+   "scope": [
+    "Urban Riesling."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Vinas Del Vero Совиньон Блан белое сухое 12% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): все вина осветляются в том числе животными веществами, веганских вин нет.",
+   "scope": [
+    "Вина Viñas del Vero."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Vinas Del Vero Luces белое сухое 13% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): все вина осветляются в том числе животными веществами, веганских вин нет.",
+   "scope": [
+    "Вина Viñas del Vero."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Вино Vinas Del Vero Luces розовое полусухое 13.5% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018): все вина осветляются в том числе животными веществами, веганских вин нет.",
+   "scope": [
+    "Вина Viñas del Vero."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Красное вино полусухое The Gathering Storm 12% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель: вина не квалифицированы как веганские; для части прямо назван свиной желатин.",
+   "scope": [
+    "Вина Félix Solís."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Красное вино Crianza Риоха сухое выдержанное Faustino 14% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2016): «наше вино не веганское».",
+   "scope": [
+    "Вина Faustino."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Красное вино V Reserva Риоха сухое Faustino 14% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2016): «наше вино не веганское».",
+   "scope": [
+    "Вина Faustino."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Бренди Торрес 10 Смоукд Баррел 38% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель: перечень веганских продуктов включает Torres 5, Torres 10 и San Valentin; при фильтрации вин не используются рыбий клей, яичный белок и молоко.",
+   "scope": [
+    "Названные продукты Torres."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Бренди Torres 5 Solera Reserva 38% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель: перечень веганских продуктов включает Torres 5, Torres 10 и San Valentin; при фильтрации вин не используются рыбий клей, яичный белок и молоко.",
+   "scope": [
+    "Названные продукты Torres."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Бренди Torres 5 Solera Reserva 38% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель: перечень веганских продуктов включает Torres 5, Torres 10 и San Valentin; при фильтрации вин не используются рыбий клей, яичный белок и молоко.",
+   "scope": [
+    "Названные продукты Torres."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Пью Молт 3 года односолодовый Хатозаки 46% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (2024): вся продукция Akashi Sake Brewery, включая виски Hatozaki завода Kaikyo, сертифицирована как веганская.",
+   "scope": [
+    "Продукция Akashi Sake Brewery."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Aberfeldy 12 Y.O. 40% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (Bacardi): продукты Dewar's и Aberfeldy без животных компонентов; эта позиция отмечена веганской в таблице питания Bacardi.",
+   "scope": [
+    "Позиции, отмеченные веганскими в таблице Bacardi."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Caol Ila 12 Years 43% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (Diageo): в производстве Caol Ila животные продукты не используются; виски делается только на дистиллерии Caol Ila.",
+   "scope": [
+    "Caol Ila."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Caol Ila Moch 43% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (Diageo): в производстве Caol Ila животные продукты не используются; виски делается только на дистиллерии Caol Ila.",
+   "scope": [
+    "Caol Ila."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Cardhu 12 лет 40% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (Diageo, 2019): в солодовых виски и других скотчах животные ингредиенты не используются.",
+   "scope": [
+    "Cardhu."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Cutty Sark 40% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель: животные ингредиенты не используются; фильтрация через диатомит (ископаемые водоросли).",
+   "scope": [
+    "Cutty Sark."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Dewar’s White Label 40% 1л",
+   "status": "vegan",
+   "rationale": "Производитель (Bacardi): продукты Dewar's и Aberfeldy без животных компонентов; эта позиция отмечена веганской в таблице питания Bacardi.",
+   "scope": [
+    "Позиции, отмеченные веганскими в таблице Bacardi."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Dewars Спешиал Резерв 40% 12 лет 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (Bacardi): продукты Dewar's и Aberfeldy без животных компонентов; эта позиция отмечена веганской в таблице питания Bacardi.",
+   "scope": [
+    "Позиции, отмеченные веганскими в таблице Bacardi."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Dewars шотландский купажированный Дюарс 15 лет 40% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (Bacardi): продукты Dewar's и Aberfeldy без животных компонентов; эта позиция отмечена веганской в таблице питания Bacardi.",
+   "scope": [
+    "Позиции, отмеченные веганскими в таблице Bacardi."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Dewars Caribbean Smooth 8 лет 40% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (Bacardi): продукты Dewar's и Aberfeldy без животных компонентов; эта позиция отмечена веганской в таблице питания Bacardi.",
+   "scope": [
+    "Позиции, отмеченные веганскими в таблице Bacardi."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Dewars French Smooth 8 лет 40% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (Bacardi): продукты Dewar's и Aberfeldy без животных компонентов; эта позиция отмечена веганской в таблице питания Bacardi.",
+   "scope": [
+    "Позиции, отмеченные веганскими в таблице Bacardi."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Dewars White Label 40% 500мл",
+   "status": "vegan",
+   "rationale": "Производитель (Bacardi): продукты Dewar's и Aberfeldy без животных компонентов; эта позиция отмечена веганской в таблице питания Bacardi.",
+   "scope": [
+    "Позиции, отмеченные веганскими в таблице Bacardi."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Dewars White Label 40% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (Bacardi): продукты Dewar's и Aberfeldy без животных компонентов; эта позиция отмечена веганской в таблице питания Bacardi.",
+   "scope": [
+    "Позиции, отмеченные веганскими в таблице Bacardi."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски Distillers Edition Caol Ila 43% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (Diageo): в производстве Caol Ila животные продукты не используются; виски делается только на дистиллерии Caol Ila.",
+   "scope": [
+    "Caol Ila."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Виски X Parley Wilder Sea Talisker 48.6% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель: Talisker считается веганским.",
+   "scope": [
+    "Talisker."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Водка Danzka 40% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (2013): водка DANZKA и её вкусы на 100% веганские.",
+   "scope": [
+    "DANZKA."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Джин Tanqueray Flor De Sevilla 41.3% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (2018): во всех продуктах Tanqueray не используются животные ингредиенты.",
+   "scope": [
+    "Tanqueray London Dry и Flor de Sevilla."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Джин Tanqueray London Dry 43.1 % 700мл",
+   "status": "vegan",
+   "rationale": "Производитель (2018): во всех продуктах Tanqueray не используются животные ингредиенты.",
+   "scope": [
+    "Tanqueray London Dry и Flor de Sevilla."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Коньяк Francis A. VS выдержанный 40% 500мл",
+   "status": "vegan",
+   "rationale": "Производитель (2019): все коньяки делаются только из собственного винограда, без чего-либо животного на всех этапах.",
+   "scope": [
+    "Коньяки Domaines Francis Abecassis."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Коньяк Francis A. VSOP выдержанный 40% 500мл",
+   "status": "vegan",
+   "rationale": "Производитель (2019): все коньяки делаются только из собственного винограда, без чего-либо животного на всех этапах.",
+   "scope": [
+    "Коньяки Domaines Francis Abecassis."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Ликер десертный Jagermeister Orange 33% 700мл",
+   "status": "vegan",
+   "rationale": "Производитель: в производстве Jägermeister не используются вещества животного происхождения, клей этикеток на полимерной основе.",
+   "scope": [
+    "Jägermeister."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Ликер Моцарт Белый шоколад клубника 15% 500мл",
+   "status": "nonvegan",
+   "rationale": "Производитель называет веганским только тёмный шоколадный ликёр без сливок; эти ликёры сливочные.",
+   "scope": [
+    "Сливочные ликёры Mozart."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Ликер Моцарт шоколадный 17% 500мл",
+   "status": "nonvegan",
+   "rationale": "Производитель называет веганским только тёмный шоколадный ликёр без сливок; эти ликёры сливочные.",
+   "scope": [
+    "Сливочные ликёры Mozart."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Ликер Malibu на основе рома 21% 700мл",
+   "status": "nonvegan",
+   "rationale": "Производитель: Malibu Original (кокосовый, 21%) не веганский из-за способа обработки сахара у поставщика.",
+   "scope": [
+    "Malibu Original."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Текила золотая Sauza Асьенда Голд 40% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (Beam): продукция Sauza делается без животных продуктов, фильтрация через диатомит и уголь.",
+   "scope": [
+    "Текила Sauza."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Текила серебряная Sauza Асьенда Сильвер 40% 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (Beam): продукция Sauza делается без животных продуктов, фильтрация через диатомит и уголь.",
+   "scope": [
+    "Текила Sauza."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Пивной напиток Mort Subite Kriek Lambic фильтрованный 4% 250мл",
+   "status": "vegan",
+   "rationale": "Производитель: пиво Mort Subite, включая Kriek, веганское.",
+   "scope": [
+    "Mort Subite."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Пиво светлое Hell фильтрованное Benediktiner 5% 500мл",
+   "status": "vegan",
+   "rationale": "Производитель (2017): Benediktiner осветляется диатомитом и силикагелем, рыбий клей и другие животные вещества не используются; варится только в Германии.",
+   "scope": [
+    "Пиво Benediktiner."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Пиво Bakalar Za Studena Chmeleny светлое фильтрованное пастеризованное 5.2% 500мл",
+   "status": "vegan",
+   "rationale": "Производитель (2014): в пиве и при производстве и фильтрации животные продукты не используются.",
+   "scope": [
+    "Пиво Bakalář."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Пиво Bayreuther Hell светлое фильтрованное 4.9% 500мл",
+   "status": "vegan",
+   "rationale": "Производитель (2018): пиво и процесс пивоварения веганские.",
+   "scope": [
+    "Пиво Bayreuther. Клей этикеток на бутылках, по словам производителя, не веганский."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Пиво Bornem Blond светлое фильтрованное непастеризованное 6% 330мл",
+   "status": "vegan",
+   "rationale": "Производитель: пиво пивоварни Van Steenberge, включая Bornem, веганское.",
+   "scope": [
+    "Пиво Van Steenberge."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Пиво Monchshof Original светлое фильтрованное пастеризованное 4.9% 500мл",
+   "status": "vegan",
+   "rationale": "Производитель (2014): животные вещества не используются, пиво варится по закону о чистоте пива.",
+   "scope": [
+    "Пиво Kulmbacher, включая Mönchshof."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Пиво Paulaner Munchner Hell Мюнхенское 4.9% 500мл",
+   "status": "vegan",
+   "rationale": "Производитель (2018): все продукты Paulaner веганские, с 2018 года и клей этикеток без казеина.",
+   "scope": [
+    "Пиво Paulaner."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Пиво Stiegl Goldbrau светлое фильтрованное 5% 500мл",
+   "status": "vegan",
+   "rationale": "Производитель: всё пиво Stiegl варится только из воды, солода, хмеля и дрожжей.",
+   "scope": [
+    "Пиво Stiegl."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Светлое пиво фильтрованное Bakalar 0.5% 500мл",
+   "status": "vegan",
+   "rationale": "Производитель (2014): в пиве и при производстве и фильтрации животные продукты не используются.",
+   "scope": [
+    "Пиво Bakalář."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Сидр Strongbow 5% 440мл",
+   "status": "nonvegan",
+   "rationale": "Производитель: Strongbow Original (5%) не заявлен веганским, возможна примесь кошенили.",
+   "scope": [
+    "Strongbow Original."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "METRO",
+   "name": "Вино Simonsig Cabernet Sauvignon-Shiraz красное сухое, 0.75л",
+   "status": "vegan",
+   "rationale": "Производитель (2018): с урожая 2018 красные вина осветляются растительным средством, белые и игристые уже веганские.",
+   "scope": [
+    "Вина Simonsig с урожая 2018."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Магнит",
+   "name": "Красное вино Монтепульчано Дабруццо полусухое La Piuma 13% 750мл",
+   "status": "nonvegan",
+   "rationale": "Производитель (2016): в красных винах, кроме BIO, используется животный желатин.",
+   "scope": [
+    "Красные вина MGM, кроме BIO."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Дикси",
+   "name": "Пиво светлое Asahi Super Dry 5% 0,33л",
+   "status": "vegan",
+   "rationale": "Производитель (2026): всё пиво группы веганское, это закреплено политикой группы.",
+   "scope": [
+    "Пиво Kompania Piwowarska, включая Asahi Super Dry."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Перекрёсток",
+   "name": "Вино игристое Tosti Asti DOCG белое сладкое, 750мл",
+   "status": "vegan",
+   "rationale": "Производитель (июль 2025): всё производство и розлив в Канелли без животных продуктов, включая этикетки и клей; базовое вино из Венето тоже без них.",
+   "scope": [
+    "Вина Tosti 1820, производство в Канелли."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Лента",
+   "name": "Вино EL PESCAITO Виура Совиньон Блан Утиель-Рекена белое сухое 0.75L",
+   "status": "vegan",
+   "rationale": "Производитель указывает знак vegan на странице этого вина.",
+   "scope": [
+    "El Pescaito белое."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Лента",
+   "name": "Джин GREEN BABOON Цитрус 40% 0.7L",
+   "status": "vegan",
+   "rationale": "Производитель (2021): в составе и технологии джина Green Baboon нет продуктов животного происхождения.",
+   "scope": [
+    "Джин Green Baboon."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Лента",
+   "name": "Пиво светлое PAULANER Munchner hell фильтрованное пастеризованное, 4,9%, ж/б 0.5L",
+   "status": "vegan",
+   "rationale": "Производитель (2018): все продукты Paulaner веганские, с 2018 года и клей этикеток без казеина.",
+   "scope": [
+    "Пиво Paulaner."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Лента",
+   "name": "Пиво темное FULLERS London pride фильтрованное пастеризованное, 4,7% 0.5L",
+   "status": "vegan",
+   "rationale": "Производитель (2026): бутылочное пиво осветляется химическим средством и веганское; рыбий клей только в разливном из бочки.",
+   "scope": [
+    "Бутылочное и баночное London Pride."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Ароматный Мир",
+   "name": "Yalumba The Y Series Riesling",
+   "status": "vegan",
+   "rationale": "Производитель: все вина Yalumba веганские с урожая 2012.",
+   "scope": [
+    "Вина Yalumba с урожая 2012."
+   ],
+   "decided": "2026-10-24"
+  },
+  {
+   "network": "Ароматный Мир",
+   "name": "Yalumba The Y Series Shiraz Viognier",
+   "status": "vegan",
+   "rationale": "Производитель: все вина Yalumba веганские с урожая 2012.",
+   "scope": [
+    "Вина Yalumba с урожая 2012."
+   ],
+   "decided": "2026-10-24"
+  }
+ ]
+}

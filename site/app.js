@@ -541,7 +541,9 @@
         ${kv('Цвет и сахар', [r.color, r.sugar && r.sugar.toLowerCase()].filter(Boolean).join(', ') || null)}
       </dl></div>`;
     if (a) {
-      if (a.rationale) html += `<section class="section"><h2>Почему</h2><p class="rationale">${esc(a.rationale)}</p></section>`;
+      const was = { vegan: 'v', nonvegan: 'n', unclear: 'u', conflict: 'c' }[a.revised_from];
+      const revised = was ? `<p class="note">Решение пересмотрено, раньше было «${esc(STATUS[was].label)}».</p>` : '';
+      if (a.rationale) html += `<section class="section"><h2>Почему</h2><p class="rationale">${esc(a.rationale)}</p>${revised}</section>`;
       if (a.scope.length) html += `<section class="section"><h2>Область действия</h2><ul>${a.scope.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`;
       if (a.packaging && !/^Упаковка отдельно не проверена\.?$/.test(a.packaging)) html += `<section class="section"><h2>Упаковка</h2><p>${esc(a.packaging)}</p></section>`;
       const src = [];

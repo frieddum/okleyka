@@ -24,6 +24,7 @@ TRIM = len(sys.argv) > 1 and sys.argv[1] == "--trim"
 ARGS = sys.argv[2:] if TRIM else sys.argv[1:]
 SRC = Path(ARGS[0]) if ARGS else ROOT / "data" / "snapshot.json"
 OUT = Path(ARGS[1]) if len(ARGS) > 1 else ROOT / "_site"
+OVERRIDES = ROOT / "data" / "overrides.json"
 
 # Ссылки на доказательства публикуются только из assessment.references[].url
 # и только с этих типов источников.
@@ -70,6 +71,15 @@ def clean(s):
         return None
     s = re.sub(r"\s+", " ", str(s)).strip()
     return s or None
+
+
+# Хвост с ценой и кнопкой из карточки магазина: «… Цена за 1 шт С Картой №1 799,99 ₽ … В корзину».
+PRICE_TAIL = re.compile(r"\s*(?:Цена за |С Картой|\d[\d\s]*,\d{2}\s*(?:₽|руб)).*$", re.S)
+
+
+def clean_name(s):
+    s = clean(s)
+    return clean(PRICE_TAIL.sub("", s)) if s else s
 
 
 def norm_category(c):
@@ -207,14 +217,32 @@ def main():
     assessments, assess_index = [], {}
     groups = {}
 
+    # Пересмотренные решения: data/overrides.json, запись ищется по сети и точному названию из снимка.
+    overrides = {}
+    if OVERRIDES.exists():
+        for o in json.loads(OVERRIDES.read_text(encoding="utf-8")).get("overrides", []):
+            if o.get("status") not in STATUS_CODE:
+                fail(f"overrides.json: неизвестный статус {o.get('status')!r}")
+            for ref in o.get("refs") or []:
+                if ref.get("type") not in ALLOWED_REF_TYPES or not str(ref.get("url", "")).startswith("https://"):
+                    fail(f"overrides.json: недопустимый источник {ref!r}")
+            overrides[(o["network"], o["name"])] = o
+    used_overrides = set()
+
     def add(r, kind):
         a = r.get("assessment")
         if not a:
             fail(f"запись без решения в разделе verified: {r.get('name')!r}")
+        o = overrides.get((r.get("network"), r.get("name")))
+        if o:
+            used_overrides.add((r.get("network"), r.get("name")))
+            a = dict(a, status=o["status"], rationale=o.get("rationale") or a.get("rationale"),
+                     scope_and_exceptions=o.get("scope") or a.get("scope_and_exceptions"),
+                     references=o.get("refs") or a.get("references"), revised_from=a["status"])
         status = STATUS_CODE.get(a["status"])
         if not status:
             fail(f"неизвестный статус {a['status']!r}")
-        name = clean(r.get("name"))
+        name = clean_name(r.get("name"))
         if not name:
             fail("запись без названия")
         cat = kind_from_name(name, r.get("category"))
@@ -238,6 +266,8 @@ def main():
                 "caveats": [clean(x) for x in a.get("caveats") or [] if clean(x)],
                 "refs": refs,
             }
+            if a.get("revised_from"):
+                pub["revised_from"] = a["revised_from"]
             k = json.dumps(pub, ensure_ascii=False, sort_keys=True)
             if k not in assess_index:
                 assess_index[k] = len(assessments)
@@ -288,6 +318,8 @@ def main():
     if len(ids) != len(set(ids)):
         fail("совпадение идентификаторов записей")
     verified = records
+    for key in set(overrides) - used_overrides:
+        print(f"Внимание: пересмотр не применён, записи нет в снимке: {key[0]} / {key[1]}")
 
     c = data["counts"]
     if len(data["verified"]) != c.get("verified_assessments"):
@@ -324,6 +356,10 @@ def main():
     dump("verified.json", {"records": verified, "assessments": assessments})
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
 
+    for rec in verified:
+        if re.search(r"₽|руб\.?(?:\s|$)|В корзину|Цена за ", rec[3]):
+            fail(f"в названии осталась цена: {rec[3]!r}")
+
     # Финальная проверка: в публикуемых файлах нет ссылок, кроме разрешённых источников.
     allowed = {ref["url"] for a in assessments for ref in a["refs"]}
     allowed |= {"https://www.barnivore.com/", "https://www.barnivore.com/terms", "http://www.w3.org/2000/svg"}
@@ -340,7 +376,8 @@ def main():
                     fail(f"{f.name}: неожиданная ссылка {url}")
 
     print(f"Снимок {meta['as_of']}: решений {len(data['verified'])} -> {len(verified)} записей; "
-          f"сетей с решениями {len(nets.items)}; российское производство исключено: {skipped_ru}.")
+          f"сетей с решениями {len(nets.items)}; российское производство исключено: {skipped_ru}; "
+          f"пересмотрено решений: {len(used_overrides)}.")
 
 
 if __name__ == "__main__":
