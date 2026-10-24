@@ -29,6 +29,11 @@ OUT = Path(ARGS[1]) if len(ARGS) > 1 else ROOT / "_site"
 # и только с этих типов источников.
 ALLOWED_REF_TYPES = {"Barnivore", "manufacturer"}
 
+# Организации из карточек сетей, которые сами производят алкоголь в России (в том числе по лицензии).
+# Ответ зарубежного производителя к такой бутылке не относится, поэтому эти записи не публикуются.
+# Импортёры и поставщики (Симпл, Бакарди Рус, Перно Рикар Русь и т. п.) сюда не входят.
+RU_PRODUCERS = {"АБ ИнБев Эфес", "ОПХ", "Калужский ЛВЗ Кристалл", "Татспиртпром"}
+
 STATUS_CODE = {"vegan": "v", "nonvegan": "n", "unclear": "u", "conflict": "c"}
 
 PRIVACY_PATTERNS = [
@@ -271,7 +276,11 @@ def main():
         rec[0] = hashlib.sha1(key.encode("utf-8")).hexdigest()[:10]
         groups[key] = rec
 
+    skipped_ru = 0
     for r in data["verified"]:
+        if clean(r.get("producer_as_reported")) in RU_PRODUCERS:
+            skipped_ru += 1
+            continue
         add(r, "v")
 
     records = list(groups.values())
@@ -331,7 +340,7 @@ def main():
                     fail(f"{f.name}: неожиданная ссылка {url}")
 
     print(f"Снимок {meta['as_of']}: решений {len(data['verified'])} -> {len(verified)} записей; "
-          f"сетей с решениями {len(nets.items)}.")
+          f"сетей с решениями {len(nets.items)}; российское производство исключено: {skipped_ru}.")
 
 
 if __name__ == "__main__":
