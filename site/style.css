@@ -217,12 +217,10 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .st-n { --c: var(--nonvegan); --bg: var(--nonvegan-bg); }
 .st-u { --c: var(--unclear); --bg: var(--unclear-bg); }
 .st-c { --c: var(--unclear); --bg: var(--unclear-bg); }
-.st-x { --c: var(--unchecked); --bg: transparent; }
 .swatch.st-v { background: var(--vegan); }
 .swatch.st-n { background: var(--nonvegan); }
 .swatch.st-u { background: var(--unclear); }
 .swatch.st-c { background: repeating-linear-gradient(135deg, var(--unclear) 0 2px, transparent 2px 4px); border: 1px solid var(--unclear); }
-.swatch.st-x { border: 1.5px dashed var(--unchecked); }
 .pill {
   display: inline-flex; align-items: center; gap: 6px;
   padding: 2px 9px; border-radius: 3px;
@@ -231,7 +229,6 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 }
 .pill.st-v, .pill.st-n { background: var(--c); color: var(--paper); }
 .pill.st-c { background: repeating-linear-gradient(135deg, var(--bg) 0 6px, transparent 6px 9px); }
-.pill.st-x { border-style: dashed; font-weight: 500; }
 .pill svg { width: 12px; height: 12px; }
 
 /* Шапка выдачи */
@@ -251,7 +248,6 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .tag.clear { background: none; text-decoration: underline; color: var(--accent); padding-left: 4px; }
 .notice { margin: 12px 0 0; padding: 10px 12px; background: var(--paper-2); border-left: 3px solid var(--rule-strong); font-size: var(--fs-s); }
 .notice button { background: none; border: 0; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; font-size: inherit; }
-.loading-line { font-size: var(--fs-s); color: var(--ink-2); padding-top: 8px; }
 
 /* Список */
 .list { list-style: none; margin: 0; padding: 0; }
@@ -296,7 +292,6 @@ mark { background: var(--accent-soft); color: inherit; padding: 0 1px; border-ra
 .card h1 { font-family: var(--f-display); font-weight: 700; font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.3rem); line-height: 1.15; margin: 10px 0 6px; text-wrap: balance; overflow-wrap: anywhere; }
 .card .sub { color: var(--ink-2); margin: 0 0 20px; }
 .verdict { display: grid; gap: 8px; padding: 14px 16px; border: 1px solid var(--c); background: var(--bg); border-radius: var(--radius); margin-bottom: 24px; }
-.verdict.st-x { border-style: dashed; background: var(--paper-2); }
 .verdict.st-c { background: repeating-linear-gradient(135deg, var(--bg) 0 14px, transparent 14px 18px); }
 .verdict p { margin: 0; max-width: 68ch; }
 .verdict .head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }

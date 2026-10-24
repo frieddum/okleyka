@@ -29,8 +29,9 @@
     <p class="lead">Справочник показывает, что известно о веганском статусе алкоголя из каталогов российских сетей. Там, где сведений нет, он так и пишет.</p>
 
     <h2>Что в данных</h2>
-    <p>Основа — снимок каталогов сетей от <span data-m="as_of">даты снимка</span>. В нём <span data-m="observations">…</span> в <span data-m="networks">…</span>. Снимок неполный: ни по одной сети сбор не заявлен как завершённый, и в сетях продаётся больше, чем здесь записано.</p>
-    <p>Решение о статусе сохранено для <span data-m="verified">…</span>. Остальные <span data-m="unmatched">…</span> с источниками не сопоставлялись. По умолчанию справочник показывает только записи с решением «веганское». Остальные статусы включаются в фильтре.</p>
+    <p>Основа — снимок каталогов сетей от <span data-m="as_of">даты снимка</span>. Справочник публикует только позиции, по которым сохранено решение о статусе: <span data-m="verified">…</span> в <span data-m="networks">…</span>.</p>
+    <p>Остальные позиции каталогов из снимка на сайт не попадают и при сборке не используются. Их никто не сопоставлял с источниками в рамках этого проекта, но их мог проверить кто-то другой. Показывать их рядом с проверенными было бы неверно.</p>
+    <p>По умолчанию видны записи с решением «веганское». Невеганские, неясные и противоречивые включаются в фильтре.</p>
     <p>Справочник не магазин. Цен, остатков и ссылок на товары здесь нет. Запись означает, что позиция была в каталоге сети на указанную дату, а не то, что она продаётся сейчас.</p>
 
     <h2>Статусы</h2>
@@ -39,7 +40,6 @@
       <li><span><span class="pill st st-n">Невеганское</span></span><span>По источнику при производстве используются продукты животного происхождения: например, желатин или рыбий клей для осветления либо казеиновый клей на этикетке.</span></li>
       <li><span><span class="pill st st-u">Неясно</span></span><span>Сведения есть, но их не хватает для вывода. Например, ответ относится к неназванному продукту или к другой линейке.</span></li>
       <li><span><span class="pill st st-c">Противоречие</span></span><span>Источники расходятся, статус не присвоен.</span></li>
-      <li><span><span class="pill st st-x">Не проверено</span></span><span>Запись из каталога сети, решения по ней нет. Это не значит, что напиток невеганский.</span></li>
     </ul>
 
     <h2>Почему «оклейка»</h2>
@@ -59,7 +59,7 @@
 
     <h2>Совпадения и объединение</h2>
     <p>Ни одна запись не подтверждена по точному артикулу или штрихкоду. Название, бренд или производитель не заменяют проверку конкретной бутылки.</p>
-    <p>Одинаковые строки одной сети, совпадающие во всех полях, показаны одной записью (<span data-m="merged">…</span>). Записи разных сетей не объединяются: в снимке нет ни одного точного совпадения названий между сетями, а похожие названия могут означать разные объёмы, урожаи или линейки. Записи с тем же названием показываются в карточке рядом, но статус между ними не переносится.</p>
+    <p>Одинаковые строки одной сети, совпадающие во всех полях, показаны одной записью (<span data-m="merged">…</span>). Записи разных сетей не объединяются: точных совпадений названий между сетями нет, а похожие названия могут означать разные объёмы, урожаи или линейки. Записи с тем же названием показываются в карточке рядом, но статус между ними не переносится.</p>
 
     <h2>Страна и производитель</h2>
     <p>Страна указана так, как в каталоге сети, без догадок. Если происхождение в снимке не установлено, карточка это отмечает. Организация из карточки сети может быть импортёром или поставщиком, а не заводом. Адрес головной компании не считается страной производства.</p>
@@ -73,12 +73,11 @@
     <h2>Покрытие по сетям</h2>
     <div class="table-scroll">
       <table>
-        <thead><tr><th>Сеть</th><th class="num">Наблюдений</th><th class="num">С решением</th><th class="num">Из них веганских</th></tr></thead>
-        <tbody id="coverage"><tr><td colspan="4">Загружаю…</td></tr></tbody>
+        <thead><tr><th>Сеть</th><th class="num">С решением</th><th class="num">Из них веганских</th></tr></thead>
+        <tbody id="coverage"><tr><td colspan="3">Загружаю…</td></tr></tbody>
       </table>
     </div>
-    <p id="coverage-note"></p>
-    <p>Небольшое число записей у сети не значит, что у неё мало алкоголя. Сбор по этим сетям не завершён.</p>
+    <p>Таблица показывает только позиции с решением. Если у сети их мало или нет, это говорит о покрытии справочника, а не об ассортименте сети.</p>
 
     <h2>Независимость и атрибуция</h2>
     <p>Проект независим. Он не связан с Barnivore, торговыми сетями и производителями, не продаёт напитки и не получает за ссылки денег. Название проекта не связано с Barnivore.</p>
@@ -105,16 +104,14 @@
     const meta = await (await fetch('data/meta.json', { cache: 'no-cache' })).json();
     const ver = encodeURIComponent(meta.snapshot_finished_utc || meta.as_of);
     const ver_ = await (await fetch(`data/verified.json?v=${ver}`, { cache: 'no-cache' })).json();
-    const c = meta.counts, d = meta.as_of.split('-');
+    const d = meta.as_of.split('-');
     const set = (k, v) => document.querySelectorAll(`[data-m="${k}"]`).forEach(el => el.textContent = v);
     set('as_of', `${d[2]}.${d[1]}.${d[0]}`);
-    set('observations', `${f(c.observations)} ${plural(c.observations, 'наблюдение', 'наблюдения', 'наблюдений')}`);
     const nn = meta.dicts.networks.length;
     set('networks', `${nn} ${plural(nn, 'сети', 'сетях', 'сетях')}`);
-    set('verified', `${f(c.verified_assessments)} ${plural(c.verified_assessments, 'наблюдения', 'наблюдений', 'наблюдений')}`);
-    set('unmatched', f(c.unmatched));
     const r = meta.rows;
-    set('merged', `${f(r.verified + r.unmatched)} строк → ${f(r.verified_after_merge + r.unmatched_after_merge)} записей`);
+    set('verified', `${f(r.verified_after_merge)} ${plural(r.verified_after_merge, 'запись', 'записи', 'записей')}`);
+    set('merged', `${f(r.verified)} ${plural(r.verified, 'строка', 'строки', 'строк')} → ${f(r.verified_after_merge)} ${plural(r.verified_after_merge, 'запись', 'записи', 'записей')}`);
     const netIdx = new Map(meta.dicts.networks.map((n, i) => [i, n]));
     const ver2 = new Map(), vegan = new Map();
     for (const rec of ver_.records) {
@@ -122,12 +119,11 @@
       ver2.set(n, (ver2.get(n) || 0) + k);
       if (rec[1] === 'v') vegan.set(n, (vegan.get(n) || 0) + k);
     }
-    const rows = meta.networks_declared.slice().sort((a, b) => b.observations - a.observations);
+    const rows = [...ver2.keys()].sort((a, b) => ver2.get(b) - ver2.get(a));
     document.getElementById('coverage').innerHTML = rows.map(n =>
-      `<tr><td>${esc(n.name)}</td><td class="num">${f(n.observations)}</td><td class="num">${f(ver2.get(n.name) || 0)}</td><td class="num">${f(vegan.get(n.name) || 0)}</td></tr>`).join('');
-    if (meta.notes.coverage_note) document.getElementById('coverage-note').textContent = `Примечание из снимка: ${meta.notes.coverage_note}`;
+      `<tr><td>${esc(n)}</td><td class="num">${f(ver2.get(n))}</td><td class="num">${f(vegan.get(n) || 0)}</td></tr>`).join('');
   } catch (e) {
-    document.getElementById('coverage').innerHTML = '<tr><td colspan="4">Не удалось загрузить данные.</td></tr>';
+    document.getElementById('coverage').innerHTML = '<tr><td colspan="3">Не удалось загрузить данные.</td></tr>';
   }
 })();
 </script>

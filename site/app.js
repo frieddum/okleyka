@@ -1,7 +1,7 @@
 'use strict';
 (() => {
   const PAGE = 25;
-  const ST_ORDER = ['v', 'n', 'u', 'c', 'x'];
+  const ST_ORDER = ['v', 'n', 'u', 'c'];
   const STATUS = {
     v: { label: 'Веганское', group: 'Веганское',
       explain: 'Сохранённое решение: веганское. Источник сообщает, что животные продукты при производстве не используются. Решение действует в пределах, указанных ниже, и не гарантирует состав текущей партии.' },
@@ -11,8 +11,6 @@
       explain: 'Сохранённое решение: неясно. Сведений недостаточно, чтобы отнести напиток к веганским или невеганским.' },
     c: { label: 'Противоречие', group: 'Противоречие в источниках',
       explain: 'Источники противоречат друг другу, поэтому статус не присвоен. Подробности в основании решения.' },
-    x: { label: 'Не проверено', group: 'Не проверено',
-      explain: 'Запись есть в каталоге сети, но не сопоставлена с источниками. Это не значит, что напиток невеганский: статус просто не проверялся.' },
   };
   const NONE = '__none';
   const MONTHS = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
@@ -20,7 +18,7 @@
   const GROUPS = [
     { key: 'st', title: 'Статус', get: r => r.st,
       label: v => STATUS[v].group, order: 'fixed',
-      hint: '«Не проверено» не значит «невеганское»: такие записи просто не сопоставлены с источниками.' },
+      hint: 'Здесь только позиции с сохранённым решением. Позиции каталогов без проверки не публикуются.' },
     { key: 'net', title: 'Сеть', get: r => r.net, order: 'total' },
     { key: 'kind', title: 'Вид напитка', get: r => r.cat || NONE, label: v => v === NONE ? 'Вид не указан' : v, order: 'total', limit: 8 },
     { key: 'country', title: 'Страна по данным каталога', get: r => r.country || NONE,
@@ -183,7 +181,6 @@
 
   /* ---------- Данные ---------- */
   let META = null, RECS = [], BY_ID = new Map(), INDEX = null, ASSESS = [];
-  let observedLoaded = false, observedFailed = false;
   let groupTotals = {};
   const collator = new Intl.Collator('ru', { sensitivity: 'base', numeric: true });
 
@@ -364,7 +361,7 @@
         input.checked = sel.has(v);
         lab.classList.toggle('zero', n === 0);
         const nEl = lab.querySelector('.n');
-        nEl.textContent = (g.key === 'st' && v === 'x' && !observedLoaded) ? '…' : fmtInt(n);
+        nEl.textContent = fmtInt(n);
         let visible = true;
         if (findText) visible = tokenize(g.label ? g.label(v) : v).join(' ').includes(findText);
         else if (g.wine || g.limit) visible = n > 0 || sel.has(v);
@@ -393,7 +390,7 @@
   function renderQuick(counts) {
     const st = state.f.st;
     $('#quick-status').innerHTML = ST_ORDER.map(c => {
-      const n = (c === 'x' && !observedLoaded) ? '…' : fmtInt(counts.st.get(c) || 0);
+      const n = fmtInt(counts.st.get(c) || 0);
       return `<button type="button" class="chip" data-quick="st" data-v="${c}" aria-pressed="${st.has(c)}"><span class="swatch st-${c}" style="width:9px;height:9px;border-radius:2px" aria-hidden="true"></span>${esc(STATUS[c].label)} <span class="n">${n}</span></button>`;
     }).join('');
     const nets = optionValues(GROUP.net);
@@ -468,11 +465,6 @@
         notes.push(`<div class="notice">Ещё ${fmtInt(n)} ${plural(n, 'совпадение', 'совпадения', 'совпадений')} с другими статусами (${det}). <button type="button" data-action="all-statuses">Показать все статусы</button></div>`);
       }
     }
-    if (!observedLoaded && !observedFailed && META) {
-      const n = META.rows.unmatched_after_merge;
-      notes.push(`<div class="loading-line">Загружаю ещё ${fmtInt(n)} ${plural(n, 'непроверенную запись', 'непроверенные записи', 'непроверенных записей')}…</div>`);
-    }
-    if (observedFailed) notes.push('<div class="notice">Не удалось загрузить непроверенные записи. Обновите страницу, чтобы попробовать ещё раз.</div>');
     $('#notices').innerHTML = notes.join('');
   }
   function renderEmpty(res) {
@@ -487,10 +479,9 @@
         tips.push(`<li><button type="button" data-remove="${g.key}" data-v="*">Убрать фильтр «${esc(g.title)}»</button>: ${fmtInt(n)} ${records_word(n)}</li>`);
       }
     }
-    const waiting = !observedLoaded && !observedFailed ? '<p>Непроверенные записи ещё загружаются, выдача может пополниться.</p>' : '';
     return `<li class="empty"><h2>Ничего не нашлось</h2>
-      <p>По этому запросу и фильтрам записей нет. Отсутствие в справочнике не значит, что напитка нет в продаже: снимок каталогов неполный.</p>
-      ${waiting}${tips.length ? `<ul>${tips.join('')}</ul>` : ''}</li>`;
+      <p>По этому запросу и фильтрам записей нет. В справочнике только позиции с проверенным решением, поэтому отсутствие напитка ничего не говорит о его статусе.</p>
+      ${tips.length ? `<ul>${tips.join('')}</ul>` : ''}</li>`;
   }
   function pageLinks(total) {
     const pages = Math.max(1, Math.ceil(total / PAGE));
@@ -544,13 +535,9 @@
     const r = BY_ID.get(state.id);
     const backHref = urlFor({ id: null });
     if (!r) {
-      if (!observedLoaded && !observedFailed) {
-        view.innerHTML = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a><p>Загружаю запись…</p>`;
-        return;
-      }
       document.title = 'Запись не найдена — Оклейка';
       view.innerHTML = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a>
-        <h1>Запись не найдена</h1><p class="sub">Возможно, снимок каталогов обновился и этой записи в нём больше нет. Попробуйте найти напиток через поиск.</p>`;
+        <h1>Запись не найдена</h1><p class="sub">Возможно, данные обновились и этой записи больше нет. Позиции каталогов без проверенного решения в справочнике не публикуются. Попробуйте найти напиток через поиск.</p>`;
       return;
     }
     document.title = `${r.name} — Оклейка`;
@@ -606,14 +593,6 @@
       html += `<section class="section"><h2>Другие записи с тем же названием в этой сети</h2>
         <p class="note">Это могут быть другие объёмы, партии или карточки. Статус между ними не переносится.</p>
         <ul class="related">${same.slice(0, 12).map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(x.name)}</a> <span class="note">${esc([fmtVolume(x), fmtAbv(x), x.producer].filter(Boolean).join(' · '))}</span></li>`).join('')}</ul></section>`;
-    }
-    if (r.st === 'x' && r.brandKey) {
-      const br = RECS.filter(x => x.a && x.brandKey === r.brandKey).slice(0, 6);
-      if (br.length) {
-        html += `<section class="section"><h2>Решения по другим позициям бренда «${esc(r.brand)}»</h2>
-          <p class="note">Эти решения относятся к другим записям и к этой не применены: линейка, объём, урожай или рынок могут отличаться. Смотрите область действия в каждой карточке.</p>
-          <ul class="related">${br.map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(x.name)}</a> <span class="note">${esc(x.net)}</span></li>`).join('')}</ul></section>`;
-      }
     }
     html += `<p><button type="button" class="copy" id="copy-link">Скопировать ссылку на запись</button> <span id="copy-status" class="note" role="status"></span></p>`;
     view.innerHTML = html;
@@ -811,25 +790,11 @@
       const verified = await getJSON(`data/verified.json?v=${ver}`);
       ASSESS = verified.assessments;
       ingest(verified.records);
-      const c = META.counts;
-      $('#snapshot-line').innerHTML = `Снимок каталогов ${fmtDate(META.as_of)}, неполный: ${fmtInt(c.observations)} ${plural(c.observations, 'наблюдение', 'наблюдения', 'наблюдений')}, решения есть для ${fmtInt(c.verified_assessments)}. Наличие в магазинах не отслеживается. <a href="method.html">Как устроен справочник</a>`;
+      const shown = META.rows.verified_after_merge;
+      $('#snapshot-line').innerHTML = `Снимок каталогов ${fmtDate(META.as_of)}. Только позиции с проверенным решением: ${fmtInt(shown)} ${records_word(shown)}. Наличие в магазинах не отслеживается. <a href="method.html">Как устроен справочник</a>`;
       $('#footer-snapshot').textContent = `Данные: снимок от ${fmtDate(META.as_of)}. Сбор ${META.snapshot_started_utc ? META.snapshot_started_utc.slice(0, 16).replace('T', ' ') : '—'}–${META.snapshot_finished_utc ? META.snapshot_finished_utc.slice(11, 16) : '—'} UTC.`;
       buildFilters();
       render();
-      getJSON(`data/observed.json?v=${ver}`).then(obs => {
-        const act = document.activeElement;
-        const box = act && act.type === 'checkbox' && act.closest('[data-group]');
-        const keep = box ? { g: box.dataset.group, v: act.value } : (act && act.id ? { id: act.id } : null);
-        ingest(obs.records);
-        observedLoaded = true;
-        buildFilters();
-        render();
-        if (keep) {
-          const el = keep.id ? document.getElementById(keep.id)
-            : [...document.querySelectorAll(`[data-group="${keep.g}"] input[type=checkbox]`)].find(i => i.value === keep.v);
-          if (el) el.focus({ preventScroll: true });
-        }
-      }).catch(() => { observedFailed = true; render(); });
     } catch (err) {
       $('#count').textContent = 'Не удалось загрузить данные';
       $('#results').innerHTML = '<li class="empty"><p>Файлы справочника не загрузились. Проверьте соединение и обновите страницу.</p></li>';

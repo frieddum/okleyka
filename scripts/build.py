@@ -3,8 +3,13 @@
 Запуск: python scripts/build.py [путь_к_json] [папка_вывода]
 По умолчанию: data/snapshot.json -> _site/
 
-Скрипт переносит в публикуемые данные только поля из белого списка,
-проверяет исходный файл на приватные данные и останавливается при находке.
+Подготовка нового снимка: python scripts/build.py --trim путь_к_новому.json
+записывает его в data/snapshot.json без раздела unmatched.
+
+Скрипт переносит в публикуемые данные только записи с сохранённым решением
+и только поля из белого списка, проверяет исходный файл на приватные данные
+и останавливается при находке. Непроверенные позиции каталогов (unmatched)
+не публикуются и не используются.
 """
 import hashlib
 import json
@@ -15,8 +20,10 @@ import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "data" / "snapshot.json"
-OUT = Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / "_site"
+TRIM = len(sys.argv) > 1 and sys.argv[1] == "--trim"
+ARGS = sys.argv[2:] if TRIM else sys.argv[1:]
+SRC = Path(ARGS[0]) if ARGS else ROOT / "data" / "snapshot.json"
+OUT = Path(ARGS[1]) if len(ARGS) > 1 else ROOT / "_site"
 
 # Ссылки на доказательства публикуются только из assessment.references[].url
 # и только с этих типов источников.
@@ -139,19 +146,29 @@ class Dict:
 def main():
     raw = SRC.read_text(encoding="utf-8")
     data = json.loads(raw)
-    for key in ("as_of", "counts", "verified", "unmatched"):
+    for key in ("as_of", "counts", "verified"):
         if key not in data:
             fail(f"в JSON нет поля {key}")
+    # Непроверенные позиции не используются: раздел отбрасывается до любых проверок и сборки.
+    data.pop("unmatched", None)
+    raw = json.dumps(data, ensure_ascii=False)
     privacy_check(raw, data)
+    if TRIM:
+        dest = ROOT / "data" / "snapshot.json"
+        dest.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"Записан {dest.relative_to(ROOT)}: {len(data['verified'])} записей с решением, раздел unmatched удалён.")
+        return
 
     nets, prods, countries, cats, brands = Dict(), Dict(), Dict(), Dict(), Dict()
     assessments, assess_index = [], {}
     groups = {}
 
     def add(r, kind):
-        a = r.get("assessment") if kind == "v" else None
-        status = STATUS_CODE.get(a["status"]) if a else "x"
-        if a and not status:
+        a = r.get("assessment")
+        if not a:
+            fail(f"запись без решения в разделе verified: {r.get('name')!r}")
+        status = STATUS_CODE.get(a["status"])
+        if not status:
             fail(f"неизвестный статус {a['status']!r}")
         name = clean(r.get("name"))
         if not name:
@@ -217,20 +234,16 @@ def main():
 
     for r in data["verified"]:
         add(r, "v")
-    n_verified_rows = len(groups)
-    for r in data["unmatched"]:
-        add(r, "u")
 
     records = list(groups.values())
     ids = [r[0] for r in records]
     if len(ids) != len(set(ids)):
         fail("совпадение идентификаторов записей")
-    verified = [r for r in records if r[1] != "x"]
-    observed = [r for r in records if r[1] == "x"]
+    verified = records
 
     c = data["counts"]
-    if len(data["verified"]) != c.get("verified_assessments") or len(data["unmatched"]) != c.get("unmatched"):
-        fail("число записей не совпадает с counts")
+    if len(data["verified"]) != c.get("verified_assessments"):
+        fail("число записей с решением не совпадает с counts.verified_assessments")
 
     meta = {
         "title": clean(data.get("title")),
@@ -243,8 +256,7 @@ def main():
             "detail_note", "country_note", "date_note", "coverage_note") if data.get(k)},
         "counts": c,
         "networks_declared": data.get("networks_with_accepted_observations") or [],
-        "rows": {"verified": len(data["verified"]), "unmatched": len(data["unmatched"]),
-                 "verified_after_merge": len(verified), "unmatched_after_merge": len(observed)},
+        "rows": {"verified": len(data["verified"]), "verified_after_merge": len(verified)},
         "dicts": {"networks": nets.items, "producers": prods.items, "countries": countries.items,
                   "categories": cats.items, "brands": brands.items},
         "fields": ["id", "status", "network", "name", "brand", "producer", "country", "origin", "category",
@@ -262,7 +274,6 @@ def main():
 
     dump("meta.json", meta)
     dump("verified.json", {"records": verified, "assessments": assessments})
-    dump("observed.json", {"records": observed})
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
 
     # Финальная проверка: в публикуемых файлах нет ссылок, кроме разрешённых источников.
@@ -280,8 +291,8 @@ def main():
                 if url not in allowed and not url.startswith("https://github.com/"):
                     fail(f"{f.name}: неожиданная ссылка {url}")
 
-    print(f"Снимок {meta['as_of']}: решений {len(data['verified'])} -> {len(verified)} записей, "
-          f"не проверено {len(data['unmatched'])} -> {len(observed)} записей; сетей {len(nets.items)}.")
+    print(f"Снимок {meta['as_of']}: решений {len(data['verified'])} -> {len(verified)} записей; "
+          f"сетей с решениями {len(nets.items)}.")
 
 
 if __name__ == "__main__":
