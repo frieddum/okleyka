@@ -40,7 +40,7 @@ PRODUCER_COUNTRY = {
     "Feudi di San Gregorio": "Италия", "González Byass": "Испания", "ЗАО «Игристые вина»": "Россия",
     "Chairman's Reserve Rum": "Сент-Люсия", "Taittinger": "Франция", "Dooleys Toffee Cream Liqueur": "Германия",
     "Piccini 1882": "Италия", "La Marca": "Италия", "Sula Vineyards": "Индия",
-    "The Old Bushmills Distillery": "Великобритания",
+    "The Old Bushmills Distillery": "Великобритания", "Martini & Rossi": "Италия",
 }
 MANUFACTURER_SITES = {"williamgrant.com": "William Grant & Sons", "hofbraeu-muenchen.de": "Hofbräu München"}
 EXTRA_CATEGORY = {"Вино": "Вино", "Игристое и шампанское": "Игристое вино", "Пиво": "Пиво",
@@ -244,7 +244,9 @@ def wine_attrs(name, category):
         if re.search(rf"(?<![а-яa-z/]){p}(?![а-яa-z])", low):
             sugar = lab
             break
-    sparkling = bool(re.search(r"игрист|шампанск", low + " " + (category or "").lower()))
+    sparkling = bool(re.search(r"игрист|шампанск|газированн|шипуч|фризанте|frizzante|spumante|спуманте|просекко|prosecco|"
+                               r"креман|cremant|cava|кава|асти|(?<![a-z])asti(?![a-z])|ламбруско|lambrusco|petillant|петнат|pet.nat",
+                               low + " " + (category or "").lower()))
     return color, sugar, sparkling
 
 
@@ -452,7 +454,11 @@ def main():
     filled_country = 0
     for key, rec in list(groups.items()):
         name, kind = rec[3], cats.items[rec[8]] if rec[8] >= 0 else None
-        # Страны нет в карточке сети: берётся страна ответившего производителя.
+        # Страны нет в карточке сети: берётся страна производителя — сначала из списка вручную
+        # (адрес на Barnivore бывает адресом головного офиса, а не производства), потом по адресу.
+        if rec[6] < 0 and rec[5] >= 0 and prods.items[rec[5]] in PRODUCER_COUNTRY:
+            rec[6] = countries(PRODUCER_COUNTRY[prods.items[rec[5]]])
+            filled_country += 1
         if rec[6] < 0 and rec[15] >= 0:
             for ref in assessments[rec[15]]["refs"]:
                 host = re.sub(r"^https?://(www\.)?([^/]+).*", r"\2", ref["url"])
