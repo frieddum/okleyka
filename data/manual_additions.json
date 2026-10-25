@@ -609,26 +609,6 @@
    ]
   },
   {
-   "id": "vr-da3cfa7241",
-   "name": "Херес Gonzalez Byass Noe Pedro Ximenez",
-   "company": "González Byass",
-   "category": "Вермут и креплёные вина",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Вино в списке González Byass с веганским сертификатом V-Label (опубликован VeganRussian).",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-gonzalez-byass/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr-8624da692f",
    "name": "Вино Beronia Verdejo",
    "company": "González Byass",
@@ -6373,26 +6353,6 @@
    ]
   },
   {
-   "id": "vr-e2807ac34d",
-   "name": "Джин Битли Классик Лондон Драй",
-   "company": "Тульский винокуренный завод",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Джин Beatly London Dry в списке веганских на VeganRussian (2024).",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/dzhin-london-dry-gin-beatly-gin-tulskiy-vinokurennyy-zavod/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr-e22dc6f526",
    "name": "Игристое вино Marani Brut",
    "company": "Телавский винный погреб (Marani)",
@@ -7967,24 +7927,6 @@
    ]
   },
   {
-   "id": "vr3-6f9b53c02d",
-   "name": "Джин Whitley Neill Japanese Yuzu & White Strawberry",
-   "company": "Whitley Neill",
-   "category": "Крепкие напитки",
-   "country": "Великобритания",
-   "status": "vegan",
-   "rationale": "Производитель (2020): вся линейка веганская, кроме Rhubarb & Ginger и Lemongrass & Ginger.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": "https://www.barnivore.com/liquor/4220/whitley-neill",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr3-d827684d27",
    "name": "Джин Whitley Neill Lemongrass & Ginger (Russia)",
    "company": "Whitley Neill",
@@ -8014,10 +7956,6 @@
    "evidence_date": null,
    "barnivore_url": null,
    "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
     {
      "network": "Ароматный Мир",
      "checked_at": "2026-10-24"
@@ -8087,10 +8025,6 @@
    "barnivore_url": "https://www.barnivore.com/liquor/173/bacardi-global-brands",
    "chains": [
     {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
-    {
      "network": "Ароматный Мир",
      "checked_at": "2026-10-24"
     }
@@ -8128,24 +8062,6 @@
    "chains": [
     {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr3-7b80924aec",
-   "name": "Ром Bacardi Reserva Ocho 8 Years Old",
-   "company": "Bacardi",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель: ромы Bacardi веганские; исключение — Bacardi Spiced с мёдом.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": "https://www.barnivore.com/liquor/173/bacardi-global-brands",
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -8267,24 +8183,6 @@
    ]
   },
   {
-   "id": "vr3-cbd22017ce",
-   "name": "Ром Dead Man's Fingers Coffee Rum",
-   "company": "Bristol & Bath Rum Distillery",
-   "category": "Крепкие напитки",
-   "country": "Великобритания",
-   "status": "vegan",
-   "rationale": "Производитель (2022): по таблице аллергенов все ромы Dead Man's Fingers веганские; не веганский только сливочный ликёр.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": "https://www.barnivore.com/liquor/8752/bristol-bath-rum-distillery",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr3-5d31f843a5",
    "name": "Ром Dead Man's Fingers Hazelnut Rum",
    "company": "Bristol & Bath Rum Distillery",
@@ -8305,24 +8203,6 @@
   {
    "id": "vr3-08b51b58a2",
    "name": "Ром Dead Man's Fingers Mango Rum",
-   "company": "Bristol & Bath Rum Distillery",
-   "category": "Крепкие напитки",
-   "country": "Великобритания",
-   "status": "vegan",
-   "rationale": "Производитель (2022): по таблице аллергенов все ромы Dead Man's Fingers веганские; не веганский только сливочный ликёр.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": "https://www.barnivore.com/liquor/8752/bristol-bath-rum-distillery",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr3-be23208335",
-   "name": "Ром Dead Man's Fingers Passion Fruit",
    "company": "Bristol & Bath Rum Distillery",
    "category": "Крепкие напитки",
    "country": "Великобритания",

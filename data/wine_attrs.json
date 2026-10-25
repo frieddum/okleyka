@@ -12834,5 +12834,50 @@
   "color": "Красное",
   "sugar": "Сухое",
   "abv": 15.0
+ },
+ "портвейн fonseca guimaraens vintage port 1998": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 20.0
+ },
+ "портвейн fonseca siroco white port": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 20.0
+ },
+ "портвейн graham s 10 year old tawny port": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 20.0
+ },
+ "портвейн sandeman old tawny porto 10 yo": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 20.0
+ },
+ "портвейн sandeman old tawny porto 20 yo": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 20.0
+ },
+ "портвейн saven azul portugal tawny porto10 years": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 19.5
+ },
+ "херес gonzalez byass elegante cream": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 17.0
+ },
+ "херес gonzalez byass tio pepe palomino jerez fino": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "херес gonzales byass nectar pedro ximenez jerez": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 15.0
  }
 }
