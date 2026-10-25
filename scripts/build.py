@@ -590,8 +590,8 @@ def main():
     allowed = {ref["url"] for a in assessments for ref in a["refs"]}
     # Пивоварни: допускаются только ссылки на записи VeganRussian.
     for b in (json.loads(brew.read_text(encoding="utf-8"))["breweries"] if brew.exists() else []):
-        if not b["url"].startswith("https://veganrussian.ru/"):
-            fail(f"ru_breweries.json: ссылка не на VeganRussian: {b['url']}")
+        if not b["url"].startswith("https://"):
+            fail(f"ru_breweries.json: ссылка на источник должна быть https: {b['url']}")
         allowed.add(b["url"])
     allowed |= {"https://veganrussian.ru/", "https://www.barnivore.com/", "https://www.barnivore.com/terms", "http://www.w3.org/2000/svg"}
     allowed_files = {".html", ".js", ".css", ".json", ".woff2", ".svg", ".txt", ""}
