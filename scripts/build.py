@@ -564,10 +564,26 @@ def main():
     if OUT.exists():
         shutil.rmtree(OUT)
     shutil.copytree(ROOT / "site", OUT)
+    translations = json.loads((ROOT / "data/translations_en.json").read_text(encoding="utf-8"))
+    visible = set()
+    def collect(value):
+        if isinstance(value, str) and re.search(r"[А-Яа-яЁё]", value): visible.add(value)
+        elif isinstance(value, list):
+            for v in value: collect(v)
+    for row in verified:
+        for i in (3, 7, 10, 16, 17): collect(row[i])
+    for values in meta["dicts"].values(): collect(values)
+    for assessment in assessments:
+        for key in ("rationale", "scope", "packaging", "identity", "caveats"): collect(assessment.get(key))
+    for b in json.loads((ROOT / "data/ru_breweries.json").read_text(encoding="utf-8"))["breweries"]:
+        for key in ("name", "city", "note", "kind"): collect(b.get(key))
+    missing = visible - translations.keys()
+    if missing: fail(f"English translations missing: {sorted(missing)[:10]}")
+    (OUT / "content-en.js").write_text("window.CONTENT_EN=" + json.dumps(translations, ensure_ascii=False, separators=(",", ":")) + ";", encoding="utf-8")
     # Версия в ссылках на скрипты и стили: после обновления браузер не возьмёт старый файл из кэша.
     for page in OUT.glob("*.html"):
         html = page.read_text(encoding="utf-8")
-        for asset in ("app.js", "age.js", "top.js", "i18n.js", "style.css"):
+        for asset in ("content-en.js", "app.js", "age.js", "top.js", "i18n.js", "style.css"):
             ver = hashlib.sha1((OUT / asset).read_bytes()).hexdigest()[:8]
             html = html.replace(f'"{asset}"', f'"{asset}?v={ver}"')
         page.write_text(html, encoding="utf-8")

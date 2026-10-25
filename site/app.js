@@ -1,5 +1,6 @@
 'use strict';
 (() => {
+  const tr = s => window.I18N.t(s);
   const PAGE = 25;
   const ST_ORDER = ['v', 'n'];
   const STATUS = {
@@ -120,7 +121,7 @@
     const vocab = new Map(), skel = new Map(), skelRep = new Map();
     const add = (map, key, val) => { let a = map.get(key); if (!a) map.set(key, a = []); a.push(val); };
     recs.forEach((r, i) => {
-      const fields = [r.name, r.brand, r.producer, [r.country, r.cat].filter(Boolean).join(' ')];
+      const fields = [r.name, r.brand, r.producer, [r.country, r.cat].filter(Boolean).join(' ')].map(s => s ? s + ' ' + window.I18N.en(s) : s);
       fields.forEach((f, fi) => {
         const seen = new Set();
         for (const t of tokenize(f)) {
@@ -444,12 +445,12 @@
     return f.map(x => `<span>${esc(x)}</span>`).join('');
   }
   function rowHTML(r, tokens) {
-    const where = [`<span class="net">${esc(r.nets.join(', '))}</span>`];
+    const where = [`<span class="net">${esc(r.nets.map(tr).join(', '))}</span>`];
     const facts = factsHTML(r);
     return `<li class="row"><a href="${esc(urlFor({ id: r.id, p: state.p }))}" data-id="${esc(r.id)}">
       <div class="status-col">${pill(r.st)}</div>
       <div class="body">
-        <div class="name">${highlight(r.name, tokens)}</div>
+        <div class="name">${highlight(tr(r.name), tokens)}</div>
         ${facts ? `<div class="facts">${facts}</div>` : ''}
         <div class="where">${where.join('')}</div>
         ${r.a && r.a.rationale ? `<div class="why">${esc(r.a.rationale)}</div>` : ''}
@@ -560,13 +561,13 @@
         <h1>Запись не найдена</h1><p class="sub">Возможно, данные обновились и этой записи больше нет. Позиции каталогов без проверенного решения в справочнике не публикуются. Попробуйте найти напиток через поиск.</p>`;
       return;
     }
-    document.title = `${r.name} — Оклейка`;
+    document.title = `${tr(r.name)} — ${tr('Оклейка')}`;
     const a = r.a;
     const vol = fmtVolume(r) || r.volRaw;
     let html = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a>
       <div>${pill(r.st)}</div>
-      <h1>${esc(r.name)}</h1>
-      <p class="sub">${esc(r.nets.join(', '))}${r.checked ? ` ${fmtShort(r.checked)}` : ''}</p>
+      <h1>${esc(tr(r.name))}</h1>
+      <p class="sub">${esc(r.nets.map(tr).join(', '))}${r.checked ? ` ${fmtShort(r.checked)}` : ''}</p>
       <div class="label-box"><dl class="kv">
         ${kv('Бренд', r.brand)}
         ${kv('Производитель', r.producer)}
@@ -581,9 +582,9 @@
     if (a) {
       const was = { vegan: 'Веганское', nonvegan: 'Невеганское', unclear: 'Неясно', conflict: 'Противоречие' }[a.revised_from];
       const revised = was ? `<p class="note">Решение пересмотрено, раньше было «${was}».</p>` : '';
-      if (a.rationale) html += `<section class="section"><h2>Почему</h2><p class="rationale" lang="ru">${esc(a.rationale)}</p>${revised}</section>`;
-      if (a.scope.length) html += `<section class="section"><h2>Область действия</h2><ul data-original lang="ru">${a.scope.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`;
-      if (a.packaging && !/^Упаковка отдельно не проверена\.?$/.test(a.packaging)) html += `<section class="section"><h2>Упаковка</h2><p data-original lang="ru">${esc(a.packaging)}</p></section>`;
+      if (a.rationale) html += `<section class="section"><h2>Почему</h2><p class="rationale">${esc(a.rationale)}</p>${revised}</section>`;
+      if (a.scope.length) html += `<section class="section"><h2>Область действия</h2><ul>${a.scope.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`;
+      if (a.packaging && !/^Упаковка отдельно не проверена\.?$/.test(a.packaging)) html += `<section class="section"><h2>Упаковка</h2><p>${esc(a.packaging)}</p></section>`;
       const src = [];
       for (const ref of a.refs) {
         const short = ref.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
@@ -596,7 +597,7 @@
     if (same.length) {
       html += `<section class="section"><h2>То же название в этой сети</h2>
         <p class="note">Статус между этими записями не переносится.</p>
-        <ul class="related">${same.slice(0, 12).map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(x.name)}</a> <span class="note">${esc([fmtVolume(x), fmtAbv(x)].filter(Boolean).join(' · '))}</span></li>`).join('')}</ul></section>`;
+        <ul class="related">${same.slice(0, 12).map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(tr(x.name))}</a> <span class="note">${esc([fmtVolume(x), fmtAbv(x)].filter(Boolean).join(' · '))}</span></li>`).join('')}</ul></section>`;
     }
     view.innerHTML = html;
   }

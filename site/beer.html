@@ -9,6 +9,7 @@
 <meta name="referrer" content="no-referrer">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
+<script src="content-en.js"></script>
 <script src="i18n.js"></script>
 <script src="age.js"></script>
 </head>
@@ -50,7 +51,7 @@
       if (!list.length) return '';
       return `<h2>${title}</h2><ul class="brew-list">` + list.map(b =>
         `<li><p class="brew-name"><b>${esc(b.name)}</b>${b.city ? `<span class="brew-city">${esc(b.city)}</span>` : ''}</p>
-         <p data-original lang="ru">${esc(b.note)}</p>
+         <p>${esc(b.note)}</p>
          <p class="brew-src"><a href="${esc(b.url)}" rel="noopener nofollow" target="_blank">Ответ пивоварни</a>${b.date ? ` · ${fmtDate(b.date)}` : ''}</p></li>`).join('') + '</ul>';
     }).join('');
   } catch (e) {

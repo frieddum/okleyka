@@ -7,6 +7,7 @@
   try { localStorage.setItem('okleyka-language', lang); } catch (_) {}
   document.documentElement.lang = lang;
   const words = {
+    'Неясно':'Unclear', 'Противоречие':'Conflicting evidence',
     'Доминиканская Республика':'Dominican Republic','Доминикана':'Dominican Republic','Люксембург':'Luxembourg','Черногория':'Montenegro','Исландия':'Iceland','Сингапур':'Singapore','Словакия':'Slovakia','Вьетнам':'Vietnam','Таиланд':'Thailand','Литва':'Lithuania','Тринидад и Тобаго':'Trinidad and Tobago','Никарагуа':'Nicaragua','Гватемала':'Guatemala','Латвия':'Latvia','Абхазия':'Abkhazia','Турция':'Turkey','Ливан':'Lebanon','Словения':'Slovenia','Бразилия':'Brazil','Сент-Люсия':'Saint Lucia','Филиппины':'Philippines','Игристое вино':'Sparkling wine','Аперитив':'Aperitif','Писко':'Pisco','Портвейн':'Port','Херес':'Sherry','Соджу':'Soju',
     'Оклейка':'Okleika', 'Справочник':'Directory', 'Методика':'Methodology',
     'Российское пиво и сидр':'Russian beer and cider', '«Российское пиво и сидр»':'Russian beer and cider',
@@ -65,20 +66,23 @@
     'Бутылок, произведённых в России по лицензии зарубежного бренда, если нет ответа самого российского завода. Ответ зарубежного производителя к ним не относится. Российские вина и крепкое с ответом производителя публикуются как обычные позиции, а пивоварни собраны на отдельной странице':'Bottles made in Russia under licence from a foreign brand are excluded unless the Russian factory itself has responded. The foreign producer’s response does not apply to them. Russian wines and spirits with a producer response appear as individual entries; breweries are listed on the separate page',
     'Нашли ошибку, знаете ответ производителя или хотите добавить позицию? Напишите на':'Found an error, have a producer response, or want to suggest a drink? Email'
   };
+  const content = window.CONTENT_EN || {};
+  const english = s => words[s] || content[s] || s;
   function translate(s) {
     if (lang !== 'en') return s;
     const key = s.trim();
     if (Object.hasOwn(words, key)) return s.replace(key, words[key]);
-    return s.replace(/Точного совпадения нет, показаны похожие написания:/g, 'No exact match; showing similar spellings:').replace(/Похожее написание не означает, что это тот же напиток./g, 'Similar spelling does not establish that this is the same drink.').replace(/Решение пересмотрено, раньше было «(.+)»./g, (_, v) => 'Decision revised; previously “' + (words[v] || v) + '”.').replace(/Ещё ([\d\s ]+) совпадени[еяй] с другими статусами/g, '$1 more matches with other statuses').replace(/невеганское:/g, 'not vegan:').replace(/веганское:/g, 'vegan:').replace(/(январь|февраль|март|апрель|май|июнь|июль|август|сентябрь|октябрь|ноябрь|декабрь) (\d{4})/g, (_, m, y) => ({январь:'January',февраль:'February',март:'March',апрель:'April',май:'May',июнь:'June',июль:'July',август:'August',сентябрь:'September',октябрь:'October',ноябрь:'November',декабрь:'December'}[m]) + ' ' + y).replace(/^(\s*)Показать все \((\d+)\)(\s*)$/, '$1Show all ($2)$3')
+    if (Object.hasOwn(content, key)) return s.replace(key, content[key]);
+    return s.replace(/Точного совпадения нет, показаны похожие написания:/g, 'No exact match; showing similar spellings:').replace(/Похожее написание не означает, что это тот же напиток./g, 'Similar spelling does not establish that this is the same drink.').replace(/Решение пересмотрено, раньше было «(.+)»./g, (_, v) => 'Decision revised; previously “' + english(v) + '”.').replace(/Ещё ([\d\s ]+) совпадени[еяй] с другими статусами/g, '$1 more matches with other statuses').replace(/невеганское:/g, 'not vegan:').replace(/веганское:/g, 'vegan:').replace(/(январь|февраль|март|апрель|май|июнь|июль|август|сентябрь|октябрь|ноябрь|декабрь) (\d{4})/g, (_, m, y) => ({январь:'January',февраль:'February',март:'March',апрель:'April',май:'May',июнь:'June',июль:'July',август:'August',сентябрь:'September',октябрь:'October',ноябрь:'November',декабрь:'December'}[m]) + ' ' + y).replace(/^(\s*)Показать все \((\d+)\)(\s*)$/, '$1Show all ($2)$3')
       .replace(/Показать ([\d\s ]+) (запись|записи|записей)/g, 'Show $1 entries')
       .replace(/([\d\s ]+) (запись|записи|записей)/g, '$1 entries')
       .replace(/^(\d[\d\s ]*–[\d\s ]+) из /, '$1 of ')
       .replace(/^Страница (\d+)$/, 'Page $1')
       .replace(/^урожай (\d+)$/, 'vintage $1')
       .replace(/^Тип: (.+)$/, (_, v) => 'Type: ' + (words[v[0].toUpperCase()+v.slice(1)] || v))
-      .replace(/^Найти в списке «(.+)»$/, (_, v) => 'Search ' + (words[v] || v))
-      .replace(/^Убрать фильтр «(.+)»$/, (_, v) => 'Remove “' + (words[v] || v) + '” filter')
-      .replace(/^Убрать фильтр (.+): (.+)$/, (_, a, b) => 'Remove filter: ' + (words[b] || b))
+      .replace(/^Найти в списке «(.+)»$/, (_, v) => 'Search ' + english(v))
+      .replace(/^Убрать фильтр «(.+)»$/, (_, v) => 'Remove “' + english(v) + '” filter')
+      .replace(/^Убрать фильтр (.+): (.+)$/, (_, a, b) => 'Remove filter: ' + english(b))
       .replace(/^(\d[\d., ]*)\s*мл$/, '$1 ml').replace(/^(\d[\d., ]*)\s*л$/, '$1 L')
       .replace(/Оклейка — веганский статус алкоголя в российских сетях/g, 'Okleika — vegan status of drinks in Russian retail chains')
       .replace(/Методика — Оклейка/g, 'Methodology — Okleika').replace(/Российское пиво и сидр — Оклейка/g, 'Russian beer and cider — Okleika');
@@ -88,7 +92,7 @@
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
     let n;
     while ((n = walker.nextNode())) {
-      if (n.parentElement.closest('script,style,[data-original],.name,.why,.rationale,.brew-name')) continue;
+      if (n.parentElement.closest('script,style,[data-original]')) continue;
       const value = translate(n.nodeValue); if (value !== n.nodeValue) n.nodeValue = value;
     }
     root.querySelectorAll('[aria-label],[placeholder],[title]').forEach(el => {
@@ -96,7 +100,7 @@
     });
     document.title = translate(document.title);
   }
-  window.I18N = { lang, t: translate, apply, selector };
+  window.I18N = { lang, t: translate, en: english, apply, selector };
   function selector() {
     const label = document.createElement('label'); label.className = 'language-picker';
     label.innerHTML = '<span class="visually-hidden">Language / Язык</span><select aria-label="Language / Язык"><option value="ru">Русский</option><option value="en">English</option></select>';
@@ -110,11 +114,6 @@
       a.setAttribute('href', a.getAttribute('href') + '?lang=' + lang);
     });
     const gate = document.querySelector('.age-card'); if (gate) gate.prepend(selector());
-    if (lang === 'en') {
-      const note = document.createElement('p'); note.className = 'language-note wrap';
-      note.textContent = 'Product names and producer-response notes are shown in their original language.';
-      document.querySelector('header')?.after(note);
-    }
     apply();
   });
 })();
