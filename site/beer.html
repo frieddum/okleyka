@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Российское пиво и сидр — Оклейка</title>
+<meta name="description" content="Российские пивоварни и сидродельни, которые ответили, что не используют животные вещества.">
+<meta name="color-scheme" content="light dark">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script src="age.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">К тексту</a>
+<header class="masthead">
+  <div class="wrap">
+    <a class="wordmark" href="./">Оклейка</a>
+    <span class="tagline">Независимый справочник веганского статуса алкоголя в российских сетях</span>
+    <nav class="nav" aria-label="Разделы">
+      <a href="./">Справочник</a>
+      <a href="beer.html" aria-current="page">Российское пиво и сидр</a>
+      <a href="method.html">Методика</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <article class="prose">
+    <h1>Российское пиво и сидр</h1>
+    <p class="lead">Пивоварни и сидродельни, которые ответили, что не используют животные вещества при производстве и фильтрации. Ассортимент у них меняется часто, поэтому здесь ответы целиком, а не отдельные бутылки. Исключения из ответа указаны у каждой.</p>
+    <p class="notice"><b>Проверьте состав на этикетке.</b> Даже у веганских пивоварен бывают сорта с лактозой (молочные стауты, «милкшейк»-IPA), мёдом, а у крафтовых — даже с мясом, рыбой, устрицами или беконом. Ответ пивоварни касается осветления и фильтрации, а не каждого рецепта.</p>
+    <div id="breweries"><p>Загружаю…</p></div>
+    <p class="note">Источник ответов — <a href="https://veganrussian.ru/" rel="noopener">VeganRussian</a>, с разрешения владелицы сайта. У каждой пивоварни ссылка на запись с ответом.</p>
+  </article>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>Независимый проект, не связан с Barnivore, VeganRussian, сетями и производителями.</p>
+  </div>
+</footer>
+
+<script>
+(async () => {
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const MONTHS = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
+  const fmtDate = d => { const m = /^(\d{4})-(\d{2})/.exec(d || ''); return m ? `${MONTHS[+m[2] - 1]} ${m[1]}` : ''; };
+  const box = document.getElementById('breweries');
+  try {
+    const data = await (await fetch('data/breweries.json', { cache: 'no-cache' })).json();
+    const groups = [['Пиво', b => b.kind !== 'Сидр'], ['Сидр', b => b.kind === 'Сидр']];
+    box.innerHTML = groups.map(([title, test]) => {
+      const list = data.filter(test).sort((a, b) => a.name.localeCompare(b.name, 'ru'));
+      if (!list.length) return '';
+      return `<h2>${title}</h2><ul class="brew-list">` + list.map(b =>
+        `<li><p class="brew-name"><b>${esc(b.name)}</b>${b.city ? `<span class="brew-city">${esc(b.city)}</span>` : ''}</p>
+         <p>${esc(b.note)}</p>
+         <p class="brew-src"><a href="${esc(b.url)}" rel="noopener nofollow" target="_blank">Ответ на VeganRussian</a>${b.date ? ` · ${fmtDate(b.date)}` : ''}</p></li>`).join('') + '</ul>';
+    }).join('');
+  } catch (e) {
+    box.innerHTML = '<p>Не удалось загрузить список.</p>';
+  }
+})();
+</script>
+<script src="top.js" defer></script>
+</body>
+</html>

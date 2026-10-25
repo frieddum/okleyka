@@ -1,0 +1,5536 @@
+{
+ "angostura orange bitters": {
+  "volume_ml": 100.0
+ },
+ "choya herb umeshu": {
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "riga black balsam": {
+  "volume_ml": 350.0
+ },
+ "sandara sangria premium": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 8.0,
+  "volume_ml": 750.0
+ },
+ "бренди sandeman capa negra solera reserva": {
+  "volume_ml": 700.0
+ },
+ "бренди sandeman imperial solera": {
+  "volume_ml": 700.0
+ },
+ "вермут martini bianco": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 15.0,
+  "volume_ml": 1000.0
+ },
+ "вермут martini fiero": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 15.0,
+  "volume_ml": 1000.0
+ },
+ "вино alasia barbera d asti superiore docg": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино albino armani gewurztraminer trentino doc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино alegrete vinho verde": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 8.5,
+  "volume_ml": 750.0
+ },
+ "вино alegrete vinho verde rose": {
+  "color": "Розовое",
+  "sugar": "Полусухое",
+  "abv": 9.0,
+  "volume_ml": 750.0
+ },
+ "вино altos ibericos crianza": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино amarone della valpolicella classico tommasi": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "вино antigal aduentus classic": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "вино antigal aduentus mediterraneo": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино antigal estimulo malbec 2015": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино antigal one la dolores vineyard malbec": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.5,
+  "volume_ml": 750.0
+ },
+ "вино antigal uno cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино antigal uno cabernet sauvignon red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино antigal uno malbec": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино antigal uno malbec red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино anura pinotage oak": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино argento bonarda seleccion": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино argento pinot grigio": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино arienzo crianza": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино arthur metz fleischer gewurtztraminer alsace aoc": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино arthur metz fleischer riesling alsace aoc": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 10.5,
+  "volume_ml": 750.0
+ },
+ "вино august blauer zweigelt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "volume_ml": 750.0
+ },
+ "вино august cuvee quattro": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "volume_ml": 750.0
+ },
+ "вино august cuvee white": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино august gruner veltliner": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "volume_ml": 750.0
+ },
+ "вино august pinot noir": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино august riesling tradition": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино babich family estates headwaters organic pinot noir": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино babich family estates headwaters organic sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино banrock station cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино banrock station red wine": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино banrock station reserve chardonnay verdelho 2014": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино banrock station shiraz 2013": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино banrock station white wine": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "вино bardolino chiaretto classico campo delle rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино bardolino classico ca de rocchi": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино bardolino selezione di famiglia": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино bardos romantica crianza ribera del duero red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино barefoot cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино barefoot chardonnay": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино barefoot merlot": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино barefoot pinot grigio": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино barefoot zinfandel красное полусухое": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино bernard massard elbling grevenmacher white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "вино bernard massard pinot noir grevenmacher red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино bernard massard rivaner grevenmacher white semi dry": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "вино berton vineyards outback jack shiraz merlot": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино beyerskloof pinotage": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино bodegas piqueras castillo de almansa coleccion garnacha tintorera tinto do": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино bodegas piqueras castillo de almansa coleccion syrah rosado do": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино bodegas piqueras castillo de almansa coleccion verdejo sauvignon blanco do": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино bodegas piqueras castillo de almansa crianza do": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино bodegas piqueras castillo de almansa reserva do": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "вино bodegas ramon bilbao crianza": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино botter bardolino doc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter cabernet veneto igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter carlo bottero di cello bianco veneto igt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 1000.0
+ },
+ "вино botter carlo bottero di cello rosso veneto igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 1000.0
+ },
+ "вино botter carlo caleo chianti": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино botter carlo caleo montepulciano d abruzzo": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино botter carlo caleo nero d avola": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино botter carlo caleo pinot grigio": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter carlo caleo primitivo": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино botter carlo caleo soave": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter chardonnay veneto igt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter chianti docg": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино botter la casada cabernet sauvignon veneto igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter la casada chardonnay veneto igt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter la casada merlot veneto igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter la casada pinot grigio veneto igt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter la casada sangiovese veneto igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "вино botter merlot veneto igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter montepulciano d abruzzo doc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино botter nero d avola sicilia igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино botter piazza del castello rosso toscana igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино botter pinot grigio veneto igt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter primitivo salento igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино botter sangiovese rubicone igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter soave doc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter valpolicella doc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter villa alba pinot grigio puglia igt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино botter villa alba rosso salento semi sweet doc": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 10.5,
+  "volume_ml": 750.0
+ },
+ "вино botter villa alba salice salentino doc riserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино botter villa alba soave doc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино brancott estate letter series marlborough t pinot noir": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино brancott estate marlborough sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 187.0
+ },
+ "вино brancott estate sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино brezza bianco dell umbria": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино buena vista pinot noir": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино buena vista zinfandel": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cabernet sauvignon barton guestier": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино cabernet sauvignon corvina veneto vinaie selezione di famiglia": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cabernet sauvignon crane lake red semi dry": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино cannonau di sardegna cannonau di sardegna doc g19": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano chardonnay": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano gewurztraminer": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano lagrein gries riserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano lagrein rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano lunare gewurztraminer": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano monticol pinot noir riserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano muller thurgau": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano nova domus riserva": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano pinot bianco": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano pinot grigio": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano pinot noir": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano quarz": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 1500.0
+ },
+ "вино cantina terlano terlaner classico": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano vorberg riserva pinot bianco": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино cantina terlano winkl sauvignon": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cantine torri origami": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cantosan verdejo vinas vieja rueda do": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино caroline bay merlot cabernet": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино caroline bay sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино casa santos lima corvos de lisboa arinto": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино casa santos lima fernao pires": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино casa santos lima tarambola": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино casa santos lima termo de lisboa": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино castel firmian moscato giallo white sweet": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 10.5,
+  "volume_ml": 750.0
+ },
+ "вино castellare di castellina chianti classico riserva docg": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино castro ventosa el castro de valtuille mencia joven red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино catena zapata alamos chardonnay": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино ch teau sainte marguerite cru class symphonie": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau bastor lamontagne": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино chateau bel air roudier": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau carbonnieux blanc pessac leognan aoc grand cru classe de graves": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau carbonnieux grand cru classe de graves pessac leognan": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau la garrus": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино chateau lagrange": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино chateau lagrange saint julien aoc 3 eme grand cru classe": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau le grand verdus": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau le grand verdus red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau maris la touge minervois la liviniere red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau mukhrani goruli mtsvane": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau mukhrani kindzmarauli": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau mukhrani saperavi": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau mukhrani saperavi cabernet": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau mukhrani sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau mukhrani tavkveri": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau pontet canet": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино chateau pontet canet pauillac grand cru classe 12 red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau smith haut lafitte pessac leognan aoc grand cru classe": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино chateau smith haut lafitte rouge grand cru classe de graves": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино chateau soutard": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино chateau soutard saint emilion grand cru classe": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино chianti cecchi": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино chаteau carbonnieux chateau tour leognan 2 em vin pessac leognan аос": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино chаteau carbonnieux grand cru classe pessac leognan аос 2007": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино chаteau carbonnieux grand cru classe pessac leognan аос 2012": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино chаteau carbonnieux grand cru classe pessac leognan аос 2013": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино cline ancient vines zinfandel": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "вино cline california zinfandel": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино cline sonoma county syrah": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино cono sur bicicleta sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино cote rotie les becasses m chapoutier 2012": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино cotes du rhone aoc les dauphins reserve": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cotes du rhone belleruche blanc 2015": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cotes du rhone belleruche rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cotes du rhone belleruche красное сухое": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино cotes du rhone les dauphins reserve": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино cotes du rhone parallele 45": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино cotes du rhone rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино crozes hermitage les meysonniers": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино cuatro rayas": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино cuatro rayas 4r verdejo rueda do": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино cuatro rayas organic tempranillo roble rueda do": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино custoza selezione di famiglia": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино cuvee du plaisir blanc moelleux": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "вино cuvee du plaisir blanc sec": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "вино cuvee du plaisir rouge moelleux": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "вино cuvee du plaisir rouge sec": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "вино d arenberg the footbolt shiraz": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино daniel bouju pineau des charentes": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 18.0,
+  "volume_ml": 750.0
+ },
+ "вино darling cellars chocoholic pinotage red semi dry": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино domaene gobelsburg gruner veltliner kamptal dac": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино domaine bousquet cabernet sauvignon tupungato valley 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино domaine bousquet chardonay torrontes tupungato valley 2017": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино domaine bousquet gaia red blend tupungato valley 2015": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино domaine bousquet malbec cabernet rose dry": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино domaine bousquet malbec tupungato valley 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино domaine bousquet reserve chardonay tupungato valley 2016": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино domaine bousquet reserve malbec red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино domaine bousquet reserve pino noir tupungato valley 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино domaine du salvard cheverny aoc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино domaine du tariquet chardonnay cotes de gascogne vdp": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино domaine du tariquet chenin chardonnay cotes de gascogne vdp": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино domaine du tariquet l idee folle": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 17.0,
+  "volume_ml": 750.0
+ },
+ "вино domaine du tariquet sauvignon cotes de gascogne vdp": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино domaine la suffrene bandol aoc": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино domaine moncourt cabernet d anjou": {
+  "color": "Розовое",
+  "sugar": "Полусладкое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "вино domaine moncourt rose d anjou": {
+  "color": "Розовое",
+  "sugar": "Полусладкое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "вино dominio de punctum lanesta airen seco tierra castilla": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино dominio de punctum lanesta airen semidulce tierra castilla": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино dominio de punctum lanesta tempranillo seco tierra castilla": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино dominio de punctum lanesta tempranillo semidulce tierra castilla": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино dr loosen dr l dry riesling qualitatswein": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино dr loosen erdener treppchen riesling sp tlese pr dikatswein": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 8.0,
+  "volume_ml": 750.0
+ },
+ "вино dr loosen graacher himmelreich riesling dry grosses gew chs qualit tswein": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино dr loosen riesling beerenauslese": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 7.0,
+  "volume_ml": 187.0
+ },
+ "вино dr loosen riesling urziger wurzgarten kabinett": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 9.0,
+  "volume_ml": 750.0
+ },
+ "вино dr loosen riesling wehlener sonnenuhr kabinett": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 7.5,
+  "volume_ml": 750.0
+ },
+ "вино duca di salaparuta corvo bianco igt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино duca di salaparuta corvo rosso igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино duca di saragnano alchimia primitivo igt": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино duca di saragnano chianti governo docg": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино duca di saragnano governo toscana": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино duca di saragnano rosso toscana vecciano igt": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино e guigal condrieu la doriane": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино e guigal cotes du rhone rouge": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино e guigal crozes hermitage blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино e guigal crozes hermitage rouge": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино echeverria cabernet sauvignon merlot reserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино echeverria chardonnay reserva white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино echo falls california white": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино echo falls white zinfandel": {
+  "color": "Розовое",
+  "sugar": "Полусладкое",
+  "abv": 10.5,
+  "volume_ml": 750.0
+ },
+ "вино epos frascati superiore d o c g riserva": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино esteban martin blanco carinena do": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино esteban martin crianza carinena do": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино esteban martin joven carinena do": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино esteban martin reserva carinena do": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино finca las moras cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино finca las moras chardonnay": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино finca las moras malbec": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино finca las moras sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино flagstone longitude": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино flagstone noon gun": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино franz haas manna": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино franz haas pinot grigio": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино franz haas pinot nero": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино fresita": {
+  "color": "Розовое",
+  "sugar": "Сладкое",
+  "abv": 8.0,
+  "volume_ml": 375.0
+ },
+ "вино georges duboeuf beaujolais nouveau": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино georges duboeuf chardonnay louis galud semi sweet": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино georges duboeuf merlot louis galud semi sweet": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино georges duboeuf syrah rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино glaetzer amon ra": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.5,
+  "volume_ml": 750.0
+ },
+ "вино glaetzer anaperenna": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "вино glaetzer wallace": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино grupo yllera bracamonte tempranillo riserva red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино grupo yllera bracamonte verdejo white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино haras de pirque hussonet cabernet sauvignon gran reserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино hardys bin 141 colombard chardonnay": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино hardys bin 343 cabernet shiraz": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино hardys crest rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино hardys legacy red": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино hardys legacy white": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино hardys mill cellars chardonnay": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино hardys mill cellars shiraz": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино hardys nottage hill cabernet shiraz": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино hardys stamp chardonnay semillon": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино hardys stamp of australia chardonnay semillon": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 187.0
+ },
+ "вино hardys stamp riesling gewurztraminer sweet semi sweet": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино hardys stamp shiraz cabernet semi sweet": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино hardys vr cabernet sauvignon red dry": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино hardys vr chardonnay": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино hardys vr sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино hardys vr shiraz": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино hebo": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино herederos del marques de riscal reserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино hugel et fils muscat alsace aoc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино isla negra cabernet sauvignon merlot": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 3000.0
+ },
+ "вино isla negra sauvignon blanc chardonnay": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 3000.0
+ },
+ "вино isla negra west bay red": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 12.0,
+  "volume_ml": 1000.0
+ },
+ "вино jean bouchard bourgogne aligote aoc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино jean bouchard bourgogne hautes cotes de nuits blanc aoc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино jean marc brocard petit chablis": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино kaiken terroir series torrontes white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино kendall jackson vintner s reserve chardonnay white semi dry": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино kendall jackson vintner s reserve merlot red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино kloster eberbach riesling classic rheingau": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино kloster eberbach spatburgunder": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино korvina selezione di famiglia": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино kumala colombard chardonnay white semi sweet": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино kumala intulo white": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино kumala medium sweet red": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино kumala pinotage shiraz": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино kumala reserve chenin blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино kumala reserve shiraz": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино kvareli shumi": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино la chablisienne chablis aoc les venerables vielles vignes": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино la chablisienne chablis gran cru aoc les clos 2011": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино la chablisienne chablis grand cru aoc chateau grenouilles 2012": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино la chablisienne le finage chablis aoc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино la chablisienne vibrant petit chablis aoc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино landlust grauer burgunder riesling": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино langhe arneis blange": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино langmeil wattle brae riesling eden valley": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино le petit haut lafitte pessac leognan aoc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино le potazzine parus toscana igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино leeuwenkuil lion s lair shiraz red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино les jamelles cabernet sauvignon pays d oc igp": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино les jamelles chardonnay pays d oc igp": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино les jamelles merlot pays d oc igp": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино les jamelles sauvignon blanc pays d oc igp": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино les jamelles selection speciale grenache syrah mourvedre": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино les jamelles syrah pays d oc igp": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино les vignerons d estezargues domaine d andezon cotes du rhone villages": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино loimer gruner veltliner mit achtung white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино loimer langenlois pinot noir red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино loimer muskateller mit achtung white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино loimer traminer alte reben mit achtung 2015": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино loimer zoebing heiligenstein riesling white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино loimer zweigelt 2015": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино loimer zweigelt red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино long barn zinfandel": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино loosen riesling dr l trocken white semi dry": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино lopes morenas ponderado blanco": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино lopes morenas ponderado cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино lopes morenas ponderado sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино lopes morenas ponderado tinto": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино los molinos airen verdejo": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино los molinos tempranillo": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино louis jadot beaujolais villages aoc 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино louis jadot bourgogne aoc couvent des jacobins rouge 2014": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино louis jadot chablis aoc 2015": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино luigi bosca cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино luigi bosca chardonnay": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино luigi bosca gala red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино luigi bosca malbec": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино m chapoutier crozes hermitage les meysonniers blanc aoc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино m chapoutier gigondas aoc 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "вино m chapoutier les vignes de bila haut cotes du roussillon villages aoc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино madeira rainwater": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 19.0,
+  "volume_ml": 750.0
+ },
+ "вино malbec finca la linda": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино malvasia bianca chardonnay puglia monteiasi feudo di santa croce": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино malvasia bianca salento alea feudo di santa croce": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино maree d ione nero di troia organic puglia": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино marques de caceres blanco": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино marques de caceres crianza": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино marques de caceres excellens reserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино marques de caceres excellens rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино marques de caceres reserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино marques de caceres rosado": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино marques de caceres verdejo rueda do": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино marques de murrieta tinto reserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино marques de riscal sauvignon": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино martin codax duque de la torre dorada": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino aglianico campania igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino falanghina sannio doc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino fiano di avellino do cg": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino fiano di avellino docg": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino greco di tufo docg": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino lacrimarosa campania igt": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino mastro aglianico campania": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino mastro greco campania igt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino naturalis historia taurasi docg": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino neroameta campania igt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino radici taurasi": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино mastroberardino redimore irpinia aglianico doc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино matsu el picaro": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино matua pinot noir": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино matua sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино merlot barton guestier": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино merlot prato del faggio": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино merlot selezione di famiglia": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино mezzacorona moscato giallo white sweet": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 10.5,
+  "volume_ml": 750.0
+ },
+ "вино mezzacorona teroldego rotaliano riserva red semi dry": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино michael mondavi emblem cabernet sauvignon napa valley": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино mollydooker carnival of love shiraz": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.5,
+  "volume_ml": 750.0
+ },
+ "вино mollydooker enchanted path shiraz cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "вино mollydooker the boxer shiraz": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "volume_ml": 750.0
+ },
+ "вино mollydooker the scooter merlot": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "вино mollydooker two left feet shiraz cabernet merlot": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.5,
+  "volume_ml": 750.0
+ },
+ "вино monferrato doc alasia chiaretto": {
+  "color": "Розовое",
+  "sugar": "Полусухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино montepulciano d abruzzo riparosso": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино montgras amaral sauvignon blanc leyda valley do": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино montgras cabernet sauvignon 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино montgras chardonnay 2017": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино montgras estate merlot red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино montgras quatro": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино montgras reserva cabernet sauvignon 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино montgras reserva carmenere 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино montgras reserva chardonnay do colchagua valley": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино morellino di scansano duca di saragnano": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 16.0,
+  "volume_ml": 750.0
+ },
+ "вино moulin de gassac classic rouge": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино mud house marlborough sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино murphy goode cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино murphy goode chardonnay": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино murphy goode pinot noir": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино murphy goode red blend": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино murphy goode sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино muscat les princes abbes": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино nals margreid lyra gewurztraminer alto adige doc": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино nals margreid mantele sauvignon alto adige doc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино nals margreid mazzon pinot noir alto adige doc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино nals margreid penon pinot bianco alto adige doc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино nals margreid pinot grigio sudtirol alto adige doc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино nals margreid pinot grigio vigneti delle dolomiti": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино nals margreid punggl pinot grigio white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино namaqua blanc de blanc": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино namaqua cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино namaqua chenin blanc": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино namaqua merlot": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино namaqua pinotage": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино namaqua shiraz": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино natale verga bardolino frassino doc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино negro amaro malvasia nera salento malnera": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино negroamaro salento megale": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино noel feudo croce": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино obikwa cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино obikwa chardonnay white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино obikwa merlot red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино obikwa pinotage": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино obikwa pinotage rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино obikwa sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино obikwa shiraz red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино opus one red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино p road marlborough pinot gris": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино pa road marlborough rose": {
+  "color": "Розовое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино pa road marlborough sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино paco lola 12 albarino rias baixas do": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино pagos del rey pulpo albarino rias baixas felix solis avantis do": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино pasion de bobal reb": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино pasion de bobal rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино pasion de moscatel": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино paul cluver gewurztraminer elgin white semi dry": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино paul cluver pinot noir elgin red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино paul cluver riesling elgin white semi dry": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино paul cluver weisser riesling noble late harvest white sweet": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 10.5,
+  "volume_ml": 750.0
+ },
+ "вино paul mas cabernet sauvignon pays d oc red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино paul mas chardonnay pays d oc white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино paul mas gewurztraminer pays d oc white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино paul mas merlot pays d oc red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино paul mas pinot noir pays d oc red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино paul mas sauvignon blanc pays d oc white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино paul mas syrah pays d oc red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино paxton aaa organic shiraz grenache red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино paxton the guesser organic white 2016": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино paxton wines mv cabernet sauvignon organic": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино paxton wines mv shiraz": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино perrin et fils la vieille ferme blanc cotes du luberon aoc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино perrin et fils la vieille ferme rose cotes du ventoux aoc": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино perrin et fils la vieille ferme rouge cotes du ventoux aoc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино peter mertes biorebe merlot": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино peter mertes maybach chardonnay": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино petra": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино petra alto": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино petra colle al fico": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино petra quercegobbe": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино piemonte doc alasia cortese": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино pinero pinot nero del sebino igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино pinot blanc les princes abbes": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино pinot grigio delle venezie ca de rocchi": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино pinot grigio santa margherita": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино pinot grigio selezione di famiglia": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино plantaze vranac pro corde": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино poggio la rocca": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино poggio le volpi baccarossa": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино poggio le volpi cesanese lazio": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино poggio le volpi chardonnay": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино poggio le volpi donnaluce": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино poggio le volpi mirre salice salentino d o р riserva": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино poggio le volpi tator primitivo salento": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино pojer e sandri chardonnay vigneti delle dolomiti igt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино pojer e sandri pinot nero vigneti delle dolomiti igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино pojer sandri faye bianco white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино pojer sandri merlino rosso fortificato dolomiti": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 19.0,
+  "volume_ml": 500.0
+ },
+ "вино pojer sandri palai muller thurgau white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино pojer sandri pinot nero rodel pianezzi red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино pojer sandri sauvignon white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино pojer sandri traminer aromatico white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино pomares branco": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино pomares moscatel branco": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино pomares tinto": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино pratello lugana": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино primitivo di manduria byzantium feudo di santa croce": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино prospetti soave doc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "вино proximo": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино querciabella bataк toscana igt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино querciabella chianti classico": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 375.0
+ },
+ "вино querciabella chianti classico docg": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино querciabella chianti classico docg riserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино querciabella chianti classico docg в деревянном футляре": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 1500.0
+ },
+ "вино querciabella mongrana toscana igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино querciabella turpino toscana igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино quinta nova de nossa senhora do carmo": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино quinta nova de nossa senhora do carmo reserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино radford dale frankenstein pinotage": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино ramon bilbao edicion limitada rioja doc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино ramon bilbao gran reserva rioja doc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино rawson s retreat shiraz cabernet": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино reserve mouton cadet medoc aoc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино reyneke chenin blanc white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино reyneke cornerstone red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино reyneke reserve white dry": {
+  "color": "Белое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино reyneke sauvignon blanc white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино reyneke syrah red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино riesling wagner stempel": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино rigodina chianti docg": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино riserva ducale chianti classico riserva": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино robertson winery": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 7.0,
+  "volume_ml": 750.0
+ },
+ "вино robertson winery cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино robertson winery chardonnay": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино robertson winery chardonnay white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 3000.0
+ },
+ "вино robertson winery merlot red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино robertson winery pinotage red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино robertson winery sauvignon blanc white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино robertson winery shiraz red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино robertson winery sweet red": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 9.0,
+  "volume_ml": 3000.0
+ },
+ "вино robertson winery sweet white": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 9.0,
+  "volume_ml": 3000.0
+ },
+ "вино rockford basket press shiraz barossa valley": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино rockford moppa springs grenache mataro shiraz barossa valley": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино rockford rod spur shiraz cabernet barossa valley": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино rosato alghero rosato doc": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино ruffino chianti красное сухое": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино ruffino modus": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино ruffino orvieto classico": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино santa julia reserva chardonnay": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино santa julia reserva malbec": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино santa julia torrontes 2016": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино satinela blanco": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино sauvignon blanc thelema": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино sauvignon blanc wagner stempel": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино schloss gobelsburg pinot noir reserve red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино schloss gobelsburg reisenberger wiener riesling white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино schloss gobelsburg riesling zoebinger heiligenstein reserve white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино schlosskellerei gobelsburg riesling urgestein white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино sella mosca vermentino di sardegna white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино sensi vegante chianti superiore docg": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино serego alighieri possessioni bianco white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино serego alighieri possessioni rosso": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино sileni estates cellar selection chardonnay": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино sileni estates cellar selection sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино simonsig chardonnay": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино simonsig chenin blanc": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино soave ca de rocchi": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино springfield estate the work of time red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино springfield estate whole berry cabernet sauvignon red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино springfield estate wild yeast chardonnay white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино st michael eppan gew rztraminer": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино st michael eppan m ller thurgau": {
+  "color": "Белое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино st michael eppan pinot grigio": {
+  "color": "Белое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино st michael eppan sauvignon sanct valentin": {
+  "color": "Белое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино stellenbosch meerlust merlot red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино stellenbosch waterkloof circle of life red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино susana balbo late harvest malbec 2012": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино susana balbo late harvest torrontes 2012": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино tarapaca cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино tarapaca gran reserva carmenere": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино tarapaca gran reserva merlot": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино tarapaca gran reserva pinot noir": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино tarapaca sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино tavel beaurevoir": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино te pa pinot gris": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино terre bianche alghero torbato doc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино terre da vino gavi di gavi valegge": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино the hess collection allomi vineyard cabernet sauvignon 2014": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино the hess collection chardonnay": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 14.5,
+  "volume_ml": 750.0
+ },
+ "вино the lodge hill shiraz red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино tignanello toscana": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино tommasi bosco del gal custoza white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино tommasi lugana doc le fornaci": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино tommasi rafael valpolicella classico superiore doc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино tommasi recioto della valpolicella doc classico fiorato": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 13.0,
+  "volume_ml": 375.0
+ },
+ "вино tommasi ripasso valpolicella classico superiore": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино tommasi soave classico": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 375.0
+ },
+ "вино tommasi valpolicella": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 375.0
+ },
+ "вино tommasi valpolicella doc": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино torbreck the struie": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "вино torbreck woodcutter s shiraz": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "вино trapiche malbec": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино trapiche oak cask malbec red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино trapiche torrontes white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино trapiche vineyards chardonnay": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино vecchia cantina di montepulciano chianti docg": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино vecchia cantina di montepulciano le seianti chianti docg": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино vecchia cantina di montepulciano le seianti rosso toscano igt": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино vina real blanco fermentado en barrica": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино vina san juan red la mancha felix solis avantis do": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино vina temprana old vines garnacha": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино viognier finca la linda": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино viu manent estate collection chardonnay reserva": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино viu manent estate collection reserva cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино viu manent estate collection reserva carmenere": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино viu manent estate collection reserva malbec": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино viu manent estate collection reserva malbec rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино viu manent estate collection reserva merlot": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино viu manent estate collection sauvignon blanc reserva": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "вино viu manent gran reserva cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино viu manent gran reserva carmenere": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино viu manent gran reserva malbec": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино viu manent noble semillon botrytis selection": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 11.5,
+  "volume_ml": 500.0
+ },
+ "вино viu manent secreto carmenere red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино viu manent secreto sauvignon blanc white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино viu manent single vineyard cabernet sauvignon la capilla": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино viu manent single vineyard malbec san carlos": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино vivanco blanco rioja doca": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино vivanco crianza rioja doca": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино vivanco reserva rioja doca": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино warwick estate the first lady cabernet sauvignon red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино warwick the first lady chardonnay white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино warwick the first lady sauvignon blanc white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино warwick three cape ladies simonsberg stellenbosch red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "вино wente louis mel sauvignon blanc white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0,
+  "volume_ml": 750.0
+ },
+ "вино wente southern hills cabernet sauvignon red dry": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино white zinfandel rose semi sweet": {
+  "color": "Розовое",
+  "sugar": "Полусладкое",
+  "abv": 10.5,
+  "volume_ml": 1000.0
+ },
+ "вино wide river белое сладкое": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 9.0,
+  "volume_ml": 750.0
+ },
+ "вино wide river красное сладкое": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 9.0,
+  "volume_ml": 750.0
+ },
+ "вино winery of good hope bush vine pinotage": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино zingari bianco": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино винный напиток sangria don simon": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 7.0,
+  "volume_ml": 1000.0
+ },
+ "вино лонг барн шардонне": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.5,
+  "volume_ml": 750.0
+ },
+ "вино мастри вернаколи пино гриджио": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "вино сан валентин гарнача": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0,
+  "volume_ml": 750.0
+ },
+ "виски ardbeg uigeadail": {
+  "volume_ml": 700.0
+ },
+ "виски ardbeg wee beastie 5 years old": {
+  "volume_ml": 700.0
+ },
+ "виски auchentoshan 18 years gift box": {
+  "volume_ml": 700.0
+ },
+ "виски auchentoshan american oak с 2 подарочными стаканами": {
+  "volume_ml": 700.0
+ },
+ "виски auchentoshan classic": {
+  "volume_ml": 700.0
+ },
+ "виски ballantine s 12 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "виски ballantine s bourbon finish 7 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "виски ballantine s finest": {
+  "volume_ml": 500.0
+ },
+ "виски ballantines finest": {
+  "volume_ml": 750.0
+ },
+ "виски balvenie doublewood": {
+  "volume_ml": 700.0
+ },
+ "виски benriach 10 years in tube": {
+  "volume_ml": 700.0
+ },
+ "виски benriach heart of speyside in tube": {
+  "volume_ml": 700.0
+ },
+ "виски benriach madeira 15 years old in tube": {
+  "volume_ml": 700.0
+ },
+ "виски bowmore legend": {
+  "volume_ml": 700.0
+ },
+ "виски bruichladdich islay barley": {
+  "volume_ml": 700.0
+ },
+ "виски bruichladdich octomore edition 081 1": {
+  "volume_ml": 700.0
+ },
+ "виски bruichladdich octomore scottish barley": {
+  "volume_ml": 700.0
+ },
+ "виски bruichladdich port charlotte scottish barley": {
+  "volume_ml": 700.0
+ },
+ "виски bruichladdich scottish barley": {
+  "volume_ml": 700.0
+ },
+ "виски bulleit bourbon frontier": {
+  "volume_ml": 700.0
+ },
+ "виски caol ila 12 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "виски cardhu 12 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "виски chivas regal": {
+  "volume_ml": 750.0
+ },
+ "виски chivas regal 12 years": {
+  "volume_ml": 700.0
+ },
+ "виски chivas regal 12 летней выдержки": {
+  "volume_ml": 50.0
+ },
+ "виски chivas regal 12 летней выдержки в металлической тубе": {
+  "volume_ml": 700.0
+ },
+ "виски chivas regal flask": {
+  "volume_ml": 500.0
+ },
+ "виски chivas regal the icon": {
+  "volume_ml": 700.0
+ },
+ "виски chivas regal ultis": {
+  "volume_ml": 700.0
+ },
+ "виски compass box the peat monster": {
+  "volume_ml": 700.0
+ },
+ "виски connemara gift box": {
+  "volume_ml": 700.0
+ },
+ "виски cutty sark": {
+  "volume_ml": 500.0
+ },
+ "виски dingle single malt": {
+  "volume_ml": 700.0
+ },
+ "виски dingle single malt batch 5": {
+  "volume_ml": 750.0
+ },
+ "виски dingle single pot still batch 5": {
+  "volume_ml": 700.0
+ },
+ "виски early times": {
+  "volume_ml": 750.0
+ },
+ "виски early times old 1860": {
+  "volume_ml": 700.0
+ },
+ "виски elijah craig small batch": {
+  "volume_ml": 750.0
+ },
+ "виски glendalough double barrel": {
+  "volume_ml": 700.0
+ },
+ "виски glenfarclas 21 летней выдержки в тубе": {
+  "volume_ml": 700.0
+ },
+ "виски glenfarclas 25 years in tube": {
+  "volume_ml": 700.0
+ },
+ "виски glenfarclas heritage": {
+  "volume_ml": 700.0
+ },
+ "виски glenfiddich 15 летней выдержки": {
+  "volume_ml": 50.0
+ },
+ "виски glenfiddich 30 лет": {
+  "volume_ml": 750.0
+ },
+ "виски glenfiddich cask of dreams russian cask": {
+  "volume_ml": 700.0
+ },
+ "виски glenfiddich project xx": {
+  "volume_ml": 700.0
+ },
+ "виски glenfiddich rich oak 14 years old in tube": {
+  "volume_ml": 700.0
+ },
+ "виски glenfiddich solera reserve 15 летней выдержки": {
+  "volume_ml": 750.0
+ },
+ "виски glenfiddich special reserve 12 летней выдержки": {
+  "volume_ml": 50.0
+ },
+ "виски glengoyne 10 летней выдержки в тубе": {
+  "volume_ml": 700.0
+ },
+ "виски glengoyne single malt scotch whisky cask strength": {
+  "volume_ml": 700.0
+ },
+ "виски glenmorangie 25 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "виски glenmorangie companta": {
+  "volume_ml": 700.0
+ },
+ "виски glenmorangie milsean": {
+  "volume_ml": 700.0
+ },
+ "виски glenmorangie nectar d or": {
+  "volume_ml": 700.0
+ },
+ "виски glenmorangie original 10 years old": {
+  "volume_ml": 500.0
+ },
+ "виски glenmorangie original 10 летней выдержки с 2 подарочными стаканами": {
+  "volume_ml": 700.0
+ },
+ "виски glenmorangie quinta ruban": {
+  "volume_ml": 700.0
+ },
+ "виски glenmorangie signet": {
+  "volume_ml": 700.0
+ },
+ "виски glenmorangie the original": {
+  "volume_ml": 1500.0
+ },
+ "виски glenmorangie x": {
+  "volume_ml": 700.0
+ },
+ "виски glenrothes alba reserve": {
+  "volume_ml": 700.0
+ },
+ "виски glenrothes single speyside malt 1995": {
+  "volume_ml": 700.0
+ },
+ "виски glenrothes single speyside malt select reserve gift box": {
+  "volume_ml": 700.0
+ },
+ "виски glenrothes vintage reserve": {
+  "volume_ml": 700.0
+ },
+ "виски grant s 8 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "виски grant s family reserve": {
+  "volume_ml": 50.0
+ },
+ "виски grant s triple wood": {
+  "volume_ml": 500.0
+ },
+ "виски highland park 18 year old viking pride": {
+  "volume_ml": 700.0
+ },
+ "виски highland park 18 лет": {
+  "volume_ml": 50.0
+ },
+ "виски highland park 25 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "виски highland park ice edition": {
+  "volume_ml": 700.0
+ },
+ "виски highland park odin 16 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "виски isle of jura 16 years old gift box": {
+  "volume_ml": 700.0
+ },
+ "виски jack daniel s tennessee fire": {
+  "volume_ml": 700.0
+ },
+ "виски jura journey": {
+  "volume_ml": 700.0
+ },
+ "виски laphroaig 25 years old": {
+  "volume_ml": 700.0
+ },
+ "виски macallan 12 летней выдержки": {
+  "volume_ml": 50.0
+ },
+ "виски macallan 12yo triple cask": {
+  "volume_ml": 500.0
+ },
+ "виски macallan 6": {
+  "volume_ml": 700.0
+ },
+ "виски macallan classic cut": {
+  "volume_ml": 700.0
+ },
+ "виски macallan fine oak 12 летней выдержки": {
+  "volume_ml": 1750.0
+ },
+ "виски macallan masters edition": {
+  "volume_ml": 700.0
+ },
+ "виски macallan quest 3 года": {
+  "volume_ml": 1000.0
+ },
+ "виски macallan rare cask": {
+  "volume_ml": 700.0
+ },
+ "виски macallan reflection": {
+  "volume_ml": 700.0
+ },
+ "виски maker s mark bourbon": {
+  "volume_ml": 700.0
+ },
+ "виски monkey shoulder": {
+  "volume_ml": 50.0
+ },
+ "виски ole smoky harley davidson moonshine": {
+  "volume_ml": 750.0
+ },
+ "виски ole smoky hunch punch moonshine": {
+  "volume_ml": 750.0
+ },
+ "виски ole smoky original moonshine": {
+  "volume_ml": 750.0
+ },
+ "виски ole smoky white lightnin moonshine": {
+  "volume_ml": 750.0
+ },
+ "виски spicebox": {
+  "volume_ml": 750.0
+ },
+ "виски spicebox chocolate": {
+  "volume_ml": 750.0
+ },
+ "виски spicebox cinnamon": {
+  "volume_ml": 750.0
+ },
+ "виски spicebox pumpkin": {
+  "volume_ml": 750.0
+ },
+ "виски talisker 10 летней выдержки": {
+  "volume_ml": 750.0
+ },
+ "виски teacher s highland cream": {
+  "volume_ml": 500.0
+ },
+ "виски the famous grouse": {
+  "volume_ml": 500.0
+ },
+ "виски the famous grouse 12 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "виски the famous grouse finest": {
+  "volume_ml": 50.0
+ },
+ "виски the famous grouse highland distillers ltd": {
+  "volume_ml": 700.0
+ },
+ "виски the famous grouse smoky black": {
+  "volume_ml": 700.0
+ },
+ "виски the famous grouse с 2 подарочными бокалами": {
+  "volume_ml": 700.0
+ },
+ "виски the hakushu 12 years old": {
+  "volume_ml": 700.0
+ },
+ "виски the hakushu 18 years old": {
+  "volume_ml": 700.0
+ },
+ "виски the isle of jura aged 10 лет": {
+  "volume_ml": 700.0
+ },
+ "виски the macallan harmony collection rich cacao": {
+  "volume_ml": 700.0
+ },
+ "виски tomatin 12 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "виски tomatin legacy в подарочной коробке": {
+  "volume_ml": 700.0
+ },
+ "виски wild turkey 101": {
+  "volume_ml": 700.0
+ },
+ "виски бурбон four roses": {
+  "volume_ml": 700.0
+ },
+ "водка absolut": {
+  "volume_ml": 50.0
+ },
+ "водка absolut berri acai": {
+  "volume_ml": 700.0
+ },
+ "водка absolut berri acai1": {
+  "volume_ml": 700.0
+ },
+ "водка absolut citron": {
+  "volume_ml": 500.0
+ },
+ "водка absolut facet": {
+  "volume_ml": 700.0
+ },
+ "водка absolut kurant": {
+  "volume_ml": 700.0
+ },
+ "водка absolut mandrin": {
+  "volume_ml": 700.0
+ },
+ "водка absolut mango": {
+  "volume_ml": 700.0
+ },
+ "водка absolut pears": {
+  "volume_ml": 700.0
+ },
+ "водка absolut peppar": {
+  "volume_ml": 500.0
+ },
+ "водка absolut vanilia": {
+  "volume_ml": 700.0
+ },
+ "водка chase marmalade vodka": {
+  "volume_ml": 700.0
+ },
+ "водка chase rhubarb vodka": {
+  "volume_ml": 700.0
+ },
+ "водка crystal head": {
+  "volume_ml": 50.0
+ },
+ "водка danzka": {
+  "volume_ml": 700.0
+ },
+ "водка danzka citrus": {
+  "volume_ml": 700.0
+ },
+ "водка danzka currant": {
+  "volume_ml": 700.0
+ },
+ "водка finlandia cranberry": {
+  "volume_ml": 700.0
+ },
+ "водка finlandia grapefruit": {
+  "volume_ml": 700.0
+ },
+ "водка finlandia lime": {
+  "volume_ml": 700.0
+ },
+ "водка finlandia redberry": {
+  "volume_ml": 700.0
+ },
+ "водка reyka small batch": {
+  "volume_ml": 1000.0
+ },
+ "джин bols genever": {
+  "volume_ml": 700.0
+ },
+ "джин bombay sapphire": {
+  "volume_ml": 500.0
+ },
+ "джин bombay sapphire dry бокал": {
+  "volume_ml": 700.0
+ },
+ "джин brecon botanicals gin": {
+  "volume_ml": 700.0
+ },
+ "джин gin dingle": {
+  "volume_ml": 700.0
+ },
+ "джин gordon s dry": {
+  "volume_ml": 375.0
+ },
+ "джин gordon s dry special": {
+  "volume_ml": 1000.0
+ },
+ "джин gordon s london dry gin": {
+  "volume_ml": 50.0
+ },
+ "джин gordon s premium pink": {
+  "volume_ml": 700.0
+ },
+ "джин greenall s wild berry": {
+  "volume_ml": 700.0
+ },
+ "джин hayman s london dry gin": {
+  "volume_ml": 700.0
+ },
+ "джин hayman s old tom": {
+  "volume_ml": 700.0
+ },
+ "джин hendrick s": {
+  "volume_ml": 50.0
+ },
+ "джин whitley neill blackberry": {
+  "volume_ml": 700.0
+ },
+ "джин whitley neill raspberry": {
+  "volume_ml": 700.0
+ },
+ "игристое вино asti il cascinone": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 7.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино asti pietro laudano": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 7.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино botter prosecco spumante": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино bouvet ladubay 1851 brut with 2 glasses": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино carpene malvolti prosecco brut treviso doc": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино castelvecchio cuvee": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино champagne canard duchene iconic blanc de blancs": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 1500.0
+ },
+ "игристое вино covides ferriol brut cava do": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино covides ferriol semi seco cava do": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино franciacorta brut cuvee prestige белое": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино franciacorta brut cuvee prestige розовое": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино fresita blueberry raspberry": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 8.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино fresita розовое сладкое": {
+  "color": "Розовое",
+  "sugar": "Сладкое",
+  "abv": 8.0,
+  "volume_ml": 200.0
+ },
+ "игристое вино juve y camps cava cinta purpura reserva brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино juve y camps cava reserva de la familia": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 3000.0
+ },
+ "игристое вино kloster eberbach riesling sekt": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино la gioiosa frizzante": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 10.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино la gioiosa prosecco doc treviso brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино la gioiosa rosea rose brut": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино le contesse conegliano valdobbiadene prosecco superiore brut white": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино le contesse conegliano valdobbiadene prosecco superiore extra dry white": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино le contesse dolce anna white sweet": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 9.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино le contesse pinot brut spumante rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино le contesse prosecco brut bio treviso white": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино le contesse prosecco treviso brut white": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино le contesse prosecco treviso extra dry white": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино le contesse spumante cuvee extra white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино le contesse spumante pinot chardonnay brut white": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино louis bouillot brut gran reserve cremant de bourgogne aoc": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино louis bouillot perle d or millesime cremant de bourgogne aoc": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино louis bouillot perle d or rose millesime cremant de bourgogne aoc": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино martini brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино martini prosecco rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино pa road sparkling rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино platino pink moscato": {
+  "color": "Розовое",
+  "sugar": "Сладкое",
+  "abv": 7.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино prosecco santa margherita valdobbiadene superiore": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино raventos i blanc de la finca brut cava do": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино raventos i blanc de nit brut rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино santa margherita brut prosecco superiore di valdobbiadene docg": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино santa margherita rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино santa margherita torresella rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "игристое вино segura viudas cava brut reserva heredad в деревянной коробке": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 1500.0
+ },
+ "игристое вино sella mosca torbato brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 7.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино simonsig kaapse vonkel": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "игристое вино tinazzi victoria brut prosecco doc": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "кальвадос chateau du breuil v s o p": {
+  "volume_ml": 700.0
+ },
+ "коньяк bowen vs": {
+  "volume_ml": 700.0
+ },
+ "коньяк chateau de montifaud silver xo": {
+  "volume_ml": 700.0
+ },
+ "коньяк chateau de montifaud xo elios": {
+  "volume_ml": 700.0
+ },
+ "коньяк dupuy extra": {
+  "volume_ml": 700.0
+ },
+ "коньяк dupuy tentation xo": {
+  "volume_ml": 700.0
+ },
+ "коньяк hardy noces de diamant grande champagne aoc": {
+  "volume_ml": 700.0
+ },
+ "коньяк hennessy 250 collector blend": {
+  "volume_ml": 1000.0
+ },
+ "коньяк hennessy james": {
+  "volume_ml": 700.0
+ },
+ "коньяк hennessy library": {
+  "volume_ml": 700.0
+ },
+ "коньяк hennessy paradis imperial": {
+  "volume_ml": 700.0
+ },
+ "коньяк hennessy richard": {
+  "volume_ml": 700.0
+ },
+ "коньяк hennessy v s gift box": {
+  "volume_ml": 1000.0
+ },
+ "коньяк hennessy vs": {
+  "volume_ml": 700.0
+ },
+ "коньяк hennessy vs с 2 подарочными стаканами": {
+  "volume_ml": 700.0
+ },
+ "коньяк hennessy vsop": {
+  "volume_ml": 350.0
+ },
+ "коньяк hennessy x o с 2мя бокалами": {
+  "volume_ml": 700.0
+ },
+ "коньяк hennessy xo": {
+  "volume_ml": 1500.0
+ },
+ "коньяк hine mariage de thomas": {
+  "volume_ml": 700.0
+ },
+ "коньяк martell chanteloup xxo gift box": {
+  "volume_ml": 700.0
+ },
+ "коньяк martell cohiba": {
+  "volume_ml": 700.0
+ },
+ "коньяк martell cordon bleu": {
+  "volume_ml": 700.0
+ },
+ "коньяк martell creation grand extra": {
+  "volume_ml": 700.0
+ },
+ "коньяк martell domaine pierre de bichion boro": {
+  "volume_ml": 700.0
+ },
+ "коньяк martell v s o p with 2 glass gift box": {
+  "volume_ml": 700.0
+ },
+ "коньяк martell vs": {
+  "volume_ml": 500.0
+ },
+ "коньяк martell vs flask": {
+  "volume_ml": 350.0
+ },
+ "коньяк martell vs single distillery": {
+  "volume_ml": 500.0
+ },
+ "коньяк martell vs with 2 glasses": {
+  "volume_ml": 700.0
+ },
+ "коньяк martell vs во фляжке": {
+  "volume_ml": 500.0
+ },
+ "коньяк martell vsop": {
+  "volume_ml": 350.0
+ },
+ "коньяк martell vsop medaillon": {
+  "volume_ml": 1000.0
+ },
+ "коньяк martell vsop medallion": {
+  "volume_ml": 500.0
+ },
+ "коньяк martell xo extra old": {
+  "volume_ml": 350.0
+ },
+ "коньяк p champagne aoc chateau de montifaud 20 летней выдержки в деревянной упаковке": {
+  "volume_ml": 700.0
+ },
+ "коньяк p champagne aoc chateau de montifaud 20 летней выдержки в деревянной упаковке сундучок": {
+  "volume_ml": 700.0
+ },
+ "коньяк p champagne aoc chateau de montifaud x o в тубе": {
+  "volume_ml": 700.0
+ },
+ "коньяк remy martin centaure de diamant": {
+  "volume_ml": 700.0
+ },
+ "коньяк remy martin louis xiii": {
+  "volume_ml": 700.0
+ },
+ "коньяк remy martin vs с 2 подарочными бокалами": {
+  "volume_ml": 700.0
+ },
+ "коньяк remy martin vsop": {
+  "volume_ml": 1000.0
+ },
+ "ликер amaro montenegro": {
+  "abv": 23.0,
+  "volume_ml": 700.0
+ },
+ "ликер amarula marula fruit cream": {
+  "abv": 17.0,
+  "volume_ml": 750.0
+ },
+ "ликер bols amaretto": {
+  "volume_ml": 700.0
+ },
+ "ликер bols blue curacao": {
+  "abv": 21.0,
+  "volume_ml": 700.0
+ },
+ "ликер bols creme de cassis": {
+  "abv": 17.0,
+  "volume_ml": 700.0
+ },
+ "ликер creme de cassis de dijon briottet": {
+  "abv": 18.0,
+  "volume_ml": 700.0
+ },
+ "ликер disaronno originale": {
+  "volume_ml": 500.0
+ },
+ "ликер frangelico": {
+  "abv": 20.0,
+  "volume_ml": 700.0
+ },
+ "ликер hayman s sloe gin": {
+  "volume_ml": 700.0
+ },
+ "ликер jack daniel s tennessee honey liqueur": {
+  "volume_ml": 50.0
+ },
+ "ликер jagermeister": {
+  "volume_ml": 700.0
+ },
+ "ликер marie brizard anisette": {
+  "volume_ml": 700.0
+ },
+ "ликер marie brizard apry": {
+  "abv": 20.5,
+  "volume_ml": 700.0
+ },
+ "ликер marie brizard jolie cherry": {
+  "volume_ml": 700.0
+ },
+ "ликер marie brizard spicy mix": {
+  "volume_ml": 500.0
+ },
+ "ликер midori melon": {
+  "abv": 20.0,
+  "volume_ml": 700.0
+ },
+ "ликер minttu peppermint": {
+  "volume_ml": 500.0
+ },
+ "ликер minttu twist cool banana": {
+  "abv": 16.0,
+  "volume_ml": 500.0
+ },
+ "ликер mozart chocolate liqueur": {
+  "abv": 17.0,
+  "volume_ml": 500.0
+ },
+ "ликер mozart dark chocolate": {
+  "abv": 17.0,
+  "volume_ml": 500.0
+ },
+ "ликер sambuca antica classic": {
+  "volume_ml": 700.0
+ },
+ "ликер sarti rosa": {
+  "abv": 14.0,
+  "volume_ml": 700.0
+ },
+ "ликер tatratea citrus": {
+  "volume_ml": 700.0
+ },
+ "ликер tatratea forest fruit": {
+  "volume_ml": 700.0
+ },
+ "ликер tatratea outlaw": {
+  "volume_ml": 700.0
+ },
+ "ликер zanin sambuca": {
+  "volume_ml": 700.0
+ },
+ "пиво 3 horses malta": {
+  "volume_ml": 330.0
+ },
+ "пиво ac dc": {
+  "abv": 5.0,
+  "volume_ml": 568.0
+ },
+ "пиво ac dc в бочонке": {
+  "abv": 5.0,
+  "volume_ml": 5000.0
+ },
+ "пиво adnams ghost ship": {
+  "abv": 4.5,
+  "volume_ml": 500.0
+ },
+ "пиво alesmith decadence": {
+  "abv": 10.0,
+  "volume_ml": 750.0
+ },
+ "пиво alesmith nut brown ale": {
+  "abv": 5.0,
+  "volume_ml": 650.0
+ },
+ "пиво alesmith private stock ale": {
+  "abv": 11.0,
+  "volume_ml": 750.0
+ },
+ "пиво bayreuther hell": {
+  "abv": 4.9,
+  "volume_ml": 500.0
+ },
+ "пиво bayreuther hell alkoholfrei": {
+  "volume_ml": 500.0
+ },
+ "пиво belhaven black scottish stout": {
+  "abv": 4.2,
+  "volume_ml": 440.0
+ },
+ "пиво belhaven mccallum s sweet scottish stout": {
+  "abv": 4.1,
+  "volume_ml": 440.0
+ },
+ "пиво belhaven robert burns": {
+  "abv": 4.2,
+  "volume_ml": 500.0
+ },
+ "пиво belle vue kriek extra": {
+  "abv": 4.1,
+  "volume_ml": 330.0
+ },
+ "пиво berliner kindl jubilaums pilsener": {
+  "abv": 5.1,
+  "volume_ml": 500.0
+ },
+ "пиво bosteels pauwel kwak amber": {
+  "abv": 8.4,
+  "volume_ml": 330.0
+ },
+ "пиво bosteels tripel karmeliet": {
+  "abv": 8.4,
+  "volume_ml": 330.0
+ },
+ "пиво brewdog punk ipa": {
+  "abv": 5.4,
+  "volume_ml": 330.0
+ },
+ "пиво budweiser budvar": {
+  "abv": 5.0,
+  "volume_ml": 500.0
+ },
+ "пиво chimay blue cap": {
+  "abv": 9.0,
+  "volume_ml": 330.0
+ },
+ "пиво chimay cinq cents triple": {
+  "abv": 8.0,
+  "volume_ml": 750.0
+ },
+ "пиво chimay grand reserve blue": {
+  "abv": 9.0,
+  "volume_ml": 750.0
+ },
+ "пиво chimay red cap": {
+  "abv": 7.0,
+  "volume_ml": 330.0
+ },
+ "пиво chimay triple": {
+  "abv": 8.0,
+  "volume_ml": 330.0
+ },
+ "пиво clausthaler classic non alcoholic": {
+  "volume_ml": 330.0
+ },
+ "пиво corsendonk tempelier": {
+  "abv": 6.0,
+  "volume_ml": 330.0
+ },
+ "пиво duchesse de bourgogne": {
+  "abv": 6.2,
+  "volume_ml": 750.0
+ },
+ "пиво dutch windmill": {
+  "abv": 4.6,
+  "volume_ml": 500.0
+ },
+ "пиво estrella damm": {
+  "abv": 5.4,
+  "volume_ml": 500.0
+ },
+ "пиво flensburger pilsener": {
+  "abv": 4.8,
+  "volume_ml": 500.0
+ },
+ "пиво flensburger weizen": {
+  "abv": 5.1,
+  "volume_ml": 500.0
+ },
+ "пиво gulden draak": {
+  "abv": 10.5,
+  "volume_ml": 330.0
+ },
+ "пиво harbin ice": {
+  "abv": 3.6,
+  "volume_ml": 500.0
+ },
+ "пиво hofbr u m nchner weisse": {
+  "abv": 5.1,
+  "volume_ml": 500.0
+ },
+ "пиво hofbr u oktoberfestbier": {
+  "abv": 6.3,
+  "volume_ml": 500.0
+ },
+ "пиво hofbrau schwarze weisse": {
+  "abv": 5.1,
+  "volume_ml": 500.0
+ },
+ "пиво huyghe delirium red": {
+  "color": "Красное",
+  "abv": 7.0,
+  "volume_ml": 750.0
+ },
+ "пиво huyghe delirium tremens": {
+  "abv": 8.5,
+  "volume_ml": 500.0
+ },
+ "пиво jopen life s a beach": {
+  "abv": 4.5,
+  "volume_ml": 330.0
+ },
+ "пиво kasteel rouge": {
+  "abv": 8.0,
+  "volume_ml": 500.0
+ },
+ "пиво kasteel xtra": {
+  "abv": 4.5,
+  "volume_ml": 500.0
+ },
+ "пиво kriek boon extra": {
+  "color": "Красное",
+  "abv": 4.0,
+  "volume_ml": 750.0
+ },
+ "пиво krombacher pils alkoholfrei": {
+  "volume_ml": 500.0
+ },
+ "пиво kulmbacher lager hell": {
+  "abv": 4.9,
+  "volume_ml": 500.0
+ },
+ "пиво la trappe tripel": {
+  "abv": 8.0,
+  "volume_ml": 750.0
+ },
+ "пиво maisel s weisse original": {
+  "abv": 5.1,
+  "volume_ml": 500.0
+ },
+ "пиво mort subite kriek lambic": {
+  "abv": 4.0,
+  "volume_ml": 250.0
+ },
+ "пиво newcastle brown ale": {
+  "abv": 4.7,
+  "volume_ml": 550.0
+ },
+ "пиво newcastle brown ale в банке": {
+  "abv": 4.7,
+  "volume_ml": 500.0
+ },
+ "пиво paulaner hefe weisbier": {
+  "abv": 5.5,
+  "volume_ml": 500.0
+ },
+ "пиво paulaner hefe weissbier": {
+  "abv": 5.5,
+  "volume_ml": 5000.0
+ },
+ "пиво paulaner hefe weissbier alkoholfre": {
+  "volume_ml": 500.0
+ },
+ "пиво paulaner hefe weissbier dunkel": {
+  "abv": 5.3,
+  "volume_ml": 500.0
+ },
+ "пиво paulaner hefe weissbier non alcoholic": {
+  "abv": 0.5,
+  "volume_ml": 500.0
+ },
+ "пиво paulaner oktoberfest bier": {
+  "abv": 6.0,
+  "volume_ml": 500.0
+ },
+ "пиво paulaner original munchner hell": {
+  "abv": 4.9,
+  "volume_ml": 500.0
+ },
+ "пиво paulaner pils": {
+  "abv": 4.8,
+  "volume_ml": 500.0
+ },
+ "пиво paulaner salvator": {
+  "abv": 7.9,
+  "volume_ml": 500.0
+ },
+ "пиво paulaner wei bier naturtr b": {
+  "abv": 5.5,
+  "volume_ml": 500.0
+ },
+ "пиво peroni nastro azzurro": {
+  "abv": 5.1,
+  "volume_ml": 330.0
+ },
+ "пиво primus": {
+  "abv": 5.2,
+  "volume_ml": 500.0
+ },
+ "пиво radeberger pilsner": {
+  "abv": 4.8,
+  "volume_ml": 500.0
+ },
+ "пиво rodenbach": {
+  "color": "Красное",
+  "abv": 5.2,
+  "volume_ml": 500.0
+ },
+ "пиво rodenbach alexander": {
+  "color": "Красное",
+  "abv": 5.6,
+  "volume_ml": 330.0
+ },
+ "пиво san miguel pale pilsen": {
+  "abv": 5.0,
+  "volume_ml": 330.0
+ },
+ "пиво sapporo": {
+  "abv": 5.2,
+  "volume_ml": 500.0
+ },
+ "пиво sapporo premium жб": {
+  "abv": 5.0,
+  "volume_ml": 330.0
+ },
+ "пиво schneider hefeweissbier naturtrub": {
+  "abv": 4.9,
+  "volume_ml": 500.0
+ },
+ "пиво schneider s helles": {
+  "abv": 4.9,
+  "volume_ml": 500.0
+ },
+ "пиво singha жб": {
+  "abv": 5.0,
+  "volume_ml": 330.0
+ },
+ "пиво singha стекло": {
+  "abv": 5.0,
+  "volume_ml": 330.0
+ },
+ "пиво staropramen exportni lezak": {
+  "abv": 5.0,
+  "volume_ml": 500.0
+ },
+ "пиво stone arrogant bastard ale": {
+  "abv": 7.0,
+  "volume_ml": 500.0
+ },
+ "пиво stone ripper в банке": {
+  "abv": 5.7,
+  "volume_ml": 330.0
+ },
+ "пиво svyturys baltas hefeweizen kvietinis": {
+  "abv": 5.0,
+  "volume_ml": 568.0
+ },
+ "пиво svyturys ekstra": {
+  "abv": 5.2,
+  "volume_ml": 568.0
+ },
+ "пиво svyturys ekstra draught": {
+  "abv": 5.2,
+  "volume_ml": 500.0
+ },
+ "пиво timmermans kriek lambicus": {
+  "abv": 4.0,
+  "volume_ml": 330.0
+ },
+ "пиво tsingtao": {
+  "abv": 4.7,
+  "volume_ml": 500.0
+ },
+ "пиво tsingtao premium": {
+  "abv": 4.7,
+  "volume_ml": 640.0
+ },
+ "пиво veltins pilsener": {
+  "abv": 4.8,
+  "volume_ml": 500.0
+ },
+ "пиво volfas engelman galaxy лагер": {
+  "abv": 5.0,
+  "volume_ml": 568.0
+ },
+ "пиво westmalle trappist dubbel": {
+  "abv": 7.0,
+  "volume_ml": 750.0,
+  "color": "Красное"
+ },
+ "пиво westmalle trappist tripel": {
+  "abv": 9.5,
+  "volume_ml": 750.0
+ },
+ "пиво пиво trappistes rochefort 8": {
+  "abv": 9.2,
+  "volume_ml": 330.0
+ },
+ "пиво пиво trappistes rochefort triple extra": {
+  "abv": 8.1,
+  "volume_ml": 330.0
+ },
+ "пиво сristal": {
+  "abv": 5.0,
+  "volume_ml": 500.0
+ },
+ "портвейн colombo madeira dry 5 летней выдержки": {
+  "sugar": "Сладкое",
+  "abv": 19.0,
+  "volume_ml": 750.0
+ },
+ "портвейн messias porto rose": {
+  "color": "Розовое",
+  "sugar": "Сладкое",
+  "abv": 19.5,
+  "volume_ml": 750.0
+ },
+ "портвейн messias porto ruby": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 19.5,
+  "volume_ml": 750.0
+ },
+ "портвейн messias porto tawny": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 19.5,
+  "volume_ml": 750.0
+ },
+ "портвейн messias porto white dry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 19.5,
+  "volume_ml": 750.0
+ },
+ "портвейн sandeman tawny porto 30 years old douro dop в тубе": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 20.0,
+  "volume_ml": 750.0
+ },
+ "ром angostura 5 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "ром angostura reserva": {
+  "volume_ml": 700.0
+ },
+ "ром appleton estate 21 год": {
+  "volume_ml": 700.0
+ },
+ "ром brugal anejo": {
+  "volume_ml": 700.0
+ },
+ "ром brugal extra viejo": {
+  "volume_ml": 700.0
+ },
+ "ром brugal xv": {
+  "volume_ml": 700.0
+ },
+ "ром captain morgan black": {
+  "volume_ml": 700.0
+ },
+ "ром captain morgan dark танкард": {
+  "volume_ml": 700.0
+ },
+ "ром captain morgan white": {
+  "volume_ml": 1000.0
+ },
+ "ром chairman s reserve": {
+  "volume_ml": 700.0
+ },
+ "ром flor de cana anejo clasico 5 years old": {
+  "volume_ml": 750.0
+ },
+ "ром flor de cana centenario 18 years old gift box": {
+  "volume_ml": 750.0
+ },
+ "ром flor de cana centenario 25 years old gift box": {
+  "volume_ml": 750.0
+ },
+ "ром flor de cana extra seco 4 years old": {
+  "volume_ml": 750.0
+ },
+ "ром flor de cana gran reserva 7 летней выдержки": {
+  "volume_ml": 750.0
+ },
+ "ром havana club anejo 7 летней выдержки": {
+  "volume_ml": 700.0
+ },
+ "ром havana club anejo especial": {
+  "volume_ml": 500.0
+ },
+ "ром havana club anejo reserva": {
+  "volume_ml": 700.0
+ },
+ "ром havana club especial": {
+  "volume_ml": 700.0
+ },
+ "ром mount gay 1703 old cask selection": {
+  "volume_ml": 700.0
+ },
+ "ром mount gay eclipse": {
+  "volume_ml": 700.0
+ },
+ "ром plantation 3 stars": {
+  "volume_ml": 700.0
+ },
+ "ром plantation barbados grande reserve": {
+  "volume_ml": 700.0
+ },
+ "ром ron barcelo anejo": {
+  "volume_ml": 700.0
+ },
+ "ром ron barcelo gran anejo": {
+  "volume_ml": 700.0
+ },
+ "ром sailor jerry spiced": {
+  "volume_ml": 700.0
+ },
+ "ром zacapa centenario 23 летней выдержки": {
+  "volume_ml": 50.0
+ },
+ "ром zacapa centenario solera gran reserva": {
+  "volume_ml": 750.0
+ },
+ "ром zacapa centenario solera grand special reserve xo": {
+  "volume_ml": 750.0
+ },
+ "ром zacapa centenario xo": {
+  "volume_ml": 700.0
+ },
+ "сидр alska nordic berries cider": {
+  "abv": 4.0,
+  "volume_ml": 440.0
+ },
+ "сидр alska strawberry lime": {
+  "abv": 4.0,
+  "volume_ml": 440.0
+ },
+ "сидр cider abrahalls ad celtic marches apple dry": {
+  "abv": 6.0,
+  "volume_ml": 500.0
+ },
+ "сидр cider abrahalls am celtic marches apple semi dry": {
+  "abv": 6.0,
+  "volume_ml": 500.0
+ },
+ "сидр cider abrahalls wild berries sweet": {
+  "abv": 4.0,
+  "volume_ml": 500.0
+ },
+ "сидр cider crumpton oaks dry": {
+  "abv": 5.0,
+  "volume_ml": 500.0
+ },
+ "сидр ecusson brut": {
+  "abv": 5.0,
+  "volume_ml": 750.0
+ },
+ "сидр ecusson rose": {
+  "abv": 3.0,
+  "volume_ml": 750.0
+ },
+ "сидр kerisac breton doux": {
+  "abv": 2.0,
+  "volume_ml": 750.0
+ },
+ "сидр kingstone press pear": {
+  "abv": 5.5,
+  "volume_ml": 500.0
+ },
+ "сидр oranjeboom medium dry": {
+  "abv": 4.5,
+  "volume_ml": 500.0
+ },
+ "сидр stowford press medium dry": {
+  "abv": 4.5,
+  "volume_ml": 500.0
+ },
+ "сидр thatchers gold в банке": {
+  "abv": 4.8,
+  "volume_ml": 500.0
+ },
+ "сидр сидр alska passionfruit and apple": {
+  "abv": 4.0,
+  "volume_ml": 440.0
+ },
+ "текила patron silver": {
+  "volume_ml": 750.0
+ },
+ "текила sauza gold": {
+  "volume_ml": 700.0
+ },
+ "текила sauza hacienda gold": {
+  "volume_ml": 500.0
+ },
+ "текила sauza silver": {
+  "volume_ml": 500.0
+ },
+ "херес sandeman fino sherry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "херес sandeman medium dry sherry": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "херес sandeman medium sweet sherry": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "херес williams humbert canasta": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 19.5,
+  "volume_ml": 750.0
+ },
+ "херес williams humbert collection fino": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 15.0,
+  "volume_ml": 750.0
+ },
+ "херес williams humbert don guido pedro ximenez solera especial 20 летний": {
+  "sugar": "Сладкое",
+  "abv": 18.0,
+  "volume_ml": 750.0
+ },
+ "херес williams humbert dos cortados solera especial palo cortado 20 летний": {
+  "sugar": "Сухое",
+  "abv": 19.5,
+  "volume_ml": 750.0
+ },
+ "херес williams humbert dry sack medium": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 19.5,
+  "volume_ml": 750.0
+ },
+ "херес williams humbert jalifa amontillado solera especial 30 летний": {
+  "sugar": "Сухое",
+  "abv": 19.5,
+  "volume_ml": 750.0
+ },
+ "шампанское billecart salmon brut blanc de blancs grand cru": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское billecart salmon brut reserve": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 375.0
+ },
+ "шампанское billecart salmon brut rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское bollinger rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское bollinger rose brut gift box": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское bollinger special cuvee": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское bollinger special cuvee brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское brut laurent perrier": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 6000.0
+ },
+ "шампанское canard duchene charles vii": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское canard duchene cuvee leonie rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское cattier brut blanc de noirs white dry": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское cattier brut icone white dry": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское champagne canard duchene iconic blanc de noirs": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское champagne canard duchene iconic leoni": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское champagne canard duchene iconic rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское champagne fleury rose de saignee rose brut": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское champagne jacquart blanc de blanc vintage": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское champagne jacquart blanc de blancs vintage": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское champagne jacquart brut mosaique": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское champagne jacquart demi sec mosaique": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское champagne jacquart extra brut mosaique": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское champagne jacquart rose mosaique": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское diebolt vallois blanc de blancs prestige": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское diebolt vallois brut rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское diebolt vallois millesime blanc de blancs": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское diebolt vallois tradition brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское dom perignon brut rose 1996 года": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское dom perignon rose vintage": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское dom perignon rose vintage 2004": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское lanson black label": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское lanson ivory label demi sec": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское lanson rose label brut": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское laurent perrier cuvee rose brut": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 1500.0
+ },
+ "шампанское laurent perrier cuvee rose brut в клетке": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское laurent perrier grand siecle white brut gift box": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское louis roederer brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское louis roederer brut rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское louis roederer brut vintage rose gift box": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское louis roederer cristal brut": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское mo t chandon nectar imperial": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское moet chandon brut imperial": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 1500.0
+ },
+ "шампанское moet chandon brut imperial rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 1500.0
+ },
+ "шампанское moet chandon brut imperial white wooden box": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 3000.0
+ },
+ "шампанское moet chandon brut imperial в деревянной упаковке": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 6000.0
+ },
+ "шампанское moet chandon brut imperial с 2 подарочными бокалами": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское moet chandon brut rose 2000г винтаж": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское moet chandon grand vintage": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское moet chandon grand vintage brut white gift box": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское moet chandon grand vintage rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское moet chandon imp rial": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское nicolas feuillatte cuvee 225 brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское nicolas feuillatte cuvee speciale millesime brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское perrier jouet belle epoque": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское perrier jouet belle epoque rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское perrier jouet blason rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское perrier jouet grand brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское piper heidsieck brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское veuve clicquot la grande dame 1998 by andree putmanin": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское veuve clicquot la grande dame rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское veuve clicquot la grande dame rose 2004": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское veuve clicquot ponsardin vintage rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское veuve clicquot rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5,
+  "volume_ml": 750.0
+ },
+ "шампанское veuve clicquot vintage brut white gift box": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ },
+ "шампанское пайпер хайдсек брют рар белое": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0,
+  "volume_ml": 750.0
+ }
+}

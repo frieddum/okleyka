@@ -8,14 +8,38 @@
   };
   const NONE = '__none';
 
+  // Подтипы по явным словам в названии; фильтр появляется, когда выбран один вид напитка.
+  const SUBTYPES = {
+    'Виски': [['Односолодовый', /односолод|single malt|сингл молт/], ['Солодовый', /солодов|blended malt|pure malt|пьюа? молт|пьюр молт/],
+      ['Бурбон', /бурбон|bourbon/], ['Купажированный', /купаж|blended|блендед/], ['Зерновой', /зернов|grain/]],
+    'Коньяк': [['XO', /(^|[^a-zа-я])(xo|хо)([^a-zа-я]|$)/], ['VSOP', /vsop/], ['VS', /(^|[^a-zа-я])vs([^a-zа-я]|$)|very special/],
+      ['Марочный', /марочн|(^|[^а-я])(кс|кввк)([^а-я]|$)/], ['Выдержанный', /выдержанн|(^|[^а-я])кв([^а-я]|$)/],
+      ['3 звезды', /тр[её]хлет|3-летн|3 года|3 звезд|три зв[её]здочк/], ['4 звезды', /четыр[её]хлет|4-летн|4 года|4 звезд/],
+      ['5 звёзд', /пятилет|5-летн|5 лет|5 звезд|пять зв[её]здоч/]],
+    'Ром': [['Тёмный', /т[её]мн|dark|black|negro|блэк/], ['Золотой', /золот|gold|dorado|дорадо|oro/], ['Светлый', /светл|white|уайт|blanco|бланко|бел|silver|platino/]],
+    'Текила': [['Silver', /silver|сильвер|plata/], ['Blanco', /blanco|бланко/], ['Gold', /gold|голд|oro/], ['Reposado', /reposado|репосадо/], ['Añejo', /a[nñ]ejo|аньехо/]],
+    'Настойка': [['Перцовая', /перц|перец/], ['Кедровая', /кедр/], ['Хлебная', /хлеб|рожь|ржан|пшени/],
+      ['Ягодная', /клюкв|брусн|смородин|малин|вишн|черник|облепих|рябин|землян|клубник|ежевик|ягод/],
+      ['Фруктовая', /яблок|яблоч|груш|лимон|абрикос|слив|апельсин|айв|манго|персик|цитрус/]],
+  };
+  function subtype(kind, name) {
+    const rules = SUBTYPES[kind];
+    if (!rules) return null;
+    const s = name.toLowerCase().replace(/ё/g, 'е');
+    const hit = rules.find(([, re]) => re.test(s));
+    return hit ? hit[0] : null;
+  }
   const GROUPS = [
     { key: 'st', title: 'Статус', get: r => r.st,
       label: v => STATUS[v].group, order: 'fixed',
       hint: 'Здесь только позиции с сохранённым решением. Позиции каталогов без проверки не публикуются.' },
     { key: 'net', title: 'Сеть', get: r => r.nets, order: 'total' },
     { key: 'kind', title: 'Вид напитка', get: r => r.cat || NONE, label: v => v === NONE ? 'Вид не указан' : v, order: 'total', limit: 8 },
-    { key: 'country', title: 'Страна по данным каталога', get: r => r.country || NONE,
-      label: v => v === NONE ? 'Не указана в каталоге' : v, order: 'total', limit: 8, search: true },
+    { key: 'sub', title: 'Тип', solo: true, get: r => r.sub, order: 'fixedList',
+      list: Object.values(SUBTYPES).flatMap(t => t.map(x => x[0])),
+      hint: 'По названию в карточке сети. Позиции без такого указания здесь не учитываются.' },
+    { key: 'country', title: 'Страна', get: r => r.country || NONE,
+      label: v => v === NONE ? 'Не указана' : v, order: 'total', limit: 8, search: true },
     { key: 'color', title: 'Цвет', wine: true, get: r => r.color, order: 'total' },
     { key: 'sugar', title: 'Сахар', wine: true, get: r => r.sugar, order: 'fixedList',
       list: ['Брют', 'Сухое', 'Полусухое', 'Полусладкое', 'Сладкое'] },
@@ -178,6 +202,7 @@
       producer: at(d.producers, arr[5]), country: at(d.countries, arr[6]), origin: arr[7], cat: at(d.categories, arr[8]),
       volMl: arr[9], volRaw: arr[10], abv: arr[11], vin: arr[12], checked: arr[13], merged: arr[14],
       a: arr[15] >= 0 ? ASSESS[arr[15]] : null, color: arr[16], sugar: arr[17], sp: !!arr[18],
+      sub: subtype(at(d.categories, arr[8]), arr[3]),
     };
   }
   function ingest(list) {
@@ -299,7 +324,7 @@
           wineBox = document.createElement('fieldset');
           wineBox.className = 'fgroup';
           wineBox.id = 'wine-box';
-          wineBox.innerHTML = '<legend>Вино: по словам в названии</legend>';
+          wineBox.innerHTML = '<legend>Вино</legend>';
           body.appendChild(wineBox);
         }
         fs.className = 'subgroup';
@@ -332,7 +357,7 @@
       (g.wine ? wineBox : body).appendChild(fs);
       groupEls[g.key] = { fs, items, more: fs.querySelector('.more-btn'), find: fs.querySelector('.inner-search') };
     }
-    if (wineBox) wineBox.insertAdjacentHTML('beforeend', '<p class="hint">Цвет, сахар и тип отмечены, только если они прямо названы в карточке сети. Остальные вина в этих фильтрах не участвуют.</p>');
+    if (wineBox) wineBox.insertAdjacentHTML('beforeend', '<p class="hint">Цвет и сахар — по карточке сети, названию или сорту винограда. Вина без этих сведений в фильтрах не участвуют.</p>');
     body.insertAdjacentHTML('beforeend', '<div class="fgroup"><button type="button" class="reset-all" id="reset-all">Сбросить фильтры</button></div>');
   }
 
@@ -354,7 +379,7 @@
         nEl.textContent = fmtInt(n);
         let visible = true;
         if (findText) visible = tokenize(g.label ? g.label(v) : v).join(' ').includes(findText);
-        else if (g.wine || g.limit) visible = n > 0 || sel.has(v);
+        else if (g.wine || g.solo || g.limit) visible = n > 0 || sel.has(v);
         if (visible && g.limit && !isOpen && !sel.has(v)) {
           if (shown >= g.limit) { visible = false; hiddenByLimit++; }
         }
@@ -366,6 +391,11 @@
         el.more.textContent = expanded.has(g.key) ? 'Свернуть' : `Показать все (${el.items.size})`;
       }
       if (g.wine) el.fs.hidden = shown === 0;
+      if (g.solo) {
+        const kinds = [...state.f.kind];
+        el.fs.hidden = !(kinds.length === 1 && SUBTYPES[kinds[0]] && shown > 0) && !sel.size;
+        el.fs.querySelector('legend').textContent = kinds.length === 1 ? `Тип: ${kinds[0].toLowerCase()}` : 'Тип';
+      }
     }
     const wineBox = $('#wine-box');
     if (wineBox) wineBox.hidden = GROUPS.filter(g => g.wine).every(g => groupEls[g.key].fs.hidden);
@@ -515,7 +545,7 @@
   }
   function refHTML(ref) {
     const short = ref.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
-    const label = ref.type === 'Barnivore' ? 'Страница на Barnivore' : 'Сайт производителя';
+    const label = ref.type === 'Barnivore' ? 'Страница на Barnivore' : ref.type === 'VeganRussian' ? 'VeganRussian' : 'Сайт производителя';
     return `<li>${label}: <a href="${esc(ref.url)}" rel="noopener nofollow" target="_blank">${esc(short)}</a></li>`;
   }
   function renderCard() {
@@ -543,7 +573,8 @@
         ${kv('Объём', vol)}
         ${kv('Крепость', fmtAbv(r))}
         ${kv('Урожай', r.vin)}
-        ${kv('Цвет и сахар', [r.color, r.sugar && r.sugar.toLowerCase()].filter(Boolean).join(', ') || null)}
+        ${kv('Цвет', r.color)}
+        ${kv('Сахар', r.sugar)}
       </dl></div>`;
     if (a) {
       const was = { vegan: 'Веганское', nonvegan: 'Невеганское', unclear: 'Неясно', conflict: 'Противоречие' }[a.revised_from];

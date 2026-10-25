@@ -19,6 +19,10 @@ import sys
 import unicodedata
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import wine_attrs as wa  # noqa: E402
+from producer_rules import RULES, color_key  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 TRIM = len(sys.argv) > 1 and sys.argv[1] == "--trim"
 ARGS = sys.argv[2:] if TRIM else sys.argv[1:]
@@ -28,6 +32,15 @@ OVERRIDES = ROOT / "data" / "overrides.json"
 EXTRA = ROOT / "data" / "catalog_extra.json"
 COMPANIES = ROOT / "data" / "barnivore_companies.json"
 # Производитель для ссылок на сайты самих производителей (не Barnivore).
+MANUFACTURER_COUNTRY = {"williamgrant.com": "Шотландия", "hofbraeu-muenchen.de": "Германия"}
+# Производители, у которых на Barnivore нет адреса со страной.
+PRODUCER_COUNTRY = {
+    "Bodega Catena Zapata": "Аргентина", "Ciroc": "Франция", "Cutty Sark": "Шотландия",
+    "Feudi di San Gregorio": "Италия", "González Byass": "Испания", "ЗАО «Игристые вина»": "Россия",
+    "Chairman's Reserve Rum": "Сент-Люсия", "Taittinger": "Франция", "Dooleys Toffee Cream Liqueur": "Германия",
+    "Piccini 1882": "Италия", "La Marca": "Италия", "Sula Vineyards": "Индия",
+    "The Old Bushmills Distillery": "Великобритания",
+}
 MANUFACTURER_SITES = {"williamgrant.com": "William Grant & Sons", "hofbraeu-muenchen.de": "Hofbräu München"}
 EXTRA_CATEGORY = {"Вино": "Вино", "Игристое и шампанское": "Игристое вино", "Пиво": "Пиво",
                   "Ликёры, настойки, биттеры": "Ликёр", "Вермут и креплёные вина": "Вермут и креплёное вино",
@@ -35,7 +48,7 @@ EXTRA_CATEGORY = {"Вино": "Вино", "Игристое и шампанск�
 
 # Ссылки на доказательства публикуются только из assessment.references[].url
 # и только с этих типов источников.
-ALLOWED_REF_TYPES = {"Barnivore", "manufacturer"}
+ALLOWED_REF_TYPES = {"Barnivore", "manufacturer", "VeganRussian"}
 
 # Организации из карточек сетей, которые сами производят алкоголь в России (в том числе по лицензии).
 # Ответ зарубежного производителя к такой бутылке не относится, поэтому эти записи не публикуются.
@@ -104,7 +117,7 @@ KIND_WORDS = [
     ("Игристое вино", r"просекко|prosecco|креман\w*|франчакорт\w*"),
     ("Вермут", r"вермут\w*"),
     ("Портвейн", r"портвейн\w*"),
-    ("Саке", r"саке|сакэ"),
+    ("Сакэ", r"саке|сакэ"),
     ("Писко", r"писко"),
     ("Херес", r"херес\w*"),
     ("Вино", r"вин(?:о|а|ный|ное)"),
@@ -146,7 +159,16 @@ def norm_country(c):
         return None
     if c.isupper() and len(c) > 3:
         c = c.capitalize()
-    return c
+    return COUNTRY_ALIASES.get(c.lower(), c)
+
+
+# Длинные и старые названия стран из каталогов сетей приводятся к привычным.
+COUNTRY_ALIASES = {
+    "соединённое корол-во великобритании и сев.ирландии": "Великобритания",
+    "соединенное корол-во великобритании и сев.ирландии": "Великобритания",
+    "соединённое королевство": "Великобритания", "англия": "Великобритания", "уэльс": "Великобритания",
+    "тринидад и тобаго": "Тринидад и Тобаго", "южная африка": "ЮАР", "голландия": "Нидерланды",
+}
 
 
 def num(x):
@@ -241,6 +263,8 @@ def main():
     used_overrides = set()
     skipped = {"unclear": 0}
     company_by_url = json.loads(COMPANIES.read_text(encoding="utf-8")) if COMPANIES.exists() else {}
+    cc_path = ROOT / "data" / "company_countries.json"
+    country_by_url = json.loads(cc_path.read_text(encoding="utf-8")) if cc_path.exists() else {}
 
     def producer_of(refs):
         """Производитель — компания, ответившая на запрос (Barnivore или сайт производителя), а не поставщик из карточки сети."""
@@ -342,11 +366,15 @@ def main():
 
     # Сводный каталог сетей (уже отобранный scripts/import_catalog.py): одна запись может быть в нескольких сетях.
     extra_count = 0
-    if EXTRA.exists():
-        extra = json.loads(EXTRA.read_text(encoding="utf-8"))
+    # data/manual_additions.json — позиции, проверенные вручную по письмам производителей (тот же формат).
+    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json"):
+      if not extra_path.exists():
+        continue
+      extra = json.loads(extra_path.read_text(encoding="utf-8"))
+      if True:
         for it in extra["items"]:
             name = clean_name(it["name"])
-            refs = [{"type": "Barnivore", "url": it["barnivore_url"]}]
+            refs = [{"type": it.get("ref_type", "Barnivore"), "url": it.get("ref_url") or it["barnivore_url"]}]
             pub = {"status": it["status"], "reviewed_at": date_only(extra.get("copied_at")), "evidence_date": clean(it.get("evidence_date")),
                    "evidence_date_precision": None, "rationale": clean(it["rationale"]),
                    "scope": [clean(x)[0].upper() + clean(x)[1:] for x in it.get("scope") or [] if clean(x)], "identity": None,
@@ -364,6 +392,74 @@ def main():
                 cats(cat), None, None, None, None, date_only(chains[0]["checked_at"]), 1, assess_index[k],
                 color, sugar, 1 if sparkling else 0]
             extra_count += 1
+
+    # Признаки вина и правила производителей, у которых ответ зависит от цвета, линейки или урожая.
+    attrs_path = ROOT / "data" / "wine_attrs.json"
+    card_attrs = json.loads(attrs_path.read_text(encoding="utf-8")) if attrs_path.exists() else {}
+    WINE_KINDS = {"Вино", "Игристое вино", "Портвейн", "Херес", "Вермут", "Вермут и креплёное вино"}
+    dropped_by_rule = 0
+    filled_country = 0
+    for key, rec in list(groups.items()):
+        name, kind = rec[3], cats.items[rec[8]] if rec[8] >= 0 else None
+        # Страны нет в карточке сети: берётся страна ответившего производителя.
+        if rec[6] < 0 and rec[15] >= 0:
+            for ref in assessments[rec[15]]["refs"]:
+                host = re.sub(r"^https?://(www\.)?([^/]+).*", r"\2", ref["url"])
+                c = country_by_url.get(ref["url"]) or MANUFACTURER_COUNTRY.get(host)
+                if c:
+                    rec[6] = countries(c)
+                    filled_country += 1
+                    break
+        if rec[6] < 0 and rec[5] >= 0 and prods.items[rec[5]] in PRODUCER_COUNTRY:
+            rec[6] = countries(PRODUCER_COUNTRY[prods.items[rec[5]]])
+            filled_country += 1
+        is_wine = kind in WINE_KINDS
+        if is_wine:
+            card = card_attrs.get(re.sub(r"[^a-zа-я0-9]+", " ", name.lower().replace("ё", "е")).strip(), {})
+            rec[16] = card.get("color") or wa.color_from_name(name, kind == "Игристое вино")[0]
+            rec[17] = card.get("sugar") or wa.sugar_from_name(name)
+            if rec[11] is None:
+                rec[11] = card.get("abv") or wa.abv_from_name(name)
+            if rec[9] is None:
+                rec[9] = card.get("volume_ml") or wa.volume_from_name(name)
+            if rec[12] is None:
+                rec[12] = wa.vintage_from_name(name)
+        rule = RULES.get(prods.items[rec[5]] if rec[5] >= 0 else None)
+        if not rule:
+            continue
+        status = {"v": "vegan", "n": "nonvegan"}[rec[1]]
+        new = status
+        ok = not rule.get("drop")
+        if ok and rule.get("only"):
+            ok = re.search(rule["only"], name, re.I) is not None
+        if ok and any(k in rule for k in ("red", "white", "rose")):
+            ck = color_key(rec[16])
+            new = rule.get(ck) if ck else None
+            ok = new is not None
+            if ok and ck == "red" and rule.get("min_vintage_red") and rec[12] and rec[12] < rule["min_vintage_red"]:
+                ok = False
+        if ok and "status" in rule:
+            new = rule["status"]
+        if ok and rule.get("min_vintage") and rec[12] and rec[12] < rule["min_vintage"]:
+            ok = False
+        if not ok:
+            del groups[key]
+            dropped_by_rule += 1
+            continue
+        pub = dict(assessments[rec[15]])
+        if rule.get("note"):
+            pub["rationale"] = rule["note"]
+        if new != status:
+            pub["status"], pub["revised_from"] = new, status
+        k = json.dumps(pub, ensure_ascii=False, sort_keys=True)
+        if k not in assess_index:
+            assess_index[k] = len(assessments)
+            assessments.append(pub)
+        rec[15] = assess_index[k]
+        rec[1] = STATUS_CODE[new]
+    unknown_rules = set(RULES) - set(prods.items)
+    if unknown_rules:
+        print("Внимание: правила для компаний, которых нет в данных:", ", ".join(sorted(unknown_rules)))
 
     records = list(groups.values())
     ids = [r[0] for r in records]
@@ -407,6 +503,8 @@ def main():
     dump("meta.json", meta)
     dump("verified.json", {"records": verified, "assessments": assessments})
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
+    brew = ROOT / "data" / "ru_breweries.json"
+    dump("breweries.json", json.loads(brew.read_text(encoding="utf-8"))["breweries"] if brew.exists() else [])
 
     for rec in verified:
         if re.search(r"₽|руб\.?(?:\s|$)|В корзину|Цена за ", rec[3]):
@@ -414,7 +512,12 @@ def main():
 
     # Финальная проверка: в публикуемых файлах нет ссылок, кроме разрешённых источников.
     allowed = {ref["url"] for a in assessments for ref in a["refs"]}
-    allowed |= {"https://www.barnivore.com/", "https://www.barnivore.com/terms", "http://www.w3.org/2000/svg"}
+    # Пивоварни: допускаются только ссылки на записи VeganRussian.
+    for b in (json.loads(brew.read_text(encoding="utf-8"))["breweries"] if brew.exists() else []):
+        if not b["url"].startswith("https://veganrussian.ru/"):
+            fail(f"ru_breweries.json: ссылка не на VeganRussian: {b['url']}")
+        allowed.add(b["url"])
+    allowed |= {"https://veganrussian.ru/", "https://www.barnivore.com/", "https://www.barnivore.com/terms", "http://www.w3.org/2000/svg"}
     allowed_files = {".html", ".js", ".css", ".json", ".woff2", ".svg", ".txt", ""}
     for f in OUT.rglob("*"):
         if f.is_dir():
@@ -430,7 +533,7 @@ def main():
     print(f"Снимок {meta['as_of']}: решений {len(data['verified'])} -> {len(verified)} записей; "
           f"сетей с решениями {len(nets.items)}; российское производство исключено: {skipped_ru}; "
           f"без однозначного ответа исключено: {skipped['unclear']}; "
-          f"пересмотрено решений: {len(used_overrides)}; из сводного каталога сетей: {extra_count}.")
+          f"пересмотрено решений: {len(used_overrides)}; из сводного каталога сетей: {extra_count}; снято по правилам производителей: {dropped_by_rule}; страна по производителю: {filled_country}.")
 
 
 if __name__ == "__main__":
