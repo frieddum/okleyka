@@ -7741,6 +7741,1306 @@
      "checked_at": "2026-10-24"
     }
    ]
+  },
+  {
+   "id": "vr3-bcc8e79a3e",
+   "name": "Водка Finlandia",
+   "company": "Finlandia",
+   "category": "Крепкие напитки",
+   "country": "Финляндия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2021): все виды Finlandia веганские; производитель (2013) подтверждал классическую и вкусовые версии.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-finlandia/"
+  },
+  {
+   "id": "vr3-bb2b73c844",
+   "name": "Водка Finlandia Cranberry Fusion",
+   "company": "Finlandia",
+   "category": "Крепкие напитки",
+   "country": "Финляндия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2021): все виды Finlandia веганские; производитель (2013) подтверждал классическую и вкусовые версии.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-finlandia/"
+  },
+  {
+   "id": "vr3-15c973935a",
+   "name": "Водка Finlandia Grapefruit Fusion",
+   "company": "Finlandia",
+   "category": "Крепкие напитки",
+   "country": "Финляндия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2021): все виды Finlandia веганские; производитель (2013) подтверждал классическую и вкусовые версии.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-finlandia/"
+  },
+  {
+   "id": "vr3-e5956bcf17",
+   "name": "Водка Finlandia Lime Fusion",
+   "company": "Finlandia",
+   "category": "Крепкие напитки",
+   "country": "Финляндия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2021): все виды Finlandia веганские; производитель (2013) подтверждал классическую и вкусовые версии.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-finlandia/"
+  },
+  {
+   "id": "vr3-1609e98aeb",
+   "name": "Водка Finlandia Nordic Berries",
+   "company": "Finlandia",
+   "category": "Крепкие напитки",
+   "country": "Финляндия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2021): все виды Finlandia веганские; производитель (2013) подтверждал классическую и вкусовые версии.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-finlandia/"
+  },
+  {
+   "id": "vr3-c6f4ed9630",
+   "name": "Водка Finlandia Nordic Snow",
+   "company": "Finlandia",
+   "category": "Крепкие напитки",
+   "country": "Финляндия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2021): все виды Finlandia веганские; производитель (2013) подтверждал классическую и вкусовые версии.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-finlandia/"
+  },
+  {
+   "id": "vr3-3450d32450",
+   "name": "Водка Белуга Аллюр",
+   "company": "Beluga Group",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2017): в Beluga Transatlantic и Beluga Allure нет животных ингредиентов.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-2f44b45950",
+   "name": "Водка Белуга Трансатлантик",
+   "company": "Beluga Group",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2017): в Beluga Transatlantic и Beluga Allure нет животных ингредиентов.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga",
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-ce810a9857",
+   "name": "Водка Белуга Трансатлантик Промо Набор",
+   "company": "Beluga Group",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2017): в Beluga Transatlantic и Beluga Allure нет животных ингредиентов.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga",
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-97a1eaf028",
+   "name": "Водка Белуга Трансатлантик Рейсинг",
+   "company": "Beluga Group",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2017): в Beluga Transatlantic и Beluga Allure нет животных ингредиентов.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-a743c38b12",
+   "name": "Водка Белуга Трансатлантик Рейсинг Неви Блю",
+   "company": "Beluga Group",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2017): в Beluga Transatlantic и Beluga Allure нет животных ингредиентов.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-1d51c5a7e0",
+   "name": "Водка Русский Стандарт",
+   "company": "Русский Стандарт",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Градусы",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "КуулКлевер / ОТДОХНИ",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-4cdad6891f",
+   "name": "Водка Спирт Люкс Белуга трансатлантик рейсинг Мариинск. ЛВЗ",
+   "company": "Beluga Group",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2017): в Beluga Transatlantic и Beluga Allure нет животных ингредиентов.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga",
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-edeae79ea5",
+   "name": "Глинтвейн Schmitt Sohne",
+   "company": "Schmitt Söhne",
+   "category": "Вино",
+   "country": "Германия",
+   "status": "vegan",
+   "rationale": "Производитель: все вина, выпущенные после 2015 года, веганские.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/wine/236/schmitt-sohne-inc",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-811570aa24",
+   "name": "Бренди Torres 10 Gran Reserva",
+   "company": "Torres",
+   "category": "Крепкие напитки",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "Производитель (2017): бренди Torres 5, 10 и 20 в списке продукции без животных ингредиентов.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/847/torres",
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Градусы",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-eb0fac9003",
+   "name": "Бренди Torres 20",
+   "company": "Torres",
+   "category": "Крепкие напитки",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "Производитель (2017): бренди Torres 5, 10 и 20 в списке продукции без животных ингредиентов.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/847/torres",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-ae185844cd",
+   "name": "Бренди Torres 20 Hors D'Age, gift box",
+   "company": "Torres",
+   "category": "Крепкие напитки",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "Производитель (2017): бренди Torres 5, 10 и 20 в списке продукции без животных ингредиентов.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/847/torres",
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-b4160fb2aa",
+   "name": "Бренди Torres 5 Solera Reserva",
+   "company": "Torres",
+   "category": "Крепкие напитки",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "Производитель (2017): бренди Torres 5, 10 и 20 в списке продукции без животных ингредиентов.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/847/torres",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Градусы",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-20bcebc20a",
+   "name": "Вино Aroa Le Naturel Navarra 2021",
+   "company": "Aroa",
+   "category": "Вино",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian: Aroa Le Naturel сертифицировано V-Label.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wine-aroa/"
+  },
+  {
+   "id": "vr3-09c3aa7f49",
+   "name": "Вино Biorebe Riesling",
+   "company": "Biorebe",
+   "category": "Вино",
+   "country": "Германия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian: Biorebe Riesling сертифицировано V-Label.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/biorebe-riesling-wine/"
+  },
+  {
+   "id": "vr3-11f6718209",
+   "name": "Вино Kukabara Cabernet GI Angove Family Winemakers",
+   "company": "Angove Family Winemakers",
+   "category": "Вино",
+   "country": "Австралия",
+   "status": "vegan",
+   "rationale": "Вина Angove на Barnivore отмечены как веганские; по VeganRussian не веганские только Nine Vines Moscato и бренди St Agnes.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/wine/851/angove-family-winemakers",
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-2508d585c6",
+   "name": "Вино Matsu El Recio Toro 2022",
+   "company": "Matsu",
+   "category": "Вино",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian: Matsu El Picaro, El Recio и El Viejo сертифицированы V-Label.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-matsu/"
+  },
+  {
+   "id": "vr3-c4dcd04d69",
+   "name": "Вино Matsu El Recio Toro DO 2023",
+   "company": "Matsu",
+   "category": "Вино",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian: Matsu El Picaro, El Recio и El Viejo сертифицированы V-Label.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-matsu/"
+  },
+  {
+   "id": "vr3-8e352a0e47",
+   "name": "Вино Matsu El Viejo Toro 2020",
+   "company": "Matsu",
+   "category": "Вино",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian: Matsu El Picaro, El Recio и El Viejo сертифицированы V-Label.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-matsu/"
+  },
+  {
+   "id": "vr3-cf961f26fe",
+   "name": "Вино Matsu El Viejo Toro 2021",
+   "company": "Matsu",
+   "category": "Вино",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian: Matsu El Picaro, El Recio и El Viejo сертифицированы V-Label.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-matsu/"
+  },
+  {
+   "id": "vr3-4e8e115d94",
+   "name": "Вино Matsu El Viejo Toro 2022",
+   "company": "Matsu",
+   "category": "Вино",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian: Matsu El Picaro, El Recio и El Viejo сертифицированы V-Label.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-matsu/"
+  },
+  {
+   "id": "vr3-a8cbf60432",
+   "name": "Водка Danzka Grapefruit",
+   "company": "Danzka",
+   "category": "Крепкие напитки",
+   "country": "Дания",
+   "status": "vegan",
+   "rationale": "DANZKA Grapefruit на Barnivore отмечена как веганская.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/3062/waldemar-behn-gmbh",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-49fb6bc7af",
+   "name": "Водка особая ПЯТЬ ОЗЕР Сибирский кедр",
+   "company": "АСГ",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2018): при производстве водки «Пять озёр» не применяются ни животное сырьё, ни вспомогательные материалы.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Градусы",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-5-ozer/"
+  },
+  {
+   "id": "vr3-47372a666a",
+   "name": "Водка Пять озер Органик",
+   "company": "АСГ",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2018): при производстве водки «Пять озёр» не применяются ни животное сырьё, ни вспомогательные материалы.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-5-ozer/"
+  },
+  {
+   "id": "vr3-ede25d72db",
+   "name": "Водка Русский Стандарт Gold",
+   "company": "Русский Стандарт",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-35b1f54308",
+   "name": "Водка Русский Стандарт Империя",
+   "company": "Русский Стандарт",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-36108fcbae",
+   "name": "Водка Русский Стандарт Оригинал",
+   "company": "Русский Стандарт",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-048e8f77e5",
+   "name": "Водка Русский Стандарт Платинум",
+   "company": "Русский Стандарт",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-fed8ae9d01",
+   "name": "Водка Русский Стандарт Платинум Лакшери Эдишн",
+   "company": "Русский Стандарт",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-a3b5380242",
+   "name": "Водка Русский Стандарт Платинум(фляжка)",
+   "company": "Русский Стандарт",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-12e09db471",
+   "name": "Водка Русский стандарт фляга (Россия)",
+   "company": "Русский Стандарт",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
+   "chains": [
+    {
+     "network": "Градусы",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-d5a4c4c866",
+   "name": "Водка Русский Стандарт Эрмитаж",
+   "company": "Русский Стандарт",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-ce9b7144cc",
+   "name": "Водка Русский Стандарт Ювелирная серия",
+   "company": "Русский Стандарт",
+   "category": "Крепкие напитки",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-f478cce0c3",
+   "name": "Джин Roku",
+   "company": "Beam Suntory",
+   "category": "Крепкие напитки",
+   "country": "Япония",
+   "status": "vegan",
+   "rationale": "Roku Gin на Barnivore отмечен как веганский.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/6158/beam-suntory",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-dc36aa26ae",
+   "name": "Джин Whitley Neill Black Cherry",
+   "company": "Whitley Neill",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "vegan",
+   "rationale": "Производитель (2020): вся линейка веганская, кроме Rhubarb & Ginger и Lemongrass & Ginger.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/4220/whitley-neill",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-2fdc8eb016",
+   "name": "Джин Whitley Neill Japanese Cherry Blossom",
+   "company": "Whitley Neill",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "vegan",
+   "rationale": "Производитель (2020): вся линейка веганская, кроме Rhubarb & Ginger и Lemongrass & Ginger.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/4220/whitley-neill",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-79283a9425",
+   "name": "Джин Whitley Neill Japanese Mandarin & Persimmon",
+   "company": "Whitley Neill",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "vegan",
+   "rationale": "Производитель (2020): вся линейка веганская, кроме Rhubarb & Ginger и Lemongrass & Ginger.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/4220/whitley-neill",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-6f9b53c02d",
+   "name": "Джин Whitley Neill Japanese Yuzu & White Strawberry",
+   "company": "Whitley Neill",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "vegan",
+   "rationale": "Производитель (2020): вся линейка веганская, кроме Rhubarb & Ginger и Lemongrass & Ginger.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/4220/whitley-neill",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-d827684d27",
+   "name": "Джин Whitley Neill Lemongrass & Ginger (Russia)",
+   "company": "Whitley Neill",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "nonvegan",
+   "rationale": "Производитель (2018–2020): Rhubarb & Ginger и Lemongrass & Ginger не веганские (рыбий клей).",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/4220/whitley-neill",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-063b75bf02",
+   "name": "Ликер Fruto Strawberry",
+   "company": "Fruto",
+   "category": "Ликёры, настойки, биттеры",
+   "country": null,
+   "status": "vegan",
+   "rationale": "Ликёр Fruto клубничный в списке веганских на VeganRussian (2022).",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Градусы",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/liqueur-strawberry-fruto/"
+  },
+  {
+   "id": "vr3-d075e8c8f3",
+   "name": "Ром Bacardi Carta Blanca",
+   "company": "Bacardi",
+   "category": "Крепкие напитки",
+   "country": null,
+   "status": "vegan",
+   "rationale": "Производитель: ромы Bacardi веганские; исключение — Bacardi Spiced с мёдом.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/173/bacardi-global-brands",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-6b00b9b1f3",
+   "name": "Ром Bacardi Carta Negra",
+   "company": "Bacardi",
+   "category": "Крепкие напитки",
+   "country": null,
+   "status": "vegan",
+   "rationale": "Производитель: ромы Bacardi веганские; исключение — Bacardi Spiced с мёдом.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/173/bacardi-global-brands",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-9a80ad86ed",
+   "name": "Ром Bacardi Carta Oro",
+   "company": "Bacardi",
+   "category": "Крепкие напитки",
+   "country": null,
+   "status": "vegan",
+   "rationale": "Производитель: ромы Bacardi веганские; исключение — Bacardi Spiced с мёдом.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/173/bacardi-global-brands",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-4ea0143399",
+   "name": "Ром Bacardi Gold",
+   "company": "Bacardi",
+   "category": "Крепкие напитки",
+   "country": null,
+   "status": "vegan",
+   "rationale": "Производитель: ромы Bacardi веганские; исключение — Bacardi Spiced с мёдом.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/173/bacardi-global-brands",
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-400fe2e358",
+   "name": "Ром Bacardi Reserva 8 years",
+   "company": "Bacardi",
+   "category": "Крепкие напитки",
+   "country": null,
+   "status": "vegan",
+   "rationale": "Производитель: ромы Bacardi веганские; исключение — Bacardi Spiced с мёдом.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/173/bacardi-global-brands",
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-7b80924aec",
+   "name": "Ром Bacardi Reserva Ocho 8 Years Old",
+   "company": "Bacardi",
+   "category": "Крепкие напитки",
+   "country": null,
+   "status": "vegan",
+   "rationale": "Производитель: ромы Bacardi веганские; исключение — Bacardi Spiced с мёдом.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/173/bacardi-global-brands",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-74f05f6f9b",
+   "name": "Ром Bacardi Superior",
+   "company": "Bacardi",
+   "category": "Крепкие напитки",
+   "country": null,
+   "status": "vegan",
+   "rationale": "Производитель: ромы Bacardi веганские; исключение — Bacardi Spiced с мёдом.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/173/bacardi-global-brands",
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-2441c7bc1f",
+   "name": "Ром Beach House Gold Maurithian Spiced",
+   "company": "Beach House",
+   "category": "Крепкие напитки",
+   "country": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2021): весь ром бренда Beach House веганский.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/rum-beach-house/"
+  },
+  {
+   "id": "vr3-fd15c347c1",
+   "name": "Ром Beach House Gold Spiced",
+   "company": "Beach House",
+   "category": "Крепкие напитки",
+   "country": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2021): весь ром бренда Beach House веганский.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/rum-beach-house/"
+  },
+  {
+   "id": "vr3-8dbb20dcf5",
+   "name": "Ром Beach House Pink Spiced",
+   "company": "Beach House",
+   "category": "Крепкие напитки",
+   "country": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2021): весь ром бренда Beach House веганский.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/rum-beach-house/"
+  },
+  {
+   "id": "vr3-4faeb16f8f",
+   "name": "Ром Beach House White Spiced Fruity",
+   "company": "Beach House",
+   "category": "Крепкие напитки",
+   "country": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2021): весь ром бренда Beach House веганский.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/rum-beach-house/"
+  },
+  {
+   "id": "vr3-96b5a9b44a",
+   "name": "Ром Dead Man's Fingers Black Rum",
+   "company": "Bristol & Bath Rum Distillery",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "vegan",
+   "rationale": "Производитель (2022): по таблице аллергенов все ромы Dead Man's Fingers веганские; не веганский только сливочный ликёр.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/8752/bristol-bath-rum-distillery",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-cbd22017ce",
+   "name": "Ром Dead Man's Fingers Coffee Rum",
+   "company": "Bristol & Bath Rum Distillery",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "vegan",
+   "rationale": "Производитель (2022): по таблице аллергенов все ромы Dead Man's Fingers веганские; не веганский только сливочный ликёр.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/8752/bristol-bath-rum-distillery",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-5d31f843a5",
+   "name": "Ром Dead Man's Fingers Hazelnut Rum",
+   "company": "Bristol & Bath Rum Distillery",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "vegan",
+   "rationale": "Производитель (2022): по таблице аллергенов все ромы Dead Man's Fingers веганские; не веганский только сливочный ликёр.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/8752/bristol-bath-rum-distillery",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-08b51b58a2",
+   "name": "Ром Dead Man's Fingers Mango Rum",
+   "company": "Bristol & Bath Rum Distillery",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "vegan",
+   "rationale": "Производитель (2022): по таблице аллергенов все ромы Dead Man's Fingers веганские; не веганский только сливочный ликёр.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/8752/bristol-bath-rum-distillery",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-be23208335",
+   "name": "Ром Dead Man's Fingers Passion Fruit",
+   "company": "Bristol & Bath Rum Distillery",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "vegan",
+   "rationale": "Производитель (2022): по таблице аллергенов все ромы Dead Man's Fingers веганские; не веганский только сливочный ликёр.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/8752/bristol-bath-rum-distillery",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-3ec7eec177",
+   "name": "Ром Dead Man's Fingers Pineapple Rum",
+   "company": "Bristol & Bath Rum Distillery",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "vegan",
+   "rationale": "Производитель (2022): по таблице аллергенов все ромы Dead Man's Fingers веганские; не веганский только сливочный ликёр.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/8752/bristol-bath-rum-distillery",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-5b735bb388",
+   "name": "Ром Dead Man's Fingers White Rum",
+   "company": "Bristol & Bath Rum Distillery",
+   "category": "Крепкие напитки",
+   "country": "Великобритания",
+   "status": "vegan",
+   "rationale": "Производитель (2022): по таблице аллергенов все ромы Dead Man's Fingers веганские; не веганский только сливочный ликёр.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/8752/bristol-bath-rum-distillery",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-f3c2eba3cb",
+   "name": "Текила Espolon Anejo",
+   "company": "Gruppo Campari",
+   "category": "Крепкие напитки",
+   "country": "Мексика",
+   "status": "vegan",
+   "rationale": "Текила Espolon на Barnivore отмечена как веганская; по VeganRussian веганские Blanco, Reposado, Añejo и Extra Añejo.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/811/gruppo-campari",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-800b690521",
+   "name": "Текила Espolon Blanco",
+   "company": "Gruppo Campari",
+   "category": "Крепкие напитки",
+   "country": "Мексика",
+   "status": "vegan",
+   "rationale": "Текила Espolon на Barnivore отмечена как веганская; по VeganRussian веганские Blanco, Reposado, Añejo и Extra Añejo.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/811/gruppo-campari",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr3-5104aec702",
+   "name": "Текила Espolon Reposado",
+   "company": "Gruppo Campari",
+   "category": "Крепкие напитки",
+   "country": "Мексика",
+   "status": "vegan",
+   "rationale": "Текила Espolon на Barnivore отмечена как веганская; по VeganRussian веганские Blanco, Reposado, Añejo и Extra Añejo.",
+   "scope": [],
+   "evidence_date": null,
+   "barnivore_url": "https://www.barnivore.com/liquor/811/gruppo-campari",
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    },
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
   }
  ]
 }
