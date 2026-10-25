@@ -194,7 +194,7 @@
   /* ---------- Данные ---------- */
   let META = null, RECS = [], BY_ID = new Map(), INDEX = null, ASSESS = [];
   let groupTotals = {};
-  const collator = new Intl.Collator('ru', { sensitivity: 'base', numeric: true });
+  const collator = new Intl.Collator(window.I18N.lang, { sensitivity: 'base', numeric: true });
 
   function unpack(arr) {
     const d = META.dicts;
@@ -209,7 +209,8 @@
   }
   function ingest(list) {
     for (const arr of list) RECS.push(unpack(arr));
-    RECS.sort((a, b) => collator.compare(a.name, b.name));
+    RECS.forEach(r => { const display = window.splitDrinkName(tr(r.name)); r.displayName = display.title; r.nameDetails = display.details; });
+    RECS.sort((a, b) => collator.compare(a.displayName, b.displayName));
     RECS.forEach((r, i) => { r.rank = i; r.nameKey = tokenize(r.name).join(' '); r.brandKey = r.brand ? tokenize(r.brand).join(' ') : null; });
     BY_ID = new Map(RECS.map(r => [r.id, r]));
     INDEX = buildIndex(RECS);
@@ -436,6 +437,7 @@
   function pill(st) { return `<span class="pill st st-${st}">${esc(STATUS[st].label)}</span>`; }
   function factsHTML(r) {
     const f = [];
+    if (r.nameDetails) f.push(r.nameDetails);
     if (r.brand && !r.nameKey.includes(r.brandKey)) f.push(r.brand);
     if (r.producer) f.push(r.producer);
     if (r.country) f.push(r.country);
@@ -450,7 +452,7 @@
     return `<li class="row"><a href="${esc(urlFor({ id: r.id, p: state.p }))}" data-id="${esc(r.id)}">
       <div class="status-col">${pill(r.st)}</div>
       <div class="body">
-        <div class="name">${highlight(tr(r.name), tokens)}</div>
+        <div class="name">${highlight(r.displayName, tokens)}</div>
         ${facts ? `<div class="facts">${facts}</div>` : ''}
         <div class="where">${where.join('')}</div>
         ${r.a && r.a.rationale ? `<div class="why">${esc(r.a.rationale)}</div>` : ''}
@@ -561,14 +563,15 @@
         <h1>Запись не найдена</h1><p class="sub">Возможно, данные обновились и этой записи больше нет. Позиции каталогов без проверенного решения в справочнике не публикуются. Попробуйте найти напиток через поиск.</p>`;
       return;
     }
-    document.title = `${tr(r.name)} — ${tr('Оклейка')}`;
+    document.title = `${r.displayName} — ${tr('Оклейка')}`;
     const a = r.a;
     const vol = fmtVolume(r) || r.volRaw;
     let html = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a>
       <div>${pill(r.st)}</div>
-      <h1>${esc(tr(r.name))}</h1>
+      <h1>${esc(r.displayName)}</h1>
       <p class="sub">${esc(r.nets.map(tr).join(', '))}${r.checked ? ` ${fmtShort(r.checked)}` : ''}</p>
       <div class="label-box"><dl class="kv">
+        ${kv('Описание', r.nameDetails)}
         ${kv('Бренд', r.brand)}
         ${kv('Производитель', r.producer)}
         ${kv('Страна', r.country)}
@@ -597,7 +600,7 @@
     if (same.length) {
       html += `<section class="section"><h2>То же название в этой сети</h2>
         <p class="note">Статус между этими записями не переносится.</p>
-        <ul class="related">${same.slice(0, 12).map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(tr(x.name))}</a> <span class="note">${esc([fmtVolume(x), fmtAbv(x)].filter(Boolean).join(' · '))}</span></li>`).join('')}</ul></section>`;
+        <ul class="related">${same.slice(0, 12).map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(x.displayName)}</a> <span class="note">${esc([fmtVolume(x), fmtAbv(x)].filter(Boolean).join(' · '))}</span></li>`).join('')}</ul></section>`;
     }
     view.innerHTML = html;
   }

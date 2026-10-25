@@ -7,6 +7,7 @@
   try { localStorage.setItem('okleyka-language', lang); } catch (_) {}
   document.documentElement.lang = lang;
   const words = {
+    'Описание':'Description',
     'Неясно':'Unclear', 'Противоречие':'Conflicting evidence',
     'Доминиканская Республика':'Dominican Republic','Доминикана':'Dominican Republic','Люксембург':'Luxembourg','Черногория':'Montenegro','Исландия':'Iceland','Сингапур':'Singapore','Словакия':'Slovakia','Вьетнам':'Vietnam','Таиланд':'Thailand','Литва':'Lithuania','Тринидад и Тобаго':'Trinidad and Tobago','Никарагуа':'Nicaragua','Гватемала':'Guatemala','Латвия':'Latvia','Абхазия':'Abkhazia','Турция':'Turkey','Ливан':'Lebanon','Словения':'Slovenia','Бразилия':'Brazil','Сент-Люсия':'Saint Lucia','Филиппины':'Philippines','Игристое вино':'Sparkling wine','Аперитив':'Aperitif','Писко':'Pisco','Портвейн':'Port','Херес':'Sherry','Соджу':'Soju',
     'Оклейка':'Okleika', 'Справочник':'Directory', 'Методика':'Methodology',
