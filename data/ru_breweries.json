@@ -2,86 +2,236 @@
  "source": "VeganRussian, ответы пивоварен и сидроделен; публикуется с разрешения владелицы сайта",
  "copied_at": "2026-10-25",
  "breweries": [
-  {"name": "Московская пивоваренная компания", "kind": "Пиво", "status": "vegan", "date": "2021-06",
+  {
+   "name": "Балтика",
+   "kind": "Пиво и сидр",
+   "status": "vegan",
+   "date": "2020-07",
+   "note": "В пиве нет ингредиентов животного происхождения, при производстве и фильтрации животные продукты не используются (письмо производителя на Barnivore, 2018). VeganRussian перечисляет все марки с заводов «Балтики»: Балтика, Tuborg, Carlsberg, Kronenbourg 1664, Жатецкий Гусь, Holsten, Somersby, Невское, Арсенальное, Бархатное, Сибирский бочонок, Garage, Flash и другие.",
+   "url": "https://veganrussian.ru/baltika/"
+  },
+  {
+   "name": "Московская пивоваренная компания",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2021-06",
    "note": "Пиво, пивные напитки и квас без животных продуктов; фильтрация на мембранах и кизельгуре. Исключение — медовуха (натуральный мёд). VeganRussian перечисляет: Жигули, Мотор, Хамовники, Трёхгорное, Волковская пивоварня, Пироговское и другие.",
-   "url": "https://veganrussian.ru/beer-from-moscow-brewing-company/"},
-  {"name": "Волковская пивоварня", "kind": "Пиво", "status": "vegan", "date": "2023-01",
+   "url": "https://veganrussian.ru/beer-from-moscow-brewing-company/"
+  },
+  {
+   "name": "Волковская пивоварня",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2023-01",
    "note": "Фильтрация на мембране и кизельгуре, ферменты не используются. Не подходят: Милкшейк и Шоколадный стаут (лактоза), «Неправильный мёд».",
-   "url": "https://veganrussian.ru/volkovskaya-pivovarnya/"},
-  {"name": "Ponarth", "city": "Калининград", "kind": "Пиво", "status": "vegan", "date": "2025-02",
+   "url": "https://veganrussian.ru/volkovskaya-pivovarnya/"
+  },
+  {
+   "name": "Ponarth",
+   "city": "Калининград",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2025-02",
    "note": "Вода, солод, хмель, дрожжи, в крафтовых сортах — специи; фильтрация только кизельгуром, осветлители не используются. Исключение — молочный стаут (лактоза).",
-   "url": "https://veganrussian.ru/kaliningradskaya-pivovarnya-ponarth/"},
-  {"name": "Brewlok", "kind": "Пиво", "status": "vegan", "date": "2020-11",
+   "url": "https://veganrussian.ru/kaliningradskaya-pivovarnya-ponarth/"
+  },
+  {
+   "name": "Brewlok",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2020-11",
    "note": "Компонентов животного происхождения нет, фильтрации нет. В некоторых сортах лактоза — указана на этикетке.",
-   "url": "https://veganrussian.ru/brewlock/"},
-  {"name": "Konix Brewery", "kind": "Пиво", "status": "vegan", "date": "2020-01",
+   "url": "https://veganrussian.ru/brewlock/"
+  },
+  {
+   "name": "Konix Brewery",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2020-01",
    "note": "Для фильтрации и осветления животные продукты не используются. В некоторых сортах мёд — указан на этикетке.",
-   "url": "https://veganrussian.ru/konix-brewery/"},
-  {"name": "Горьковская пивоварня", "city": "Нижний Новгород", "kind": "Пиво", "status": "vegan", "date": "2021-07",
+   "url": "https://veganrussian.ru/konix-brewery/"
+  },
+  {
+   "name": "Горьковская пивоварня",
+   "city": "Нижний Новгород",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2021-07",
    "note": "Всё пиво нефильтрованное. Лактоза в Саур эль, Саур IPA и Империал саур.",
-   "url": "https://veganrussian.ru/gorkovskaia-pivovarnia/"},
-  {"name": "Pilsar (Tank Ural Brewery)", "kind": "Пиво", "status": "vegan", "date": "2020-02",
+   "url": "https://veganrussian.ru/gorkovskaia-pivovarnia/"
+  },
+  {
+   "name": "Pilsar (Tank Ural Brewery)",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2020-02",
    "note": "Без ароматизаторов и осветления желатином, только растительное сырьё. Исключение — Овсяный стаут (лактоза).",
-   "url": "https://veganrussian.ru/tank-ural-brewery/"},
-  {"name": "Букет Чувашии", "city": "Чебоксары", "kind": "Пиво", "status": "vegan", "date": "2020-08",
+   "url": "https://veganrussian.ru/tank-ural-brewery/"
+  },
+  {
+   "name": "Букет Чувашии",
+   "city": "Чебоксары",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2020-08",
    "note": "Только растительное сырьё, вода и пивные дрожжи; животные продукты не входят в состав и не применяются в производстве.",
-   "url": "https://veganrussian.ru/beer-buket-chuvashii/"},
-  {"name": "Alaska Brewery", "kind": "Пиво", "status": "vegan", "date": "2021-08",
+   "url": "https://veganrussian.ru/beer-buket-chuvashii/"
+  },
+  {
+   "name": "Alaska Brewery",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2021-08",
    "note": "Животные продукты не используются. В некоторых сортах лактоза, например в милкшейках.",
-   "url": "https://veganrussian.ru/alaska-brewery/"},
-  {"name": "Филин", "city": "Улан-Удэ", "kind": "Пиво", "status": "vegan", "date": "2021-07",
+   "url": "https://veganrussian.ru/alaska-brewery/"
+  },
+  {
+   "name": "Филин",
+   "city": "Улан-Удэ",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2021-07",
    "note": "Лактоза, мёд и другие животные продукты не используются, в том числе при фильтрации.",
-   "url": "https://veganrussian.ru/beer-from-home-brewery-owl/"},
-  {"name": "Crazy Brew", "kind": "Пиво", "status": "vegan", "date": "2021-06",
+   "url": "https://veganrussian.ru/beer-from-home-brewery-owl/"
+  },
+  {
+   "name": "Crazy Brew",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2021-06",
    "note": "Только растительные продукты, в том числе при фильтрации.",
-   "url": "https://veganrussian.ru/beer-crazy-brew/"},
-  {"name": "Jaws", "city": "Заречный", "kind": "Пиво", "status": "vegan", "date": "2021-09",
+   "url": "https://veganrussian.ru/beer-crazy-brew/"
+  },
+  {
+   "name": "Jaws",
+   "city": "Заречный",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2021-09",
    "note": "Фильтрация центрифугой, без материалов животного происхождения. В некоторых сортах лактоза и мёд — проверяйте этикетку.",
-   "url": "https://veganrussian.ru/beer-jaws-brewery/"},
-  {"name": "Melody Brew", "kind": "Пиво", "status": "vegan", "date": "2021-06",
+   "url": "https://veganrussian.ru/beer-jaws-brewery/"
+  },
+  {
+   "name": "Melody Brew",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2021-06",
    "note": "При фильтрации и осветлении животные продукты не используются. В некоторых сортах лактоза и мёд; Sweet Harmony не веганское.",
-   "url": "https://veganrussian.ru/beer-melody-brew/"},
-  {"name": "zavod", "kind": "Пиво", "status": "vegan", "date": "2021-06",
+   "url": "https://veganrussian.ru/beer-melody-brew/"
+  },
+  {
+   "name": "zavod",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2021-06",
    "note": "Животные препараты для фильтрации не используются. Не подходят: томатные Bloody и Empress (вустерширский соус с анчоусами) и Чоколакто.",
-   "url": "https://veganrussian.ru/beer-zavod/"},
-  {"name": "Сыктывкарпиво", "city": "Сыктывкар", "kind": "Пиво", "status": "vegan", "date": "2024-12",
+   "url": "https://veganrussian.ru/beer-zavod/"
+  },
+  {
+   "name": "Сыктывкарпиво",
+   "city": "Сыктывкар",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2024-12",
    "note": "Фильтрация кизельгуром и холодно-стерильная; в составах только вода, солод, хмель и дрожжи.",
-   "url": "https://veganrussian.ru/pivo-syvtyrkarpivo/"},
-  {"name": "Coma Brewery", "kind": "Пиво", "status": "vegan", "date": "2021-10",
+   "url": "https://veganrussian.ru/pivo-syvtyrkarpivo/"
+  },
+  {
+   "name": "Coma Brewery",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2021-10",
    "note": "Ответ только про сорт «Богиня»: сусло не фильтровали и не осветляли животными продуктами, лактозу не добавляли.",
-   "url": "https://veganrussian.ru/coma-brewery-goddess-ale/"},
-  {"name": "Юзберг", "kind": "Пиво", "status": "vegan", "date": "2023-02",
+   "url": "https://veganrussian.ru/coma-brewery-goddess-ale/"
+  },
+  {
+   "name": "Юзберг",
+   "kind": "Пиво",
+   "status": "vegan",
+   "date": "2023-02",
    "note": "Ответ про пшеничное пиво Юзберг: вода, солод, хмель, дрожжи.",
-   "url": "https://veganrussian.ru/pivo-yuzberg-weiss/"},
-  {"name": "Василеостровская пивоварня", "city": "Санкт-Петербург", "kind": "Пиво и сидр", "status": "vegan", "date": "2023-09",
+   "url": "https://veganrussian.ru/pivo-yuzberg-weiss/"
+  },
+  {
+   "name": "Василеостровская пивоварня",
+   "city": "Санкт-Петербург",
+   "kind": "Пиво и сидр",
+   "status": "vegan",
+   "date": "2023-09",
    "note": "Пуаре полусухой: вода, грушевый сок, винные дрожжи, фильтрация без животных продуктов. Фруктовые эли (Cassis, Framboise, Mango и др.) — по списку VeganRussian. Ответа обо всём ассортименте нет.",
-   "url": "https://veganrussian.ru/sidr-puare-igristyy-polusuhoy-vasileostrovskaya-pivovarnya/"},
-  {"name": "Fizz", "kind": "Сидр", "status": "vegan", "date": "2021-02",
+   "url": "https://veganrussian.ru/sidr-puare-igristyy-polusuhoy-vasileostrovskaya-pivovarnya/"
+  },
+  {
+   "name": "Fizz",
+   "kind": "Сидр",
+   "status": "vegan",
+   "date": "2021-02",
    "note": "Животных продуктов нет ни в сырье, ни в материалах на всех этапах; ароматизаторы растительные, молочная кислота синтетическая.",
-   "url": "https://veganrussian.ru/cider-fizz/"},
-  {"name": "Ш", "kind": "Сидр", "status": "vegan", "date": "2021-12",
+   "url": "https://veganrussian.ru/cider-fizz/"
+  },
+  {
+   "name": "Ш",
+   "kind": "Сидр",
+   "status": "vegan",
+   "date": "2021-12",
    "note": "Фильтрация кизельгуром, без красителей и мёда, только сок прямого отжима.",
-   "url": "https://veganrussian.ru/sh-cider/"},
-  {"name": "Заповедник", "kind": "Сидр", "status": "vegan", "date": "2023-05",
+   "url": "https://veganrussian.ru/sh-cider/"
+  },
+  {
+   "name": "Заповедник",
+   "kind": "Сидр",
+   "status": "vegan",
+   "date": "2023-05",
    "note": "Сидры из сока прямого отжима; список сортов — на VeganRussian.",
-   "url": "https://veganrussian.ru/sidry-zapovednik/"},
-  {"name": "Дальняя дача", "kind": "Сидр", "status": "vegan", "date": "2024-02",
+   "url": "https://veganrussian.ru/sidry-zapovednik/"
+  },
+  {
+   "name": "Дальняя дача",
+   "kind": "Сидр",
+   "status": "vegan",
+   "date": "2024-02",
    "note": "Яблочные №1 сухой, №2 полусухой, №3 полусладкий.",
-   "url": "https://veganrussian.ru/sidry-dalnyaya-dacha/"},
-  {"name": "Gravity Project", "kind": "Сидр", "status": "vegan", "date": "2024-12",
+   "url": "https://veganrussian.ru/sidry-dalnyaya-dacha/"
+  },
+  {
+   "name": "Gravity Project",
+   "kind": "Сидр",
+   "status": "vegan",
+   "date": "2024-12",
    "note": "Фруктовые сидры: яблочный сок, фрукты и ягоды, винные дрожжи; список — на VeganRussian.",
-   "url": "https://veganrussian.ru/sidr-gravity-project/"},
-  {"name": "Ля фуар де Нижний Новгород", "kind": "Сидр", "status": "vegan", "date": "2024-02",
+   "url": "https://veganrussian.ru/sidr-gravity-project/"
+  },
+  {
+   "name": "Ля фуар де Нижний Новгород",
+   "kind": "Сидр",
+   "status": "vegan",
+   "date": "2024-02",
    "note": "Ответ про сухой сидр «Ассамбляж 12».",
-   "url": "https://veganrussian.ru/sidr-yablochnyy-suhoy-55-assamblyazh-12-lya-fuar-de-nizhniy-novgorod/"},
-  {"name": "Medovarus", "kind": "Сидр", "status": "vegan", "date": "2021-09",
+   "url": "https://veganrussian.ru/sidr-yablochnyy-suhoy-55-assamblyazh-12-lya-fuar-de-nizhniy-novgorod/"
+  },
+  {
+   "name": "Medovarus",
+   "kind": "Сидр",
+   "status": "vegan",
+   "date": "2021-09",
    "note": "Веганские: грушевый и яблочные сидры Le Jardin des Fruits. С мёдом: Вишнёвый крик, малиновый и черносмородиновый ламбики.",
-   "url": "https://veganrussian.ru/medovarus-cider/"},
-  {"name": "Cidre Royal", "kind": "Сидр", "status": "vegan", "date": "2021-09",
+   "url": "https://veganrussian.ru/medovarus-cider/"
+  },
+  {
+   "name": "Cidre Royal",
+   "kind": "Сидр",
+   "status": "vegan",
+   "date": "2021-09",
    "note": "Веганские вкусы: яблоко, клубника, вишня, груша, смородина, слива, абрикос, мята, клюква. С мёдом: пряный и медовый.",
-   "url": "https://veganrussian.ru/cidre-royal-cider/"},
-  {"name": "BSD", "kind": "Сидр", "status": "vegan", "date": "2021-08",
+   "url": "https://veganrussian.ru/cidre-royal-cider/"
+  },
+  {
+   "name": "BSD",
+   "kind": "Сидр",
+   "status": "vegan",
+   "date": "2021-08",
    "note": "Сидры веганские, медовуха — нет.",
-   "url": "https://veganrussian.ru/beer-cider-from-bsd-bar-shop/"}
+   "url": "https://veganrussian.ru/beer-cider-from-bsd-bar-shop/"
+  }
  ]
 }
