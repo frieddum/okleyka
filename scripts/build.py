@@ -510,6 +510,13 @@ def main():
     if len(data["verified"]) != c.get("verified_assessments"):
         fail("число записей с решением не совпадает с counts.verified_assessments")
 
+    # Игристое показывается внутри «Вина»; отдельный фильтр на сайте — по признаку sparkling.
+    if "Игристое вино" in cats.items:
+        sp_i, wine_i = cats.items.index("Игристое вино"), cats("Вино")
+        for rec in verified:
+            if rec[8] == sp_i:
+                rec[8], rec[18] = wine_i, 1
+
     meta = {
         "title": clean(data.get("title")),
         "as_of": data["as_of"],
