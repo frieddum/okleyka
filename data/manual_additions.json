@@ -24526,6 +24526,751 @@
     }
    ],
    "barnivore_url": "https://www.barnivore.com/liquor/3609/sauza"
+  },
+  {
+   "id": "jo-48ff6aa078",
+   "name": "Вино Бонавита, IGT, белое, полусухое, 0.75л",
+   "company": "Bonavita",
+   "category": "Вино",
+   "country": "Италия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian: Bonavita белое и красное полусухие — веганские.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wine-bonavita/",
+   "barnivore_url": null
+  },
+  {
+   "id": "jo-0b6c49e843",
+   "name": "Вино Бонавита, IGT, красное, полусухое, 0.75л",
+   "company": "Bonavita",
+   "category": "Вино",
+   "country": "Италия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian: Bonavita белое и красное полусухие — веганские.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wine-bonavita/",
+   "barnivore_url": null
+  },
+  {
+   "id": "jo-ada035d192",
+   "name": "Вино Бонавита, IGT, красное, полусухое, 1.5л",
+   "company": "Bonavita",
+   "category": "Вино",
+   "country": "Италия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian: Bonavita белое и красное полусухие — веганские.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wine-bonavita/",
+   "barnivore_url": null
+  },
+  {
+   "id": "jo-cb32f85626",
+   "name": "Вино Каза Сантос Лима Тиролиро Винью Верде, DOC, розовое, полусухое, 0.75л",
+   "company": "Casa Santos Lima",
+   "category": "Вино",
+   "country": "Португалия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Casa Santos Lima»."
+   ],
+   "evidence_date": "2019-10",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/4379/casa-santos-lima"
+  },
+  {
+   "id": "jo-a04beed850",
+   "name": "Вино Каса Сильва Микротерруар Де Лос Лингуэс Карменер, красное, сухое, 0.75л",
+   "company": "Casa Silva",
+   "category": "Вино",
+   "country": "Чили",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2020-12), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2020-12",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/8120/casa-silva"
+  },
+  {
+   "id": "jo-29fbde0674",
+   "name": "Вино Лонг Барн Шардоне, белое, полусухое 0.75л",
+   "company": "Long Barn",
+   "category": "Вино",
+   "country": "США",
+   "volume_ml": null,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Long Barn: письмо 2019 г. — для осветления используются животные средства, преимущественно яичные. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2019-01",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/6939/long-barn"
+  },
+  {
+   "id": "jo-11cb084429",
+   "name": "Вино Пино Бьянко Ризерва Форберг Кантина Терлан, белое, сухое, 0.75л",
+   "company": "Cantina Terlano",
+   "category": "Вино",
+   "country": "Италия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2021-04), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2021-04",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/8382/cantina-terlano"
+  },
+  {
+   "id": "jo-dbca0926c7",
+   "name": "Виски Ардбег 10 лет, в подарочной упаковке, 0.7л",
+   "company": "Ardbeg Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2023-01), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2023-01",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/889/ardbeg-distillery"
+  },
+  {
+   "id": "jo-fd25bb76a3",
+   "name": "Виски Бенриах Ориджинал, 10 лет, в тубе, 0.7л",
+   "company": "The BenRiach Distillery Company Ltd.",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "BenRiach: производитель в 2015 г. прямо подтвердил, что производство и фильтрация на всех трёх винокурнях делают все виски подходящими веганам. Barnivore ставит Not Vegan из-за клея этикетки на основе казеина. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции",
+    "Клей этикетки на основе казеина; исходная плашка Barnivore — Not Vegan"
+   ],
+   "evidence_date": "2015-07",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/4075/the-benriach-distillery-company-ltd"
+  },
+  {
+   "id": "jo-4f02fc5735",
+   "name": "Виски Бенриах Смоки 10 лет, 0.7л",
+   "company": "The BenRiach Distillery Company Ltd.",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "BenRiach: производитель в 2015 г. прямо подтвердил, что производство и фильтрация на всех трёх винокурнях делают все виски подходящими веганам. Barnivore ставит Not Vegan из-за клея этикетки на основе казеина. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции",
+    "Клей этикетки на основе казеина; исходная плашка Barnivore — Not Vegan"
+   ],
+   "evidence_date": "2015-07",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/4075/the-benriach-distillery-company-ltd"
+  },
+  {
+   "id": "jo-7869c440be",
+   "name": "Виски Бенриах Смоки 12 лет, в тубе, 0.7л",
+   "company": "The BenRiach Distillery Company Ltd.",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "BenRiach: производитель в 2015 г. прямо подтвердил, что производство и фильтрация на всех трёх винокурнях делают все виски подходящими веганам. Barnivore ставит Not Vegan из-за клея этикетки на основе казеина. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции",
+    "Клей этикетки на основе казеина; исходная плашка Barnivore — Not Vegan"
+   ],
+   "evidence_date": "2015-07",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/4075/the-benriach-distillery-company-ltd"
+  },
+  {
+   "id": "jo-de44bb6457",
+   "name": "Виски Лагавулин 8 лет, односолодовый, 0.7л",
+   "company": "Lagavulin Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Lagavulin Distillery»."
+   ],
+   "evidence_date": "2014-10",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3684/lagavulin-distillery"
+  },
+  {
+   "id": "jo-0904a29a13",
+   "name": "Виски Макаллан Дабл Каск 12 лет, в подарочной упаковке, 0.7л",
+   "company": "Macallan Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Macallan Distillery»."
+   ],
+   "evidence_date": "2017-08",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery"
+  },
+  {
+   "id": "jo-545e2f5288",
+   "name": "Виски Макаллан Дабл Каск 15 лет, в подарочной упаковке, 0.7л",
+   "company": "Macallan Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Macallan Distillery»."
+   ],
+   "evidence_date": "2017-08",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery"
+  },
+  {
+   "id": "jo-acf0e7ec64",
+   "name": "Виски Макаллан Дабл Каск 18 лет, в подарочной упаковке, 0.7л",
+   "company": "Macallan Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Macallan Distillery»."
+   ],
+   "evidence_date": "2017-08",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery"
+  },
+  {
+   "id": "jo-2c11f78fb8",
+   "name": "Виски Макаллан Рэр Каск, в подарочной упаковке, 0.7л",
+   "company": "Macallan Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Macallan Distillery»."
+   ],
+   "evidence_date": "2017-08",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery"
+  },
+  {
+   "id": "jo-2343e2aa4c",
+   "name": "Виски Макаллан Шерри Оак 12 лет, в подарочной упаковке, 0.7л",
+   "company": "Macallan Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Macallan Distillery»."
+   ],
+   "evidence_date": "2017-08",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery"
+  },
+  {
+   "id": "jo-615d96673d",
+   "name": "Виски Макаллан Шерри Оук 18-летний, в подарочной упаковке, 0.7л",
+   "company": "Macallan Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Macallan Distillery»."
+   ],
+   "evidence_date": "2017-08",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery"
+  },
+  {
+   "id": "jo-ee14e4b287",
+   "name": "Виски Томатин Легаси, односолодовый, 0.7л",
+   "company": "Tomatin Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2012-12), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2012-12",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/2591/tomatin-distillery"
+  },
+  {
+   "id": "jo-916e7bb116",
+   "name": "Виски Чивас Ригал, 12 лет, 0.75л",
+   "company": "Pernod Ricard",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2016-05",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/502/pernod-ricard"
+  },
+  {
+   "id": "jo-fbda33dd06",
+   "name": "Водка Белуга Нобл, 0.05л",
+   "company": "Beluga Group",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Производитель (2017): в водке Beluga Noble есть мёд.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga"
+  },
+  {
+   "id": "jo-604c868de4",
+   "name": "Джин Року, 0.7л",
+   "company": "Beam Suntory",
+   "category": "Джин",
+   "country": "Япония",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Roku Gin на Barnivore отмечен как веганский.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/6158/beam-suntory"
+  },
+  {
+   "id": "jo-ab0589e205",
+   "name": "Коньяк Хеннесси VS, 0.5л",
+   "company": "Hennessy Cognac",
+   "category": "Коньяк",
+   "country": "Франция",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2011-01",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/349/hennessy-cognac"
+  },
+  {
+   "id": "jo-ff60ad467b",
+   "name": "Коньяк Хеннесси VS, 0.7л",
+   "company": "Hennessy Cognac",
+   "category": "Коньяк",
+   "country": "Франция",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2011-01",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/349/hennessy-cognac"
+  },
+  {
+   "id": "jo-f04df507b7",
+   "name": "Коньяк Хеннесси VSOP, 0.7л",
+   "company": "Hennessy Cognac",
+   "category": "Коньяк",
+   "country": "Франция",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2011-01",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/349/hennessy-cognac"
+  },
+  {
+   "id": "jo-e654f63948",
+   "name": "Коньяк Хеннесси Паради, в подарочной упаковке, 0.7л",
+   "company": "Hennessy Cognac",
+   "category": "Коньяк",
+   "country": "Франция",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2011-01",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/349/hennessy-cognac"
+  },
+  {
+   "id": "jo-3f120e74d1",
+   "name": "Коньяк Хеннесси ХО 0,05л",
+   "company": "Hennessy Cognac",
+   "category": "Коньяк",
+   "country": "Франция",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2011-01",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/349/hennessy-cognac"
+  },
+  {
+   "id": "jo-4c556ab670",
+   "name": "Коньяк Хеннесси ХО, в подарочной упаковке, 0.7л",
+   "company": "Hennessy Cognac",
+   "category": "Коньяк",
+   "country": "Франция",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2011-01",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/349/hennessy-cognac"
+  },
+  {
+   "id": "jo-41864d026a",
+   "name": "Ликер Амаро Монтенегро, 0.05л",
+   "company": "Montenegro Srl.",
+   "category": "Ликёр",
+   "country": "Италия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2021-12), учтённому Barnivore, продукт не использует продукты животного происхождения.",
+   "scope": [],
+   "evidence_date": "2021-12",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/5616/montenegro-srl"
+  },
+  {
+   "id": "jo-a617c03db9",
+   "name": "Ликер Ягермайстер, 0.7л",
+   "company": "Jägermeister",
+   "category": "Ликёр",
+   "country": "Германия",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2021-10), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2021-10",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/106/j-germeister"
+  },
+  {
+   "id": "jo-a8f8c9da68",
+   "name": "Настойка Ангостура Какао Биттерс, 0.1л",
+   "company": "Angostura",
+   "category": "Ром",
+   "country": "Тринидад и Тобаго",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Angostura»."
+   ],
+   "evidence_date": "2017-08",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/1450/angostura"
+  },
+  {
+   "id": "jo-ed16706ab5",
+   "name": "Ром Закапа Сентенарио, Солера Гран Ресерва Эспесьяль, в подарочной упаковке, 0.7л",
+   "company": "Zacapa",
+   "category": "Ром",
+   "country": "Гватемала",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Zacapa»."
+   ],
+   "evidence_date": "2017-01",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/5078/zacapa"
+  },
+  {
+   "id": "jo-2d2b23684c",
+   "name": "Ром Закапа Сэнтэнарио Солера Гран Резерва 23, 0.7л",
+   "company": "Zacapa",
+   "category": "Ром",
+   "country": "Гватемала",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Zacapa»."
+   ],
+   "evidence_date": "2017-01",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/5078/zacapa"
+  },
+  {
+   "id": "jo-640d187575",
+   "name": "Текила Дон Хулио Аньехо, 0.75л",
+   "company": "Don Julio Tequila",
+   "category": "Текила",
+   "country": "Мексика",
+   "volume_ml": null,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2010-03",
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/1021/don-julio-tequila"
   }
  ]
 }
