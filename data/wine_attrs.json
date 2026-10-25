@@ -144,14 +144,18 @@
  },
  "вино alamos malbec 2023": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 13.5
  },
  "вино alamos malbec 2024": {
-  "abv": 13.0
+  "abv": 13.0,
+  "color": "Красное",
+  "sugar": "Сухое"
  },
  "вино alamos malbec 2025": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 13.0
  },
  "вино alamos merlot 2014": {
   "color": "Красное",
@@ -734,7 +738,8 @@
  },
  "вино bodegas ramon bilbao crianza 2020": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 14.0
  },
  "вино bodegas ramon bilbao crianza 2022": {
   "color": "Красное",
@@ -1445,7 +1450,8 @@
  },
  "вино buena vista zinfandel 2023": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 15.5
  },
  "вино ca del bosco sebino selva della tesa chardonnay 2020": {
   "color": "Белое",
@@ -2962,7 +2968,8 @@
  },
  "вино dr loosen dr l riesling dry qualitatswein 2023": {
   "color": "Белое",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 12.0
  },
  "вино dr loosen dr l riesling dry qualitatswein 2024": {
   "color": "Белое",
@@ -3009,7 +3016,8 @@
  },
  "вино dr loosen riesling beerenauslese 2018": {
   "color": "Белое",
-  "sugar": "Сладкое"
+  "sugar": "Сладкое",
+  "abv": 7.0
  },
  "вино dr loosen riesling urziger wurzgarten kabinett": {
   "color": "Белое",
@@ -3117,7 +3125,8 @@
  },
  "вино e guigal cotes du rhone rouge 2021": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 14.5
  },
  "вино e guigal cotes du rhone rouge 2022": {
   "color": "Красное",
@@ -3379,7 +3388,8 @@
  },
  "вино finca las moras malbec 2025": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 12.5
  },
  "вино finca las moras sauvignon blanc": {
   "color": "Белое",
@@ -3470,7 +3480,8 @@
  },
  "вино franz haas manna 2023": {
   "color": "Белое",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 13.5
  },
  "вино franz haas moscato rosa 2019": {
   "color": "Красное",
@@ -3508,7 +3519,8 @@
  },
  "вино franz haas pinot nero 2022": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 14.0
  },
  "вино franz haas sauvignon 2018": {
   "color": "Белое",
@@ -3602,7 +3614,8 @@
  },
  "вино glaetzer amon ra 2021": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 14.5
  },
  "вино glaetzer anaperenna": {
   "color": "Красное",
@@ -3612,7 +3625,8 @@
  },
  "вино glaetzer anaperenna 2020": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 15.5
  },
  "вино glaetzer bishop shiraz 2020": {
   "color": "Красное",
@@ -3631,7 +3645,8 @@
  },
  "вино glaetzer wallace 2021": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 14.5
  },
  "вино grifo augustale castel del monte bombino nero 2022": {
   "color": "Розовое",
@@ -4078,7 +4093,8 @@
  },
  "вино kloster eberbach spatburgunder 2019": {
   "color": "Красное",
-  "sugar": "Полусухое"
+  "sugar": "Полусухое",
+  "abv": 13.0
  },
  "вино koehler ruprecht kallstadter saumagen riesling spatlese 2019": {
   "color": "Белое",
@@ -4399,7 +4415,8 @@
  },
  "вино long barn zinfandel 2024": {
   "color": "Красное",
-  "sugar": "Полусухое"
+  "sugar": "Полусухое",
+  "abv": 13.5
  },
  "вино longview nebbiolo rosado juno 2018": {
   "color": "Розовое",
@@ -4562,7 +4579,8 @@
  },
  "вино luigi bosca chardonnay 2025": {
   "color": "Белое",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 13.8
  },
  "вино luigi bosca gala red dry": {
   "color": "Красное",
@@ -4582,7 +4600,8 @@
  },
  "вино luigi bosca malbec 2024": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 13.4
  },
  "вино luigi bosca malbec la linda 2025": {
   "color": "Красное",
@@ -4663,7 +4682,8 @@
  },
  "вино m chapoutier rivesaltes 1995": {
   "color": "Красное",
-  "sugar": "Сладкое"
+  "sugar": "Сладкое",
+  "abv": 16.0
  },
  "вино madeira rainwater": {
   "color": "Белое",
@@ -4795,7 +4815,8 @@
  },
  "вино martin codax cuatro pasos 2022": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 13.0
  },
  "вино martin codax cuatro pasos black 2019": {
   "color": "Красное",
@@ -5766,7 +5787,8 @@
  },
  "вино petra quercegobbe 2009": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 14.5
  },
  "вино petra quercegobbe 2010": {
   "color": "Красное",
@@ -5775,11 +5797,13 @@
  },
  "вино petra quercegobbe 2012": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 14.0
  },
  "вино petra quercegobbe 2013": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 14.5
  },
  "вино petra toscana 2012": {
   "color": "Красное",
@@ -6782,7 +6806,8 @@
  },
  "вино tarapaca cabernet sauvignon 2023": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 13.5
  },
  "вино tarapaca cabernet sauvignon 2024": {
   "color": "Красное",
@@ -6824,7 +6849,8 @@
  },
  "вино tarapaca merlot gran reserva 2023": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 14.0
  },
  "вино tarapaca sauvignon blanc": {
   "color": "Белое",
@@ -7044,7 +7070,8 @@
  },
  "вино trapiche malbec 2025": {
   "color": "Красное",
-  "sugar": "Полусухое"
+  "sugar": "Полусухое",
+  "abv": 12.5
  },
  "вино trapiche oak cask malbec red dry": {
   "color": "Красное",
@@ -7176,7 +7203,8 @@
  },
  "вино vecchia cantina di montepulciano chianti 2023": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 12.5
  },
  "вино vecchia cantina di montepulciano chianti docg": {
   "color": "Красное",
@@ -7412,7 +7440,8 @@
  },
  "вино viu manent cabernet sauvignon gran reserva 2022": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 13.5
  },
  "вино viu manent carmenere gran reserva 2020": {
   "color": "Красное",
@@ -7448,7 +7477,8 @@
  },
  "вино viu manent estate collection reserva carmenere 2022": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 13.5
  },
  "вино viu manent estate collection reserva carmenere 2023": {
   "color": "Красное",
@@ -7483,7 +7513,8 @@
  },
  "вино viu manent estate collection reserva chardonnay 2023": {
   "color": "Белое",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 14.0
  },
  "вино viu manent estate collection reserva chardonnay 2024": {
   "color": "Белое",
@@ -7524,7 +7555,8 @@
  },
  "вино viu manent estate collection reserva merlot 2021": {
   "color": "Красное",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 14.0
  },
  "вино viu manent estate collection reserva merlot 2023": {
   "color": "Красное",
@@ -7536,7 +7568,8 @@
  },
  "вино viu manent estate collection reserva sauvignon blanc 2024": {
   "color": "Белое",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 13.0
  },
  "вино viu manent estate collection sauvignon blanc reserva": {
   "color": "Белое",
@@ -10223,5 +10256,2583 @@
   "sugar": "Сухое",
   "abv": 12.0,
   "volume_ml": 750.0
+ },
+ "вино agricola querciabella chianti classico 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино antigal uno red blend special 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино bodegas altanza capitoso 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино bodegas anadas care tinto sobre lias 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино bodegas anadas care tinto sobre lias 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино bodegas bocopa laudum roble organic 2022": {
+  "color": "Красное",
+  "sugar": "Сухое"
+ },
+ "вино bodegas ramon bilbao edicion limitada rioja 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино bodegas ramon bilbao mirto rioja 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино bodegas ramon bilbao reserva rioja doca 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино bonny doon vineyards le cigare orane 2023": {
+  "color": "Оранжевое",
+  "sugar": "Сухое",
+  "abv": 11.5
+ },
+ "вино cantine lenotti capomastro": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино casa santos lima colossal reserva": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.0
+ },
+ "вино casa silva dona dominga carmenere reserva de familia": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино casa silva lago ranco riesling": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 11.5
+ },
+ "вино cave de turckheim pinot gris 2023": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0
+ },
+ "вино cave de turckheim pinot noir tradition 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино cavit bottega vinai sauvignon blanc 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино ceretto barbaresco asili 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино ceretto barbaresco docg bernardot 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино ceretto barolo prapo 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино ceretto dolcetto d alba doc rossana 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино chateau de la gardine chateauneuf du pape blanc 2019": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино chateau pontet canet 5 me grand cru classe pauillac 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино chateau pontet canet grand cru classe 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино chateau smith haut lafitte grand cru classe rouge 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино chateau smith haut lafitte rouge grand cru classe 2015": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино clos de los siete s a 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино cuatro rayas palacio de vivero verdejo": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино de wetshof bon vallon chardonnay 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино de wetshof danie de wet chenin blanc 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино de wetshof danie de wet chenin blanc 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино de wetshof louis michel thibault 2010": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино de wetshof louis michel thibault 2012": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино de wetshof nature in concert pinot noir 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино domaine anne francoise gros moulin a vent 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино domaine du seminaire sourire 2022": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино domaine moncourt jean charles saumur 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино dopff au moulin gewurztraminer de riquewihr 2022": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.5
+ },
+ "вино dopff au moulin gewurztraminer de riquewihr 2023": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.5
+ },
+ "вино dopff au moulin gewurztraminer grand cru brand 2013": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 13.1
+ },
+ "вино dopff au moulin gewurztraminer grand cru brand 2015": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 13.1
+ },
+ "вино dopff au moulin pinot noir coeur de barrique 2014": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино dopff au moulin pinot noir coeur de barrique 2015": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино dopff au moulin pinot noir rose d alsace 2020": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.6
+ },
+ "вино dopff au moulin riesling de riquewihr 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино dopff au moulin riesling grand cru schoenenbourg selection vieilles vignes 2015": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино dr loosen erdener pralat riesling auslese goldkapsel 2023": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 9.0
+ },
+ "вино dr loosen erdener treppchen riesling dry grosses gewachs 2022": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.5
+ },
+ "вино dr loosen urziger wurzgarten riesling spatlese 2019": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 8.0
+ },
+ "вино dr loosen urziger wurzgarten unterst pichter riesling gg reserve 2018": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино e guigal cote rotie brune et blonde 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино e guigal cote rotie chateau d ampuis 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино e guigal cotes du rhone blanc 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино e guigal saint joseph vignes de l hospice 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино e guigal saint joseph vignes de l hospice 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино el enemigo gran enemigo gualtallary 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино el enemigo semillon 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино endrizzi masetto nero 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино endrizzi muller thurgau 2019": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино endrizzi pinot grigio 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино endrizzi teroldego rotaliano 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино enoitalia passo sardo cannonau di sardegna 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино envinate albahra 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино envinate benje tinto 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино envinate la santa de ursula tinto 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино envinate linit blanco 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино envinate lousas parcela seoane 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино envinate lousas parcela seoane 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино envinate lousas rosende 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино envinate migan tinto 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино envinate palo blanco 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино envinate taganan blanco 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино eric forest bourgogne blanc 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино eric forest pouilly fuisse l ame 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино esteban martin blanco 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино feudo maccari maharis 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино feudo maccari olli grillo 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино feudo maccari saia 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино finca bacara taba": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино franz haas gewurztraminer 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино franz haas pinot nero schweizer 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино georges duboeuf beaujolais villages 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино georges duboeuf saint amour 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино giacomo fenocchio barolo bussia 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино glaetzer eye of ra 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино hacienda lopez de haro crianza 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино hacienda lopez de haro garnacha 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино hacienda lopez de haro reserva 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино hacienda lopez de haro tempranillo 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино haras de pirque albaclara sauvignon blanc gran reserva 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино haras de pirque albaclara sauvignon blanc gran reserva 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино haras de pirque albis 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино harlan estate 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.8
+ },
+ "вино huber bleger eclat du terroir pinot gris 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино huber bleger eclat du terroir riesling 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино hugel gentil 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино hugel gentil 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино hugel gewurztraminer classic 2024": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 14.0
+ },
+ "вино hugel pinot gris classic 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино hugel pinot noir classic 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино hugel riesling classic 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино hugel riesling grossi laue 2015": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино j christopher pinot noir willamette valley 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино johannes zillinger numen fume blanc 2016": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино johannes zillinger numen fume blanc 2019": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино johannes zillinger velue zweigelt 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 11.5
+ },
+ "вино jose maria da fonseca jose de sousa tinto 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино kaesler stonehorse chardonnay 2024": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.5
+ },
+ "вино kaesler the fave grenache 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино kaiken terroir series malbec bonarda petit verdot 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.7
+ },
+ "вино kaiken ultra cabernet sauvignon 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино kaiken ultra chardonnay 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино kaiken ultra chardonnay 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино ken forrester old vine reserve chenin blanc 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино kilikanoon covenant shiraz clare valley 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино kilikanoon killerman s run cabernet sauvignon clare valley 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 10.5
+ },
+ "вино kilikanoon killerman s run shiraz clare valley 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино kilikanoon prodigal grenache clare valley 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино kilikanoon riesling clare valley killerman s run 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 10.5
+ },
+ "вино kilikanoon shiraz barossa valley kavel s flock 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 10.5
+ },
+ "вино kleine zalze cellar selection chardonnay 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино kleine zalze cellar selection merlot 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино kleine zalze cellar selection sauvignon blanc 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино kleine zalze chenin blanc 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино kleine zalze family reserve pinotage 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино kleine zalze family reserve sur lie sauvignon blanc 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино kleine zalze old bush vine family chenin blanc 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино kleine zalze vineyard selection cabernet sauvignon 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино kleine zalze vineyard selection pinotage 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино kleine zalze vineyard selection sauvignon blanc 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино kleine zalze vineyard selection syrah 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино koehler ruprecht pinot noir spatlese 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино koehler ruprecht pinot noir spatlese 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино lapis luna zinfandel 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино las moras sauvignon blanc 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино le brun de neuville coteaux champenois 2020": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино leeuwenkuil chenin blanc 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино leeuwenkuil shiraz 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино les jamelles cabernet sauvignon 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино les jamelles malbec 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино les jamelles merlot 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино les jamelles sauvignon blanc 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино luigi bosca pinot noir 2025": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.6
+ },
+ "вино luigi bosca sauvignon blanc 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.3
+ },
+ "вино lungarotti aurente chardonnay di torgiano 2006": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино lungarotti brezza umbria bianco 2024": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.0
+ },
+ "вино lungarotti brezza umbria rosso 2020": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5
+ },
+ "вино lungarotti brezza umbria rosso 2022": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.5
+ },
+ "вино lungarotti cadetto bianco 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино lungarotti cadetto rosso 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино lungarotti cadetto rosso 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино lungarotti montefalco sagrantino 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино lungarotti montefalco sagrantino 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино lungarotti rubesco vigna monticchio riserva 2000": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино lungarotti rubesco vigna monticchio riserva 2004": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино lungarotti rubesco vigna monticchio torgiano rosso riserva 1997": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино m chapoutier chateauneuf du pape la bernardine red 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино m chapoutier crozes hermitage les meysonniers red 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино m chapoutier marius blanc 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино m chapoutier marius rose 2024": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино marques de riscal arienzo crianza 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино marques de riscal finca montico 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино marques de riscal finca torrea rioja doca 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино marques de riscal gran reserva rioja doca 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино marques de riscal proximo 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино marques de riscal reserva rioja 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино martin codax mara godello 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино mas de daumas gassac saint guilhem le desert blanc 2021": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.5
+ },
+ "вино matsu el picaro toro 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино maverick steiner shiraz eden valley 2011": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино mezzacorona castel firmian fildirose pinot grigio rose 2023": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино mezzacorona castel firmian traminer moscato giallo 2023": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 10.5
+ },
+ "вино mezzacorona terre del noce dolomiti pinot grigio 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино mezzacorona terre del noce pinot grigio rose 2021": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино mezzacorona traminer gewurztraminer 2024": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.0
+ },
+ "вино mezzacorona trentino moscato giallo 2024": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 10.5
+ },
+ "вино mezzacorona trentino pinot grigio 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино mezzacorona ventessa pinot grigio rose 2024": {
+  "color": "Розовое",
+  "sugar": "Полусухое",
+  "abv": 9.0
+ },
+ "вино michael david winery chardonnay 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино michael david winery freakshow chardonnay 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино michael david winery petite petit 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино monte bernardi chianti classico riserva 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино monte bernardi mb 1933 chianti classico 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино monte bernardi retromarcia chianti classico 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино nikolaihof wachau fass severin vinothek 1997": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино nikolaihof wachau im weingebirge gruner veltliner smaragd 2018": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино nikolaihof wachau riesling federspiel 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5
+ },
+ "вино nittnaus gruner veltliner selection 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино nittnaus riesling selection 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино nittnaus riesling selection 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино nittnaus sauvignon blanc selection 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино nittnaus trockenbeerenauslese scheurebe reserve 2018": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 7.5
+ },
+ "вино overhex wines cape zebra pinotage 2023": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0
+ },
+ "вино overhex wines news cafe coffee pinotage 2024": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 13.0
+ },
+ "вино paco and lola albarino rias baixas ophalum 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 10.5
+ },
+ "вино paco and lola albarino rias baixas ophalum 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 10.5
+ },
+ "вино partida creus ul 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино pascal jolivet attitude sauvignon blanc 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино pascal jolivet blanc fume 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино pascal jolivet pouilly fume 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино pascal jolivet sancerre nature rouge 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино paul cluver pinot noir 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино paul hobbs beckstoffer dr crane vineyard cabernet sauvignon 2011": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.7
+ },
+ "вино paul hobbs beckstoffer las piedras vineyard cabernet sauvignon 2011": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино paul hobbs beckstoffer to kalon vineyard cabernet sauvignon 2014": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.9
+ },
+ "вино paul hobbs beckstoffer to kalon vineyard cabernet sauvignon 2015": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.9
+ },
+ "вино paul hobbs crossbarn chardonnay 2019": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.1
+ },
+ "вино paul hobbs nathan coombs estate cabernet sauvignon 2012": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.6
+ },
+ "вино paul hobbs nathan coombs estate cabernet sauvignon 2014": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.8
+ },
+ "вино paul jaboulet aine cote rotie les jumelles 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино paul jaboulet aine cotes du rhone parallele 45 rouge 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино paul jaboulet aine crozes hermitage domaine de thalabert 2015": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино paul jaboulet aine crozes hermitage domaine de thalabert 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино paul jaboulet aine crozes hermitage les jalets 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино paul jaboulet aine crozes hermitage mule blanche 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино paul jaboulet aine hermitage la chapelle rouge 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино petra potenti 2010": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино petra potenti 2012": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино petra toscana 2008": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино pieropan soave calvarino bio 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино pieropan soave classico 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино pieropan soave la rocca 2015": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино pieropan soave la rocca 2016": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино pieropan soave la rocca 2017": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино pieropan soave la rocca bio 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино pieropan soave la rocca bio 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино pratello lugana il rivale 90 10 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино produttori di manduria san moro negroamaro 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино produttori di manduria san moro primitivo 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино produttori di manduria san moro primitivo rosato 2022": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино pulenta estate cabernet sauvignon iii 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино pulenta estate malbec i 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.2
+ },
+ "вино pulenta finca la zulema chardonnay 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино pulenta gran cabernet franc xi 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино pulenta gran cabernet sauvignon iv 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино pulenta gran pinot noir xv 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино pulenta la flor cabernet sauvignon 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино pulenta la flor malbec 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино quinta das arcas mare grill vinho verde 2025": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 9.5
+ },
+ "вино quivira alder grove vineyard sauvignon blanc 2019": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино quivira dry creek cuvee 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино royal tokaji blue label tokaji aszu 5 puttonyos 2017": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 11.0
+ },
+ "вино royal tokaji dry 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино royal tokaji dry 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино royal tokaji mezes maly furmint dry 2018": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино royal tokaji mezes maly furmint dry 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино schloss gobelsburg gruner veltliner ried lamm 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино schloss gobelsburg tradition heritage cuvee 3 years": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино schloss vollrads riesling qualitetswein": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 12.0
+ },
+ "вино selbach oster riesling auslese zeltinger sonnenuhr 2017": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 9.0
+ },
+ "вино selbach oster zeltinger riesling kabinett trocken 2022": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 11.0
+ },
+ "вино serego alighieri vaio armaron amarone valpolicella classico 2017": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 15.5
+ },
+ "вино simonsig sunbird sauvignon blanc 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино tenuta il poggione brunello di montalcino 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино tenuta il poggione brunello di montalcino 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино tenuta il poggione vigna paganelli brunello di montalcino riserva 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино the federalist pinot noir central coast 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.8
+ },
+ "вино the federalist zinfandel lodi 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.3
+ },
+ "вино tinazzi corte vecchia primitivo 2024": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 12.5
+ },
+ "вино tinazzi opera n 3": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино tinazzi prealta rossa": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.0
+ },
+ "вино tinazzi tarcisio lugana": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино tinazzi tenuta valleselle bardolino chiaretto i seregni": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино tinazzi tenuta valleselle bardolino pieve san vito": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино tinazzi tenuta valleselle pinot grigio delle venezie arnasi": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино trapiche vineyards sauvignon blanc mendoza 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино trimbach gewurztraminer cuvee des seigneurs de ribeaupierre alsace 2016": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 14.0
+ },
+ "вино trimbach riesling 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино two hands aerope grenache barossa valley 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.1
+ },
+ "вино two hands sexy beast cabernet sauvignon mclaren vale 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.8
+ },
+ "вино urlar green songs old school chardonnay 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино urlar pinot gris 2019": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино urlar sauvignon blanc sur lie 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино urlar the mediator pinot noir 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино urlar the mediator rose 2022": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино vecchia cantina di montepulciano chianti riserva 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино vietti barolo cerequio 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vietti barolo ravera 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vietti barolo rocche di castiglione 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos bramare cabernet frank chanares estate 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos bramare cabernet sauvignon lujan de cuyo 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos bramare cabernet sauvignon lujan de cuyo 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos bramare chardonnay valle de uco 2019": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos bramare chardonnay valle de uco 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино vina cobos bramare lujan de cuyo malbec 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos bramare malbec chanares estate 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино vina cobos cabernet fran chanares estate 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos cocodrilo 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos felino chardonnay 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos felino malbec 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos felino malbec 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos hobbs estate malbec 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино vina cobos malbec chanares estate 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos malbec chanares estate 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино vina cobos malbec marchiori estate 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos malbec zingaretti estate 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos malbec zingaretti estate 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina cobos vinculum chardonnay 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино vina cobos vinculum chardonnay 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино vina cobos vinculum malbec 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино vina cobos volturno 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино vina zorzal chardonnay 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино vina zorzal garnacha blanca 2018": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.7
+ },
+ "вино vina zorzal garnacha blanca 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино vina zorzal garnacha rosado 2020": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино vincent dancer bourgogne chardonnay 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино vincent dancer bourgogne hautes cotes de beaune 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино vincent dauvissat chablis 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино vincent dauvissat chablis premier cru sechet 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино vincent dauvissat vaillons chablis premier cru 2018": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино vincent dauvissat vaillons chablis premier cru 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино vincent girardin cuvee saint vincent bourgogne blanc 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино vincent girardin les combettes puligny montrachet premier cru 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино vincent girardin meursault premier cru les charmes dessus 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино vintae la garnacha salvaje del moncayo 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино viu manent carmenere reserva 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино viu manent malbec reserva 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино viu manent secreto malbec 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино viu manent secreto sauvignon blanc 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино viu manent single vineyard malbec 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино warwick estate the first lady cabernet sauvignon 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино warwick estate the first lady sauvignon blanc 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино warwick estate white lady chardonnay 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино weninger durrau mittelburgenland blaufrankisch reserve 2012": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино wente cabernet sauvignon sourthen hills": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино wente chardonnay morning fog": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино wente chardonnay morning fog 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино wente chardonnay riva ranch": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино wente charles wetmore cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино wente charles wetmore cabernet sauvignon 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино wente pinot noir riva ranch single vineyard": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино wente sauvignon blanc louis mel": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "шампанское canard duchene cuvee leonie brut": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское dom perignon vintage 2012": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское dom perignon vintage 2015": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское drappier quattuor quatre blanc de blancs": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское drappier rose": {
+  "color": "Розовое",
+  "abv": 12.0
+ },
+ "шампанское lanson le black creation 259": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское lanson le rose creation brut": {
+  "color": "Розовое",
+  "abv": 12.5
+ },
+ "шампанское lanson noble cuvee blanc de blancs 2005": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское lanson white label dry sec": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское laurent perrier kosher brut": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское le brun de neuville cote blanche blanc de blancs": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское le brun de neuville cote blanche blanc de blancs brut": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское le brun de neuville cote brute oenotheque 04 blanc de noirs blancs brut": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское le brun de neuville cote rosee rose de noirs blancs brut": {
+  "color": "Розовое",
+  "abv": 12.5
+ },
+ "шампанское lombard extra brut 2018": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское lombard extra brut premier cru rose 2018": {
+  "color": "Розовое",
+  "abv": 12.5
+ },
+ "шампанское lombard extra brut premier cru rose 2019": {
+  "color": "Розовое",
+  "abv": 12.5
+ },
+ "шампанское lombard reference brut 2020": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское louis roederer brut rose vintage 2017": {
+  "color": "Розовое",
+  "abv": 12.0
+ },
+ "шампанское louis roederer carte blanche": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское louis roederer cristal 2016": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское louis roederer cristal rose 2014": {
+  "color": "Розовое",
+  "abv": 12.0
+ },
+ "шампанское louis roederer vintage brut 2018": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское mailly grand cru blanc de pinot noir": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское mailly grand cru brut reserve": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское mailly grand cru extra brut 2019": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское mailly grand cru extra brut millesime 2019": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское mailly grand cru rose de mailly": {
+  "color": "Розовое",
+  "abv": 12.0
+ },
+ "шампанское maison burtin marquis de vauzelle brut 2020": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское moet chandon ice imperial": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское moet chandon ice imperial rose": {
+  "color": "Розовое",
+  "abv": 12.0
+ },
+ "шампанское moet chandon nectar imperial demi sec": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское moet chandon nectar imperial rose semi sweet": {
+  "color": "Розовое",
+  "abv": 12.0
+ },
+ "шампанское moet chandon reserve imperial": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское moet chandon rose imperial": {
+  "color": "Розовое",
+  "abv": 12.0
+ },
+ "шампанское nicolas feuillatte brut reserve exclusive": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское nicolas feuillatte brut reserve exclusive rose": {
+  "color": "Розовое",
+  "abv": 12.0
+ },
+ "шампанское nicolas feuillatte palmes d or brut 2006": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское nicolas feuillatte reserve exclusive demi sec": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское palmer co la reserve 2021": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское palmer co rose solera 2021": {
+  "color": "Розовое",
+  "abv": 12.0
+ },
+ "шампанское piper heidsieck cuvee brut": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское piper heidsieck rare rose millesime 2014": {
+  "color": "Розовое",
+  "abv": 12.0
+ },
+ "шампанское piper heidsieck riviera demi sec": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское pol roger brut reserve": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское regis poissinet cuvee irizee chardonnay 2017": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское regis poissinet cuvee irizee meunier 2016": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское regis poissinet les clos paillot parcellaire extra brut 2018": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское thienot blanc de blancs 2018": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское thienot cuvee garance blanc de noirs collection famille 2012": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское thienot cuvee stanislas blanc de blancs 2008": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское thienot vintage 2015": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское veuve clicquot brut": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское veuve clicquot brut rose": {
+  "color": "Розовое",
+  "abv": 12.5
+ },
+ "шампанское veuve clicquot la grande dame 2015": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское vincent bliard eternel optimisme 2015": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское vincent bliard sempiternel 2009": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "шампанское vincent bliard sylve 2014": {
+  "color": "Белое",
+  "abv": 12.5
+ },
+ "вино alamos chardonnay 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино alamos chardonnay 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино albino armani amarone della valpolicella 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.5
+ },
+ "вино albino armani marzemino 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино albino armani refosco dal peduncolo rosso 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино albino armani ripasso 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино arthur metz julien riehl riesling": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино arthur metz le vin de l oncle hansi pinot noir 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино arthur metz le vin de l oncle hansi riesling 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино beaulieu vineyard georges de latour private reserve cabernet sauvignon 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.5
+ },
+ "вино beaulieu vineyard georges de latour private reserve cabernet sauvignon 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.5
+ },
+ "вино belle glos dairyman pinot noir 2021": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.5
+ },
+ "вино beringer private reserve cabernet sauvignon napa valley 2014": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино bodegas protos crianza 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино bodegas protos reserva 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино bodegas protos roble 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино bread butter cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино bread butter pinot noir": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино bread butter sauvignon blanc": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино buena vista aristocrat 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино buena vista aristocrat 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино buena vista cabernet sauvignon": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино buena vista sheriff 2021": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.5
+ },
+ "вино buena vista sheriff 2022": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.5
+ },
+ "вино castello di volpaia di giovanna stianti chianti classico riserva 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино castello di volpaia di giovanna stianti chianti classico riserva 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино catena zapata birth of cabernet 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино catena zapata la marchigiana bonarda 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино catena zapata la marchigiana bonarda 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино catena zapata la marchigiana chardonnay 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино catena zapata malbec argentino 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино catena zapata malbec argentino 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино catena zapata white bones 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино catena zapata white bones 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино catena zapata white bones 2022": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино catena zapata white stones 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино cavit bottega vinai merlot 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино caymus cabernet sauvignon 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.6
+ },
+ "вино caymus cabernet sauvignon 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.6
+ },
+ "вино caymus cabernet sauvignon 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.6
+ },
+ "вино caymus special selection cabernet sauvignon 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.4
+ },
+ "вино caymus special selection cabernet sauvignon 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.4
+ },
+ "вино caymus special selection cabernet sauvignon 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.9
+ },
+ "вино caymus zinfandel 2021": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.8
+ },
+ "вино chateau coutet saint emilion grand cru 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино chateau d esclans whispering angel 2025": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино chateau lagrange grand cru classe 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино chateau mukhrani collection secrete white 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино chateau mukhrani edition limitee chardonnay 2015": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино chateau mukhrani edition limitee sauvignon blanc 2017": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино chateau mukhrani khvanchkara 2021": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 10.5
+ },
+ "вино chateau mukhrani qvevri 2019": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино chateau mukhrani reserve royale 2019": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино chateau mukhrani reserve royale shavkapito 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино chateau mukhrani rkatsiteli superieur 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино chateau mukhrani shavkapito 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино cono sur bicicleta cabernet sauvignon 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино cono sur bicicleta chardonnay 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино cono sur bicicleta pinot noir rose 2025": {
+  "color": "Розовое",
+  "sugar": "Полусухое",
+  "abv": 12.5
+ },
+ "вино el enemigo as bravas malbec 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино el enemigo malbec 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино famille perrin cotes du rhone rose 2019": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино grifo grifone bombino bianco 2022": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 11.5
+ },
+ "вино henschke hill of grace 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино inglenook cabernet sauvignon 2019": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.2
+ },
+ "вино kloster eberbach erbacher marcobrunn riesling trocken gg 2019": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино kloster eberbach heppenheimer riesling trocken 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино kloster eberbach pinot noir trocken crescentia 2010": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино long barn chardonnay 2023": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.5
+ },
+ "вино long barn chardonnay 2024": {
+  "color": "Белое",
+  "sugar": "Полусухое",
+  "abv": 13.5
+ },
+ "вино lopez de heredia vina tondonia reserva tinto 2012": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино lopez de heredia vina tondonia reserva tinto 2013": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино michael mondavi cabernet sauvignon emblem 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино michael mondavi cabernet sauvignon napa valley 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино montgras vega del campo white blend 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино navarro correas coleccion privada pinot noir 2025": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино navarro lopez serro de vega tinto seco": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 11.0
+ },
+ "вино opus one 2012": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино opus one 2013": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино opus one 2015": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино opus one 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино opus one 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино opus one 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино opus one overture 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино opus one overture 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино opus one overture 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино poggio le volpi edizione limitata roma 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино poggio le volpi retroterra pinot grigio 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино poggio le volpi retroterra pinot nеro 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино poggio le volpi retroterra primitivo 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино poggio le volpi retroterra vermentino 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино robertson winery barista pinotage 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино robertson winery merlot 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино robertson winery sauvignon blanc 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино ruffino rosatello 2019": {
+  "color": "Розовое",
+  "sugar": "Полусухое",
+  "abv": 12.0
+ },
+ "вино santi ventale valpolicella superiore 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино stellenbosch hills bushvine pinotage 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино tarapaca carmenere 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино tarapaca carmenere 2024": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино tarapaca sarmientos chardonnay 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино tarapaca sarmientos merlot 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино te pa st leonard s reserve collection chardonnay": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино te pa taylor river reserve collection pinot noir": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "шампанское billecart salmon le reserve": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское gruet cuvee des 3 blancs brut": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "шампанское gruet selection brut": {
+  "color": "Белое",
+  "abv": 12.0
+ },
+ "вино feudi di san gregorio campanaro irpinia bianco 2021": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино инкерман спешл резерв саперави 2016": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино инкерман спешл резерв саперави 2017": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино инкерман эритаж инджи авторский купаж 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино инкерман эритаж каберне классическое 2020": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино инкерман эритаж пино нуар классический 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино инкерман эритаж саперави крымское классическое 2018": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино marani alazani valley white": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 12.0
+ },
+ "вино marani kindzmarauli": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 11.5
+ },
+ "вино marani kondoli mtsvane kisi": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино marani kondoli saperavi": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 14.5
+ },
+ "вино marani kondoli saperavi merlot 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино marani mtsvane": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.5
+ },
+ "вино marani mukuzani": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино marani ojaleshi": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 11.5
+ },
+ "вино marani pirosmani": {
+  "color": "Красное",
+  "sugar": "Полусухое",
+  "abv": 11.0
+ },
+ "вино marani pirosmani pose": {
+  "color": "Розовое",
+  "sugar": "Полусухое",
+  "abv": 11.0
+ },
+ "вино marani reserve 2012": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино marani rkatsiteli qvevri 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино marani saperavi": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино marani saperavi rose": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "вино marani satrapezo 10 kvevri rkatsiteli": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.5
+ },
+ "вино marani satrapezo saperavi": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино marani tsinandali": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 13.0
+ },
+ "вино marani tvishi": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 11.0
+ },
+ "вино апсны": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 12.0
+ },
+ "вино лыхны": {
+  "color": "Красное",
+  "sugar": "Полусладкое",
+  "abv": 10.0
+ },
+ "вино aroa le naturel navarra 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.0
+ },
+ "вино matsu el recio toro 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино matsu el recio toro do 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "вино matsu el viejo toro 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
+ },
+ "вино matsu el viejo toro 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 15.0
  }
 }

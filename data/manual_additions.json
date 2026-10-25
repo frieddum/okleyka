@@ -509,26 +509,6 @@
    ]
   },
   {
-   "id": "vr-61cc9b6ff2",
-   "name": "Вино Feudi di San Gregorio Falanghina del Sannio 2024",
-   "company": "Feudi di San Gregorio",
-   "category": "Вино",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель (июль 2024, ответ опубликован VeganRussian): все белые и розовые вина Feudi di San Gregorio веганские.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/vina-feudi-di-san-gregorio/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr-e9475ec040",
    "name": "Вино Feudi di San Gregorio, Greco di Tufo",
    "company": "Feudi di San Gregorio",
@@ -556,26 +536,6 @@
    "country": null,
    "status": "vegan",
    "rationale": "Производитель (июль 2024, ответ опубликован VeganRussian): все белые и розовые вина Feudi di San Gregorio веганские.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/vina-feudi-di-san-gregorio/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-7538a2ea54",
-   "name": "Вино Feudi di San Gregorio Taurasi 2020",
-   "company": "Feudi di San Gregorio",
-   "category": "Вино",
-   "country": null,
-   "status": "nonvegan",
-   "rationale": "Производитель (июль 2024, ответ опубликован VeganRussian): из красных вин веганское только Teodosio Aglianico del Vulture.",
    "scope": [],
    "evidence_date": null,
    "ref_type": "VeganRussian",
@@ -4485,26 +4445,6 @@
    ]
   },
   {
-   "id": "vr-2274ef8e5c",
-   "name": "Вино Инкерман Каберне Мерло Саперави Спешл Резерв 2020",
-   "company": "Инкерман",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель (2020): из коллекции Special Reserve веганские только Каберне-Мерло-Саперави и Саперави.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-inkerman-special/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr-b5b65da52d",
    "name": "Вино Инкерман Спешл Резерв Саперави 2016",
    "company": "Инкерман",
@@ -4585,68 +4525,8 @@
    ]
   },
   {
-   "id": "vr-131da50647",
-   "name": "Вино Инкерман Эритаж Пино Нуар Классический 2020",
-   "company": "Инкерман",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель (2020): красные вина Эритаж — Каберне, Инджи, Пино-Нуар и Саперави — веганские.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/red-wines-eritazh-inkerman/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-97d5b0a2ff",
-   "name": "Вино Инкерман Эритаж Пино Нуар Классический 2021",
-   "company": "Инкерман",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель (2020): красные вина Эритаж — Каберне, Инджи, Пино-Нуар и Саперави — веганские.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/red-wines-eritazh-inkerman/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr-a017c449e7",
    "name": "Вино Инкерман Эритаж Пино Нуар Классический 2022",
-   "company": "Инкерман",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель (2020): красные вина Эритаж — Каберне, Инджи, Пино-Нуар и Саперави — веганские.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/red-wines-eritazh-inkerman/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-940e46330c",
-   "name": "Вино Инкерман Эритаж Саперави Крымское Классическое",
    "company": "Инкерман",
    "category": "Вино",
    "country": "Россия",
@@ -4676,26 +4556,6 @@
    "evidence_date": null,
    "ref_type": "VeganRussian",
    "ref_url": "https://veganrussian.ru/red-wines-eritazh-inkerman/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-c8768ac50e",
-   "name": "Вино Мысхако Квинтэссенция Совиньон Блан",
-   "company": "Мысхако",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель (2025): Квинтэссенция Совиньон Блан в списке веганских вин.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/ighristyie-vina-quintessence-myskhako/",
    "barnivore_url": null,
    "chains": [
     {
@@ -5661,108 +5521,8 @@
    ]
   },
   {
-   "id": "vr-fe7bb9d7a8",
-   "name": "Вино Cana Cabernet Sauvignon Dry",
-   "company": "Cana",
-   "category": "Вино",
-   "country": "Чили",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2021): Cana сухое и полусладкое, красное и белое — веганские.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-cana/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-356b95b4a3",
-   "name": "Вино Cana Cabernet Sauvignon Semi-Sweet",
-   "company": "Cana",
-   "category": "Вино",
-   "country": "Чили",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2021): Cana сухое и полусладкое, красное и белое — веганские.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-cana/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-61aac1e54d",
-   "name": "Вино Cana Sauvignon Blanc Dry",
-   "company": "Cana",
-   "category": "Вино",
-   "country": "Чили",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2021): Cana сухое и полусладкое, красное и белое — веганские.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-cana/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-90e9b4bf84",
-   "name": "Вино Cana Sauvignon Blanc Semi-Sweet",
-   "company": "Cana",
-   "category": "Вино",
-   "country": "Чили",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2021): Cana сухое и полусладкое, красное и белое — веганские.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-cana/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr-1a13a4496c",
    "name": "Вино Marani Alazani Valley White",
-   "company": "Телавский винный погреб (Marani)",
-   "category": "Вино",
-   "country": "Грузия",
-   "status": "vegan",
-   "rationale": "Производитель (2023): в вина ничего не добавляют, для фильтрации животные продукты не используются.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wine-marani/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-91370d4fd0",
-   "name": "Вино Marani Khvanchkara",
    "company": "Телавский винный погреб (Marani)",
    "category": "Вино",
    "country": "Грузия",
@@ -5901,26 +5661,6 @@
    ]
   },
   {
-   "id": "vr-6606e38e61",
-   "name": "Вино Marani Napareuli",
-   "company": "Телавский винный погреб (Marani)",
-   "category": "Вино",
-   "country": "Грузия",
-   "status": "vegan",
-   "rationale": "Производитель (2023): в вина ничего не добавляют, для фильтрации животные продукты не используются.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wine-marani/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr-aff2aebc8a",
    "name": "Вино Marani Ojaleshi",
    "company": "Телавский винный погреб (Marani)",
@@ -5983,26 +5723,6 @@
   {
    "id": "vr-09b1b8be10",
    "name": "Вино Marani Reserve 2012",
-   "company": "Телавский винный погреб (Marani)",
-   "category": "Вино",
-   "country": "Грузия",
-   "status": "vegan",
-   "rationale": "Производитель (2023): в вина ничего не добавляют, для фильтрации животные продукты не используются.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wine-marani/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-41c97096a5",
-   "name": "Вино Marani Rkatsiteli",
    "company": "Телавский винный погреб (Marani)",
    "category": "Вино",
    "country": "Грузия",
@@ -7369,50 +7089,6 @@
    ]
   },
   {
-   "id": "vr-f3717638c2",
-   "name": "Вино Шато де Талю Каберне Совиньон Резерв 2020",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-e57978789a",
-   "name": "Вино Шато де Талю Каберне Фран Резерв 2020",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr-a02f640c7d",
    "name": "Вино Шато де Талю Мерло",
    "company": "Шато де Талю",
@@ -7430,94 +7106,6 @@
    "chains": [
     {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-95f883644b",
-   "name": "Вино Шато де Талю Мерло Резерв 2020",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-abd2162b6a",
-   "name": "Вино Шато де Талю Мириадес Каберне Совиньон Каберне Фран 2022",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-d2ebe9e947",
-   "name": "Вино Шато де Талю Мириадес Мерло Красностоп 2022",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-b884ce04a7",
-   "name": "Вино Шато де Талю Мускат 2019",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -7584,160 +7172,6 @@
    "chains": [
     {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-a63ec541b4",
-   "name": "Вино Шато де Талю Совиньон Блан Резерв 2022",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-9ca75c252a",
-   "name": "Вино Шато де Талю Уроки Французского Каберне Совиньон",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-a15b55504f",
-   "name": "Вино Шато де Талю Уроки Французского Каберне Фран",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-5dcaaea05a",
-   "name": "Вино Шато де Талю Уроки Французского Красностоп",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-30742daf8c",
-   "name": "Вино Шато де Талю Уроки Французского Мерло",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-08f836c95b",
-   "name": "Вино Шато де Талю Уроки Французского Сира",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-ae580ce030",
-   "name": "Вино Шато де Талю Шардоне Резерв 2024",
-   "company": "Шато де Талю",
-   "category": "Вино",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
-   "scope": [
-    "Всё вино бренда"
-   ],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -8127,26 +7561,6 @@
    "ref_url": "https://veganrussian.ru/wine-aroa/"
   },
   {
-   "id": "vr3-09c3aa7f49",
-   "name": "Вино Biorebe Riesling",
-   "company": "Biorebe",
-   "category": "Вино",
-   "country": "Германия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian: Biorebe Riesling сертифицировано V-Label.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ],
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/biorebe-riesling-wine/"
-  },
-  {
    "id": "vr3-11f6718209",
    "name": "Вино Kukabara Cabernet GI Angove Family Winemakers",
    "company": "Angove Family Winemakers",
@@ -8187,26 +7601,6 @@
   {
    "id": "vr3-c4dcd04d69",
    "name": "Вино Matsu El Recio Toro DO 2023",
-   "company": "Matsu",
-   "category": "Вино",
-   "country": "Испания",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian: Matsu El Picaro, El Recio и El Viejo сертифицированы V-Label.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ],
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wines-matsu/"
-  },
-  {
-   "id": "vr3-8e352a0e47",
-   "name": "Вино Matsu El Viejo Toro 2020",
    "company": "Matsu",
    "category": "Вино",
    "country": "Испания",
