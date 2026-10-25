@@ -153,6 +153,17 @@ def kind_from_name(name, category):
     return cat
 
 
+WINE_NOISE = re.compile(r"\b(вино|игристое|шампанское|красное|белое|розовое|оранжевое|сухое|полусухое|полусладкое|сладкое|брют|экстра|натюр|"
+                        r"кр|бел|роз|сух|п|сл|doc|docg|igt|aoc|aop|do|doca|igp|dop|подарочной|упаковке|коробке|в|с|и)\b")
+
+
+def wine_core(name):
+    """Название вина без типа, цвета, сахара, объёма и урожая — чтобы узнать то же вино в другой сети."""
+    t = re.sub(r"[^a-zа-я0-9]+", " ", (name or "").lower().replace("ё", "е"))
+    t = re.sub(r"\d+[.,]?\d*\s*(мл|л|%)?", " ", t)
+    return " ".join(sorted(set(WINE_NOISE.sub(" ", t).split())))
+
+
 def norm_country(c):
     c = clean(c)
     if not c:
@@ -398,6 +409,26 @@ def main():
     card_attrs = json.loads(attrs_path.read_text(encoding="utf-8")) if attrs_path.exists() else {}
     WINE_KINDS = {"Вино", "Игристое вино", "Портвейн", "Херес", "Вермут", "Вермут и креплёное вино"}
     dropped_by_rule = 0
+    # То же вино в другой сети: признаки берутся оттуда, если у этой карточки их нет.
+    def card_of(name):
+        return card_attrs.get(re.sub(r"[^a-zа-я0-9]+", " ", name.lower().replace("ё", "е")).strip(), {})
+
+    same_wine = {}
+    for rec in groups.values():
+        kind = cats.items[rec[8]] if rec[8] >= 0 else None
+        if kind not in WINE_KINDS:
+            continue
+        c = card_of(rec[3])
+        got = {"color": c.get("color") or wa.color_from_name(rec[3], kind == "Игристое вино")[0],
+               "sugar": c.get("sugar") or wa.sugar_from_name(rec[3]),
+               "abv": c.get("abv") or wa.abv_from_name(rec[3])}
+        k = (wine_core(rec[3]), wa.vintage_from_name(rec[3]))
+        slot = same_wine.setdefault(k, {})
+        for f, v in got.items():
+            if v is not None:
+                slot.setdefault(f, set()).add(v)
+    filled_from_other = 0
+
     filled_country = 0
     for key, rec in list(groups.items()):
         name, kind = rec[3], cats.items[rec[8]] if rec[8] >= 0 else None
@@ -424,6 +455,11 @@ def main():
                 rec[9] = card.get("volume_ml") or wa.volume_from_name(name)
             if rec[12] is None:
                 rec[12] = wa.vintage_from_name(name)
+            other = same_wine.get((wine_core(name), rec[12]), {})
+            for i, f in ((16, "color"), (17, "sugar"), (11, "abv")):
+                if rec[i] is None and len(other.get(f, ())) == 1:
+                    rec[i] = next(iter(other[f]))
+                    filled_from_other += 1
         rule = RULES.get(prods.items[rec[5]] if rec[5] >= 0 else None)
         if not rule:
             continue
@@ -533,7 +569,7 @@ def main():
     print(f"Снимок {meta['as_of']}: решений {len(data['verified'])} -> {len(verified)} записей; "
           f"сетей с решениями {len(nets.items)}; российское производство исключено: {skipped_ru}; "
           f"без однозначного ответа исключено: {skipped['unclear']}; "
-          f"пересмотрено решений: {len(used_overrides)}; из сводного каталога сетей: {extra_count}; снято по правилам производителей: {dropped_by_rule}; страна по производителю: {filled_country}.")
+          f"пересмотрено решений: {len(used_overrides)}; из сводного каталога сетей: {extra_count}; снято по правилам производителей: {dropped_by_rule}; страна по производителю: {filled_country}; признаки вина из другой сети: {filled_from_other}.")
 
 
 if __name__ == "__main__":
