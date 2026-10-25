@@ -1,0 +1,170 @@
+[
+  {
+    "record_id": "1bdec0a9e2",
+    "expected_name": "Пиво Grolsch Premium Pilsner светлое фильтрованное 5% 500мл",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "8d9119b292",
+    "expected_name": "Виски Джемесон Ирландский купажированный 40%",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "kb-7b2f1916b0",
+    "expected_name": "Напиток спиртной Апероль (аперитив) 11%",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "kb-bdd375504c",
+    "expected_name": "Виски Теннесси Джек Дениел`с 40%, 700мл",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "kb-d2d70ebfb6",
+    "expected_name": "Ликер Бэйлис сливочный оригинальный 17%, 700мл",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "prk-09007eb317",
+    "expected_name": "Водка Архангельская северная выдержка 40%, 375мл",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "prk-2f251d4609",
+    "expected_name": "Вино игристое Martini Brut белое сухое 11,5%, 750мл",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "prk-4f417c67e3",
+    "expected_name": "Водка Царская Оригинальная 40%, 700мл",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "prk-838ee946aa",
+    "expected_name": "Водка Царская Золотая 40%, 700мл",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-0e6f495d0ea9",
+    "expected_name": "пиво АЙНБЕКЕР УР-БОК-ДУНКЕЛЬ, темное, Германия",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-17cfc987543d",
+    "expected_name": "напиток ароматизированный вермут МАРТИНИ ФИЕРО 1.0, красное, сладкое, Италия",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-2284448267e6",
+    "expected_name": "пиво ГАФФЕЛЬ КЁЛЬШ, светлое, Германия",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-2458ab2a801c",
+    "expected_name": "вино безалкогольное ЛЕОПАРДС ЛИП НАТУРА КЛАССИК, красное, сухое, ЮАР",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-356c2cb017c0",
+    "expected_name": "Напиток ароматизированный вермут МАРТИНИ БЬЯНКО 1.0, белое, сладкое, Италия",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-4b111b45fe12",
+    "expected_name": "Виски Ballantines Finest",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-6956eb6d4659",
+    "expected_name": "Виски Glen Moray Elgin Heritage 18 Years",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-77c0e17b10de",
+    "expected_name": "пиво АЙНБЕКЕР УР-БОК-ХЕЛЛЬ, светлое, Германия",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-9926cdb6e15d",
+    "expected_name": "Пиво Radeberger Pilsner",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-c18f41a5e93a",
+    "expected_name": "Напиток ароматизированный вермут МАРТИНИ ЭКСТРА ДРАЙ, белое, сухое, Италия",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-cf141e5c0878",
+    "expected_name": "Виски Чивас Ригал 12 лет (Шотландия)",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-debf541288ef",
+    "expected_name": "Асти Martini Asti",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-e9b55e79a2b6",
+    "expected_name": "Ликер Ягермайстер десертный (Германия)",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-eb36d5b24143",
+    "expected_name": "коньяк АБК6 ХО ФЭМИЛИ СЕЛЛАР, Франция",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "rfa-f4e75d7b9598",
+    "expected_name": "вино безалкогольное ЛЕОПАРДС ЛИП НАТУРА КЛАССИК, белое, сухое, ЮАР",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "vr-456e26fc31",
+    "expected_name": "Водка Чистые Росы",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "vr-48351c6a15",
+    "expected_name": "Водка Пять Озер",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "vr-70b06642a3",
+    "expected_name": "Водка Хаски",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "vr3-1d51c5a7e0",
+    "expected_name": "Водка Русский Стандарт",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-10-25"
+  }
+]

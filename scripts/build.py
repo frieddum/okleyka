@@ -400,7 +400,7 @@ def main():
     # Сводный каталог сетей (уже отобранный scripts/import_catalog.py): одна запись может быть в нескольких сетях.
     extra_count = 0
     # data/manual_additions.json — позиции, проверенные вручную по письмам производителей (тот же формат).
-    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json"):
+    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json"):
       if not extra_path.exists():
         continue
       extra = json.loads(extra_path.read_text(encoding="utf-8"))
@@ -527,6 +527,29 @@ def main():
     ids = [r[0] for r in records]
     if len(ids) != len(set(ids)):
         fail("совпадение идентификаторов записей")
+    # Reviewed retailer observations attach to final cards without duplicating products.
+    # Fail on stale IDs/names so a later merge cannot silently change the match.
+    match_path = ROOT / "data" / "retailer_matches.json"
+    if match_path.exists():
+        by_id = {r[0]: r for r in records}
+        seen_matches = set()
+        for match in json.loads(match_path.read_text(encoding="utf-8")):
+            rid, network = match["record_id"], match["network"]
+            rec = by_id.get(rid)
+            if rec is None or rec[3] != match["expected_name"]:
+                fail(f"retailer_matches: требуется пересмотр сопоставления {rid}")
+            if rec[1] not in ("v", "n") or not assessments[rec[15]]["refs"]:
+                fail(f"retailer_matches: нет подтверждённого решения для {rid}")
+            checked = match["checked_at"]
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", checked):
+                fail(f"retailer_matches: неверная дата для {rid}")
+            if (rid, network) in seen_matches:
+                fail(f"retailer_matches: повтор сопоставления {rid}")
+            seen_matches.add((rid, network))
+            ni = nets(network)
+            if ni not in rec[2]:
+                rec[2].append(ni)
+            rec[13] = max(rec[13] or "", checked)
     verified = records
     for key in set(overrides) - used_overrides:
         print(f"Внимание: пересмотр не применён, записи нет в снимке: {key[0]} / {key[1]}")

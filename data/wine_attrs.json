@@ -13080,5 +13080,95 @@
   "color": "Белое",
   "sugar": "Брют",
   "abv": 11.5
+ },
+ "leopard s leap culinaria collection cap classique": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": "11–13.5"
+ },
+ "leopard s leap culinaria collection grand vin 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14
+ },
+ "leopard s leap merlot": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": "12–15"
+ },
+ "leopard s leap pardus 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14
+ },
+ "leopard s leap pardus 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14
+ },
+ "leopard s leap pinotage shiraz": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": "12–15"
+ },
+ "leopard s leap special edition": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": "10–15"
+ },
+ "leopard s leap special edition pinotage": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": "12–15"
+ },
+ "leopard s leap family collection heritage blend 2021": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14
+ },
+ "leopard s leap family collection heritage blend 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14
+ },
+ "leopard s leap family collection heritage blend 2023": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14
+ },
+ "leopard s leap chardonnay": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": "11.5–14.5"
+ },
+ "confidence de bastor lamontagne 2023": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14
+ },
+ "confidence de bastor lamontagne 2025": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 14
+ },
+ "ch teau bastor lamontagne 2019": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 13
+ },
+ "ch teau pontet canet 2022": {
+  "color": "Красное",
+  "sugar": "Сухое",
+  "abv": 14.5
+ },
+ "osborne fino sherry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 15
+ },
+ "osborne manzanilla sherry": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 15
  }
 }
