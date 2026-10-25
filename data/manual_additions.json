@@ -6751,6 +6751,996 @@
      "checked_at": "2026-10-24"
     }
    ]
+  },
+  {
+   "id": "vr-fa3edbb015",
+   "name": "Вино белое сухое стиль №1 Шардоне ЗГУ Уроки французского Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-129ebc84c9",
+   "name": "Вино белое сухое стиль №2 Семильон купаж ЗГУ небо блан де талю Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-9045aa2cb0",
+   "name": "Вино белое сухое стиль №2 Совиньон блан ЗГУ резерв Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-2eacd94ce5",
+   "name": "Вино белое сухое стиль №2 Совиньон блан ЗГУ Уроки французского Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-dde4867f7d",
+   "name": "Вино белое сухое стиль №3 Шардоне ЗГУ резерв Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-ccd9c4d376",
+   "name": "Вино белое сухое стиль №5 Мускат ЗГУ небо Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-2029345c55",
+   "name": "Вино красное сухое стиль №3 Каберне Совиньон ЗГУ резерв Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-ca5cedb934",
+   "name": "Вино красное сухое стиль №3 Каберне Совиньон ЗГУ Уроки французского Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-8dd32f22e3",
+   "name": "Вино красное сухое стиль №3 Каберне Совиньон ЗГУ Энолог Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-7e17c9c75f",
+   "name": "Вино красное сухое стиль №3 Каберне Совиньон купаж ЗГУ руж Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-9c9b0bec2f",
+   "name": "Вино красное сухое стиль №3 Каберне Совиньон купаж ЗГУ шато де талю Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-0354890dd9",
+   "name": "Вино красное сухое стиль №3 Каберне Фран ЗГУ Уроки французского Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-97264c5e9a",
+   "name": "Вино красное сухое стиль №3 Красностоп ЗГУ Уроки французского Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-c27b88fad8",
+   "name": "Вино красное сухое стиль №3 Мерло ЗГУ небо Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-a04d55e31a",
+   "name": "Вино красное сухое стиль №3 Мерло Каберне Совиньон ЗГУ шато де талю Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-5c1d689293",
+   "name": "Вино красное сухое стиль №3 Сира ЗГУ небо Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-0cc1eaed07",
+   "name": "Вино красное сухое стиль №4 Красностоп ЗГУ резерв Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-2ef8c53ef3",
+   "name": "Вино красное сухое стиль №4 Шираз ЗГУ резерв Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-0e74f633d7",
+   "name": "Вино Мируар де Талю Мерло Каберне Совиньон",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-77f9d375f4",
+   "name": "Вино розовое сухое Каберне Совиньон купаж ЗГУ небо Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-d0d96c6240",
+   "name": "Вино розовое сухое Сира мерло ЗГУ Клере Шато де Талю",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Табрис",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-110184ed31",
+   "name": "Вино Уроки французского Каберне Совиньон",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-2a9e899848",
+   "name": "Вино Уроки французского Каберне Фран",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-485c8462fd",
+   "name": "Вино Уроки французского Красностоп",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-575cbfcb44",
+   "name": "Вино Уроки французского Мерло",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-eb91f21a23",
+   "name": "Вино Уроки французского Сира",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-ff44bf433c",
+   "name": "Вино Уроки Французского Совиньон",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-a06d33c909",
+   "name": "Вино Шато де Талю Блан, белое, сухое",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-f3717638c2",
+   "name": "Вино Шато де Талю Каберне Совиньон Резерв 2020",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-e57978789a",
+   "name": "Вино Шато де Талю Каберне Фран Резерв 2020",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-a02f640c7d",
+   "name": "Вино Шато де Талю Мерло",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-95f883644b",
+   "name": "Вино Шато де Талю Мерло Резерв 2020",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-abd2162b6a",
+   "name": "Вино Шато де Талю Мириадес Каберне Совиньон Каберне Фран 2022",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-d2ebe9e947",
+   "name": "Вино Шато де Талю Мириадес Мерло Красностоп 2022",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-b884ce04a7",
+   "name": "Вино Шато де Талю Мускат 2019",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-ab1699caaa",
+   "name": "Вино Шато де Талю Розе",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-410a395178",
+   "name": "Вино Шато де Талю Розе, розовое, сухое",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Joia",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-a14b971dc2",
+   "name": "Вино Шато де Талю Руж",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-a63ec541b4",
+   "name": "Вино Шато де Талю Совиньон Блан Резерв 2022",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-9ca75c252a",
+   "name": "Вино Шато де Талю Уроки Французского Каберне Совиньон",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-a15b55504f",
+   "name": "Вино Шато де Талю Уроки Французского Каберне Фран",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-5dcaaea05a",
+   "name": "Вино Шато де Талю Уроки Французского Красностоп",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-30742daf8c",
+   "name": "Вино Шато де Талю Уроки Французского Мерло",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-08f836c95b",
+   "name": "Вино Шато де Талю Уроки Французского Сира",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "vr-ae580ce030",
+   "name": "Вино Шато де Талю Шардоне Резерв 2024",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "Decanter",
+     "checked_at": "2026-10-24"
+    }
+   ]
   }
  ]
 }
