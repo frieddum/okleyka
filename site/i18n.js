@@ -8,6 +8,9 @@
   document.documentElement.lang = lang;
   const words = {
     'Ценовой уровень':'Price level',
+    'Без цены':'No price',
+    'Архив':'Archive', 'Архив — Оклейка':'Archive — Okleika', 'К справочнику':'Back to directory',
+    'Нет в наличии в проверенных сетях':'Out of stock at the checked retail chains',
     'Описание':'Description',
     'Неясно':'Unclear', 'Противоречие':'Conflicting evidence',
     'Доминиканская Республика':'Dominican Republic','Доминикана':'Dominican Republic','Люксембург':'Luxembourg','Черногория':'Montenegro','Исландия':'Iceland','Сингапур':'Singapore','Словакия':'Slovakia','Вьетнам':'Vietnam','Таиланд':'Thailand','Литва':'Lithuania','Тринидад и Тобаго':'Trinidad and Tobago','Никарагуа':'Nicaragua','Гватемала':'Guatemala','Латвия':'Latvia','Абхазия':'Abkhazia','Турция':'Turkey','Ливан':'Lebanon','Словения':'Slovenia','Бразилия':'Brazil','Сент-Люсия':'Saint Lucia','Филиппины':'Philippines','Игристое вино':'Sparkling wine','Аперитив':'Aperitif','Писко':'Pisco','Портвейн':'Port','Херес':'Sherry','Соджу':'Soju',

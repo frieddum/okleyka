@@ -35,6 +35,10 @@
       label: v => STATUS[v].group, order: 'fixed',
       hint: 'Здесь только позиции с сохранённым решением. Позиции каталогов без проверки не публикуются.' },
     { key: 'net', title: 'Сеть', get: r => r.nets, order: 'total' },
+    { key: 'price', title: 'Ценовой уровень', get: r => r.priceLevel, order: 'fixed',
+      list: ['1', '2', '3', '4', '5', NONE],
+      label: v => v === NONE ? 'Без цены' : '$'.repeat(Number(v)),
+      ariaLabel: v => v === NONE ? tr('Без цены') : window.formatPriceBand({ level: Number(v) }, window.I18N.lang).label },
     { key: 'kind', title: 'Вид напитка', get: r => r.cat || NONE, label: v => v === NONE ? 'Вид не указан' : v, order: 'total', limit: 8 },
     { key: 'sub', title: 'Тип', solo: true, get: r => r.sub, order: 'fixedList',
       list: Object.values(SUBTYPES).flatMap(t => t.map(x => x[0])),
@@ -199,8 +203,10 @@
   function unpack(arr) {
     const d = META.dicts;
     const at = (list, i) => i < 0 ? null : list[i];
+    const price = window.formatPriceBand(PRICE_LEVELS[arr[0]], window.I18N.lang);
     return {
-      price: window.formatPriceBand(PRICE_LEVELS[arr[0]], window.I18N.lang),
+      price,
+      priceLevel: price ? String(PRICE_LEVELS[arr[0]].level) : NONE,
       id: arr[0], st: arr[1], nets: arr[2].map(i => d.networks[i]), name: arr[3], brand: at(d.brands, arr[4]),
       producer: at(d.producers, arr[5]), country: at(d.countries, arr[6]), origin: arr[7], cat: at(d.categories, arr[8]),
       volMl: arr[9], volRaw: arr[10], abv: arr[11], vin: arr[12], checked: arr[13], merged: arr[14],
@@ -232,28 +238,32 @@
   const bump = (m, g, r) => { for (const v of values(g, r)) m.set(v, (m.get(v) || 0) + 1); };
 
   /* ---------- Состояние и адрес ---------- */
-  const state = { q: '', f: {}, sort: 'rel', p: 1, id: null };
+  const state = { q: '', f: {}, sort: 'rel', p: 1, id: null, archive: false };
   GROUPS.forEach(g => state.f[g.key] = new Set());
   const DEFAULT_ST = ['v'];
 
   function readURL() {
     const sp = new URLSearchParams(location.search);
+    state.archive = sp.get('archive') === '1';
     state.q = sp.get('q') || '';
     state.sort = ['rel', 'name'].includes(sp.get('sort')) ? sp.get('sort') : 'rel';
     state.p = Math.max(1, parseInt(sp.get('p'), 10) || 1);
     state.id = sp.get('id') || null;
     for (const g of GROUPS) {
-      const raw = sp.get(g.key);
+      const raw = state.archive && g.key === 'price' ? null : sp.get(g.key);
       if (g.key === 'st') state.f.st = new Set(raw === null ? DEFAULT_ST : raw.split('').filter(c => STATUS[c]));
-      else state.f[g.key] = new Set(raw ? raw.split('|').filter(Boolean) : []);
+      else state.f[g.key] = new Set(raw ? raw.split('|').filter(v => v && (g.key !== 'price' || g.list.includes(v))) : []);
     }
+    if (state.archive && sp.has('price')) writeURL(false);
   }
   function urlFor(over = {}) {
     const s = { ...state, ...over };
     const sp = new URLSearchParams();
     sp.set("lang", window.I18N.lang);
+    if (s.archive) sp.set('archive', '1');
     if (s.q) sp.set('q', s.q);
     for (const g of GROUPS) {
+      if (s.archive && g.key === 'price') continue;
       const set = (over.f && over.f[g.key]) || state.f[g.key];
       if (g.key === 'st') {
         const v = ST_ORDER.filter(c => set.has(c)).join('');
@@ -310,7 +320,7 @@
   function optionValues(g) {
     const totals = groupTotals[g.key] || new Map();
     let vals = [...totals.keys()];
-    if (g.key === 'st') vals = ST_ORDER.slice();
+    if (g.order === 'fixed') vals = (g.list || ST_ORDER).slice();
     else if (g.order === 'fixedList') vals = g.list.filter(v => totals.has(v));
     else if (g.order === 'desc') vals.sort((a, b) => b.localeCompare(a));
     else vals.sort((a, b) => (a === NONE) - (b === NONE) || totals.get(b) - totals.get(a) || collator.compare(a, b));
@@ -321,6 +331,7 @@
     body.innerHTML = '';
     let wineBox = null;
     for (const g of GROUPS) {
+      if (state.archive && g.key === 'price') continue;
       const fs = document.createElement('fieldset');
       fs.className = 'fgroup';
       fs.dataset.group = g.key;
@@ -351,7 +362,7 @@
         lab.className = 'opt';
         lab.htmlFor = id;
         const sw = g.key === 'st' ? `<span class="swatch st-${v}" aria-hidden="true"></span>` : '';
-        lab.innerHTML = `<input type="checkbox" id="${id}" value="${esc(v)}">${sw}<span class="lab">${esc(g.label ? g.label(v) : v)}</span><span class="n"></span>`;
+        lab.innerHTML = `<input type="checkbox" id="${id}" value="${esc(v)}"${g.ariaLabel ? ` aria-label="${esc(g.ariaLabel(v))}"` : ''}>${sw}<span class="lab">${esc(g.label ? g.label(v) : v)}</span><span class="n"></span>`;
         list.appendChild(lab);
         items.set(v, lab);
       }
@@ -451,7 +462,8 @@
     const where = [`<span class="net">${esc(r.nets.map(tr).join(', '))}</span>`];
     const facts = factsHTML(r);
     return `<li class="row"><a href="${esc(urlFor({ id: r.id, p: state.p }))}" data-id="${esc(r.id)}">
-      <div class="status-col">${pill(r.st)}${r.price ? `<span class="price-band" aria-label="${esc(r.price.label)}">${r.price.symbols}</span>` : ''}</div>
+      <div class="status-col">${pill(r.st)}</div>
+      ${!state.archive && r.price ? `<span class="price-band" aria-label="${esc(r.price.label)}">${r.price.symbols}</span>` : ''}
       <div class="body">
         <div class="name">${highlight(r.displayName, tokens)}</div>
         ${facts ? `<div class="facts">${facts}</div>` : ''}
@@ -461,8 +473,9 @@
   }
   function tagFor(g, v) {
     const label = g.key === 'st' ? STATUS[v].label : (g.label ? g.label(v) : v);
+    const accessibleLabel = g.ariaLabel ? g.ariaLabel(v) : label;
     const name = g.wine ? g.title.toLowerCase() : g.title.toLowerCase();
-    return `<button type="button" class="tag" data-remove="${g.key}" data-v="${esc(v)}" aria-label="Убрать фильтр ${esc(name)}: ${esc(label)}">${esc(label)}<span class="x" aria-hidden="true">×</span></button>`;
+    return `<button type="button" class="tag" data-remove="${g.key}" data-v="${esc(v)}" aria-label="Убрать фильтр ${esc(name)}: ${esc(accessibleLabel)}">${esc(label)}<span class="x" aria-hidden="true">×</span></button>`;
   }
   function renderApplied() {
     const tags = [];
@@ -558,17 +571,19 @@
     const view = $('#card-view');
     const r = BY_ID.get(state.id);
     const backHref = urlFor({ id: null });
+    const navigation = `<div class="card-nav"><a class="back" href="${esc(backHref)}" data-back>← К списку</a>${state.archive ? `<a class="archive-link" href="${esc(urlFor({ archive: false, id: null, p: 1 }))}">К справочнику</a>` : ''}</div>`;
+    const archiveNotice = state.archive ? '<p class="notice archive-notice">Нет в наличии в проверенных сетях</p>' : '';
     if (!r) {
       document.title = 'Запись не найдена — Оклейка';
-      view.innerHTML = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a>
+      view.innerHTML = `${navigation}${archiveNotice}
         <h1>Запись не найдена</h1><p class="sub">Возможно, данные обновились и этой записи больше нет. Позиции каталогов без проверенного решения в справочнике не публикуются. Попробуйте найти напиток через поиск.</p>`;
       return;
     }
     document.title = `${r.displayName} — ${tr('Оклейка')}`;
     const a = r.a;
     const vol = fmtVolume(r) || r.volRaw;
-    let html = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a>
-      <div>${pill(r.st)}${r.price ? ` <span class="price-band" aria-label="${esc(r.price.label)}">${r.price.symbols}</span>` : ''}</div>
+    let html = `${navigation}${archiveNotice}
+      <div class="card-status">${pill(r.st)}${!state.archive && r.price ? ` <span class="price-band" aria-label="${esc(r.price.label)}">${r.price.symbols}</span>` : ''}</div>
       <h1>${esc(r.displayName)}</h1>
       <p class="sub">${esc(r.nets.map(tr).join(', '))}${r.checked ? ` ${fmtShort(r.checked)}` : ''}</p>
       <div class="label-box"><dl class="kv">
@@ -608,13 +623,20 @@
 
   /* ---------- Переключение видов ---------- */
   let cameFromList = false;
+  function renderArchiveNavigation() {
+    const link = $('#archive-link');
+    link.href = urlFor({ archive: !state.archive, id: null, p: 1 });
+    link.textContent = state.archive ? 'К справочнику' : 'Архив';
+    $('#archive-notice').hidden = !state.archive;
+  }
   function render() {
+    renderArchiveNavigation();
     const inCard = !!state.id;
     $('#list-view').hidden = inCard;
     $('#card-view').hidden = !inCard;
     if (inCard) renderCard();
     else {
-      document.title = 'Оклейка — веганский статус алкоголя в российских сетях';
+      document.title = state.archive ? tr('Архив — Оклейка') : 'Оклейка — веганский статус алкоголя в российских сетях';
       renderList();
     }
     window.I18N.apply();
@@ -779,15 +801,28 @@
   }
   async function start() {
     readURL();
+    renderArchiveNavigation();
     $('#q').value = state.q;
     bind();
     try {
       META = await getJSON('data/meta.json');
       const ver = encodeURIComponent(META.snapshot_finished_utc || META.as_of);
-      const verified = await getJSON(`data/verified.json?v=${ver}`);
+      const verified = await getJSON(`data/${state.archive ? 'archive' : 'verified'}.json?v=${ver}`);
       ASSESS = verified.assessments;
       PRICE_LEVELS = verified.price_levels || {};
       ingest(verified.records);
+      const missingId = state.id;
+      if (!state.archive && missingId && !BY_ID.has(missingId)) {
+        try {
+          const archive = await getJSON(`data/archive.json?v=${ver}`);
+          if (state.id === missingId && !state.archive && archive.records.some(r => r[0] === missingId)) {
+            location.replace(urlFor({ archive: true }));
+            return;
+          }
+        } catch (_) {
+          // An unavailable archive must not prevent the normal missing-entry view.
+        }
+      }
       buildFilters();
       render();
     } catch (err) {

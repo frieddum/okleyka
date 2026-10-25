@@ -615,22 +615,36 @@ def main():
     def dump(name, obj):
         (OUT / "data" / name).write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
+    archive_path = ROOT / "data/archived.json"
+    archived = json.loads(archive_path.read_text(encoding="utf-8")) if archive_path.exists() else {}
+    all_ids = {r[0] for r in verified}
+    from datetime import date
+    for rid, decision in archived.items():
+        if rid not in all_ids or set(decision) != {"checked_at", "reason"} or decision["reason"] != "out_of_stock_all_checked_networks":
+            fail(f"archived: неверное решение или неизвестная карточка {rid}")
+        date.fromisoformat(decision["checked_at"])
+    active_records = [r for r in verified if r[0] not in archived]
+    archived_records = [r for r in verified if r[0] in archived]
+    meta["rows"]["verified_after_merge"] = len(active_records)
+    meta["rows"]["archived"] = len(archived_records)
     dump("meta.json", meta)
     price_path = ROOT / "data/price_levels.json"
     prices = json.loads(price_path.read_text(encoding="utf-8")) if price_path.exists() else {}
     by_id = {r[0]: r for r in verified}
-    from price_levels import ordinary_volume
+    from price_levels import ordinary_volume, category
     for rid, band in prices.items():
         if rid not in by_id or set(band) != {"level", "scale", "volume_ml", "observed_at"}:
             fail(f"price_levels: неизвестная карточка или лишние поля {rid}")
         if type(band["level"]) is not int or not 1 <= band["level"] <= 5:
             fail(f"price_levels: неверный уровень {rid}")
-        expected = "beer" if cats.items[by_id[rid][8]] in ("Пиво", "Сидр") else "bottle"
+        expected = category(cats.items[by_id[rid][8]], bool(by_id[rid][18]))
         if band["scale"] != expected or not ordinary_volume(band["volume_ml"], expected):
             fail(f"price_levels: неверная шкала или объём {rid}")
         from datetime import date
-        date.fromisoformat(band["observed_at"])
-    dump("verified.json", {"records": verified, "assessments": assessments, "price_levels": prices})
+        if band["observed_at"] is not None: date.fromisoformat(band["observed_at"])
+    dump("verified.json", {"records": active_records, "assessments": assessments,
+                           "price_levels": {rid: band for rid, band in prices.items() if rid not in archived}})
+    dump("archive.json", {"records": archived_records, "assessments": assessments, "price_levels": {}, "archived": archived})
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     brew = ROOT / "data" / "ru_breweries.json"
     dump("breweries.json", json.loads(brew.read_text(encoding="utf-8"))["breweries"] if brew.exists() else [])

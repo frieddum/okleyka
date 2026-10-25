@@ -42,7 +42,7 @@ def pasted_prices(text):
     for line in text.splitlines():
         line = line.strip()
         m = re.fullmatch(r"Цена\s*([\d\s\u00a0]+(?:[,.]\d{1,2})?)\s*₽", line)
-        if m and previous and re.match(r"(?:Вино|Игристое вино|Портвейн|Напиток|Винный|Плодовый)", previous, re.I):
+        if m and previous and re.match(r"(?:Вино|Игристое вино|Портвейн|Напиток|Винный|Плодовый|Виски|Бурбон|Коньяк|Бренди|Ром|Водка|Джин|Текила|Лик[её]р|Вермут|Аперитив|Настойка|Бальзам|Абсент|Соджу|Сакэ|Пиво|Сидр)\b", previous, re.I):
             price = float(re.sub(r"\s", "", m[1]).replace(",", "."))
             yield previous, price, volume(previous)
         if line:
@@ -132,4 +132,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit("Legacy fixed-band importer retired; use expand_price_levels.py with the private price evidence.")
