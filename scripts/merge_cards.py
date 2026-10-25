@@ -24,6 +24,21 @@ wine whisky whiskey vodka gin rum cognac liqueur tequila brandy dry brut sweet
 """.split())
 
 
+# Переводы и транскрипции одного слова: «Клюква» = «Кренберри» = Cranberry.
+SYNONYMS = {}
+for canon, variants in {
+    "cranberry": "клюква клюквенная кренберри крэнберри", "ice": "айс", "cherry": "вишня вишневая черри",
+    "raspberry": "малина малиновая распберри", "strawberry": "клубника клубничная строберри", "lemon": "лимон лимонная лемон",
+    "orange": "апельсин апельсиновая оранж", "pear": "груша грушевая", "apple": "яблоко яблочная эппл", "peach": "персик персиковая пич",
+    "honey": "мед медовая хани", "pepper": "перец перцовая пеппер", "black": "черный черная блэк блек", "white": "белый белая вайт",
+    "gold": "золото золотая голд", "silver": "серебро серебряная сильвер", "platinum": "платинум платина",
+    "original": "оригинальный оригинальная ориджинал", "classic": "классик классический классическая", "finest": "файнест",
+    "spiced": "спайсд пряный", "currant": "смородина смородиновая", "mango": "манго", "coconut": "кокос кокосовая",
+    "vanilla": "ваниль ванильная", "coffee": "кофе кофейная", "chocolate": "шоколад шоколадная", "mint": "мята мятная",
+}.items():
+    for w in [canon] + variants.split():
+        SYNONYMS[w] = canon
+
 LOG = []  # состав объединённых карточек, для проверки
 
 
@@ -37,6 +52,7 @@ def skeleton(name):
     for t in toks:
         if t.isdigit():
             continue
+        t = SYNONYMS.get(t, t)
         t = ''.join(TR.get(ch, ch) for ch in t)
         for a, b in (('qu', 'k'), ('ph', 'f'), ('th', 't'), ('ck', 'k'), ('c', 'k'), ('w', 'v'), ('x', 'ks'), ('y', 'i'),
                      ('j', 'zh'), ('gh', 'g'), ('kh', 'h')):
