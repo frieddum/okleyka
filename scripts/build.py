@@ -400,7 +400,7 @@ def main():
             groups["x:" + it["id"]] = [
                 it["id"], STATUS_CODE[it["status"]], [nets(c["network"]) for c in chains], name, -1,
                 prods(it.get("company")), countries(norm_country(it.get("country"))), "f" if it.get("country") else "u",
-                cats(cat), None, None, None, None, date_only(chains[0]["checked_at"]), 1, assess_index[k],
+                cats(cat), it.get("volume_ml"), None, it.get("abv"), None, date_only(chains[0]["checked_at"]), 1, assess_index[k],
                 color, sugar, 1 if sparkling else 0]
             extra_count += 1
 
