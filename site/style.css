@@ -405,7 +405,8 @@ dl.kv dt:first-of-type, dl.kv dt:first-of-type + dd { border-top: 0; }
 /* Language controls remain available inside the age dialog. */
 .language-picker { display: inline-flex; align-items: center; gap: 2px; flex-shrink: 0; }
 .language-flag { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 34px; padding: 5px; border: 1px solid transparent; border-radius: 5px; background: transparent; cursor: pointer; }
-.language-flag svg { display: block; border-radius: 2px; box-shadow: 0 0 0 1px #8884; }
+.language-flag { font-size: 12px; line-height: 1; font-weight: 500; letter-spacing: .02em; color: var(--ink-2); }
+.language-flag[aria-pressed="true"] { color: var(--ink); }
 .language-flag[aria-pressed="true"] { border-color: var(--rule-strong); background: var(--surface); }
 .language-flag:hover { background: var(--surface); }
 .language-flag:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }

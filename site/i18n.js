@@ -106,16 +106,12 @@
     group.className = 'language-picker';
     group.setAttribute('role', 'group');
     group.setAttribute('aria-label', 'Language / Язык');
-    const flags = {
-      ru: '<rect width="30" height="20" fill="#fff"/><path d="M0 10h30" stroke="#2355bb" stroke-width="6.67"/><path d="M0 16.67h30" stroke="#d52b30" stroke-width="6.67"/>',
-      en: '<rect width="30" height="20" fill="#16356e"/><path d="m0 0 30 20m0-20L0 20" stroke="#fff" stroke-width="5"/><path d="m0 0 30 20m0-20L0 20" stroke="#cf2438" stroke-width="2"/><path d="M15 0v20M0 10h30" stroke="#fff" stroke-width="7"/><path d="M15 0v20M0 10h30" stroke="#cf2438" stroke-width="4"/>'
-    };
     for (const [code, name] of [['ru', 'Русский'], ['en', 'English']]) {
       const button = document.createElement('button');
       button.type = 'button'; button.className = 'language-flag';
       button.title = name; button.setAttribute('aria-label', name);
       button.setAttribute('aria-pressed', String(lang === code));
-      button.innerHTML = '<svg viewBox="0 0 30 20" width="24" height="16" aria-hidden="true" focusable="false">' + flags[code] + '</svg>';
+      button.textContent = code === 'ru' ? 'рус' : 'eng';
       button.addEventListener('click', () => {
         if (lang === code) return;
         const url = new URL(location.href); url.searchParams.set('lang', code); location.assign(url);
