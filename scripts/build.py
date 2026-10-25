@@ -44,7 +44,7 @@ PRODUCER_COUNTRY = {
 MANUFACTURER_SITES = {"williamgrant.com": "William Grant & Sons", "hofbraeu-muenchen.de": "Hofbräu München"}
 EXTRA_CATEGORY = {"Вино": "Вино", "Игристое и шампанское": "Игристое вино", "Пиво": "Пиво",
                   "Ликёры, настойки, биттеры": "Ликёр", "Вермут и креплёные вина": "Вермут и креплёное вино",
-                  "Крепкие напитки": "Крепкий алкоголь", "Сидр, перри, медовуха": "Сидр", "Прочее": "Алкогольный напиток"}
+                  "Крепкие напитки": "Крепкий алкоголь", "Сидр, перри, медовуха": "Сидр", "Прочее": "Напитки"}
 
 # Ссылки на доказательства публикуются только из assessment.references[].url
 # и только с этих типов источников.
@@ -135,7 +135,7 @@ KIND_WORDS = [
     ("Аперитив", r"аперитив\w*|биттер\w*|bitters?"),
     ("Настойка", r"настойк\w*|бальзам\w*|balsam"),
     ("Медовуха", r"медовух\w*"),
-    ("Алкогольный напиток", r"напит\w*"),
+    ("Напитки", r"напит\w*"),
 ]
 
 
@@ -148,7 +148,7 @@ def kind_from_name(name, category):
     for label, pat in KIND_WORDS:
         if re.search(rf"(?<![а-яa-z]){pat.replace('ё', 'е')}(?![а-яa-z])", low):
             # «Напиток» в названии слишком общий: конкретная категория каталога точнее.
-            if label == "Алкогольный напиток" and cat and cat not in GENERIC_CATS:
+            if label == "Напитки" and cat and cat not in GENERIC_CATS:
                 return cat
             return label
     return cat
