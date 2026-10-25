@@ -97,9 +97,25 @@ def clean(s):
 PRICE_TAIL = re.compile(r"\s*(?:Цена за |С Картой|\d[\d\s]*,\d{2}\s*(?:₽|руб)).*$", re.S)
 
 
+# Подарочная упаковка и всё, что идёт в наборе с бутылкой: в названии не нужно.
+GIFT = [re.compile(p, re.I) for p in (
+    r"\s*\+\s*(?:тоник|коктейльн\w*\s+бокал|бокал|стакан|кружк|танкард|\d+\s*стопк)(?:[^,]|,\d)*",
+    r",?\s*(?:с|со)\s+(?:\d+\s*(?:-?мя\s*)?)?(?:подарочн\w*\s+)?(?:бокал|стакан|шот)\w*",
+    r",?\s*(?:в\s+)?(?:подарочн\w*\s+|промо\s*)?набор\w*(?:\s+(?:со?)\s+(?:\d+\s+)?\w+)?",
+    r"\s*промонабор",
+    r",?\s*(?:в\s+)?подарочн\w*\s+(?:упаковк|коробк)\w*",
+    r"\s+п/к\b|\s+туба\b")]
+
+
 def clean_name(s):
     s = clean(s)
-    return clean(PRICE_TAIL.sub("", s)) if s else s
+    if not s:
+        return s
+    s = PRICE_TAIL.sub("", s)
+    for g in GIFT:
+        s = g.sub("", s)
+    s = re.sub(r"\s+,", ",", re.sub(r",\s*,", ",", s))
+    return clean(s.strip(" ,"))
 
 
 def norm_category(c):
@@ -125,14 +141,15 @@ KIND_WORDS = [
     ("Сидр", r"сидр\w*|пуаре"),
     ("Коньяк", r"коньяк\w*|арманьяк\w*"),
     ("Бренди", r"бренди|кальвадос\w*|граппа"),
-    ("Виски", r"виски|бурбон\w*"),
+    ("Виски", r"виски|бурбон\w*|spicebox"),
     ("Водка", r"водк\w*"),
-    ("Ром", r"ром|рон|ron"),
+    ("Ром", r"ром|рон|ron|на основе рома|dead man.s fingers"),
+    ("Вермут", r"(?:martini|мартини) (?:bianco|бьянко|fiero|фиеро|extra dry|экстра драй|rosso|россо|rosato|розато)"),
     ("Соджу", r"соджу|soju"),
     ("Джин", r"джин"),
     ("Текила", r"текил\w*|мескал\w*"),
-    ("Ликёр", r"лик[её]р\w*|limoncello|лимончелло|curacao|кюрасао|умешу|umeshu|амаро|amaro|giffard"),
-    ("Аперитив", r"аперитив\w*|биттер\w*|bitters?"),
+    ("Ликёр", r"лик[её]р\w*|limoncello|лимончелло|curacao|кюрасао|умешу|umeshu|амаро|amaro|giffard|tennessee apple"),
+    ("Аперитив", r"аперитив\w*|биттер\w*|bitters?|aperol|апероль|sarti"),
     ("Настойка", r"настойк\w*|бальзам\w*|balsam"),
     ("Медовуха", r"медовух\w*"),
     ("Напитки", r"напит\w*"),
@@ -146,7 +163,7 @@ def kind_from_name(name, category):
     low = name.lower().replace("ё", "е")
     cat = norm_category(category)
     for label, pat in KIND_WORDS:
-        if re.search(rf"(?<![а-яa-z]){pat.replace('ё', 'е')}(?![а-яa-z])", low):
+        if re.search(rf"(?<![а-яa-z])(?:{pat.replace('ё', 'е')})(?![а-яa-z])", low):
             # «Напиток» в названии слишком общий: конкретная категория каталога точнее.
             if label == "Напитки" and cat and cat not in GENERIC_CATS:
                 return cat
