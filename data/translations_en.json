@@ -4622,5 +4622,21 @@
   "Производитель (март 2018): при изготовлении вин Leopard’s Leap продукты животного происхождения не используются. Ответ относится ко всем винам производителя.": "Producer reply (March 2018): no animal products are used to make Leopard’s Leap wines. The reply covers all of the producer’s wines.",
   "Производитель (июль 2023): при изготовлении его вин не используются продукты животного происхождения. Ответ относится к винам хозяйства.": "Producer reply (July 2023): no animal products are used in making its wines. The reply covers the estate’s wines.",
   "Производитель (август 2014): вина не оклеивают; перед розливом применяют лёгкую фильтрацию через целлюлозу. Ответ относится к винам хозяйства.": "Producer reply (August 2014): the wines are not fined; light cellulose filtration is used before bottling. The reply covers the estate’s wines.",
-  "Barnivore относит этот херес к невеганским на основании таблицы производителя, полученной в июле 2022 года. Статус относится к указанному продукту, а не ко всему ассортименту Osborne.": "Barnivore lists this sherry as not vegan based on a producer spreadsheet received in July 2022. This status applies to the named product, not to the whole Osborne range."
+  "Barnivore относит этот херес к невеганским на основании таблицы производителя, полученной в июле 2022 года. Статус относится к указанному продукту, а не ко всему ассортименту Osborne.": "Barnivore lists this sherry as not vegan based on a producer spreadsheet received in July 2022. This status applies to the named product, not to the whole Osborne range.",
+  "Ценовые уровни": "Price levels",
+  "Уровень": "Level",
+  "Вино и крепкое": "Wine and spirits",
+  "Значки $–$$$$$ показывают примерный ценовой уровень, а не сумму в долларах.": "The symbols $–$$$$$ indicate an approximate price level, not a price in US dollars.",
+  "Для вина и крепкого используем обычные бутылки 0,7–1 л, для пива и сидра — бутылки и банки 0,45–0,568 л. Это цена за упаковку, без пересчёта на литр. Миниатюры, большие бутылки и подарочные наборы не учитываются.": "For wine and spirits, we use ordinary 0.7–1 litre bottles; for beer and cider, 0.45–0.568 litre bottles and cans. This is the price per bottle or can, without conversion to a price per litre. Miniatures, large bottles and gift sets are excluded.",
+  "Уровень основан на сохранённых ценах сетей, в том числе акционных. Если есть несколько цен на один объём, берём медиану. Текущая цена может отличаться. Если подходящей цены нет, значок не показываем.": "Levels are based on saved retail prices, including special offers. When several prices are available for the same volume, we use the median. Current prices may differ. No symbol is shown when a suitable price is unavailable.",
+  "до 1 000 ₽": "up to 1 000 RUB",
+  "до 150 ₽": "up to 150 RUB",
+  "свыше 1 000 до 3 000 ₽": "over 1 000 to 3 000 RUB",
+  "свыше 150 до 300 ₽": "over 150 to 300 RUB",
+  "свыше 3 000 до 6 000 ₽": "over 3 000 to 6 000 RUB",
+  "свыше 300 до 500 ₽": "over 300 to 500 RUB",
+  "свыше 6 000 до 15 000 ₽": "over 6 000 to 15 000 RUB",
+  "свыше 500 до 1 000 ₽": "over 500 to 1 000 RUB",
+  "свыше 15 000 ₽": "over 15 000 RUB",
+  "свыше 1 000 ₽": "over 1 000 RUB"
 }

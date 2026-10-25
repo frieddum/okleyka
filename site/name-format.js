@@ -1,7 +1,14 @@
 /* Display-only: retain the original name for identity and searching. */
 (() => {
+  function withoutQuotes(name) {
+    return name.replace(/["«»„“”‟]/gu, '')
+      // Paired single quotation marks; apostrophes inside names stay intact.
+      .replace(/(^|[\s(])['‘]([^'‘’]+)['’](?=$|[\s,.;:)])/gu, '$1$2')
+      .replace(/^['‘’]+(?=\p{L})/u, '');
+  }
   function splitName(original) {
-    let rest = original.trim(), parts = [];
+    const clean = withoutQuotes(original).trim();
+    let rest = clean, parts = [];
     const volume = rest.match(/^\d+(?:[.,]\d+)?\s*(?:мл|ml|л|l)(?=\s|$)\s*/iu);
     if (volume) { parts.push(volume[0].trim()); rest = rest.slice(volume[0].length); }
     // These are names, not product-type prefixes.
@@ -12,8 +19,9 @@
       const match = rest.match(prefix);
       if (match) { parts.push(match[0].trim()); rest = rest.slice(match[0].length); }
     }
-    return rest ? {title: rest, details: parts.join(' · ')} : {title: original, details: ''};
+    return rest ? {title: rest, details: parts.join(' · ')} : {title: clean || original, details: ''};
   }
+  splitName.withoutQuotes = withoutQuotes;
   if (typeof module !== 'undefined') module.exports = splitName;
   else window.splitDrinkName = splitName;
 })();

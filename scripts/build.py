@@ -606,7 +606,7 @@ def main():
     # Версия в ссылках на скрипты и стили: после обновления браузер не возьмёт старый файл из кэша.
     for page in OUT.glob("*.html"):
         html = page.read_text(encoding="utf-8")
-        for asset in ("name-format.js", "content-en.js", "app.js", "age.js", "top.js", "i18n.js", "style.css"):
+        for asset in ("price-format.js", "name-format.js", "content-en.js", "app.js", "age.js", "top.js", "i18n.js", "style.css"):
             ver = hashlib.sha1((OUT / asset).read_bytes()).hexdigest()[:8]
             html = html.replace(f'"{asset}"', f'"{asset}?v={ver}"')
         page.write_text(html, encoding="utf-8")
@@ -616,7 +616,21 @@ def main():
         (OUT / "data" / name).write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     dump("meta.json", meta)
-    dump("verified.json", {"records": verified, "assessments": assessments})
+    price_path = ROOT / "data/price_levels.json"
+    prices = json.loads(price_path.read_text(encoding="utf-8")) if price_path.exists() else {}
+    by_id = {r[0]: r for r in verified}
+    from price_levels import ordinary_volume
+    for rid, band in prices.items():
+        if rid not in by_id or set(band) != {"level", "scale", "volume_ml", "observed_at"}:
+            fail(f"price_levels: неизвестная карточка или лишние поля {rid}")
+        if type(band["level"]) is not int or not 1 <= band["level"] <= 5:
+            fail(f"price_levels: неверный уровень {rid}")
+        expected = "beer" if cats.items[by_id[rid][8]] in ("Пиво", "Сидр") else "bottle"
+        if band["scale"] != expected or not ordinary_volume(band["volume_ml"], expected):
+            fail(f"price_levels: неверная шкала или объём {rid}")
+        from datetime import date
+        date.fromisoformat(band["observed_at"])
+    dump("verified.json", {"records": verified, "assessments": assessments, "price_levels": prices})
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     brew = ROOT / "data" / "ru_breweries.json"
     dump("breweries.json", json.loads(brew.read_text(encoding="utf-8"))["breweries"] if brew.exists() else [])

@@ -14,6 +14,18 @@ const rows = JSON.parse(fs.readFileSync(path.join(__dirname, '../_site/data/veri
 for (const r of rows) {
   const display = split(r[3]);
   assert.ok(display.title.trim(), r[3]);
-  assert.equal((display.details.replaceAll(' · ', ' ') + ' ' + display.title).trim(), r[3].trim(), r[3]);
+  assert.equal((display.details.replaceAll(' · ', ' ') + ' ' + display.title).trim(), split.withoutQuotes(r[3]).trim(), r[3]);
 }
-console.log('Name prefixes: brand safeguards and lossless display of all records passed');
+assert.equal(split('Водка "Балчуг" XVI век, 40%, 0,5 л').title, 'Балчуг XVI век, 40%, 0,5 л');
+assert.equal(split('«Зелёная марка» Лимон').title, 'Зелёная марка Лимон');
+assert.equal(split('“Лыхны”, красное полусладкое').title, 'Лыхны, красное полусладкое');
+assert.equal(split("Wine ‘Example’ Merlot").title, 'Example Merlot');
+assert.equal(split("Виски Jack Daniel’s Old No.7").title, 'Jack Daniel’s Old No.7');
+assert.equal(split("Вино Montepulciano d'Abruzzo").title, "Montepulciano d'Abruzzo");
+assert.equal(split('"Wine People" Sauvignon Blanc').title, 'Wine People Sauvignon Blanc');
+for (const locale of ['ru', 'en']) {
+  const collator = new Intl.Collator(locale, {sensitivity:'base', numeric:true, ignorePunctuation:true});
+  const sorted = ['"Зелёная марка"', 'Балчуг', 'Аберфелди'].map(n => split(n).title).sort(collator.compare);
+  assert.deepEqual(sorted, ['Аберфелди', 'Балчуг', 'Зелёная марка']);
+}
+console.log('Name prefixes, quotation marks, preserved apostrophes and alphabetical ordering: passed');

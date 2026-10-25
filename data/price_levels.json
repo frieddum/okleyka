@@ -1,0 +1,740 @@
+{
+  "ln-c438ae7e41": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "7b2a9f43b8": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 1000,
+    "observed_at": "2026-10-24"
+  },
+  "c7c5c81e44": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 1000,
+    "observed_at": "2026-10-24"
+  },
+  "ln-e7ab28a4bd": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "sp-782b5bf00f": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "vr-8624da692f": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-f1bc3ec6da7d": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-7149da51f561": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-952799cd7bf8": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-6329fd542f45": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "vr-0e74f633d7": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-15cb20d3f83f": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-2854de88e2c2": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-7f1a551ea73f": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "sp-d9d8cab0fb": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-32eee4393241": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-4ee1fc8c27ce": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "jo-29fbde0674": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "mt-d42f94ec80": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-8d9e5c69d21c": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-c1fa80f08029": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-417a1e465d6d": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "ln-a2d8282002": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-7f2ba57853e2": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "mt-5aae4a27b3": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "vr-eb91f21a23": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "mt-6266509d87": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-01ccbe095ddd": {
+    "level": 4,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-9fd526e99fd5": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "vr-08c98f813e": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-da046d2bfa56": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "vr-410a395178": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "vr-a02f640c7d": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "prk-2f251d4609": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "rfa-62d048760d99": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "178e858754": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-ff2771c02a8c": {
+    "level": 4,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-fb02c07a9de8": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-3713715e30ab": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-b86766ce861d": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-677afaab3878": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-8f3a2502bf09": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "prk-e9931b9760": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "prk-7dab44d769": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "mt-75fb73f277": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-ff27010f507c": {
+    "level": 4,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "sp-df1224066d": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-9839913328a8": {
+    "level": 5,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "vr-456e26fc31": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 1000,
+    "observed_at": "2026-10-24"
+  },
+  "mt-09f480e725": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "vr3-800b690521": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-4cecc3ad08e7": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "ln-0d269ff1c7": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "prk-6e9f8f7031": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-8bc91a058ad4": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-a855fc0c052e": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "sp-f740e80a09": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-e777a55a2008": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-fffaa7119243": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-820e6c1e6fc6": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-9636ae1c62a7": {
+    "level": 5,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "vr3-5104aec702": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-179b41bf016e": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-003ad978e43c": {
+    "level": 5,
+    "scale": "bottle",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "prk-f1e7c97587": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 1000,
+    "observed_at": "2026-10-24"
+  },
+  "ln-8e69df7614": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-e0e85aa663ae": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "be34935d1f": {
+    "level": 1,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-d64356480df2": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-9926cdb6e15d": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "ln-360ee72e6b": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-5449d7d3eca6": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-b1638878aaf9": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "mt-08fb61a5ef": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "mt-0620ab3bb4": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "mt-9ff3089a6a": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-e3136e955b08": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "1e50e619e9": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "dx-6e080c81f6": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-15672403c0ff": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-928350f59e3e": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "prk-b55b3071b0": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-654c624fc5": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-4f67e8a470": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-ab6746499c": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-2b129dc3b9": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-bbf907df57": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-48993e590d": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-8cfcbacfdf": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-1df3f16ca3": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-b5222b331e": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "499a3aaef3": {
+    "level": 4,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-e41b9475c3": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-d2c9fee231": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-d54d2c0d78": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-c96a7e4f0e": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-9c0cbadc20": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-5917e4f392": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-c3a19d0cc5": {
+    "level": 3,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-f35e554271": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-ecda706dd9": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-6d3aa99859": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-e755cf1108": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-5aa512ce18": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-0364bf5f26": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-beadbaedd7": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-aa9bab7c8e": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-87041733bd": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-05a4d03b3c": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "c456f95cee": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-e4a2a2f3bc": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-b04c52b111": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-c7e2e373b6": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-cb7b34e7f9": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-5607cc2d62": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-3c26d319f9": {
+    "level": 1,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-a3cde8eeef": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-c2d71332d8": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-d9f0141cf7": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-8cb3c8866c": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-c76dc10aa5": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "e7a75267b1": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  },
+  "prk-745f42895e": {
+    "level": 2,
+    "scale": "bottle",
+    "volume_ml": 750,
+    "observed_at": "2026-10-25"
+  }
+}

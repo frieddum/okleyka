@@ -192,14 +192,15 @@
   }
 
   /* ---------- Данные ---------- */
-  let META = null, RECS = [], BY_ID = new Map(), INDEX = null, ASSESS = [];
+  let META = null, RECS = [], BY_ID = new Map(), INDEX = null, ASSESS = [], PRICE_LEVELS = {};
   let groupTotals = {};
-  const collator = new Intl.Collator(window.I18N.lang, { sensitivity: 'base', numeric: true });
+  const collator = new Intl.Collator(window.I18N.lang, { sensitivity: 'base', numeric: true, ignorePunctuation: true });
 
   function unpack(arr) {
     const d = META.dicts;
     const at = (list, i) => i < 0 ? null : list[i];
     return {
+      price: window.formatPriceBand(PRICE_LEVELS[arr[0]], window.I18N.lang),
       id: arr[0], st: arr[1], nets: arr[2].map(i => d.networks[i]), name: arr[3], brand: at(d.brands, arr[4]),
       producer: at(d.producers, arr[5]), country: at(d.countries, arr[6]), origin: arr[7], cat: at(d.categories, arr[8]),
       volMl: arr[9], volRaw: arr[10], abv: arr[11], vin: arr[12], checked: arr[13], merged: arr[14],
@@ -450,7 +451,7 @@
     const where = [`<span class="net">${esc(r.nets.map(tr).join(', '))}</span>`];
     const facts = factsHTML(r);
     return `<li class="row"><a href="${esc(urlFor({ id: r.id, p: state.p }))}" data-id="${esc(r.id)}">
-      <div class="status-col">${pill(r.st)}</div>
+      <div class="status-col">${pill(r.st)}${r.price ? `<span class="price-band" aria-label="${esc(r.price.label)}">${r.price.symbols}</span>` : ''}</div>
       <div class="body">
         <div class="name">${highlight(r.displayName, tokens)}</div>
         ${facts ? `<div class="facts">${facts}</div>` : ''}
@@ -567,7 +568,7 @@
     const a = r.a;
     const vol = fmtVolume(r) || r.volRaw;
     let html = `<a class="back" href="${esc(backHref)}" data-back>← К списку</a>
-      <div>${pill(r.st)}</div>
+      <div>${pill(r.st)}${r.price ? ` <span class="price-band" aria-label="${esc(r.price.label)}">${r.price.symbols}</span>` : ''}</div>
       <h1>${esc(r.displayName)}</h1>
       <p class="sub">${esc(r.nets.map(tr).join(', '))}${r.checked ? ` ${fmtShort(r.checked)}` : ''}</p>
       <div class="label-box"><dl class="kv">
@@ -785,6 +786,7 @@
       const ver = encodeURIComponent(META.snapshot_finished_utc || META.as_of);
       const verified = await getJSON(`data/verified.json?v=${ver}`);
       ASSESS = verified.assessments;
+      PRICE_LEVELS = verified.price_levels || {};
       ingest(verified.records);
       buildFilters();
       render();
