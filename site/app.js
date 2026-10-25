@@ -43,7 +43,8 @@
     { key: 'color', title: 'Цвет', wine: true, get: r => r.color, order: 'total' },
     { key: 'sugar', title: 'Сахар', wine: true, get: r => r.sugar, order: 'fixedList',
       list: ['Брют', 'Сухое', 'Полусухое', 'Полусладкое', 'Сладкое'] },
-    { key: 'sp', title: 'Тип', wine: true, get: r => r.sp ? '1' : null, label: () => 'Игристое' },
+    { key: 'sp', title: 'Тип', wine: true, get: r => r.cat === 'Вино' ? (r.sp ? 'Игристое' : 'Тихое') : null,
+      order: 'fixedList', list: ['Тихое', 'Игристое'] },
     { key: 'vin', title: 'Урожай', wine: true, get: r => r.vin == null ? null : String(r.vin), order: 'desc' },
   ];
   const GROUP = Object.fromEntries(GROUPS.map(g => [g.key, g]));
