@@ -248,6 +248,7 @@
   function urlFor(over = {}) {
     const s = { ...state, ...over };
     const sp = new URLSearchParams();
+    sp.set("lang", window.I18N.lang);
     if (s.q) sp.set('q', s.q);
     for (const g of GROUPS) {
       const set = (over.f && over.f[g.key]) || state.f[g.key];
@@ -379,7 +380,7 @@
         const nEl = lab.querySelector('.n');
         nEl.textContent = fmtInt(n);
         let visible = true;
-        if (findText) visible = tokenize(g.label ? g.label(v) : v).join(' ').includes(findText);
+        if (findText) visible = tokenize(window.I18N.t(g.label ? g.label(v) : v)).join(' ').includes(findText);
         else if (g.wine || g.solo || g.limit) visible = n > 0 || sel.has(v);
         if (visible && g.limit && !isOpen && !sel.has(v)) {
           if (shown >= g.limit) { visible = false; hiddenByLimit++; }
@@ -580,9 +581,9 @@
     if (a) {
       const was = { vegan: 'Веганское', nonvegan: 'Невеганское', unclear: 'Неясно', conflict: 'Противоречие' }[a.revised_from];
       const revised = was ? `<p class="note">Решение пересмотрено, раньше было «${was}».</p>` : '';
-      if (a.rationale) html += `<section class="section"><h2>Почему</h2><p class="rationale">${esc(a.rationale)}</p>${revised}</section>`;
-      if (a.scope.length) html += `<section class="section"><h2>Область действия</h2><ul>${a.scope.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`;
-      if (a.packaging && !/^Упаковка отдельно не проверена\.?$/.test(a.packaging)) html += `<section class="section"><h2>Упаковка</h2><p>${esc(a.packaging)}</p></section>`;
+      if (a.rationale) html += `<section class="section"><h2>Почему</h2><p class="rationale" lang="ru">${esc(a.rationale)}</p>${revised}</section>`;
+      if (a.scope.length) html += `<section class="section"><h2>Область действия</h2><ul data-original lang="ru">${a.scope.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`;
+      if (a.packaging && !/^Упаковка отдельно не проверена\.?$/.test(a.packaging)) html += `<section class="section"><h2>Упаковка</h2><p data-original lang="ru">${esc(a.packaging)}</p></section>`;
       const src = [];
       for (const ref of a.refs) {
         const short = ref.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
@@ -611,6 +612,7 @@
       document.title = 'Оклейка — веганский статус алкоголя в российских сетях';
       renderList();
     }
+    window.I18N.apply();
     if ($('#q').value !== state.q && document.activeElement !== $('#q')) $('#q').value = state.q;
     $('#clear-q').hidden = !state.q;
   }
@@ -786,6 +788,7 @@
       $('#count').textContent = 'Не удалось загрузить данные';
       $('#results').innerHTML = '<li class="empty"><p>Файлы справочника не загрузились. Проверьте соединение и обновите страницу.</p></li>';
     }
+    window.I18N.apply();
   }
   start();
 })();

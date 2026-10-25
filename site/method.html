@@ -9,6 +9,7 @@
 <meta name="referrer" content="no-referrer">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
+<script src="i18n.js"></script>
 <script src="age.js"></script>
 </head>
 <body>
@@ -88,6 +89,7 @@
   } catch (e) {
     document.getElementById('coverage').innerHTML = '<tr><td colspan="3">Не удалось загрузить данные.</td></tr>';
   }
+  window.I18N.apply();
 })();
 </script>
 <script src="top.js" defer></script>

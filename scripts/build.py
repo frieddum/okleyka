@@ -567,7 +567,7 @@ def main():
     # Версия в ссылках на скрипты и стили: после обновления браузер не возьмёт старый файл из кэша.
     for page in OUT.glob("*.html"):
         html = page.read_text(encoding="utf-8")
-        for asset in ("app.js", "age.js", "top.js", "style.css"):
+        for asset in ("app.js", "age.js", "top.js", "i18n.js", "style.css"):
             ver = hashlib.sha1((OUT / asset).read_bytes()).hexdigest()[:8]
             html = html.replace(f'"{asset}"', f'"{asset}?v={ver}"')
         page.write_text(html, encoding="utf-8")

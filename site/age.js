@@ -22,7 +22,9 @@
         '</div>' +
         '<p class="age-refused" hidden>Сайт доступен только с 18 лет.</p>' +
       '</div>';
+    box.querySelector(".age-card").prepend(window.I18N.selector());
     document.body.appendChild(box);
+    window.I18N.apply(box);
     var yes = box.querySelector('.age-yes');
     yes.focus();
     yes.addEventListener('click', function () {
@@ -35,7 +37,11 @@
       box.querySelector('.age-refused').hidden = false;
     });
     box.addEventListener('keydown', function (e) {
-      if (e.key === 'Tab') { e.preventDefault(); (document.activeElement === yes ? box.querySelector('.age-no') : yes).focus(); }
+      if (e.key === 'Tab') {
+        var items = Array.from(box.querySelectorAll('select, button')).filter(el => !el.closest('[hidden]'));
+        var i = items.indexOf(document.activeElement);
+        e.preventDefault(); items[(i + (e.shiftKey ? -1 : 1) + items.length) % items.length].focus();
+      }
     });
   }
   if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);

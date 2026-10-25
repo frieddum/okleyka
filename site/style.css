@@ -124,7 +124,7 @@ button, input, select { font: inherit; color: inherit; }
   letter-spacing: -0.01em;
 }
 .tagline { color: var(--ink-2); font-size: var(--fs-s); flex: 1 1 260px; min-width: 0; }
-.nav { display: flex; gap: 18px; font-size: var(--fs-s); }
+.nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; font-size: var(--fs-s); }
 .nav a { color: var(--ink); text-decoration: none; padding-block: 4px; border-bottom: 2px solid transparent; }
 .nav a[aria-current="page"] { border-bottom-color: var(--accent); }
 .nav a:hover { color: var(--accent); }
@@ -401,3 +401,9 @@ dl.kv dt:first-of-type, dl.kv dt:first-of-type + dd { border-top: 0; }
 .brew-city { color: var(--ink-3); font-size: .9em; }
 .brew-src { color: var(--ink-3); font-size: .9em; }
 .notice { border-left: 3px solid var(--accent); padding: .75rem 1rem; background: var(--accent-soft); }
+
+/* Language controls remain available inside the age dialog. */
+.language-picker select { font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--ink-3); border-radius: 6px; padding: .45rem .65rem; min-height: 44px; max-width: 100%; }
+.language-picker select:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.language-note { font-size: .85rem; color: var(--ink-2); margin-top: .75rem; margin-bottom: .75rem; }
+.age-card .language-picker { display: block; text-align: right; margin-bottom: .75rem; }
