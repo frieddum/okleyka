@@ -10298,6 +10298,3007 @@
      "checked_at": "2026-10-25"
     }
    ]
+  },
+  {
+   "id": "ln-9562729b40",
+   "name": "Вино ROBERTSON WINERY столовое белое сладкое",
+   "company": "Robertson Winery",
+   "category": "Вино",
+   "country": "ЮАР",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "По ответу производителя продукт не является веганским (упоминается: казеин). Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2011-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/1724/robertson-winery"
+  },
+  {
+   "id": "ln-8205b870f2",
+   "name": "Вино MEZZACORONA Castel Pietra Москато Доломити белое сухое",
+   "company": "Mezzacorona",
+   "category": "Вино",
+   "country": "Италия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Mezzacorona»."
+   ],
+   "evidence_date": "2021-02",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+  },
+  {
+   "id": "ln-9461ff7726",
+   "name": "Вино MEZZACORONA Castel Pietra Пино Гриджио Розе Доломити розовое сухое",
+   "company": "Mezzacorona",
+   "category": "Вино",
+   "country": "Италия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Mezzacorona»."
+   ],
+   "evidence_date": "2021-02",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+  },
+  {
+   "id": "ln-0161f6293e",
+   "name": "Вино MEZZACORONA Castel Pietra Терольдего Доломити выдержанное красное сухое",
+   "company": "Mezzacorona",
+   "category": "Вино",
+   "country": "Италия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Mezzacorona»."
+   ],
+   "evidence_date": "2021-02",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+  },
+  {
+   "id": "ln-ffceaa786c",
+   "name": "Вино ШАТО ДЕ ТАЛЮ Российское Кубань Геленджик Южная Вертикаль Каберне Фран красное сухое",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-5a81b23802",
+   "name": "Вино MEZZACORONA Castel Pietra Мерло Доломити выдержанное красное сухое",
+   "company": "Mezzacorona",
+   "category": "Вино",
+   "country": "Италия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Mezzacorona»."
+   ],
+   "evidence_date": "2021-02",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+  },
+  {
+   "id": "ln-be17ae8584",
+   "name": "Вино RAMON BILBAO Crianza красное сухое",
+   "company": "Bodegas Ramón Bilbao",
+   "category": "Вино",
+   "country": "Испания",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель: веганские названные красные вина.",
+   "scope": [
+    "Ramón Bilbao Crianza."
+   ],
+   "evidence_date": "2020-01",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/7668/bodegas-ram-n-bilbao"
+  },
+  {
+   "id": "ln-f3b93f7bac",
+   "name": "Вино MATSU El Recio выдержанное красное сухое",
+   "company": "Matsu",
+   "category": "Вино",
+   "country": "Испания",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian: Matsu El Picaro, El Recio и El Viejo сертифицированы V-Label.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-matsu/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-a2d8282002",
+   "name": "Вино ШАТО ДЕ ТАЛЮ Российское Руж красное сухое",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-1fbdb7b5d0",
+   "name": "Вино ШАТО ДЕ ТАЛЮ Российское Клере розовое сухое",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-e7ab28a4bd",
+   "name": "Вино LONG BARN Зинфандель красное полусухое",
+   "company": "Long Barn",
+   "category": "Вино",
+   "country": "США",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Long Barn: письмо 2019 г. — для осветления используются животные средства, преимущественно яичные. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2019-01",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/6939/long-barn"
+  },
+  {
+   "id": "ln-da213c5eb9",
+   "name": "Вино CARE Тинто Собре Лиас Кариньена красное сухое",
+   "company": "Bodegas Añadas S.A.",
+   "category": "Вино",
+   "country": "Испания",
+   "volume_ml": 1500,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2021-10), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2021-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/8640/bodegas-a-adas-s-a"
+  },
+  {
+   "id": "ln-ba72b957b7",
+   "name": "Вино MEZZACORONA Castel Pietra Пино Гриджо Делле Венецие белое сухое",
+   "company": "Mezzacorona",
+   "category": "Вино",
+   "country": "Италия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Mezzacorona»."
+   ],
+   "evidence_date": "2021-02",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+  },
+  {
+   "id": "ln-ebe1ef0ec3",
+   "name": "Вино LA LINDA Мальбек ординарное красное сухое",
+   "company": "Luigi Bosca",
+   "category": "Вино",
+   "country": "Аргентина",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2021-07), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2021-07",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/8477/luigi-bosca"
+  },
+  {
+   "id": "ln-2176eca41d",
+   "name": "Вино PORTOBELLO Пино Гриджио Делле Венеция сортовое ординарное белое сухое",
+   "company": "Leelex Ltd",
+   "category": "Джин",
+   "country": "Великобритания",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2017-01), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2017-01",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/5141/leelex-ltd"
+  },
+  {
+   "id": "ln-573ea81077",
+   "name": "Вино ШАТО ДЕ ТАЛЮ Российское Кубань Геленджик Мерло Красностоп красное сухое",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-58e79b8586",
+   "name": "Вино ROBERTSON WINERY красное сладкое",
+   "company": "Robertson Winery",
+   "category": "Вино",
+   "country": "ЮАР",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "По ответу производителя продукт не является веганским (упоминается: казеин). Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2011-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/1724/robertson-winery"
+  },
+  {
+   "id": "ln-3adace2165",
+   "name": "Вино TOCORNAL Cono Sur Мерло красное полусухое",
+   "company": "Cono Sur",
+   "category": "Вино",
+   "country": "Чили",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Общее письмо говорит о животных производных в виноделии; в 2019 исключены пять organic-вин, Tocornal к ним не отнесён.",
+   "scope": [
+    "Историческое подтверждение обычной линейки; organic-исключение нельзя перенести на Tocornal."
+   ],
+   "evidence_date": "2018-04",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/1037/cono-sur"
+  },
+  {
+   "id": "ln-cbb455b7ea",
+   "name": "Вино АПСНЫ ординарное красное полусладкое",
+   "company": "Вина и воды Абхазии",
+   "category": "Вино",
+   "country": "Абхазия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Красные вина «Апсны» и «Лыхны» в списке веганских на VeganRussian (2021).",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/red-wine-vva/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-c438ae7e41",
+   "name": "Вино MATSU El Picaro ординарное красное сухое",
+   "company": "Bodega Matsu",
+   "category": "Вино",
+   "country": "Испания",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Компания прямо относит вина Matsu к сертифицированным V-Label. El Pícaro совпадает по названию; не использовать это как доказательство любых брендов группы.",
+   "scope": [
+    "Вина Matsu; без ограничения винтажа/рынка в ответе."
+   ],
+   "evidence_date": "2019-11",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/7565/bodega-matsu"
+  },
+  {
+   "id": "ln-fb9e5ab6d9",
+   "name": "Вино ШАТО ДЕ ТАЛЮ Мируар де Талю Мерло Красностоп красное сухое",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-012dae49e0",
+   "name": "Вино ШАТО ДЕ ТАЛЮ Российское Кубань Геленджик Шардоне Мускат белое сухое",
+   "company": "Шато де Талю",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+   "scope": [
+    "Всё вино бренда"
+   ],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-f0e5db1220",
+   "name": "Вино игристое ЛЕВЪ ГОЛИЦЫНЪ КОРОНАЦИОННОЕ Наследие Мастера белое брют",
+   "company": "ЗАО «Игристые вина»",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Производитель (2020): во всех игристых винах завода используется рыбий клей.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/8178/"
+  },
+  {
+   "id": "ln-22b1b92e68",
+   "name": "Вино игристое ЛЕВЪ ГОЛИЦЫНЪ КОРОНАЦИОННОЕ Наследие Мастера белое полусладкое",
+   "company": "ЗАО «Игристые вина»",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Производитель (2020): во всех игристых винах завода используется рыбий клей.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/8178/"
+  },
+  {
+   "id": "ln-8bc2f77e7c",
+   "name": "Вино игристое ЛЕВЪ ГОЛИЦЫНЪ Наследие Мастера розовое полусладкое",
+   "company": "ЗАО «Игристые вина»",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 200,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Производитель (2020): во всех игристых винах завода используется рыбий клей.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/8178/"
+  },
+  {
+   "id": "ln-4b73c6be16",
+   "name": "Вино игристое MOET & CHANDON Империаль Розе Шампань выдержанное розовое брют, п/у",
+   "company": "Moët & Chandon",
+   "category": "Вино",
+   "country": "Франция",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Moët & Chandon: письма 2017 и 2020 гг. — шампанские без продуктов животного происхождения (без яичного белка и желатина), подходят веганам. Противоположное сообщение 2012 г. — пересказ слов экскурсовода, не ответ производителя. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2020-11",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/186/mo-t-chandon"
+  },
+  {
+   "id": "ln-c132edc5be",
+   "name": "Вино игристое ЛЕВЪ ГОЛИЦЫНЪ Наследие Мастера белое полусладкое",
+   "company": "ЗАО «Игристые вина»",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 200,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Производитель (2020): во всех игристых винах завода используется рыбий клей.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/8178/"
+  },
+  {
+   "id": "ln-e31f75c733",
+   "name": "Вино игристое ЛЕВЪ ГОЛИЦЫНЪ Наследие Мастера Российское белое полусухое",
+   "company": "ЗАО «Игристые вина»",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Производитель (2020): во всех игристых винах завода используется рыбий клей.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/8178/"
+  },
+  {
+   "id": "ln-5965f53e8b",
+   "name": "Вино игристое ЛЕВЪ ГОЛИЦЫНЪ Наследие Мастера белое брют",
+   "company": "ЗАО «Игристые вина»",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 200,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Производитель (2020): во всех игристых винах завода используется рыбий клей.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/8178/"
+  },
+  {
+   "id": "ln-0024172d41",
+   "name": "Вино игристое ЛЕВЪ ГОЛИЦЫНЪ Наследие Мастера белое экстра брют",
+   "company": "ЗАО «Игристые вина»",
+   "category": "Вино",
+   "country": "Россия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Производитель (2020): во всех игристых винах завода используется рыбий клей.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/wine/8178/"
+  },
+  {
+   "id": "ln-78537339cc",
+   "name": "Вино игристое MARTINI Prosecco Rose розовое сухое",
+   "company": "Martini & Rossi",
+   "category": "Вино",
+   "country": "Италия",
+   "volume_ml": 750,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Компания сообщает о животных компонентах; письмо 2020 прямо охватывает все вина/винные продукты брендов Bacardi-Martini и животный желатин.",
+   "scope": [
+    "Винные напитки, вермуты и игристые Martini; набор nonvegan из-за компонента Martini, тоник отдельно не оценён."
+   ],
+   "evidence_date": "2023-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/324/martini-rossi"
+  },
+  {
+   "id": "ln-5f4e152fe9",
+   "name": "Водка DANZKA 40%",
+   "company": "Waldemar Behn GmbH",
+   "category": "Водка",
+   "country": "Германия",
+   "volume_ml": 1750,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Waldemar Behn GmbH»."
+   ],
+   "evidence_date": "2026-09",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3062/waldemar-behn-gmbh"
+  },
+  {
+   "id": "ln-c60ca2b9b2",
+   "name": "Водка РУССКИЙ СТАНДАРТ 40%",
+   "company": "Русский Стандарт",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 200,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard"
+  },
+  {
+   "id": "ln-2dbc88350a",
+   "name": "Водка ЗЕЛЕНАЯ МАРКА Кедровая Особая, 40%",
+   "company": "Зелёная марка",
+   "category": "Водка",
+   "country": null,
+   "volume_ml": 100,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2014): животные продукты в водке не используются, вся продукция делается на одном заводе в России.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3795/green-mark"
+  },
+  {
+   "id": "ln-b22b852077",
+   "name": "Настойка ЗЕЛЕНАЯ МАРКА Лимонная сладкая 29%",
+   "company": "Зелёная марка",
+   "category": "Водка",
+   "country": null,
+   "volume_ml": 100,
+   "abv": 29.0,
+   "status": "vegan",
+   "rationale": "Производитель (2014): животные продукты в водке не используются, вся продукция делается на одном заводе в России.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3795/green-mark"
+  },
+  {
+   "id": "ln-5cf6bccdea",
+   "name": "Водка ЧИСТЫЕ РОСЫ Особая с перцем 40%",
+   "company": "ЛВЗ «Саранский»",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2024): фильтрация берёзовым углём и кварцевым песком, животное сырьё не применяется; мёд только в ТМ «Городок» и бальзаме «Мордовский».",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/produkciya-saranskiy-likero-vodochnyy-zavod/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-948d6db05e",
+   "name": "Водка ПЯТЬ ОЗЕР 40%",
+   "company": "АСГ",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 100,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2018): при производстве водки «Пять озёр» не применяются ни животное сырьё, ни вспомогательные материалы.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-5-ozer/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-71a46f7192",
+   "name": "Водка BELUGA Noble 40%",
+   "company": "Beluga",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 1750,
+   "abv": 40.0,
+   "status": "nonvegan",
+   "rationale": "Прямое письмо сообщает, что Beluga Noble содержит мёд.",
+   "scope": [
+    "Beluga Noble vodka; письмо 2017, текущая страна/рецептура партии требует проверки."
+   ],
+   "evidence_date": "2017-12",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga"
+  },
+  {
+   "id": "ln-f7190add92",
+   "name": "Водка ЗЕЛЕНАЯ МАРКА Особая Кедровая, 40%",
+   "company": "Зелёная марка",
+   "category": "Водка",
+   "country": null,
+   "volume_ml": 500,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2014): животные продукты в водке не используются, вся продукция делается на одном заводе в России.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3795/green-mark"
+  },
+  {
+   "id": "ln-26939b4674",
+   "name": "Водка ЛАДОГА 40%",
+   "company": "Ладога",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 500,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу «Ладоги» (VeganRussian): веганские Grey Cardinal, «Ладога», «Беломорканал», «Зверь», «Легенда Кремля», «Хлебная особая», «Пшеничная».",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-ladoga/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-47d35bdd67",
+   "name": "Водка ЧИСТЫЕ РОСЫ 40%",
+   "company": "ЛВЗ «Саранский»",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 1000,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2024): фильтрация берёзовым углём и кварцевым песком, животное сырьё не применяется; мёд только в ТМ «Городок» и бальзаме «Мордовский».",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/produkciya-saranskiy-likero-vodochnyy-zavod/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-ddb990e6f1",
+   "name": "Водка FINLANDIA 40%",
+   "company": "Finlandia",
+   "category": "Водка",
+   "country": "Финляндия",
+   "volume_ml": 500,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По данным VeganRussian (2021): все виды Finlandia веганские; производитель (2013) подтверждал классическую и вкусовые версии.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-finlandia/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-57131cae42",
+   "name": "Водка BELUGA Трансатлантик Рейсинг 40%",
+   "company": "Beluga Group",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 1000,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2017): в Beluga Transatlantic нет животных ингредиентов.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga"
+  },
+  {
+   "id": "ln-2e44f26497",
+   "name": "Настойка ЗЕЛЕНАЯ МАРКА Сливовая 24%, сладкая",
+   "company": "Зелёная марка",
+   "category": "Водка",
+   "country": null,
+   "volume_ml": 500,
+   "abv": 24.0,
+   "status": "vegan",
+   "rationale": "Производитель (2014): животные продукты в водке не используются, вся продукция делается на одном заводе в России.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3795/green-mark"
+  },
+  {
+   "id": "ln-2092fc927e",
+   "name": "Водка GREY GOOSE 40%",
+   "company": "Grey Goose Vodka",
+   "category": "Водка",
+   "country": "Великобритания",
+   "volume_ml": 500,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2020-10), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2020-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/181/grey-goose-vodka"
+  },
+  {
+   "id": "ln-fb83189109",
+   "name": "Водка ПЯТЬ ОЗЕР Сибирский кедр Особая 38%",
+   "company": "АСГ",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 500,
+   "abv": 38.0,
+   "status": "vegan",
+   "rationale": "Производитель (2018): при производстве водки «Пять озёр» не применяются ни животное сырьё, ни вспомогательные материалы.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-5-ozer/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-bc26081ecc",
+   "name": "Водка ХАСКИ 40%",
+   "company": "АСГ",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 1000,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель: водку «Хаски» фильтруют берёзовым или кокосовым углём и полипропиленовыми фильтрами; рыбий клей, желатин и животные ферменты не используются.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/vodka-husky/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-7888f18d7d",
+   "name": "Настойка WILD BERRIES Lingonberry брусника 18,5%, сладкая",
+   "company": "Celtic Marches Beverages Limited",
+   "category": "Сидр",
+   "country": "Шотландия",
+   "volume_ml": 500,
+   "abv": 18.5,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Celtic Marches Beverages Limited»."
+   ],
+   "evidence_date": "2020-04",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/cider/7751/celtic-marches-beverages-limited"
+  },
+  {
+   "id": "ln-10238cbb21",
+   "name": "Водка ABSOLUT 40%",
+   "company": "Absolut Vodka",
+   "category": "Водка",
+   "country": "Швеция",
+   "volume_ml": 500,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2024-07), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2024-07",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/142/absolut-vodka"
+  },
+  {
+   "id": "ln-04acb4957a",
+   "name": "Водка АРХАНГЕЛЬСКАЯ Северная выдержка 40%",
+   "company": "Beluga Group",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 1500,
+   "abv": 40.0,
+   "status": "nonvegan",
+   "rationale": "Производитель (2022): в «Архангельской Северной выдержке» есть панты (рога) оленя.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga"
+  },
+  {
+   "id": "ln-f5031a64fd",
+   "name": "Настойка ЗЕЛЕНАЯ МАРКА Абрикосовая 24%, сладкая",
+   "company": "Зелёная марка",
+   "category": "Водка",
+   "country": null,
+   "volume_ml": 500,
+   "abv": 24.0,
+   "status": "vegan",
+   "rationale": "Производитель (2014): животные продукты в водке не используются, вся продукция делается на одном заводе в России.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3795/green-mark"
+  },
+  {
+   "id": "ln-5f2a273cbc",
+   "name": "Водка БАЛЧУГ 21 Век 40%",
+   "company": "ЛВЗ «Саранский»",
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 1000,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2024): фильтрация берёзовым углём и кварцевым песком, животное сырьё не применяется; мёд только в ТМ «Городок» и бальзаме «Мордовский».",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/produkciya-saranskiy-likero-vodochnyy-zavod/",
+   "barnivore_url": null
+  },
+  {
+   "id": "ln-7926aa58cf",
+   "name": "Напиток спиртной YENI RAKI 45%",
+   "company": "Yeni Raki",
+   "category": "Водка",
+   "country": "Турция",
+   "volume_ml": 700,
+   "abv": 45.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2016-04), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2016-04",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/4518/yeni-raki"
+  },
+  {
+   "id": "ln-7c26bbc341",
+   "name": "Ликер JAGERMEISTER Кулпак 35%, десертный",
+   "company": "Jägermeister",
+   "category": "Ликёр",
+   "country": "Германия",
+   "volume_ml": 350,
+   "abv": 35.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2021-10), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2021-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/106/j-germeister"
+  },
+  {
+   "id": "ln-8bb0c7acf0",
+   "name": "Ликер JAGERMEISTER 35%, десертный",
+   "company": "Jägermeister",
+   "category": "Ликёр",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 35.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2021-10), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2021-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/106/j-germeister"
+  },
+  {
+   "id": "ln-271d4ea06e",
+   "name": "Настойка сладкая ЗЕЛЕНАЯ МАРКА Лимонная 29%",
+   "company": "Зелёная марка",
+   "category": "Водка",
+   "country": null,
+   "volume_ml": 500,
+   "abv": 29.0,
+   "status": "vegan",
+   "rationale": "Производитель (2014): животные продукты в водке не используются, вся продукция делается на одном заводе в России.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3795/green-mark"
+  },
+  {
+   "id": "ln-eafa1d2fe3",
+   "name": "Настойка WILD BERRIES Cloudberry морошка 18,5%, сладкая",
+   "company": "Celtic Marches Beverages Limited",
+   "category": "Сидр",
+   "country": "Шотландия",
+   "volume_ml": 500,
+   "abv": 18.5,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Celtic Marches Beverages Limited»."
+   ],
+   "evidence_date": "2020-04",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/cider/7751/celtic-marches-beverages-limited"
+  },
+  {
+   "id": "ln-3aaeb25349",
+   "name": "Ликер JAGERMEISTER десертный, 35%",
+   "company": "Jägermeister",
+   "category": "Ликёр",
+   "country": "Германия",
+   "volume_ml": 700,
+   "abv": 35.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2021-10), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2021-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/106/j-germeister"
+  },
+  {
+   "id": "ln-a32b43a066",
+   "name": "Ликер JAGERMEISTER Orange 33%, десертный",
+   "company": "Jägermeister",
+   "category": "Ликёр",
+   "country": "Германия",
+   "volume_ml": 700,
+   "abv": 33.0,
+   "status": "vegan",
+   "rationale": "Производитель: в производстве Jägermeister не используются вещества животного происхождения, клей этикеток на полимерной основе.",
+   "scope": [
+    "Jägermeister."
+   ],
+   "evidence_date": "2018-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/106/j-germeister"
+  },
+  {
+   "id": "ln-da6d6672d5",
+   "name": "Коньяк MARTELL VS ординарный 3 года 40%, со стаканом, п/у",
+   "company": "Martell Cognac",
+   "category": "Коньяк",
+   "country": "Франция",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2008), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2008",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/198/martell-cognac"
+  },
+  {
+   "id": "ln-08e3709c6a",
+   "name": "Бренди TORRES 10 Gran Reserva 38%",
+   "company": "Torres",
+   "category": "Бренди",
+   "country": "Испания",
+   "volume_ml": 200,
+   "abv": 38.0,
+   "status": "vegan",
+   "rationale": "Письмо прямо подтверждает отсутствие животных продуктов на всех стадиях производства Torres 10.",
+   "scope": [
+    "Torres 10 Brandy / Gran Reserva; не Torres 5 и не непроверенные отдельные версии."
+   ],
+   "evidence_date": "2017-09",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/847/torres"
+  },
+  {
+   "id": "ln-72b0eedaf8",
+   "name": "Бренди TORRES Gran Reserva 10, 38%",
+   "company": "Torres",
+   "category": "Бренди",
+   "country": "Испания",
+   "volume_ml": 500,
+   "abv": 38.0,
+   "status": "vegan",
+   "rationale": "Письмо прямо подтверждает отсутствие животных продуктов на всех стадиях производства Torres 10.",
+   "scope": [
+    "Torres 10 Brandy / Gran Reserva; не Torres 5 и не непроверенные отдельные версии."
+   ],
+   "evidence_date": "2017-09",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/847/torres"
+  },
+  {
+   "id": "ln-ef9bc6a32f",
+   "name": "Коньяк ХЕННЕССИ ВС трехлетний ординарный 40%",
+   "company": "Hennessy Cognac",
+   "category": "Коньяк",
+   "country": "Франция",
+   "volume_ml": 750,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2011-01",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/349/hennessy-cognac"
+  },
+  {
+   "id": "ln-5ed98118bf",
+   "name": "Бренди TORRES 5 Solera Reserva 38%",
+   "company": "Torres",
+   "category": "Бренди",
+   "country": "Испания",
+   "volume_ml": 500,
+   "abv": 38.0,
+   "status": "vegan",
+   "rationale": "Производитель: перечень веганских продуктов включает Torres 5, Torres 10 и San Valentin; при фильтрации вин не используются рыбий клей, яичный белок и молоко.",
+   "scope": [
+    "Названные продукты Torres."
+   ],
+   "evidence_date": "2017-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/847/torres"
+  },
+  {
+   "id": "ln-a036941166",
+   "name": "Коньяк MARTELL VSOP 4 года 40%, п/у",
+   "company": "Martell Cognac",
+   "category": "Коньяк",
+   "country": "Франция",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2008), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2008",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/198/martell-cognac"
+  },
+  {
+   "id": "ln-2d7ac1aefd",
+   "name": "Виски GLENMORANGIE Гленморанджи Ориджинал Шотландский солодовый, 40%, п/у",
+   "company": "Glenmorangie",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2007-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/176/glenmorangie"
+  },
+  {
+   "id": "ln-bfa2120938",
+   "name": "Виски ABER FALLS Валлийский односолодовый 47%, п/у",
+   "company": "Aber Falls Distillery",
+   "category": "Виски",
+   "country": "Великобритания",
+   "volume_ml": 700,
+   "abv": 47.0,
+   "status": "vegan",
+   "rationale": "Письмо специально о whisky подтверждает suitability for vegans.",
+   "scope": [
+    "Aber Falls Whisky, не Violet Liqueur."
+   ],
+   "evidence_date": "2023-11",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/6680/aber-falls-distillery"
+  },
+  {
+   "id": "ln-bb0375f659",
+   "name": "Виски AUCHENTOSHAN Американ Оук Шотландский солодовый 40%, п/у",
+   "company": "Auchentoshan Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Auchentoshan Distillery»."
+   ],
+   "evidence_date": "2013-01",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/2614/auchentoshan-distillery"
+  },
+  {
+   "id": "ln-e1b0241ce5",
+   "name": "Виски GLEN MORAY Classic Сингл Молт Оур Шотландский односолодовый 40%, п/у",
+   "company": "Glen Moray Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Glen Moray Distillery»."
+   ],
+   "evidence_date": "2015-11",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/4087/glen-moray-distillery"
+  },
+  {
+   "id": "ln-5de3f904d7",
+   "name": "Виски BULLEIT Bourbon Frontier зерновой, 45%",
+   "company": "Bulleit Bourbon",
+   "category": "Виски",
+   "country": "США",
+   "volume_ml": 700,
+   "abv": 45.0,
+   "status": "nonvegan",
+   "rationale": "По ответу производителя (2025-12) продукт не является веганским. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2025-12",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/763/bulleit-bourbon"
+  },
+  {
+   "id": "ln-86d96c71f7",
+   "name": "Виски GLENFIDDICH Шотландский солодовый 15 лет 40%",
+   "company": "Glenfiddich",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 750,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2016-12), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2016-12",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/1843/glenfiddich"
+  },
+  {
+   "id": "ln-bb53ce352e",
+   "name": "Виски DEWAR'S White Label шотландский купажированный 40%",
+   "company": "Dewar's",
+   "category": "Виски",
+   "country": "Великобритания",
+   "volume_ml": 500,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (Bacardi): продукты Dewar's и Aberfeldy без животных компонентов; эта позиция отмечена веганской в таблице питания Bacardi.",
+   "scope": [
+    "Позиции, отмеченные веганскими в таблице Bacardi."
+   ],
+   "evidence_date": "2019-08",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3152/dewar-s"
+  },
+  {
+   "id": "ln-979cbe481e",
+   "name": "Виски CHIVAS REGAL Шотландский купажированный 12 лет 40%, п/у/без п/у",
+   "company": "Pernod Ricard",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 750,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2016-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/502/pernod-ricard"
+  },
+  {
+   "id": "ln-ce85ab9377",
+   "name": "Виски CHIVAS REGAL Шотландский купажированный 12 лет, 40%, п/у, без п/у",
+   "company": "Pernod Ricard",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 500,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2016-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/502/pernod-ricard"
+  },
+  {
+   "id": "ln-439fbaea78",
+   "name": "Виски LAGAVULIN Шотландский солодовый 8 лет 48%, п/у",
+   "company": "Lagavulin Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 48.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Lagavulin Distillery»."
+   ],
+   "evidence_date": "2014-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3684/lagavulin-distillery"
+  },
+  {
+   "id": "ln-133d40455e",
+   "name": "Виски BALLANTINE'S Файнест Шотландский купажированный, 40%",
+   "company": "Ballantine's",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 500,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Ballantine's»."
+   ],
+   "evidence_date": "2012-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/2473/ballantine-s"
+  },
+  {
+   "id": "ln-0d269ff1c7",
+   "name": "Виски GRANT'S Triple Wood Шотландский купажированный 40–43%",
+   "company": "William Grant & Sons Ltd",
+   "category": "Виски",
+   "country": "Великобритания",
+   "volume_ml": 1000,
+   "abv": 43.0,
+   "status": "vegan",
+   "rationale": "Прямое письмо подтверждает Grants; более раннее письмо охватывает все Scotch/Irish whiskey компании.",
+   "scope": [
+    "Scotch/Irish whiskey указанного производителя; текущий завод и партия не проверены."
+   ],
+   "evidence_date": "2017-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/601/william-grant-sons-ltd"
+  },
+  {
+   "id": "ln-e50b1f6d7f",
+   "name": "Виски TALISKER Шотландский односолодовый 10 лет 45,8%, п/у",
+   "company": "Talisker Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 45.8,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Talisker Distillery»."
+   ],
+   "evidence_date": "2011-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/1624/talisker-distillery"
+  },
+  {
+   "id": "ln-81fed7c015",
+   "name": "Виски CHIVAS Шотландский купажированный 18 лет 40%, п/у",
+   "company": "Pernod Ricard",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2016-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/502/pernod-ricard"
+  },
+  {
+   "id": "ln-69d888a118",
+   "name": "Виски MONKEY SHOULDER Шотландский солодовый 40%",
+   "company": "Monkey Shoulder",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2021-03), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2021-03",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/2374/monkey-shoulder"
+  },
+  {
+   "id": "ln-162359fde6",
+   "name": "Виски GRANT'S Triple Wood, шотландский купажированный 40%",
+   "company": "William Grant & Sons Ltd",
+   "category": "Виски",
+   "country": "Великобритания",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Прямое письмо подтверждает Grants; более раннее письмо охватывает все Scotch/Irish whiskey компании.",
+   "scope": [
+    "Scotch/Irish whiskey указанного производителя; текущий завод и партия не проверены."
+   ],
+   "evidence_date": "2017-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/601/william-grant-sons-ltd"
+  },
+  {
+   "id": "ln-809be05faf",
+   "name": "Виски BALLANTINE'S Файнест Шотландский купажированный, 40-43%",
+   "company": "Ballantine's",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 1000,
+   "abv": 43.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Ballantine's»."
+   ],
+   "evidence_date": "2012-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/2473/ballantine-s"
+  },
+  {
+   "id": "ln-63c7e61b1e",
+   "name": "Напиток спиртной BALLANTINE'S Wild 30%",
+   "company": "Ballantine's",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 30.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Ballantine's»."
+   ],
+   "evidence_date": "2012-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/2473/ballantine-s"
+  },
+  {
+   "id": "ln-91c1d3f055",
+   "name": "Виски CHIVAS REGAL Шотландский купажированный 12 лет, 40%, п/у + 2 стакана",
+   "company": "Pernod Ricard",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2016-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/502/pernod-ricard"
+  },
+  {
+   "id": "ln-df7aaae928",
+   "name": "Виски BALLANTINE'S Finest Шотландский купажированный, 40%",
+   "company": "Ballantine's",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Ballantine's»."
+   ],
+   "evidence_date": "2012-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/2473/ballantine-s"
+  },
+  {
+   "id": "ln-8b37061d57",
+   "name": "Виски ARDBEG Ардбег Шотландский односолодовый 10 лет, 46%, п/у",
+   "company": "Ardbeg Distillery",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 46.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2023-01), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2023-01",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/889/ardbeg-distillery"
+  },
+  {
+   "id": "ln-46c4ffbaec",
+   "name": "Виски CHIVAS REGAL Шотландский купажированный 15 лет 40%, п/у + 2 стакана",
+   "company": "Pernod Ricard",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 750,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2016-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/502/pernod-ricard"
+  },
+  {
+   "id": "ln-f5fd966c49",
+   "name": "Виски BALLANTINE'S Файнест шотландский купажированный 40%, п/у",
+   "company": "Ballantine's",
+   "category": "Виски",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Ballantine's»."
+   ],
+   "evidence_date": "2012-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/2473/ballantine-s"
+  },
+  {
+   "id": "ln-c1d95c2c89",
+   "name": "Ликер ROSSI D'ASIAGO Limoncello 32%, десертный",
+   "company": "Rossi D'Asiago",
+   "category": "Ликёр",
+   "country": "Италия",
+   "volume_ml": 700,
+   "abv": 32.0,
+   "status": "vegan",
+   "rationale": "Письмо прямо подтверждает Limoncello Rossi d’Asiago: нет животных ингредиентов или средств производства, фильтрации, розлива и этикетирования.",
+   "scope": [
+    "Limoncello Rossi d’Asiago."
+   ],
+   "evidence_date": "2020-03",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/7722/rossi-d-asiago"
+  },
+  {
+   "id": "ln-707e66a2fd",
+   "name": "Напиток ароматизированный MARTINI Extra Dry белый экстра сухой",
+   "company": "Martini & Rossi",
+   "category": "Вермут",
+   "country": "Великобритания",
+   "volume_ml": 500,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Производитель сообщает о животных компонентах в Martini; письмо 2020 дополнительно объясняет желатиновую оклейку винных основ.",
+   "scope": [
+    "Bianco/Fiero/Extra Dry. Для наборов с Rich вывод только о компоненте Martini; набор не может быть полностью vegan."
+   ],
+   "evidence_date": "2023-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/324/martini-rossi"
+  },
+  {
+   "id": "ln-6800e1c1b9",
+   "name": "Напиток спиртной SARTI Rosa",
+   "company": "Davide Campari Milano N.V.",
+   "category": "Ликёр",
+   "country": "Италия",
+   "volume_ml": 700,
+   "abv": null,
+   "status": "vegan",
+   "rationale": "Campari: FAQ Sarti (2025) — Sarti Rosa подходит веганам.",
+   "scope": [
+    "Источник — FAQ на сайте"
+   ],
+   "evidence_date": "2025-07",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/9781/davide-campari-milano-n-v"
+  },
+  {
+   "id": "ln-f10181a8d7",
+   "name": "Напиток ароматизированный MARTINI Fiero сладкий",
+   "company": "Martini & Rossi",
+   "category": "Вермут",
+   "country": "Великобритания",
+   "volume_ml": 500,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "Производитель сообщает о животных компонентах в Martini; письмо 2020 дополнительно объясняет желатиновую оклейку винных основ.",
+   "scope": [
+    "Bianco/Fiero/Extra Dry. Для наборов с Rich вывод только о компоненте Martini; набор не может быть полностью vegan."
+   ],
+   "evidence_date": "2023-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/324/martini-rossi"
+  },
+  {
+   "id": "ln-0bd7c5f519",
+   "name": "Джин GREEN BABOON Цитрус 40%",
+   "company": "Beluga",
+   "category": "Джин",
+   "country": "Россия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2021): в составе и технологии джина Green Baboon нет продуктов животного происхождения.",
+   "scope": [
+    "Джин Green Baboon."
+   ],
+   "evidence_date": "2021-09",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga"
+  },
+  {
+   "id": "ln-929a8e2abd",
+   "name": "Джин GREEN BABOON Пинк 40%",
+   "company": "Beluga Group",
+   "category": "Джин",
+   "country": "Россия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2021): в джине Green Baboon и в технологии нет продуктов животного происхождения.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga"
+  },
+  {
+   "id": "ln-edd418726e",
+   "name": "Джин GREENALL'S Original 37,5–40%",
+   "company": "Greenall's",
+   "category": "Джин",
+   "country": "Шотландия",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Greenall's»."
+   ],
+   "evidence_date": "2015-03",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3933/greenall-s"
+  },
+  {
+   "id": "ln-3a2a312fbd",
+   "name": "Ром BARCELO Imperial выдержанный 38–40%, п/у",
+   "company": "Ron Barceló",
+   "category": "Ром",
+   "country": "Доминиканская Республика",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2019): ромы Barceló веганские; исключение — ликёр Barceló Cream с молоком.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/7149/ron-barcel"
+  },
+  {
+   "id": "ln-d0537a521b",
+   "name": "Напиток спиртной SAUZA Текила Асьенда Голд 40%",
+   "company": "Sauza",
+   "category": "Текила",
+   "country": "Мексика",
+   "volume_ml": 750,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Sauza»."
+   ],
+   "evidence_date": "2013-01",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3609/sauza"
+  },
+  {
+   "id": "ln-912f1c0a93",
+   "name": "Напиток спиртной SAUZA Текила Асьенда Сильвер 40%",
+   "company": "Sauza",
+   "category": "Текила",
+   "country": "Мексика",
+   "volume_ml": 750,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Sauza»."
+   ],
+   "evidence_date": "2013-01",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/3609/sauza"
+  },
+  {
+   "id": "ln-ff61832d47",
+   "name": "Напиток спиртной ESPOLON Текила Blanco 40%",
+   "company": "Gruppo Campari",
+   "category": "Текила",
+   "country": "Мексика",
+   "volume_ml": 750,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Письмо явно относится к Espolon Tequila и исключает животные продукты во всём процессе.",
+   "scope": [
+    "Текила Espolon; не общее одобрение Campari."
+   ],
+   "evidence_date": "2019-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/811/gruppo-campari"
+  },
+  {
+   "id": "ln-7790409fc3",
+   "name": "Ром LEGENDARIO Аньехо Бланко выдержанный 40%",
+   "company": "Legendario S.L.",
+   "category": "Ром",
+   "country": "Испания",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Legendario S.L.»."
+   ],
+   "evidence_date": "2019-01",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/7010/legendario-s-l"
+  },
+  {
+   "id": "ln-d466da5b66",
+   "name": "Ром BARCELO Gran Anejo выдержанный 37,5–40%",
+   "company": "Ron Barceló",
+   "category": "Ром",
+   "country": "Доминиканская Республика",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2019): ромы Barceló веганские; исключение — ликёр Barceló Cream с молоком.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/7149/ron-barcel"
+  },
+  {
+   "id": "ln-f61b1f258e",
+   "name": "Ром BARCELO Дорадо выдержанный 37,5%",
+   "company": "Ron Barceló",
+   "category": "Ром",
+   "country": "Доминиканская Республика",
+   "volume_ml": 1000,
+   "abv": 37.5,
+   "status": "vegan",
+   "rationale": "Производитель (2019): ромы Barceló веганские; исключение — ликёр Barceló Cream с молоком.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/7149/ron-barcel"
+  },
+  {
+   "id": "ln-721672a067",
+   "name": "Ром BARCELO Anejo выдержанный 37,5% с керамической кружкой, п/y",
+   "company": "Ron Barceló",
+   "category": "Ром",
+   "country": "Доминиканская Республика",
+   "volume_ml": 700,
+   "abv": 37.5,
+   "status": "vegan",
+   "rationale": "Производитель (2019): ромы Barceló веганские; исключение — ликёр Barceló Cream с молоком.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/7149/ron-barcel"
+  },
+  {
+   "id": "ln-57516df6ba",
+   "name": "Ром BARCELO Anejo выдержанный 37,5–40%",
+   "company": "Ron Barceló",
+   "category": "Ром",
+   "country": "Доминиканская Республика",
+   "volume_ml": 1000,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель (2019): ромы Barceló веганские; исключение — ликёр Barceló Cream с молоком.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/7149/ron-barcel"
+  },
+  {
+   "id": "ln-e1db590f12",
+   "name": "Ром BARCELO Аньехо выдержанный 37,5%",
+   "company": "Ron Barceló",
+   "category": "Ром",
+   "country": "Доминиканская Республика",
+   "volume_ml": 500,
+   "abv": 37.5,
+   "status": "vegan",
+   "rationale": "Производитель (2019): ромы Barceló веганские; исключение — ликёр Barceló Cream с молоком.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/7149/ron-barcel"
+  },
+  {
+   "id": "ln-378d124d1b",
+   "name": "Ром HAVANA CLUB Especial выдержанный 37,5–40%",
+   "company": "Havana Club International S.A.",
+   "category": "Ром",
+   "country": "Куба",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2017-05), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2017-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/5476/havana-club-international-s-a"
+  },
+  {
+   "id": "ln-d11e029258",
+   "name": "Напиток спиртной CAPTAIN MORGAN Original Spiced Gold на основе рома 35%",
+   "company": "Captain Morgan Rum",
+   "category": "Ром",
+   "country": null,
+   "volume_ml": 700,
+   "abv": 35.0,
+   "status": "nonvegan",
+   "rationale": "По ответу производителя (2023-11) продукт не является веганским (упоминается: молочные компоненты, яичный белок). Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2023-11",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/112/captain-morgan-rum"
+  },
+  {
+   "id": "ln-8d63f210c3",
+   "name": "Напиток спиртной CAPTAIN MORGAN Sliced Apple на основе рома",
+   "company": "Captain Morgan Rum",
+   "category": "Ром",
+   "country": null,
+   "volume_ml": 700,
+   "abv": null,
+   "status": "nonvegan",
+   "rationale": "По ответу производителя (2023-11) продукт не является веганским (упоминается: молочные компоненты, яичный белок). Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2023-11",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/112/captain-morgan-rum"
+  },
+  {
+   "id": "ln-37785c62a6",
+   "name": "Ром HAVANA CLUB Anejo 7 лет 40%",
+   "company": "Havana Club International S.A.",
+   "category": "Ром",
+   "country": "Куба",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2017-05), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2017-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/5476/havana-club-international-s-a"
+  },
+  {
+   "id": "ln-951f7e5ab3",
+   "name": "Ром BARCELO Бланко выдержанный 37,5%",
+   "company": "Ron Barceló",
+   "category": "Ром",
+   "country": "Доминиканская Республика",
+   "volume_ml": 700,
+   "abv": 37.5,
+   "status": "vegan",
+   "rationale": "Производитель (2019): ромы Barceló веганские; исключение — ликёр Barceló Cream с молоком.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/7149/ron-barcel"
+  },
+  {
+   "id": "ln-051e6673ef",
+   "name": "Джин BOMBAY Sapphire Dry 40%, сухой",
+   "company": "Bombay Sapphire Gin",
+   "category": "Джин",
+   "country": "Великобритания",
+   "volume_ml": 700,
+   "abv": 40.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Bombay Sapphire Gin»."
+   ],
+   "evidence_date": "2020-12",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/164/bombay-sapphire-gin"
+  },
+  {
+   "id": "ln-3861511dcc",
+   "name": "Напиток спиртной LEGENDARIO Элексир Де Куба на основе рома 34%",
+   "company": "Legendario S.L.",
+   "category": "Ром",
+   "country": "Испания",
+   "volume_ml": 700,
+   "abv": 34.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Legendario S.L.»."
+   ],
+   "evidence_date": "2019-01",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/7010/legendario-s-l"
+  },
+  {
+   "id": "ln-d1ab7666f3",
+   "name": "Джин GORDON'S London Dry сухой 37,5%",
+   "company": "Gordon's",
+   "category": "Джин",
+   "country": "Великобритания",
+   "volume_ml": 700,
+   "abv": 37.5,
+   "status": "vegan",
+   "rationale": "Diageo (2018–2020): животные побочные продукты при производстве не используются, хотя сертификата нет.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/185/gordon-s-gin"
+  },
+  {
+   "id": "ln-a2dccaf148",
+   "name": "Ром BACARDI Carta Negra выдержанный 37,5%",
+   "company": "Bacardi",
+   "category": "Ром",
+   "country": "Великобритания",
+   "volume_ml": 700,
+   "abv": 37.5,
+   "status": "vegan",
+   "rationale": "Производитель: ромы Bacardi веганские; исключение — Bacardi Spiced с мёдом.",
+   "scope": [],
+   "evidence_date": null,
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/173/bacardi-global-brands"
+  },
+  {
+   "id": "ln-2f930287fa",
+   "name": "Ром BACARDI Carta Blanca невыдержанный 37,5%",
+   "company": "Bacardi Global Brands",
+   "category": "Ром",
+   "country": "Италия",
+   "volume_ml": 700,
+   "abv": 37.5,
+   "status": "vegan",
+   "rationale": "Письмо о ромах Bacardi исключает животные компоненты, единственное указанное исключение Spiced с мёдом не относится к Carta Blanca.",
+   "scope": [
+    "Область обычных ромов Bacardi; ложные варианты Breezer/Spiced/Gold/Black не признаются совпадением Carta Blanca."
+   ],
+   "evidence_date": "2022-09",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/liquor/173/bacardi-global-brands"
+  },
+  {
+   "id": "ln-7b4fb23b44",
+   "name": "Пиво светлое ESTRELLA Damm пастеризованное фильтрованное 4,6%",
+   "company": "S.A. Damm",
+   "category": "Пиво",
+   "country": "Испания",
+   "volume_ml": 330,
+   "abv": 4.6,
+   "status": "vegan",
+   "rationale": "Estrella не входит в названные исключения с пчелиным воском. Старую дискуссию про желатин не переносим поверх более позднего ответа.",
+   "scope": [
+    "Пиво Damm, кроме Malquerida и Inedit; Испания."
+   ],
+   "evidence_date": "2020-09",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/2163/s-a-damm"
+  },
+  {
+   "id": "ln-87b652ff46",
+   "name": "Пиво темное FULLERS London pride фильтрованное пастеризованное, 4,7%",
+   "company": "Fuller's Brewery",
+   "category": "Пиво",
+   "country": "Великобритания",
+   "volume_ml": 500,
+   "abv": 4.7,
+   "status": "vegan",
+   "rationale": "Производитель (2026): бутылочное пиво осветляется химическим средством и веганское; рыбий клей только в разливном из бочки.",
+   "scope": [
+    "Бутылочное и баночное London Pride."
+   ],
+   "evidence_date": "2026-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/490/fuller-s-brewery"
+  },
+  {
+   "id": "ln-ec5e0f735a",
+   "name": "Пиво светлое SINGHA фильтрованное пастеризованное 5%",
+   "company": "Singha Beer International",
+   "category": "Пиво",
+   "country": "Таиланд",
+   "volume_ml": 330,
+   "abv": 5.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2016-03), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2016-03",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/2033/singha-beer-international"
+  },
+  {
+   "id": "ln-3c1704902f",
+   "name": "Пиво светлое PAULANER Munchner hell фильтрованное пастеризованное, 4,9%, ж/б",
+   "company": "Paulaner Brewery",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 4.9,
+   "status": "vegan",
+   "rationale": "Производитель (2018): все продукты Paulaner веганские, с 2018 года и клей этикеток без казеина.",
+   "scope": [
+    "Пиво Paulaner."
+   ],
+   "evidence_date": "2018-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/788/paulaner-brewery"
+  },
+  {
+   "id": "ln-67358900ba",
+   "name": "Пиво светлое HOFBRAU Oktoberfest фильтрованное пастеризованное, 6,3%",
+   "company": "Hofbräuhaus München",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 6.3,
+   "status": "vegan",
+   "rationale": "Общее письмо Hofbräu исключает животные продукты при производстве; Oktoberfestbier присутствует среди кандидатов.",
+   "scope": [
+    "Статус напитка по всему пиву этого производителя; не путать с другими Hofbräuhaus."
+   ],
+   "evidence_date": "2015-08",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/4298/hofbr-uhaus-m-nchen"
+  },
+  {
+   "id": "ln-9111122823",
+   "name": "Пиво светлое MONCHSHOF Original фильтрованное пастеризованное 4,9%",
+   "company": "Kulmbacher Brauerei",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 4.9,
+   "status": "vegan",
+   "rationale": "Производитель (2014): животные вещества не используются, пиво варится по закону о чистоте пива.",
+   "scope": [
+    "Пиво Kulmbacher, включая Mönchshof."
+   ],
+   "evidence_date": "2014-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/3429/kulmbacher-brauerei"
+  },
+  {
+   "id": "ln-0117413584",
+   "name": "Пиво светлое PAULANER Oktoberfest Bier фильтрованное пастеризованное 6,0%",
+   "company": "Paulaner Brewery",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 6.0,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2018-06), учтённому Barnivore, продукт не использует продукты животного происхождения.",
+   "scope": [],
+   "evidence_date": "2018-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/788/paulaner-brewery"
+  },
+  {
+   "id": "ln-941380f9cf",
+   "name": "Пиво светлое SCHNEIDER Weisse Helle Weisse Weissbier Tap 01 нефильтрованное непастеризованное 4,9%",
+   "company": "G. Schneider & Sohn",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 4.9,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «G. Schneider & Sohn».",
+    "Клей этикетки содержит казеин",
+    "Клей этикеток на бутылках содержит казеин (по словам производителя)."
+   ],
+   "evidence_date": "2013-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/1378/g-schneider-sohn"
+  },
+  {
+   "id": "ln-7d91ae774e",
+   "name": "Пиво светлое KULMBACHER Edelherb premium pils фильтрованное пастеризованное, 4,9%",
+   "company": "Kulmbacher Brauerei",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 4.9,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Kulmbacher Brauerei»."
+   ],
+   "evidence_date": "2014-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/3429/kulmbacher-brauerei"
+  },
+  {
+   "id": "ln-0be74a4c82",
+   "name": "Пиво темное DUCHESSE DE BOURGOGNE фильтрованное пастеризованное, 6,2%",
+   "company": "Brouwerij Verhaeghe Vichte",
+   "category": "Пиво",
+   "country": "Бельгия",
+   "volume_ml": 750,
+   "abv": 6.2,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Brouwerij Verhaeghe Vichte»."
+   ],
+   "evidence_date": "2025-02",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/9802/brouwerij-verhaeghe-vichte"
+  },
+  {
+   "id": "ln-ec9e71be86",
+   "name": "Пиво светлое SCHNEIDER Шнайдерс Хеллес фильтрованное непастеризованное 4,9%",
+   "company": "G. Schneider & Sohn",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 4.9,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «G. Schneider & Sohn».",
+    "Клей этикетки содержит казеин",
+    "Клей этикеток на бутылках содержит казеин (по словам производителя)."
+   ],
+   "evidence_date": "2013-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/1378/g-schneider-sohn"
+  },
+  {
+   "id": "ln-92aefee3b3",
+   "name": "Пиво светлое BERLINER Geschichte Wheat Beer Blond нефильтрованное пастеризованное неосветленное 5,2%",
+   "company": "Berliner-Kindl-Schultheiss-Brauerei",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 5.2,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Berliner-Kindl-Schultheiss-Brauerei»."
+   ],
+   "evidence_date": "2015-10",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/4209/berliner-kindl-schultheiss-brauerei"
+  },
+  {
+   "id": "ln-6a2f37a44e",
+   "name": "Пиво светлое WESTMALLE Trappist Tripel Бельгийский траппистский эль фильтрованное непастеризованное 9,5%",
+   "company": "Brewery Der Trappisten Van Westmalle",
+   "category": "Пиво",
+   "country": "Бельгия",
+   "volume_ml": 330,
+   "abv": 9.5,
+   "status": "vegan",
+   "rationale": "По ответу производителя (2024-02), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
+   "scope": [
+    "Статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
+   ],
+   "evidence_date": "2024-02",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/417/brewery-der-trappisten-van-westmalle"
+  },
+  {
+   "id": "ln-058b0178cc",
+   "name": "Напиток пивной RODENBACH FRUITAGE нефильтрованный пастеризованный 3,4–3,9%",
+   "company": "Rodenbach",
+   "category": "Пиво",
+   "country": "Бельгия",
+   "volume_ml": 250,
+   "abv": 3.9,
+   "status": "vegan",
+   "rationale": "Производитель явно относит Rodenbach и завод Roeselare к vegan, исключая животные продукты.",
+   "scope": [
+    "Rodenbach/Roeselare; не переносить на Bavaria/Swinckels из Lieshout."
+   ],
+   "evidence_date": "2017-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/481/rodenbach"
+  },
+  {
+   "id": "ln-b5d78f1f0d",
+   "name": "Сидр ALSKA фруктовый со вкусом клубники и лайма 4,0%",
+   "company": "älska cider",
+   "category": "Сидр",
+   "country": "Шотландия",
+   "volume_ml": 440,
+   "abv": 4.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «älska cider»."
+   ],
+   "evidence_date": "2014-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/cider/3487/lska-cider"
+  },
+  {
+   "id": "ln-d0a8a22912",
+   "name": "Сидр фруктовый ALSKA со вкусом яблока и маракуйи 4%",
+   "company": "älska cider",
+   "category": "Сидр",
+   "country": "Шотландия",
+   "volume_ml": 440,
+   "abv": 4.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «älska cider»."
+   ],
+   "evidence_date": "2014-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/cider/3487/lska-cider"
+  },
+  {
+   "id": "ln-72d7de1adb",
+   "name": "Пиво светлое WEIHENSTEPHANER Original Helles фильтрованное пастеризованное 5,1%",
+   "company": "Weihenstephan",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 5.1,
+   "status": "vegan",
+   "rationale": "Письмо подтверждает все сорта, без животных продуктов на любой стадии производства.",
+   "scope": [
+    "Единственное производство Freising по письму 2019; клей этикеток тогда содержал казеин."
+   ],
+   "evidence_date": "2020-08",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/2312/weihenstephan"
+  },
+  {
+   "id": "ln-360ee72e6b",
+   "name": "Пиво светлое BAYREUTHER HELL фильтрованное непастеризованное 4,9%",
+   "company": "Bayreuther Bierbrauerei AG",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 4.9,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Bayreuther Bierbrauerei AG».",
+    "Клей этикеток на бутылках содержит казеин (по словам производителя)."
+   ],
+   "evidence_date": "2018-02",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/6197/bayreuther-bierbrauerei-ag"
+  },
+  {
+   "id": "ln-dec5bd1bec",
+   "name": "Пиво светлое HARBIN Premium фильтрованное пастеризованное 5%",
+   "company": "Harbin Brewery",
+   "category": "Пиво",
+   "country": "Китай",
+   "volume_ml": 610,
+   "abv": 5.0,
+   "status": "vegan",
+   "rationale": "Прямой ответ производителя про Harbin в Китае исключает животные ингредиенты и средства обработки/фильтрации.",
+   "scope": [
+    "Китайское Harbin; заявленные РФ 5% и 5.5% сохранены, точная рецептура каждой крепости не проверена."
+   ],
+   "evidence_date": "2016-02",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/4377/harbin-brewery"
+  },
+  {
+   "id": "ln-ad5d2aa511",
+   "name": "Пиво светлое PAULANER Weissbier нефильтрованное пастеризованное 5,5%",
+   "company": "Paulaner Brewery",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 5.5,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Paulaner Brewery»."
+   ],
+   "evidence_date": "2018-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/788/paulaner-brewery"
+  },
+  {
+   "id": "ln-706747f214",
+   "name": "Сидр ALSKA фруктовый со вкусом лесных ягод 4,0%",
+   "company": "älska cider",
+   "category": "Сидр",
+   "country": "Шотландия",
+   "volume_ml": 440,
+   "abv": 4.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «älska cider»."
+   ],
+   "evidence_date": "2014-06",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/cider/3487/lska-cider"
+  },
+  {
+   "id": "ln-0fecb5feb0",
+   "name": "Пиво темное SCHNEIDER Weisse Tap 07 Original Weissb нефильтрованное непастеризованное 5,4%",
+   "company": "G. Schneider & Sohn",
+   "category": "Пиво",
+   "country": "Германия",
+   "volume_ml": 500,
+   "abv": 5.4,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «G. Schneider & Sohn».",
+    "Клей этикетки содержит казеин",
+    "Клей этикеток на бутылках содержит казеин (по словам производителя)."
+   ],
+   "evidence_date": "2013-05",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/1378/g-schneider-sohn"
+  },
+  {
+   "id": "ln-8e69df7614",
+   "name": "Пиво светлое BUDWEISER Будвар фильтрованное пастеризованное 5%",
+   "company": "Budějovický Budvar",
+   "category": "Пиво",
+   "country": "Чехия",
+   "volume_ml": 500,
+   "abv": 5.0,
+   "status": "vegan",
+   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
+   "scope": [
+    "Вся продукция компании «Budějovický Budvar»."
+   ],
+   "evidence_date": "2017-03",
+   "chains": [
+    {
+     "network": "Лента",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "barnivore_url": "https://www.barnivore.com/beer/432/bud-jovick-budvar"
   }
  ]
 }
