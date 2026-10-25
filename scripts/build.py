@@ -22,6 +22,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import wine_attrs as wa  # noqa: E402
 from producer_rules import RULES, color_key  # noqa: E402
+import merge_cards  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 TRIM = len(sys.argv) > 1 and sys.argv[1] == "--trim"
@@ -516,7 +517,7 @@ def main():
     if unknown_rules:
         print("Внимание: правила для компаний, которых нет в данных:", ", ".join(sorted(unknown_rules)))
 
-    records = list(groups.values())
+    records, merged_cards = merge_cards.merge(list(groups.values()), assessments)
     ids = [r[0] for r in records]
     if len(ids) != len(set(ids)):
         fail("совпадение идентификаторов записей")
