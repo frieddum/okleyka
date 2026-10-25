@@ -8597,7 +8597,8 @@
  },
  "игристое вино martin codax albarino 2018": {
   "color": "Белое",
-  "sugar": "Сухое"
+  "sugar": "Сухое",
+  "abv": 12.5
  },
  "игристое вино martini brut": {
   "color": "Белое",
@@ -12879,5 +12880,205 @@
   "color": "Белое",
   "sugar": "Сладкое",
   "abv": 15.0
+ },
+ "игристое вино august eser riesling sekt brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5
+ },
+ "игристое вино bouvet ladubay saphir saumur brut vintage 2023": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5
+ },
+ "игристое вино bouvet ladubay tresor saumur brut 2022": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5
+ },
+ "игристое вино cave de beblenheim oscar truschel cremant d alsace brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5
+ },
+ "игристое вино kleine zalze cape nectar blanc": {
+  "color": "Белое",
+  "sugar": "Полусладкое",
+  "abv": 11.5
+ },
+ "игристое вино kleine zalze cape nectar rose": {
+  "color": "Розовое",
+  "sugar": "Полусладкое",
+  "abv": 11.5
+ },
+ "игристое вино la gioiosa rosea": {
+  "color": "Розовое",
+  "sugar": "Сухое",
+  "abv": 11.0
+ },
+ "игристое вино pulenta la flor brut nature": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.7
+ },
+ "игристое вино raventos blanc de nit rose 2023": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0
+ },
+ "игристое вино salton soley brut rose": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 11.5
+ },
+ "игристое вино santa maria la palma aragosta": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.5
+ },
+ "игристое вино schloss gobelsburg blanc de blancs brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0
+ },
+ "игристое вино simonsig kaapse vonkel brut rose 2022": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.9
+ },
+ "игристое вино simonsig kaapse vonkel brut rose 2023": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.0
+ },
+ "игристое вино simonsig kaapse vonkel stellenbosch 2024": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0
+ },
+ "игристое вино villa sandi opere serenissima": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "креман bouvet ladubay etienne cremant de loire rose brut": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 12.5
+ },
+ "креман dopff au moulin cremant d alsace chardonnay sans soufre ajoute 2020": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "креман dopff au moulin cremant d alsace cuvee julien brut": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0
+ },
+ "креман kuentz bas cremant d alsace mosaik": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.0
+ },
+ "просекко abbazia fiorino d oro prosecco spumante 2024": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.0
+ },
+ "просекко carpene malvolti prosecco 1868 superiore conegliano valdobbiadene 2023": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0
+ },
+ "просекко la gioiosa prosecco treviso brut 2023": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0
+ },
+ "просекко le contesse prosecco rose brut": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 11.0
+ },
+ "просекко santa margherita prosecco superiore": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5
+ },
+ "просекко santa margherita prosecco superiore di cartizze": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5
+ },
+ "просекко valdo marca oro di valdobbiadene prosecco superiore": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0
+ },
+ "просекко villa sandi il fresco prosecco treviso": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0
+ },
+ "просекко villa sandi il fresco rose millesimato prosecco 2022": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 11.0
+ },
+ "асти martini asti": {
+  "color": "Белое",
+  "sugar": "Сладкое",
+  "abv": 7.5
+ },
+ "игристое вино bartenura malvasia di casorzo 2023": {
+  "color": "Красное",
+  "sugar": "Сладкое",
+  "abv": 5.0
+ },
+ "игристое вино bartenura prosecco millesimato 2025": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.5
+ },
+ "игристое вино charles de fere cuvee jean louis rose brut": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 11.5
+ },
+ "игристое вино domaine delmas passion cremant de limoux cuvee brut 2024": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 12.5
+ },
+ "игристое вино marques de lares rosado brut cava lopez morenas 2022": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 11.5
+ },
+ "игристое вино navarro lopez divino oro brut": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 11.5
+ },
+ "креман louis bouillot cremant de bourgogne grande reserve brut": {
+  "color": "Белое",
+  "sugar": "Сухое",
+  "abv": 12.0
+ },
+ "просекко bolla prosecco superiore conegliano valdobiaddene": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.0
+ },
+ "просекко cavit lunetta prosecco rose extra dry": {
+  "color": "Розовое",
+  "sugar": "Брют",
+  "abv": 11.5
+ },
+ "просекко martini prosecco": {
+  "color": "Белое",
+  "sugar": "Брют",
+  "abv": 11.5
  }
 }

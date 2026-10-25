@@ -4873,46 +4873,6 @@
    ]
   },
   {
-   "id": "vr-67abe27085",
-   "name": "Водка Легенда Кремля Эксклюзив",
-   "company": "Ладога",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По ответу «Ладоги» (VeganRussian): «Легенда Кремля» веганская.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/vodka-ladoga/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-c83fe92417",
-   "name": "Водка Легенда Кремля Элит",
-   "company": "Ладога",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По ответу «Ладоги» (VeganRussian): «Легенда Кремля» веганская.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/vodka-ladoga/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr-28bba288e6",
    "name": "Водка Майкопская (Россия)",
    "company": "Питейный дом",
@@ -5003,31 +4963,7 @@
    "barnivore_url": null,
    "chains": [
     {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
-    {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-4453fac5ca",
-   "name": "Водка Пять Озер Серебряная",
-   "company": "АСГ",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель (2018): при производстве водки «Пять озёр» не применяются ни животное сырьё, ни вспомогательные материалы.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/vodka-5-ozer/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -5240,26 +5176,6 @@
    "chains": [
     {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-c9738fe88a",
-   "name": "Водка Хаски Айс",
-   "company": "АСГ",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель: водку «Хаски» фильтруют берёзовым или кокосовым углём и полипропиленовыми фильтрами; рыбий клей, желатин и животные ферменты не используются.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/vodka-husky/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -6063,31 +5979,7 @@
    "barnivore_url": null,
    "chains": [
     {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
-    {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-2c456ca6f0",
-   "name": "Водка Благородное собрание Мягкая",
-   "company": "Пермалко",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "По ответу «Пермалко» (VeganRussian): «Благородное собрание» в списке веганских; мёд только в «Славном Урале» и Finka.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/vodka-permalko/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -6148,26 +6040,6 @@
    "chains": [
     {
      "network": "Градусы",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-22ab00f2cd",
-   "name": "Водка Ладога Санкт-Петербург Люкс",
-   "company": "Ладога",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "nonvegan",
-   "rationale": "По ответу «Ладоги» (VeganRussian): «Санкт-Петербург Люкс» содержит мёд; «Иван Грозный» тоже не веганская.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/vodka-ladoga/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -6273,26 +6145,6 @@
    ]
   },
   {
-   "id": "vr-625c09fb4f",
-   "name": "Водка Топаз Люкс",
-   "company": "Руст",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель (2021): фильтрация углём из древесных пород, мёда, молока, молочной кислоты и лактозы нет, спирт зерновой.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/vodka-topaz-luxe/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "vr-76a30262eb",
    "name": "Джин Барристер блу Ладога",
    "company": "Barrister (Ладога)",
@@ -6348,46 +6200,6 @@
    "chains": [
     {
      "network": "Табрис",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-e22dc6f526",
-   "name": "Игристое вино Marani Brut",
-   "company": "Телавский винный погреб (Marani)",
-   "category": "Вино",
-   "country": "Грузия",
-   "status": "vegan",
-   "rationale": "Производитель (2023): в вина ничего не добавляют, для фильтрации животные продукты не используются.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wine-marani/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr-7199961842",
-   "name": "Игристое вино Marani Rose Brut",
-   "company": "Телавский винный погреб (Marani)",
-   "category": "Вино",
-   "country": "Грузия",
-   "status": "vegan",
-   "rationale": "Производитель (2023): в вина ничего не добавляют, для фильтрации животные продукты не используются.",
-   "scope": [],
-   "evidence_date": null,
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/wine-marani/",
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -7181,26 +6993,6 @@
    "ref_url": "https://veganrussian.ru/vodka-finlandia/"
   },
   {
-   "id": "vr3-15c973935a",
-   "name": "Водка Finlandia Grapefruit Fusion",
-   "company": "Finlandia",
-   "category": "Крепкие напитки",
-   "country": "Финляндия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2021): все виды Finlandia веганские; производитель (2013) подтверждал классическую и вкусовые версии.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ],
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/vodka-finlandia/"
-  },
-  {
    "id": "vr3-e5956bcf17",
    "name": "Водка Finlandia Lime Fusion",
    "company": "Finlandia",
@@ -7234,26 +7026,6 @@
    "chains": [
     {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ],
-   "ref_type": "VeganRussian",
-   "ref_url": "https://veganrussian.ru/vodka-finlandia/"
-  },
-  {
-   "id": "vr3-c6f4ed9630",
-   "name": "Водка Finlandia Nordic Snow",
-   "company": "Finlandia",
-   "category": "Крепкие напитки",
-   "country": "Финляндия",
-   "status": "vegan",
-   "rationale": "По данным VeganRussian (2021): все виды Finlandia веганские; производитель (2013) подтверждал классическую и вкусовые версии.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": null,
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ],
@@ -7317,24 +7089,6 @@
   {
    "id": "vr3-97a1eaf028",
    "name": "Водка Белуга Трансатлантик Рейсинг",
-   "company": "Beluga Group",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель (2017): в Beluga Transatlantic и Beluga Allure нет животных ингредиентов.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": "https://www.barnivore.com/liquor/6040/beluga",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr3-a743c38b12",
-   "name": "Водка Белуга Трансатлантик Рейсинг Неви Блю",
    "company": "Beluga Group",
    "category": "Крепкие напитки",
    "country": "Россия",
@@ -7711,10 +7465,6 @@
    "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
    "chains": [
     {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
-    {
      "network": "Ароматный Мир",
      "checked_at": "2026-10-24"
     }
@@ -7751,29 +7501,7 @@
    "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
    "chains": [
     {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
-    {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr3-fed8ae9d01",
-   "name": "Водка Русский Стандарт Платинум Лакшери Эдишн",
-   "company": "Русский Стандарт",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -7810,42 +7538,6 @@
    "chains": [
     {
      "network": "Градусы",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr3-d5a4c4c866",
-   "name": "Водка Русский Стандарт Эрмитаж",
-   "company": "Русский Стандарт",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "vr3-ce9b7144cc",
-   "name": "Водка Русский Стандарт Ювелирная серия",
-   "company": "Русский Стандарт",
-   "category": "Крепкие напитки",
-   "country": "Россия",
-   "status": "vegan",
-   "rationale": "Производитель (2014): водка подходит вегетарианцам и веганам.",
-   "scope": [],
-   "evidence_date": null,
-   "barnivore_url": "https://www.barnivore.com/liquor/3295/russian-standard",
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]

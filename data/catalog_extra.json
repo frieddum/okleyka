@@ -32820,26 +32820,6 @@
    ]
   },
   {
-   "id": "rfa-0116648b3d34",
-   "name": "Водка Absolut Lime",
-   "company": "Absolut Vodka",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Absolut Vodka»."
-   ],
-   "evidence_date": "2024-07",
-   "barnivore_url": "https://www.barnivore.com/liquor/142/absolut-vodka",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "rfa-15af399547ba",
    "name": "Водка Absolut Mandrin",
    "company": "Absolut Vodka",
@@ -32883,26 +32863,6 @@
     },
     {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-c28d2c08d936",
-   "name": "Водка Absolut Passionruit",
-   "company": "Absolut Vodka",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2024-07), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2024-07",
-   "barnivore_url": "https://www.barnivore.com/liquor/142/absolut-vodka",
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -32996,46 +32956,6 @@
    ]
   },
   {
-   "id": "rfa-8cb05ead9cb0",
-   "name": "Водка Absolut Watermelon",
-   "company": "Absolut Vodka",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Absolut Vodka»."
-   ],
-   "evidence_date": "2024-07",
-   "barnivore_url": "https://www.barnivore.com/liquor/142/absolut-vodka",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-c74d8bf83303",
-   "name": "Водка Absolut Wild Berri",
-   "company": "Absolut Vodka",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Absolut Vodka»."
-   ],
-   "evidence_date": "2024-07",
-   "barnivore_url": "https://www.barnivore.com/liquor/142/absolut-vodka",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "rfa-3d23dd3159c3",
    "name": "Водка Chase Marmalade Vodka",
    "company": "Chase Distillery",
@@ -33121,26 +33041,6 @@
    "rationale": "По ответу производителя (2014-04), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
    "scope": [
     "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2014-04",
-   "barnivore_url": "https://www.barnivore.com/liquor/3338/ciroc",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-d117a3ae218f",
-   "name": "Водка Ciroc Mango",
-   "company": "Ciroc",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Ciroc»."
    ],
    "evidence_date": "2014-04",
    "barnivore_url": "https://www.barnivore.com/liquor/3338/ciroc",
@@ -33282,31 +33182,7 @@
    "barnivore_url": "https://www.barnivore.com/liquor/1648/crystal-head-vodka",
    "chains": [
     {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
-    {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-75b541de0741",
-   "name": "Водка Crystal Head Aurora",
-   "company": "Crystal Head Vodka",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2011-05",
-   "barnivore_url": "https://www.barnivore.com/liquor/1648/crystal-head-vodka",
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -33314,26 +33190,6 @@
   {
    "id": "rfa-6863fcb14934",
    "name": "Водка Crystal Head Limited Edition Bone",
-   "company": "Crystal Head Vodka",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя, учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2011-05",
-   "barnivore_url": "https://www.barnivore.com/liquor/1648/crystal-head-vodka",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-db3e3df638e3",
-   "name": "Водка Crystal Head Onyx",
    "company": "Crystal Head Vodka",
    "category": "Крепкие напитки",
    "country": null,
@@ -33557,26 +33413,6 @@
    "rationale": "По ответу производителя (2020-10), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
    "scope": [
     "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2020-10",
-   "barnivore_url": "https://www.barnivore.com/liquor/181/grey-goose-vodka",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-3f4a6ca2f039",
-   "name": "Водка Grey Goose Le Citron",
-   "company": "Grey Goose Vodka",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Grey Goose Vodka»."
    ],
    "evidence_date": "2020-10",
    "barnivore_url": "https://www.barnivore.com/liquor/181/grey-goose-vodka",
@@ -34658,46 +34494,6 @@
    ]
   },
   {
-   "id": "rfa-c51903b40d27",
-   "name": "Игристое вино Bouvet-Ladubay 1851 Brut",
-   "company": "Bouvet Ladubay",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Bouvet Ladubay»."
-   ],
-   "evidence_date": "2017-12",
-   "barnivore_url": "https://www.barnivore.com/wine/6022/bouvet-ladubay",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-ac77fab1e060",
-   "name": "Игристое вино Bouvet-Ladubay Brut Rose",
-   "company": "Bouvet Ladubay",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Bouvet Ladubay»."
-   ],
-   "evidence_date": "2017-12",
-   "barnivore_url": "https://www.barnivore.com/wine/6022/bouvet-ladubay",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "rfa-266a11da553a",
    "name": "Игристое вино Bouvet-Ladubay Instinct Cuvee du Millenaire Saumur Brut 2022",
    "company": "Bouvet Ladubay",
@@ -34724,26 +34520,6 @@
    "status": "vegan",
    "rationale": "По ответу производителя (2017-12), учтённому Barnivore, продукт не использует продукты животного происхождения.",
    "scope": [],
-   "evidence_date": "2017-12",
-   "barnivore_url": "https://www.barnivore.com/wine/6022/bouvet-ladubay",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-3bf15575c92d",
-   "name": "Игристое вино Bouvet-Ladubay Tresor Brut Rose",
-   "company": "Bouvet Ladubay",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Bouvet Ladubay»."
-   ],
    "evidence_date": "2017-12",
    "barnivore_url": "https://www.barnivore.com/wine/6022/bouvet-ladubay",
    "chains": [
@@ -34852,46 +34628,6 @@
    ]
   },
   {
-   "id": "rfa-d752caaa74c6",
-   "name": "Игристое вино Covides Ferriol Brut",
-   "company": "Covides Cellars",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2017-02), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2017-02",
-   "barnivore_url": "https://www.barnivore.com/wine/5222/covides-cellars",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-0c7865a1e933",
-   "name": "Игристое вино Covides Ferriol Semi Seco",
-   "company": "Covides Cellars",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2017-02), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2017-02",
-   "barnivore_url": "https://www.barnivore.com/wine/5222/covides-cellars",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "rfa-ed0f1d02b653",
    "name": "Игристое вино Covides, Ferriol Brut, Cava DO",
    "company": "Ole & Obrigado Wine & Spirits",
@@ -34948,48 +34684,8 @@
    ]
   },
   {
-   "id": "rfa-ba042063ca9a",
-   "name": "Игристое вино Dopff au Moulin Cremant d'Alsace Brut Nature BIO",
-   "company": "Dopff Au Moulin",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2021-05), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2021-05",
-   "barnivore_url": "https://www.barnivore.com/wine/8357/dopff-au-moulin",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "rfa-faf226b85964",
    "name": "Игристое вино Dr. Loosen Dr.L Riesling Sekt Dry",
-   "company": "Weingut Dr. Loosen",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Weingut Dr. Loosen»."
-   ],
-   "evidence_date": "2020-01",
-   "barnivore_url": "https://www.barnivore.com/wine/1350/weingut-dr-loosen",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-657a924668e8",
-   "name": "Игристое вино Dr. Loosen Riesling Sekt Extra Dry 2021",
    "company": "Weingut Dr. Loosen",
    "category": "Игристое и шампанское",
    "country": null,
@@ -35430,26 +35126,6 @@
    ]
   },
   {
-   "id": "rfa-10e01f5c274b",
-   "name": "Игристое вино Le Contesse Cuvee Anna",
-   "company": "Le Contesse srl",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2020-03), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2020-03",
-   "barnivore_url": "https://www.barnivore.com/wine/7724/le-contesse-srl",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "rfa-a66daed06463",
    "name": "Игристое вино Le Contesse Dolce Anna White Sweet",
    "company": "Le Contesse srl",
@@ -35485,26 +35161,6 @@
    "chains": [
     {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-4573d22659ed",
-   "name": "Игристое вино Le Contesse Pinot Rose Brut",
-   "company": "Le Contesse srl",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Le Contesse srl»."
-   ],
-   "evidence_date": "2020-03",
-   "barnivore_url": "https://www.barnivore.com/wine/7724/le-contesse-srl",
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -35718,24 +35374,6 @@
    ],
    "evidence_date": "2021-02",
    "barnivore_url": "https://www.barnivore.com/wine/8237/pulenta-estate",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-16978a09f13e",
-   "name": "Игристое вино Raventos Blanc Blanc de Blanc Extra Brut 2023",
-   "company": "Raventós i Blanc",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2016-03), учтённому Barnivore, продукт не использует продукты животного происхождения.",
-   "scope": [],
-   "evidence_date": "2016-03",
-   "barnivore_url": "https://www.barnivore.com/wine/4459/ravent-s-i-blanc",
    "chains": [
     {
      "network": "Decanter",
@@ -36436,10 +36074,6 @@
    "barnivore_url": "https://www.barnivore.com/liquor/4983/bowen-s-spirits-inc",
    "chains": [
     {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
-    {
      "network": "Ароматный Мир",
      "checked_at": "2026-10-24"
     }
@@ -36550,27 +36184,6 @@
    ]
   },
   {
-   "id": "rfa-92108d8d5ebf",
-   "name": "Коньяк Chateau de Montifaud Extra",
-   "company": "Chateau Montifaud",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Château Montifaud: в 2019 г. ответили, что ничего из стандартного списка вопросов Barnivore (включая вспомогательные вещества при производстве) в коньяке нет. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции",
-    "краткий ответ со ссылкой на стандартные вопросы Barnivore"
-   ],
-   "evidence_date": "2019-05",
-   "barnivore_url": "https://www.barnivore.com/liquor/7220/chateau-montifaud",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "rfa-eac9020699a7",
    "name": "Коньяк Chateau de Montifaud Grande Champagne 10 Years Old",
    "company": "Chateau Montifaud",
@@ -36615,27 +36228,6 @@
   {
    "id": "rfa-08e638af7cea",
    "name": "Коньяк Chateau de Montifaud Napoleon Petite Champagne",
-   "company": "Chateau Montifaud",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Château Montifaud: в 2019 г. ответили, что ничего из стандартного списка вопросов Barnivore (включая вспомогательные вещества при производстве) в коньяке нет. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции",
-    "краткий ответ со ссылкой на стандартные вопросы Barnivore"
-   ],
-   "evidence_date": "2019-05",
-   "barnivore_url": "https://www.barnivore.com/liquor/7220/chateau-montifaud",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-82a00dd7a996",
-   "name": "Коньяк Chateau de Montifaud Napoleon Petite Champagne Clemence",
    "company": "Chateau Montifaud",
    "category": "Крепкие напитки",
    "country": null,
@@ -37016,27 +36608,6 @@
    ]
   },
   {
-   "id": "rfa-c8f2bf9ccb32",
-   "name": "Коньяк Chateau de Montifaud XO Silver Petite Champagne Attitude",
-   "company": "Chateau Montifaud",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Château Montifaud: в 2019 г. ответили, что ничего из стандартного списка вопросов Barnivore (включая вспомогательные вещества при производстве) в коньяке нет. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции",
-    "краткий ответ со ссылкой на стандартные вопросы Barnivore"
-   ],
-   "evidence_date": "2019-05",
-   "barnivore_url": "https://www.barnivore.com/liquor/7220/chateau-montifaud",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "rfa-87bd887aa1f9",
    "name": "Коньяк Dupuy Extra",
    "company": "Cognac Dupuy",
@@ -37050,10 +36621,6 @@
    "evidence_date": "2012-07",
    "barnivore_url": "https://www.barnivore.com/liquor/2355/cognac-dupuy",
    "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
     {
      "network": "Ароматный Мир",
      "checked_at": "2026-10-24"
@@ -37228,10 +36795,6 @@
    "evidence_date": "2011-01",
    "barnivore_url": "https://www.barnivore.com/liquor/349/hennessy-cognac",
    "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
     {
      "network": "Ароматный Мир",
      "checked_at": "2026-10-24"
@@ -37859,10 +37422,6 @@
    "barnivore_url": "https://www.barnivore.com/liquor/198/martell-cognac",
    "chains": [
     {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
-    {
      "network": "Ароматный Мир",
      "checked_at": "2026-10-24"
     }
@@ -38445,26 +38004,6 @@
    "rationale": "По ответу производителя (2021-05), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
    "scope": [
     "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2021-05",
-   "barnivore_url": "https://www.barnivore.com/wine/8357/dopff-au-moulin",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-062fcce28e09",
-   "name": "Креман Dopff au Moulin Cremant d`Alsace Rose Brut",
-   "company": "Dopff Au Moulin",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Dopff Au Moulin»."
    ],
    "evidence_date": "2021-05",
    "barnivore_url": "https://www.barnivore.com/wine/8357/dopff-au-moulin",
@@ -41169,86 +40708,6 @@
    ]
   },
   {
-   "id": "rfa-210c638639f1",
-   "name": "Просекко La Gioiosa Rose Millesimato Prosecco",
-   "company": "La Gioiosa S.p.A.",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «La Gioiosa S.p.A.»."
-   ],
-   "evidence_date": "2024-02",
-   "barnivore_url": "https://www.barnivore.com/wine/2059/la-gioiosa-s-p-a",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-01ae6b32a950",
-   "name": "Просекко La Gioiosa Valdobbiadene Prosecco Superiore",
-   "company": "La Gioiosa S.p.A.",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «La Gioiosa S.p.A.»."
-   ],
-   "evidence_date": "2024-02",
-   "barnivore_url": "https://www.barnivore.com/wine/2059/la-gioiosa-s-p-a",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-c3d490d8c58d",
-   "name": "Просекко Le Contesse Prosecco Brut BIO Treviso",
-   "company": "Le Contesse srl",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2020-03), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2020-03",
-   "barnivore_url": "https://www.barnivore.com/wine/7724/le-contesse-srl",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-0602a186f5ac",
-   "name": "Просекко Le Contesse Prosecco Extra Dry Treviso",
-   "company": "Le Contesse srl",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2020-03), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2020-03",
-   "barnivore_url": "https://www.barnivore.com/wine/7724/le-contesse-srl",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "rfa-cf27c6ae4a61",
    "name": "Просекко Le Contesse Prosecco Rose Brut",
    "company": "Le Contesse srl",
@@ -41443,106 +40902,6 @@
    ],
    "evidence_date": "2018-11",
    "barnivore_url": "https://www.barnivore.com/wine/6831/villa-sandi-s-p-a",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-c65e987a18b4",
-   "name": "Просекко Zardetto Prosecco Brut",
-   "company": "Zardetto Prosecco S.r.l.",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2017-05), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2017-05",
-   "barnivore_url": "https://www.barnivore.com/wine/5426/zardetto-prosecco-s-r-l",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-0b3e00d462d5",
-   "name": "Просекко Zardetto Prosecco Conegliano Valdobbiadene Brut",
-   "company": "Zardetto Prosecco S.r.l.",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2017-05), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2017-05",
-   "barnivore_url": "https://www.barnivore.com/wine/5426/zardetto-prosecco-s-r-l",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-3da05740acf4",
-   "name": "Просекко Zardetto Prosecco Conegliano Valdobbiadene Extra Dry",
-   "company": "Zardetto Prosecco S.r.l.",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2017-05), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2017-05",
-   "barnivore_url": "https://www.barnivore.com/wine/5426/zardetto-prosecco-s-r-l",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-ac01d59eda52",
-   "name": "Просекко Zardetto Prosecco Extra Dry",
-   "company": "Zardetto Prosecco S.r.l.",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "По ответу производителя (2017-05), учтённому Barnivore, продукт не использует продукты животного происхождения. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2017-05",
-   "barnivore_url": "https://www.barnivore.com/wine/5426/zardetto-prosecco-s-r-l",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-5c8f2584d44c",
-   "name": "Просекко Zardetto Prosecco Rose Extra Dry",
-   "company": "Zardetto Prosecco S.r.l.",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "vegan",
-   "rationale": "Производитель ответил про всю свою продукцию: животные продукты не используются. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Zardetto Prosecco S.r.l.»."
-   ],
-   "evidence_date": "2017-05",
-   "barnivore_url": "https://www.barnivore.com/wine/5426/zardetto-prosecco-s-r-l",
    "chains": [
     {
      "network": "Decanter",
@@ -54252,46 +53611,6 @@
    ]
   },
   {
-   "id": "rfa-1eef20290789",
-   "name": "Водка Ole Smoky Hench Panch Lightning Moonshine",
-   "company": "Ole Smoky Distillery, LLC",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "nonvegan",
-   "rationale": "По ответу производителя (2018-02) продукт не является веганским (упоминается: желатин, молочные компоненты, мёд, яичный белок). Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2018-02",
-   "barnivore_url": "https://www.barnivore.com/liquor/6190/ole-smoky-distillery-llc",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-0c55878a76b6",
-   "name": "Водка Ole Smoky Moonshine Blue Flame",
-   "company": "Ole Smoky Distillery, LLC",
-   "category": "Крепкие напитки",
-   "country": null,
-   "status": "nonvegan",
-   "rationale": "По ответу производителя (2018-02) продукт не является веганским (упоминается: желатин, молочные компоненты, мёд, яичный белок). Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2018-02",
-   "barnivore_url": "https://www.barnivore.com/liquor/6190/ole-smoky-distillery-llc",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
    "id": "rfa-90e8a17c7ba2",
    "name": "Джин Brecon Botanicals Gin",
    "company": "Penderyn Distillery",
@@ -54309,26 +53628,6 @@
     },
     {
      "network": "Ароматный Мир",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-6ab84c6269fa",
-   "name": "Игристое вино Arthur Metz Perle Noire",
-   "company": "Arthur Metz",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "nonvegan",
-   "rationale": "По ответу производителя (2019-12) продукт не является веганским. Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2019-12",
-   "barnivore_url": "https://www.barnivore.com/wine/7620/arthur-metz",
-   "chains": [
-    {
-     "network": "Decanter",
      "checked_at": "2026-10-24"
     }
    ]
@@ -54442,46 +53741,6 @@
    ],
    "evidence_date": "2021-01",
    "barnivore_url": "https://www.barnivore.com/wine/6065/charles-de-f-re",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-736a7addb708",
-   "name": "Игристое вино Domaine Delmas Blanquette de Limoux Cuvee Audace Brut Nature",
-   "company": "Domaine Delmas",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "nonvegan",
-   "rationale": "По ответу производителя (2012-01) продукт не является веганским (упоминается: рыбий клей). Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2012-01",
-   "barnivore_url": "https://www.barnivore.com/wine/2089/domaine-delmas",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-33e93f77a050",
-   "name": "Игристое вино Domaine Delmas Blanquette de Limoux Cuvee Memoire",
-   "company": "Domaine Delmas",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "nonvegan",
-   "rationale": "По ответу производителя (2012-01) продукт не является веганским (упоминается: рыбий клей). Ответ относится ко всей линейке/бренду в Barnivore.",
-   "scope": [
-    "статус дан для бренда/ассортимента целиком, а не для отдельной позиции"
-   ],
-   "evidence_date": "2012-01",
-   "barnivore_url": "https://www.barnivore.com/wine/2089/domaine-delmas",
    "chains": [
     {
      "network": "Decanter",
@@ -54643,10 +53902,6 @@
    "evidence_date": "2023-06",
    "barnivore_url": "https://www.barnivore.com/wine/324/martini-rossi",
    "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    },
     {
      "network": "Ароматный Мир",
      "checked_at": "2026-10-24"
@@ -55498,26 +54753,6 @@
    ],
    "evidence_date": "2012-05",
    "barnivore_url": "https://www.barnivore.com/wine/2268/wines-winemakers-by-saven",
-   "chains": [
-    {
-     "network": "Decanter",
-     "checked_at": "2026-10-24"
-    }
-   ]
-  },
-  {
-   "id": "rfa-c4ca51c55b5f",
-   "name": "Просекко Bolla Prosecco Extra Dry Rose",
-   "company": "Bolla Wines",
-   "category": "Игристое и шампанское",
-   "country": null,
-   "status": "nonvegan",
-   "rationale": "Производитель ответил про всю свою продукцию: используются продукты животного происхождения. Отдельной записи об этой позиции на Barnivore нет.",
-   "scope": [
-    "Вся продукция компании «Bolla Wines»."
-   ],
-   "evidence_date": "2010-01",
-   "barnivore_url": "https://www.barnivore.com/wine/496/bolla-wines",
    "chains": [
     {
      "network": "Decanter",
