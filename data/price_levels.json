@@ -16288,5 +16288,971 @@
     "scale": "whisky",
     "volume_ml": 700,
     "observed_at": null
+  },
+  "rfa-4916663af2ed": {
+    "level": 4,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "reply-kkz-dagestan-13": {
+    "level": 2,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-lezginka-kv": {
+    "level": 2,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-brandy-marochny": {
+    "level": 1,
+    "scale": "brandy",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-df12949e24d8": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-kizlyarka-aged": {
+    "level": 2,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-tat-bugulma": {
+    "level": 2,
+    "scale": "other",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-three-stars": {
+    "level": 1,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-five-stars": {
+    "level": 1,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-elegant": {
+    "level": 3,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-kizlyarka-apricot": {
+    "level": 2,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-kizlyar-10": {
+    "level": 2,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-tat-kupava-myagkaya": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-tat-kupava-lesnaya": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": null
+  },
+  "reply-kkz-kizlyarka-cornel": {
+    "level": 2,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-kizlyarka-traditional": {
+    "level": 3,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-prazdnichny": {
+    "level": 3,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-rossiya-15": {
+    "level": 4,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-dagestan": {
+    "level": 3,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-brandy-young": {
+    "level": 1,
+    "scale": "brandy",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-kizlyarka-mulberry": {
+    "level": 3,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-kizlyarka-original": {
+    "level": 2,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-tat-bugulma-cream": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-my-dagestan": {
+    "level": 1,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-brandy-ordinary": {
+    "level": 1,
+    "scale": "brandy",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-pjk-quarzit-2016": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "reply-pjk-doosberg": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "reply-pjk-rheinschiefer": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "reply-pjk-klosterberg": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "reply-pjk-landgeflecht": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "reply-pjk-sankt-nikolaus": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-f0f026e0ede2": {
+    "level": 4,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-c81ee779b312": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-73fb92d01f4e": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-30d64befffd3": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-fb4fd7ae7e4e": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-234baa2d43fa": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-6ef4916ed1af": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-bac0c1374f65": {
+    "level": 4,
+    "scale": "cognac",
+    "volume_ml": 1000,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-fa57566a9439": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-a631dc6247ef": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-7e1c90d36cd9": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-5a11fb95ae01": {
+    "level": 4,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": null
+  },
+  "rfa-62655b888c4d": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-c8a442289035": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-bf972aea0d32": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-5d2dfada2fda": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-dcec362ab31e": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "vr-815b5a394e": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-aa5fa97574e4": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-e6de22b9a757": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-6bb789b525d2": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-6157a1833080": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-cdfcd43c0eae": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-0d2d84f3fb0c": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-1def84246e28": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-554d53032aa6": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-73c4123679dd": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-c7f47ef34a2f": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-1d5c48a1caad": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-7ba9b87748ac": {
+    "level": 5,
+    "scale": "rum",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-ff23ecf492e5": {
+    "level": 5,
+    "scale": "rum",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-3fce30c6c4ef": {
+    "level": 3,
+    "scale": "aperitif",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-10ebfe8e10c9": {
+    "level": 5,
+    "scale": "liqueur",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-f3971a532e5f": {
+    "level": 5,
+    "scale": "liqueur",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-350c0cdd628d": {
+    "level": 4,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-53ebccfc1d48": {
+    "level": 5,
+    "scale": "liqueur",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-34a4a640b6ac": {
+    "level": 4,
+    "scale": "liqueur",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-cf1ace31458a": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-268889dd3dfc": {
+    "level": 4,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-40782684b836": {
+    "level": 5,
+    "scale": "liqueur",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-c52a554f4ede": {
+    "level": 5,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-e218d7b72ef4": {
+    "level": 5,
+    "scale": "liqueur",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-61a4f0ec62b1": {
+    "level": 5,
+    "scale": "liqueur",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "vr3-063b75bf02": {
+    "level": 1,
+    "scale": "liqueur",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-71ba78ea95cd": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-56189778c077": {
+    "level": 5,
+    "scale": "gin",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-0b0f86c34dfb": {
+    "level": 3,
+    "scale": "tequila",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-kizlyarka-apple": {
+    "level": 2,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-platan": {
+    "level": 2,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-gordost": {
+    "level": 3,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-44d0616815e2": {
+    "level": 1,
+    "scale": "vermouth",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-563666687b08": {
+    "level": 1,
+    "scale": "vermouth",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-01330d55fc1b": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-9be384031e5f": {
+    "level": 4,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-86f23b368f99": {
+    "level": 2,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-beec3a266c02": {
+    "level": 3,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-39e7913c7f3d": {
+    "level": 2,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-c477d499ec8b": {
+    "level": 3,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-6c13366ca7b5": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-667242dc59f8": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-ae70a74b4c18": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-41baeab956be": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-four-stars": {
+    "level": 1,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "d57c8780f9": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "0ed57d89a2": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": null
+  },
+  "2d6f00137e": {
+    "level": 3,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "a3054bfd5a": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "26614bf180": {
+    "level": 4,
+    "scale": "liqueur",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "1ca93617f9": {
+    "level": 3,
+    "scale": "liqueur",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "67662ccd6b": {
+    "level": 4,
+    "scale": "rum",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "4d69602031": {
+    "level": 3,
+    "scale": "rum",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "910783989e": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-26"
+  },
+  "9d10be57aa": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "ed12bdfb26": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-24"
+  },
+  "8bca371c21": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "2608d4481b": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": null
+  },
+  "mt-97d5eb8d7c": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-24"
+  },
+  "ln-7c26bbc341": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 500,
+    "observed_at": null
+  },
+  "rfa-9b34dc17f111": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": null
+  },
+  "mt-0329e91381": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-187263fa6243": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-36f7b3e9feda": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-fce2cc4775e3": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-c0464cbdfec6": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-b42884d47552": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-06a57b4608c6": {
+    "level": 2,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-639f50fc1405": {
+    "level": 4,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-69620ea4c14d": {
+    "level": 3,
+    "scale": "gin",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-f0e52ce37cfd": {
+    "level": 4,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": null
+  },
+  "rfa-4c1165c3d8eb": {
+    "level": 4,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-306213f4c117": {
+    "level": 4,
+    "scale": "brandy",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-6b398a2390a3": {
+    "level": 5,
+    "scale": "brandy",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-d1c9adf2be92": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-09dda8b12201": {
+    "level": 3,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-0553301d1bb7": {
+    "level": 3,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-c92b9fa573db": {
+    "level": 3,
+    "scale": "liqueur",
+    "volume_ml": 700,
+    "observed_at": null
+  },
+  "rfa-64167be114e3": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-bd55f96a38aa": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-cd265fbad253": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": null
+  },
+  "rfa-13da18536009": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-24"
+  },
+  "rfa-8cad60c79419": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": null
+  },
+  "rfa-d6021649ae3c": {
+    "level": 3,
+    "scale": "liqueur",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-05f9cb8c1598": {
+    "level": 5,
+    "scale": "liqueur",
+    "volume_ml": 1000,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-a1527e4c42dd": {
+    "level": 4,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": null
+  },
+  "rfa-89f25568ebd5": {
+    "level": 5,
+    "scale": "rum",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-6c32d41b1c88": {
+    "level": 5,
+    "scale": "tequila",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-d177c83f4660": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-f55af3e83ef6": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-f5ebc56ebd47": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-5aba2393dda3": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-4938f9c61d86": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-78f932ffc8ec": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": null
+  },
+  "rfa-2cc5bb1d36e0": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-f4f47ec26f01": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-af9857a1c034": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "prk-518dd31f4b": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-24"
+  },
+  "prk-0a934b95bd": {
+    "level": 3,
+    "scale": "gin",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "vr-2495b473d4": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "vr3-a3b5380242": {
+    "level": 3,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": null
+  },
+  "vr3-12e09db471": {
+    "level": 2,
+    "scale": "vodka",
+    "volume_ml": 700,
+    "observed_at": null
+  },
+  "ln-da6d6672d5": {
+    "level": 3,
+    "scale": "cognac",
+    "volume_ml": 1000,
+    "observed_at": "2026-10-26"
+  },
+  "dx-f6511d953f": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "mt-287811f5bc": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "mt-df8eea4109": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "mt-e0f998d8e3": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-imperator": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-rossiya-collection": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-lezginka-brandy": {
+    "level": 1,
+    "scale": "brandy",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-lezginka-3": {
+    "level": 1,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "reply-kkz-kizlyarskiy-4": {
+    "level": 1,
+    "scale": "cognac",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
   }
 }

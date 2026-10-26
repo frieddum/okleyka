@@ -9,18 +9,21 @@ import sys
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from collect_price_sources import key, volume
 from price_levels import category, ordinary_volume, category_limits, relative_level, reference_volume
+from complete_price_levels import reviewed_observations
 
 
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument('--work',type=Path,required=True)
     ap.add_argument('--retail-root',type=Path,required=True)
+    ap.add_argument('--site-dir',type=Path,help='Independent build to read; defaults to _site')
     args=ap.parse_args(); work=args.work
     root=Path(__file__).resolve().parent.parent
-    verified=json.loads((root/'_site/data/verified.json').read_text(encoding='utf8'))
-    meta=json.loads((root/'_site/data/meta.json').read_text(encoding='utf8'))
+    site=args.site_dir or root/'_site'
+    verified=json.loads((site/'data/verified.json').read_text(encoding='utf8'))
+    meta=json.loads((site/'data/meta.json').read_text(encoding='utf8'))
     rows={r[0]:r for r in verified['records']}
-    archive=root/'_site/data/archive.json'
+    archive=site/'data/archive.json'
     if archive.exists():rows.update({r[0]:r for r in json.loads(archive.read_text(encoding='utf8'))['records']})
     aliases=json.loads((work/'price_card_aliases.json').read_text(encoding='utf8'))
     hold_path=work/'manual_price_holds.json'
@@ -108,6 +111,9 @@ def main():
                 if match['rid'] not in rows or o['name']!=match['source_name']:
                     raise ValueError('Review stale user catalogue price match')
                 accept(dict(o,match_reason=match['reason']),[match['rid']])
+    # Retain reviewed gap fills when recalibrating the whole catalogue.
+    for o in reviewed_observations(work/'reviewed_price_observations.json', rows, holds):
+        accept(o, o['ids'])
     # Exact user-supplied amounts live outside the public repository.
     corrections=work/'user_price_corrections.json'
     if corrections.exists():
