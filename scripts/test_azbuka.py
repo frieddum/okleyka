@@ -18,6 +18,13 @@ network = meta['networks'].index('Азбука вкуса')
 av = {rid: r for rid, r in rows.items() if network in r[2]}
 new = read('data/azbuka_additions.json')['items']
 assert len(av) == 324 and len(new) == 124
+# Every AV wine, including linked pre-existing cards, has complete attributes.
+for row in av.values():
+    if meta['categories'][row[8]] in ('Вино', 'Игристое вино', 'Портвейн', 'Херес', 'Вермут', 'Вермут и креплёное вино'):
+        assert all(row[i] is not None for i in (11, 16, 17)), row[3]
+assert rows['av-1017570'][17] == 'Экстра брют'  # Structured details resolve Brut/Extra Brut title.
+assert rows['vr-0e93764df0'][11] == 13.9
+assert rows['vr-0cc1eaed07'][11] == 14.0
 assert sum(rid in data['price_levels'] for rid in av) == 323
 assert 'av-370353' not in data['price_levels']  # Only a 375 ml offer; no invented 750 ml price.
 for rid, row in av.items():
