@@ -14831,39 +14831,9 @@
     "volume_ml": 500,
     "observed_at": null
   },
-  "dx-ff39242f2e": {
-    "level": 2,
-    "scale": "other",
-    "volume_ml": 500,
-    "observed_at": null
-  },
   "sp-54d468af86": {
     "level": 1,
     "scale": "vodka",
-    "volume_ml": 500,
-    "observed_at": null
-  },
-  "ln-7888f18d7d": {
-    "level": 2,
-    "scale": "other",
-    "volume_ml": 500,
-    "observed_at": null
-  },
-  "ln-f5031a64fd": {
-    "level": 2,
-    "scale": "other",
-    "volume_ml": 500,
-    "observed_at": null
-  },
-  "sp-f9fc53a4a1": {
-    "level": 2,
-    "scale": "other",
-    "volume_ml": 500,
-    "observed_at": null
-  },
-  "ln-eafa1d2fe3": {
-    "level": 3,
-    "scale": "other",
     "volume_ml": 500,
     "observed_at": null
   },
@@ -18118,5 +18088,101 @@
     "scale": "beer",
     "volume_ml": 330,
     "observed_at": "2026-10-26"
+  },
+  "reply-tat-6567b345bf05": {
+    "level": 1,
+    "scale": "whisky",
+    "volume_ml": 700.0,
+    "observed_at": null
+  },
+  "reply-tat-5a78110bbd9e": {
+    "level": 3,
+    "scale": "vodka",
+    "volume_ml": 1000.0,
+    "observed_at": "2026-10-24"
+  },
+  "reply-tat-087390a849b3": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500.0,
+    "observed_at": "2026-10-24"
+  },
+  "reply-tat-138b5e4fddf9": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500.0,
+    "observed_at": null
+  },
+  "reply-tat-62b4d44330f7": {
+    "level": 1,
+    "scale": "liqueur",
+    "volume_ml": 500.0,
+    "observed_at": "2026-10-24"
+  },
+  "reply-tat-19a1fb1ae34a": {
+    "level": 1,
+    "scale": "other",
+    "volume_ml": 500.0,
+    "observed_at": null
+  },
+  "reply-tat-34dfcd31438e": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-tat-dc6ce28134b8": {
+    "level": 2,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": null
+  },
+  "reply-tat-f49b3f82959a": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-tat-05c9a04c526d": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-tat-30836d042b9a": {
+    "level": 2,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": null
+  },
+  "reply-tat-69aa2df14974": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-tat-b78561849e0c": {
+    "level": 2,
+    "scale": "gin",
+    "volume_ml": 700,
+    "observed_at": "2026-10-27"
+  },
+  "reply-tat-8896b027b959": {
+    "level": 2,
+    "scale": "gin",
+    "volume_ml": 700,
+    "observed_at": "2026-10-27"
+  },
+  "reply-tat-3d6191f24ad3": {
+    "level": 1,
+    "scale": "liqueur",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-tat-dab11a389af1": {
+    "level": 1,
+    "scale": "other",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
   }
 }

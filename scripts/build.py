@@ -421,7 +421,9 @@ def main():
             if k not in assess_index:
                 assess_index[k] = len(assessments)
                 assessments.append(pub)
-            cat = kind_from_name(name, EXTRA_CATEGORY.get(it["category"], it["category"]))
+            # Reviewed direct-reply types take priority over words in brand names
+            # (e.g. Bitter in Tundra liqueur is not an aperitif classification).
+            cat = norm_category(it["category"]) if direct else kind_from_name(name, EXTRA_CATEGORY.get(it["category"], it["category"]))
             color, sugar, sparkling = wine_attrs(name, cat)
             chains = it["chains"]
             groups["x:" + it["id"]] = [

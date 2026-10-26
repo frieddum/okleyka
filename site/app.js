@@ -40,6 +40,8 @@
       label: v => v === NONE ? 'Без цены' : '$'.repeat(Number(v)),
       ariaLabel: v => v === NONE ? tr('Без цены') : window.formatPriceBand({ level: Number(v) }, window.I18N.lang).label },
     { key: 'kind', title: 'Вид напитка', get: r => r.cat || NONE, label: v => v === NONE ? 'Вид не указан' : v, order: 'total', limit: 8 },
+    { key: 'beer', title: 'Пиво: цвет и стиль', get: r => window.splitDrinkName.beerTags(r.name, r.cat), order: 'total', limit: 9,
+      hint: 'По явному указанию в названии. Одно пиво может быть одновременно светлым и пшеничным.' },
     { key: 'sub', title: 'Тип', solo: true, get: r => r.sub, order: 'fixedList',
       list: Object.values(SUBTYPES).flatMap(t => t.map(x => x[0])),
       hint: 'По названию в карточке сети. Позиции без такого указания здесь не учитываются.' },
@@ -47,7 +49,7 @@
       label: v => v === NONE ? 'Не указана' : v, order: 'total', limit: 8, search: true },
     { key: 'color', title: 'Цвет', wine: true, get: r => r.color, order: 'total' },
     { key: 'sugar', title: 'Сахар', wine: true, get: r => r.sugar, order: 'fixedList',
-      list: ['Брют', 'Сухое', 'Полусухое', 'Полусладкое', 'Сладкое'] },
+      list: ['Брют натюр', 'Экстра брют', 'Брют', 'Экстра драй', 'Сухое', 'Полусухое', 'Полусладкое', 'Сладкое'] },
     { key: 'sp', title: 'Тип', wine: true, get: r => r.cat === 'Вино' ? (r.sp ? 'Игристое' : 'Тихое') : null,
       order: 'fixedList', list: ['Тихое', 'Игристое'] },
     { key: 'vin', title: 'Урожай', wine: true, get: r => r.vin == null ? null : String(r.vin), order: 'desc' },
@@ -449,7 +451,10 @@
   function pill(st) { return `<span class="pill st st-${st}">${esc(STATUS[st].label)}</span>`; }
   function factsHTML(r) {
     const f = [];
-    if (r.nameDetails) f.push(r.nameDetails);
+    if (r.cat) f.push(tr(r.cat === 'Вино' && r.sp ? 'Игристое вино' : r.cat));
+    if (r.color) f.push(tr(r.color));
+    if (r.sugar) f.push(tr(r.sugar));
+    f.push(...window.splitDrinkName.beerTags(r.name, r.cat).map(tr));
     if (r.brand && !r.nameKey.includes(r.brandKey)) f.push(r.brand);
     if (r.producer) f.push(r.producer);
     if (r.country) f.push(r.country);

@@ -14,6 +14,11 @@
 V, N = "vegan", "nonvegan"
 
 RULES = {
+    # December 2014 answer explicitly covers vodka, not fruit tinctures.
+    "Зелёная марка": dict(only=r"^(?!.*настойк).*$"),
+    "Green Mark": dict(only=r"^(?!.*настойк).*$"),
+    # Wild Berries spirits are not Celtic Marches cider.
+    "Celtic Marches Beverages Limited": dict(only=r"^(?!.*настойк).*$"),
     # Ответ различает цвета
     "Maison Louis Jadot": dict(red=V, white=N, rose=None,
                                note="Производитель: веганские только красные вина; белые и шабли оклеены казеином."),

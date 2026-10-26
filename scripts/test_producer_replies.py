@@ -15,7 +15,7 @@ original = json.loads(source.read_text(encoding="utf-8"))
 loaded = load_replies(source, ROOT / "site")
 data = json.loads((ROOT / "_site/data/verified.json").read_text(encoding="utf-8"))
 rows = {r[0]: r for r in data["records"]}
-assert len(loaded["items"]) == 38
+assert len(loaded["items"]) == 52
 for item in loaded["items"]:
     row = rows[item["id"]]
     assessment = data["assessments"][row[15]]
@@ -30,7 +30,16 @@ for item in loaded["items"]:
 assert rows["reply-pjk-quarzit-2016"][12] == 2016
 assert rows["reply-kkz-lezginka-brandy"][8] != rows["reply-kkz-lezginka-kv"][8]
 assert len(rows["reply-tat-bugulma"][2]) == 9
-assert len([r for r in rows.values() if r[0].startswith("reply-tat-")]) == 4
+assert len([r for r in rows.values() if r[0].startswith("reply-tat-")]) == 20
+assert len([i for i in loaded['items'] if i['reply_id']=='tat-other-2026-10-26']) == 14
+for suffix in ('19a1fb1ae34a', '62b4d44330f7'):
+    row = rows['reply-tat-' + suffix]
+    assert row[1] == 'n'
+    assert data['assessments'][row[15]]['refs'][0]['type'] == 'manufacturer'
+    assert 'tatspirtprom.ru/catalog/' in data['assessments'][row[15]]['refs'][0]['url']
+for row in rows.values():
+    if row[0].startswith('reply-tat-'):
+        assert row[0] in data['price_levels']
 assert "reply-kkz-stars-kv" not in rows and "reply-kkz-stars-ks" not in rows
 assert rows["reply-kkz-dagestan"][3] != rows["reply-kkz-dagestan-13"][3]
 

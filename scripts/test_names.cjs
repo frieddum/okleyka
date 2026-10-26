@@ -1,5 +1,20 @@
 const assert = require('node:assert/strict');
 const split = require('../site/name-format.js');
+assert.equal(split('Tequila silver Sauza Hacienda Silver').title, 'Sauza Hacienda Silver');
+assert.equal(split('серебряная Sauza Асьенда Сильвер 40% 750мл').title, 'Sauza Асьенда Сильвер 40% 750мл');
+assert.equal(split('Светлое пиво фильтрованное безалкогольное Clausthaler 500мл').title, 'Clausthaler 500мл');
+assert.equal(split('светлое BERLINER Geschichte Wheat Beer Blond').title, 'BERLINER Geschichte Wheat Beer Blond');
+assert.equal(split('Настойка Сладкая Зеленая Марка Лимонная 29%').title, 'Зеленая Марка Лимонная 29%');
+assert.equal(split('Золотая Балка').title, 'Золотая Балка');
+assert.equal(split('Вино Wine People Sauvignon Blanc').title, 'Wine People Sauvignon Blanc');
+assert.equal(split('Whisky White Horse').title, 'White Horse');
+assert.equal(split('Whisky Port Charlotte').title, 'Port Charlotte');
+assert.equal(split('Шампанское Taittinger Brut').title, 'Taittinger Brut');
+assert.equal(split('Пиво Пиво Trappistes Rochefort 8').title, 'Trappistes Rochefort 8');
+assert.equal(split('Light filtered non-alcoholic beer Clausthaler').title, 'Clausthaler');
+assert.deepEqual(split.beerTags('светлое BERLINER Geschichte Wheat Beer Blond', 'Пиво'), ['Светлое', 'Пшеничное']);
+assert.deepEqual(split.beerTags('Dark Rum', 'Ром'), []);
+assert.deepEqual(split.beerTags('Пиво безалкогольное светлое Clausthaler', 'Пиво'), ['Светлое', 'Безалкогольное']);
 assert.deepEqual(split('0,7Л ЛИКЕР ДЕСЕРТНЫЙ JAGERMEISTER WINTER EDITION'), {
   title: 'JAGERMEISTER WINTER EDITION', details: '0,7Л · ЛИКЕР ДЕСЕРТНЫЙ'
 });
@@ -29,3 +44,5 @@ for (const locale of ['ru', 'en']) {
   assert.deepEqual(sorted, ['Аберфелди', 'Балчуг', 'Зелёная марка']);
 }
 console.log('Name prefixes, quotation marks, preserved apostrophes and alphabetical ordering: passed');
+
+assert.deepEqual(split.beerTags('Светлое пиво пшеничное Hofbrau Original', 'Пиво'), ['Светлое']);

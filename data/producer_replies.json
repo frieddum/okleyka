@@ -40,6 +40,16 @@
       "scope": [
         "Только сливочная версия. Обычный десертный Bugulma Premium Edition этим ответом о молочных компонентах не охвачен."
       ]
+    },
+    "tat-other-2026-10-26": {
+      "company": "АО «Татспиртпром»",
+      "country": "Россия",
+      "status": "vegan",
+      "evidence_date": "2026-10-26",
+      "rationale": "АО «Татспиртпром», ответ от 26.10.2026: этот продукт не входит в перечисленные исключения с мёдом, лактозой и молочным белком. На вопрос о животных средствах обработки производитель ответил отрицательно; оклейка купажей и полуфабрикатов не проводится.",
+      "scope": [
+        "Только перечисленные здесь позиции Татспиртпрома. Исключения с мёдом и молочными компонентами из письма и каталога производителя не входят в этот список; на другие вкусы ответ автоматически не переносится."
+      ]
     }
   },
   "items": [
@@ -807,6 +817,222 @@
         }
       ],
       "volume_ml": 500
+    },
+    {
+      "id": "reply-tat-6567b345bf05",
+      "name": "Volga Valley Whisky",
+      "category": "Виски",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40.0,
+      "volume_ml": 700.0
+    },
+    {
+      "id": "reply-tat-34dfcd31438e",
+      "name": "Graf Ledoff",
+      "category": "Водка",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40.0,
+      "volume_ml": 500.0
+    },
+    {
+      "id": "reply-tat-5a78110bbd9e",
+      "name": "Tundra",
+      "category": "Водка",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40.0,
+      "volume_ml": 1000.0
+    },
+    {
+      "id": "reply-tat-087390a849b3",
+      "name": "Tundra Authentic",
+      "category": "Водка",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40.0,
+      "volume_ml": 500.0
+    },
+    {
+      "id": "reply-tat-dc6ce28134b8",
+      "name": "Tundra Nordic Nature",
+      "category": "Водка",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40.0,
+      "volume_ml": 500.0
+    },
+    {
+      "id": "reply-tat-138b5e4fddf9",
+      "name": "Tundra Северная Брусника",
+      "category": "Водка",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500.0,
+      "abv": 40
+    },
+    {
+      "id": "reply-tat-f49b3f82959a",
+      "name": "Русская Валюта",
+      "category": "Водка",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500,
+      "abv": 38
+    },
+    {
+      "id": "reply-tat-05c9a04c526d",
+      "name": "Русская Валюта Premium",
+      "category": "Водка",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 38.0,
+      "volume_ml": 500.0
+    },
+    {
+      "id": "reply-tat-30836d042b9a",
+      "name": "Тундра Морозный Можжевельник",
+      "category": "Водка",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500,
+      "abv": 40
+    },
+    {
+      "id": "reply-tat-69aa2df14974",
+      "name": "Усадская Хлебная",
+      "category": "Водка",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500,
+      "abv": 38
+    },
+    {
+      "id": "reply-tat-b78561849e0c",
+      "name": "Royal Raven Dry",
+      "category": "Джин",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 700,
+      "abv": 40
+    },
+    {
+      "id": "reply-tat-8896b027b959",
+      "name": "Royal Raven Pink",
+      "category": "Джин",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 700,
+      "abv": 40
+    },
+    {
+      "id": "reply-tat-3d6191f24ad3",
+      "name": "Tundra Bitter Mint",
+      "category": "Ликёр",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 35.0,
+      "volume_ml": 500.0
+    },
+    {
+      "id": "reply-tat-dab11a389af1",
+      "name": "Хлебная Ароматная",
+      "category": "Настойка",
+      "reply_id": "tat-other-2026-10-26",
+      "chains": [
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500,
+      "abv": 35
     }
   ]
 }

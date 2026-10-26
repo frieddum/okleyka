@@ -7,6 +7,9 @@
   try { localStorage.setItem('okleyka-language', lang); } catch (_) {}
   document.documentElement.lang = lang;
   const words = {
+    'Пиво: цвет и стиль':'Beer: colour and style',
+    'По явному указанию в названии. Одно пиво может быть одновременно светлым и пшеничным.':'Based on explicit wording in the product name. A beer can be both pale and wheat.',
+    'Светлое':'Pale', 'Тёмное':'Dark', 'Пшеничное':'Wheat', 'Лагер':'Lager', 'Эль':'Ale', 'Стаут':'Stout', 'Портер':'Porter', 'Безалкогольное':'Alcohol-free',
     'Производители':'Producers', 'Производители — Оклейка':'Producers — Okleika',
     'Ответы на наши запросы: краткий пересказ и область действия. Разрешённые к публикации оригиналы — по ссылкам.':'Replies to our inquiries: summaries and scope. Links lead to originals published with permission.',
     'Ответ от':'Reply dated', 'Ответ о продукции':'Product reply',

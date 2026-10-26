@@ -24963,6 +24963,52 @@
     }
    ],
    "barnivore_url": "https://www.barnivore.com/liquor/1021/don-julio-tequila"
+  },
+  {
+   "id": "reply-tat-19a1fb1ae34a",
+   "name": "Русская Валюта Мягкая",
+   "category": "Настойка",
+   "chains": [
+    {
+     "network": "Градусы",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "company": "АО «Татспиртпром»",
+   "country": "Россия",
+   "status": "nonvegan",
+   "evidence_date": "2026-10-27",
+   "ref_type": "manufacturer",
+   "ref_url": "https://tatspirtprom.ru/catalog/russkaya-valyuta/",
+   "rationale": "В официальном каталоге Татспиртпрома для этой версии прямо указан мёд. Она не перечислена среди исключений в письме от 26.10.2026, но описание конкретного состава не позволяет считать её веганской.",
+   "scope": [
+    "Только эта версия напитка; проверено по официальному каталогу 27.10.2026."
+   ],
+   "volume_ml": 500.0,
+   "abv": 35
+  },
+  {
+   "id": "reply-tat-62b4d44330f7",
+   "name": "Ликёр Tundra Bitter Orange",
+   "category": "Ликёр",
+   "chains": [
+    {
+     "network": "Ароматный Мир",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "abv": 35.0,
+   "volume_ml": 500.0,
+   "company": "АО «Татспиртпром»",
+   "country": "Россия",
+   "status": "nonvegan",
+   "evidence_date": "2026-10-27",
+   "ref_type": "manufacturer",
+   "ref_url": "https://tatspirtprom.ru/catalog/tundra-bitter/",
+   "rationale": "В официальном каталоге Татспиртпрома для этой версии прямо указан мёд. Она не перечислена среди исключений в письме от 26.10.2026, но описание конкретного состава не позволяет считать её веганской.",
+   "scope": [
+    "Только эта версия напитка; проверено по официальному каталогу 27.10.2026."
+   ]
   }
  ]
 }
