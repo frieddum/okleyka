@@ -23,6 +23,8 @@
     'Неясно':'Unclear', 'Противоречие':'Conflicting evidence',
     'Доминиканская Республика':'Dominican Republic','Доминикана':'Dominican Republic','Люксембург':'Luxembourg','Черногория':'Montenegro','Исландия':'Iceland','Сингапур':'Singapore','Словакия':'Slovakia','Вьетнам':'Vietnam','Таиланд':'Thailand','Литва':'Lithuania','Тринидад и Тобаго':'Trinidad and Tobago','Никарагуа':'Nicaragua','Гватемала':'Guatemala','Латвия':'Latvia','Абхазия':'Abkhazia','Турция':'Turkey','Ливан':'Lebanon','Словения':'Slovenia','Бразилия':'Brazil','Сент-Люсия':'Saint Lucia','Филиппины':'Philippines','Игристое вино':'Sparkling wine','Аперитив':'Aperitif','Писко':'Pisco','Портвейн':'Port','Херес':'Sherry','Соджу':'Soju',
     'Оклейка':'Okleika', 'Справочник':'Directory', 'Методика':'Methodology',
+    'Чрезмерное употребление алкоголя вредит вашему здоровью.':'Excessive alcohol consumption is harmful to your health.',
+    'Веганский статус напитка не означает, что он безопасен для здоровья. Справочник не призывает к употреблению алкоголя.':'A drink being vegan does not mean it is safe for your health. This directory does not encourage alcohol consumption.',
     'Пиво и сидр РФ':'Beer & cider (RU)',
     'Независимый справочник веганского статуса алкоголя':'Independent guide to vegan alcohol status',
     'Татспиртпром — Оклейка':'Tatspirtprom — Okleika',
