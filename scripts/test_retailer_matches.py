@@ -17,14 +17,15 @@ network = meta["dicts"]["networks"].index("КуулКлевер / ОТДОХНИ
 for match in read("data/retailer_matches.json"):
     row = rows[match["record_id"]]
     assert row[3] == match["expected_name"]
-    assert network in row[2] and len(row[2]) == len(set(row[2]))
+    matched_network = meta["dicts"]["networks"].index(match["network"])
+    assert matched_network in row[2] and len(row[2]) == len(set(row[2]))
     assert row[1] in ("v", "n")
     assert data["assessments"][row[15]]["refs"]
 
 new = read("data/coolclever_additions.json")["items"]
 for item in new:
     row = rows[item["id"]]
-    assert row[2] == [network]
+    assert network in row[2]
     assert row[11] == item["abv"], (item["name"], row[11])
     assert row[16] and row[17], item["name"]
     assert data["assessments"][row[15]]["refs"][0]["url"] == item["barnivore_url"]

@@ -166,5 +166,1187 @@
     "expected_name": "Водка Русский Стандарт",
     "network": "КуулКлевер / ОТДОХНИ",
     "checked_at": "2026-10-25"
+  },
+  {
+    "record_id": "0079a10ca9",
+    "expected_name": "Пиво светлое PAULANER Munchner hell фильтрованное пастеризованное, 4,9%, ж/б 0.5L",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "13881eba95",
+    "expected_name": "Пивной напиток Delirium Red темный фильтрованный пастеризованный 7% 330мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "1ca93617f9",
+    "expected_name": "Ликер Becherovka 38% 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "1e50e619e9",
+    "expected_name": "Пиво Flensburger Pilsener светлое пастеризованное 4.8% 500мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "1ff62325c4",
+    "expected_name": "Ликер Cointreau 40% 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "33d31f01ab",
+    "expected_name": "Виски Caol Ila Moch 43% 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "47376fe2d1",
+    "expected_name": "Пиво St.Peters Golden Ale светлое фильтрованное пастеризованное 4.7% 500мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "499a3aaef3",
+    "expected_name": "Белое вино игристое брют Veuve Clicquot 12% 750мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "4d11a58689",
+    "expected_name": "Сидр Strongbow 5% 440мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "5b99079af3",
+    "expected_name": "Пиво Битбургер светлое фильтрованное непастеризованное 4.8% 500мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "614f99ab55",
+    "expected_name": "Вино Matsu El Recio Toro красное сухое 14.5% 750мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "6cdf2493d1",
+    "expected_name": "Пиво светлое Estrella Damm 4,6% ж/б 0,5л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "7464ba4537",
+    "expected_name": "Пивной напиток Mort Subite Kriek Lambic фильтрованный 4% 250мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "8bca371c21",
+    "expected_name": "Светлое пиво пшеничное фильтрованное пастеризованное Hofbrau Original 5.1% 500мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "8f7a376726",
+    "expected_name": "Виски Jack Daniels Tennessee зерновой 40% 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "910783989e",
+    "expected_name": "Пивной напиток Rodenbach Alexander нефильтрованный 5.6% 330мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "9d10be57aa",
+    "expected_name": "Пиво Krombacher Pils светлое пастеризованное 4.8% 500мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "b19fda8d40",
+    "expected_name": "Пиво Weihenstephaner Hefeweissbier светлое нефильтрованное 5.4% 500мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "b6ccc292a3",
+    "expected_name": "Сидр Alska фруктовый Лесные ягоды 4% 440мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "bae9115535",
+    "expected_name": "Виски Aberlour 12 Years Double Cask 40% 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "bbca9ec4ab",
+    "expected_name": "Виски Teeling Single Malt Ирландский купажированный 46% 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "bd807f4a9b",
+    "expected_name": "Пиво Kilkenny Draught темное фильтрованное пастеризованное с капсулой 4.3% 440мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "be34935d1f",
+    "expected_name": "Пиво Tsingtao светлое фильтрованное пастеризованное 4.7%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "c3748ab78c",
+    "expected_name": "Пиво Guinness Draught темное 4.2% 440мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ca34ac9714",
+    "expected_name": "Виски Jack Daniel's Tennessee Honey 35% 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "deda415bde",
+    "expected_name": "Пиво темное фильтрованное пастеризованное 5.2% Palm 750мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "dx-61c0c9ba17",
+    "expected_name": "Виски Tullamore Dew Ирландский 40% 0,5 л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "dx-bbde099d6c",
+    "expected_name": "Водка Пять озер Премиум 40% 0,5л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "e8893ca524",
+    "expected_name": "Пиво Delirium Huyghe Tremens светлое фильтрованное 8.5% 330мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "jo-4f02fc5735",
+    "expected_name": "Виски Бенриах Смоки 10 лет, 0.7л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "jo-e654f63948",
+    "expected_name": "Коньяк Хеннесси Паради, 0.7л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "kb-18ad59388f",
+    "expected_name": "Напиток спиртной Текила Патрон Аньехо 40%, 750мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "kb-83596f94c0",
+    "expected_name": "Ликер десертный Кампари (аперитив) 25%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-0117413584",
+    "expected_name": "Пиво светлое PAULANER Oktoberfest Bier фильтрованное пастеризованное 6,0%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-0be74a4c82",
+    "expected_name": "Пиво темное DUCHESSE DE BOURGOGNE фильтрованное пастеризованное, 6,2%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-360ee72e6b",
+    "expected_name": "Пиво светлое BAYREUTHER HELL фильтрованное непастеризованное 4,9%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-439fbaea78",
+    "expected_name": "Виски LAGAVULIN Шотландский солодовый 8 лет 48%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-7d91ae774e",
+    "expected_name": "Пиво светлое KULMBACHER Edelherb premium pils фильтрованное пастеризованное, 4,9%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-809be05faf",
+    "expected_name": "Виски BALLANTINE'S Файнест Шотландский купажированный, 40-43%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-8b37061d57",
+    "expected_name": "Виски ARDBEG Ардбег Шотландский односолодовый 10 лет, 46%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-8e69df7614",
+    "expected_name": "Пиво светлое BUDWEISER Будвар фильтрованное пастеризованное 5%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-bb53ce352e",
+    "expected_name": "Виски DEWAR'S White Label шотландский купажированный 40%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-dec5bd1bec",
+    "expected_name": "Пиво светлое HARBIN Premium фильтрованное пастеризованное 5%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-e50b1f6d7f",
+    "expected_name": "Виски TALISKER Шотландский односолодовый 10 лет 45,8%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "ln-edd418726e",
+    "expected_name": "Джин GREENALL'S Original 37,5–40%",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "mt-2444e4da71",
+    "expected_name": "Виски Woodford Reserve, 0.75л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "mt-265cc9aac2",
+    "expected_name": "Виски Macallan A night on Earth The first light, 0.7л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "mt-287811f5bc",
+    "expected_name": "Вино Querciabella Mongrana Maremma Toscana красное сухое, 0.75л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "mt-34ece083db",
+    "expected_name": "Ликер Minttu Peppermint, 0.5л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "mt-4c3a4097b9",
+    "expected_name": "Ликер Mozart Chocolate Cream, 0.5л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "mt-57ddb71c0e",
+    "expected_name": "Вино игристое Шампань Louis Roederer Collection Champagne белое брют, 0.75л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "mt-8e543fdbd0",
+    "expected_name": "Вино d'Arenberg The Footbolt Shiraz красное сухое, 0.75л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "mt-9bd0d1cc9c",
+    "expected_name": "Пиво Hofbrau Swarze Weisse темное нефильтрованное, 0.5л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "mt-9ff3089a6a",
+    "expected_name": "Пиво Rodenbach темное фильтрованное, 0.5л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "mt-b88bb32692",
+    "expected_name": "Водка Danzka Cranraz, 0.7л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "mt-d2578303df",
+    "expected_name": "Настойка Branca Fernet горькая, 0.7л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-04270f6c04",
+    "expected_name": "Вино Matsu El Picaro Toro DO красное сухое 14.5%, 1.5л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-09007eb317",
+    "expected_name": "Водка Архангельская северная выдержка 40%, 375мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-2b3afe8aa6",
+    "expected_name": "Виски Laphroaig 10-летний шотландский односолодовый 40%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-3408b289d1",
+    "expected_name": "Коньяк Courvoisier VSOP 40%, 500мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-3f49ff7345",
+    "expected_name": "Водка Балчуг XXI век 40%, 500мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-4ba45814cb",
+    "expected_name": "Коньяк Courvoisier VS 40%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-4f417c67e3",
+    "expected_name": "Водка Царская Оригинальная 40%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-650f649d5d",
+    "expected_name": "Коньяк Courvoisier XO 40%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-7472e24cc0",
+    "expected_name": "Виски Dewar's Special Reserve 12 лет 40%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-838ee946aa",
+    "expected_name": "Водка Царская Золотая 40%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-83d078ead4",
+    "expected_name": "Виски Dewar's 8 Years Caribbean Smooth шотландский купажированный 40%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-87995eb6ba",
+    "expected_name": "Виски Teeling Small Batch ирландский купажированный 46%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-94c0d1503d",
+    "expected_name": "Виски Bushmills Ориджинал купажированный 40%, 500мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-af2ef3d411",
+    "expected_name": "Виски Chivas Regal 15-летний шотландский купажированный 40%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-b04c52b111",
+    "expected_name": "Вино игристое Mondoro Asti DOCG белое сладкое 7.5%, 750мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-b09791b152",
+    "expected_name": "Водка Grey Goose 40%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-b573cbfcf0",
+    "expected_name": "Виски Lagavulin шотландский односолодовый 16 лет 43%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-cf05fd5b34",
+    "expected_name": "Вино игристое Moët & Chandon Brut Imperial Champagne AOC белое брют в 12%, 750мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-e9931b9760",
+    "expected_name": "Водка Polba 40%, 700мл",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "prk-f1e7c97587",
+    "expected_name": "Виски Chivas Regal шотландский купажированный 12 лет",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-003ad978e43c",
+    "expected_name": "Виски The Hakushu 12 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-00a18802716d",
+    "expected_name": "Виски Glen Moray Elgin Classic",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-0a7e66a01cd8",
+    "expected_name": "Виски Chivas Regal 25 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-0d05a41a54f7",
+    "expected_name": "Пиво Berliner Kindl Jubilaums Pilsener",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-0ee6d27cf8af",
+    "expected_name": "Водка Danzka",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-0ffdec300513",
+    "expected_name": "Виски The Macallan The Harmony Collection Amber Meadow",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-115986573acd",
+    "expected_name": "Шампанское Veuve Clicquot Brut Rose",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-13379b93c005",
+    "expected_name": "Виски Chivas Regal Royal Salute 21 YO",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-15672403c0ff",
+    "expected_name": "Сидр Cider Abrahalls AM Celtic Marches apple semi dry",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-158eaab2aedc",
+    "expected_name": "Ром Zacapa Solera Gran Reserva 23 years",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-1e869b029ce0",
+    "expected_name": "Виски Glenmorangie The Quinta Ruban 14 Years",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-2d88133f9526",
+    "expected_name": "Пиво Flensburger Weizen",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-2fa83408cc0e",
+    "expected_name": "Виски Dalwhinnie 15 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-303ac0ac4823",
+    "expected_name": "Виски Suntory Yamazaki 12 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-3322e51da35a",
+    "expected_name": "Виски Macallan Sir Peter Blake",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-3441b9b5de23",
+    "expected_name": "Текила Don Julio Blanco",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-3713715e30ab",
+    "expected_name": "Коньяк Hennessy VS",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-399bc013aa5c",
+    "expected_name": "Виски Ardbeg Corryvreckan",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-3b25fc653af1",
+    "expected_name": "Виски Chivas Regal Royal Salute 25 Years Old Treasured Blend",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-3cedc5b28b61",
+    "expected_name": "Коньяк Hine H By VSOP",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-3e2ecc6a0cf0",
+    "expected_name": "Виски The Macallan Harmony Collection Rich Cacao",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-3fe9cd46ee78",
+    "expected_name": "Виски Teacher's Highland Cream",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-44091d2819c0",
+    "expected_name": "Коньяк Hennessy XO",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-452842254a88",
+    "expected_name": "Сидр Stowford Press Medium Dry",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-47a61ba81196",
+    "expected_name": "Виски Macallan Sherry Oak 18 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-4cecc3ad08e7",
+    "expected_name": "Водка Absolut",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-4fe0cd493703",
+    "expected_name": "Виски Ardbeg Wee Beastie 5 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-537c0e0edc05",
+    "expected_name": "Вино игристое белое сладкое Мартини асти Мартини энд Росси",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-55a537f95ca0",
+    "expected_name": "Пиво Paulaner, Hefe-Weissbier",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-575e4b69de3c",
+    "expected_name": "Виски Glenfiddich Grand Cru 23 Year Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-59caa49a4fed",
+    "expected_name": "Пиво Singha стекло",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-5bfc4ce0f3c0",
+    "expected_name": "Виски Caol Ila 18 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-5c1242a8fd3e",
+    "expected_name": "Шампанское Cattier Armand de Brignac Brut Gold",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-61d0c2822d1b",
+    "expected_name": "Вино Tignanello Toscana",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-642c57cc264b",
+    "expected_name": "Шампанское Bollinger Special Cuvee Brut",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-677afaab3878",
+    "expected_name": "Виски Monkey Shoulder",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-67e393aaa947",
+    "expected_name": "Виски Macallan Sherry Oak 25 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-6c32d41b1c88",
+    "expected_name": "Текила Don Julio 1942 Anejo",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-6ef4916ed1af",
+    "expected_name": "Коньяк Hennessy Paradis Extra",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-70e8c55e54da",
+    "expected_name": "Виски Glenfiddich Grande Couronne 26 Year Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-72868344756d",
+    "expected_name": "Виски Macallan Rare Cask",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-73ead4050130",
+    "expected_name": "Коньяк Tesseron Lot №76 XO Tradition",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-7804f1ed575b",
+    "expected_name": "Виски Suntory Hibiki Japanese Harmony",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-78ad2166fc6d",
+    "expected_name": "Виски Auchentoshan Double Cask 12 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-78f3b00f87f4",
+    "expected_name": "Пиво Hofbräu Münchner Weisse",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-7f582cd0e2b9",
+    "expected_name": "Сидр Сидр ALSKA passionfruit and apple",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-82f3c769597d",
+    "expected_name": "Пиво Newcastle Brown Ale",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-83cf80925223",
+    "expected_name": "Коньяк Remy Martin VSOP",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-8710dfe4b078",
+    "expected_name": "Виски Compass Box Hedonism",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-87e963fddf0f",
+    "expected_name": "Коньяк Chateau de Montifaud VSOP Grande Champagne Premier Cru",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-885888bcfca3",
+    "expected_name": "Виски Glenmorangie The Original 12 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-89075ad84e2f",
+    "expected_name": "Коньяк Chateau de Montifaud VSOP Petite Champagne",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-8bc91a058ad4",
+    "expected_name": "Джин Hendrick's",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-8ce2f853e35d",
+    "expected_name": "Коньяк Chateau de Montifaud XO Petite Champagne",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-8e53b5a01062",
+    "expected_name": "Джин Bombay Sapphire",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-8f3a2502bf09",
+    "expected_name": "Коньяк Martell VS",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-928350f59e3e",
+    "expected_name": "Сидр Cider Abrahalls AD Celtic Marches apple dry",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-939cb21ae409",
+    "expected_name": "Водка REYKA Small Batch",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-952799cd7bf8",
+    "expected_name": "Вино Bodegas Ramon Bilbao Crianza",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-984b25798524",
+    "expected_name": "Коньяк Martell VSOP",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-9926cdb6e15d",
+    "expected_name": "Пиво Radeberger Pilsner",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-a11b7f43ea98",
+    "expected_name": "Виски Aberfeldy 16 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-a2f6782b77f8",
+    "expected_name": "Виски Compass Box,The Peat Monster",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-a4065b8f6482",
+    "expected_name": "Пиво Belhaven Black Scottish Stout",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-a855fc0c052e",
+    "expected_name": "Водка Danzka Currant",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-a93c52b5c1ba",
+    "expected_name": "Виски Glenmorangie Signet",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-a9c75989bc4a",
+    "expected_name": "Коньяк Remy Martin Louis XIII",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-ac1c967cd9bf",
+    "expected_name": "Виски Macallan Sherry Oak 30 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-ad0ea221c601",
+    "expected_name": "Виски Maker's Mark Bourbon",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-affe753c0238",
+    "expected_name": "Текила Don Julio Reposado",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-b6178340a0b2",
+    "expected_name": "Виски Aberfeldy 12 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-b76ce40d014a",
+    "expected_name": "Коньяк Hennessy VSOP",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-b86766ce861d",
+    "expected_name": "Джин Gordon's London Dry Gin",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-bd1531299d11",
+    "expected_name": "Пиво Kriek Boon Extra",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-c14254896292",
+    "expected_name": "Сидр Alska Strawberry & Lime",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-c41939020ec4",
+    "expected_name": "Виски Talisker Skye",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-c7f47ef34a2f",
+    "expected_name": "Коньяк Chateau de Montifaud 20 Years Old Petite Champagne",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-c92b9fa573db",
+    "expected_name": "Ликер Disaronno, Originale",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-c9ceadfe2e77",
+    "expected_name": "Коньяк Tesseron Lot №53 XO Perfection",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-cecb310af701",
+    "expected_name": "Виски Glenmorangie Nectar D'Or",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-d1c9adf2be92",
+    "expected_name": "Коньяк Chateau de Montifaud \"Heritage Louis Vallet\" 50 Years Old, Fine Petite Champagne AOC",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-d3e928d26431",
+    "expected_name": "Коньяк Chateau de Montifaud 30 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-d64356480df2",
+    "expected_name": "Пиво Paulaner Original Munchner Hell",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-d70d3e906ec1",
+    "expected_name": "Виски Macallan Double Cask 15 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-d8d44811132a",
+    "expected_name": "Коньяк Martell Cohiba",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-d9321cd7e146",
+    "expected_name": "Пиво Belhaven, McCallum's Sweet Scottish Stout",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-d9609b2d5711",
+    "expected_name": "Виски Macallan A Night on Earth in Jerez de la Frontera",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-dd6823095d52",
+    "expected_name": "Пиво Paulaner, Hefe-Weissbier Non-Alcoholic",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-dde3b26f17a0",
+    "expected_name": "Ром Zacapa Centenario XO",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-df12949e24d8",
+    "expected_name": "Виски The Macallan Sherry Oak 12 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-df305592e7e1",
+    "expected_name": "Виски Compass Box The Spice Tree",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-e0eb325281f7",
+    "expected_name": "Виски Town Branch Bourbon",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-e293e63c658c",
+    "expected_name": "Виски Auchentoshan American Oak",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-e4d680f76028",
+    "expected_name": "Sambuca Molinari Extra",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-e613475a3f1c",
+    "expected_name": "Виски Glenfiddich 21 Years Reserva Rum Cask Finish",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-e68733a2d990",
+    "expected_name": "Вино Querciabella, Bataк, Toscana IGT",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-e777a55a2008",
+    "expected_name": "Водка Danzka Citrus",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-f108ca4c4ff2",
+    "expected_name": "Пиво Пиво Trappistes Rochefort Triple Extra",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-f1f846ac3a43",
+    "expected_name": "Виски Connemara, gift box",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-f89d4e40b0c6",
+    "expected_name": "Виски Macallan Double Cask 12 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-fa224c732dce",
+    "expected_name": "Виски Macallan Double Cask 18 Years Old",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-fa9927a61e24",
+    "expected_name": "Пиво Пиво Trappistes Rochefort 8",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-fb02c07a9de8",
+    "expected_name": "Jagermeister",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "sp-5230114075",
+    "expected_name": "Ром Выдержанный Гавана Клуб Аньехо 3 Года 37,5% 0,7л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "sp-5a976d9b16",
+    "expected_name": "Ром Барсело Бланко Выдержанный 37,5% 0,7л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "sp-f740e80a09",
+    "expected_name": "Водка Особая Чистые Росы с Перцем 40% 0,7л",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr-0a3a47f399",
+    "expected_name": "Винодельня Узунов Моно Саперави",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr-0cc1eaed07",
+    "expected_name": "Вино красное сухое стиль №4 Красностоп ЗГУ резерв Шато де Талю",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr-0e93764df0",
+    "expected_name": "Винодельня Узунов Моно Каберне Совиньон",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr-2029345c55",
+    "expected_name": "Вино красное сухое стиль №3 Каберне Совиньон ЗГУ резерв Шато де Талю",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr-300a6dcf6c",
+    "expected_name": "Водка Spelta",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr-34d496c2a2",
+    "expected_name": "Водка Чистые Росы Из Ржаного Зерна",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr-456e26fc31",
+    "expected_name": "Водка Чистые Росы",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr-48351c6a15",
+    "expected_name": "Водка Пять Озер",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr-f189fded0a",
+    "expected_name": "Водка Чистые Росы из ячменного зерна",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr3-1d51c5a7e0",
+    "expected_name": "Водка Русский Стандарт",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr3-811570aa24",
+    "expected_name": "Бренди Torres 10 Gran Reserva",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr3-a8cbf60432",
+    "expected_name": "Водка Danzka Grapefruit",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr3-bcc8e79a3e",
+    "expected_name": "Водка Finlandia",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr3-ede25d72db",
+    "expected_name": "Водка Русский Стандарт Gold",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "vr3-f478cce0c3",
+    "expected_name": "Джин Roku",
+    "network": "Азбука вкуса",
+    "checked_at": "2026-10-26"
   }
 ]

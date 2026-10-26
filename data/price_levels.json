@@ -17254,5 +17254,869 @@
     "scale": "cognac",
     "volume_ml": 500,
     "observed_at": "2026-10-26"
+  },
+  "prk-cf05fd5b34": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "mt-57ddb71c0e": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "mt-d2578303df": {
+    "level": 5,
+    "scale": "other",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "vr3-811570aa24": {
+    "level": 3,
+    "scale": "brandy",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "vr3-ede25d72db": {
+    "level": 3,
+    "scale": "vodka",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "bbca9ec4ab": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "sp-5230114075": {
+    "level": 4,
+    "scale": "rum",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "jo-e654f63948": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "7464ba4537": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 250,
+    "observed_at": "2026-10-26"
+  },
+  "5b99079af3": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "jo-4f02fc5735": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "4d11a58689": {
+    "level": 3,
+    "scale": "cider",
+    "volume_ml": 440,
+    "observed_at": "2026-10-26"
+  },
+  "bd807f4a9b": {
+    "level": 5,
+    "scale": "beer",
+    "volume_ml": 440,
+    "observed_at": "2026-10-26"
+  },
+  "mt-9bd0d1cc9c": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "ln-dec5bd1bec": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 610,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-2d88133f9526": {
+    "level": 5,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-bd1531299d11": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 250,
+    "observed_at": "2026-10-26"
+  },
+  "rfa-f1f846ac3a43": {
+    "level": 3,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "vr-2029345c55": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "vr-0cc1eaed07": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-119499": {
+    "level": 5,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-410720": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-1015926": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-1008759": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 440,
+    "observed_at": "2026-10-26"
+  },
+  "av-141750": {
+    "level": 5,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-307198": {
+    "level": 5,
+    "scale": "beer",
+    "volume_ml": 250,
+    "observed_at": "2026-10-26"
+  },
+  "av-307196": {
+    "level": 5,
+    "scale": "beer",
+    "volume_ml": 250,
+    "observed_at": "2026-10-26"
+  },
+  "av-1023351": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-438265": {
+    "level": 5,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-26"
+  },
+  "av-1021565": {
+    "level": 5,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-1021564": {
+    "level": 5,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-546792": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-546793": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-431148": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-397685": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-420693": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-397691": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-431149": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-431150": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-397687": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-305871": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-233405": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-305867": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-559144": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1015739": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-499310": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-533706": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-373841": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-373839": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-373842": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-427312": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-373844": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-497055": {
+    "level": 3,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-384614": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-556379": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-131369": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1017570": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1000717": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-546194": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-546196": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-546192": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-546193": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-561611": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-561612": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-561610": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1024425": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1024426": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1024424": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-377784": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-502960": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1014726": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-502402": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1016701": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1014724": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1014725": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1016702": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1014719": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-502400": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-502408": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1016703": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-460604": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-247133": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-345496": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-405801": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1000023": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-455076": {
+    "level": 3,
+    "scale": "fortified",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-427315": {
+    "level": 3,
+    "scale": "fortified",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-248431": {
+    "level": 3,
+    "scale": "fortified",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-1018167": {
+    "level": 5,
+    "scale": "fortified",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-184967": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-184969": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-184968": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-505006": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1018168": {
+    "level": 3,
+    "scale": "fortified",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-505007": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-427313": {
+    "level": 4,
+    "scale": "fortified",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-505005": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-533711": {
+    "level": 5,
+    "scale": "fortified",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-427314": {
+    "level": 5,
+    "scale": "fortified",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-427316": {
+    "level": 5,
+    "scale": "fortified",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-533710": {
+    "level": 5,
+    "scale": "fortified",
+    "volume_ml": 500,
+    "observed_at": "2026-10-26"
+  },
+  "av-540078": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-508148": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-545880": {
+    "level": 5,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1006687": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1020884": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1006685": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-261387": {
+    "level": 3,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-429274": {
+    "level": 3,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-261388": {
+    "level": 3,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-261385": {
+    "level": 3,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-429638": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-234806": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-429637": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-234807": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1007177": {
+    "level": 5,
+    "scale": "rum",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-1012578": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-516365": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-1012974": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-475355": {
+    "level": 5,
+    "scale": "rum",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-1001820": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-1001837": {
+    "level": 4,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-547343": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-460023": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-500095": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-1001652": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-497895": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-544528": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-133639": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-1009359": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-551545": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-1018995": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-1018994": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-233352": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-232768": {
+    "level": 3,
+    "scale": "whisky",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1022789": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-009634": {
+    "level": 4,
+    "scale": "liqueur",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-488838": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-1006334": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-1018562": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-262702": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
+  },
+  "av-1013852": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "av-1002580": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-26"
+  },
+  "ln-0be74a4c82": {
+    "level": 5,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-26"
   }
 }

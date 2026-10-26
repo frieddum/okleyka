@@ -1,0 +1,2863 @@
+{
+  "copied_at": "2026-10-26",
+  "items": [
+    {
+      "id": "av-119499",
+      "name": "Schlenkerla Rauchbier Marzen",
+      "company": "Schlenkerla",
+      "category": "Пиво",
+      "country": "Германия",
+      "volume_ml": 500,
+      "abv": 5.1,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2014-06",
+      "rationale": "Производитель подтвердил состав и фильтрацию без животных веществ.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/466/schlenkerla",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-410720",
+      "name": "Birra Moretti",
+      "company": "Birra Moretti",
+      "category": "Пиво",
+      "country": "Италия",
+      "volume_ml": 500,
+      "abv": 4.6,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2017-09",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/1872/birra-moretti",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1015926",
+      "name": "Heineken",
+      "company": "Heineken",
+      "category": "Пиво",
+      "country": "Чехия",
+      "volume_ml": 500,
+      "abv": 5.0,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-04",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/cider/27/heineken",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1008759",
+      "name": "Guinness Draught Zero — безалкогольное",
+      "company": "Guinness",
+      "category": "Пиво",
+      "country": "Ирландия",
+      "volume_ml": 440,
+      "abv": 0.05,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2022-01",
+      "rationale": "Производитель подтвердил отказ от рыбьего клея в Guinness Draught, включая безалкогольную версию 0.0.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/26/guinness",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-141750",
+      "name": "Klosterbrauerei Neuzelle Monchspils",
+      "company": "Klosterbrauerei Neuzelle",
+      "category": "Пиво",
+      "country": "Германия",
+      "volume_ml": 500,
+      "abv": 4.8,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2014-01",
+      "rationale": "Производство пива веганское; в старом ответе производитель указал казеин в клее этикетки.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/3189/klosterbrauerei-neuzelle",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-307198",
+      "name": "Lindemans Kriek",
+      "company": "Brewery Lindemans",
+      "category": "Пиво",
+      "country": "Бельгия",
+      "volume_ml": 250,
+      "abv": 3.5,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2014-05",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/34/brewery-lindemans",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-307196",
+      "name": "Lindemans Framboise",
+      "company": "Brewery Lindemans",
+      "category": "Пиво",
+      "country": "Бельгия",
+      "volume_ml": 250,
+      "abv": 2.5,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2014-05",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/34/brewery-lindemans",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1023351",
+      "name": "Lemon Radler, Paulaner",
+      "company": "Paulaner Brewery",
+      "category": "Пиво",
+      "country": "Германия",
+      "volume_ml": 500,
+      "abv": 2.5,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-06",
+      "rationale": "Производитель подтвердил все свои продукты как веганские; в июне 2018 сообщил о переходе на клей без казеина.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/788/paulaner-brewery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-438265",
+      "name": "St-Feuillien Grand Cru",
+      "company": "St Feuillien",
+      "category": "Пиво",
+      "country": "Бельгия",
+      "volume_ml": 330,
+      "abv": 9.5,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": null,
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/930/st-feuillien",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1021565",
+      "name": "Without Gold, St.Peter's — безалкогольное",
+      "company": "St. Peter's Brewery Co. Ltd.",
+      "category": "Пиво",
+      "country": "Великобритания",
+      "volume_ml": 500,
+      "abv": 0.05,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2022-02",
+      "rationale": "Безалкогольная линейка Without подтверждена производителем и сертифицирована Vegan Society.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/818/st-peter-s-brewery-co-ltd",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1021564",
+      "name": "Without, St.Peter's — безалкогольное",
+      "company": "St. Peter's Brewery Co. Ltd.",
+      "category": "Пиво",
+      "country": "Великобритания",
+      "volume_ml": 500,
+      "abv": 0.05,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2022-02",
+      "rationale": "Безалкогольная линейка Without подтверждена производителем и сертифицирована Vegan Society.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/818/st-peter-s-brewery-co-ltd",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-546792",
+      "name": "Wychwood Hobgoblin Hobgoblin Gold",
+      "company": "Wychwood Brewery",
+      "category": "Пиво",
+      "country": "Великобритания",
+      "volume_ml": 500,
+      "abv": 4.2,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-11",
+      "rationale": "Производитель сообщил, что Hobgoblin не подходит веганам; для осветления используется рыбий клей.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/58/wychwood-brewery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-546793",
+      "name": "Wychwood Hobgoblin Ruby",
+      "company": "Wychwood Brewery",
+      "category": "Пиво",
+      "country": "Великобритания",
+      "volume_ml": 500,
+      "abv": 4.5,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-11",
+      "rationale": "Производитель сообщил, что Hobgoblin не подходит веганам; для осветления используется рыбий клей.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/58/wychwood-brewery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-431148",
+      "name": "Freakshow Zinfandel Lodi Michael David Winery",
+      "company": "Michael David Winery",
+      "category": "Вино",
+      "country": "США",
+      "volume_ml": 750,
+      "abv": 15.0,
+      "color": "Красное",
+      "sugar": "Сухое",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2017-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/3463/michael-david-winery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-397685",
+      "name": "Petite Petit Lodi Michael David Winery",
+      "company": "Michael David Winery",
+      "category": "Вино",
+      "country": "США",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2017-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/3463/michael-david-winery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-420693",
+      "name": "Sauvignon Blanc Lodi Michael David Winery",
+      "company": "Michael David Winery",
+      "category": "Вино",
+      "country": "США",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2017-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/3463/michael-david-winery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-397691",
+      "name": "Chardonnay Lodi Michael David Winery",
+      "company": "Michael David Winery",
+      "category": "Вино",
+      "country": "США",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2017-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/3463/michael-david-winery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-431149",
+      "name": "Freakshow Red Lodi Michael David Winery",
+      "company": "Michael David Winery",
+      "category": "Вино",
+      "country": "США",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2017-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/3463/michael-david-winery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-431150",
+      "name": "Freakshow Cabernet Sauvignon Lodi Michael David Winery",
+      "company": "Michael David Winery",
+      "category": "Вино",
+      "country": "США",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2017-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/3463/michael-david-winery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-397687",
+      "name": "6 Sense Syrah Lodi Michael David Winery",
+      "company": "Michael David Winery",
+      "category": "Вино",
+      "country": "США",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2017-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/3463/michael-david-winery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-305871",
+      "name": "Umbria Foresco Barberani",
+      "company": "Barberani",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2020-10",
+      "rationale": "Производитель подтвердил веганский статус перечисленных вин Barberani; ответ не распространяется на все линейки.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/5903/barberani",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-233405",
+      "name": "Orvieto Luigi e Giovanna Classico Superiore Barberani",
+      "company": "Barberani",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2020-10",
+      "rationale": "Производитель подтвердил веганский статус перечисленных вин Barberani; ответ не распространяется на все линейки.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/5903/barberani",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-305867",
+      "name": "Umbria Grechetto Barberani",
+      "company": "Barberani",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2020-10",
+      "rationale": "Производитель подтвердил веганский статус перечисленных вин Barberani; ответ не распространяется на все линейки.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/5903/barberani",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-559144",
+      "name": "Umbria Polvento Barberani",
+      "company": "Barberani",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2020-10",
+      "rationale": "Производитель подтвердил веганский статус перечисленных вин Barberani; ответ не распространяется на все линейки.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/5903/barberani",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1015739",
+      "name": "Umbria Moscato Passito Barberani",
+      "company": "Barberani",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 500,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Сладкое",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2020-10",
+      "rationale": "Производитель подтвердил веганский статус перечисленных вин Barberani; ответ не распространяется на все линейки.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/5903/barberani",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-499310",
+      "name": "Orvieto Calcaia Muffa Nobile Classico Superiore Barberani",
+      "company": "Barberani",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 500,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Сладкое",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2020-10",
+      "rationale": "Производитель подтвердил веганский статус перечисленных вин Barberani; ответ не распространяется на все линейки.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/5903/barberani",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-533706",
+      "name": "Valencia La Madriguera Monastrell Antonio Arraez",
+      "company": "Bodegas Arráez",
+      "category": "Вино",
+      "country": "Испания",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2023-03",
+      "rationale": "Производитель: веганские только красные вина; на белые этот ответ не распространяется.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/9241/bodegas-arr-ez",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-373841",
+      "name": "Almansa El Abuelo Crianza Bodegas Piqueras",
+      "company": "Bodegas Piqueras",
+      "category": "Вино",
+      "country": "Испания",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-08",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6662/bodegas-piqueras",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-373839",
+      "name": "Almansa El Abuelo Reserva Bodegas Piqueras",
+      "company": "Bodegas Piqueras",
+      "category": "Вино",
+      "country": "Испания",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-08",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6662/bodegas-piqueras",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-373842",
+      "name": "Almansa El Abuelo Garnacha Tintorera Bodegas Piqueras",
+      "company": "Bodegas Piqueras",
+      "category": "Вино",
+      "country": "Испания",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-08",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6662/bodegas-piqueras",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-427312",
+      "name": "Almansa El Abuelo Seleccion Bodegas Piqueras",
+      "company": "Bodegas Piqueras",
+      "category": "Вино",
+      "country": "Испания",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-08",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6662/bodegas-piqueras",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-373844",
+      "name": "Almansa El Abuelo Verdejo Sauvignon Blanc Bodegas Piqueras",
+      "company": "Bodegas Piqueras",
+      "category": "Вино",
+      "country": "Испания",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-08",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6662/bodegas-piqueras",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-497055",
+      "name": "El Abuelo Extra Dry Bodegas Piqueras",
+      "company": "Bodegas Piqueras",
+      "category": "Игристое вино",
+      "country": "Испания",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Экстра драй",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-08",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6662/bodegas-piqueras",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-384614",
+      "name": "Pauillac Gr.Cru Classe Chateau Pontet-Canet 2014",
+      "company": "Château Pontet-Canet",
+      "category": "Вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": 2014,
+      "status": "vegan",
+      "evidence_date": "2014-08",
+      "rationale": "Производитель: вино не оклеивают, перед розливом слегка фильтруют через целлюлозу.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/3639/ch-teau-pontet-canet",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-556379",
+      "name": "The Stump Jump Chardonnay McLaren Vale D'Arenberg",
+      "company": "d'Arenberg",
+      "category": "Вино",
+      "country": "Австралия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-07",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/2131/d-arenberg",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-131369",
+      "name": "The Stump Jump Grenache Shiraz Mourvedre McLaren Vale D'Arenberg",
+      "company": "d'Arenberg",
+      "category": "Вино",
+      "country": "Австралия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-07",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/2131/d-arenberg",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1017570",
+      "name": "Champagne Moet & Chandon Dom Perignon Brut/Extra Brut 2015",
+      "company": "Moët & Chandon",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": 2015,
+      "status": "vegan",
+      "evidence_date": "2013-01",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/186/mo-t-chandon",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1000717",
+      "name": "Reach For The Sky Shiraz Barossa Valley Kaesler",
+      "company": "Kaesler Vineyards",
+      "category": "Вино",
+      "country": "Австралия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2014-02",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/3225/kaesler-vineyards",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-546194",
+      "name": "Irpinia Neromora Vinosia",
+      "company": "Vinosìa",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2026-02",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/10059/vinos-a",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-546196",
+      "name": "Taurasi Santadrea Vinosia",
+      "company": "Vinosìa",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2026-02",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/10059/vinos-a",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-546192",
+      "name": "Irpinia Fontana della Loggia Vinosia",
+      "company": "Vinosìa",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2026-02",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/10059/vinos-a",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-546193",
+      "name": "Greco di Tufo L'Ariella Vinosia",
+      "company": "Vinosìa",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2026-02",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/10059/vinos-a",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-561611",
+      "name": "Comte Tolosan Terra Vallona Cave du Marmandais",
+      "company": "Cave du Marmandais",
+      "category": "Вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": "Полусухое",
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2025-02",
+      "rationale": "Производитель сообщил, что его вина не подходят веганам.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/9804/cave-du-marmandais",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-561612",
+      "name": "Comte Tolosan Terra Vallona Cave du Marmandais",
+      "company": "Cave du Marmandais",
+      "category": "Вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Розовое",
+      "sugar": "Полусухое",
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2025-02",
+      "rationale": "Производитель сообщил, что его вина не подходят веганам.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/9804/cave-du-marmandais",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-561610",
+      "name": "Nos Cinq Sens Cave du Marmandais",
+      "company": "Cave du Marmandais",
+      "category": "Вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": "Полусухое",
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2025-02",
+      "rationale": "Производитель сообщил, что его вина не подходят веганам.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/9804/cave-du-marmandais",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1024425",
+      "name": "Riesling Trocken GG Brauneberger Juffer-Sonnenuhr Max Ferd.Richter",
+      "company": "Weingut Max Ferd.Richter",
+      "category": "Вино",
+      "country": "Германия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Сухое",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-11",
+      "rationale": "Производитель описал осветление и фильтрацию диатомитом; животные осветляющие агенты не указаны. Barnivore относит вина к веганским.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6810/weingut-max-ferd-richter",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1024426",
+      "name": "Riesling Trocken GG Uralte Reben Wehlener Sonnenuhr Max Ferd.Richter",
+      "company": "Weingut Max Ferd.Richter",
+      "category": "Вино",
+      "country": "Германия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Сухое",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-11",
+      "rationale": "Производитель описал осветление и фильтрацию диатомитом; животные осветляющие агенты не указаны. Barnivore относит вина к веганским.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6810/weingut-max-ferd-richter",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1024424",
+      "name": "Riesling Dry Richter Max Ferd.Richter",
+      "company": "Weingut Max Ferd.Richter",
+      "category": "Вино",
+      "country": "Германия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Полусухое",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-11",
+      "rationale": "Производитель описал осветление и фильтрацию диатомитом; животные осветляющие агенты не указаны. Barnivore относит вина к веганским.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6810/weingut-max-ferd-richter",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-377784",
+      "name": "Opus One 2014 Napa Valley Opus One",
+      "company": "Opus One Winery",
+      "category": "Вино",
+      "country": "США",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": 2014,
+      "status": "nonvegan",
+      "evidence_date": "2015-06",
+      "rationale": "Производитель использует яичные белки для оклейки вина в бочке.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/4045/opus-one-winery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-502960",
+      "name": "Champagne Philipponnat Royale Reserve Rose Brut",
+      "company": "Champagne Philipponnat",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Розовое",
+      "sugar": "Брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2025-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7159/champagne-philipponnat",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1014724",
+      "name": "Champagne Philipponnat Reserve Perpetuelle Brut",
+      "company": "Champagne Philipponnat",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 375,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2025-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7159/champagne-philipponnat",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1014726",
+      "name": "Champagne Philipponnat Blanc de Blancs Extra Brut",
+      "company": "Champagne Philipponnat",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Экстра брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2025-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7159/champagne-philipponnat",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-502402",
+      "name": "Champagne Philipponnat Cuvee 1522 Extra Brut",
+      "company": "Champagne Philipponnat",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Экстра брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2025-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7159/champagne-philipponnat",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1016701",
+      "name": "Champagne Philipponnat La Remissonne 1-er Cru Extra Brut",
+      "company": "Champagne Philipponnat",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Экстра брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2025-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7159/champagne-philipponnat",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1014725",
+      "name": "Champagne Philipponnat Reserve Perpetuelle Non Dose",
+      "company": "Champagne Philipponnat",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Брют натюр",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2025-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7159/champagne-philipponnat",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1016702",
+      "name": "Champagne Philipponnat Le Leon Grand Cru Extra Brut",
+      "company": "Champagne Philipponnat",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Экстра брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2025-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7159/champagne-philipponnat",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1014719",
+      "name": "Champagne Philipponnat Rose Brut",
+      "company": "Champagne Philipponnat",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Розовое",
+      "sugar": "Брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2025-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7159/champagne-philipponnat",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-502400",
+      "name": "Champagne Philipponnat Blanc de Noirs Extra Brut",
+      "company": "Champagne Philipponnat",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Экстра брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2025-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7159/champagne-philipponnat",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-502408",
+      "name": "Champagne Philipponnat Cuvee 1522 Rose Extra Brut",
+      "company": "Champagne Philipponnat",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Розовое",
+      "sugar": "Экстра брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2025-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7159/champagne-philipponnat",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1016703",
+      "name": "Champagne Philipponnat Les Cintres Extra Brut",
+      "company": "Champagne Philipponnat",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Экстра брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2025-10",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7159/champagne-philipponnat",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-345496",
+      "name": "Maremma Toscana Carandelle Podere San Cristoforo",
+      "company": "Podere San Cristoforo",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 1500,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2020-01",
+      "rationale": "Производитель: все вина хозяйства без оклейки и фильтрации; животные вспомогательные вещества не применяются ни на одном этапе.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7659/podere-san-cristoforo",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-460604",
+      "name": "Maremma Toscana Luminoso Podere San Cristoforo",
+      "company": "Podere San Cristoforo",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2020-01",
+      "rationale": "Производитель: все вина хозяйства без оклейки и фильтрации; животные вспомогательные вещества не применяются ни на одном этапе.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7659/podere-san-cristoforo",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-247133",
+      "name": "Toscana Podere San Cristoforo",
+      "company": "Podere San Cristoforo",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2020-01",
+      "rationale": "Производитель: все вина хозяйства без оклейки и фильтрации; животные вспомогательные вещества не применяются ни на одном этапе.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7659/podere-san-cristoforo",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-405801",
+      "name": "Toscana Camartina Querciabella",
+      "company": "Querciabella",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": null,
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/1223/querciabella",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1000023",
+      "name": "Vinho Verde Mare & Grill Quinta das Arcas",
+      "company": "Quinta das Arcas",
+      "category": "Вино",
+      "country": "Португалия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Полусухое",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2013-07",
+      "rationale": "Производитель подтвердил, что не использует животные вещества для оклейки своих вин.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/2940/quinta-das-arcas",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-455076",
+      "name": "Branco Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Портвейн",
+      "country": "Португалия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-427315",
+      "name": "LBV Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Портвейн",
+      "country": "Португалия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-248431",
+      "name": "Tawny 10 YO Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Портвейн",
+      "country": "Португалия",
+      "volume_ml": 500,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1018167",
+      "name": "Roller Blend Tawny Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Портвейн",
+      "country": "Португалия",
+      "volume_ml": 500,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-184967",
+      "name": "Douro Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Вино",
+      "country": "Португалия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-184969",
+      "name": "Douro Sousao Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Вино",
+      "country": "Португалия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-184968",
+      "name": "Douro Reserva Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Вино",
+      "country": "Португалия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-505006",
+      "name": "Douro Prima Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Вино",
+      "country": "Португалия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1018168",
+      "name": "Branco 10 YO Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Портвейн",
+      "country": "Португалия",
+      "volume_ml": 500,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-505007",
+      "name": "Douro Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Вино",
+      "country": "Португалия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-427313",
+      "name": "Tawny 20 YO Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Портвейн",
+      "country": "Португалия",
+      "volume_ml": 500,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-505005",
+      "name": "Douro Touriga Nacional Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Вино",
+      "country": "Португалия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Розовое",
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-533711",
+      "name": "Tawny 50 YO Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Портвейн",
+      "country": "Португалия",
+      "volume_ml": 500,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-427314",
+      "name": "Tawny 30 YO Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Портвейн",
+      "country": "Португалия",
+      "volume_ml": 500,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-427316",
+      "name": "Vintage Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Портвейн",
+      "country": "Португалия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-533710",
+      "name": "Tawny 40 YO Quinta do Vallado",
+      "company": "Quinta do Vallado",
+      "category": "Портвейн",
+      "country": "Португалия",
+      "volume_ml": 500,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2020-09",
+      "rationale": "Производитель сообщил об использовании средств осветления с производными яйца.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8027/quinta-do-vallado",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-540078",
+      "name": "Champagne Ruinart Blanc de Blancs Brut",
+      "company": "Maison Ruinart",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": 12.5,
+      "color": "Белое",
+      "sugar": "Брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2019-04",
+      "rationale": "Производитель прямо подтвердил веганский статус всех шампанских Ruinart.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7160/maison-ruinart",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-508148",
+      "name": "Champagne Ruinart R de Ruinart Brut",
+      "company": "Maison Ruinart",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2019-04",
+      "rationale": "Производитель прямо подтвердил веганский статус всех шампанских Ruinart.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7160/maison-ruinart",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-545880",
+      "name": "Champagne Ruinart Rose Brut",
+      "company": "Maison Ruinart",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": 12.5,
+      "color": "Розовое",
+      "sugar": "Брют",
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2019-04",
+      "rationale": "Производитель прямо подтвердил веганский статус всех шампанских Ruinart.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/7160/maison-ruinart",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1006687",
+      "name": "Sunbird Sauvignon Blanc Stellendosch Simonsig",
+      "company": "Simonsig Wine Estate",
+      "category": "Вино",
+      "country": "ЮАР",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2018-06",
+      "rationale": "Производитель подтвердил все белые вина: для осветления используется растительный Vegicol.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6455/simonsig-wine-estate",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1020884",
+      "name": "Toscana Tignanello 2022 Antinori",
+      "company": "Tignanello Wine",
+      "category": "Вино",
+      "country": "Италия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": 2022,
+      "status": "nonvegan",
+      "evidence_date": "2021-12",
+      "rationale": "Производитель сообщил, что при производстве красных вин применяются животные вещества, включая желатин и рыбий клей.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/8729/tignanello-wine",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1006685",
+      "name": "Alsace Riesling Maison Trimbach",
+      "company": "Trimbach",
+      "category": "Вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": null,
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/1468/trimbach",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-261387",
+      "name": "Jean de Villeneuve Blanc de Blancs Brut Veuve Ambal",
+      "company": "Veuve Ambal",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Брют",
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2025-08",
+      "rationale": "По свежему ответу производителя, поставщики могут использовать свиной или говяжий желатин, поэтому продукт не считается веганским.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/2704/veuve-ambal",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-429274",
+      "name": "Jean de Villeneuve Rose Brut Veuve Ambal",
+      "company": "Veuve Ambal",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 200,
+      "abv": null,
+      "color": "Розовое",
+      "sugar": "Брют",
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2025-08",
+      "rationale": "По свежему ответу производителя, поставщики могут использовать свиной или говяжий желатин, поэтому продукт не считается веганским.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/2704/veuve-ambal",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-261388",
+      "name": "Jean de Villeneuve Demi-Sec Veuve Ambal",
+      "company": "Veuve Ambal",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Полусухое",
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2025-08",
+      "rationale": "По свежему ответу производителя, поставщики могут использовать свиной или говяжий желатин, поэтому продукт не считается веганским.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/2704/veuve-ambal",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-261385",
+      "name": "Jean de Villeneuve Brut Veuve Ambal",
+      "company": "Veuve Ambal",
+      "category": "Игристое вино",
+      "country": "Франция",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": "Брют",
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2025-08",
+      "rationale": "По свежему ответу производителя, поставщики могут использовать свиной или говяжий желатин, поэтому продукт не считается веганским.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/2704/veuve-ambal",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-429638",
+      "name": "Rueda Verdejo Vinos Sanz",
+      "company": "Vinos Sanz",
+      "category": "Вино",
+      "country": "Испания",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2019-01",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6927/vinos-sanz",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-234806",
+      "name": "Rueda Finca La Colina Cien x Cien Verdejo Vinos Sanz",
+      "company": "Vinos Sanz",
+      "category": "Вино",
+      "country": "Испания",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2019-01",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6927/vinos-sanz",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-429637",
+      "name": "Rueda El Loco Verdejo Vinos Sanz",
+      "company": "Vinos Sanz",
+      "category": "Вино",
+      "country": "Испания",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2019-01",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6927/vinos-sanz",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-370353",
+      "name": "Rueda Classico Vinos Sanz",
+      "company": "Vinos Sanz",
+      "category": "Вино",
+      "country": "Испания",
+      "volume_ml": 375,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2019-01",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6927/vinos-sanz",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-234807",
+      "name": "Rueda Sauvignon Vinos Sanz",
+      "company": "Vinos Sanz",
+      "category": "Вино",
+      "country": "Испания",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Белое",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2019-01",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/wine/6927/vinos-sanz",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1007177",
+      "name": "Angostura 1919 Deluxe Aged Blend",
+      "company": "Angostura",
+      "category": "Ром",
+      "country": "Тринидад и Тобаго",
+      "volume_ml": 700,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2011-04",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/1450/angostura",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1012578",
+      "name": "Ardbeg Traigh Bhan The Ultimate Islay Single Malt 19 YO",
+      "company": "Ardbeg Distillery",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 750,
+      "abv": 46.2,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": null,
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/889/ardbeg-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-516365",
+      "name": "Benriach Speyside Single Malt 21 YO",
+      "company": "The BenRiach Distillery Company Ltd.",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 46.0,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2015-07",
+      "rationale": "Производитель подтвердил отсутствие животных веществ в производстве и фильтрации виски. Клей этикетки содержит казеин.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/4075/the-benriach-distillery-company-ltd",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1012974",
+      "name": "Benriach Speyside Single Malt Four Cask Matured 25 YO",
+      "company": "The BenRiach Distillery Company Ltd.",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 46.0,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2015-07",
+      "rationale": "Производитель подтвердил отсутствие животных веществ в производстве и фильтрации виски. Клей этикетки содержит казеин.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/4075/the-benriach-distillery-company-ltd",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-475355",
+      "name": "Bumbu Original",
+      "company": "Bumbu Rum Co.",
+      "category": "Ром",
+      "country": "Барбадос",
+      "volume_ml": 700,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2020-01",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/7640/bumbu-rum-co",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1001820",
+      "name": "Pierre Ferrand Reserve Double Cask AOC Grande Champagne 1-er Cru de Cognac",
+      "company": "Maison Ferrand",
+      "category": "Коньяк",
+      "country": "Франция",
+      "volume_ml": 700,
+      "abv": 42.3,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2016-06",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/4623/maison-ferrand",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1001837",
+      "name": "Pierre Ferrand Ambre AOC Grande Champagne 1-er Cru de Cognac",
+      "company": "Maison Ferrand",
+      "category": "Коньяк",
+      "country": "Франция",
+      "volume_ml": 700,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2016-06",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/4623/maison-ferrand",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-547343",
+      "name": "Glen Moray Speyside Single Malt Heritage 12 YO",
+      "company": "Glen Moray Distillery",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2015-11",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/4087/glen-moray-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-460023",
+      "name": "Glenfiddich Speyside Single Malt 12 YO",
+      "company": "Glenfiddich",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2016-12",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/1843/glenfiddich",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-500095",
+      "name": "Glenfiddich Speyside Single Malt 18 YO",
+      "company": "Glenfiddich",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2016-12",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/1843/glenfiddich",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1001652",
+      "name": "Glenmorangie X Made For Mixing Highland Single Malt",
+      "company": "Glenmorangie",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": null,
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/176/glenmorangie",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-497895",
+      "name": "Glenmorangie Highland Single Malt Grand Vintage 1997",
+      "company": "Glenmorangie",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 43.0,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": null,
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/176/glenmorangie",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-544528",
+      "name": "Glenmorangie Highland Single Malt 19 YO Finest Reserve",
+      "company": "Glenmorangie",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 43.0,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": null,
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/176/glenmorangie",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-133639",
+      "name": "Highland Park Orkney Single Malt 18 YO",
+      "company": "Highland Park Distillery",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 43.0,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2013-04",
+      "rationale": "Производитель описал фильтрацию диатомитом и подтвердил отсутствие животной оклейки у хереса для используемых бочек.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/2759/highland-park-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1009359",
+      "name": "Highland Park Orkney Single Malt 21 YO",
+      "company": "Highland Park Distillery",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 46.0,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2013-04",
+      "rationale": "Производитель описал фильтрацию диатомитом и подтвердил отсутствие животной оклейки у хереса для используемых бочек.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/2759/highland-park-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-551545",
+      "name": "Highland Park Orkney Single Malt 12 YO",
+      "company": "Highland Park Distillery",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2013-04",
+      "rationale": "Производитель описал фильтрацию диатомитом и подтвердил отсутствие животной оклейки у хереса для используемых бочек.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/2759/highland-park-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1018995",
+      "name": "Highland Park Viking Heart Orkney Single Malt 15 YO",
+      "company": "Highland Park Distillery",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 44.0,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2013-04",
+      "rationale": "Производитель описал фильтрацию диатомитом и подтвердил отсутствие животной оклейки у хереса для используемых бочек.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/2759/highland-park-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1018994",
+      "name": "Highland Park Triskelion Orkney Single Malt",
+      "company": "Highland Park Distillery",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 45.1,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2013-04",
+      "rationale": "Производитель описал фильтрацию диатомитом и подтвердил отсутствие животной оклейки у хереса для используемых бочек.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/2759/highland-park-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-233352",
+      "name": "Jack Daniel's Tennessee Single Barrel",
+      "company": "Jack Daniel's Distillery",
+      "category": "Виски",
+      "country": "США",
+      "volume_ml": 750,
+      "abv": 47.0,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2022-01",
+      "rationale": "Производитель сообщил о шерстяной прокладке при угольной фильтрации виски; Tennessee Honey также содержит мёд.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/cider/123/jack-daniel-s-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-232768",
+      "name": "Jack Daniel's Gentleman Jack Rare Tennessee",
+      "company": "Jack Daniel's Distillery",
+      "category": "Виски",
+      "country": "США",
+      "volume_ml": 750,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2022-01",
+      "rationale": "Производитель сообщил о шерстяной прокладке при угольной фильтрации виски; Tennessee Honey также содержит мёд.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/cider/123/jack-daniel-s-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1022789",
+      "name": "Macallan Highland Single Malt Fine Oak 18 YO",
+      "company": "Macallan Distillery",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 43.0,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2017-08",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-009634",
+      "name": "Malibu",
+      "company": "Malibu Rum",
+      "category": "Ликёр",
+      "country": null,
+      "volume_ml": 700,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "nonvegan",
+      "evidence_date": "2022-02",
+      "rationale": "По FAQ производителя, сахар для Malibu Original проходит обработку, несовместимую с веганским производством.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/557/malibu-rum",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-488838",
+      "name": "Talisker Skye Single Malt 8 YO",
+      "company": "Talisker Distillery",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 57.9,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": null,
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/1624/talisker-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1006334",
+      "name": "Talisker Special Release 2023 Skye Single Malt",
+      "company": "Talisker Distillery",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 59.7,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": null,
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/1624/talisker-distillery",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1018562",
+      "name": "Tesseron Lot №29 Exception AOC Grande Champagne XO",
+      "company": "Tesseron Cognac",
+      "category": "Коньяк",
+      "country": "Франция",
+      "volume_ml": 700,
+      "abv": null,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2020-11",
+      "rationale": "Производитель подтвердил отсутствие животных ингредиентов и вспомогательных веществ в производстве этой продукции.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/8136/tesseron-cognac",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-262702",
+      "name": "Balvenie Speyside Single Malt Caribbean Cask 14 YO",
+      "company": "The Balvenie",
+      "category": "Виски",
+      "country": "Шотландия",
+      "volume_ml": 700,
+      "abv": 43.0,
+      "color": null,
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": "2013-06",
+      "rationale": "Производитель отдельно подтвердил Balvenie Caribbean Cask 14 лет, выдержанный без хересных и портвейновых бочек.",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/liquor/2892/the-balvenie",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1013852",
+      "name": "Cabernet Franc Reserve ЗГУ Кубань. Геленджик Chateau de Talu",
+      "company": "Шато де Талю",
+      "category": "Вино",
+      "country": "Россия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": null,
+      "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+      "scope": [
+        "Всё вино бренда"
+      ],
+      "ref_type": "VeganRussian",
+      "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "av-1002580",
+      "name": "Мерло Резерв ЗГУ Кубань. Геленджик Chateau de Talu",
+      "company": "Шато де Талю",
+      "category": "Вино",
+      "country": "Россия",
+      "volume_ml": 750,
+      "abv": null,
+      "color": "Красное",
+      "sugar": null,
+      "vintage": null,
+      "status": "vegan",
+      "evidence_date": null,
+      "rationale": "По данным VeganRussian (2022): всё вино бренда Chateau de Talu веганское.",
+      "scope": [
+        "Всё вино бренда"
+      ],
+      "ref_type": "VeganRussian",
+      "ref_url": "https://veganrussian.ru/wines-chateau-de-talu/",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    }
+  ]
+}

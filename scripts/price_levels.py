@@ -1,6 +1,7 @@
 """Approximate price bands per ordinary bottle/can, never per litre."""
 from bisect import bisect_left
 import math
+import re
 
 LIMITS = {"bottle": (1000, 3000, 6000, 15000), "beer": (150, 300, 500, 1000)}
 
@@ -57,8 +58,16 @@ def level(price, scale):
     return bisect_left(LIMITS[scale], price) + 1
 
 
-def ordinary_volume(ml, scale):
-    if scale in ('beer','cider'): return 330 <= ml <= 568
+def ordinary_volume(ml, scale, name=''):
+    # Standard lambic bottles are 250 ml; Harbin Premium is sold in 610 ml.
+    # These are ordinary retail formats, not tasting miniatures or magnums.
+    if scale == 'beer':
+        if ml == 250 and re.search(r'Lindemans|Kriek Boon|Mort Subite', name, re.I): return True
+        if ml == 610 and re.search(r'Harbin', name, re.I): return True
+        return 330 <= ml <= 568
+    if scale == 'cider': return 330 <= ml <= 568
+    # These dessert wines have a standard half-litre bottling.
+    if scale == 'wine' and ml == 500 and re.search(r'Barberani', name, re.I) and re.search(r'Calcaia|Moscato Passito', name, re.I): return True
     if scale == 'soju': return 350 <= ml <= 375
     if scale in ('wine','sparkling','bottle'): return 700 <= ml <= 1000
     return 500 <= ml <= 1000

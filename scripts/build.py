@@ -402,14 +402,14 @@ def main():
     extra_count = 0
     direct_attrs = {}
     # data/manual_additions.json — позиции, проверенные вручную по письмам производителей (тот же формат).
-    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json", ROOT / "data" / "producer_replies.json"):
+    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json", ROOT / "data" / "producer_replies.json", ROOT / "data" / "azbuka_additions.json"):
       if not extra_path.exists():
         continue
       direct = extra_path.name == "producer_replies.json"
       extra = load_replies(extra_path, ROOT / "site") if direct else json.loads(extra_path.read_text(encoding="utf-8"))
       if True:
         for it in extra["items"]:
-            if direct:
+            if direct or extra_path.name == "azbuka_additions.json":
                 direct_attrs[it["id"]] = it
             name = clean_name(it["name"])
             refs = it["refs"] if direct else [{"type": it.get("ref_type", "Barnivore"), "url": it.get("ref_url") or it["barnivore_url"]}]
@@ -648,7 +648,7 @@ def main():
         if type(band["level"]) is not int or not 1 <= band["level"] <= 5:
             fail(f"price_levels: неверный уровень {rid}")
         expected = category(cats.items[by_id[rid][8]], bool(by_id[rid][18]))
-        if band["scale"] != expected or not ordinary_volume(band["volume_ml"], expected):
+        if band["scale"] != expected or not ordinary_volume(band["volume_ml"], expected, by_id[rid][3]):
             fail(f"price_levels: неверная шкала или объём {rid}")
         from datetime import date
         if band["observed_at"] is not None: date.fromisoformat(band["observed_at"])
