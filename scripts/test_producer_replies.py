@@ -74,6 +74,11 @@ print("Direct replies: scoped statuses, retail presence, local sources, wine att
 from html import unescape
 from urllib.parse import urlsplit, parse_qs
 page = (ROOT / "_site/producers.html").read_text(encoding="utf-8")
+tat_page = (ROOT / "_site/tatspirtprom.html").read_text(encoding="utf-8")
+assert 'target="_blank" rel="noopener">Подробнее об ответе' in page
+assert "tatspirtprom.html" in page
+assert "Tundra Authentic" not in page
+page += tat_page
 ids = {parse_qs(urlsplit(unescape(url)).query)["id"][0]
        for url in re.findall(r'href="([^"]+)"', page) if "?id=" in url}
 assert ids == {item["id"] for item in original["items"]}

@@ -600,6 +600,12 @@ def main():
         "<!-- PRODUCER_REPLIES -->",
         render_directory(ROOT / "data/producer_replies.json", ROOT / "site", translations),
     ), encoding="utf-8")
+    tat_page = OUT / "tatspirtprom.html"
+    tat_page.write_text(tat_page.read_text(encoding="utf-8").replace(
+        "<!-- PRODUCER_REPLIES -->",
+        render_directory(ROOT / "data/producer_replies.json", ROOT / "site", translations,
+                         company_filter='АО «Татспиртпром»'),
+    ), encoding="utf-8")
     visible = set()
     def collect(value):
         if isinstance(value, str) and re.search(r"[А-Яа-яЁё]", value): visible.add(value)

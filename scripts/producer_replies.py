@@ -40,7 +40,7 @@ def load_replies(path, site):
     return {"items": items, "copied_at": max(r["evidence_date"] for r in replies.values())}
 
 
-def render_directory(path, site, translations):
+def render_directory(path, site, translations, company_filter=None):
     """Render only the already-public reply data, never raw correspondence."""
     load_replies(path, site)
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -49,6 +49,13 @@ def render_directory(path, site, translations):
         companies.setdefault(reply["company"], []).append((key, reply))
     parts = []
     for company, replies in companies.items():
+        if company_filter and company != company_filter:
+            continue
+        if not company_filter and company == 'АО «Татспиртпром»':
+            parts.append('<section class="producer-reply"><h2>Татспиртпром</h2>'
+                         '<p>Ответ от 26.10.2026: подтверждённые позиции и исключения.</p>'
+                         '<a data-lang-link href="tatspirtprom.html" target="_blank" rel="noopener">Подробнее об ответе ↗</a></section>')
+            continue
         parts.append(f'<section class="producer-reply"><h2>{escape(company)}</h2>')
         for key, reply in replies:
             items = [item for item in data["items"] if item["reply_id"] == key]
