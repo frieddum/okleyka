@@ -516,9 +516,9 @@
         tips.push(`<li><button type="button" data-remove="${g.key}" data-v="*">Убрать фильтр «${esc(g.title)}»</button>: ${fmtInt(n)} ${records_word(n)}</li>`);
       }
     }
-    return `<li class="empty"><h2>Ничего не нашлось</h2>
+    return `<li class="empty empty-with-fish"><img class="fish-puzzled" src="images/fish-mascot.webp" width="320" height="320" alt="" decoding="async"><div><h2>Ничего не нашлось</h2>
       <p>По этому запросу и фильтрам записей нет. В справочнике только позиции с проверенным решением, поэтому отсутствие напитка ничего не говорит о его статусе.</p>
-      ${tips.length ? `<ul>${tips.join('')}</ul>` : ''}</li>`;
+      ${tips.length ? `<ul>${tips.join('')}</ul>` : ''}</div></li>`;
   }
   function pageLinks(total) {
     const pages = Math.max(1, Math.ceil(total / PAGE));

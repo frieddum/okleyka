@@ -23,7 +23,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import wine_attrs as wa  # noqa: E402
 from producer_rules import RULES, color_key  # noqa: E402
 import merge_cards  # noqa: E402
-from producer_replies import load_replies  # noqa: E402
+from producer_replies import load_replies, render_directory  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 TRIM = len(sys.argv) > 1 and sys.argv[1] == "--trim"
@@ -593,6 +593,11 @@ def main():
         shutil.rmtree(OUT)
     shutil.copytree(ROOT / "site", OUT)
     translations = json.loads((ROOT / "data/translations_en.json").read_text(encoding="utf-8"))
+    directory = OUT / "producers.html"
+    directory.write_text(directory.read_text(encoding="utf-8").replace(
+        "<!-- PRODUCER_REPLIES -->",
+        render_directory(ROOT / "data/producer_replies.json", ROOT / "site", translations),
+    ), encoding="utf-8")
     visible = set()
     def collect(value):
         if isinstance(value, str) and re.search(r"[А-Яа-яЁё]", value): visible.add(value)
@@ -666,7 +671,7 @@ def main():
             fail(f"ru_breweries.json: ссылка на источник должна быть https: {b['url']}")
         allowed.add(b["url"])
     allowed |= {"https://veganrussian.ru/", "https://www.barnivore.com/", "https://www.barnivore.com/terms", "http://www.w3.org/2000/svg"}
-    allowed_files = {".html", ".js", ".css", ".json", ".woff2", ".svg", ".txt", ""}
+    allowed_files = {".html", ".js", ".css", ".json", ".woff2", ".svg", ".webp", ".txt", ""}
     for f in OUT.rglob("*"):
         if f.is_dir():
             continue

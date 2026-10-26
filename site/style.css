@@ -3,25 +3,26 @@
 /* Раскладка: справочник с колонкой фильтров слева и списком справа; на телефоне фильтры в отдельной панели,
    быстрые ряды статусов и сетей над выдачей. Акцент — ультрамарин «чернил», статусы — отдельная семантика. */
 :root {
-  --paper: #f4f5f1;
-  --paper-2: #eaece5;
-  --surface: #fbfbf8;
-  --ink: #17181d;
-  --ink-2: #4a4d57;
-  --ink-3: #62656f;
-  --rule: #d6d8cf;
-  --rule-strong: #b9bcb1;
-  --accent: #2236c4;
-  --accent-soft: #e4e7fb;
-  --on-accent: #ffffff;
+  color-scheme: dark;
+  --paper: #121317;
+  --paper-2: #1b1c22;
+  --surface: #17181d;
+  --ink: #ebebe6;
+  --ink-2: #b4b6be;
+  --ink-3: #9295a0;
+  --rule: #2c2e36;
+  --rule-strong: #43454f;
+  --accent: #a3adff;
+  --accent-soft: #23284a;
+  --on-accent: #10122a;
 
-  --vegan: #146235;
-  --vegan-bg: #dff0e4;
-  --nonvegan: #962920;
-  --nonvegan-bg: #f6e1dd;
-  --unclear: #7d4f00;
-  --unclear-bg: #f8ecd2;
-  --unchecked: #575b66;
+  --vegan: #82d29d;
+  --vegan-bg: #16301f;
+  --nonvegan: #f3a197;
+  --nonvegan-bg: #3a1b18;
+  --unclear: #eabc66;
+  --unclear-bg: #33270f;
+  --unchecked: #a4a7b1;
 
   --f-display: "Old Standard TT", "PT Serif", Georgia, "Times New Roman", serif;
   --f-text: "Golos Text", "PT Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -36,51 +37,6 @@
   --gutter: 16px;
   --radius: 4px;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #121317;
-    --paper-2: #1b1c22;
-    --surface: #17181d;
-    --ink: #ebebe6;
-    --ink-2: #b4b6be;
-    --ink-3: #9295a0;
-    --rule: #2c2e36;
-    --rule-strong: #43454f;
-    --accent: #a3adff;
-    --accent-soft: #23284a;
-    --on-accent: #10122a;
-    --vegan: #82d29d;
-    --vegan-bg: #16301f;
-    --nonvegan: #f3a197;
-    --nonvegan-bg: #3a1b18;
-    --unclear: #eabc66;
-    --unclear-bg: #33270f;
-    --unchecked: #a4a7b1;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --paper: #121317;
-  --paper-2: #1b1c22;
-  --surface: #17181d;
-  --ink: #ebebe6;
-  --ink-2: #b4b6be;
-  --ink-3: #9295a0;
-  --rule: #2c2e36;
-  --rule-strong: #43454f;
-  --accent: #a3adff;
-  --accent-soft: #23284a;
-  --on-accent: #10122a;
-  --vegan: #82d29d;
-  --vegan-bg: #16301f;
-  --nonvegan: #f3a197;
-  --nonvegan-bg: #3a1b18;
-  --unclear: #eabc66;
-  --unclear-bg: #33270f;
-  --unchecked: #a4a7b1;
-  color-scheme: dark;
-}
-
 *, *::before, *::after { box-sizing: border-box; }
 [hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; }
@@ -424,3 +380,42 @@ dl.kv dt:first-of-type, dl.kv dt:first-of-type + dd { border-top: 0; }
 .age-card .language-picker { display: flex; justify-content: flex-end; margin-bottom: .75rem; }
 
 .price-band { display: inline-block; font-size: .85rem; color: var(--ink-2); letter-spacing: .08em; white-space: nowrap; }
+
+/* Fish accompany an empty search or an explanation, not navigation. */
+.fish-reader { display: block; width: 100%; height: auto; object-fit: contain; }
+.empty-with-fish { display: grid; grid-template-columns: 108px minmax(0, 1fr); gap: 24px; max-width: 72ch; padding-block: 44px; }
+.fish-puzzled { display: block; width: 108px; height: auto; }
+.empty-with-fish p { margin-block: 0 16px; color: var(--ink-2); }
+.empty-with-fish button { min-height: 32px; }
+.fining-note {
+  display: grid; grid-template-columns: minmax(0, 1fr) 196px; align-items: center; gap: 32px;
+  border-block: 1px solid var(--rule); margin-block: 36px; padding-block: 24px;
+  scroll-margin-top: 24px;
+}
+.fining-note h2 { margin-top: 0; }
+.fining-note p { margin-bottom: 0; }
+@media (max-width: 480px) {
+  .empty-with-fish { grid-template-columns: 68px minmax(0, 1fr); gap: 16px; padding-block: 28px; }
+  .fish-puzzled { width: 68px; }
+  .fining-note > div { display: contents; }
+  .fining-note h2 { grid-column: 1; grid-row: 1; }
+  .fining-note .fish-reader { grid-column: 2; grid-row: 1; }
+  .fining-note p { grid-column: 1 / -1; }
+  .fining-note { grid-template-columns: minmax(0, 1fr) 100px; gap: 12px 16px; }
+}
+/* Producer replies: plain editorial list, with scope attached to each decision. */
+.producer-list { max-width: 80ch; padding-block: 28px 64px; }
+.producer-list > h1 { margin: 0 0 10px; font: 400 var(--fs-xxl)/1.1 var(--f-display); }
+.producer-intro { margin: 0 0 28px; max-width: 65ch; color: var(--ink-2); }
+.producer-reply { border-top: 1px solid var(--rule); padding-block: 24px; scroll-margin-top: 24px; }
+.producer-reply h2 { margin: 0 0 8px; font: 400 var(--fs-xl)/1.2 var(--f-display); overflow-wrap: anywhere; }
+.producer-meta { margin: 0 0 16px; font-size: var(--fs-s); color: var(--ink-3); }
+.reply-decision + .reply-decision { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--rule); }
+.reply-decision h3 { margin: 0 0 8px; font-size: 1rem; font-weight: 600; }
+.reply-decision p { margin: 10px 0; }
+.reply-scope { color: var(--ink-2); font-size: var(--fs-s); }
+.reply-products { margin-top: 14px; font-size: var(--fs-s); }
+.reply-products summary { cursor: pointer; padding-block: 6px; color: var(--accent); }
+.reply-products ul { padding-left: 20px; margin-top: 8px; }
+.reply-products li { padding-block: 4px; }
+.reply-original { display: inline-block; padding-block: 6px; }

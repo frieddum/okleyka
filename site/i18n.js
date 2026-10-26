@@ -7,6 +7,11 @@
   try { localStorage.setItem('okleyka-language', lang); } catch (_) {}
   document.documentElement.lang = lang;
   const words = {
+    'Производители':'Producers', 'Производители — Оклейка':'Producers — Okleika',
+    'Ответы на наши запросы: краткий пересказ и область действия. Разрешённые к публикации оригиналы — по ссылкам.':'Replies to our inquiries: summaries and scope. Links lead to originals published with permission.',
+    'Ответ от':'Reply dated', 'Ответ о продукции':'Product reply',
+    'Область действия:':'Scope:', 'Напитки в справочнике':'Drinks in the directory',
+    'Оригинал ответа':'Original reply',
     'Ценовой уровень':'Price level',
     'Без цены':'No price',
     'Архив':'Archive', 'Архив — Оклейка':'Archive — Okleika', 'К справочнику':'Back to directory',
@@ -128,8 +133,14 @@
 
   document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.nav')?.appendChild(selector());
-    document.querySelectorAll('a[href="./"],a[href="beer.html"],a[href="method.html"]').forEach(a => {
-      a.setAttribute('href', a.getAttribute('href') + '?lang=' + lang);
+    document.querySelectorAll('a[href="./"],a[href="beer.html"],a[href="method.html"],a[href="method.html#fining"],a[href="producers.html"]').forEach(a => {
+      const [path, hash] = a.getAttribute('href').split('#');
+      a.setAttribute('href', path + '?lang=' + lang + (hash ? '#' + hash : ''));
+    });
+    document.querySelectorAll('a[data-lang-link]').forEach(a => {
+      const url = new URL(a.getAttribute('href'), location.href);
+      url.searchParams.set('lang', lang);
+      a.setAttribute('href', url.pathname + url.search + url.hash);
     });
     const gate = document.querySelector('.age-card'); if (gate) gate.prepend(selector());
     apply();

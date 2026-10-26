@@ -8,7 +8,7 @@ from tempfile import TemporaryDirectory
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from producer_replies import load_replies
+from producer_replies import load_replies, render_directory
 
 source = ROOT / "data/producer_replies.json"
 original = json.loads(source.read_text(encoding="utf-8"))
@@ -60,3 +60,25 @@ assert not re.search(r"[\w.+-]+@[\w-]+\.[a-z]{2,}|mailto:|[A-Za-z]:[\\/]|\+\d[\d
 assert "Sophie" not in public and "Borisova" not in public
 assert "Unsere Weine enthalten keine Zutaten tierischen Ursprungs" in public
 print("Direct replies: scoped statuses, retail presence, local sources, wine attributes and privacy passed")
+
+# The directory links every scoped product and does not expose extra private fields.
+from html import unescape
+from urllib.parse import urlsplit, parse_qs
+page = (ROOT / "_site/producers.html").read_text(encoding="utf-8")
+ids = {parse_qs(urlsplit(unescape(url)).query)["id"][0]
+       for url in re.findall(r'href="([^"]+)"', page) if "?id=" in url}
+assert ids == {item["id"] for item in original["items"]}
+assert all(item_id in rows for item_id in ids)
+assert "<!-- PRODUCER_REPLIES -->" not in page
+assert not re.search(r"mail\.google|mailto:|[A-Za-z]:[\\/]|Sophie|Borisova", page)
+translations = json.loads((ROOT / "data/translations_en.json").read_text(encoding="utf-8"))
+with TemporaryDirectory() as tmp:
+    synthetic = copy.deepcopy(original)
+    synthetic["replies"]["pjk-2026-10-26"]["company"] = '<script>alert(1)</script>'
+    synthetic["replies"]["pjk-2026-10-26"]["private_note"] = 'DO_NOT_PUBLISH_THIS_FIELD'
+    path = Path(tmp) / "replies.json"
+    path.write_text(json.dumps(synthetic), encoding="utf-8")
+    rendered = render_directory(path, ROOT / "site", translations)
+    assert '<script>' not in rendered and '&lt;script&gt;' in rendered
+    assert 'DO_NOT_PUBLISH_THIS_FIELD' not in rendered
+print("Producer directory: all product links resolve; HTML escaped; extra private fields excluded")
