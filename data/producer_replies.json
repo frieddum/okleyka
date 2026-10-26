@@ -1,0 +1,800 @@
+{
+  "replies": {
+    "pjk-2026-10-26": {
+      "company": "Weingut Peter Jakob Kühn",
+      "country": "Германия",
+      "status": "vegan",
+      "evidence_date": "2026-10-26",
+      "public_page": "peter-jakob-kuehn.html",
+      "rationale": "Peter Jakob Kühn, ответ от 26.10.2026: животные ингредиенты и животные средства оклейки не используются. Ответ распространяется на все вина и игристые вина хозяйства; все они производятся в самом хозяйстве.",
+      "scope": [
+        "Все вина и игристые вина Weingut Peter Jakob Kühn. Ответ не относится к другим хозяйствам с фамилией Kühn."
+      ]
+    },
+    "kkz-2026-10-26": {
+      "company": "АО «Кизлярский коньячный завод»",
+      "country": "Россия",
+      "status": "vegan",
+      "evidence_date": "2026-10-26",
+      "rationale": "АО «Кизлярский коньячный завод», ответ от 26.10.2026: продукты животного происхождения не используются ни в составе, ни при оклейке, обработке и фильтрации. Ответ относится ко всей продукции завода.",
+      "scope": [
+        "Только продукция АО «Кизлярский коньячный завод». Ответ не переносится на напитки других заводов из Кизляра или с похожими названиями."
+      ]
+    },
+    "tat-honey-2026-10-26": {
+      "company": "АО «Татспиртпром»",
+      "country": "Россия",
+      "status": "nonvegan",
+      "evidence_date": "2026-10-26",
+      "rationale": "АО «Татспиртпром», ответ от 26.10.2026: в рецептуре этого продукта используется мёд.",
+      "scope": [
+        "Только продукт, прямо названный производителем. На другие напитки бренда этот вывод не переносится."
+      ]
+    },
+    "tat-milk-2026-10-26": {
+      "company": "АО «Татспиртпром»",
+      "country": "Россия",
+      "status": "nonvegan",
+      "evidence_date": "2026-10-26",
+      "rationale": "АО «Татспиртпром», ответ от 26.10.2026: эмульсионный ликёр «Бугульма Премиум Эдишн Сливочный» содержит лактозу и молочный белок.",
+      "scope": [
+        "Только сливочная версия. Обычный десертный Bugulma Premium Edition этим ответом о молочных компонентах не охвачен."
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "reply-kkz-dagestan-13",
+      "name": "Дагестан КС, 13 лет",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-lezginka-kv",
+      "name": "Лезгинка КВ, 6 лет",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "КуулКлевер / ОТДОХНИ",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Табрис",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Дикси",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "SPAR",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "Перекрёсток",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "Лента",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "abv": 40
+    },
+    {
+      "id": "reply-kkz-brandy-marochny",
+      "name": "Кизлярский Марочный",
+      "category": "Бренди",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Дикси",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "SPAR",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "Перекрёсток",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "Лента",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "abv": 40
+    },
+    {
+      "id": "reply-kkz-kizlyarka-aged",
+      "name": "Кизлярка Выдержанная",
+      "category": "Водка",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "Лента",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "abv": 45
+    },
+    {
+      "id": "reply-kkz-three-stars",
+      "name": "Кизлярский Три звездочки, 3 года",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Дикси",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "КуулКлевер / ОТДОХНИ",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40
+    },
+    {
+      "id": "reply-kkz-five-stars",
+      "name": "Кизлярский Пять звездочек, 5 лет",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Табрис",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Дикси",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "SPAR",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "КуулКлевер / ОТДОХНИ",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40
+    },
+    {
+      "id": "reply-kkz-elegant",
+      "name": "Элегант, 8 лет",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-kizlyar-10",
+      "name": "Кизляр КС, 10 лет",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Перекрёсток",
+          "checked_at": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "reply-kkz-kizlyarka-traditional",
+      "name": "Кизлярка Традиционная",
+      "category": "Водка",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Decanter",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Табрис",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Перекрёсток",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "abv": 40
+    },
+    {
+      "id": "reply-kkz-my-dagestan",
+      "name": "Мой Дагестан, 4 года",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-kizlyarka-original",
+      "name": "Кизлярка Оригинальная",
+      "category": "Водка",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40
+    },
+    {
+      "id": "reply-kkz-imperator",
+      "name": "Император Всероссийский ОС, 30 лет",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 700
+    },
+    {
+      "id": "reply-kkz-brandy-ordinary",
+      "name": "Кизлярский Ординарный",
+      "category": "Бренди",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40
+    },
+    {
+      "id": "reply-kkz-brandy-young",
+      "name": "Кизлярский Молодой",
+      "category": "Бренди",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Decanter",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40
+    },
+    {
+      "id": "reply-kkz-rossiya-collection",
+      "name": "Россия КС Коллекционный",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 700
+    },
+    {
+      "id": "reply-kkz-kizlyarka-cornel",
+      "name": "Кизлярка Кизиловая",
+      "category": "Водка",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Табрис",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Перекрёсток",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-kizlyarka-apricot",
+      "name": "Кизлярка Абрикосовая",
+      "category": "Водка",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Перекрёсток",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "Лента",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-kizlyarka-mulberry",
+      "name": "Кизлярка Тутовая",
+      "category": "Водка",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Decanter",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Табрис",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-prazdnichny",
+      "name": "Кизлярский Праздничный КС",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-rossiya-15",
+      "name": "Кизлярский Россия, 15 лет",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-four-stars",
+      "name": "Кизлярский Четыре звездочки, 4 года",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-lezginka-brandy",
+      "name": "Лезгинка",
+      "category": "Бренди",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "SPAR",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "abv": 37.5,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-kizlyarka-apple",
+      "name": "Кизлярка Яблочная",
+      "category": "Водка",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Табрис",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-platan",
+      "name": "Платан, 3 года",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Табрис",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-gordost",
+      "name": "Гордость Державы КС, 10 лет",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "Табрис",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-tat-bugulma",
+      "name": "Бугульма",
+      "category": "Бальзам",
+      "reply_id": "tat-honey-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Decanter",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Табрис",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Дикси",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "SPAR",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "Перекрёсток",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "Лента",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "abv": 40
+    },
+    {
+      "id": "reply-tat-kupava-myagkaya",
+      "name": "Купава Мягкая",
+      "category": "Водка",
+      "reply_id": "tat-honey-2026-10-26",
+      "chains": [
+        {
+          "network": "Градусы",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Табрис",
+          "checked_at": "2026-10-24"
+        },
+        {
+          "network": "Дикси",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "SPAR",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "Перекрёсток",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "abv": 40
+    },
+    {
+      "id": "reply-tat-kupava-lesnaya",
+      "name": "Купава Лесная",
+      "category": "Водка",
+      "reply_id": "tat-honey-2026-10-26",
+      "chains": [
+        {
+          "network": "Дикси",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-25"
+        },
+        {
+          "network": "Перекрёсток",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-tat-bugulma-cream",
+      "name": "Бугульма Премиум Эдишн Сливочный",
+      "category": "Ликёр",
+      "reply_id": "tat-milk-2026-10-26",
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-pjk-quarzit-2016",
+      "name": "Peter Jakob Kühn Oestrich Quarzit Riesling Trocken 2016",
+      "category": "Вино",
+      "reply_id": "pjk-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 750,
+      "abv": 12.0,
+      "vintage": 2016,
+      "color": "Белое",
+      "sugar": "Сухое"
+    },
+    {
+      "id": "reply-pjk-doosberg",
+      "name": "Peter Jakob Kühn Oestrich Doosberg Riesling Trocken",
+      "category": "Вино",
+      "reply_id": "pjk-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 750,
+      "abv": 13.0,
+      "vintage": null,
+      "color": "Белое",
+      "sugar": "Сухое"
+    },
+    {
+      "id": "reply-pjk-rheinschiefer",
+      "name": "Peter Jakob Kühn Rheinschiefer Hallgarten Riesling Trocken",
+      "category": "Вино",
+      "reply_id": "pjk-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 750,
+      "abv": 11.5,
+      "vintage": null,
+      "color": "Белое",
+      "sugar": "Сухое"
+    },
+    {
+      "id": "reply-pjk-klosterberg",
+      "name": "Peter Jakob Kühn Oestricher Klosterberg Riesling Trocken",
+      "category": "Вино",
+      "reply_id": "pjk-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 750,
+      "abv": 12.0,
+      "vintage": null,
+      "color": "Белое",
+      "sugar": "Сухое"
+    },
+    {
+      "id": "reply-pjk-landgeflecht",
+      "name": "Peter Jakob Kühn Landgeflecht Riesling Trocken",
+      "category": "Вино",
+      "reply_id": "pjk-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 750,
+      "abv": 13.0,
+      "vintage": null,
+      "color": "Белое",
+      "sugar": "Сухое"
+    },
+    {
+      "id": "reply-pjk-sankt-nikolaus",
+      "name": "Peter Jakob Kühn Sankt Nikolaus Riesling Trocken",
+      "category": "Вино",
+      "reply_id": "pjk-2026-10-26",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 750,
+      "abv": 13.0,
+      "vintage": null,
+      "color": "Белое",
+      "sugar": "Сухое"
+    },
+    {
+      "id": "reply-kkz-lezginka-3",
+      "name": "Лезгинка, 3 года",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "SPAR",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "abv": 40,
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-dagestan",
+      "name": "Дагестан КС",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "volume_ml": 500
+    },
+    {
+      "id": "reply-kkz-kizlyarskiy-4",
+      "name": "Кизлярский, 4 года",
+      "category": "Коньяк",
+      "reply_id": "kkz-2026-10-26",
+      "chains": [
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-25"
+        }
+      ],
+      "volume_ml": 500
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+"""Scope, privacy and publication checks for direct producer replies."""
+import copy
+import json
+import re
+import sys
+from pathlib import Path
+from tempfile import TemporaryDirectory
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from producer_replies import load_replies
+
+source = ROOT / "data/producer_replies.json"
+original = json.loads(source.read_text(encoding="utf-8"))
+loaded = load_replies(source, ROOT / "site")
+data = json.loads((ROOT / "_site/data/verified.json").read_text(encoding="utf-8"))
+rows = {r[0]: r for r in data["records"]}
+assert len(loaded["items"]) == 38
+for item in loaded["items"]:
+    row = rows[item["id"]]
+    assessment = data["assessments"][row[15]]
+    assert row[1] == {"vegan": "v", "nonvegan": "n"}[item["status"]]
+    assert assessment["evidence_date"] == "2026-10-26"
+    if item["reply_id"].startswith("pjk-"):
+        assert row[3].startswith("Peter Jakob Kühn ")
+        assert row[9] == 750 and row[11] and row[16:18] == ["Белое", "Сухое"]
+        assert assessment["refs"] == [{"type": "producer_reply", "url": "peter-jakob-kuehn.html"}]
+    else:
+        assert assessment["refs"] == []
+assert rows["reply-pjk-quarzit-2016"][12] == 2016
+assert rows["reply-kkz-lezginka-brandy"][8] != rows["reply-kkz-lezginka-kv"][8]
+assert len(rows["reply-tat-bugulma"][2]) == 9
+assert len([r for r in rows.values() if r[0].startswith("reply-tat-")]) == 4
+assert "reply-kkz-stars-kv" not in rows and "reply-kkz-stars-ks" not in rows
+assert rows["reply-kkz-dagestan"][3] != rows["reply-kkz-dagestan-13"][3]
+
+# Reject a missing page, external/private link, missing retail evidence and status override.
+with TemporaryDirectory() as tmp:
+    path = Path(tmp) / "replies.json"
+    for change in (
+        lambda d: d["replies"]["pjk-2026-10-26"].update(public_page="../private.html"),
+        lambda d: d["replies"]["pjk-2026-10-26"].update(public_page="https://mail.google.com/"),
+        lambda d: d["replies"]["pjk-2026-10-26"].update(public_page="missing.html"),
+        lambda d: d["items"][0].update(chains=[]),
+        lambda d: d["items"][0].update(status="vegan"),
+        lambda d: d["replies"]["kkz-2026-10-26"].update(status="unclear"),
+    ):
+        broken = copy.deepcopy(original)
+        change(broken)
+        path.write_text(json.dumps(broken, ensure_ascii=False), encoding="utf-8")
+        try:
+            load_replies(path, ROOT / "site")
+        except ValueError:
+            pass
+        else:
+            raise AssertionError("Invalid direct-reply record accepted")
+
+public = source.read_text(encoding="utf-8") + (ROOT / "_site/peter-jakob-kuehn.html").read_text(encoding="utf-8")
+assert not re.search(r"[\w.+-]+@[\w-]+\.[a-z]{2,}|mailto:|[A-Za-z]:[\\/]|\+\d[\d ()-]{8,}|₽|mail\.google", public, re.I)
+assert "Sophie" not in public and "Borisova" not in public
+assert "Unsere Weine enthalten keine Zutaten tierischen Ursprungs" in public
+print("Direct replies: scoped statuses, retail presence, local sources, wine attributes and privacy passed")

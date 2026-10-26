@@ -23,6 +23,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import wine_attrs as wa  # noqa: E402
 from producer_rules import RULES, color_key  # noqa: E402
 import merge_cards  # noqa: E402
+from producer_replies import load_replies  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 TRIM = len(sys.argv) > 1 and sys.argv[1] == "--trim"
@@ -399,15 +400,19 @@ def main():
 
     # Сводный каталог сетей (уже отобранный scripts/import_catalog.py): одна запись может быть в нескольких сетях.
     extra_count = 0
+    direct_attrs = {}
     # data/manual_additions.json — позиции, проверенные вручную по письмам производителей (тот же формат).
-    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json"):
+    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json", ROOT / "data" / "producer_replies.json"):
       if not extra_path.exists():
         continue
-      extra = json.loads(extra_path.read_text(encoding="utf-8"))
+      direct = extra_path.name == "producer_replies.json"
+      extra = load_replies(extra_path, ROOT / "site") if direct else json.loads(extra_path.read_text(encoding="utf-8"))
       if True:
         for it in extra["items"]:
+            if direct:
+                direct_attrs[it["id"]] = it
             name = clean_name(it["name"])
-            refs = [{"type": it.get("ref_type", "Barnivore"), "url": it.get("ref_url") or it["barnivore_url"]}]
+            refs = it["refs"] if direct else [{"type": it.get("ref_type", "Barnivore"), "url": it.get("ref_url") or it["barnivore_url"]}]
             pub = {"status": it["status"], "reviewed_at": date_only(extra.get("copied_at")), "evidence_date": clean(it.get("evidence_date")),
                    "evidence_date_precision": None, "rationale": clean(it["rationale"]),
                    "scope": [clean(x)[0].upper() + clean(x)[1:] for x in it.get("scope") or [] if clean(x)], "identity": None,
@@ -422,8 +427,8 @@ def main():
             groups["x:" + it["id"]] = [
                 it["id"], STATUS_CODE[it["status"]], [nets(c["network"]) for c in chains], name, -1,
                 prods(it.get("company")), countries(norm_country(it.get("country"))), "f" if it.get("country") else "u",
-                cats(cat), it.get("volume_ml"), None, it.get("abv"), None, date_only(chains[0]["checked_at"]), 1, assess_index[k],
-                color, sugar, 1 if sparkling else 0]
+                cats(cat), it.get("volume_ml"), None, it.get("abv"), it.get("vintage"), max(date_only(c["checked_at"]) for c in chains), 1, assess_index[k],
+                it.get("color") or color, it.get("sugar") or sugar, 1 if sparkling else 0]
             extra_count += 1
 
     # Признаки вина и правила производителей, у которых ответ зависит от цвета, линейки или урожая.
@@ -473,8 +478,8 @@ def main():
         is_wine = kind in WINE_KINDS
         if is_wine:
             card = card_attrs.get(re.sub(r"[^a-zа-я0-9]+", " ", name.lower().replace("ё", "е")).strip(), {})
-            rec[16] = card.get("color") or wa.color_from_name(name, kind == "Игристое вино")[0]
-            rec[17] = card.get("sugar") or wa.sugar_from_name(name)
+            rec[16] = direct_attrs.get(rec[0], {}).get("color") or card.get("color") or wa.color_from_name(name, kind == "Игристое вино")[0]
+            rec[17] = direct_attrs.get(rec[0], {}).get("sugar") or card.get("sugar") or wa.sugar_from_name(name)
             if rec[11] is None:
                 rec[11] = card.get("abv") or wa.abv_from_name(name)
             if rec[9] is None:

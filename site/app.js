@@ -606,6 +606,10 @@
       if (a.packaging && !/^Упаковка отдельно не проверена\.?$/.test(a.packaging)) html += `<section class="section"><h2>Упаковка</h2><p>${esc(a.packaging)}</p></section>`;
       const src = [];
       for (const ref of a.refs) {
+        if (ref.type === 'producer_reply') {
+          src.push(`<a href="${esc(ref.url)}?lang=${window.I18N.lang}">${esc('Ответ производителя')}</a>`);
+          continue;
+        }
         const short = ref.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
         const date = ref.type === 'Barnivore' && a.reviewed_at ? ` <span class="src-date" title="Дата копирования">${fmtShort(a.reviewed_at)}</span>` : '';
         src.push(`<a href="${esc(ref.url)}" rel="noopener nofollow" target="_blank">${esc(short)}</a>${date}`);
