@@ -402,13 +402,15 @@ def main():
     extra_count = 0
     direct_attrs = {}
     # data/manual_additions.json — позиции, проверенные вручную по письмам производителей (тот же формат).
-    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json", ROOT / "data" / "producer_replies.json", ROOT / "data" / "azbuka_additions.json"):
+    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json", ROOT / "data" / "producer_replies.json", ROOT / "data" / "azbuka_additions.json", ROOT / "data" / "global_vegan.json"):
       if not extra_path.exists():
         continue
       direct = extra_path.name == "producer_replies.json"
       extra = load_replies(extra_path, ROOT / "site") if direct else json.loads(extra_path.read_text(encoding="utf-8"))
       if True:
         for it in extra["items"]:
+            if extra_path.name == "global_vegan.json" and (it["status"] != "vegan" or not it.get("scope_reviewed") or it.get("chains")):
+                fail(f"global_vegan: требуется проверенное веганское решение без привязки к сети {it['id']}")
             if direct or extra_path.name == "azbuka_additions.json":
                 direct_attrs[it["id"]] = it
             name = clean_name(it["name"])
@@ -429,7 +431,7 @@ def main():
             groups["x:" + it["id"]] = [
                 it["id"], STATUS_CODE[it["status"]], [nets(c["network"]) for c in chains], name, -1,
                 prods(it.get("company")), countries(norm_country(it.get("country"))), "f" if it.get("country") else "u",
-                cats(cat), it.get("volume_ml"), None, it.get("abv"), it.get("vintage"), max(date_only(c["checked_at"]) for c in chains), 1, assess_index[k],
+                cats(cat), it.get("volume_ml"), None, it.get("abv"), it.get("vintage"), max((date_only(c["checked_at"]) for c in chains), default=None), 1, assess_index[k],
                 it.get("color") or color, it.get("sugar") or sugar, 1 if sparkling else 0]
             extra_count += 1
 
@@ -641,10 +643,17 @@ def main():
         if rid not in all_ids or set(decision) != {"checked_at", "reason"} or decision["reason"] != "out_of_stock_all_checked_networks":
             fail(f"archived: неверное решение или неизвестная карточка {rid}")
         date.fromisoformat(decision["checked_at"])
-    active_records = [r for r in verified if r[0] not in archived]
-    archived_records = [r for r in verified if r[0] in archived]
+    # A retailer stock decision must not hide a confirmed vegan product worldwide.
+    restored = {r[0] for r in verified if r[0] in archived and r[1] == "v"}
+    for r in verified:
+        if r[0] in restored:
+            r[2], r[13] = [], None
+    active_records = [r for r in verified if r[0] not in archived or r[0] in restored]
+    archived_records = [r for r in verified if r[0] in archived and r[0] not in restored]
     meta["rows"]["verified_after_merge"] = len(active_records)
     meta["rows"]["archived"] = len(archived_records)
+    meta["rows"]["with_retail_observations"] = sum(bool(r[2]) for r in active_records)
+    meta["rows"]["without_retail_observations"] = sum(not r[2] for r in active_records)
     dump("meta.json", meta)
     price_path = ROOT / "data/price_levels.json"
     prices = json.loads(price_path.read_text(encoding="utf-8")) if price_path.exists() else {}

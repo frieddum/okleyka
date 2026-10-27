@@ -46,3 +46,12 @@ for (const locale of ['ru', 'en']) {
 console.log('Name prefixes, quotation marks, preserved apostrophes and alphabetical ordering: passed');
 
 assert.deepEqual(split.beerTags('Светлое пиво пшеничное Hofbrau Original', 'Пиво'), ['Светлое']);
+assert.equal(split('5.2% Palm 750мл').title, 'Palm 750мл');
+assert.equal(split('Пиво светлое 5.2% Palm 750мл').title, 'Palm 750мл');
+assert.equal(split('Глинтвейн Schmitt Sohne').title, 'Schmitt Sohne');
+assert.equal(split('крепкий Перечная мята Minttu 40% 500мл').title, 'Minttu 40% 500мл');
+assert.equal(split('п/сл столовое лыхны Вина и воды Абхазии').title, 'лыхны Вина и воды Абхазии');
+assert.equal(split('шотландский купаж Ballantines Файнест 40% 750мл').title, 'Ballantines Файнест 40% 750мл');
+assert.deepEqual(split.attributes('5.2% Palm 750мл'), {abv:5.2, volumeMl:750});
+assert.deepEqual(split.attributes('Хеннесси ХО 40% 0,7л'), {abv:40, volumeMl:700});
+assert.equal(split.attributes('Вино 10-12%').abv, null);

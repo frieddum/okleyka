@@ -30,7 +30,7 @@ def load_replies(path, site):
         reply = replies[item["reply_id"]]
         if set(item) & set(reply):
             raise ValueError("An item must not override the producer reply")
-        if not item["chains"]:
+        if not item["chains"] and not (reply["status"] == "vegan" and item.get("retail_optional") is True):
             raise ValueError("Direct reply is not evidence of retail presence")
         for chain in item["chains"]:
             if not chain["network"]:

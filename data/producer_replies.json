@@ -1250,6 +1250,16 @@
       ],
       "color": "Красное",
       "sugar": "Сладкое"
+    },
+    {
+      "id": "reply-bash-rzhanaya-soft",
+      "name": "Ржаная мягкая",
+      "category": "Водка",
+      "reply_id": "bash-vegan-2026-10-27",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 38
     }
   ]
 }

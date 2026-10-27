@@ -9,14 +9,16 @@
   function splitName(original) {
     const clean = withoutQuotes(original).trim();
     let rest = clean, parts = [];
+    const strength = rest.match(/^\d+(?:[.,]\d+)?\s*%\s+/u);
+    if (strength) { parts.push(strength[0].trim()); rest = rest.slice(strength[0].length); }
     const volume = rest.match(/^\d+(?:[.,]\d+)?\s*(?:мл|ml|л|l)(?=\s|$)\s*/iu);
     if (volume) { parts.push(volume[0].trim()); rest = rest.slice(volume[0].length); }
     // These are names, not product-type prefixes.
     const brandPrefix = /^(?:Wine People|White Horse|White Oak|Port Charlotte|Port Askaig)\b/i;
     if (!brandPrefix.test(rest)) {
-      const ruAdj = '(?:белое|красное|розовое|оранжевое|игристое|сухое|полусухое|сладкое|полусладкое|сладкая|горькая|полусладкая|серебряная|светлое|т[её]мное|пшеничное|нефильтрованное|фильтрованное|непастеризованное|пастеризованное|неосветленное|безалкогольное|крепл[её]ное|десертный|десертное|спиртной|ароматизированный|пивной|органическое|виноградное|виноградосодержащий|купажированный|односолодовый|солодовый|сортовое|выдержанное|выдержанный|газированный|алкогольный|винный)';
+      const ruAdj = '(?:п/сл|п/сух|столовое|крепкий|шотландский|ирландский|купаж|белое|красное|розовое|оранжевое|игристое|сухое|полусухое|сладкое|полусладкое|сладкая|горькая|полусладкая|серебряная|светлое|т[её]мное|пшеничное|нефильтрованное|фильтрованное|непастеризованное|пастеризованное|неосветленное|безалкогольное|крепл[её]ное|десертный|десертное|спиртной|ароматизированный|пивной|органическое|виноградное|виноградосодержащий|купажированный|односолодовый|солодовый|сортовое|выдержанное|выдержанный|газированный|алкогольный|винный)';
       const adjective = '(?:' + ruAdj + '|silver|organic|flavoured|flavored|spirit|light|filtered|unfiltered|pasteurized|unpasteurized|non-alcoholic|alcohol-free|wheat|blended|single malt|white|red|ros[eé]|orange|sparkling|dry|semi-dry|sweet|semi-sweet|dessert|fortified|aged)';
-      const kind = '(?:шампанское|champagne|просекко|prosecco|портвейн|port|херес|sherry|кальвадос|calvados|креман|cremant|соджу|soju|писко|pisco|аперитив|aperitif|винодельня|winery|вино|виски|лик[её]р|ром|водка|джин|коньяк|бренди|текила|вермут|пиво|сидр|сакэ|настойка|бальзам|напиток|wine|whisk[ey]+|liqueur|rum|vodka|gin|cognac|brandy|tequila|vermouth|beer|cider|sake|tincture)';
+      const kind = '(?:глинтвейн|mulled wine|шампанское|champagne|просекко|prosecco|портвейн|port|херес|sherry|кальвадос|calvados|креман|cremant|соджу|soju|писко|pisco|аперитив|aperitif|винодельня|winery|вино|виски|лик[её]р|ром|водка|джин|коньяк|бренди|текила|вермут|пиво|сидр|сакэ|настойка|бальзам|напиток|wine|whisk[ey]+|liqueur|rum|vodka|gin|cognac|brandy|tequila|vermouth|beer|cider|sake|tincture)';
       const prefix = new RegExp('^(?:' + adjective + '\\s+)*' + kind + '(?:\\s+' + adjective + ')*\\s+', 'iu');
       let match;
       while (!brandPrefix.test(rest) && (match = rest.match(prefix))) {
@@ -27,14 +29,29 @@
         parts.push(rest.slice(0, length).trim()); rest = rest.slice(length);
       }
       // Some retailer names have already lost their type, leaving an adjective first.
-      const descriptors = rest.match(new RegExp('^(?:(?!золотая\\s)' + ruAdj + '\\s+)+', 'iu'));
+      const descriptors = rest.match(new RegExp('^(?:(?!золотая\\s)(?:' + ruAdj + '|scottish|scotch)\\s+)+', 'iu'));
       if (descriptors) { parts.push(descriptors[0].trim()); rest = rest.slice(descriptors[0].length); }
     }
+    const minttuFlavor = rest.match(/^(?:Перечная мята|Peppermint)\s+(?=Minttu\b)/iu);
+    if (minttuFlavor) { parts.push(minttuFlavor[0].trim()); rest = rest.slice(minttuFlavor[0].length); }
     const metadata = rest.match(/^(?:Подробнее о|More about|Спирт (?:Альфа|Люкс)|(?:Alpha|Lux) alcohol|стиль №?\s*\d+)\s+/iu);
     if (metadata) { parts.push(metadata[0].trim()); rest = rest.slice(metadata[0].length); }
+    if (rest && rest !== clean) {
+      const next = splitName(rest);
+      if (next.details) parts.push(next.details);
+      rest = next.title;
+    }
     return rest ? {title: rest, details: parts.join(' · ')} : {title: clean || original, details: ''};
   }
   splitName.withoutQuotes = withoutQuotes;
+  splitName.attributes = function (name) {
+    // Explicit label values only; never mistake a range endpoint for exact ABV.
+    const abv = /\d\s*[-–—]\s*\d+(?:[.,]\d+)?\s*%/u.test(name) ? null
+      : name.match(/(?:^|[^\d.,–—-])(\d{1,2}(?:[.,]\d+)?)\s*%/u);
+    const volume = name.match(/(?:^|[^\d.,])(\d+(?:[.,]\d+)?)\s*(мл|ml|л|l)(?![\p{L}])/iu);
+    return {abv: abv ? Number(abv[1].replace(',', '.')) : null,
+      volumeMl: volume ? Number(volume[1].replace(',', '.')) * (/^(л|l)$/iu.test(volume[2]) ? 1000 : 1) : null};
+  };
   splitName.beerTags = function (name, category) {
     if (category !== 'Пиво') return [];
     let s = name.toLowerCase().replace(/ё/g, 'е');

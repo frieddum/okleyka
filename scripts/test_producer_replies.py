@@ -15,7 +15,7 @@ original = json.loads(source.read_text(encoding="utf-8"))
 loaded = load_replies(source, ROOT / "site")
 data = json.loads((ROOT / "_site/data/verified.json").read_text(encoding="utf-8"))
 rows = {r[0]: r for r in data["records"]}
-assert len(loaded["items"]) == 63
+assert len(loaded["items"]) == 64
 for item in loaded["items"]:
     row = rows[item["id"]]
     assessment = data["assessments"][row[15]]
@@ -85,12 +85,17 @@ ids = {parse_qs(urlsplit(unescape(url)).query)["id"][0]
 assert ids == {item["id"] for item in original["items"]
                if not original["replies"][item["reply_id"]].get("publication_pending")}
 pending = [item for item in loaded["items"] if item.get("publication_pending")]
-assert len(pending) == 11
-assert sum(item["status"] == "vegan" for item in pending) == 7
+assert len(pending) == 12
+assert sum(item["status"] == "vegan" for item in pending) == 8
 for item in pending:
     assert item["id"] not in ids
-    assert rows[item["id"]][2] and rows[item["id"]][9] and rows[item["id"]][11]
-    assert data["price_levels"][item["id"]]["level"] in range(1, 6)
+    assert rows[item["id"]][9] and rows[item["id"]][11]
+    if item.get("retail_optional"):
+        assert rows[item["id"]][2] == [] and rows[item["id"]][13] is None
+        assert item["id"] not in data["price_levels"]
+    else:
+        assert rows[item["id"]][2]
+        assert data["price_levels"][item["id"]]["level"] in range(1, 6)
     assert data["assessments"][rows[item["id"]][15]]["refs"] == []
 assert all(item_id in rows for item_id in ids)
 assert "<!-- PRODUCER_REPLIES -->" not in page

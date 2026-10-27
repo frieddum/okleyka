@@ -36,6 +36,8 @@
     return hit ? hit[0] : null;
   }
   const GROUPS = [
+    { key: 'coverage', title: 'Раздел', get: r => r.nets.length ? 'retail' : 'global', order: 'fixedList',
+      list: ['retail', 'global'], label: v => v === 'retail' ? 'В каталогах сетей' : 'Без привязки к сетям' },
     { key: 'st', title: 'Статус', get: r => r.st,
       label: v => STATUS[v].group, order: 'fixed',
       hint: 'Здесь только позиции с сохранённым решением. Позиции каталогов без проверки не публикуются.' },
@@ -215,7 +217,9 @@
       priceLevel: price ? String(PRICE_LEVELS[arr[0]].level) : NONE,
       id: arr[0], st: arr[1], nets: arr[2].map(i => d.networks[i]), name: arr[3], brand: at(d.brands, arr[4]),
       producer: at(d.producers, arr[5]), country: at(d.countries, arr[6]), origin: arr[7], cat: at(d.categories, arr[8]),
-      volMl: arr[9], volRaw: arr[10], abv: arr[11], vin: arr[12], checked: arr[13], merged: arr[14],
+      volMl: arr[9] ?? window.splitDrinkName.attributes(arr[3]).volumeMl,
+      volRaw: arr[10], abv: arr[11] ?? window.splitDrinkName.attributes(arr[3]).abv,
+      vin: arr[12], checked: arr[13], merged: arr[14],
       a: arr[15] >= 0 ? ASSESS[arr[15]] : null, color: arr[16], sugar: arr[17], sp: !!arr[18],
       sub: subtype(at(d.categories, arr[8]), arr[3]),
     };
@@ -314,8 +318,12 @@
     // Для невыбранных групп записи, отсеянные другой группой, не учитываются (выше это уже так).
     const score = r => sres ? sres.hits.get(r.rank) : 0;
     const stIdx = r => ST_ORDER.indexOf(r.st);
-    if (state.sort === 'name') out.sort((a, b) => a.rank - b.rank);
-    else out.sort((a, b) => (score(b) - score(a)) || stIdx(a) - stIdx(b) || a.rank - b.rank);
+    out.sort((a, b) => {
+      const group = Number(!a.nets.length) - Number(!b.nets.length);
+      if (group) return group;
+      if (!a.nets.length || state.sort === 'name') return a.rank - b.rank;
+      return (score(b) - score(a)) || stIdx(a) - stIdx(b) || a.rank - b.rank;
+    });
     lastResult = { out, counts, sres };
     return lastResult;
   }
@@ -462,6 +470,7 @@
     if (r.cat) f.push(tr(r.cat === 'Вино' && r.sp ? 'Игристое вино' : r.cat));
     if (r.color) f.push(tr(r.color));
     if (r.sugar) f.push(tr(r.sugar));
+    if (/глинтвейн|mulled wine/i.test(r.name)) f.push(tr('Глинтвейн'));
     f.push(...window.splitDrinkName.beerTags(r.name, r.cat).map(tr));
     if (r.brand && !r.nameKey.includes(r.brandKey)) f.push(r.brand);
     if (r.producer) f.push(r.producer);
@@ -480,7 +489,7 @@
       <div class="body">
         <div class="name">${highlight(r.displayName, tokens)}</div>
         ${facts ? `<div class="facts">${facts}</div>` : ''}
-        <div class="where">${where.join('')}</div>
+        ${r.nets.length ? `<div class="where">${where.join('')}</div>` : ''}
         ${r.a && r.a.rationale ? `<div class="why">${esc(r.a.rationale)}</div>` : ''}
       </div></a></li>`;
   }
@@ -557,12 +566,18 @@
   function renderList() {
     const res = compute();
     const total = res.out.length;
-    $('#count').innerHTML = `${fmtInt(total)} <span class="word">${records_word(total)}</span>`;
+    const retail = res.out.filter(r => r.nets.length).length, global = total - retail;
+    $('#count').innerHTML = `${fmtInt(retail || global)} <span class="word">${esc(tr(retail || !global ? 'в каталогах сетей' : 'без привязки к сетям'))}</span>`;
+    $('#global-count').innerHTML = global && retail ? `<a href="${esc(urlFor({f: {...state.f, coverage: new Set(['global'])}, p: 1}))}">${fmtInt(global)} ${esc(tr('без привязки к сетям'))}</a>` : '';
     $('#sort').value = state.sort;
     $('#pager').innerHTML = pageLinks(total);
     const slice = res.out.slice((state.p - 1) * PAGE, state.p * PAGE);
     const tokens = res.sres ? res.sres.tokens : null;
-    $('#results').innerHTML = slice.length ? slice.map(r => rowHTML(r, tokens)).join('') : renderEmpty(res);
+    $('#results').innerHTML = slice.length ? slice.map((r, i) => {
+      const heading = !r.nets.length && (i === 0 || slice[i - 1].nets.length)
+        ? `<li class="section-divider"><h2>${esc(tr('Без привязки к сетям'))}</h2><p>${esc(tr('Продажа в наших сетях не подтверждена. Поиск и статус действуют как обычно.'))}</p></li>` : '';
+      return heading + rowHTML(r, tokens);
+    }).join('') : renderEmpty(res);
     updateFilters(res.counts);
     renderQuick(res.counts);
     renderApplied();
@@ -598,7 +613,7 @@
     let html = `${navigation}${archiveNotice}
       <div class="card-status">${pill(r.st)}${!state.archive && r.price ? ` <span class="price-band" aria-label="${esc(r.price.label)}">${r.price.symbols}</span>` : ''}</div>
       <h1>${esc(r.displayName)}</h1>
-      <p class="sub">${esc(r.nets.map(tr).join(', '))}${r.checked ? ` ${fmtShort(r.checked)}` : ''}</p>
+      ${r.nets.length ? `<p class="sub">${esc(r.nets.map(tr).join(', '))}${r.checked ? ` ${fmtShort(r.checked)}` : ''}</p>` : ''}
       <div class="label-box"><dl class="kv">
         ${kv('Описание', r.nameDetails)}
         ${kv('Бренд', r.brand)}

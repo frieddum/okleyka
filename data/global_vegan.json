@@ -1,0 +1,3573 @@
+{
+  "copied_at": "2026-10-24",
+  "items": [
+    {
+      "id": "rfa-ab1624a10b0e",
+      "name": "Вино Agricola Querciabella Chianti Classico Riserva 2018",
+      "company": "Querciabella",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/1223/querciabella",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2011-02",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-0c65a8ed9101",
+      "name": "Вино Dr. Loosen Erdener Pralat Riesling Alte Reben Reserve 2014",
+      "company": "Weingut Dr. Loosen",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/1350/weingut-dr-loosen",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2020-01",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-16ce9ef2e9f9",
+      "name": "Вино Dr. Loosen Erdener Treppchen Riesling Dry GG 2019",
+      "company": "Weingut Dr. Loosen",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/1350/weingut-dr-loosen",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2020-01",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-8efa1301a2c7",
+      "name": "Вино Dr. Loosen Riesling Urziger Wurzgarten Kabinett 2020",
+      "company": "Weingut Dr. Loosen",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/1350/weingut-dr-loosen",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2020-01",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-6752de667d3f",
+      "name": "Вино Dr. Loosen Urziger Wurzgarten Riesling Dry Grosses Gewachs Old Vines Qualitatswein 2017",
+      "company": "Weingut Dr. Loosen",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/1350/weingut-dr-loosen",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2020-01",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-cc1de900c9fd",
+      "name": "Вино Dr. Loosen Urziger Wurzgarten Riesling Dry Grosses Gewachs Old Vines Qualitatswein 2018",
+      "company": "Weingut Dr. Loosen",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/1350/weingut-dr-loosen",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2020-01",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-3a36c11aee63",
+      "name": "Вино Dr.Loosen Dr. L Riesling Qualitatswein 2023",
+      "company": "Weingut Dr. Loosen",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/1350/weingut-dr-loosen",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2020-01",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-ed2f9dc81f74",
+      "name": "Вино M. Chapoutier Barbe Rac Chateauneuf-du-Pape 2016",
+      "company": "M. Chapoutier S.A.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3870/m-chapoutier-s-a",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-59ed08629ed9",
+      "name": "Вино M. Chapoutier Chateauneuf du Pape La Bernardine Red 2021",
+      "company": "M. Chapoutier S.A.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3870/m-chapoutier-s-a",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-bd2d6105f003",
+      "name": "Вино M. Chapoutier Condrieu Invitare 2023",
+      "company": "M. Chapoutier S.A.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3870/m-chapoutier-s-a",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-c5763902f221",
+      "name": "Вино M. Chapoutier Cotes du Rhone Belleruche Rose 2021",
+      "company": "M. Chapoutier S.A.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3870/m-chapoutier-s-a",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-8e5d1ef4f58a",
+      "name": "Вино M. Chapoutier Domaine de Bila-Haut v.i.t Cotes du Roussillon Villages Latour 2012",
+      "company": "M. Chapoutier S.A.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3870/m-chapoutier-s-a",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-149ab247a8b7",
+      "name": "Вино M. Chapoutier Domaine de Bila-Haut v.i.t Cotes du Roussillon Villages Latour 2013",
+      "company": "M. Chapoutier S.A.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3870/m-chapoutier-s-a",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-3b285627cea1",
+      "name": "Вино M. Chapoutier Domaine de Bila-Haut v.i.t Cotes du Roussillon Villages Latour 2014",
+      "company": "M. Chapoutier S.A.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3870/m-chapoutier-s-a",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-7caa292f7221",
+      "name": "Вино M. Chapoutier Ermitage De l'Oree M. Chapoutier 1998",
+      "company": "M. Chapoutier S.A.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3870/m-chapoutier-s-a",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-8f06878f04cd",
+      "name": "Вино M. Chapoutier Ermitage Le Pavillon 2008",
+      "company": "M. Chapoutier S.A.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3870/m-chapoutier-s-a",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-ea57f1e555c9",
+      "name": "Вино M. Chapoutier Gigondas 2022",
+      "company": "M. Chapoutier S.A.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3870/m-chapoutier-s-a",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-890178f53471",
+      "name": "Вино Mezzacorona Castel Firmian Trentino Lagrein 2019",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-9b6ff391177b",
+      "name": "Вино Mezzacorona Castel Firmian Trentino Lagrein 2021",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-e4e366fed9e5",
+      "name": "Вино Mezzacorona Castel Firmian Trentino Muller Thurgau 2017",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-20b41660d7cd",
+      "name": "Вино Mezzacorona Castel Firmian Trentino Muller Thurgau 2022",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-81b4ebb6ffa7",
+      "name": "Вино Mezzacorona Castel Firmian Trentino Pinot Nero 2018",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-d00ed3cf4de1",
+      "name": "Вино Mezzacorona Castel Firmian Trentino Pinot Nero 2020",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-7d817fe6782e",
+      "name": "Вино Mezzacorona Castel Pietra Moscato Dolomiti 2018",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-3e95704d9d95",
+      "name": "Вино Mezzacorona Forte Alto Dolomiti Pinot Grigio 2016",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-4e6320d41f1a",
+      "name": "Вино Mezzacorona Forte Alto Dolomiti Pinot Grigio 2017",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-5f325b84f47e",
+      "name": "Вино Mezzacorona Marzemino 2021",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-cbccbb5fa988",
+      "name": "Вино Mezzacorona Pinot Nero 2017",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-01c6823517cc",
+      "name": "Вино Mezzacorona Pinot Nero 2020",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-e59c895ea867",
+      "name": "Вино Mezzacorona Terre del Noce Dolomiti Cabernet Sauvignon 2017",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-be4fd2466955",
+      "name": "Вино Mezzacorona Terre del Noce Dolomiti Cabernet Sauvignon 2018",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-844ed8524824",
+      "name": "Вино Mezzacorona Terre del Noce Dolomiti Cabernet Sauvignon 2020",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-eb128fce18d6",
+      "name": "Вино Mezzacorona Terre del Noce Dolomiti Cabernet Sauvignon 2021",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-9f545e55e6e2",
+      "name": "Вино Mezzacorona Terre del Noce Dolomiti Chardonnay 2020",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-009729bd6b25",
+      "name": "Вино Mezzacorona Terre del Noce Dolomiti Chardonnay 2021",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-46955c72d6ef",
+      "name": "Вино Mezzacorona Terre del Noce Dolomiti Merlot 2018",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-086895884ef4",
+      "name": "Вино Mezzacorona Terre del Noce Dolomiti Merlot 2020",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-e4b8e2342d0c",
+      "name": "Вино Mezzacorona Terre del Noce Dolomiti Merlot 2022",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-49c033b5559f",
+      "name": "Вино Mezzacorona Terre del Noce Dolomiti Pinot Grigio 2022",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-36627629eda2",
+      "name": "Вино Mezzacorona Terre del Noce Dolomiti Teroldego 2020",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-a90dd22f6fd4",
+      "name": "Вино Mezzacorona Trentino Muller Thurgau 2018",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-53e3ff97028a",
+      "name": "Вино Mezzacorona Trentino Muller Thurgau 2020",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-795f1e18afbd",
+      "name": "Вино Mezzacorona Trentino Muller Thurgau 2021",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-d9ab8e88ebda",
+      "name": "Вино Mezzacorona Trentino Muller Thurgau 2022",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-7f89297b4f19",
+      "name": "Вино Mezzacorona Trentino Pinot Grigio 2018",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-09aa116f8298",
+      "name": "Вино Mezzacorona Trentino Pinot Grigio Riserva 2020",
+      "company": "Mezzacorona",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b0139c3d75be",
+      "name": "Вино Two Hands Aerope Barossa Valley Grenache 2011",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-a07416488f17",
+      "name": "Вино Two Hands Aerope Grenache Barossa Valley 2010",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-79b89135be1f",
+      "name": "Вино Two Hands Aerope Grenache Barossa Valley 2017",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-6156109d84fe",
+      "name": "Вино Two Hands Aerope Grenache Barossa Valley 2018",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-08e6bee9ca70",
+      "name": "Вино Two Hands Angels Share Shiraz Mclaren Vale 2022",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-099755efe352",
+      "name": "Вино Two Hands Ares Shiraz Barossa Valley 2008",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-171491e1f916",
+      "name": "Вино Two Hands Ares Shiraz Barossa Valley 2010",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-0acca59c6511",
+      "name": "Вино Two Hands Ares Shiraz Barossa Valley 2014",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-9ea299d37bd6",
+      "name": "Вино Two Hands Ares Shiraz Barossa Valley 2017",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-d7beb754e399",
+      "name": "Вино Two Hands Bellas Garden Shiraz Barossa Valley 2017",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-5ca236f003e0",
+      "name": "Вино Two Hands Bellas Garden Shiraz Barossa Valley 2018",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-266e60561c31",
+      "name": "Вино Two Hands Gnarly Dudes Shiraz Barossa Valley 2019",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-96562d3e74be",
+      "name": "Вино Two Hands Gnarly Dudes Shiraz Barossa Valley 2020",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-6a48f82a6524",
+      "name": "Вино Two Hands Gnarly Dudes Shiraz Barossa Valley 2021",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-f074aba2eb2c",
+      "name": "Вино Two Hands Gnarly Dudes Shiraz Barossa Valley 2022",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-a459b2b3ef71",
+      "name": "Вино Two Hands Lily`s Garden McLaren Vale Shiraz 2016",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-61f46a53ae4d",
+      "name": "Вино Two Hands Max's Garden Shiraz Heathcote 2018",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-347a98085ba6",
+      "name": "Вино Two Hands Samantha's Garden 2016",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-bf4bbc6f6ba8",
+      "name": "Вино Two Hands Samantha's Garden 2020",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-f23221b89342",
+      "name": "Вино Two Hands Sexy Beast McLaren Vale 2023",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-9560c87e4bf0",
+      "name": "Вино Two Hands The Boy Riesling 2023",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-8cce7e410355",
+      "name": "Вино Two Hands The Bull The Bear Malbec Cabernet Sauvignon Barossa Valley 2011",
+      "company": "Two Hands Wines",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/5643/two-hands-wines",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-cfa1d5d10562",
+      "name": "Вино Vietti Barbaresco DOCG Masseria 2010",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-2a1bc716995f",
+      "name": "Вино Vietti Barbera d'Alba DOC Scarrone 2011",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-054136bdd384",
+      "name": "Вино Vietti Barbera d'Alba DOC Scarrone Vigna Vecchia 2011",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-01fe56cad83c",
+      "name": "Вино Vietti Barbera d'Alba DOC Tre Vigne 2014",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-6458649c4790",
+      "name": "Вино Vietti Barbera d'Alba DOC Tre Vigne 2015",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-198959c29dc2",
+      "name": "Вино Vietti Barbera d'Alba DOC Tre Vigne 2016",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-84d35641a2e9",
+      "name": "Вино Vietti Barbera d'Alba Scarrone Vigna Vecchia 2018",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-edbf9120b1d7",
+      "name": "Вино Vietti Barbera d'Alba Tre Vigne 2017",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-e404e0110198",
+      "name": "Вино Vietti Barbera d'Alba Tre Vigne 2018",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-9db55a46ae3b",
+      "name": "Вино Vietti Barbera d'Alba Tre Vigne 2019",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b980f1df9aa4",
+      "name": "Вино Vietti Barbera d'Asti la Crena 2009",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b65be31c9590",
+      "name": "Вино Vietti Barbera d'Asti la Crena 2013",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-e668b771ff18",
+      "name": "Вино Vietti Barbera d'Asti la Crena 2016",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-0a3616314f0d",
+      "name": "Вино Vietti Barbera d'Asti la Crena 2018",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-d1a503f5bd1e",
+      "name": "Вино Vietti Barolo 2021",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-52641becb5ef",
+      "name": "Вино Vietti Barolo Castiglione 2017",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-f2e598bb79b2",
+      "name": "Вино Vietti Barolo Cerequio 2020",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-ef55ffc9f218",
+      "name": "Вино Vietti Barolo DOCG Castiglione 2010",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-8363013a61ea",
+      "name": "Вино Vietti Barolo Riserva Villero 2006",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-4d6a05b7bb5b",
+      "name": "Вино Vietti Barolo Riserva Villero 2009",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-74f558432dde",
+      "name": "Вино Vietti Barolo Riserva Villero 2010",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-f2d25bc96cf6",
+      "name": "Вино Vietti Barolo Riserva Villero 2013",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-954dea90d085",
+      "name": "Вино Vietti Barolo Riserva Villero 2016",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-49bb22621d45",
+      "name": "Вино Vietti Barolo Rocche 1997",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-98e809bc0e11",
+      "name": "Вино Vietti Dolcetto d'Alba Tre Vigne 2019",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-6760f7ff2b90",
+      "name": "Вино Vietti Dolcetto d'Alba Tre Vigne 2020",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-58444af1d47a",
+      "name": "Вино Vietti Dolcetto d'Alba Tre Vigne 2021",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-c1b314585efd",
+      "name": "Вино Vietti Dolcetto d'Alba Tre Vigne 2023",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-e5ffa2198b9a",
+      "name": "Вино Vietti Langhe DOC Nebbiolo Perbacco 2017",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-51d3735b93af",
+      "name": "Вино Vietti Langhe DOC Nebbiolo Perbacco 2018",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-12d78309b3a9",
+      "name": "Вино Vietti Langhe Nebbiolo Perbacco 2018",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b95813a8c36b",
+      "name": "Вино Vietti Langhe Nebbiolo Perbacco 2021",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-175867be355d",
+      "name": "Вино Vietti Moscato d'Asti 2019",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-930157c43408",
+      "name": "Вино Vietti Moscato d'Asti 2020",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-1c84e8afe164",
+      "name": "Вино Vietti Roero Arneis 2019",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-595f7dc4be6a",
+      "name": "Вино Vietti Roero Arneis 2020",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-c519a75b5b96",
+      "name": "Вино Vietti Roero Arneis 2021",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-532cbee49d10",
+      "name": "Вино Vietti Roero Arneis 2022",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-6686941770ff",
+      "name": "Вино Vietti Roero Arneis 2023",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-74a2ffd8e38a",
+      "name": "Вино Vietti Roero Arneis 2024",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-d1795c9d2422",
+      "name": "Вино Vietti Roero Arneis DOCG 2015",
+      "company": "Vietti s.r.l.",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/6193/vietti-s-r-l",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-04",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-298c93df3cd3",
+      "name": "Вино Vina Cobos Bramare Cabernet Sauvignon Lujan de Cuyo 2022",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-068185f2b487",
+      "name": "Вино Vina Cobos Bramare Chardonnay Los Arbolitos Vineyard 2018",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-2110907c3af3",
+      "name": "Вино Vina Cobos Bramare Malbec Lujan de Cuyo 2017",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-ad1ad3aff652",
+      "name": "Вино Vina Cobos Bramare Malbec Marchiori Estate 2017",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-a60eb6c90c3f",
+      "name": "Вино Vina Cobos Bramare Malbec Zingaretti Estate 2017",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b7ae16dce212",
+      "name": "Вино Vina Cobos Bramare Marchiori Cabernet Sauvignon 2009",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-2ba4b66305ba",
+      "name": "Вино Vina Cobos Bramare Marchiori Chardonnay 2011",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-dfa74d16a0a7",
+      "name": "Вино Vina Cobos Bramare Marchiori Chardonnay 2012",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-f70cd1589588",
+      "name": "Вино Vina Cobos Bramare Marchiori Malbec 2008",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-978c8f92edb3",
+      "name": "Вино Vina Cobos Felino Cabernet Sauvignon 2022",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-7b021b35dd9f",
+      "name": "Вино Vina Cobos Felino Chardonnay 2018",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-ba58e55fd6e6",
+      "name": "Вино Vina Cobos Felino Chardonnay 2023",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-8e579e13cb4e",
+      "name": "Вино Vina Cobos Felino Merlot 2011",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-5136eaad7189",
+      "name": "Вино Vina Cobos Felino Merlot 2012",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-596364f9756b",
+      "name": "Вино Vina Cobos Hobbs Estate Malbec 2021",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-a727bacac603",
+      "name": "Вино Vina Cobos Malbec 2009",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-6729044e8f5f",
+      "name": "Вино Vina Cobos Vina Cobos Bramare Chardonnay 2018",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-bab774d7d3c7",
+      "name": "Вино Vina Cobos Vinculum Malbec 2018",
+      "company": "Viña Cobos",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/8642/vi-a-cobos",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2021-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-f68d41d4e6f4",
+      "name": "Вино Viu Manent Carmenere Gran Reserva 2020",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-3f7e1c07a940",
+      "name": "Вино Viu Manent Estate Collection Reserva Chardonnay 2013",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-972598f0d977",
+      "name": "Вино Viu Manent Estate Collection Reserva Chardonnay 2015",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-d2327013cdaa",
+      "name": "Вино Viu Manent Estate Collection Reserva Chardonnay 2016",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-9e9889617554",
+      "name": "Вино Viu Manent Estate Collection Reserva Chardonnay 2017",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-f9ad0237878f",
+      "name": "Вино Viu Manent Estate Collection Reserva Chardonnay 2018",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-2872188701df",
+      "name": "Вино Viu Manent Estate Collection Reserva Chardonnay 2022",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-f779c992fc7c",
+      "name": "Вино Viu Manent Estate Collection Reserva Chardonnay 2024",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-507b0dd95ba2",
+      "name": "Вино Viu Manent Estate Collection Reserva Malbec 2022",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-5864d38e52d2",
+      "name": "Вино Viu Manent Estate Collection Reserva Merlot 2023",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-016123041512",
+      "name": "Вино Viu Manent Estate Collection Reserva Sauvignon Blanc 2023",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-416c6fb9102a",
+      "name": "Вино Viu Manent Malbec Gran Reserva 2020",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-3a63a7f0cf9e",
+      "name": "Вино Viu Manent Malbec Gran Reserva 2021",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-a194e27cb2a2",
+      "name": "Вино Viu Manent Secreto Malbec 2021",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-7dffa6ba7c6c",
+      "name": "Вино Viu Manent Secreto Syrah 2022",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-fdbc3b8052d8",
+      "name": "Вино Viu Manent Secreto Viognier 2022",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-f1d66755ac5e",
+      "name": "Вино Viu Manent Secreto Viognier 2024",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-e437010d0b77",
+      "name": "Вино Viu Manent Single Vineyard La Capilla Cabernet Sauvignon 2021",
+      "company": "Viu Manent Winery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/4885/viu-manent-winery",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-10",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-328062c13b91",
+      "name": "Виски Glen Moray Elgin Classic Chardonnay Cask Finish",
+      "company": "Glen Moray Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/4087/glen-moray-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-11",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b8fac54c8db0",
+      "name": "Виски Glen Moray Elgin Classic Peated",
+      "company": "Glen Moray Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/4087/glen-moray-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-11",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-ec029a09be3d",
+      "name": "Виски Glen Moray Private Cask Chardonnay Matured",
+      "company": "Glen Moray Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/4087/glen-moray-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-11",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-f3b60f4b2717",
+      "name": "Виски Glen Moray Private Cask Madeira Finish",
+      "company": "Glen Moray Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/4087/glen-moray-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2015-11",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-8c78fd5a4137",
+      "name": "Виски Glenfarclas 11 Years Old Sherry Cask Matured",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-7399080e3799",
+      "name": "Виски Glenfarclas 1956 Family Casks No. 2358",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-0caa3b4c0e95",
+      "name": "Виски Glenfarclas 1957 Family Casks No. 2110",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-59eed473c9ca",
+      "name": "Виски Glenfarclas 1960 Family Casks No. 1775",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-25bdba3fb362",
+      "name": "Виски Glenfarclas 1961 Family Casks No. 3054",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b81d885fd6c1",
+      "name": "Виски Glenfarclas 1962 Family Casks No. 3246",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b6a5ec1cac30",
+      "name": "Виски Glenfarclas 1964 Family Casks",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b2ca002bd581",
+      "name": "Виски Glenfarclas 1965 Family Casks",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-94e46dc1ed3e",
+      "name": "Виски Glenfarclas 1969 Family Casks No. 2451",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-7cec7dbc9c01",
+      "name": "Виски Glenfarclas 1970 Family Casks No. 2033",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-e7983b875d53",
+      "name": "Виски Glenfarclas 1971 Family Casks",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b726128e9d81",
+      "name": "Виски Glenfarclas 1974 Family Casks No. 5787",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-a91e6dcdf7e5",
+      "name": "Виски Glenfiddich Perpetual Collection VAT 01",
+      "company": "Glenfiddich",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1843/glenfiddich",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b15f155fa9a0",
+      "name": "Виски Glenfiddich Perpetual Collection Vat 03 15 Years",
+      "company": "Glenfiddich",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1843/glenfiddich",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-436e653cdfef",
+      "name": "Виски Glenfiddich Perpetual Collection Vat 04 18 Year Old",
+      "company": "Glenfiddich",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1843/glenfiddich",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-337dcde6c7a0",
+      "name": "Виски Glenfiddich Project XX Series №2",
+      "company": "Glenfiddich",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1843/glenfiddich",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-652b349a9b2b",
+      "name": "Виски Glenfiddich Select Cask",
+      "company": "Glenfiddich",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1843/glenfiddich",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2016-12",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-ff51c9981e6d",
+      "name": "Виски Macallan A Night on Earth The Journey",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-80f892e37cd1",
+      "name": "Виски Macallan Distil Your World The New York Edition",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-9e4db0a8b3f0",
+      "name": "Виски Macallan Edition №4",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-2283bcd195d7",
+      "name": "Виски Macallan in Lalique 57 Years Old",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-a252fea1f6bc",
+      "name": "Виски Macallan in Lalique 65 Years Old",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-d4b3e82053c9",
+      "name": "Виски Macallan Rare Cask Release 2021",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-e065fadf19a7",
+      "name": "Виски Macallan Rare Cask Release 2023",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-ac99c4a64f3e",
+      "name": "Виски Macallan Rare Cask Release 2024",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-ca0f8a3560f8",
+      "name": "Виски Macallan Red Collection 40 Years Old",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-5e8371999ce2",
+      "name": "Виски Macallan Red Collection 50 Years Old",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b7a7fc911ab6",
+      "name": "Виски Macallan Red Collection 78 Years Old",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-1027ebbd3f04",
+      "name": "Виски Macallan Sherry Oak 40 Years Old",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-29e3000cd535",
+      "name": "Виски Macallan Sir Peter Blake Anecdotes of Ages",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-89ce35269068",
+      "name": "Виски Talisker 11 Years Old Special Release 2022",
+      "company": "Talisker Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1624/talisker-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": null,
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-42ef699a2127",
+      "name": "Виски Talisker 18 Years Old",
+      "company": "Talisker Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1624/talisker-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": null,
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-7dd8b6b288a1",
+      "name": "Виски Talisker 40 Years Old",
+      "company": "Talisker Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1624/talisker-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": null,
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-56c95ec1bd9c",
+      "name": "Виски Talisker 41 Years Old",
+      "company": "Talisker Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1624/talisker-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": null,
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-e9c01ffb8e9a",
+      "name": "Виски Talisker Distillers Edition 2021",
+      "company": "Talisker Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1624/talisker-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": null,
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-906aa72f6da7",
+      "name": "Виски Talisker Distillers Edition 2022",
+      "company": "Talisker Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1624/talisker-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": null,
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-0162101d4083",
+      "name": "Виски Talisker Port Ruighe",
+      "company": "Talisker Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/1624/talisker-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": null,
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-2040de17bc49",
+      "name": "Виски The Macallan 2002 Exceptional Single Cask №2340/04 16 Years",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-8d965f86a0f7",
+      "name": "Виски The Macallan 2005 Exceptional Single Cask №5223/10 12 Years",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-2c88a71fdda8",
+      "name": "Виски The Macallan 2007 Exceptional Single Cask №3112/05 12 Years",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-c491adc96cf6",
+      "name": "Виски The Macallan M Black Release 2017",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-34d4281986e0",
+      "name": "Виски The Macallan M Decanter Release 2017",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-b15f281e09ad",
+      "name": "Виски The Macallan M Decanter Release 2020",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-5442c67334b9",
+      "name": "Виски The Macallan Rare Cask Black",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-0e408853c513",
+      "name": "Виски The Macallan Steven Klein Edition",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-d2d5481c2cff",
+      "name": "Виски The Macallan Tales of The Macallan Volume I",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-7b9b9ec8ba47",
+      "name": "Виски The Macallan The Harmony Collection Green Meadow",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-4f9c694a972d",
+      "name": "Виски The Macallan The Harmony Collection Guardian Oak",
+      "company": "Macallan Distillery",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/174/macallan-distillery",
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2017-08",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-0116648b3d34",
+      "name": "Водка Absolut Lime",
+      "company": "Absolut Vodka",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/142/absolut-vodka",
+      "category": "Водка",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2024-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-c28d2c08d936",
+      "name": "Водка Absolut Passionruit",
+      "company": "Absolut Vodka",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/142/absolut-vodka",
+      "category": "Водка",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2024-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-8cb05ead9cb0",
+      "name": "Водка Absolut Watermelon",
+      "company": "Absolut Vodka",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/142/absolut-vodka",
+      "category": "Водка",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2024-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-c74d8bf83303",
+      "name": "Водка Absolut Wild Berri",
+      "company": "Absolut Vodka",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/liquor/142/absolut-vodka",
+      "category": "Водка",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2024-07",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "rfa-657a924668e8",
+      "name": "Игристое вино Dr. Loosen Riesling Sekt Extra Dry 2021",
+      "company": "Weingut Dr. Loosen",
+      "country": null,
+      "barnivore_url": "https://www.barnivore.com/wine/1350/weingut-dr-loosen",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2020-01",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "bv-product-19867",
+      "name": "Cliffhanger Vineyards Pinot Grigio",
+      "company": "Mezzacorona",
+      "country": null,
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+    },
+    {
+      "id": "bv-product-19868",
+      "name": "Cliffhanger Vineyards Proprietary Red Blend",
+      "company": "Mezzacorona",
+      "country": null,
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+    },
+    {
+      "id": "bv-product-19861",
+      "name": "Mezzacorona I Classici Cabernet Sauvignon",
+      "company": "Mezzacorona",
+      "country": null,
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+    },
+    {
+      "id": "bv-product-19859",
+      "name": "Mezzacorona I Classici Chardonnay",
+      "company": "Mezzacorona",
+      "country": null,
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+    },
+    {
+      "id": "bv-product-19862",
+      "name": "Mezzacorona I Classici Merlot",
+      "company": "Mezzacorona",
+      "country": null,
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+    },
+    {
+      "id": "bv-product-19860",
+      "name": "Mezzacorona I Classici Moscato",
+      "company": "Mezzacorona",
+      "country": null,
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+    },
+    {
+      "id": "bv-product-19858",
+      "name": "Mezzacorona I Classici Pinot Grigio",
+      "company": "Mezzacorona",
+      "country": null,
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+    },
+    {
+      "id": "bv-product-19863",
+      "name": "Mezzacorona I Classici Pinot Noir",
+      "company": "Mezzacorona",
+      "country": null,
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+    },
+    {
+      "id": "bv-product-19864",
+      "name": "Mezzacorona Le Riserve Pinot Grigio Riserva",
+      "company": "Mezzacorona",
+      "country": null,
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+    },
+    {
+      "id": "bv-product-19865",
+      "name": "Mezzacorona Le Riserve Teroldego Rotaliano Doc",
+      "company": "Mezzacorona",
+      "country": null,
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+    },
+    {
+      "id": "bv-product-19866",
+      "name": "Mezzacorona Nos",
+      "company": "Mezzacorona",
+      "country": null,
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2014-03",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/wine/3495/mezzacorona"
+    },
+    {
+      "id": "bv-product-16557",
+      "name": "Glenfarclas 10 Year Old Whisky",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery"
+    },
+    {
+      "id": "bv-product-16564",
+      "name": "Glenfarclas 105 Cask Whisky",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery"
+    },
+    {
+      "id": "bv-product-16558",
+      "name": "Glenfarclas 12 Year Old Whisky",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery"
+    },
+    {
+      "id": "bv-product-16559",
+      "name": "Glenfarclas 15 Year Old Whisky",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery"
+    },
+    {
+      "id": "bv-product-16560",
+      "name": "Glenfarclas 17 Year Old Whisky",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery"
+    },
+    {
+      "id": "bv-product-16561",
+      "name": "Glenfarclas 21 Year Old Whisky",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery"
+    },
+    {
+      "id": "bv-product-16562",
+      "name": "Glenfarclas 25 Year Old Whisky",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery"
+    },
+    {
+      "id": "bv-product-16563",
+      "name": "Glenfarclas 30 Year Old Whisky",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery"
+    },
+    {
+      "id": "bv-product-16565",
+      "name": "Glenfarclas 40 Year Old Whisky",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery"
+    },
+    {
+      "id": "bv-product-16566",
+      "name": "Glenfarclas Family Cask Whisky",
+      "company": "Glenfarclas Distillery",
+      "country": null,
+      "category": "Виски",
+      "status": "vegan",
+      "rationale": "Ответ производителя подтверждает отсутствие животных ингредиентов и средств обработки у этой линейки.",
+      "scope": [
+        "Ответ относится только к продукции указанного производителя. Другие производители и похожие названия им не охвачены."
+      ],
+      "evidence_date": "2013-12",
+      "chains": [],
+      "scope_reviewed": true,
+      "barnivore_url": "https://www.barnivore.com/liquor/3130/glenfarclas-distillery"
+    }
+  ]
+}

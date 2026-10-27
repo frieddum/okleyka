@@ -18250,5 +18250,11 @@
     "scale": "fortified",
     "volume_ml": 750,
     "observed_at": "2026-10-27"
+  },
+  "sp-87a7dd7147": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-26"
   }
 }

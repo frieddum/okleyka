@@ -419,3 +419,8 @@ dl.kv dt:first-of-type, dl.kv dt:first-of-type + dd { border-top: 0; }
 .reply-products ul { padding-left: 20px; margin-top: 8px; }
 .reply-products li { padding-block: 4px; }
 .reply-original { display: inline-block; padding-block: 6px; }
+.global-count { margin: 10px 0; font-size: var(--fs-s); }
+.global-count:empty { display: none; }
+.section-divider { list-style: none; border-top: 2px solid var(--rule); padding: 24px 0 12px; }
+.section-divider h2 { margin: 0 0 8px; font-size: var(--fs-l); }
+.section-divider p { margin: 0; font-size: var(--fs-s); }
