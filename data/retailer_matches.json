@@ -1348,5 +1348,113 @@
     "expected_name": "Джин Roku",
     "network": "Азбука вкуса",
     "checked_at": "2026-10-26"
+  },
+  {
+    "record_id": "rfa-9be384031e5f",
+    "network": "Ласточка",
+    "expected_name": "Водка Грей Гуз",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "vr-f189fded0a",
+    "network": "Ласточка",
+    "expected_name": "Водка Чистые Росы из ячменного зерна",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "vr-456e26fc31",
+    "network": "Ласточка",
+    "expected_name": "Водка Чистые Росы",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "rfa-3713715e30ab",
+    "network": "Ласточка",
+    "expected_name": "Коньяк Hennessy VS",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "prk-4f417c67e3",
+    "network": "Ласточка",
+    "expected_name": "Водка Царская Оригинальная 40%, 700мл",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "rfa-4b7ed9a8954e",
+    "network": "Ласточка",
+    "expected_name": "Виски Benriach The Original Ten",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "reply-tat-3d6191f24ad3",
+    "network": "Ласточка",
+    "expected_name": "Tundra Bitter Mint",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "rfa-131294ee553e",
+    "network": "Ласточка",
+    "expected_name": "Ром Bumbu XO",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "prk-6e9f8f7031",
+    "network": "Ласточка",
+    "expected_name": "Водка Легенда Кремля 40%, 500мл",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "prk-e4d8feeb6f",
+    "network": "Ласточка",
+    "expected_name": "Вермут Martini Bianco белый сладкий 15%",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "vr3-ede25d72db",
+    "network": "Ласточка",
+    "expected_name": "Водка Русский Стандарт Gold",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "prk-09007eb317",
+    "network": "Ласточка",
+    "expected_name": "Водка Архангельская северная выдержка 40%, 375мл",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "rfa-536f9641b4fd",
+    "network": "Ласточка",
+    "expected_name": "Виски The Matsui Mizunara Cask",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "ln-c438ae7e41",
+    "network": "Ласточка",
+    "expected_name": "Вино MATSU El Picaro ординарное красное сухое",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "dx-6008630650",
+    "network": "Ласточка",
+    "expected_name": "Джин \"Barrister\" Pink, 40%, 0,5 л",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "vr3-36108fcbae",
+    "network": "Ласточка",
+    "expected_name": "Водка Русский Стандарт Оригинал",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "vr-48351c6a15",
+    "network": "Ласточка",
+    "expected_name": "Водка Пять Озер",
+    "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "reply-tat-30836d042b9a",
+    "network": "Ласточка",
+    "expected_name": "Тундра Морозный Можжевельник",
+    "checked_at": "2026-10-27"
   }
 ]

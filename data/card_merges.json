@@ -1,0 +1,143 @@
+[
+  {
+    "keep": "rfa-44091d2819c0",
+    "remove": [
+      "rfa-5e1f409907f2",
+      "sp-87a7dd7147"
+    ],
+    "reason": "Hennessy XO: Latin punctuation and Russian transcription; same producer and expression."
+  },
+  {
+    "keep": "vr3-bcc8e79a3e",
+    "remove": [
+      "prk-2e07ccbf89"
+    ],
+    "reason": "Finlandia original vodka, 40%, same producer; Barnivore and VeganRussian evidence."
+  },
+  {
+    "keep": "prk-f1e7c97587",
+    "remove": [
+      "kb-349dabad66"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "29204bbc17",
+    "remove": [
+      "rfa-8923fa2b6e1d"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "ea43b1c775",
+    "remove": [
+      "kb-d2d70ebfb6"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "d2612fe348",
+    "remove": [
+      "rfa-8e53b5a01062"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "f1855d640e",
+    "remove": [
+      "mt-1e8c6c1bb0"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "rfa-39e7913c7f3d",
+    "remove": [
+      "rfa-4c1165c3d8eb"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "rfa-b6178340a0b2",
+    "remove": [
+      "kb-2bb89526e7"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "rfa-d83acc094239",
+    "remove": [
+      "kb-91bb21967b"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "rfa-ce509d6296fa",
+    "remove": [
+      "rfa-b5a1ad02ef51"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "rfa-d70d3e906ec1",
+    "remove": [
+      "jo-545e2f5288"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "rfa-fa224c732dce",
+    "remove": [
+      "jo-acf0e7ec64"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "rfa-72868344756d",
+    "remove": [
+      "jo-2c11f78fb8"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "rfa-47a61ba81196",
+    "remove": [
+      "jo-615d96673d"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "prk-3408b289d1",
+    "remove": [
+      "kb-b264066db8"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "prk-650f649d5d",
+    "remove": [
+      "kb-0ab7951183"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "prk-3f49ff7345",
+    "remove": [
+      "vr-99a57d41e6"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "prk-e3461c2838",
+    "remove": [
+      "kb-7d1e75760b"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "dx-2cbe7963e8",
+    "remove": [
+      "kb-d51897aac5"
+    ],
+    "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  }
+]

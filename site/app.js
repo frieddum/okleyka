@@ -4,7 +4,7 @@
   const PAGE = 25;
   const ST_ORDER = ['v', 'n'];
   // Editorial order: everyday chains first, specialist shops afterwards.
-  const NETWORK_ORDER = ['Пятёрочка', 'Магнит', 'Красное&Белое', 'Перекрёсток',
+  const NETWORK_ORDER = ['Магнит', 'Красное&Белое', 'Перекрёсток',
     'Лента', 'Дикси', 'METRO', 'SPAR', 'Ароматный Мир', 'КуулКлевер / ОТДОХНИ',
     'Азбука вкуса', 'Табрис', 'Градусы', 'Decanter', 'Joia', 'МАГНУМ-Винотека',
     'DASKO', 'Мастер вин', 'Пробки & Бутылки', 'Ласточка'];
@@ -659,6 +659,7 @@
     const link = $('#archive-link');
     link.href = urlFor({ archive: !state.archive, id: null, p: 1 });
     link.textContent = state.archive ? 'К справочнику' : 'Архив';
+    link.hidden = !state.archive;
     $('#archive-notice').hidden = !state.archive;
   }
   function render() {
@@ -843,6 +844,10 @@
       ASSESS = verified.assessments;
       PRICE_LEVELS = verified.price_levels || {};
       ingest(verified.records);
+      if (state.id && verified.aliases?.[state.id]) {
+        state.id = verified.aliases[state.id];
+        writeURL(false);
+      }
       const missingId = state.id;
       if (!state.archive && missingId && !BY_ID.has(missingId)) {
         try {

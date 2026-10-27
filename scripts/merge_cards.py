@@ -117,7 +117,7 @@ def merge(records, assessments, threshold=0.82):
                 (wi, ni), (wj, nj) = sk[i], sk[j]
                 if not wi or not wj or ni != nj:
                     continue
-                if wi == wj or same_words(wi, wj, threshold):
+                if wi == wj or (not (ri[0].startswith("bv-product-") or rj[0].startswith("bv-product-")) and same_words(wi, wj, threshold)):
                     parent[find(j)] = find(i)
     groups = defaultdict(list)
     for i in range(len(records)):

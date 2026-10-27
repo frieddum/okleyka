@@ -542,12 +542,13 @@ def main():
     if match_path.exists():
         by_id = {r[0]: r for r in records}
         seen_matches = set()
+        direct_reply_ids = {x["id"] for x in load_replies(ROOT / "data/producer_replies.json", ROOT / "site")["items"]}
         for match in json.loads(match_path.read_text(encoding="utf-8")):
             rid, network = match["record_id"], match["network"]
             rec = by_id.get(rid)
             if rec is None or rec[3] != match["expected_name"]:
                 fail(f"retailer_matches: требуется пересмотр сопоставления {rid}")
-            if rec[1] not in ("v", "n") or not assessments[rec[15]]["refs"]:
+            if rec[1] not in ("v", "n") or (not assessments[rec[15]]["refs"] and rid not in direct_reply_ids):
                 fail(f"retailer_matches: нет подтверждённого решения для {rid}")
             checked = match["checked_at"]
             if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", checked):
@@ -648,8 +649,47 @@ def main():
     for r in verified:
         if r[0] in restored:
             r[2], r[13] = [], None
+    # Reviewed cross-language duplicates, applied after retailer checks and before export.
+    aliases = {}
+    merge_file = ROOT / "data/card_merges.json"
+    merge_decisions = json.loads(merge_file.read_text(encoding="utf-8")) if merge_file.exists() else []
+    by_merge_id = {r[0]: r for r in verified}
+    for decision in merge_decisions:
+        keep = by_merge_id[decision["keep"]]
+        for rid in decision["remove"]:
+            other = by_merge_id[rid]
+            if any(keep[i] != other[i] for i in (1, 5, 8, 12, 16, 17, 18)):
+                fail(f"card_merges: conflicting identity {rid}")
+            if keep[11] and other[11] and keep[11] != other[11]:
+                fail(f"card_merges: conflicting strength {rid}")
+            keep[2] = list(dict.fromkeys(keep[2] + other[2]))
+            keep[13] = max(filter(None, [keep[13], other[13]]), default=None)
+            keep[14] += other[14]
+            if keep[9] and other[9] and keep[9] != other[9]:
+                keep[9], keep[10] = None, None
+                keep[3] = re.sub(r",?\s*\d+(?:[.,]\d+)?\s*(?:мл|л|ml|l)(?![a-zа-я])", "", keep[3]).strip(" ,")
+            elif keep[9] is None: keep[9] = other[9]
+            if keep[11] is None: keep[11] = other[11]
+            combined = dict(assessments[keep[15]])
+            for field in ("scope", "caveats"):
+                combined[field] = list(dict.fromkeys(combined.get(field, []) + assessments[other[15]].get(field, [])))
+            combined["refs"] = list({(x["type"],x["url"]):x for x in combined["refs"] + assessments[other[15]]["refs"]}.values())
+            assessments.append(combined)
+            keep[15] = len(assessments)-1
+            aliases[rid] = keep[0]
+    verified = [r for r in verified if r[0] not in aliases]
+    # No public alcohol catalog is available for this retailer; withdraw its observations.
+    excluded_networks = {i for i,n in enumerate(nets.items) if n in ("Пятёрочка", "Пятерочка")}
+    for r in verified:
+        r[2] = [i for i in r[2] if i not in excluded_networks]
+        if not r[2]: r[13] = None
     active_records = [r for r in verified if r[0] not in archived or r[0] in restored]
     archived_records = [r for r in verified if r[0] in archived and r[0] not in restored]
+    public_networks = [n for i,n in enumerate(nets.items) if i not in excluded_networks]
+    network_remap = {i:public_networks.index(n) for i,n in enumerate(nets.items) if i not in excluded_networks}
+    for r in verified: r[2] = [network_remap[i] for i in r[2]]
+    meta["dicts"]["networks"] = public_networks
+    meta["networks_declared"] = [n for n in meta["networks_declared"] if n["name"] not in ("Пятёрочка", "Пятерочка")]
     meta["rows"]["verified_after_merge"] = len(active_records)
     meta["rows"]["archived"] = len(archived_records)
     meta["rows"]["with_retail_observations"] = sum(bool(r[2]) for r in active_records)
@@ -657,6 +697,11 @@ def main():
     dump("meta.json", meta)
     price_path = ROOT / "data/price_levels.json"
     prices = json.loads(price_path.read_text(encoding="utf-8")) if price_path.exists() else {}
+    for old, new in aliases.items():
+        if old in prices:
+            if new not in prices or (prices[old]["observed_at"] or "") > (prices[new]["observed_at"] or ""):
+                prices[new] = prices[old]
+            del prices[old]
     by_id = {r[0]: r for r in verified}
     from price_levels import ordinary_volume, category
     for rid, band in prices.items():
@@ -669,8 +714,8 @@ def main():
             fail(f"price_levels: неверная шкала или объём {rid}")
         from datetime import date
         if band["observed_at"] is not None: date.fromisoformat(band["observed_at"])
-    dump("verified.json", {"records": active_records, "assessments": assessments,
-                           "price_levels": {rid: band for rid, band in prices.items() if rid not in archived}})
+    dump("verified.json", {"records": active_records, "assessments": assessments, "aliases": aliases,
+                           "price_levels": {rid: band for rid, band in prices.items() if rid not in archived and by_id[rid][2]}})
     dump("archive.json", {"records": archived_records, "assessments": assessments, "price_levels": {}, "archived": archived})
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     brew = ROOT / "data" / "ru_breweries.json"

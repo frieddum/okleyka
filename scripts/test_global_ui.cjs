@@ -20,6 +20,8 @@ const data=JSON.parse(fs.readFileSync(path.join(root,'data/verified.json')));
    const retail=data.records.filter(r=>r[1]==='v'&&r[2].length).length;
    assert.equal(Number((await page.locator('#count').innerText()).replace(/[^0-9]/g,'')),retail);
    assert.ok(await page.locator('#global-count a').count());
+   assert.equal(await page.locator('#archive-link').isVisible(),false);
+   assert.ok(!(await page.locator('body').innerText()).includes('Пятёрочка'));
    for(const id of await page.locator('#results [data-id]').evaluateAll(es=>es.map(e=>e.dataset.id)))assert.ok(data.records.find(r=>r[0]===id)[2].length);
    await page.locator('#global-count a').click();
    await page.waitForURL('**coverage=global');
@@ -31,6 +33,7 @@ const data=JSON.parse(fs.readFileSync(path.join(root,'data/verified.json')));
    await load('&id=sp-87a7dd7147');
    await page.locator('#card-view').waitFor({state:'visible'});
    assert.equal(await page.locator('.card-status .price-band').innerText(),'$$$$$');
+   assert.ok(page.url().includes('id=rfa-44091d2819c0'));
    await load('&coverage=global');
    for(const width of [375,1280]){
     await page.setViewportSize({width,height:900});
