@@ -3,6 +3,11 @@
   const tr = s => window.I18N.t(s);
   const PAGE = 25;
   const ST_ORDER = ['v', 'n'];
+  // Editorial order: everyday chains first, specialist shops afterwards.
+  const NETWORK_ORDER = ['Пятёрочка', 'Магнит', 'Красное&Белое', 'Перекрёсток',
+    'Лента', 'Дикси', 'METRO', 'SPAR', 'Ароматный Мир', 'КуулКлевер / ОТДОХНИ',
+    'Азбука вкуса', 'Табрис', 'Градусы', 'Decanter', 'Joia', 'МАГНУМ-Винотека',
+    'DASKO', 'Мастер вин', 'Пробки & Бутылки', 'Ласточка'];
   const STATUS = {
     v: { label: 'Веганское', group: 'Веганское' },
     n: { label: 'Невеганское', group: 'Невеганское' },
@@ -34,14 +39,13 @@
     { key: 'st', title: 'Статус', get: r => r.st,
       label: v => STATUS[v].group, order: 'fixed',
       hint: 'Здесь только позиции с сохранённым решением. Позиции каталогов без проверки не публикуются.' },
-    { key: 'net', title: 'Сеть', get: r => r.nets, order: 'total' },
+    { key: 'net', title: 'Сеть', get: r => r.nets, order: 'network' },
     { key: 'price', title: 'Ценовой уровень', get: r => r.priceLevel, order: 'fixed',
       list: ['1', '2', '3', '4', '5', NONE],
       label: v => v === NONE ? 'Без цены' : '$'.repeat(Number(v)),
       ariaLabel: v => v === NONE ? tr('Без цены') : window.formatPriceBand({ level: Number(v) }, window.I18N.lang).label },
     { key: 'kind', title: 'Вид напитка', get: r => r.cat || NONE, label: v => v === NONE ? 'Вид не указан' : v, order: 'total', limit: 8 },
-    { key: 'beer', title: 'Пиво: цвет и стиль', get: r => window.splitDrinkName.beerTags(r.name, r.cat), order: 'total', limit: 9,
-      hint: 'По явному указанию в названии. Одно пиво может быть одновременно светлым и пшеничным.' },
+    { key: 'beer', title: 'Пиво: цвет и стиль', get: r => window.splitDrinkName.beerTags(r.name, r.cat), order: 'total', limit: 9 },
     { key: 'sub', title: 'Тип', solo: true, get: r => r.sub, order: 'fixedList',
       list: Object.values(SUBTYPES).flatMap(t => t.map(x => x[0])),
       hint: 'По названию в карточке сети. Позиции без такого указания здесь не учитываются.' },
@@ -324,6 +328,10 @@
     let vals = [...totals.keys()];
     if (g.order === 'fixed') vals = (g.list || ST_ORDER).slice();
     else if (g.order === 'fixedList') vals = g.list.filter(v => totals.has(v));
+    else if (g.order === 'network') {
+      const rank = v => NETWORK_ORDER.includes(v) ? NETWORK_ORDER.indexOf(v) : NETWORK_ORDER.length;
+      vals.sort((a, b) => rank(a) - rank(b) || collator.compare(a, b));
+    }
     else if (g.order === 'desc') vals.sort((a, b) => b.localeCompare(a));
     else vals.sort((a, b) => (a === NONE) - (b === NONE) || totals.get(b) - totals.get(a) || collator.compare(a, b));
     return vals;
