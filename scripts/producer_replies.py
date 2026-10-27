@@ -18,6 +18,8 @@ def load_replies(path, site):
         if not reply["company"] or not reply["rationale"] or not reply["scope"]:
             raise ValueError(f"{key}: missing producer or scope")
         page = reply.get("public_page")
+        if reply.get("publication_pending") and page:
+            raise ValueError(f"{key}: reply publication is still pending")
         if page is not None:
             if not re.fullmatch(r"[a-z0-9-]+\.html", page) or not (site / page).is_file():
                 raise ValueError(f"{key}: invalid local reply page")
@@ -46,6 +48,10 @@ def render_directory(path, site, translations, company_filter=None):
     data = json.loads(path.read_text(encoding="utf-8"))
     companies = {}
     for key, reply in data["replies"].items():
+        # Product verdicts may be public while publication of the letter is pending.
+        # Do not generate an answer page or directory excerpt for those replies.
+        if reply.get("publication_pending"):
+            continue
         companies.setdefault(reply["company"], []).append((key, reply))
     parts = []
     for company, replies in companies.items():

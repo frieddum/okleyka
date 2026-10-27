@@ -18184,5 +18184,71 @@
     "scale": "other",
     "volume_ml": 500,
     "observed_at": "2026-10-27"
+  },
+  "reply-bash-aksakovskaya-soft": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-bash-belebeevskaya-classic": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-bash-lesnaya-lux": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-bash-fenomen": {
+    "level": 2,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-bash-chestnaya": {
+    "level": 1,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-bash-rzhanaya": {
+    "level": 2,
+    "scale": "vodka",
+    "volume_ml": 700,
+    "observed_at": "2026-10-27"
+  },
+  "reply-bash-agidel": {
+    "level": 2,
+    "scale": "other",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-bash-belebey-elite": {
+    "level": 2,
+    "scale": "other",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-bash-iremel": {
+    "level": 2,
+    "scale": "other",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-bash-shulgan-tash": {
+    "level": 3,
+    "scale": "other",
+    "volume_ml": 500,
+    "observed_at": "2026-10-27"
+  },
+  "reply-massandra-gurzuf-red-port": {
+    "level": 1,
+    "scale": "fortified",
+    "volume_ml": 750,
+    "observed_at": "2026-10-27"
   }
 }

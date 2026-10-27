@@ -50,6 +50,39 @@
       "scope": [
         "Только перечисленные здесь позиции Татспиртпрома. Исключения с мёдом и молочными компонентами из письма и каталога производителя не входят в этот список; на другие вкусы ответ автоматически не переносится."
       ]
+    },
+    "bash-vegan-2026-10-27": {
+      "company": "АО «Башспирт»",
+      "country": "Россия",
+      "status": "vegan",
+      "evidence_date": "2026-10-27",
+      "publication_pending": true,
+      "rationale": "Веганский статус подтверждён производителем 27.10.2026: животные ингредиенты и вспомогательные материалы не используются.",
+      "scope": [
+        "Только прямо перечисленные в ответе водки Башспирта. Ответ не распространяется на другие напитки или вкусовые версии."
+      ]
+    },
+    "bash-balms-2026-10-27": {
+      "company": "АО «Башспирт»",
+      "country": "Россия",
+      "status": "nonvegan",
+      "evidence_date": "2026-10-27",
+      "publication_pending": true,
+      "rationale": "Невеганский статус подтверждён производителем 27.10.2026: бальзамы содержат продукты пчеловодства — мёд и прополис.",
+      "scope": [
+        "Бальзамы АО «Башспирт». Вегетарианская сертификация не означает веганский состав."
+      ]
+    },
+    "massandra-gurzuf-2026-10-27": {
+      "company": "АО «ПАО «Массандра»",
+      "country": "Россия",
+      "status": "vegan",
+      "evidence_date": "2026-10-27",
+      "publication_pending": true,
+      "rationale": "Веганский статус подтверждён производителем 27.10.2026: в «Портвейне красном Гурзуф» не используются животные ингредиенты и технологические средства.",
+      "scope": [
+        "Только «Портвейн красный Гурзуф». Ответ не подтверждает веганский статус кагора «Гурзуф» и остальных вин Массандры."
+      ]
     }
   },
   "items": [
@@ -1033,6 +1066,190 @@
       ],
       "volume_ml": 500,
       "abv": 35
+    },
+    {
+      "id": "reply-bash-aksakovskaya-soft",
+      "name": "Аксаковская мягкая",
+      "category": "Водка",
+      "reply_id": "bash-vegan-2026-10-27",
+      "volume_ml": 500,
+      "abv": 40,
+      "chains": [
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "reply-bash-belebeevskaya-classic",
+      "name": "Белебеевская классическая",
+      "category": "Водка",
+      "reply_id": "bash-vegan-2026-10-27",
+      "volume_ml": 500,
+      "abv": 40,
+      "chains": [
+        {
+          "network": "МАГНУМ-Винотека",
+          "checked_at": "2026-10-27"
+        },
+        {
+          "network": "Дикси",
+          "checked_at": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "reply-bash-lesnaya-lux",
+      "name": "Лесная красавица люкс",
+      "category": "Водка",
+      "reply_id": "bash-vegan-2026-10-27",
+      "volume_ml": 500,
+      "abv": 40,
+      "chains": [
+        {
+          "network": "METRO",
+          "checked_at": "2026-10-27"
+        },
+        {
+          "network": "DASKO",
+          "checked_at": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "reply-bash-fenomen",
+      "name": "Феномен",
+      "category": "Водка",
+      "reply_id": "bash-vegan-2026-10-27",
+      "volume_ml": 500,
+      "abv": 40,
+      "chains": [
+        {
+          "network": "Мастер вин",
+          "checked_at": "2026-10-27"
+        },
+        {
+          "network": "SPAR",
+          "checked_at": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "reply-bash-chestnaya",
+      "name": "Честная",
+      "category": "Водка",
+      "reply_id": "bash-vegan-2026-10-27",
+      "volume_ml": 500,
+      "abv": 40,
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-10-27"
+        },
+        {
+          "network": "Красное&Белое",
+          "checked_at": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "reply-bash-rzhanaya",
+      "name": "Ржаная",
+      "category": "Водка",
+      "reply_id": "bash-vegan-2026-10-27",
+      "volume_ml": 700,
+      "abv": 40,
+      "chains": [
+        {
+          "network": "Мастер вин",
+          "checked_at": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "reply-bash-agidel",
+      "name": "Агидель",
+      "category": "Бальзам",
+      "reply_id": "bash-balms-2026-10-27",
+      "volume_ml": 500,
+      "abv": 45,
+      "chains": [
+        {
+          "network": "Мастер вин",
+          "checked_at": "2026-10-27"
+        },
+        {
+          "network": "Красное&Белое",
+          "checked_at": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "reply-bash-belebey-elite",
+      "name": "Белебей Элитный",
+      "category": "Бальзам",
+      "reply_id": "bash-balms-2026-10-27",
+      "volume_ml": 500,
+      "abv": 45,
+      "chains": [
+        {
+          "network": "Мастер вин",
+          "checked_at": "2026-10-27"
+        },
+        {
+          "network": "Лента",
+          "checked_at": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "reply-bash-iremel",
+      "name": "Иремель",
+      "category": "Бальзам",
+      "reply_id": "bash-balms-2026-10-27",
+      "volume_ml": 500,
+      "abv": 45,
+      "chains": [
+        {
+          "network": "Мастер вин",
+          "checked_at": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "reply-bash-shulgan-tash",
+      "name": "Шульган-Таш",
+      "category": "Бальзам",
+      "reply_id": "bash-balms-2026-10-27",
+      "volume_ml": 500,
+      "abv": 35,
+      "chains": [
+        {
+          "network": "DASKO",
+          "checked_at": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "reply-massandra-gurzuf-red-port",
+      "name": "Массандра Портвейн красный Гурзуф",
+      "category": "Портвейн",
+      "reply_id": "massandra-gurzuf-2026-10-27",
+      "volume_ml": 750,
+      "abv": 17,
+      "chains": [
+        {
+          "network": "Пробки & Бутылки",
+          "checked_at": "2026-10-27"
+        },
+        {
+          "network": "Ласточка",
+          "checked_at": "2026-10-27"
+        }
+      ],
+      "color": "Красное",
+      "sugar": "Сладкое"
     }
   ]
 }
