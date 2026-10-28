@@ -18256,5 +18256,95 @@
     "scale": "cognac",
     "volume_ml": 700,
     "observed_at": "2026-10-26"
+  },
+  "reply-ararat-akhtamar": {
+    "level": 3,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "reply-ararat-dvin": {
+    "level": 4,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "reply-ararat-3-stars": {
+    "level": 3,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "reply-ararat-ani": {
+    "level": 3,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "reply-ararat-5-stars": {
+    "level": 3,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-24"
+  },
+  "reply-ararat-apricot": {
+    "level": 5,
+    "scale": "other",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "reply-ararat-honey": {
+    "level": 4,
+    "scale": "other",
+    "volume_ml": 500,
+    "observed_at": "2026-10-24"
+  },
+  "reply-ararat-vaspurakan": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-28"
+  },
+  "reply-ararat-nairi": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-28"
+  },
+  "reply-ararat-cherry": {
+    "level": 5,
+    "scale": "other",
+    "volume_ml": 500,
+    "observed_at": null
+  },
+  "reply-ararat-armenia": {
+    "level": 4,
+    "scale": "cognac",
+    "volume_ml": 750,
+    "observed_at": "2026-10-28"
+  },
+  "reply-ararat-otborny": {
+    "level": 4,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-28"
+  },
+  "reply-ararat-erebuni-30": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 700,
+    "observed_at": "2026-10-28"
+  },
+  "reply-ararat-coffee": {
+    "level": 5,
+    "scale": "other",
+    "volume_ml": 500,
+    "observed_at": "2026-10-28"
+  },
+  "reply-ararat-25": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 750,
+    "observed_at": "2026-10-28"
   }
 }

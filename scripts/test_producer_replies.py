@@ -19,6 +19,9 @@ assert len(loaded["items"]) == 89
 ararat = [i for i in loaded["items"] if i["id"].startswith("reply-ararat-")]
 assert len(ararat) == 25
 assert sum(i["status"] == "vegan" for i in ararat) == 24
+ararat_retail = [i for i in ararat if i["chains"]]
+assert len(ararat_retail) == 15
+assert all(i["id"] in data["price_levels"] for i in ararat_retail)
 assert rows["reply-ararat-honey"][1] == "n"
 assert rows["reply-ararat-3-stars"][3] != rows["reply-ararat-5-stars"][3]
 ararat_page = (ROOT / "_site/ararat.html").read_text(encoding="utf-8")
