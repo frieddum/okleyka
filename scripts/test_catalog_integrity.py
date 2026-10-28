@@ -34,6 +34,16 @@ assert rows['rfa-84e907b350d2'][18]==1
 assert rows['reply-ararat-honey'][1]=='n' and 'мёда' in rows['reply-ararat-honey'][3]
 assert len([r for r in rows.values() if r[0].startswith('reply-ararat-')])==25
 
+# The newer Viu Manent statement covers two ranges, not the entire winery.
+viu = [r for r in rows.values() if 'Viu Manent' in r[3]]
+updated = [r for r in viu if re.search(r'\b(?:Gran Reserva|Secreto)\b', r[3], re.I)]
+assert len(updated) == 18
+for r in viu:
+    a = data['assessments'][r[15]]
+    covered = r in updated
+    assert any('tienda.viumanent.cl' in ref['url'] for ref in a['refs']) == covered
+    assert a['evidence_date'] == ('2022-11-22' if covered else '2016-10')
+
 # Matching names must not collapse different strengths, ages or star ratings.
 def row(i,name,volume=None,abv=None):
     return [i,'v',[0],name,-1,0,0,'f',0,volume,None,abv,None,'2026-10-28',1,0,None,None,0]

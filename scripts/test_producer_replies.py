@@ -115,7 +115,7 @@ for item in pending:
     assert data["assessments"][rows[item["id"]][15]]["refs"] == []
 assert all(item_id in rows for item_id in ids)
 assert "<!-- PRODUCER_REPLIES -->" not in page
-assert not re.search(r"mail\.google|mailto:|[A-Za-z]:[\\/]|Sophie|Borisova", page)
+assert not re.search(r"mail\.google|mailto:|(?<![A-Za-z])[A-Za-z]:[\\/]|Sophie|Borisova", page)
 translations = json.loads((ROOT / "data/translations_en.json").read_text(encoding="utf-8"))
 with TemporaryDirectory() as tmp:
     synthetic = copy.deepcopy(original)

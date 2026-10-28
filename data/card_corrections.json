@@ -29,5 +29,401 @@
     "expected_name": "Вино игристое \"Лыхны\", красное полусладкое, 0,75 л",
     "exclude": true,
     "reason": "VeganRussian red-wine-vva covers the pictured still red wine; the sparkling version has no separate status evidence. Hold for producer confirmation."
+  },
+  "rfa-53cc99e3d06e": {
+    "expected_name": "Вино Viu Manent Cabernet Sauvignon Gran Reserva 2022",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-fe46b5514570": {
+    "expected_name": "Вино Viu Manent Carmenere Gran Reserva 2022",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-74d9332e8e1c": {
+    "expected_name": "Вино Viu Manent Malbec Gran Reserva 2022",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-3b4503fcd278": {
+    "expected_name": "Вино Viu Manent Secreto Carmenere 2022",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-7949182978ce": {
+    "expected_name": "Вино Viu Manent Secreto Carmenere Red Dry",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-74fd13506cef": {
+    "expected_name": "Вино Viu Manent Secreto Malbec 2022",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-6db45e90843b": {
+    "expected_name": "Вино Viu Manent Secreto Sauvignon Blanc 2024",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-2ea2f3138cd0": {
+    "expected_name": "Вино Viu Manent Secreto Sauvignon Blanc White Dry",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-ce06a00fdaf1": {
+    "expected_name": "Вино Viu Manent, Gran Reserva Cabernet Sauvignon",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-f58c5f23f96d": {
+    "expected_name": "Вино Viu Manent, Gran Reserva Carmenere",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-5686300c085e": {
+    "expected_name": "Вино Viu Manent, Gran Reserva Malbec",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-f68d41d4e6f4": {
+    "expected_name": "Вино Viu Manent Carmenere Gran Reserva 2020",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-416c6fb9102a": {
+    "expected_name": "Вино Viu Manent Malbec Gran Reserva 2020",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-3a63a7f0cf9e": {
+    "expected_name": "Вино Viu Manent Malbec Gran Reserva 2021",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-a194e27cb2a2": {
+    "expected_name": "Вино Viu Manent Secreto Malbec 2021",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-7dffa6ba7c6c": {
+    "expected_name": "Вино Viu Manent Secreto Syrah 2022",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-fdbc3b8052d8": {
+    "expected_name": "Вино Viu Manent Secreto Viognier 2022",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "rfa-f1d66755ac5e": {
+    "expected_name": "Вино Viu Manent Secreto Viognier 2024",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2022-11-22",
+      "evidence_date_precision": "day",
+      "rationale": "Viu Manent в публикации от 22.11.2022 подтверждает веганский статус линеек Gran Reserva и Secreto: компоненты животного происхождения не используются на этапах винификации и производства. Производитель сообщает о сертификации V-Label этих линеек с 2020 года.",
+      "scope": [
+        "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://tienda.viumanent.cl/blogs/contenido/vinos-veganos"
+        }
+      ]
+    },
+    "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
   }
 }
