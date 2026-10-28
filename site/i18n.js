@@ -30,6 +30,7 @@
     'Татспиртпром — Оклейка':'Tatspirtprom — Okleika',
     'Татспиртпром':'Tatspirtprom',
     'Ответ от 26.10.2026: подтверждённые позиции и исключения.':'Reply dated 26 October 2026: confirmed products and exceptions.',
+    'Ответ от 28.10.2026: подтверждённые позиции и исключения.':'Reply dated 28 October 2026: confirmed products and exceptions.',
     'Подробнее об ответе ↗':'Read the reply details ↗',
     'Все производители':'All producers',
     'Российское пиво и сидр':'Russian beer and cider', '«Российское пиво и сидр»':'Russian beer and cider',

@@ -89,7 +89,10 @@ tat_page = (ROOT / "_site/tatspirtprom.html").read_text(encoding="utf-8")
 assert 'target="_blank" rel="noopener">Подробнее об ответе' in page
 assert "tatspirtprom.html" in page
 assert "Tundra Authentic" not in page
-page += tat_page
+assert '<h2>ARARAT</h2>' in page
+assert 'href="ararat.html" target="_blank" rel="noopener">Подробнее об ответе' in page
+assert "ARARAT CHARLES AZNAVOUR" not in page
+page += tat_page + ararat_page
 ids = {parse_qs(urlsplit(unescape(url)).query)["id"][0]
        for url in re.findall(r'href="([^"]+)"', page) if "?id=" in url}
 assert ids == {item["id"] for item in original["items"]

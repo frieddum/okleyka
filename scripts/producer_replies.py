@@ -62,6 +62,11 @@ def render_directory(path, site, translations, company_filter=None):
                          '<p>Ответ от 26.10.2026: подтверждённые позиции и исключения.</p>'
                          '<a data-lang-link href="tatspirtprom.html" target="_blank" rel="noopener">Подробнее об ответе ↗</a></section>')
             continue
+        if not company_filter and company == 'Yerevan Brandy Company / ARARAT':
+            parts.append('<section class="producer-reply"><h2>ARARAT</h2>'
+                         '<p>Ответ от 28.10.2026: подтверждённые позиции и исключения.</p>'
+                         '<a data-lang-link href="ararat.html" target="_blank" rel="noopener">Подробнее об ответе ↗</a></section>')
+            continue
         parts.append(f'<section class="producer-reply"><h2>{escape(company)}</h2>')
         for key, reply in replies:
             items = [item for item in data["items"] if item["reply_id"] == key]
