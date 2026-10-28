@@ -83,6 +83,28 @@
       "scope": [
         "Только «Портвейн красный Гурзуф». Ответ не подтверждает веганский статус кагора «Гурзуф» и остальных вин Массандры."
       ]
+    },
+    "ararat-2026-10-28": {
+      "company": "Yerevan Brandy Company / ARARAT",
+      "country": "Армения",
+      "status": "vegan",
+      "evidence_date": "2026-10-28",
+      "public_page": "ararat.html",
+      "rationale": "ARARAT, ответ от 28.10.2026: перечисленные продукты подходят веганам; ингредиенты и технологические вспомогательные вещества животного происхождения не используются.",
+      "scope": [
+        "Только 24 позиции, прямо перечисленные в письме. ARARAT Honey исключён. Ответ не относится к бренду «Ной» и другим производителям."
+      ]
+    },
+    "ararat-honey-2026-10-28": {
+      "company": "Yerevan Brandy Company / ARARAT",
+      "country": "Армения",
+      "status": "nonvegan",
+      "evidence_date": "2026-10-28",
+      "public_page": "ararat.html",
+      "rationale": "ARARAT, ответ от 28.10.2026: ARARAT Honey содержит дистиллят натурального армянского мёда. На этом основании справочник относит его к невеганским напиткам.",
+      "scope": [
+        "Только ARARAT WITH THE TASTE OF HONEY (ARARAT Honey)."
+      ]
     }
   },
   "items": [
@@ -1260,6 +1282,296 @@
       "retail_optional": true,
       "volume_ml": 500,
       "abv": 38
+    },
+    {
+      "id": "reply-ararat-3-stars",
+      "name": "ARARAT 3 звезды",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 700,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-ararat-5-stars",
+      "name": "ARARAT 5 звёзд",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 700,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-ararat-ani",
+      "name": "ARARAT ANI",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 700,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-ararat-akhtamar",
+      "name": "ARARAT AKHTAMAR",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 700,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-ararat-dvin",
+      "name": "ARARAT DVIN",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 700,
+      "abv": 50.0
+    },
+    {
+      "id": "reply-ararat-vaspurakan",
+      "name": "ARARAT VASPURAKAN",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 700,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-ararat-nairi",
+      "name": "ARARAT NAIRI",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 700,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-ararat-aznavour",
+      "name": "ARARAT CHARLES AZNAVOUR SIGNATURE BLEND",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-ararat-armenia",
+      "name": "ARARAT ARMENIA",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 750,
+      "abv": 45.0
+    },
+    {
+      "id": "reply-ararat-yerevan",
+      "name": "ARARAT YEREVAN",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-ararat-otborny",
+      "name": "ARARAT OTBORNY",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-ararat-erebuni-30",
+      "name": "EREBUNI 30",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 700,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-ararat-erebuni-50",
+      "name": "EREBUNI 50",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-ararat-erebuni-70",
+      "name": "EREBUNI 70",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-ararat-10",
+      "name": "ARARAT 10",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-ararat-12",
+      "name": "ARARAT 12",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-ararat-17",
+      "name": "ARARAT 17",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-ararat-25",
+      "name": "ARARAT 25",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 700,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-ararat-hayk-5",
+      "name": "HAYK 5 YEARS",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-ararat-hayk-7",
+      "name": "HAYK 7 YEARS",
+      "category": "Коньяк",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-ararat-apricot",
+      "name": "ARARAT WITH THE TASTE OF APRICOT",
+      "category": "Напитки",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500,
+      "abv": 30.0
+    },
+    {
+      "id": "reply-ararat-coffee",
+      "name": "ARARAT WITH THE TASTE OF COFFEE",
+      "category": "Напитки",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500,
+      "abv": 30.0
+    },
+    {
+      "id": "reply-ararat-cherry",
+      "name": "ARARAT WITH THE TASTE OF CHERRY",
+      "category": "Напитки",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500,
+      "abv": 30.0
+    },
+    {
+      "id": "reply-ararat-spirit-1887",
+      "name": "ARARAT SPIRIT 1887 GRAPE VODKA",
+      "category": "Водка",
+      "reply_id": "ararat-2026-10-28",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-ararat-honey",
+      "name": "ARARAT WITH THE TASTE OF HONEY",
+      "category": "Напитки",
+      "reply_id": "ararat-honey-2026-10-28",
+      "chains": [
+        {
+          "network": "Ароматный Мир",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "volume_ml": 500,
+      "abv": 30.0
     }
   ]
 }

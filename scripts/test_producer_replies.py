@@ -15,7 +15,15 @@ original = json.loads(source.read_text(encoding="utf-8"))
 loaded = load_replies(source, ROOT / "site")
 data = json.loads((ROOT / "_site/data/verified.json").read_text(encoding="utf-8"))
 rows = {r[0]: r for r in data["records"]}
-assert len(loaded["items"]) == 64
+assert len(loaded["items"]) == 89
+ararat = [i for i in loaded["items"] if i["id"].startswith("reply-ararat-")]
+assert len(ararat) == 25
+assert sum(i["status"] == "vegan" for i in ararat) == 24
+assert rows["reply-ararat-honey"][1] == "n"
+assert rows["reply-ararat-3-stars"][3] != rows["reply-ararat-5-stars"][3]
+ararat_page = (ROOT / "_site/ararat.html").read_text(encoding="utf-8")
+assert "distillate derived from natural Armenian honey" in ararat_page
+assert not re.search(r"Borisova|Gevorgyan|@|mail\.google|signitic", ararat_page)
 for item in loaded["items"]:
     row = rows[item["id"]]
     assessment = data["assessments"][row[15]]
@@ -25,6 +33,8 @@ for item in loaded["items"]:
         assert row[3].startswith("Peter Jakob Kühn ")
         assert row[9] == 750 and row[11] and row[16:18] == ["Белое", "Сухое"]
         assert assessment["refs"] == [{"type": "producer_reply", "url": "peter-jakob-kuehn.html"}]
+    elif item["reply_id"].startswith("ararat-"):
+        assert assessment["refs"] == [{"type": "producer_reply", "url": "ararat.html"}]
     else:
         assert assessment["refs"] == []
 assert rows["reply-pjk-quarzit-2016"][12] == 2016
