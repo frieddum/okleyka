@@ -226,7 +226,7 @@
   }
   function ingest(list) {
     for (const arr of list) RECS.push(unpack(arr));
-    RECS.forEach(r => { const display = window.splitDrinkName(tr(r.name)); r.displayName = display.title; r.nameDetails = display.details; });
+    RECS.forEach(r => { const display = window.splitDrinkName(window.splitDrinkName.withoutVolume(tr(r.name))); r.displayName = display.title; r.nameDetails = display.details; });
     RECS.sort((a, b) => collator.compare(a.displayName, b.displayName));
     RECS.forEach((r, i) => { r.rank = i; r.nameKey = tokenize(r.name).join(' '); r.brandKey = r.brand ? tokenize(r.brand).join(' ') : null; });
     BY_ID = new Map(RECS.map(r => [r.id, r]));
@@ -592,7 +592,7 @@
   }
   function refHTML(ref) {
     const short = ref.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
-    const label = ref.type === 'Barnivore' ? 'Страница на Barnivore' : ref.type === 'VeganRussian' ? 'VeganRussian' : 'Сайт производителя';
+    const label = ref.type === 'Barnivore' ? 'Страница на Barnivore' : ref.type === 'VeganRussian' ? 'VeganRussian' : ref.type === 'producer_reply' ? 'Ответ производителя' : 'Сайт производителя';
     return `<li>${label}: <a href="${esc(ref.url)}" rel="noopener nofollow" target="_blank">${esc(short)}</a></li>`;
   }
   function renderCard() {

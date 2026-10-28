@@ -1292,9 +1292,12 @@
         {
           "network": "Ароматный Мир",
           "checked_at": "2026-10-24"
+        },
+        {
+          "network": "КуулКлевер / ОТДОХНИ",
+          "checked_at": "2026-10-25"
         }
       ],
-      "volume_ml": 700,
       "abv": 40.0
     },
     {
@@ -1306,9 +1309,12 @@
         {
           "network": "Ароматный Мир",
           "checked_at": "2026-10-24"
+        },
+        {
+          "network": "КуулКлевер / ОТДОХНИ",
+          "checked_at": "2026-10-25"
         }
       ],
-      "volume_ml": 700,
       "abv": 40.0
     },
     {
@@ -1334,9 +1340,12 @@
         {
           "network": "Ароматный Мир",
           "checked_at": "2026-10-24"
+        },
+        {
+          "network": "КуулКлевер / ОТДОХНИ",
+          "checked_at": "2026-10-25"
         }
       ],
-      "volume_ml": 700,
       "abv": 40.0
     },
     {
@@ -1511,7 +1520,7 @@
     },
     {
       "id": "reply-ararat-apricot",
-      "name": "ARARAT WITH THE TASTE OF APRICOT",
+      "name": "ARARAT Apricot — со вкусом абрикоса",
       "category": "Напитки",
       "reply_id": "ararat-2026-10-28",
       "chains": [
@@ -1525,7 +1534,7 @@
     },
     {
       "id": "reply-ararat-coffee",
-      "name": "ARARAT WITH THE TASTE OF COFFEE",
+      "name": "ARARAT Coffee — со вкусом кофе",
       "category": "Напитки",
       "reply_id": "ararat-2026-10-28",
       "chains": [
@@ -1539,7 +1548,7 @@
     },
     {
       "id": "reply-ararat-cherry",
-      "name": "ARARAT WITH THE TASTE OF CHERRY",
+      "name": "ARARAT Cherry — со вкусом вишни",
       "category": "Напитки",
       "reply_id": "ararat-2026-10-28",
       "chains": [
@@ -1561,7 +1570,7 @@
     },
     {
       "id": "reply-ararat-honey",
-      "name": "ARARAT WITH THE TASTE OF HONEY",
+      "name": "ARARAT Honey — со вкусом мёда",
       "category": "Напитки",
       "reply_id": "ararat-honey-2026-10-28",
       "chains": [

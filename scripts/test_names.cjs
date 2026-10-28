@@ -1,5 +1,9 @@
 const assert = require('node:assert/strict');
 const split = require('../site/name-format.js');
+assert.equal(split.withoutVolume('Grey Goose 40%, 700мл'), 'Grey Goose 40%');
+assert.equal(split.withoutVolume('Вино 19 Crimes 0,75 л'), 'Вино 19 Crimes');
+assert.equal(split.withoutVolume('Коньяк 15 лет 0.7L'), 'Коньяк 15 лет');
+assert.equal(split.withoutVolume('Виски 12-летний 40%'), 'Виски 12-летний 40%');
 assert.equal(split('Tequila silver Sauza Hacienda Silver').title, 'Sauza Hacienda Silver');
 assert.equal(split('серебряная Sauza Асьенда Сильвер 40% 750мл').title, 'Sauza Асьенда Сильвер 40% 750мл');
 assert.equal(split('Светлое пиво фильтрованное безалкогольное Clausthaler 500мл').title, 'Clausthaler 500мл');

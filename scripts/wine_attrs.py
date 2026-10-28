@@ -76,6 +76,8 @@ def sugar_from_name(name):
 
 
 def abv_from_name(name):
+    if re.search(r'\d+(?:[.,]\d+)?\s*[-–—]\s*\d+(?:[.,]\d+)?\s*%', name):
+        return None
     m = re.search(r"(?<![\d.,])(\d{1,2}(?:[.,]\d{1,2})?)\s*%", name)
     if m:
         v = float(m.group(1).replace(",", "."))

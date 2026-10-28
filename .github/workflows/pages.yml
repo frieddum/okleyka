@@ -21,6 +21,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: Сборка сайта из data/snapshot.json
         run: python3 scripts/build.py
+      - name: Проверка каталога, источников и интерфейса
+        run: |
+          for test in scripts/test_*.py; do python3 "$test" || exit 1; done
+          for test in scripts/test_*.cjs; do
+            case "$test" in *_ui.cjs) continue ;; esac
+            node "$test" || exit 1
+          done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

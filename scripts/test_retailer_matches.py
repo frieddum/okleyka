@@ -1,8 +1,11 @@
 """Run after build.py: check reviewed retailer links and new wine variants."""
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / 'scripts'))
+from merge_cards import skeleton
 
 
 def read(name):
@@ -13,14 +16,19 @@ data = read("_site/data/verified.json")
 meta = read("_site/data/meta.json")
 rows = {r[0]: r for r in data["records"]}
 network = meta["dicts"]["networks"].index("КуулКлевер / ОТДОХНИ")
+direct_ids = {item['id'] for item in read('data/producer_replies.json')['items']}
 
 for match in read("data/retailer_matches.json"):
-    row = rows[match["record_id"]]
-    assert row[3] == match["expected_name"]
+    rid = match["record_id"]
+    row = rows[data.get('aliases', {}).get(rid, rid)]
+    # The builder checks the exact original name before merging; exported titles
+    # may omit bottle size, while explicit reviewed aliases may use another language.
+    if rid not in data.get('aliases', {}):
+        assert skeleton(row[3]) == skeleton(match["expected_name"])
     matched_network = meta["dicts"]["networks"].index(match["network"])
     assert matched_network in row[2] and len(row[2]) == len(set(row[2]))
     assert row[1] in ("v", "n")
-    assert data["assessments"][row[15]]["refs"]
+    assert data["assessments"][row[15]]["refs"] or row[0] in direct_ids
 
 new = read("data/coolclever_additions.json")["items"]
 for item in new:

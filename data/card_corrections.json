@@ -1,0 +1,33 @@
+{
+  "rfa-8fc330d93f19": {
+    "expected_name": "Molinari Limoncello di Capri Cream",
+    "category": "Ликёр",
+    "assessment": {
+      "status": "nonvegan",
+      "reviewed_at": "2026-10-28",
+      "evidence_date": "2026-10-28",
+      "evidence_date_precision": "day",
+      "rationale": "Производитель указывает молочный крем в составе Limoncello DICAPRI Crema. Ответ о веганском лимончелло не распространяется на сливочную версию.",
+      "scope": [
+        "Только Limoncello di Capri Cream / Crema. Обычный Limoncello di Capri — отдельный продукт."
+      ],
+      "refs": [
+        {
+          "type": "manufacturer",
+          "url": "https://www.limoncello.com/en/crema/"
+        }
+      ]
+    },
+    "reason": "Manufacturer explicitly identifies milk cream; the 2015 Barnivore reply describes only original limoncello."
+  },
+  "rfa-76301e4a3e2b": {
+    "expected_name": "Вино Fresita",
+    "category": "Игристое вино",
+    "reason": "Fresita is sparkling wine with strawberry pulp; manufacturer https://www.casalbrands.com/en/productos/fresita-en/."
+  },
+  "dx-81e6e11a32": {
+    "expected_name": "Вино игристое \"Лыхны\", красное полусладкое, 0,75 л",
+    "exclude": true,
+    "reason": "VeganRussian red-wine-vva covers the pictured still red wine; the sparkling version has no separate status evidence. Hold for producer confirmation."
+  }
+}

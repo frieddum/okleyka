@@ -44,6 +44,9 @@
     return rest ? {title: rest, details: parts.join(' · ')} : {title: clean || original, details: ''};
   }
   splitName.withoutQuotes = withoutQuotes;
+  splitName.withoutVolume = function (name) {
+    return name.replace(/,?\s*\d+(?:[.,]\d+)?\s*(?:мл|ml|л|l)(?![\p{L}])/giu, '').replace(/[,\s]+$/u, '').trim();
+  };
   splitName.attributes = function (name) {
     // Explicit label values only; never mistake a range endpoint for exact ABV.
     const abv = /\d\s*[-–—]\s*\d+(?:[.,]\d+)?\s*%/u.test(name) ? null

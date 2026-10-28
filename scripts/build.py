@@ -532,6 +532,32 @@ def main():
     if unknown_rules:
         print("Внимание: правила для компаний, которых нет в данных:", ", ".join(sorted(unknown_rules)))
 
+    # Reviewed corrections are applied before identity merging; unknown products stay private.
+    corrections_path = ROOT / 'data/card_corrections.json'
+    corrections = json.loads(corrections_path.read_text(encoding='utf-8')) if corrections_path.exists() else {}
+    by_correction_id = {r[0]: (key, r) for key, r in groups.items()}
+    for rid, correction in corrections.items():
+        if rid not in by_correction_id:
+            fail(f'card_corrections: missing card {rid}')
+        key, rec = by_correction_id[rid]
+        if rec[3] != correction['expected_name']:
+            fail(f'card_corrections: changed identity {rid}')
+        if correction.get('exclude'):
+            del groups[key]
+            continue
+        if 'category' in correction:
+            rec[8] = cats(correction['category'])
+        if 'assessment' in correction:
+            assessment = {**assessments[rec[15]], **correction['assessment']}
+            rec[1] = STATUS_CODE[assessment['status']]
+            assessments.append(assessment)
+            rec[15] = len(assessments) - 1
+
+    # Retailers may report a strength range; its upper endpoint is not an exact ABV.
+    for rec in groups.values():
+        strength_range = re.search(r'(\d+(?:[.,]\d+)?)\s*[-–—]\s*(\d+(?:[.,]\d+)?)\s*%', rec[3])
+        if strength_range:
+            rec[11] = '–'.join(x.replace(',', '.') for x in strength_range.groups())
     records, merged_cards = merge_cards.merge(list(groups.values()), assessments)
     ids = [r[0] for r in records]
     if len(ids) != len(set(ids)):
@@ -545,8 +571,9 @@ def main():
         direct_reply_ids = {x["id"] for x in load_replies(ROOT / "data/producer_replies.json", ROOT / "site")["items"]}
         for match in json.loads(match_path.read_text(encoding="utf-8")):
             rid, network = match["record_id"], match["network"]
-            rec = by_id.get(rid)
-            if rec is None or rec[3] != match["expected_name"]:
+            rec = by_id.get(merge_cards.ALIASES.get(rid, rid))
+            original = next((r for r in groups.values() if r[0] == rid), None)
+            if rec is None or (rec[3] != match["expected_name"] and (original is None or original[3] != match["expected_name"])):
                 fail(f"retailer_matches: требуется пересмотр сопоставления {rid}")
             if rec[1] not in ("v", "n") or (not assessments[rec[15]]["refs"] and rid not in direct_reply_ids):
                 fail(f"retailer_matches: нет подтверждённого решения для {rid}")
@@ -650,7 +677,7 @@ def main():
         if r[0] in restored:
             r[2], r[13] = [], None
     # Reviewed cross-language duplicates, applied after retailer checks and before export.
-    aliases = {}
+    aliases = dict(merge_cards.ALIASES)
     merge_file = ROOT / "data/card_merges.json"
     merge_decisions = json.loads(merge_file.read_text(encoding="utf-8")) if merge_file.exists() else []
     by_merge_id = {r[0]: r for r in verified}
@@ -669,6 +696,11 @@ def main():
                 keep[9], keep[10] = None, None
                 keep[3] = re.sub(r",?\s*\d+(?:[.,]\d+)?\s*(?:мл|л|ml|l)(?![a-zа-я])", "", keep[3]).strip(" ,")
             elif keep[9] is None: keep[9] = other[9]
+            volumes = merge_cards.VOLUMES.get(keep[0], set()) | merge_cards.VOLUMES.get(rid, set())
+            merge_cards.VOLUMES[keep[0]] = volumes
+            if len(volumes) > 1:
+                keep[9], keep[10] = None, None
+                keep[3] = re.sub(r",?\s*\d+(?:[.,]\d+)?\s*(?:мл|л|ml|l)(?![a-zа-я])", "", keep[3]).strip(" ,")
             if keep[11] is None: keep[11] = other[11]
             combined = dict(assessments[keep[15]])
             for field in ("scope", "caveats"):
@@ -677,6 +709,12 @@ def main():
             assessments.append(combined)
             keep[15] = len(assessments)-1
             aliases[rid] = keep[0]
+    for old in aliases:
+        seen = {old}
+        while aliases[old] in aliases:
+            if aliases[old] in seen: fail(f'card_merges: alias cycle {old}')
+            seen.add(aliases[old])
+            aliases[old] = aliases[aliases[old]]
     verified = [r for r in verified if r[0] not in aliases]
     # No public alcohol catalog is available for this retailer; withdraw its observations.
     excluded_networks = {i for i,n in enumerate(nets.items) if n in ("Пятёрочка", "Пятерочка")}
@@ -697,6 +735,8 @@ def main():
     dump("meta.json", meta)
     price_path = ROOT / "data/price_levels.json"
     prices = json.loads(price_path.read_text(encoding="utf-8")) if price_path.exists() else {}
+    for rid, correction in corrections.items():
+        if correction.get('exclude'): prices.pop(rid, None)
     for old, new in aliases.items():
         if old in prices:
             if new not in prices or (prices[old]["observed_at"] or "") > (prices[new]["observed_at"] or ""):

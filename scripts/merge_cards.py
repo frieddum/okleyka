@@ -7,6 +7,7 @@
 import re
 from collections import defaultdict
 from difflib import SequenceMatcher
+from wine_attrs import volume_from_name
 
 TR = {'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ё': 'e', 'ж': 'zh', 'з': 'z', 'и': 'i', 'й': 'i',
       'к': 'k', 'л': 'l', 'м': 'm', 'н': 'n', 'о': 'o', 'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'у': 'u', 'ф': 'f',
@@ -40,10 +41,23 @@ for canon, variants in {
         SYNONYMS[w] = canon
 
 LOG = []  # состав объединённых карточек, для проверки
+ALIASES = {}  # Preserve links to every automatically merged input card.
+VOLUMES = {}
+
+
+def strength(record):
+    if record[11] is not None:
+        return record[11]
+    match = re.search(r'(\d+(?:[.,]\d+)?)\s*[-–—]\s*(\d+(?:[.,]\d+)?)\s*%', record[3])
+    if match:
+        return '–'.join(x.replace(',', '.') for x in match.groups())
+    match = re.search(r'(?<![\d.,])(\d{1,2}(?:[.,]\d+)?)\s*%', record[3])
+    return float(match[1].replace(',', '.')) if match else None
 
 
 def skeleton(name):
     s = name.lower().replace('ё', 'е')
+    s = re.sub(r'(?<!\*)\*{3,5}(?!\*)', lambda m: f' {len(m[0])} stars ', s)
     s = re.sub(r'\d+[.,]?\d*\s*(?:мл|л|ml|l|cl)(?![a-zа-я])', ' ', s)
     s = re.sub(r'\d+[.,]?\d*\s*[–-]?\s*\d*[.,]?\d*\s*%', ' ', s)
     toks = [t for t in re.findall(r'[a-zа-я0-9]+', s) if t not in NOISE]
@@ -90,6 +104,9 @@ def company_key(rec, assessments):
 
 def merge(records, assessments, threshold=0.82):
     """records: список записей формата verified.json. Возвращает (новый список, сколько объединено)."""
+    LOG.clear()
+    ALIASES.clear()
+    VOLUMES.clear()
     buckets = defaultdict(list)
     for i, r in enumerate(records):
         ck = company_key(r, assessments)
@@ -97,6 +114,7 @@ def merge(records, assessments, threshold=0.82):
             continue
         buckets[(ck, r[8], r[1], r[12], r[16], r[17])].append(i)
     parent = list(range(len(records)))
+    strengths = [{v for v in (strength(r),) if v is not None} for r in records]
 
     def find(x):
         while parent[x] != x:
@@ -114,17 +132,27 @@ def merge(records, assessments, threshold=0.82):
             for b in range(a + 1, len(idx)):
                 i, j = idx[a], idx[b]
                 ri, rj = records[i], records[j]
+                ai, aj = strength(ri), strength(rj)
+                if ai is not None and aj is not None and ai != aj:
+                    continue
                 (wi, ni), (wj, nj) = sk[i], sk[j]
                 if not wi or not wj or ni != nj:
                     continue
                 if wi == wj or (not (ri[0].startswith("bv-product-") or rj[0].startswith("bv-product-")) and same_words(wi, wj, threshold)):
-                    parent[find(j)] = find(i)
+                    ia, ib = find(i), find(j)
+                    combined_strengths = strengths[ia] | strengths[ib]
+                    if len(combined_strengths) > 1:
+                        continue
+                    parent[ib] = ia
+                    strengths[ia] = combined_strengths
     groups = defaultdict(list)
     for i in range(len(records)):
         groups[find(i)].append(i)
     out, merged = [], 0
     for members in groups.values():
         if len(members) == 1:
+            r = records[members[0]]
+            VOLUMES[r[0]] = {v for v in (r[9], volume_from_name(r[3])) if v is not None}
             out.append(records[members[0]])
             continue
         merged += len(members) - 1
@@ -132,6 +160,8 @@ def merge(records, assessments, threshold=0.82):
         LOG.append([r[3] for r in rs])
         # Основа — карточка с самым полным названием; пустые поля добираются из остальных.
         base = list(max(rs, key=lambda r: (len(r[2]), len(r[3]))))
+        for r in rs:
+            if r[0] != base[0]: ALIASES[r[0]] = base[0]
         nets = []
         for r in rs:
             for n in r[2]:
@@ -139,11 +169,15 @@ def merge(records, assessments, threshold=0.82):
                     nets.append(n)
         base[2] = nets
         # Разные объёмы одного продукта — одна карточка, объём тогда не указывается.
-        vols = {r[9] for r in rs if r[9] is not None}
+        vols = {v for r in rs for v in (r[9], volume_from_name(r[3])) if v is not None}
+        VOLUMES[base[0]] = vols
         base[9] = next(iter(vols)) if len(vols) == 1 else None
         if len(vols) > 1:
+            base[10] = None
             base[3] = re.sub(r",?\s*\d+[.,]?\d*\s*(?:мл|л|ml|l)(?![a-zа-я])\.?", "", base[3]).strip(" ,")
         for f in (6, 10, 11, 16, 17):
+            if f == 10 and len(vols) > 1:
+                continue
             if base[f] is None or base[f] == -1:
                 base[f] = next((r[f] for r in rs if r[f] is not None and r[f] != -1), base[f])
         base[13] = max((r[13] for r in rs if r[13]), default=base[13])
