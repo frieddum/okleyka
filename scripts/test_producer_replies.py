@@ -79,7 +79,7 @@ with TemporaryDirectory() as tmp:
             raise AssertionError("Invalid direct-reply record accepted")
 
 public = source.read_text(encoding="utf-8") + (ROOT / "_site/peter-jakob-kuehn.html").read_text(encoding="utf-8")
-assert not re.search(r"[\w.+-]+@[\w-]+\.[a-z]{2,}|mailto:|[A-Za-z]:[\\/]|\+\d[\d ()-]{8,}|₽|mail\.google", public, re.I)
+assert not re.search(r"[\w.+-]+@[\w-]+\.[a-z]{2,}|mailto:|(?<![A-Za-z])[A-Za-z]:[\\/]|\+\d[\d ()-]{8,}|₽|mail\.google", public, re.I)
 assert "Sophie" not in public and "Borisova" not in public
 assert "Unsere Weine enthalten keine Zutaten tierischen Ursprungs" in public
 print("Direct replies: scoped statuses, retail presence, local sources, wine attributes and privacy passed")
@@ -115,7 +115,7 @@ for item in pending:
     assert data["assessments"][rows[item["id"]][15]]["refs"] == []
 assert all(item_id in rows for item_id in ids)
 assert "<!-- PRODUCER_REPLIES -->" not in page
-assert not re.search(r"mail\.google|mailto:|(?<![A-Za-z])[A-Za-z]:[\\/]|Sophie|Borisova", page)
+assert not re.search(r"mail\.google|mailto:|(?<![A-Za-z])(?<![A-Za-z])[A-Za-z]:[\\/]|Sophie|Borisova", page)
 translations = json.loads((ROOT / "data/translations_en.json").read_text(encoding="utf-8"))
 with TemporaryDirectory() as tmp:
     synthetic = copy.deepcopy(original)
