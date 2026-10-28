@@ -68,6 +68,11 @@ def ordinary_volume(ml, scale, name=''):
     if scale == 'cider': return 330 <= ml <= 568
     # These dessert wines have a standard half-litre bottling.
     if scale == 'wine' and ml == 500 and re.search(r'Barberani', name, re.I) and re.search(r'Calcaia|Moscato Passito', name, re.I): return True
+    # Reviewed retail formats: dessert wine in 500 ml, and the available
+    # Chardonnay half-bottle. Its price must retain the 375 ml size in the UI.
+    if scale == 'wine' and re.search(r'Viu Manent', name, re.I):
+        if ml == 500 and re.search(r'Noble Semillon Botrytis Selection', name, re.I): return True
+        if ml == 375 and re.search(r'Estate Collection Reserva Chardonnay', name, re.I): return True
     if scale == 'soju': return 350 <= ml <= 375
     if scale in ('wine','sparkling','bottle'): return 700 <= ml <= 1000
     return 500 <= ml <= 1000

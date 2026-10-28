@@ -716,6 +716,23 @@ def main():
             seen.add(aliases[old])
             aliases[old] = aliases[aliases[old]]
     verified = [r for r in verified if r[0] not in aliases]
+    # Reviewed withdrawals affect only the named retailer, not vegan status.
+    withdrawals_path = ROOT / 'data/retailer_withdrawals.json'
+    withdrawals = json.loads(withdrawals_path.read_text(encoding='utf-8')) if withdrawals_path.exists() else []
+    withdrawal_records = {r[0]: r for r in verified}
+    for decision in withdrawals:
+        rid = aliases.get(decision['id'], decision['id'])
+        record = withdrawal_records.get(rid)
+        network = decision['network']
+        if record is None or network not in nets.items or not decision.get('reason'):
+            fail(f'retailer_withdrawals: invalid decision {rid}')
+        from datetime import date
+        date.fromisoformat(decision['checked_at'])
+        network_id = nets.items.index(network)
+        if network_id not in record[2]:
+            fail(f'retailer_withdrawals: absent retailer {rid}: {network}')
+        record[2].remove(network_id)
+        if not record[2]: record[13] = None
     # No public alcohol catalog is available for this retailer; withdraw its observations.
     excluded_networks = {i for i,n in enumerate(nets.items) if n in ("Пятёрочка", "Пятерочка")}
     for r in verified:
