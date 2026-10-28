@@ -88,7 +88,6 @@
     ", а также сведения на официальных сайтах производителей.":", as well as information on producers’ official websites.",
     'Как устроен справочник':'How the directory works', 'Статусы':'Statuses', 'Почему «оклейка»':'Why “Okleika”?', 'Источники':'Sources', 'Чего здесь нет':'What is not included', 'Покрытие по сетям':'Coverage by retail chain', 'С решением':'Reviewed', 'Из них веганских':'Of which vegan',
     'Здесь только напитки из российских сетей, по которым есть проверенное решение о веганском статусе:':'This directory includes drinks listed by Russian retail chains with a reviewed vegan-status decision:',
-    'Если одна и та же бутылка есть в нескольких сетях, она показана одной записью со всеми сетями.':'If the same bottle appears in several chains, one entry lists all of those chains.',
     'Производитель сообщает, что животные продукты не используются.':'The producer reports that no animal-derived products are used.',
     'Используются продукты животного происхождения, например желатин или рыбий клей для осветления.':'Animal-derived products are used, such as gelatin or isinglass for fining.',
     'Вино, пиво и сидр часто осветляют, то есть оклеивают. Иногда для этого берут желатин, рыбий клей, казеин или яичный белок. На этикетке это не пишут, поэтому статус выясняют у производителя.':'Okleika is Russian for fining. Wine, beer and cider are often clarified using gelatin, isinglass, casein or egg white. These processing aids may not appear on the label, so we rely on the producer’s response.',
