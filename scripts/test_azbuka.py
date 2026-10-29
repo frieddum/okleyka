@@ -17,7 +17,9 @@ rows = {r[0]: r for r in data['records']}
 network = meta['networks'].index('Азбука вкуса')
 av = {rid: r for rid, r in rows.items() if network in r[2]}
 new = read('data/azbuka_additions.json')['items']
-assert len(av) == 324 and len(new) == 124
+vlabel_av = {item['id'] for item in read('data/vlabel_additions.json')['items'] if any(chain['network'] == 'Азбука вкуса' for chain in item['chains'])}
+assert len(set(av) - vlabel_av) == 324 and len(new) == 124
+assert vlabel_av <= set(av)
 # Every AV wine, including linked pre-existing cards, has complete attributes.
 for row in av.values():
     if meta['categories'][row[8]] in ('Вино', 'Игристое вино', 'Портвейн', 'Херес', 'Вермут', 'Вермут и креплёное вино'):
@@ -73,4 +75,4 @@ assert not ordinary_volume(500, 'wine', 'Other wine')
 assert not ordinary_volume(50, 'fortified', 'ABF 1843')
 public = json.dumps(new, ensure_ascii=False)
 assert not re.search(r'av\.ru|₽|@|C:\\\\|price_rub', public, re.I)
-print('Azbuka: 324 cards, 124 new, 323 priced; identity, scope, formats and privacy passed')
+print(f'Azbuka: {len(av)} cards; identity, scope, formats and privacy passed')

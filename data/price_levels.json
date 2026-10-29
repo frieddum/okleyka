@@ -20702,5 +20702,23 @@
     "volume_ml": 750,
     "observed_at": null,
     "market_estimate": true
+  },
+  "vl-ec8a587f08dd": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-29"
+  },
+  "vl-d5e9bf873ac2": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-29"
+  },
+  "vl-8be34dacc3a7": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-29"
   }
 }
