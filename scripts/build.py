@@ -402,7 +402,7 @@ def main():
     extra_count = 0
     direct_attrs = {}
     # data/manual_additions.json — позиции, проверенные вручную по письмам производителей (тот же формат).
-    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json", ROOT / "data" / "producer_replies.json", ROOT / "data" / "azbuka_additions.json", ROOT / "data" / "global_vegan.json"):
+    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json", ROOT / "data" / "producer_replies.json", ROOT / "data" / "azbuka_additions.json", ROOT / "data" / "global_vegan.json", ROOT / "data" / "vlabel_additions.json"):
       if not extra_path.exists():
         continue
       direct = extra_path.name == "producer_replies.json"

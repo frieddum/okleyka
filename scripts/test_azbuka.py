@@ -17,7 +17,9 @@ rows = {r[0]: r for r in data['records']}
 network = meta['networks'].index('Азбука вкуса')
 av = {rid: r for rid, r in rows.items() if network in r[2]}
 new = read('data/azbuka_additions.json')['items']
-assert len(av) == 324 and len(new) == 124
+vlabel_av = {item['id'] for item in read('data/vlabel_additions.json')['items'] if any(chain['network'] == 'Азбука вкуса' for chain in item['chains'])}
+assert len(set(av) - vlabel_av) == 324 and len(new) == 124
+assert vlabel_av <= set(av)
 # Every AV wine, including linked pre-existing cards, has complete attributes.
 for row in av.values():
     if meta['categories'][row[8]] in ('Вино', 'Игристое вино', 'Портвейн', 'Херес', 'Вермут', 'Вермут и креплёное вино'):
@@ -25,7 +27,7 @@ for row in av.values():
 assert rows['av-1017570'][17] == 'Экстра брют'  # Structured details resolve Brut/Extra Brut title.
 assert rows['vr-0e93764df0'][11] == 13.9
 assert rows['vr-0cc1eaed07'][11] == 14.0
-assert sum(rid in data['price_levels'] for rid in av) == 323
+assert sum(rid in data['price_levels'] for rid in av) == 323 + len(vlabel_av)
 assert 'av-370353' not in data['price_levels']  # Only a 375 ml offer; no invented 750 ml price.
 for rid, row in av.items():
     assert row[1] in ('v', 'n')
@@ -71,4 +73,4 @@ assert not ordinary_volume(500, 'wine', 'Other wine')
 assert not ordinary_volume(50, 'fortified', 'ABF 1843')
 public = json.dumps(new, ensure_ascii=False)
 assert not re.search(r'av\.ru|₽|@|C:\\\\|price_rub', public, re.I)
-print('Azbuka: 324 cards, 124 new, 323 priced; identity, scope, formats and privacy passed')
+print(f'Azbuka: {len(av)} cards; identity, scope, formats and privacy passed')

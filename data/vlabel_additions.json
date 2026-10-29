@@ -1,0 +1,663 @@
+{
+  "copied_at": "2026-10-29",
+  "items": [
+    {
+      "id": "vl-a58c653208f1",
+      "name": "Gustave Lorentz Évidence Pinot Blanc белое сухое",
+      "company": "Gustave Lorentz",
+      "country": "Франция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Производитель подтверждает веганскую сертификацию V-Label линейки Évidence; с 2014 года при её производстве исключены материалы животного происхождения.",
+      "scope": [
+        "Подтверждение относится к линейке Évidence; другие линейки им не охвачены."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.gustavelorentz.com/les-vins/vin-alsace-bio-evidence/",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-8384d027ac56",
+      "name": "Gustave Lorentz Évidence Riesling белое сухое",
+      "company": "Gustave Lorentz",
+      "country": "Франция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Производитель подтверждает веганскую сертификацию V-Label линейки Évidence; с 2014 года при её производстве исключены материалы животного происхождения.",
+      "scope": [
+        "Подтверждение относится к линейке Évidence; другие линейки им не охвачены."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.gustavelorentz.com/les-vins/vin-alsace-bio-evidence/",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-68c627a59f58",
+      "name": "Gustave Lorentz Évidence Pinot Gris белое сухое",
+      "company": "Gustave Lorentz",
+      "country": "Франция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Производитель подтверждает веганскую сертификацию V-Label линейки Évidence; с 2014 года при её производстве исключены материалы животного происхождения.",
+      "scope": [
+        "Подтверждение относится к линейке Évidence; другие линейки им не охвачены."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.gustavelorentz.com/les-vins/vin-alsace-bio-evidence/",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-b95f163d160b",
+      "name": "Gustave Lorentz Évidence Gewurztraminer белое сухое",
+      "company": "Gustave Lorentz",
+      "country": "Франция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Производитель подтверждает веганскую сертификацию V-Label линейки Évidence; с 2014 года при её производстве исключены материалы животного происхождения.",
+      "scope": [
+        "Подтверждение относится к линейке Évidence; другие линейки им не охвачены."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.gustavelorentz.com/les-vins/vin-alsace-bio-evidence/",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-5cd9142d95e6",
+      "name": "Gustave Lorentz Évidence Pinot Noir красное сухое",
+      "company": "Gustave Lorentz",
+      "country": "Франция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Производитель подтверждает веганскую сертификацию V-Label линейки Évidence; с 2014 года при её производстве исключены материалы животного происхождения.",
+      "scope": [
+        "Подтверждение относится к линейке Évidence; другие линейки им не охвачены."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.gustavelorentz.com/les-vins/vin-alsace-bio-evidence/",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-ec8a587f08dd",
+      "name": "Mahou 5 Estrellas Session IPA",
+      "company": "Mahou",
+      "country": "Испания",
+      "category": "Пиво",
+      "status": "vegan",
+      "rationale": "Производитель прямо включает этот сорт в перечень пива с веганской сертификацией V-Label.",
+      "scope": [
+        "Подтверждение относится к испанской продукции; производство по лицензии в других странах отдельно не проверено."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.mahou.es/sobre-mahou/sostenibilidad/",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-29"
+        },
+        {
+          "network": "Лента",
+          "checked_at": "2026-10-29"
+        }
+      ],
+      "scope_reviewed": true,
+      "volume_ml": 330,
+      "abv": 4.5
+    },
+    {
+      "id": "vl-826aefd432be",
+      "name": "Mahou Clásica",
+      "company": "Mahou",
+      "country": "Испания",
+      "category": "Пиво",
+      "status": "vegan",
+      "rationale": "Производитель прямо включает этот сорт в перечень пива с веганской сертификацией V-Label.",
+      "scope": [
+        "Подтверждение относится к испанской продукции; производство по лицензии в других странах отдельно не проверено."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.mahou.es/sobre-mahou/sostenibilidad/",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-d5e9bf873ac2",
+      "name": "Mahou 5 Estrellas",
+      "company": "Mahou",
+      "country": "Испания",
+      "category": "Пиво",
+      "status": "vegan",
+      "rationale": "Производитель прямо включает этот сорт в перечень пива с веганской сертификацией V-Label.",
+      "scope": [
+        "Подтверждение относится к испанской продукции; производство по лицензии в других странах отдельно не проверено."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.mahou.es/sobre-mahou/sostenibilidad/",
+      "chains": [
+        {
+          "network": "Азбука вкуса",
+          "checked_at": "2026-10-29"
+        }
+      ],
+      "scope_reviewed": true,
+      "volume_ml": 330,
+      "abv": 5.5
+    },
+    {
+      "id": "vl-73ba64c82ab1",
+      "name": "Mahou 5 Estrellas Sin Gluten",
+      "company": "Mahou",
+      "country": "Испания",
+      "category": "Пиво",
+      "status": "vegan",
+      "rationale": "Производитель прямо включает этот сорт в перечень пива с веганской сертификацией V-Label.",
+      "scope": [
+        "Подтверждение относится к испанской продукции; производство по лицензии в других странах отдельно не проверено."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.mahou.es/sobre-mahou/sostenibilidad/",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-6e02ef83dec1",
+      "name": "Mahou Radler",
+      "company": "Mahou",
+      "country": "Испания",
+      "category": "Пиво",
+      "status": "vegan",
+      "rationale": "Производитель прямо включает этот сорт в перечень пива с веганской сертификацией V-Label.",
+      "scope": [
+        "Подтверждение относится к испанской продукции; производство по лицензии в других странах отдельно не проверено."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.mahou.es/sobre-mahou/sostenibilidad/",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-43ba13b20011",
+      "name": "Mahou Rosé",
+      "company": "Mahou",
+      "country": "Испания",
+      "category": "Пиво",
+      "status": "vegan",
+      "rationale": "Производитель прямо включает этот сорт в перечень пива с веганской сертификацией V-Label.",
+      "scope": [
+        "Подтверждение относится к испанской продукции; производство по лицензии в других странах отдельно не проверено."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.mahou.es/sobre-mahou/sostenibilidad/",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-79fbdce6bbf8",
+      "name": "Mahou Reserva",
+      "company": "Mahou",
+      "country": "Испания",
+      "category": "Пиво",
+      "status": "vegan",
+      "rationale": "Производитель прямо включает этот сорт в перечень пива с веганской сертификацией V-Label.",
+      "scope": [
+        "Подтверждение относится к испанской продукции; производство по лицензии в других странах отдельно не проверено."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.mahou.es/sobre-mahou/sostenibilidad/",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-89f38a9aa881",
+      "name": "Amethystos Blanc белое",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-9013973c58bb",
+      "name": "Amethystos Rosé розовое",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-8be34dacc3a7",
+      "name": "Amethystos Rouge 2023 красное сухое",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-10-29"
+        }
+      ],
+      "scope_reviewed": true,
+      "volume_ml": 750,
+      "abv": 14,
+      "vintage": 2023
+    },
+    {
+      "id": "vl-3b0d6ee26592",
+      "name": "Amethystos Fumé Sauvignon Blanc белое",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-3c8d22a38794",
+      "name": "Amethystos Cava Cabernet Franc красное",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-80365227634f",
+      "name": "Château Julia Chardonnay белое",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-7e1133900223",
+      "name": "Château Julia Assyrtiko белое",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-7a7d5115e555",
+      "name": "Château Julia Merlot красное",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-d442185c5c21",
+      "name": "Château Julia Agiorgitiko красное",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-b018bd60e9b0",
+      "name": "Domaine Costa Lazaridi Malagousia белое",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-84313eb1c09f",
+      "name": "Domaine Costa Lazaridi Semillon белое",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-b0219868c718",
+      "name": "Domaine Costa Lazaridi Rosé розовое",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-e2a709cbe272",
+      "name": "Domaine Costa Lazaridi Syrah красное",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-ab39bff4f6a1",
+      "name": "Costa Lazaridi Brut Blanc de Blanc белое брют",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Игристое вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-b5e1d4f0eec9",
+      "name": "Oenotria Land Cabernet Sauvignon / Agiorgitiko BIO красное",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-62b34efb6b0d",
+      "name": "Oenotria Land Syrah / Agiorgitiko BIO красное",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-2d03ed037014",
+      "name": "Methexis Moscato",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Крепкий алкоголь",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-378ee19b1188",
+      "name": "Methexis Assyrtiko",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Крепкий алкоголь",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-d8984eb06301",
+      "name": "Methexis Cabernet Sauvignon",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Крепкий алкоголь",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-b1b0d2f4b439",
+      "name": "Methexis Cigar Sauvignon Blanc",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Крепкий алкоголь",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-050417b2b9ae",
+      "name": "Idoniko Tsipouro",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Крепкий алкоголь",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-fddca82e6dbd",
+      "name": "Idoniko Tsipouro with anise",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Крепкий алкоголь",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-0a1ba1df6e3a",
+      "name": "Idoniko Ouzo",
+      "company": "Estates Costa Lazaridi",
+      "country": "Греция",
+      "category": "Крепкий алкоголь",
+      "status": "vegan",
+      "rationale": "В брошюре производителя для ProWein 2026 заявлена веганская сертификация всей продукции и приведён знак V-Label VEGAN.",
+      "scope": [
+        "Подтверждение относится к ассортименту производителя в брошюре 2026 года."
+      ],
+      "evidence_date": "2026",
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.prowein.de/vis-content/event-prowein2026/exh-prowein2026.3060405/ProWein-2026-DOMAINE-COSTA-LAZARIDI-SA-Exhibitor-prowein2026.3060405-AKnovm0bSkGsHbvWV4Gh8A.pdf",
+      "chains": [],
+      "scope_reviewed": true
+    },
+    {
+      "id": "vl-5fce85271ed8",
+      "name": "Poças White Port белое сладкое",
+      "company": "Poças",
+      "country": "Португалия",
+      "category": "Портвейн",
+      "status": "vegan",
+      "rationale": "Технический лист производителя указывает веганскую сертификацию V-Label для этого вина.",
+      "scope": [
+        "Подтверждение относится к продукту, указанному в техническом листе."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://pocas.pt/wp-content/uploads/2021/02/POC-W_en-V3.pdf",
+      "chains": [],
+      "scope_reviewed": true,
+      "abv": 19.1
+    },
+    {
+      "id": "vl-9f04d7bdafeb",
+      "name": "Coroa D’Ouro Red 2023 красное сухое",
+      "company": "Poças",
+      "country": "Португалия",
+      "category": "Вино",
+      "status": "vegan",
+      "rationale": "Технический лист производителя указывает веганскую сертификацию V-Label для этого вина.",
+      "scope": [
+        "Подтверждение относится к продукту, указанному в техническом листе."
+      ],
+      "evidence_date": null,
+      "ref_type": "manufacturer",
+      "ref_url": "https://pocas.pt/wp-content/uploads/2021/01/CDO-T23_en-V1.pdf",
+      "chains": [],
+      "scope_reviewed": true,
+      "vintage": 2023,
+      "abv": 13.2
+    }
+  ]
+}
