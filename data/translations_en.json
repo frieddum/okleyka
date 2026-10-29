@@ -228,6 +228,7 @@
   "Вино": "Wine",
   "Вино \"Levity\" Verde Doc, белое полусухое, 10%, 0,75 л": "Wine \"Levity\" Verde Doc, white semi-dry, 10%, 0.75 l",
   "Вино \"Топаз\" Люкс, 38%, 0,1 л": "Wine \"Topaz\" Lux, 38%, 0.1 l",
+  "Водка \"Топаз\" Люкс, 38%, 0,1 л": "Vodka \"Topaz\" Lux, 38%, 0.1 l",
   "Вино 770 Miles Зинфандель красное сухое 750мл": "Wine 770 Miles Zinfandel red dry 750ml",
   "Вино 770 Miles Шардоне белое сухое 13% 750мл": "Wine 770 Miles Chardonnay white dry 13% 750ml",
   "Вино Agostina Pieri Brunello di Montalcino 2019": "Wine Agostina Pieri Brunello di Montalcino 2019",
@@ -5959,5 +5960,6 @@
   "Только вина Viu Manent линеек Gran Reserva и Secreto. Публикация не подтверждает остальные линейки производителя.": "Only the Viu Manent Gran Reserva and Secreto ranges. This publication does not confirm the producer's other ranges.",
   "Ответы на наши запросы и публичные подтверждения производителей: краткий пересказ, дата и область действия.": "Replies to our inquiries and public producer statements: summaries, dates and scope.",
   "Публичное подтверждение от 22.11.2022: веганские линейки Gran Reserva и Secreto.": "Public statement dated 22 November 2022: the Gran Reserva and Secreto ranges are vegan.",
-  "Подтверждение на сайте производителя ↗": "Confirmation on the producer's website ↗"
+  "Подтверждение на сайте производителя ↗": "Confirmation on the producer's website ↗",
+  "Для оценки используем сохранённые цены массовых сетей и винотек, в том числе акции и цены по карте. Если есть несколько цен на один объём, берём медиану. Знак ≈ перед уровнем означает ориентир по обычной цене напитка в других магазинах или архивных предложениях. Для редких напитков без российской цены используем зарубежную цену с пересчётом валюты; доставка и российская наценка в неё не входят. Ориентиры пересматриваются при обновлении данных; текущая цена в магазине может отличаться.": "We use saved prices from retail chains and wine shops, including special offers and loyalty-card prices. For multiple prices at one size, we use the median. A preceding ≈ marks an estimate based on the usual price in other shops or archived offers. For rare drinks without a Russian price, we convert a foreign retail price; shipping and Russian retail markups are not included. Benchmarks are updated with the data; current shop prices may differ."
 }

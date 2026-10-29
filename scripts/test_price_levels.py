@@ -27,6 +27,9 @@ assert category('Вино', False) == 'wine'
 assert category('Водка') == 'vodka'
 assert ordinary_volume(500, 'vodka')
 assert ordinary_volume(330, 'beer')
+assert ordinary_volume(100, 'liqueur', 'Angostura Orange Bitters')
+assert ordinary_volume(250, 'wine', 'Martini Semi Dolce')
+assert not ordinary_volume(100, 'vodka', 'Topaz Lux')
 assert ordinary_volume(360, 'soju')
 assert not ordinary_volume(200, 'soju')
 assert relative_level(800, category_limits([800]*5, 'soju')) == 2

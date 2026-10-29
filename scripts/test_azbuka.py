@@ -25,8 +25,9 @@ for row in av.values():
 assert rows['av-1017570'][17] == 'Экстра брют'  # Structured details resolve Brut/Extra Brut title.
 assert rows['vr-0e93764df0'][11] == 13.9
 assert rows['vr-0cc1eaed07'][11] == 14.0
-assert sum(rid in data['price_levels'] for rid in av) == 323
-assert 'av-370353' not in data['price_levels']  # Only a 375 ml offer; no invented 750 ml price.
+assert all(rid in data['price_levels'] for rid in av)
+assert data['price_levels']['av-370353']['estimated_for_ml'] == 750
+assert data['price_levels']['av-370353']['market_estimate'] is True
 for rid, row in av.items():
     assert row[1] in ('v', 'n')
     kind = meta['categories'][row[8]]
@@ -39,9 +40,10 @@ for rid, row in av.items():
         assert assessment['refs']
     if rid in data['price_levels']:
         band = data['price_levels'][rid]
-        assert set(band) == {'level', 'scale', 'volume_ml', 'observed_at'}
+        assert {'level', 'scale', 'volume_ml', 'observed_at'} <= set(band)
+        assert set(band) <= {'level', 'scale', 'volume_ml', 'observed_at', 'estimated_for_ml', 'market_estimate'}
         assert 1 <= band['level'] <= 5
-        assert ordinary_volume(band['volume_ml'], band['scale'], row[3])
+        assert ordinary_volume(band.get('estimated_for_ml', band['volume_ml']), band['scale'], row[3])
 
 for item in new:
     row = av[item['id']]

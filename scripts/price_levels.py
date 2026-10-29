@@ -59,6 +59,10 @@ def level(price, scale):
 
 
 def ordinary_volume(ml, scale, name=''):
+    # Cocktail bitters and ready-to-drink cans use their actual retail format.
+    if ml in (100, 200) and re.search(r'Angostura|Ангостура', name, re.I) and re.search(r'Bitters|Биттерс', name, re.I): return True
+    if ml == 250 and re.search(r'Martini|Мартини', name, re.I) and re.search(r'Secco|Semi Dolce|Rosato|Семи Дольче|Розато', name, re.I): return True
+    if scale == 'beer' and ml == 250 and re.search(r'Rodenbach Fruitage', name, re.I): return True
     # Standard lambic bottles are 250 ml; Harbin Premium is sold in 610 ml.
     # These are ordinary retail formats, not tasting miniatures or magnums.
     if scale == 'beer':

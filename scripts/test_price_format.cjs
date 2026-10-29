@@ -9,6 +9,9 @@ for (let level = 1; level <= 5; level++) {
   assert.equal(format({level}, 'ru').note, undefined);
 }
 const fs = require('node:fs');
+assert.equal(format({level: 3, volume_ml: 750, market_estimate: true}, 'ru').symbols, '≈ $$$');
+assert.equal(format({level: 3, volume_ml: 100, market_estimate: true}, 'en').symbols, '≈ $$$ · 100 ml');
+assert.equal(format({level: 3, volume_ml: 100, estimated_for_ml: 500, market_estimate: true}, 'ru').symbols, '$$$ · ≈ 500 мл');
 assert.equal(format({level: 3, scale: 'wine', volume_ml: 375}, 'ru').symbols, '$$$ · 375 мл');
 assert.equal(format({level: 3, scale: 'wine', volume_ml: 375}, 'en').label, 'Price level 3 of 5 · 375 ml');
 assert.equal(format({level: 3, scale: 'wine', volume_ml: 750}, 'ru').symbols, '$$$');

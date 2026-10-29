@@ -547,6 +547,8 @@ def main():
             continue
         if 'category' in correction:
             rec[8] = cats(correction['category'])
+        if 'name' in correction:
+            rec[3] = correction['name']
         if 'assessment' in correction:
             assessment = {**assessments[rec[15]], **correction['assessment']}
             rec[1] = STATUS_CODE[assessment['status']]
@@ -763,13 +765,15 @@ def main():
     from price_levels import ordinary_volume, category
     for rid, band in prices.items():
         required = {"level", "scale", "volume_ml", "observed_at"}
-        if rid not in by_id or not required <= set(band) <= required | {"estimated_for_ml", "gift_set"}:
+        if rid not in by_id or not required <= set(band) <= required | {"estimated_for_ml", "gift_set", "market_estimate"}:
             fail(f"price_levels: неизвестная карточка или лишние поля {rid}")
         if type(band["level"]) is not int or not 1 <= band["level"] <= 5:
             fail(f"price_levels: неверный уровень {rid}")
         expected = category(cats.items[by_id[rid][8]], bool(by_id[rid][18]))
         estimated = band.get('estimated_for_ml')
         gift = band.get('gift_set', False)
+        if 'market_estimate' in band and band['market_estimate'] is not True:
+            fail(f"price_levels: invalid market estimate flag {rid}")
         if ('gift_set' in band and gift is not True) or (gift and estimated is not None):
             fail(f"price_levels: conflicting price basis {rid}")
         if type(band['volume_ml']) not in (int, float) or not 0 < band['volume_ml'] <= 30000:

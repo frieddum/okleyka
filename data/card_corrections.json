@@ -425,5 +425,10 @@
       ]
     },
     "reason": "Official producer publication; publication date from article JSON-LD. Scope is restricted to Gran Reserva and Secreto. The separate 2022 certificate is expired and is not presented as current certification."
+  },
+  "dx-66ca665389": {
+    "expected_name": "Вино \"Топаз\" Люкс, 38%, 0,1 л",
+    "category": "Водка",
+    "name": "Водка \"Топаз\" Люкс, 38%, 0,1 л"
   }
 }
