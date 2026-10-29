@@ -1456,5 +1456,1691 @@
     "network": "Ласточка",
     "expected_name": "Тундра Морозный Можжевельник",
     "checked_at": "2026-10-27"
+  },
+  {
+    "record_id": "0079a10ca9",
+    "expected_name": "Пиво светлое PAULANER Munchner hell фильтрованное пастеризованное, 4,9%, ж/б 0.5L",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "1bdec0a9e2",
+    "expected_name": "Пиво Grolsch Premium Pilsner светлое фильтрованное 5% 500мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "59f288fdf4",
+    "expected_name": "Пиво St.Peters Cream Stout темное фильтрованное пастеризованное 6.5% 500мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "8765ed68d8",
+    "expected_name": "Пиво Bakalar Original Lager светлое фильтрованное пастеризованное 4.9% 500мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "9d10be57aa",
+    "expected_name": "Пиво Krombacher Pils светлое пастеризованное 4.8% 500мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "c3748ab78c",
+    "expected_name": "Пиво Guinness Draught темное 4.2% 440мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "dx-6e080c81f6",
+    "expected_name": "Пиво нефильтрованное Maisel's Weisse Original 5,1% 0,5л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ed12bdfb26",
+    "expected_name": "Пиво Peroni Nastro Azzurro светлое фильтрованное пастеризованное 330мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-360ee72e6b",
+    "expected_name": "Пиво светлое BAYREUTHER HELL фильтрованное непастеризованное 4,9%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-ad5d2aa511",
+    "expected_name": "Пиво светлое PAULANER Weissbier нефильтрованное пастеризованное 5,5%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-9926cdb6e15d",
+    "expected_name": "Пиво Radeberger Pilsner",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "1ca93617f9",
+    "expected_name": "Ликер Becherovka 38% 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "33d31f01ab",
+    "expected_name": "Виски Caol Ila Moch 43% 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "48ce738dee",
+    "expected_name": "Джин Tanqueray London Dry 43.1 % 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "684e0d31c2",
+    "expected_name": "Виски Cardhu Gold Reserve 40% 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "8d9119b292",
+    "expected_name": "Виски Джемесон Ирландский купажированный 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "8f7a376726",
+    "expected_name": "Виски Jack Daniels Tennessee зерновой 40% 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "979ff0873a",
+    "expected_name": "Ликер ROSSI D'ASIAGO Limoncello 32%, десертный 0.7L",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ad60e05544",
+    "expected_name": "Напиток спиртной Sarti Rosa 14% 0,7л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "av-475355",
+    "expected_name": "Bumbu Original",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "bv-product-16557",
+    "expected_name": "Glenfarclas 10 Year Old Whisky",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "bv-product-16558",
+    "expected_name": "Glenfarclas 12 Year Old Whisky",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "bv-product-16559",
+    "expected_name": "Glenfarclas 15 Year Old Whisky",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "bv-product-16562",
+    "expected_name": "Glenfarclas 25 Year Old Whisky",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "dee877e203",
+    "expected_name": "Виски Cardhu Amber Rock 40% 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "df152453db",
+    "expected_name": "Ликер Grand Marnier Кордон Руж 40% 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "dx-2cbe7963e8",
+    "expected_name": "Джин Barrister Dry Gin 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "dx-45c5063698",
+    "expected_name": "Виски шотландский \"Old Smuggler\", 40%, 0,7 л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "dx-6008630650",
+    "expected_name": "Джин \"Barrister\" Pink, 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "dx-6dcf2a9225",
+    "expected_name": "Водка \"Beluga\" Noble, 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "dx-bbde099d6c",
+    "expected_name": "Водка Пять озер Премиум 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "edaaf3f5e2",
+    "expected_name": "Бренди Торрес 10 Смоукд Баррел 38% 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "jo-2d2b23684c",
+    "expected_name": "Ром Закапа Сэнтэнарио Солера Гран Резерва 23, 0.7л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "jo-41864d026a",
+    "expected_name": "Ликер Амаро Монтенегро",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "jo-ee14e4b287",
+    "expected_name": "Виски Томатин Легаси, односолодовый, 0.7л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-18ad59388f",
+    "expected_name": "Напиток спиртной Текила Патрон Аньехо 40%, 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-6e319e854c",
+    "expected_name": "Ликер десертный Ягермайстер 35%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-7b2f1916b0",
+    "expected_name": "Напиток спиртной Апероль (аперитив) 11%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-83596f94c0",
+    "expected_name": "Ликер десертный Кампари (аперитив) 25%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-8a00f1e860",
+    "expected_name": "Напиток спиртной Текила Патрон Репосадо 40%, 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-b7990f0378",
+    "expected_name": "Виски Мэйкерс Марк 45%, 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-bdd375504c",
+    "expected_name": "Виски Теннесси Джек Дениел`с 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-d30135b195",
+    "expected_name": "Коньяк Курвуазье ВС 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-f908f76747",
+    "expected_name": "Текила Эсполон Аньехо 40%, 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-0d269ff1c7",
+    "expected_name": "Виски GRANT'S Triple Wood Шотландский купажированный 40–43%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-133d40455e",
+    "expected_name": "Виски BALLANTINE'S Файнест Шотландский купажированный, 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-439fbaea78",
+    "expected_name": "Виски LAGAVULIN Шотландский солодовый 8 лет 48%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-86d96c71f7",
+    "expected_name": "Виски GLENFIDDICH Шотландский солодовый 15 лет 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-8b37061d57",
+    "expected_name": "Виски ARDBEG Ардбег Шотландский односолодовый 10 лет, 46%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-bb53ce352e",
+    "expected_name": "Виски DEWAR'S White Label шотландский купажированный 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-e1b0241ce5",
+    "expected_name": "Виски GLEN MORAY Classic Сингл Молт Оур Шотландский односолодовый 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-e50b1f6d7f",
+    "expected_name": "Виски TALISKER Шотландский односолодовый 10 лет 45,8%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "mt-069ba2739b",
+    "expected_name": "Водка Спельта Organic, 0.7л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "mt-2444e4da71",
+    "expected_name": "Виски Woodford Reserve",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "mt-56c730d4b7",
+    "expected_name": "Ликер Mozart White Chocolate, 0.5л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "mt-75d6ae7a37",
+    "expected_name": "Виски шотландский Glen Scotia Campbeltown Harbour, 0.7л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "mt-b88bb32692",
+    "expected_name": "Водка Danzka Cranraz, 0.7л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-040833e6d2",
+    "expected_name": "Джин Green Baboon Пинк 40%, 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-09007eb317",
+    "expected_name": "Водка Архангельская северная выдержка 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-2b3afe8aa6",
+    "expected_name": "Виски Laphroaig 10-летний шотландский односолодовый 40%, 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-321938a4ff",
+    "expected_name": "Водка Beluga Трансатлантик Рейсинг 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-4f417c67e3",
+    "expected_name": "Водка Царская Оригинальная 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-5d798bf1e6",
+    "expected_name": "Джин Green Baboon, 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-606c05b090",
+    "expected_name": "Ром Planteray Original Dark 40%, 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-63dd24628b",
+    "expected_name": "Джин Gordon's London Dry сухой, 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-7472e24cc0",
+    "expected_name": "Виски Dewar's Special Reserve 12 лет 40%, 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-7b54c7c8ed",
+    "expected_name": "Водка Beluga Нобл Селебрейшн 40%, 500мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-7dab44d769",
+    "expected_name": "Водка Балчуг 21 век 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-838ee946aa",
+    "expected_name": "Водка Царская Золотая 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-83fc2ab8b6",
+    "expected_name": "Виски Glenfiddich 12-летний шотландский односолодовый 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-8c3e4e2aec",
+    "expected_name": "Джин Green Baboon Citrus 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-8c97b043c3",
+    "expected_name": "Ликёр Campari десертный 25%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-b573cbfcf0",
+    "expected_name": "Виски Lagavulin шотландский односолодовый 16 лет 43%, 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-c26d14ec85",
+    "expected_name": "Коньяк Dupuy Cognac трехлетний VS 40%, 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-e3461c2838",
+    "expected_name": "Джин Barrister Blue 40%, 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-e725a70c6c",
+    "expected_name": "Водка Архангельская Северные травы особая 40%, 500мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-e7542e4b28",
+    "expected_name": "Виски Cutty Sark шотландский купажированный 40%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-e9931b9760",
+    "expected_name": "Водка Polba 40%, 700мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-ararat-cherry",
+    "expected_name": "ARARAT Cherry — со вкусом вишни",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-ararat-coffee",
+    "expected_name": "ARARAT Coffee — со вкусом кофе",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-ararat-honey",
+    "expected_name": "ARARAT Honey — со вкусом мёда",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-ararat-nairi",
+    "expected_name": "ARARAT NAIRI",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-bash-belebeevskaya-classic",
+    "expected_name": "Белебеевская классическая",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-kkz-brandy-marochny",
+    "expected_name": "Кизлярский Марочный",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-kkz-kizlyarka-apple",
+    "expected_name": "Кизлярка Яблочная",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-kkz-kizlyarka-apricot",
+    "expected_name": "Кизлярка Абрикосовая",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-kkz-kizlyarka-cornel",
+    "expected_name": "Кизлярка Кизиловая",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-kkz-kizlyarka-mulberry",
+    "expected_name": "Кизлярка Тутовая",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-tat-34dfcd31438e",
+    "expected_name": "Graf Ledoff",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-tat-3d6191f24ad3",
+    "expected_name": "Tundra Bitter Mint",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-tat-62b4d44330f7",
+    "expected_name": "Ликёр Tundra Bitter Orange",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-tat-8896b027b959",
+    "expected_name": "Royal Raven Pink",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-tat-bugulma",
+    "expected_name": "Бугульма",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-tat-kupava-lesnaya",
+    "expected_name": "Купава Лесная",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "reply-tat-kupava-myagkaya",
+    "expected_name": "Купава Мягкая",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-0752f32995e9",
+    "expected_name": "Коньяк Bowen XO",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-079cfdc44be8",
+    "expected_name": "Ром Don Papa Baroko",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-089253d7433c",
+    "expected_name": "Виски Glen Scotia, Victoriana",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-0bc97d077cf9",
+    "expected_name": "Текила Sauza Hacienda Gold",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-0ee6d27cf8af",
+    "expected_name": "Водка Danzka",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-11de4a7da624",
+    "expected_name": "Виски Cardhu, 12 летней выдержки",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-16a357e6016b",
+    "expected_name": "Виски Nelson's Green Brier Tennessee",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-179b41bf016e",
+    "expected_name": "Текила Patron Silver",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-1b9e76a54bd4",
+    "expected_name": "Ликер Frangelico",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-20ae12d794eb",
+    "expected_name": "Текила Sauza Gold",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-217fd2a2c654",
+    "expected_name": "Водка Danzka Fifty",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-2387c4e71742",
+    "expected_name": "Виски Dalwhinnie Winter's Gold",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-2429ab9ffa64",
+    "expected_name": "Виски Glen Scotia 18 YO",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-2a8ade135a38",
+    "expected_name": "Виски Glen Scotia Release №2 Barolo Cask Finish 14 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-2fa83408cc0e",
+    "expected_name": "Виски Dalwhinnie 15 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-3322e51da35a",
+    "expected_name": "Виски Macallan Sir Peter Blake",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-3441b9b5de23",
+    "expected_name": "Текила Don Julio Blanco",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-36c448afa169",
+    "expected_name": "Виски Glenfarclas Heritage",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-3713715e30ab",
+    "expected_name": "Коньяк Hennessy VS",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-3898ff41f10f",
+    "expected_name": "Виски Glenmorangie The Original",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-39c22749ca5d",
+    "expected_name": "Виски Glenfarclas 8 YO",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-3a3029f72a45",
+    "expected_name": "Виски Cardhu 15 YO",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-401fbfb42ec0",
+    "expected_name": "Коньяк Tesseron Lot №90 XO Ovation",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-44091d2819c0",
+    "expected_name": "Коньяк Hennessy XO",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-463a91afecd9",
+    "expected_name": "Виски Auchentoshan Three Wood",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-4b7ed9a8954e",
+    "expected_name": "Виски Benriach The Original Ten",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-4c020fe8c55e",
+    "expected_name": "Виски Glengoyne Cask Strength",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-4cecc3ad08e7",
+    "expected_name": "Водка Absolut",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-53ebccfc1d48",
+    "expected_name": "Фернет Бранка",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-5924542600c5",
+    "expected_name": "Виски Glen Scotia 21 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-594218c4921d",
+    "expected_name": "Коньяк Tesseron XO Passion",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-5acf83a5c5b8",
+    "expected_name": "Виски Bowmore Legend",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-5b3e19afb042",
+    "expected_name": "Джин Sipsmith London Dry Gin",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-61a4f0ec62b1",
+    "expected_name": "Амаро Лукано Кордиаль Каффе",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-62154eaf37d3",
+    "expected_name": "Виски Balvenie Doublewood 12 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-655434baf7b5",
+    "expected_name": "Виски Glenfiddich 21 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-677afaab3878",
+    "expected_name": "Виски Monkey Shoulder",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-6861dd7e0a74",
+    "expected_name": "Виски Benriach The Smoky Ten",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-73ead4050130",
+    "expected_name": "Коньяк Tesseron Lot №76 XO Tradition",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-7595de05833e",
+    "expected_name": "Виски Glen Moray Elgin Classic Cabernet Cask Finish",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-78ad2166fc6d",
+    "expected_name": "Виски Auchentoshan Double Cask 12 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-792901380122",
+    "expected_name": "Bols Advocaat",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-7e63a191796f",
+    "expected_name": "Виски Glen Scotia White Port Cask Finish 11 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-83a8721e922d",
+    "expected_name": "Виски Auchentoshan 12 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-83ced6a4e822",
+    "expected_name": "Коньяк Tesseron Extra Legende",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-83cf80925223",
+    "expected_name": "Коньяк Remy Martin VSOP",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-8710dfe4b078",
+    "expected_name": "Виски Compass Box Hedonism",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-885888bcfca3",
+    "expected_name": "Виски Glenmorangie The Original 12 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-88f5ba853429",
+    "expected_name": "Виски Glenfarclas 105",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-8f119193f35c",
+    "expected_name": "Джин Bols Genever",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-8f3a2502bf09",
+    "expected_name": "Коньяк Martell VS",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-901a7d03fbac",
+    "expected_name": "Виски Glengoyne 15 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-90e8a17c7ba2",
+    "expected_name": "Джин Brecon Botanicals Gin",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-919739e7eae7",
+    "expected_name": "Виски Tomatin 14 YO",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-939cb21ae409",
+    "expected_name": "Водка REYKA Small Batch",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-984b25798524",
+    "expected_name": "Коньяк Martell VSOP",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-993d5d39f0ca",
+    "expected_name": "Виски Tomatin 12 Years Old Sherry Cask",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-9b589edb8bb5",
+    "expected_name": "Виски Tomatin, 12 летней выдержки",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-9be384031e5f",
+    "expected_name": "Водка Грей Гуз",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-9d40234d7ba6",
+    "expected_name": "Виски Glenmorangie Quinta Ruban",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-9eb52a1d6d71",
+    "expected_name": "Коньяк Martell Cordon Bleu",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-a11b7f43ea98",
+    "expected_name": "Виски Aberfeldy 16 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-a631dc6247ef",
+    "expected_name": "Виски Talisker Storm",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-a93c52b5c1ba",
+    "expected_name": "Виски Glenmorangie Signet",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-aa4489691a7f",
+    "expected_name": "Виски The Famous Grouse",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-abc112346583",
+    "expected_name": "Виски Glengoyne 10 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-ad5fa1bf26b6",
+    "expected_name": "Виски The Deveron 12 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-aef420fc0ffc",
+    "expected_name": "Виски Glengoyne 21 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-afc185c3f441",
+    "expected_name": "Виски Macallan Triple Cask Matured 12 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-b3db8310578f",
+    "expected_name": "Виски Mackmyra Svensk Ek",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-b6178340a0b2",
+    "expected_name": "Виски Aberfeldy 12 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-b76ce40d014a",
+    "expected_name": "Коньяк Hennessy VSOP",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-b9e19d77b1b8",
+    "expected_name": "Виски Glengoyne 12 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-bcfd7eac7a97",
+    "expected_name": "Коньяк Bowen VSOP",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-bed20668e687",
+    "expected_name": "Коньяк Bowen VS",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-c349617f63ab",
+    "expected_name": "Виски Caol Ila, 12 летней выдержки",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-c41939020ec4",
+    "expected_name": "Виски Talisker Skye",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-c65ae24a4ebd",
+    "expected_name": "Ром Don Papa",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-c81ee779b312",
+    "expected_name": "Виски Chivas Regal",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-c92b9fa573db",
+    "expected_name": "Ликер Disaronno, Originale",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-c9bbe1611e81",
+    "expected_name": "Виски Mackmyra Svensk Rok",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-c9ceadfe2e77",
+    "expected_name": "Коньяк Tesseron Lot №53 XO Perfection",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-cef20f07bec0",
+    "expected_name": "Виски Glen Scotia Double Cask",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-d0bfbc131d90",
+    "expected_name": "Виски Ardbeg Wee Beastie",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-d70d3e906ec1",
+    "expected_name": "Виски Macallan Double Cask 15 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-d7c8291f3cfb",
+    "expected_name": "Коньяк Pierre Ferrand Ambre",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-d83acc094239",
+    "expected_name": "Виски Chivas Regal 18 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-dc8cb0a2d27f",
+    "expected_name": "Виски Tomatin 18 YO",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-df12949e24d8",
+    "expected_name": "Виски The Macallan Sherry Oak 12 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-dfc388034089",
+    "expected_name": "Виски Glenmorangie The Lasanta 15 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-e218d7b72ef4",
+    "expected_name": "Амаро Лукано",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-e4184232982d",
+    "expected_name": "Виски Highland Park 18 Year Old Viking Pride",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-e4bd9432f9bd",
+    "expected_name": "Виски Glen Grant 12 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-e5f69191f18f",
+    "expected_name": "Виски Auchentoshan 18 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-e777a55a2008",
+    "expected_name": "Водка Danzka Citrus",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-f08f86233d7b",
+    "expected_name": "Виски Glengoyne 18 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-f5881413e597",
+    "expected_name": "Виски Highland Park, 25 летней выдержки",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-fa224c732dce",
+    "expected_name": "Виски Macallan Double Cask 18 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-fb4fd7ae7e4e",
+    "expected_name": "Виски Highland Park 12 Year Old Viking Honour",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-fbf93082acd3",
+    "expected_name": "Коньяк Hennessy Richard",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-fd944772767d",
+    "expected_name": "Виски Glenrothes 25 Years Old",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "sp-1e623e0b02",
+    "expected_name": "Виски Односолодовый Макаллан Дабл Каск 12 Лет 40% 0,7л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "sp-f740e80a09",
+    "expected_name": "Водка Особая Чистые Росы с Перцем 40% 0,7л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-068c973e66",
+    "expected_name": "Водка Балчуг 19 век",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-300a6dcf6c",
+    "expected_name": "Водка Spelta",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-34d496c2a2",
+    "expected_name": "Водка Чистые Росы Из Ржаного Зерна",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-456e26fc31",
+    "expected_name": "Водка Чистые Росы",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-48351c6a15",
+    "expected_name": "Водка Пять Озер",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-70b06642a3",
+    "expected_name": "Водка Хаски",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-7d18be235b",
+    "expected_name": "Водка Хаски Кренберри",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr3-1d51c5a7e0",
+    "expected_name": "Водка Русский Стандарт",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr3-3450d32450",
+    "expected_name": "Водка Белуга Аллюр",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr3-5104aec702",
+    "expected_name": "Текила Espolon Reposado",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr3-5b735bb388",
+    "expected_name": "Ром Dead Man's Fingers White Rum",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr3-800b690521",
+    "expected_name": "Текила Espolon Blanco",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr3-811570aa24",
+    "expected_name": "Бренди Torres 10 Gran Reserva",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr3-96b5a9b44a",
+    "expected_name": "Ром Dead Man's Fingers Black Rum",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr3-a8cbf60432",
+    "expected_name": "Водка Danzka Grapefruit",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr3-b4160fb2aa",
+    "expected_name": "Бренди Torres 5 Solera Reserva",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr3-bcc8e79a3e",
+    "expected_name": "Водка Finlandia",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr3-f478cce0c3",
+    "expected_name": "Джин Roku",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "0dbab68737",
+    "expected_name": "Белое вино Reservа Совиньон Блан сухое Viu Manent 13% 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "178e858754",
+    "expected_name": "Вино игристое Martini Prosecco Rose розовое сухое 11.5% 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "22f3c04f3c",
+    "expected_name": "Вино Cono Sur Tocornal Cabernet Sauvignon красное полусухое 12% 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "255cec93bd",
+    "expected_name": "Вино Ramon Bilbao Crianza красное сухое 13.5%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "38d61f50ea",
+    "expected_name": "Вино Le Grand Noir Pinot Noir красное полусухое 12.5% 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "4898e14079",
+    "expected_name": "Белое вино игристое Asti сладкое Mondoro 7.5% 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "4c95cfdd70",
+    "expected_name": "Белое вино сухое La Moza Matsu 12.5% 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "614f99ab55",
+    "expected_name": "Вино Matsu El Recio Toro красное сухое 14.5% 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "94bc4d3fb1",
+    "expected_name": "Вино Torres San Valentin белое полусухое 11% 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "c02611f9db",
+    "expected_name": "Белое вино игристое Asti сладкое Tosti 7% 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "c7c5c81e44",
+    "expected_name": "Вермут Martini Bianco",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "e87d8258df",
+    "expected_name": "Вино игристое Mondoro Rose розовое полусладкое 9.5% 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "jo-29fbde0674",
+    "expected_name": "Вино Лонг Барн Шардоне, белое, полусухое 0.75л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-7d36a607ac",
+    "expected_name": "Вино игристое Чинзано Просекко DOC белое сухое 11%, 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-c60e6aead2",
+    "expected_name": "Вино игристое Мондоро Просекко DOC белое сухое 11%, 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "kb-cc5b8dd713",
+    "expected_name": "Вино игристое Вдова Клико Понсардин белое брют 12%, 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-1fbdb7b5d0",
+    "expected_name": "Вино ШАТО ДЕ ТАЛЮ Российское Клере розовое сухое",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-da213c5eb9",
+    "expected_name": "Вино CARE Тинто Собре Лиас Кариньена красное сухое",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-e31f75c733",
+    "expected_name": "Вино игристое ЛЕВЪ ГОЛИЦЫНЪ Наследие Мастера Российское белое полусухое",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "ln-fb9e5ab6d9",
+    "expected_name": "Вино ШАТО ДЕ ТАЛЮ Мируар де Талю Мерло Красностоп красное сухое",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "mt-478ff48048",
+    "expected_name": "Вино Marani Kindzmarauli красное полусладкое, 0.75л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "mt-5aae4a27b3",
+    "expected_name": "Вино Уроки Французского Мерло красное сухое, 0.75л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "mt-6266509d87",
+    "expected_name": "Вино Уроки Французского Каберне Совиньон красное сухое, 0.75л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "mt-d42f94ec80",
+    "expected_name": "Вино Уроки Французского Каберне Фран красное сухое, 0.75л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "mt-df8eea4109",
+    "expected_name": "Вино Simonsig Chenin Blanc белое сухое, 0.75л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-05a4d03b3c",
+    "expected_name": "Вино игристое Mondoro Brut белое брют 12%, 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-2f251d4609",
+    "expected_name": "Вино игристое Martini Brut белое сухое 11,5%, 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-9c0cbadc20",
+    "expected_name": "Вино Cono Sur Tocornal Pinot Grigio белое полусухое 12%, 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-a0b84735fc",
+    "expected_name": "Вино Ramon Bilbao Crianza Rioja красное сухое",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-b5222b331e",
+    "expected_name": "Вино Casillero del Diablo Carmenere Reserva красное сухое 13.5%, 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "prk-c2d71332d8",
+    "expected_name": "Вино Mondoro Rose Secco игристое розовое сухое 11.5%, 750мл",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-002378ebf968",
+    "expected_name": "Вино Viu Manent, Estate Collection Reserva Merlot",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-0121d54404d4",
+    "expected_name": "Вино Сан Валентин Гарнача",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-30c161fd7189",
+    "expected_name": "Вино Buena Vista Cabernet Sauvignon",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-3b7ea85d6b8a",
+    "expected_name": "Шампанское Dom Perignon Vintage 2012",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-56a5781c11cc",
+    "expected_name": "Вино Domaine du Tariquet L'Idee Folle",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-5b8e9fb77f6f",
+    "expected_name": "Шампанское Dom Perignon Vintage 2015",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-61d0c2822d1b",
+    "expected_name": "Вино Tignanello Toscana",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-7149da51f561",
+    "expected_name": "Вино Мастри Вернаколи Пино Гриджио",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-7344a0aecd1e",
+    "expected_name": "Игристое вино Bartenura Moscato d'Asti",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-7949182978ce",
+    "expected_name": "Вино Viu Manent Secreto Carmenere Red Dry",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-7b24d2da0b90",
+    "expected_name": "Вино Ramon Bilbao, Gran Reserva, Rioja DOC",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-7b2d2f3178d2",
+    "expected_name": "Шампанское Piper-Heidsieck Riviera Demi-Sec",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-8c514950dc4d",
+    "expected_name": "Шампанское Perrier-Jouet Belle Epoque Rose",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-8f276cdf3932",
+    "expected_name": "Вино Kaiken Obertura 2019",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-ae57dc611b4f",
+    "expected_name": "Вино Duca di Saragnano Alchimia Primitivo IGT",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-b13e622ccd35",
+    "expected_name": "Вино Kaesler The Fave Grenache 2020",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-beec3a266c02",
+    "expected_name": "Вино игристое Ла Джойоза Просекко Розе Миллезимато роз. брют",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-cc4d8e2f692d",
+    "expected_name": "Просекко Gancia Prosecco DOC",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-debf541288ef",
+    "expected_name": "Асти Martini Asti",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-f0f026e0ede2",
+    "expected_name": "Просекко Valdo Marca Oro di Valdobbiadene Prosecco Superiore",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "rfa-f58c5f23f96d",
+    "expected_name": "Вино Viu Manent, Gran Reserva Carmenere",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "sp-782b5bf00f",
+    "expected_name": "Вино Уроки Французского Совиньон Белое Сухое 11,5% 0,75л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "sp-883f5cd772",
+    "expected_name": "Напиток Ароматизированный Мартини Фиеро 14,9%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "sp-9829351b67",
+    "expected_name": "Напиток Ароматизированный Мартини Бьянко 15%",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "sp-992990f6ab",
+    "expected_name": "Вино Шато Де Талю Резерв Совиньон Блан Б/сух 13-13,1% 0,75л",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-0e74f633d7",
+    "expected_name": "Вино Мируар де Талю Мерло Каберне Совиньон",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-2d08f86c9b",
+    "expected_name": "Вино Marani Mukuzani",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-3607133e73",
+    "expected_name": "Вино Marani Tsinandali",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-410a395178",
+    "expected_name": "Вино Шато де Талю Розе, розовое, сухое",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-485c8462fd",
+    "expected_name": "Вино Уроки французского Красностоп",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-4c8d2bb40c",
+    "expected_name": "Вино Marani Tvishi",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-a02f640c7d",
+    "expected_name": "Вино Шато де Талю Мерло",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-aff2aebc8a",
+    "expected_name": "Вино Marani Ojaleshi",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "vr-eb91f21a23",
+    "expected_name": "Вино Уроки французского Сира",
+    "network": "МАГНУМ-Винотека",
+    "checked_at": "2026-10-29"
   }
 ]

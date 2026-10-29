@@ -44,7 +44,7 @@ for item in loaded["items"]:
         assert assessment["refs"] == []
 assert rows["reply-pjk-quarzit-2016"][12] == 2016
 assert rows["reply-kkz-lezginka-brandy"][8] != rows["reply-kkz-lezginka-kv"][8]
-assert len(rows["reply-tat-bugulma"][2]) == 9
+assert len(rows["reply-tat-bugulma"][2]) == 10
 assert len([r for r in rows.values() if r[0].startswith("reply-tat-")]) == 20
 assert len([i for i in loaded['items'] if i['reply_id']=='tat-other-2026-10-26']) == 14
 for suffix in ('19a1fb1ae34a', '62b4d44330f7'):

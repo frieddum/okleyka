@@ -18364,5 +18364,95 @@
     "scale": "wine",
     "volume_ml": 500,
     "observed_at": "2026-10-28"
+  },
+  "8765ed68d8": {
+    "level": 4,
+    "scale": "beer",
+    "volume_ml": 500.0,
+    "observed_at": "2026-10-29"
+  },
+  "bv-product-16557": {
+    "level": 4,
+    "scale": "whisky",
+    "volume_ml": 700.0,
+    "observed_at": "2026-10-29"
+  },
+  "bv-product-16558": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700.0,
+    "observed_at": "2026-10-29"
+  },
+  "bv-product-16559": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700.0,
+    "observed_at": "2026-10-29"
+  },
+  "bv-product-16562": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700.0,
+    "observed_at": "2026-10-29"
+  },
+  "df152453db": {
+    "level": 5,
+    "scale": "liqueur",
+    "volume_ml": 700.0,
+    "observed_at": "2026-10-29"
+  },
+  "jo-2d2b23684c": {
+    "level": 5,
+    "scale": "rum",
+    "volume_ml": 700.0,
+    "observed_at": "2026-10-29"
+  },
+  "kb-8a00f1e860": {
+    "level": 3,
+    "scale": "tequila",
+    "volume_ml": 700.0,
+    "observed_at": "2026-10-29"
+  },
+  "ln-133d40455e": {
+    "level": 2,
+    "scale": "whisky",
+    "volume_ml": 750.0,
+    "observed_at": "2026-10-29"
+  },
+  "0dbab68737": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750.0,
+    "observed_at": "2026-10-29"
+  },
+  "22f3c04f3c": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750.0,
+    "observed_at": "2026-10-29"
+  },
+  "ln-da213c5eb9": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750.0,
+    "observed_at": "2026-10-29"
+  },
+  "rfa-0121d54404d4": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750.0,
+    "observed_at": "2026-10-29"
+  },
+  "rfa-7949182978ce": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750.0,
+    "observed_at": "2026-10-29"
+  },
+  "sp-992990f6ab": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750.0,
+    "observed_at": "2026-10-29"
   }
 }

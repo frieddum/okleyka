@@ -10,7 +10,7 @@ meta = read('_site/data/meta.json')['dicts']
 records = {r[0]: r for r in data['records']}
 viu = [r for r in records.values() if meta['producers'][r[5]] == 'Viu Manent Winery']
 assert len(viu) == 53
-assert sum(bool(r[2]) for r in viu) == 31
+assert sum(bool(r[2]) for r in viu) == 33
 for r in viu:
     assert r[1] == 'v'
     if r[2]: assert r[0] in data['price_levels'], r[0]
@@ -30,4 +30,4 @@ assert not ordinary_volume(200, 'wine', records['rfa-59325d9504aa'][3])
 # No-year and dated releases with different strengths are not duplicates.
 assert records['rfa-5e9fb4fe5a88'][11:13] == [12.0, None]
 assert records['rfa-ab88f5f1847a'][11:13] == [13.0, 2023]
-print('Viu Manent: 53 products preserved; all 31 retailer-linked cards have price bands')
+print('Viu Manent: 53 products preserved; all 33 retailer-linked cards have price bands')
