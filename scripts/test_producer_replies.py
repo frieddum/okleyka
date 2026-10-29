@@ -38,6 +38,8 @@ for item in loaded["items"]:
         assert assessment["refs"] == [{"type": "producer_reply", "url": "peter-jakob-kuehn.html"}]
     elif item["reply_id"].startswith("ararat-"):
         assert assessment["refs"] == [{"type": "producer_reply", "url": "ararat.html"}]
+    elif item["reply_id"].startswith("bash-"):
+        assert assessment["refs"] == [{"type": "producer_reply", "url": "bashspirt.html"}]
     else:
         assert assessment["refs"] == []
 assert rows["reply-pjk-quarzit-2016"][12] == 2016
@@ -66,7 +68,7 @@ with TemporaryDirectory() as tmp:
         lambda d: d["items"][0].update(chains=[]),
         lambda d: d["items"][0].update(status="vegan"),
         lambda d: d["replies"]["kkz-2026-10-26"].update(status="unclear"),
-        lambda d: d["replies"]["bash-vegan-2026-10-27"].update(public_page="peter-jakob-kuehn.html"),
+        lambda d: d["replies"]["massandra-gurzuf-2026-10-27"].update(public_page="peter-jakob-kuehn.html"),
     ):
         broken = copy.deepcopy(original)
         change(broken)
@@ -95,14 +97,24 @@ assert "Tundra Authentic" not in page
 assert '<h2>ARARAT</h2>' in page
 assert 'href="ararat.html" target="_blank" rel="noopener">Подробнее об ответе' in page
 assert "ARARAT CHARLES AZNAVOUR" not in page
-page += tat_page + ararat_page
+bash_page = (ROOT / "_site/bashspirt.html").read_text(encoding="utf-8")
+assert 'href="bashspirt.html" target="_blank" rel="noopener">Подробнее об ответе' in page
+assert not re.search(r"Катаевская|222-45-57|293-74-10|mailto:|сертификата|\.pdf", bash_page)
+bash_items = [i for i in loaded["items"] if i["reply_id"].startswith("bash-")]
+assert len(bash_items) == 11
+assert sum(i["status"] == "vegan" for i in bash_items) == 7
+for item in bash_items:
+    assert f'?id={item["id"]}' in bash_page
+    assert not item.get("publication_pending")
+assert original["replies"]["massandra-gurzuf-2026-10-27"]["publication_pending"]
+page += tat_page + ararat_page + bash_page
 ids = {parse_qs(urlsplit(unescape(url)).query)["id"][0]
        for url in re.findall(r'href="([^"]+)"', page) if "?id=" in url}
 assert ids == {item["id"] for item in original["items"]
                if not original["replies"][item["reply_id"]].get("publication_pending")}
 pending = [item for item in loaded["items"] if item.get("publication_pending")]
-assert len(pending) == 12
-assert sum(item["status"] == "vegan" for item in pending) == 8
+assert len(pending) == 1
+assert sum(item["status"] == "vegan" for item in pending) == 1
 for item in pending:
     assert item["id"] not in ids
     assert rows[item["id"]][9] and rows[item["id"]][11]

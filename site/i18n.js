@@ -30,6 +30,8 @@
     'Независимый справочник веганского статуса алкоголя':'Independent guide to vegan alcohol status',
     'Татспиртпром — Оклейка':'Tatspirtprom — Okleika',
     'Татспиртпром':'Tatspirtprom',
+    'Башспирт':'Bashspirt', 'Башспирт — Оклейка':'Bashspirt — Okleika',
+    'Ответ от 27.10.2026: подтверждённые позиции и исключения.':'Reply dated 27 October 2026: confirmed products and exceptions.',
     'Ответ от 26.10.2026: подтверждённые позиции и исключения.':'Reply dated 26 October 2026: confirmed products and exceptions.',
     'Ответ от 28.10.2026: подтверждённые позиции и исключения.':'Reply dated 28 October 2026: confirmed products and exceptions.',
     'Подробнее об ответе ↗':'Read the reply details ↗',
