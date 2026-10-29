@@ -80,3 +80,17 @@ def ordinary_volume(ml, scale, name=''):
 
 def reference_volume(scale):
     return 360 if scale=='soju' else 500 if scale in ('beer','cider','vodka') else 750 if scale in ('wine','sparkling','fortified','vermouth') else 700
+
+
+def reviewed_band(price, scale, ml, boundaries, name='', gift_set=False, checked=None):
+    """Use an observed bottle price; estimate a regular size only as a fallback."""
+    if not math.isfinite(ml) or ml <= 0:
+        raise ValueError('Invalid observed volume')
+    band = dict(level=0, scale=scale, volume_ml=ml, observed_at=checked)
+    if gift_set:
+        band['gift_set'] = True
+    elif not ordinary_volume(ml, scale, name):
+        band['estimated_for_ml'] = reference_volume(scale)
+        price *= band['estimated_for_ml'] / ml
+    band['level'] = relative_level(price, boundaries)
+    return band

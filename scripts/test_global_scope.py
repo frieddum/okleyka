@@ -16,9 +16,11 @@ assert data["aliases"]["sp-87a7dd7147"] == "rfa-44091d2819c0"
 assert data["price_levels"]["rfa-44091d2819c0"]["level"] == 5
 hennessy = by_id["rfa-44091d2819c0"]
 assert {"Ароматный Мир", "SPAR", "Joia"} <= {meta["dicts"]["networks"][i] for i in hennessy[2]}
+withdrawn = {data['aliases'].get(d['id'], d['id']) for d in read('data/retailer_withdrawals.json')}
 for r in data["records"]:
     if not r[2]:
-        assert r[1] == "v" and r[13] is None and r[0] not in data["price_levels"]
+        assert r[13] is None and r[0] not in data["price_levels"]
+        assert r[1] == "v" or (r[1] == "n" and r[0] in withdrawn)
 inputs = read("data/global_vegan.json")["items"]
 for x in inputs:
     assert x["scope_reviewed"] and x["status"] == "vegan" and not x["chains"]

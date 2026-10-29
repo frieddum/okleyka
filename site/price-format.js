@@ -2,8 +2,11 @@
 (() => {
   function formatPrice(band, lang) {
     if (!band || !Number.isInteger(band.level) || band.level < 1 || band.level > 5) return null;
-    const size = band.scale === 'wine' && band.volume_ml === 375
-      ? (lang === 'en' ? ' · 375 ml' : ' · 375 мл') : '';
+    const basis = band.estimated_for_ml
+      ? (lang === 'en' ? ` · ≈ ${band.estimated_for_ml} ml` : ` · ≈ ${band.estimated_for_ml} мл`)
+      : band.gift_set ? (lang === 'en' ? ' · gift set' : ' · набор') : '';
+    const size = basis || (band.scale === 'wine' && band.volume_ml === 375
+      ? (lang === 'en' ? ' · 375 ml' : ' · 375 мл') : '');
     return {symbols: '$'.repeat(band.level) + size,
       label: (lang === 'en' ? `Price level ${band.level} of 5` : `Ценовой уровень ${band.level} из 5`) + size};
   }

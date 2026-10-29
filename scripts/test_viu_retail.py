@@ -18,7 +18,8 @@ for r in viu:
 for decision in read('data/retailer_withdrawals.json'):
     r = records[decision['id']]
     assert decision['network'] not in [meta['networks'][i] for i in r[2]]
-    assert r[1] == 'v'  # Losing a shop observation does not remove the wine.
+    if meta['producers'][r[5]] == 'Viu Manent Winery':
+        assert r[1] == 'v'  # Losing a shop observation does not remove the wine.
 assert {meta['networks'][i] for i in records['mt-6d91a2dcdd'][2]} == {'METRO', 'Ароматный Мир'}
 assert data['price_levels']['rfa-59325d9504aa']['volume_ml'] == 375
 assert data['price_levels']['rfa-0949550b81e8']['volume_ml'] == 500

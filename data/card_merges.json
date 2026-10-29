@@ -139,5 +139,160 @@
       "kb-d51897aac5"
     ],
     "reason": "Reviewed bilingual titles: same producer, named expression, age/vintage, status, colour and sugar; no conflicting strength."
+  },
+  {
+    "keep": "prk-c76dc10aa5",
+    "remove": [
+      "c9bea32541"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "prk-745f42895e",
+    "remove": [
+      "d0eee60cab"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "rfa-8b030f130609",
+    "remove": [
+      "993fb7e09c"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "kb-9dd7eb2989",
+    "remove": [
+      "mt-620aa7db36"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "prk-6c1bb1921f",
+    "remove": [
+      "ln-e1db590f12"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "mt-c49122d26a",
+    "remove": [
+      "rfa-9ef145c65043"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "rfa-70cc90fab708",
+    "remove": [
+      "rfa-d3a576bd6b16"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "rfa-5ddaa99e720b",
+    "remove": [
+      "jo-cb32f85626"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "prk-f3707ab821",
+    "remove": [
+      "prk-41380ab135"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "kb-e2d2127e2e",
+    "remove": [
+      "prk-dc9681b899"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "4d69602031",
+    "remove": [
+      "kb-1fc0bf6b57"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "rfa-85e011b9b7ee",
+    "remove": [
+      "dx-6a08cccecb"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "rfa-2cf0ec3733fb",
+    "remove": [
+      "jo-7869c440be"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "rfa-5eb20d056aef",
+    "remove": [
+      "rfa-6e9e0e12a6f5"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "rfa-6454d125f3d8",
+    "remove": [
+      "rfa-9b6b415c3c41"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "rfa-03ebfd7ca288",
+    "remove": [
+      "rfa-322deb9e7ecf"
+    ],
+    "reason": "Reviewed product identity: same producer, expression, vintage, strength, colour and sugar; spelling, appellation wording or packaging only."
+  },
+  {
+    "keep": "prk-7dab44d769",
+    "remove": [
+      "prk-3f49ff7345",
+      "vr-8152446788"
+    ],
+    "reason": "Reviewed same named expression and manufacturer; retailer includes spirit grade/manufacturer in title, or Roman numerals. Bottle size is not product identity."
+  },
+  {
+    "keep": "vr-34d496c2a2",
+    "remove": [
+      "vr-fc25619536"
+    ],
+    "reason": "Reviewed same named expression and manufacturer; retailer includes spirit grade/manufacturer in title, or Roman numerals. Bottle size is not product identity."
+  },
+  {
+    "keep": "vr-f189fded0a",
+    "remove": [
+      "vr-a4e172161f"
+    ],
+    "reason": "Reviewed same named expression and manufacturer; retailer includes spirit grade/manufacturer in title, or Roman numerals. Bottle size is not product identity."
+  },
+  {
+    "keep": "prk-838ee946aa",
+    "remove": [
+      "vr-f041c2adfa"
+    ],
+    "reason": "Reviewed same named expression and manufacturer; retailer includes spirit grade/manufacturer in title, or Roman numerals. Bottle size is not product identity."
+  },
+  {
+    "keep": "prk-4f417c67e3",
+    "remove": [
+      "vr-5db424fd89"
+    ],
+    "reason": "Reviewed same named expression and manufacturer; retailer includes spirit grade/manufacturer in title, or Roman numerals. Bottle size is not product identity."
+  },
+  {
+    "keep": "prk-d76dbd400a",
+    "remove": [
+      "vr-5dd3b98d50"
+    ],
+    "reason": "Reviewed same named expression and manufacturer; retailer includes spirit grade/manufacturer in title, or Roman numerals. Bottle size is not product identity."
   }
 ]

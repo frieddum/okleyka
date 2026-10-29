@@ -762,12 +762,23 @@ def main():
     by_id = {r[0]: r for r in verified}
     from price_levels import ordinary_volume, category
     for rid, band in prices.items():
-        if rid not in by_id or set(band) != {"level", "scale", "volume_ml", "observed_at"}:
+        required = {"level", "scale", "volume_ml", "observed_at"}
+        if rid not in by_id or not required <= set(band) <= required | {"estimated_for_ml", "gift_set"}:
             fail(f"price_levels: неизвестная карточка или лишние поля {rid}")
         if type(band["level"]) is not int or not 1 <= band["level"] <= 5:
             fail(f"price_levels: неверный уровень {rid}")
         expected = category(cats.items[by_id[rid][8]], bool(by_id[rid][18]))
-        if band["scale"] != expected or not ordinary_volume(band["volume_ml"], expected, by_id[rid][3]):
+        estimated = band.get('estimated_for_ml')
+        gift = band.get('gift_set', False)
+        if ('gift_set' in band and gift is not True) or (gift and estimated is not None):
+            fail(f"price_levels: conflicting price basis {rid}")
+        if type(band['volume_ml']) not in (int, float) or not 0 < band['volume_ml'] <= 30000:
+            fail(f"price_levels: invalid observed volume {rid}")
+        if estimated is not None:
+            from price_levels import reference_volume
+            if type(estimated) is not int or estimated != reference_volume(expected):
+                fail(f"price_levels: invalid reference volume {rid}")
+        if band["scale"] != expected or (not gift and not ordinary_volume(estimated or band["volume_ml"], expected, by_id[rid][3])):
             fail(f"price_levels: неверная шкала или объём {rid}")
         from datetime import date
         if band["observed_at"] is not None: date.fromisoformat(band["observed_at"])
