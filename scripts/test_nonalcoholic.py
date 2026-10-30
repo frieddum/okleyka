@@ -38,9 +38,17 @@ assert rows['na-paulaner-weissbier-00'][11] == 0
 
 for rid in ['na-clausthaler-dry-hopped', 'na-clausthaler-lemon',
             'na-clausthaler-grapefruit', 'na-paulaner-weissbier-00',
-            'na-budvar-nealko', 'na-zhiguli-barnoe', 'na-gorkovskaya-ipa', 'av-1008759']:
+            'na-budvar-nealko', 'av-1008759']:
     assert rid in na and 'ВкусВилл' in nets(rid)
     assert rid in data['price_levels']
+for rid in ['na-zhiguli-barnoe', 'na-gorkovskaya-ipa']:
+    assert rid not in rows and rid not in na and rid not in data['price_levels']
+# The Russian-beer rule applies to the full catalogue, including NA products.
+for r in rows.values():
+    assert not (meta['dicts']['categories'][r[8]] == 'Пиво' and r[6] >= 0
+                and meta['dicts']['countries'][r[6]] == 'Россия'), r[0]
+breweries = {b['name'] for b in read('_site/data/breweries.json')}
+assert {'Московская пивоваренная компания', 'Горьковская пивоварня', 'Балтика'} <= breweries
 assert 'ВкусВилл' not in nets('deda415bde'), '5% shelf Palm is not established as the 5.2% card'
 assert not {'bembel-apfelwein-gold', 'bembel-apfelwein-pur'} & na.keys()
 page = (root/'_site/nonalcoholic.html').read_text(encoding='utf8')

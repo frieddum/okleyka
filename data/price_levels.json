@@ -20773,17 +20773,5 @@
     "scale": "beer",
     "volume_ml": 500,
     "observed_at": "2026-10-30"
-  },
-  "na-zhiguli-barnoe": {
-    "level": 1,
-    "scale": "beer",
-    "volume_ml": 450,
-    "observed_at": "2026-10-30"
-  },
-  "na-gorkovskaya-ipa": {
-    "level": 1,
-    "scale": "beer",
-    "volume_ml": 330,
-    "observed_at": "2026-10-30"
   }
 }

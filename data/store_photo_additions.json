@@ -146,50 +146,6 @@
           "checked_at": "2026-10-30"
         }
       ]
-    },
-    {
-      "id": "na-zhiguli-barnoe",
-      "name": "Жигули Барное — безалкогольное",
-      "company": "Московская пивоваренная компания",
-      "category": "Пиво",
-      "country": "Россия",
-      "volume_ml": 450,
-      "abv": null,
-      "status": "vegan",
-      "rationale": "В ответе, опубликованном VeganRussian в июне 2021 года, МПК подтверждает: пиво и пивные напитки без животных продуктов, фильтрация на мембранах и кизельгуре. Исключение в ответе — медовуха. Состав этой позиции проверен отдельно.",
-      "evidence_date": "2021-06",
-      "scope": [],
-      "ref_type": "VeganRussian",
-      "ref_url": "https://veganrussian.ru/beer-from-moscow-brewing-company/",
-      "barnivore_url": null,
-      "chains": [
-        {
-          "network": "ВкусВилл",
-          "checked_at": "2026-10-30"
-        }
-      ]
-    },
-    {
-      "id": "na-gorkovskaya-ipa",
-      "name": "Горьковская пивоварня IPA 0,0",
-      "company": "Балтика",
-      "category": "Пиво",
-      "country": "Россия",
-      "volume_ml": 330,
-      "abv": 0.05,
-      "status": "vegan",
-      "rationale": "В январе 2018 года «Балтика» подтвердила отсутствие животных ингредиентов в пиве, производстве и фильтрации. Для этой позиции изготовителем указана «Балтика»; в проверенном составе нет лактозы. Это историческое подтверждение производителя, не новый ответ об IPA 0,0.",
-      "evidence_date": "2018-01",
-      "scope": [],
-      "ref_type": "Barnivore",
-      "ref_url": "https://www.barnivore.com/beer/1427/Baltika-Breweries",
-      "barnivore_url": null,
-      "chains": [
-        {
-          "network": "ВкусВилл",
-          "checked_at": "2026-10-30"
-        }
-      ]
     }
   ]
 }

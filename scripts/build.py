@@ -595,6 +595,11 @@ def main():
                 rec[2].append(ni)
             rec[13] = max(rec[13] or "", checked)
     verified = records
+    # Russian beer belongs to the brewery directory, including alcohol-free beer.
+    # Reject additions from every import path instead of silently publishing cards.
+    for rec in verified:
+        if rec[8] >= 0 and cats.items[rec[8]] == 'Пиво' and rec[6] >= 0 and countries.items[rec[6]] == 'Россия':
+            fail(f"Российское пиво публикуется только в справочнике пивоварен, не отдельной карточкой: {rec[0]}")
     for key in set(overrides) - used_overrides:
         print(f"Внимание: пересмотр не применён, записи нет в снимке: {key[0]} / {key[1]}")
 
