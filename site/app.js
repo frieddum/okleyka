@@ -586,7 +586,7 @@
     const tokens = res.sres ? res.sres.tokens : null;
     $('#results').innerHTML = slice.length ? slice.map((r, i) => {
       const heading = !r.nets.length && (i === 0 || slice[i - 1].nets.length)
-        ? `<li class="section-divider"><h2>${esc(tr('Без привязки к сетям'))}</h2><p>${esc(tr('Продажа в наших сетях не подтверждена. Поиск и статус действуют как обычно.'))}</p></li>` : '';
+        ? `<li class="section-divider"><h2>${esc(tr('Без привязки к сетям'))}</h2><p>${esc(tr('Продажа в указанных сетях не подтверждена. Поиск и статус действуют как обычно.'))}</p></li>` : '';
       return heading + rowHTML(r, tokens);
     }).join('') : renderEmpty(res);
     updateFilters(res.counts);
