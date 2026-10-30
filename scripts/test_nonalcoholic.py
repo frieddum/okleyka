@@ -56,7 +56,6 @@ assert '<body data-section="nonalcoholic">' in page
 assert '<title>Безалкогольное — Оклейка</title>' in page
 assert 'href="nonalcoholic.html" aria-current="page"' in page
 assert 'Безалкогольные аналоги' in page
-assert '0,0% и до 0,5%' in page
 content = (root/'_site/content-en.js').read_text(encoding='utf8')
 assert json.loads(content.removeprefix('window.CONTENT_EN=').removesuffix(';'))['ВкусВилл'] == 'VkusVill'
 print('NA subset, distinct expressions, merged aliases and priced retailer restoration: passed')

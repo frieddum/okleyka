@@ -650,9 +650,7 @@ def main():
     nonalc_page = nonalc_page.replace('href="nonalcoholic.html"', 'href="nonalcoholic.html" aria-current="page"')
     nonalc_page = nonalc_page.replace('<section aria-labelledby="count" id="results-col">',
         '<section aria-labelledby="count" id="results-col"><div class="section-intro">'
-        '<h1>Безалкогольные аналоги</h1>'
-        '<p>Пиво, вино, сидр и аналоги крепких напитков. Проверяем состав и производство, включая фильтрацию и оклейку.</p>'
-        '<p>0,0% и до 0,5% — разные обозначения. Указываем крепость, когда она подтверждена для конкретного напитка.</p></div>')
+        '<h1>Безалкогольные аналоги</h1></div>')
     (OUT / "nonalcoholic.html").write_text(nonalc_page, encoding="utf-8")
     visible = set()
     def collect(value):
