@@ -21,7 +21,7 @@ const data=JSON.parse(fs.readFileSync(path.join(root,'data/verified.json')));
    assert.equal(Number((await page.locator('#count').innerText()).replace(/[^0-9]/g,'')),retail);
    assert.ok(await page.locator('#global-count a').count());
    assert.equal(await page.locator('#archive-link').isVisible(),false);
-   assert.ok(!(await page.locator('body').innerText()).includes('Пятёрочка'));
+   assert.equal(await page.getByRole('checkbox', {name: /^(Пятёрочка|Pyaterochka) /}).count(), 1);
    for(const id of await page.locator('#results [data-id]').evaluateAll(es=>es.map(e=>e.dataset.id)))assert.ok(data.records.find(r=>r[0]===id)[2].length);
    await page.locator('#global-count a').click();
    await page.waitForURL('**coverage=global');

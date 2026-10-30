@@ -294,5 +294,20 @@
       "vr-5dd3b98d50"
     ],
     "reason": "Reviewed same named expression and manufacturer; retailer includes spirit grade/manufacturer in title, or Roman numerals. Bottle size is not product identity."
+  },
+  {
+    "keep": "0bfedfa5c6",
+    "remove": [
+      "2608d4481b",
+      "rfa-69c5f44b5e98"
+    ],
+    "reason": "Clausthaler Original/Classic, Germany: same alcohol-free lager in 330 and 500 ml, confirmed by retailer product names; preserve all networks and sources."
+  },
+  {
+    "keep": "rfa-dd6823095d52",
+    "remove": [
+      "rfa-5419020154d3"
+    ],
+    "reason": "Paulaner Hefe-Weissbier Alkoholfrei and Non-Alcoholic are translations of the same older expression. The explicitly labelled Weissbier 0.0 is kept separate."
   }
 ]

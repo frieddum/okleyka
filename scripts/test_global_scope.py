@@ -7,7 +7,7 @@ data = read("_site/data/verified.json")
 meta = read("_site/data/meta.json")
 by_id = {r[0]: r for r in data["records"]}
 assert len(by_id) == len(data["records"])
-assert "Пятёрочка" not in meta["dicts"]["networks"]
+assert "Пятёрочка" in meta["dicts"]["networks"]
 assert len([r for r in data["records"] if r[2]]) == meta["rows"]["with_retail_observations"]
 for old, keep in data["aliases"].items():
     assert old not in by_id and keep in by_id

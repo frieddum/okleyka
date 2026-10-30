@@ -1258,5 +1258,11 @@
     "network": "Ароматный Мир",
     "checked_at": "2026-10-29",
     "reason": "Retailer reports no stock in all 14 available regions; all matched product variants checked."
+  },
+  {
+    "id": "0b9fc1eb17",
+    "network": "Пятёрочка",
+    "checked_at": "2026-10-30",
+    "reason": "Official product page has no displayed price and says out of stock; browser and page text checked. No inference about all Russian stores."
   }
 ]

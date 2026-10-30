@@ -403,7 +403,7 @@ def main():
     extra_count = 0
     direct_attrs = {}
     # data/manual_additions.json — позиции, проверенные вручную по письмам производителей (тот же формат).
-    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json", ROOT / "data" / "producer_replies.json", ROOT / "data" / "azbuka_additions.json", ROOT / "data" / "global_vegan.json", ROOT / "data" / "vlabel_additions.json"):
+    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json", ROOT / "data" / "producer_replies.json", ROOT / "data" / "azbuka_additions.json", ROOT / "data" / "global_vegan.json", ROOT / "data" / "vlabel_additions.json", ROOT / "data" / "store_photo_additions.json"):
       if not extra_path.exists():
         continue
       direct = extra_path.name == "producer_replies.json"
@@ -550,6 +550,10 @@ def main():
             rec[8] = cats(correction['category'])
         if 'name' in correction:
             rec[3] = correction['name']
+        if 'producer' in correction:
+            rec[5] = prods(correction['producer'])
+        if 'country' in correction:
+            rec[6] = countries(norm_country(correction['country']))
         if 'assessment' in correction:
             assessment = {**assessments[rec[15]], **correction['assessment']}
             rec[1] = STATUS_CODE[assessment['status']]
@@ -630,6 +634,21 @@ def main():
     translations = json.loads((ROOT / "data/translations_en.json").read_text(encoding="utf-8"))
     write_pages(ROOT / "data/producer_replies.json", ROOT / "data/vlabel_additions.json",
                 ROOT / "site", OUT, translations)
+    # Same catalogue and stable card IDs; the dedicated page selects a reviewed subset.
+    nonalc_page = (OUT / "index.html").read_text(encoding="utf-8")
+    nonalc_page = nonalc_page.replace('<body>', '<body data-section="nonalcoholic">')
+    nonalc_page = nonalc_page.replace('<title>Оклейка — веганский статус алкоголя в российских сетях</title>',
+                                    '<title>Безалкогольное — Оклейка</title>')
+    nonalc_page = nonalc_page.replace('Независимый справочник: веганский и невеганский алкоголь в каталогах российских сетей. Решения с датой, областью действия и источником.',
+                                    'Безалкогольные аналоги пива, вина, сидра и крепких напитков с проверенным веганским статусом.')
+    nonalc_page = nonalc_page.replace('href="./" aria-current="page"', 'href="./"')
+    nonalc_page = nonalc_page.replace('href="nonalcoholic.html"', 'href="nonalcoholic.html" aria-current="page"')
+    nonalc_page = nonalc_page.replace('<section aria-labelledby="count" id="results-col">',
+        '<section aria-labelledby="count" id="results-col"><div class="section-intro">'
+        '<h1>Безалкогольные аналоги</h1>'
+        '<p>Пиво, вино, сидр и аналоги крепких напитков. Проверяем состав и производство, включая фильтрацию и оклейку.</p>'
+        '<p>0,0% и до 0,5% — разные обозначения. Указываем крепость, когда она подтверждена для конкретного напитка.</p></div>')
+    (OUT / "nonalcoholic.html").write_text(nonalc_page, encoding="utf-8")
     visible = set()
     def collect(value):
         if isinstance(value, str) and re.search(r"[А-Яа-яЁё]", value): visible.add(value)
@@ -727,18 +746,10 @@ def main():
             fail(f'retailer_withdrawals: absent retailer {rid}: {network}')
         record[2].remove(network_id)
         if not record[2]: record[13] = None
-    # No public alcohol catalog is available for this retailer; withdraw its observations.
-    excluded_networks = {i for i,n in enumerate(nets.items) if n in ("Пятёрочка", "Пятерочка")}
-    for r in verified:
-        r[2] = [i for i in r[2] if i not in excluded_networks]
-        if not r[2]: r[13] = None
+    # Retail decisions are per product: official non-alcoholic listings and shelf
+    # observations remain valid even when a chain has no online alcohol catalogue.
     active_records = [r for r in verified if r[0] not in archived or r[0] in restored]
     archived_records = [r for r in verified if r[0] in archived and r[0] not in restored]
-    public_networks = [n for i,n in enumerate(nets.items) if i not in excluded_networks]
-    network_remap = {i:public_networks.index(n) for i,n in enumerate(nets.items) if i not in excluded_networks}
-    for r in verified: r[2] = [network_remap[i] for i in r[2]]
-    meta["dicts"]["networks"] = public_networks
-    meta["networks_declared"] = [n for n in meta["networks_declared"] if n["name"] not in ("Пятёрочка", "Пятерочка")]
     meta["rows"]["verified_after_merge"] = len(active_records)
     meta["rows"]["archived"] = len(archived_records)
     meta["rows"]["with_retail_observations"] = sum(bool(r[2]) for r in active_records)
@@ -778,9 +789,25 @@ def main():
             fail(f"price_levels: неверная шкала или объём {rid}")
         from datetime import date
         if band["observed_at"] is not None: date.fromisoformat(band["observed_at"])
+    nonalcoholic = {}
+    for rid, attrs in json.loads((ROOT / "data/nonalcoholic.json").read_text(encoding="utf-8")).items():
+        final_id = aliases.get(rid, rid)
+        if final_id not in by_id or not isinstance(attrs, dict) or set(attrs) - {"abv_max"}:
+            fail(f"nonalcoholic: unknown card or fields {rid}")
+        if cats.items[by_id[final_id][8]] not in {"Пиво", "Вино", "Игристое вино", "Сидр", "Джин", "Ром", "Виски", "Аперитив", "Водка", "Текила", "Ликёр"}:
+            fail(f"nonalcoholic: not an alcohol alternative {rid}")
+        if by_id[final_id][11] is not None and by_id[final_id][11] > 0.5:
+            fail(f"nonalcoholic: alcoholic strength on card {rid}")
+        if attrs.get("abv_max") is not None and (type(attrs["abv_max"]) not in (int, float) or not 0 <= attrs["abv_max"] <= 0.5):
+            fail(f"nonalcoholic: invalid maximum strength {rid}")
+        if final_id in nonalcoholic and nonalcoholic[final_id] != attrs:
+            fail(f"nonalcoholic: conflicting merged attributes {rid}")
+        nonalcoholic[final_id] = attrs
     dump("verified.json", {"records": active_records, "assessments": assessments, "aliases": aliases,
+                           "nonalcoholic": {rid: a for rid, a in nonalcoholic.items() if rid in {r[0] for r in active_records}},
                            "price_levels": {rid: band for rid, band in prices.items() if rid not in archived and by_id[rid][2]}})
-    dump("archive.json", {"records": archived_records, "assessments": assessments, "price_levels": {}, "archived": archived})
+    dump("archive.json", {"records": archived_records, "assessments": assessments, "price_levels": {}, "archived": archived,
+                          "nonalcoholic": {rid: a for rid, a in nonalcoholic.items() if rid in {r[0] for r in archived_records}}})
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     brew = ROOT / "data" / "ru_breweries.json"
     dump("breweries.json", json.loads(brew.read_text(encoding="utf-8"))["breweries"] if brew.exists() else [])

@@ -1,0 +1,195 @@
+{
+  "copied_at": "2026-10-30",
+  "items": [
+    {
+      "id": "na-clausthaler-dry-hopped",
+      "name": "Clausthaler Dry Hopped — безалкогольное",
+      "company": "Radeberger Gruppe KG",
+      "category": "Пиво",
+      "country": "Германия",
+      "volume_ml": 330,
+      "abv": null,
+      "status": "vegan",
+      "rationale": "Radeberger в ответе от ноября 2024 года подтверждает веганский состав и вспомогательные материалы для всего пива и пивных смесей, а также веганские клеи для этикеток.",
+      "evidence_date": "2024-11",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/products/25989-radeberger-beers",
+      "chains": [
+        {
+          "network": "ВкусВилл",
+          "checked_at": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "na-clausthaler-lemon",
+      "name": "Clausthaler Lemon — безалкогольное",
+      "company": "Radeberger Gruppe KG",
+      "category": "Пиво",
+      "country": "Германия",
+      "volume_ml": 330,
+      "abv": null,
+      "status": "vegan",
+      "rationale": "Radeberger в ответе от ноября 2024 года подтверждает веганский состав и вспомогательные материалы для всего пива и пивных смесей, а также веганские клеи для этикеток.",
+      "evidence_date": "2024-11",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/products/25989-radeberger-beers",
+      "chains": [
+        {
+          "network": "ВкусВилл",
+          "checked_at": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "na-clausthaler-grapefruit",
+      "name": "Clausthaler Grapefruit — безалкогольное",
+      "company": "Radeberger Gruppe KG",
+      "category": "Пиво",
+      "country": "Германия",
+      "volume_ml": 330,
+      "abv": null,
+      "status": "vegan",
+      "rationale": "Radeberger в ответе от ноября 2024 года подтверждает веганский состав и вспомогательные материалы для всего пива и пивных смесей, а также веганские клеи для этикеток.",
+      "evidence_date": "2024-11",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/products/25989-radeberger-beers",
+      "chains": [
+        {
+          "network": "ВкусВилл",
+          "checked_at": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "na-paulaner-weissbier-00",
+      "name": "Paulaner Weissbier 0,0%",
+      "company": "Paulaner Brewery",
+      "category": "Пиво",
+      "country": "Германия",
+      "volume_ml": 500,
+      "abv": 0,
+      "status": "vegan",
+      "rationale": "Производитель подтвердил в мае 2018 года веганский статус всей продукции, включая безалкогольное пиво. В июне 2018 года сообщил о переходе на клей без казеина.",
+      "evidence_date": "2018-06",
+      "scope": [],
+      "barnivore_url": "https://www.barnivore.com/beer/788/paulaner-brewery",
+      "chains": [
+        {
+          "network": "ВкусВилл",
+          "checked_at": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "bembel-apfelwein-gold",
+      "name": "BEMBEL-WITH-CARE Apfelwein Gold",
+      "company": "BEMBEL-WITH-CARE",
+      "category": "Сидр",
+      "country": "Германия",
+      "volume_ml": 500,
+      "abv": 5,
+      "status": "vegan",
+      "rationale": "В официальном FAQ BEMBEL-WITH-CARE подтверждает веганский статус своего сидра: при производстве и фильтрации не используется желатин.",
+      "evidence_date": null,
+      "scope": [],
+      "ref_type": "manufacturer",
+      "ref_url": "https://bembel-with-care.com/en/faqs",
+      "barnivore_url": null,
+      "chains": [
+        {
+          "network": "ВкусВилл",
+          "checked_at": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "bembel-apfelwein-pur",
+      "name": "BEMBEL-WITH-CARE Apfelwein Pur",
+      "company": "BEMBEL-WITH-CARE",
+      "category": "Сидр",
+      "country": "Германия",
+      "volume_ml": 500,
+      "abv": 6,
+      "status": "vegan",
+      "rationale": "В официальном FAQ BEMBEL-WITH-CARE подтверждает веганский статус своего сидра: при производстве и фильтрации не используется желатин.",
+      "evidence_date": null,
+      "scope": [],
+      "ref_type": "manufacturer",
+      "ref_url": "https://bembel-with-care.com/en/faqs",
+      "barnivore_url": null,
+      "chains": [
+        {
+          "network": "ВкусВилл",
+          "checked_at": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "na-budvar-nealko",
+      "name": "Budvar Nealko",
+      "company": "Budějovický Budvar",
+      "category": "Пиво",
+      "country": "Чехия",
+      "volume_ml": 500,
+      "abv": null,
+      "status": "vegan",
+      "rationale": "В ответе от марта 2017 года Budvar подтверждает отсутствие животных ингредиентов и веганский способ производства своего пива в Ческе-Будеёвице. Основание относится к пиву производителя, отдельного свежего ответа о Nealko нет.",
+      "evidence_date": "2017-03",
+      "scope": [],
+      "ref_type": "Barnivore",
+      "ref_url": "https://www.barnivore.com/beer/432/Bud-jovick-Budvar",
+      "barnivore_url": null,
+      "chains": [
+        {
+          "network": "ВкусВилл",
+          "checked_at": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "na-zhiguli-barnoe",
+      "name": "Жигули Барное — безалкогольное",
+      "company": "Московская пивоваренная компания",
+      "category": "Пиво",
+      "country": "Россия",
+      "volume_ml": 450,
+      "abv": null,
+      "status": "vegan",
+      "rationale": "В ответе, опубликованном VeganRussian в июне 2021 года, МПК подтверждает: пиво и пивные напитки без животных продуктов, фильтрация на мембранах и кизельгуре. Исключение в ответе — медовуха. Состав этой позиции проверен отдельно.",
+      "evidence_date": "2021-06",
+      "scope": [],
+      "ref_type": "VeganRussian",
+      "ref_url": "https://veganrussian.ru/beer-from-moscow-brewing-company/",
+      "barnivore_url": null,
+      "chains": [
+        {
+          "network": "ВкусВилл",
+          "checked_at": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "na-gorkovskaya-ipa",
+      "name": "Горьковская пивоварня IPA 0,0",
+      "company": "Балтика",
+      "category": "Пиво",
+      "country": "Россия",
+      "volume_ml": 330,
+      "abv": 0.05,
+      "status": "vegan",
+      "rationale": "В январе 2018 года «Балтика» подтвердила отсутствие животных ингредиентов в пиве, производстве и фильтрации. Для этой позиции изготовителем указана «Балтика»; в проверенном составе нет лактозы. Это историческое подтверждение производителя, не новый ответ об IPA 0,0.",
+      "evidence_date": "2018-01",
+      "scope": [],
+      "ref_type": "Barnivore",
+      "ref_url": "https://www.barnivore.com/beer/1427/Baltika-Breweries",
+      "barnivore_url": null,
+      "chains": [
+        {
+          "network": "ВкусВилл",
+          "checked_at": "2026-10-30"
+        }
+      ]
+    }
+  ]
+}

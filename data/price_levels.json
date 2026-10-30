@@ -552,10 +552,10 @@
     "observed_at": "2026-10-26"
   },
   "ln-8e69df7614": {
-    "level": 2,
+    "level": 3,
     "scale": "beer",
     "volume_ml": 500,
-    "observed_at": "2026-10-26"
+    "observed_at": "2026-10-30"
   },
   "rfa-e0e85aa663ae": {
     "level": 3,
@@ -615,7 +615,7 @@
     "level": 4,
     "scale": "beer",
     "volume_ml": 500,
-    "observed_at": "2026-10-26"
+    "observed_at": "2026-10-30"
   },
   "mt-08fb61a5ef": {
     "level": 4,
@@ -15087,7 +15087,7 @@
     "level": 4,
     "scale": "beer",
     "volume_ml": 500,
-    "observed_at": null
+    "observed_at": "2026-10-30"
   },
   "ln-ad5d2aa511": {
     "level": 2,
@@ -15342,10 +15342,10 @@
     "observed_at": null
   },
   "c3748ab78c": {
-    "level": 2,
+    "level": 3,
     "scale": "beer",
     "volume_ml": 440,
-    "observed_at": null
+    "observed_at": "2026-10-30"
   },
   "2abaf839f0": {
     "level": 3,
@@ -16893,7 +16893,7 @@
     "level": 4,
     "scale": "beer",
     "volume_ml": 500,
-    "observed_at": "2026-10-24"
+    "observed_at": "2026-10-30"
   },
   "2608d4481b": {
     "level": 2,
@@ -17367,7 +17367,7 @@
     "level": 4,
     "scale": "beer",
     "volume_ml": 440,
-    "observed_at": "2026-10-26"
+    "observed_at": "2026-10-30"
   },
   "av-141750": {
     "level": 5,
@@ -19707,9 +19707,8 @@
   "0bfedfa5c6": {
     "level": 2,
     "scale": "beer",
-    "volume_ml": 330,
-    "observed_at": null,
-    "market_estimate": true
+    "volume_ml": 500,
+    "observed_at": "2026-10-30"
   },
   "bc473ea46f": {
     "level": 2,
@@ -20720,5 +20719,71 @@
     "scale": "wine",
     "volume_ml": 750,
     "observed_at": "2026-10-29"
+  },
+  "eb88569786": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-30"
+  },
+  "edba5ca165": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-30"
+  },
+  "na-clausthaler-dry-hopped": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-30"
+  },
+  "na-clausthaler-lemon": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-30"
+  },
+  "na-clausthaler-grapefruit": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-30"
+  },
+  "na-paulaner-weissbier-00": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-30"
+  },
+  "bembel-apfelwein-gold": {
+    "level": 3,
+    "scale": "cider",
+    "volume_ml": 500,
+    "observed_at": "2026-10-30"
+  },
+  "bembel-apfelwein-pur": {
+    "level": 3,
+    "scale": "cider",
+    "volume_ml": 500,
+    "observed_at": "2026-10-30"
+  },
+  "na-budvar-nealko": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-30"
+  },
+  "na-zhiguli-barnoe": {
+    "level": 1,
+    "scale": "beer",
+    "volume_ml": 450,
+    "observed_at": "2026-10-30"
+  },
+  "na-gorkovskaya-ipa": {
+    "level": 1,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-30"
   }
 }

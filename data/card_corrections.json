@@ -430,5 +430,23 @@
     "expected_name": "Вино \"Топаз\" Люкс, 38%, 0,1 л",
     "category": "Водка",
     "name": "Водка \"Топаз\" Люкс, 38%, 0,1 л"
+  },
+  "0b9fc1eb17": {
+    "expected_name": "Вино Carl Jung Cabernet Sauvignon красное безалкогольное 750мл",
+    "producer": "Carl Jung GmbH",
+    "country": "Германия",
+    "reason": "Carl Jung confirms production in Ruedesheim, Germany: https://www.carl-jung.de/haeufig_gestellte_fragen/ . JungWines is the Canadian distributor, not the manufacturing country."
+  },
+  "eb88569786": {
+    "expected_name": "Вино Carl Jung Merllot красное полусухое безалкогольное 750мл",
+    "producer": "Carl Jung GmbH",
+    "country": "Германия",
+    "reason": "Carl Jung confirms production in Ruedesheim, Germany: https://www.carl-jung.de/haeufig_gestellte_fragen/ . JungWines is the Canadian distributor, not the manufacturing country."
+  },
+  "edba5ca165": {
+    "expected_name": "Вино Carl Jung Riesling белое безалкогольное 750мл",
+    "producer": "Carl Jung GmbH",
+    "country": "Германия",
+    "reason": "Carl Jung confirms production in Ruedesheim, Germany: https://www.carl-jung.de/haeufig_gestellte_fragen/ . JungWines is the Canadian distributor, not the manufacturing country."
   }
 }

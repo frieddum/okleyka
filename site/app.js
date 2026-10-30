@@ -4,7 +4,7 @@
   const PAGE = 25;
   const ST_ORDER = ['v', 'n'];
   // Editorial order: everyday chains first, specialist shops afterwards.
-  const NETWORK_ORDER = ['Магнит', 'Красное&Белое', 'Перекрёсток',
+  const NETWORK_ORDER = ['Магнит', 'Пятёрочка', 'ВкусВилл', 'Красное&Белое', 'Перекрёсток',
     'Лента', 'Дикси', 'METRO', 'SPAR', 'Ароматный Мир', 'КуулКлевер / ОТДОХНИ',
     'Азбука вкуса', 'Табрис', 'Градусы', 'Decanter', 'Joia', 'МАГНУМ-Винотека',
     'DASKO', 'Мастер вин', 'Пробки & Бутылки', 'Ласточка'];
@@ -47,7 +47,7 @@
       label: v => v === NONE ? 'Без цены' : '$'.repeat(Number(v)),
       ariaLabel: v => v === NONE ? tr('Без цены') : window.formatPriceBand({ level: Number(v) }, window.I18N.lang).label },
     { key: 'kind', title: 'Вид напитка', get: r => r.cat || NONE, label: v => v === NONE ? 'Вид не указан' : v, order: 'total', limit: 8 },
-    { key: 'beer', title: 'Пиво: цвет и стиль', get: r => window.splitDrinkName.beerTags(r.name, r.cat), order: 'total', limit: 9 },
+    { key: 'beer', title: 'Пиво: цвет и стиль', get: r => beerTags(r), order: 'total', limit: 9 },
     { key: 'sub', title: 'Тип', solo: true, get: r => r.sub, order: 'fixedList',
       list: Object.values(SUBTYPES).flatMap(t => t.map(x => x[0])),
       hint: 'По названию в карточке сети. Позиции без такого указания здесь не учитываются.' },
@@ -81,7 +81,8 @@
     if (r.volMl != null) return r.volMl >= 1000 ? `${(r.volMl / 1000).toLocaleString('ru-RU', { maximumFractionDigits: 3 })}\u00a0л` : `${fmtInt(r.volMl)}\u00a0мл`;
     return null;
   };
-  const fmtAbv = r => r.abv == null ? null : `${r.abv.toLocaleString('ru-RU')}\u202f%`;
+  const fmtAbv = r => r.abvMax != null ? `${tr('до')} ${r.abvMax.toLocaleString(window.I18N.lang)}\u202f%`
+    : r.abv == null ? null : `${r.abv.toLocaleString(window.I18N.lang)}\u202f%`;
 
   /* ---------- Нормализация и поиск ---------- */
   const HOMO = { 'а': 'a', 'в': 'b', 'е': 'e', 'к': 'k', 'м': 'm', 'н': 'h', 'о': 'o', 'р': 'p', 'с': 'c', 'т': 't', 'у': 'y', 'х': 'x' };
@@ -204,7 +205,8 @@
   }
 
   /* ---------- Данные ---------- */
-  let META = null, RECS = [], BY_ID = new Map(), INDEX = null, ASSESS = [], PRICE_LEVELS = {};
+  let META = null, RECS = [], BY_ID = new Map(), INDEX = null, ASSESS = [], PRICE_LEVELS = {}, NONALCOHOLIC = {};
+  const NONALCOHOLIC_PAGE = document.body.dataset.section === 'nonalcoholic';
   let groupTotals = {};
   const collator = new Intl.Collator(window.I18N.lang, { sensitivity: 'base', numeric: true, ignorePunctuation: true });
 
@@ -214,6 +216,8 @@
     const price = window.formatPriceBand(PRICE_LEVELS[arr[0]], window.I18N.lang);
     return {
       price,
+      nonalcoholic: Object.hasOwn(NONALCOHOLIC, arr[0]),
+      abvMax: NONALCOHOLIC[arr[0]]?.abv_max,
       priceLevel: price ? String(PRICE_LEVELS[arr[0]].level) : NONE,
       id: arr[0], st: arr[1], nets: arr[2].map(i => d.networks[i]), name: arr[3], brand: at(d.brands, arr[4]),
       producer: at(d.producers, arr[5]), country: at(d.countries, arr[6]), origin: arr[7], cat: at(d.categories, arr[8]),
@@ -224,8 +228,15 @@
       sub: subtype(at(d.categories, arr[8]), arr[3]),
     };
   }
+  function beerTags(r) {
+    const tags = window.splitDrinkName.beerTags(r.name, r.cat);
+    if (r.nonalcoholic && r.cat === 'Пиво' && !tags.includes('Безалкогольное')) tags.push('Безалкогольное');
+    return tags;
+  }
   function ingest(list) {
-    for (const arr of list) RECS.push(unpack(arr));
+    for (const arr of list) {
+      if (!NONALCOHOLIC_PAGE || Object.hasOwn(NONALCOHOLIC, arr[0])) RECS.push(unpack(arr));
+    }
     RECS.forEach(r => { const display = window.splitDrinkName(window.splitDrinkName.withoutVolume(tr(r.name))); r.displayName = display.title; r.nameDetails = display.details; });
     RECS.sort((a, b) => collator.compare(a.displayName, b.displayName));
     RECS.forEach((r, i) => { r.rank = i; r.nameKey = tokenize(r.name).join(' '); r.brandKey = r.brand ? tokenize(r.brand).join(' ') : null; });
@@ -471,7 +482,7 @@
     if (r.color) f.push(tr(r.color));
     if (r.sugar) f.push(tr(r.sugar));
     if (/глинтвейн|mulled wine/i.test(r.name)) f.push(tr('Глинтвейн'));
-    f.push(...window.splitDrinkName.beerTags(r.name, r.cat).map(tr));
+    f.push(...beerTags(r).map(tr));
     if (r.brand && !r.nameKey.includes(r.brandKey)) f.push(r.brand);
     if (r.producer) f.push(r.producer);
     if (r.country) f.push(r.country);
@@ -669,7 +680,8 @@
     $('#card-view').hidden = !inCard;
     if (inCard) renderCard();
     else {
-      document.title = state.archive ? tr('Архив — Оклейка') : 'Оклейка — веганский статус алкоголя в российских сетях';
+      document.title = state.archive ? tr('Архив — Оклейка') : NONALCOHOLIC_PAGE
+        ? tr('Безалкогольное — Оклейка') : tr('Оклейка — веганский статус алкоголя в российских сетях');
       renderList();
     }
     window.I18N.apply();
@@ -843,6 +855,7 @@
       const verified = await getJSON(`data/${state.archive ? 'archive' : 'verified'}.json?v=${ver}`);
       ASSESS = verified.assessments;
       PRICE_LEVELS = verified.price_levels || {};
+      NONALCOHOLIC = verified.nonalcoholic || {};
       ingest(verified.records);
       if (state.id && verified.aliases?.[state.id]) {
         state.id = verified.aliases[state.id];

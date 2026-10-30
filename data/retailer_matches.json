@@ -3142,5 +3142,83 @@
     "expected_name": "Вино Уроки французского Сира",
     "network": "МАГНУМ-Винотека",
     "checked_at": "2026-10-29"
+  },
+  {
+    "record_id": "0bfedfa5c6",
+    "expected_name": "Пиво Clausthaler Classic светлое фильтрованное пастеризованное безалкогольное 0.5% 330мл",
+    "network": "ВкусВилл",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "0bfedfa5c6",
+    "expected_name": "Пиво Clausthaler Classic светлое фильтрованное пастеризованное безалкогольное 0.5% 330мл",
+    "network": "Пятёрочка",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "eb88569786",
+    "expected_name": "Вино Carl Jung Merllot красное полусухое безалкогольное 750мл",
+    "network": "Пятёрочка",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "edba5ca165",
+    "expected_name": "Вино Carl Jung Riesling белое безалкогольное 750мл",
+    "network": "Пятёрочка",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "av-1008759",
+    "expected_name": "Guinness Draught Zero — безалкогольное",
+    "network": "ВкусВилл",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "8bca371c21",
+    "expected_name": "Светлое пиво пшеничное фильтрованное пастеризованное Hofbrau Original 5.1% 500мл",
+    "network": "ВкусВилл",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "ln-72d7de1adb",
+    "expected_name": "Пиво светлое WEIHENSTEPHANER Original Helles фильтрованное пастеризованное 5,1%",
+    "network": "ВкусВилл",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "rfa-b1638878aaf9",
+    "expected_name": "Пиво Schneider Hefeweissbier Naturtrub",
+    "network": "ВкусВилл",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "c3748ab78c",
+    "expected_name": "Пиво Guinness Draught темное 4.2% 440мл",
+    "network": "ВкусВилл",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "ln-8e69df7614",
+    "expected_name": "Пиво светлое BUDWEISER Будвар фильтрованное пастеризованное 5%",
+    "network": "ВкусВилл",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "vr-70b06642a3",
+    "expected_name": "Водка Хаски",
+    "network": "Пятёрочка",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "reply-tat-087390a849b3",
+    "expected_name": "Tundra Authentic",
+    "network": "Пятёрочка",
+    "checked_at": "2026-10-30"
+  },
+  {
+    "record_id": "reply-tat-kupava-myagkaya",
+    "expected_name": "Купава Мягкая",
+    "network": "Пятёрочка",
+    "checked_at": "2026-10-30"
   }
 ]

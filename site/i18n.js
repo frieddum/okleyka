@@ -7,6 +7,11 @@
   try { localStorage.setItem('okleyka-language', lang); } catch (_) {}
   document.documentElement.lang = lang;
   const words = {
+    "Безалкогольное — Оклейка":"Alcohol-free \u2014 Okleika",
+    "Безалкогольные аналоги":"Alcohol-free alternatives",
+    "Пиво, вино, сидр и аналоги крепких напитков. Проверяем состав и производство, включая фильтрацию и оклейку.":"Beer, wine, cider and spirit alternatives. We check ingredients and production, including filtration and fining.",
+    "0,0% и до 0,5% — разные обозначения. Указываем крепость, когда она подтверждена для конкретного напитка.":"0.0% and up to 0.5% are different labels. We show alcohol content when it is confirmed for the specific drink.",
+    "до":"up to",
     'Пиво: цвет и стиль':'Beer: colour and style',
     'По явному указанию в названии. Одно пиво может быть одновременно светлым и пшеничным.':'Based on explicit wording in the product name. A beer can be both pale and wheat.',
     'Светлое':'Pale', 'Тёмное':'Dark', 'Пшеничное':'Wheat', 'Лагер':'Lager', 'Эль':'Ale', 'Стаут':'Stout', 'Портер':'Porter', 'Безалкогольное':'Alcohol-free',
@@ -167,7 +172,7 @@
 
   document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.nav')?.appendChild(selector());
-    document.querySelectorAll('a[href="./"],a[href="beer.html"],a[href="method.html"],a[href="method.html#fining"],a[href="producers.html"]').forEach(a => {
+    document.querySelectorAll('a[href="./"],a[href="nonalcoholic.html"],a[href="beer.html"],a[href="method.html"],a[href="method.html#fining"],a[href="producers.html"]').forEach(a => {
       const [path, hash] = a.getAttribute('href').split('#');
       a.setAttribute('href', path + '?lang=' + lang + (hash ? '#' + hash : ''));
     });

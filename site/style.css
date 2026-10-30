@@ -427,3 +427,6 @@ dl.kv dt:first-of-type, dl.kv dt:first-of-type + dd { border-top: 0; }
 .section-divider { list-style: none; border-top: 2px solid var(--rule); padding: 24px 0 12px; }
 .section-divider h2 { margin: 0 0 8px; font-size: var(--fs-l); }
 .section-divider p { margin: 0; font-size: var(--fs-s); }
+.section-intro { margin: 0 0 1.8rem; max-width: 56rem; }
+.section-intro h1 { font-size: clamp(1.4rem, 3vw, 2rem); margin: 0 0 .7rem; }
+.section-intro p { color: var(--muted, #b9bcc3); line-height: 1.55; margin: .4rem 0; }
