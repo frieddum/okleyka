@@ -33,6 +33,13 @@
     'Независимый справочник веганского статуса алкоголя':'Independent guide to vegan alcohol status',
     'Татспиртпром — Оклейка':'Tatspirtprom — Okleika',
     'Татспиртпром':'Tatspirtprom',
+    'Кизлярский коньячный завод':'Kizlyar Cognac Distillery',
+    'Кизлярский коньячный завод — Оклейка':'Kizlyar Cognac Distillery — Okleika',
+    'Peter Jakob Kühn — Оклейка':'Peter Jakob Kühn — Okleika',
+    'Gustave Lorentz — Оклейка':'Gustave Lorentz — Okleika',
+    'Mahou — Оклейка':'Mahou — Okleika',
+    'Estates Costa Lazaridi — Оклейка':'Estates Costa Lazaridi — Okleika',
+    'Poças — Оклейка':'Poças — Okleika',
     'Башспирт':'Bashspirt', 'Башспирт — Оклейка':'Bashspirt — Okleika',
     'Ответ от 27.10.2026: подтверждённые позиции и исключения.':'Reply dated 27 October 2026: confirmed products and exceptions.',
     'Ответ от 26.10.2026: подтверждённые позиции и исключения.':'Reply dated 26 October 2026: confirmed products and exceptions.',
@@ -171,5 +178,10 @@
     });
     const gate = document.querySelector('.age-card'); if (gate) gate.prepend(selector());
     apply();
+    document.querySelectorAll('[data-producer-index]').forEach(list => {
+      const collator = new Intl.Collator(lang, { sensitivity: 'base', numeric: true });
+      list.append(...Array.from(list.children).sort((a, b) =>
+        collator.compare(a.textContent.trim(), b.textContent.trim())));
+    });
   });
 })();

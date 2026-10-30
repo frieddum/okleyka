@@ -91,14 +91,14 @@ from html import unescape
 from urllib.parse import urlsplit, parse_qs
 page = (ROOT / "_site/producers.html").read_text(encoding="utf-8")
 tat_page = (ROOT / "_site/tatspirtprom.html").read_text(encoding="utf-8")
-assert 'target="_blank" rel="noopener">Подробнее об ответе' in page
+assert 'data-producer-index' in page
 assert "tatspirtprom.html" in page
 assert "Tundra Authentic" not in page
-assert '<h2>ARARAT</h2>' in page
-assert 'href="ararat.html" target="_blank" rel="noopener">Подробнее об ответе' in page
+assert '>ARARAT</a>' in page
+assert 'href="ararat.html"' in page
 assert "ARARAT CHARLES AZNAVOUR" not in page
 bash_page = (ROOT / "_site/bashspirt.html").read_text(encoding="utf-8")
-assert 'href="bashspirt.html" target="_blank" rel="noopener">Подробнее об ответе' in page
+assert 'href="bashspirt.html"' in page
 assert not re.search(r"Катаевская|222-45-57|293-74-10|mailto:|сертификата|\.pdf", bash_page)
 bash_items = [i for i in loaded["items"] if i["reply_id"].startswith("bash-")]
 assert len(bash_items) == 11
@@ -108,6 +108,8 @@ for item in bash_items:
     assert not item.get("publication_pending")
 assert original["replies"]["massandra-gurzuf-2026-10-27"]["publication_pending"]
 page += tat_page + ararat_page + bash_page
+page += (ROOT / "_site/producer-peter-jakob-kuehn.html").read_text(encoding="utf-8")
+page += (ROOT / "_site/kizlyar-brandy-factory.html").read_text(encoding="utf-8")
 ids = {parse_qs(urlsplit(unescape(url)).query)["id"][0]
        for url in re.findall(r'href="([^"]+)"', page) if "?id=" in url}
 assert ids == {item["id"] for item in original["items"]

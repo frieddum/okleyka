@@ -406,6 +406,9 @@ dl.kv dt:first-of-type, dl.kv dt:first-of-type + dd { border-top: 0; }
 /* Producer replies: plain editorial list, with scope attached to each decision. */
 .producer-list { max-width: 80ch; padding-block: 28px 64px; }
 .producer-list > h1 { margin: 0 0 10px; font: 400 var(--fs-xxl)/1.1 var(--f-display); }
+.producer-index { list-style: none; padding: 0; margin: 28px 0 0; }
+.producer-index li { border-bottom: 1px solid var(--rule); }
+.producer-index a { display: block; padding: 16px 0; font-size: var(--fs-l); overflow-wrap: anywhere; }
 .producer-intro { margin: 0 0 28px; max-width: 65ch; color: var(--ink-2); }
 .producer-reply { border-top: 1px solid var(--rule); padding-block: 24px; scroll-margin-top: 24px; }
 .producer-reply h2 { margin: 0 0 8px; font: 400 var(--fs-xl)/1.2 var(--f-display); overflow-wrap: anywhere; }

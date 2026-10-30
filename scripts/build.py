@@ -23,7 +23,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import wine_attrs as wa  # noqa: E402
 from producer_rules import RULES, color_key  # noqa: E402
 import merge_cards  # noqa: E402
-from producer_replies import load_replies, render_directory  # noqa: E402
+from producer_replies import load_replies  # noqa: E402
+from producer_directory import write_pages  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 TRIM = len(sys.argv) > 1 and sys.argv[1] == "--trim"
@@ -627,17 +628,8 @@ def main():
         shutil.rmtree(OUT)
     shutil.copytree(ROOT / "site", OUT)
     translations = json.loads((ROOT / "data/translations_en.json").read_text(encoding="utf-8"))
-    directory = OUT / "producers.html"
-    directory.write_text(directory.read_text(encoding="utf-8").replace(
-        "<!-- PRODUCER_REPLIES -->",
-        render_directory(ROOT / "data/producer_replies.json", ROOT / "site", translations),
-    ), encoding="utf-8")
-    tat_page = OUT / "tatspirtprom.html"
-    tat_page.write_text(tat_page.read_text(encoding="utf-8").replace(
-        "<!-- PRODUCER_REPLIES -->",
-        render_directory(ROOT / "data/producer_replies.json", ROOT / "site", translations,
-                         company_filter='АО «Татспиртпром»'),
-    ), encoding="utf-8")
+    write_pages(ROOT / "data/producer_replies.json", ROOT / "data/vlabel_additions.json",
+                ROOT / "site", OUT, translations)
     visible = set()
     def collect(value):
         if isinstance(value, str) and re.search(r"[А-Яа-яЁё]", value): visible.add(value)
