@@ -26,7 +26,9 @@ assert rows["reply-ararat-honey"][1] == "n"
 assert rows["reply-ararat-3-stars"][3] != rows["reply-ararat-5-stars"][3]
 ararat_page = (ROOT / "_site/ararat.html").read_text(encoding="utf-8")
 assert "distillate derived from natural Armenian honey" in ararat_page
-assert not re.search(r"Borisova|Gevorgyan|@|mail\.google|signitic", ararat_page)
+# JSON-LD reserves these keys; no other @ is allowed, including in JSON values.
+privacy_page = re.sub(r'"@(context|type|id|graph)"\s*:', '"schema-key":', ararat_page)
+assert not re.search(r"Borisova|Gevorgyan|@|mail\.google|signitic", privacy_page)
 for item in loaded["items"]:
     row = rows[item["id"]]
     assessment = data["assessments"][row[15]]
@@ -81,7 +83,7 @@ with TemporaryDirectory() as tmp:
             raise AssertionError("Invalid direct-reply record accepted")
 
 public = source.read_text(encoding="utf-8") + (ROOT / "_site/peter-jakob-kuehn.html").read_text(encoding="utf-8")
-assert not re.search(r"[\w.+-]+@[\w-]+\.[a-z]{2,}|mailto:|[A-Za-z]:[\\/]|\+\d[\d ()-]{8,}|₽|mail\.google", public, re.I)
+assert not re.search(r"[\w.+-]+@[\w-]+\.[a-z]{2,}|mailto:|\b[A-Za-z]:[\\/]|\+\d[\d ()-]{8,}|₽|mail\.google", public, re.I)
 assert "Sophie" not in public and "Borisova" not in public
 assert "Unsere Weine enthalten keine Zutaten tierischen Ursprungs" in public
 print("Direct replies: scoped statuses, retail presence, local sources, wine attributes and privacy passed")

@@ -429,3 +429,7 @@ dl.kv dt:first-of-type, dl.kv dt:first-of-type + dd { border-top: 0; }
 .section-divider p { margin: 0; font-size: var(--fs-s); }
 .section-intro { margin: 0 0 1.8rem; max-width: 56rem; }
 .section-intro h1 { font-size: clamp(1.4rem, 3vw, 2rem); margin: 0 0 .7rem; }
+
+.catalog-access { margin-block: 2rem; }
+.search-page { overflow-wrap: anywhere; }
+.search-page nav { line-height: 2; }

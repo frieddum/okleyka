@@ -663,6 +663,7 @@
         <p class="note">Статус между этими записями не переносится.</p>
         <ul class="related">${same.slice(0, 12).map(x => `<li>${pill(x.st)} <a href="${esc(urlFor({ id: x.id }))}" data-id="${esc(x.id)}">${esc(x.displayName)}</a> <span class="note">${esc([fmtVolume(x), fmtAbv(x)].filter(Boolean).join(' · '))}</span></li>`).join('')}</ul></section>`;
     }
+    if (!state.archive) html += `<p><a data-lang-link href="drink-${encodeURIComponent(r.id)}.html?lang=${window.I18N.lang}">${esc(tr('Постоянная ссылка с источниками'))}</a></p>`;
     view.innerHTML = html;
   }
 
@@ -678,12 +679,16 @@
   function render() {
     renderArchiveNavigation();
     const inCard = !!state.id;
+    const canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) canonical.href = inCard && BY_ID.has(state.id) && !state.archive
+      ? new URL('drink-' + encodeURIComponent(BY_ID.get(state.id).id) + '.html', location.href).href
+      : new URL(NONALCOHOLIC_PAGE ? 'nonalcoholic.html' : './', location.href).href;
     $('#list-view').hidden = inCard;
     $('#card-view').hidden = !inCard;
     if (inCard) renderCard();
     else {
       document.title = state.archive ? tr('Архив — Оклейка') : NONALCOHOLIC_PAGE
-        ? tr('Безалкогольное — Оклейка') : tr('Оклейка — веганский статус алкоголя в российских сетях');
+        ? tr('Безалкогольное — Оклейка') : tr('Оклейка — справочник веганского статуса алкоголя');
       renderList();
     }
     window.I18N.apply();

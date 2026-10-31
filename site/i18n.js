@@ -7,6 +7,24 @@
   try { localStorage.setItem('okleyka-language', lang); } catch (_) {}
   document.documentElement.lang = lang;
   const words = {
+    "Публичная ссылка на исходный ответ отсутствует.":"No public link to the original response is available.",
+    "Оклейка — справочник веганского статуса алкоголя":"Okleika \u2014 vegan status of alcoholic drinks",
+    "Постоянная ссылка с источниками":"Permanent link with sources",
+    "Все напитки с источниками":"All drinks with sources",
+    "Все напитки":"All drinks",
+    "Идентичность напитка":"Drink identity",
+    "Ограничения":"Limitations",
+    "Дата подтверждения источника":"Date of source evidence",
+    "Дата проверки записи":"Record review date",
+    "Дата проверки каталога магазина":"Retail catalogue check date",
+    "Источники":"Sources",
+    "Замечен в продаже":"Observed in retail",
+    "Открыть в справочнике с фильтрами":"Open in the searchable catalogue",
+    "Объём, мл":"Volume, ml",
+    "Крепость, %":"Alcohol, %",
+    "Безалкогольный аналог":"Alcohol-free alternative",
+    "Справочник веганского статуса алкоголя":"Vegan status directory",
+
     "Безалкогольное — Оклейка":"Alcohol-free \u2014 Okleika",
     "Безалкогольные аналоги":"Alcohol-free alternatives",
     "до":"up to",

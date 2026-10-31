@@ -826,6 +826,9 @@ def main():
         if re.search(r"₽|руб\.?(?:\s|$)|В корзину|Цена за ", rec[3]):
             fail(f"в названии осталась цена: {rec[3]!r}")
 
+    from search_pages import write_search_pages
+    search_urls = write_search_pages(OUT)
+
     # Финальная проверка: в публикуемых файлах нет ссылок, кроме разрешённых источников.
     allowed = {ref["url"] for a in assessments for ref in a["refs"]}
     # Пивоварни: допускаются только ссылки на записи VeganRussian.
@@ -834,14 +837,15 @@ def main():
             fail(f"ru_breweries.json: ссылка на источник должна быть https: {b['url']}")
         allowed.add(b["url"])
     allowed |= {"https://veganrussian.ru/", "https://www.barnivore.com/", "https://www.barnivore.com/terms", "http://www.w3.org/2000/svg"}
+    allowed |= search_urls
     allowed.add("https://t.me/okleikawin")  # Project channel supplied by the owner.
-    allowed_files = {".html", ".js", ".css", ".json", ".woff2", ".svg", ".webp", ".txt", ""}
+    allowed_files = {".html", ".js", ".css", ".json", ".woff2", ".svg", ".webp", ".txt", ".xml", ""}
     for f in OUT.rglob("*"):
         if f.is_dir():
             continue
         if f.suffix not in allowed_files:
             fail(f"неожиданный файл в публикации: {f.relative_to(OUT)}")
-        if f.suffix in {".json", ".html", ".js", ".css", ".svg", ".txt"}:
+        if f.suffix in {".json", ".html", ".js", ".css", ".svg", ".txt", ".xml"}:
             text = f.read_text(encoding="utf-8")
             for url in re.findall(r"https?://[^\s\"'<>)`]+", text):
                 if url not in allowed and not url.startswith("https://github.com/"):
