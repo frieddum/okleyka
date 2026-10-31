@@ -20,9 +20,22 @@ assert(!main.some(r=>r.cat==='Пиво' && r.country==='Россия'));
 assert.equal(na.filter(r=>r.nets.includes('Яндекс Лавка')).length, 8);
 assert(na.every(r=>r.nonalcoholic));
 assert(na.filter(r=>r.nets.includes('Яндекс Лавка')).every(r=>r.price));
-const wine=main.find(r=>r.id==='na-vina-albali-sauvignon-blanc');
-assert.equal(wine.nets.length,0); assert.equal(wine.price,null); assert.equal(wine.priceLevel,'none');
+assert(!main.some(r=>r.nonalcoholic));
+assert.equal(main.length + na.length, data.records.length);
+assert.equal(na.length, Object.keys(data.nonalcoholic).length);
 const zhiguli=na.find(r=>r.id==='na-zhiguli-barnoe');
 assert(zhiguli.nets.includes('ВкусВилл') && zhiguli.nets.includes('Яндекс Лавка'));
-assert(main.find(r=>r.id==='0bfedfa5c6').nets.includes('ВкусВилл'));
+assert(na.find(r=>r.id==='0bfedfa5c6').nets.includes('ВкусВилл'));
+const redirect = source.slice(source.indexOf('      const linkedId ='), source.indexOf('      ingest(verified.records);'));
+function destination(id, nonalc=false) {
+  let result=null;
+  const context={verified:data, state:{id}, NONALCOHOLIC_PAGE:nonalc, NONALCOHOLIC:data.nonalcoholic, URL,
+    location:{href:'https://okleika.win/?lang=en&id='+id, search:'?lang=en&id='+id, replace:url=>result=url}};
+  vm.runInNewContext('(function(){'+redirect+'})()',context);
+  return result;
+}
+assert.equal(destination('0bfedfa5c6'),'https://okleika.win/nonalcoholic.html?lang=en&id=0bfedfa5c6');
+assert.equal(destination('2608d4481b'),'https://okleika.win/nonalcoholic.html?lang=en&id=0bfedfa5c6');
+assert.equal(destination('0bfedfa5c6',true),null);
+assert.equal(destination('499a3aaef3'),null);
 console.log('Delivery-only retailers, hidden prices and Russian NA beer section boundaries: passed');

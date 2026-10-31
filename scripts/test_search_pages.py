@@ -18,7 +18,12 @@ assert BASE in urls and BASE + "index.html" not in urls
 catalog_links = set()
 for p in OUT.glob("catalog*.html"):
     catalog_links.update(re.findall(r'href="(drink-[^"?]+\.html)', p.read_text(encoding="utf-8")))
-assert catalog_links == {page_name(rid) for rid in records}
+na_links = set()
+for p in OUT.glob('nonalcoholic-catalog*.html'):
+    na_links.update(re.findall(r'href="(drink-[^"?]+\.html)', p.read_text(encoding='utf-8')))
+assert na_links == {page_name(rid) for rid in data['nonalcoholic']}
+assert not catalog_links & na_links
+assert catalog_links | na_links == {page_name(rid) for rid in records}
 for item in export["records"]:
     row = records[item["id"]]
     a = data["assessments"][row[15]]
@@ -32,6 +37,8 @@ for item in export["records"]:
     html = (OUT / page_name(row[0])).read_text(encoding="utf-8")
     visible = unescape(re.sub(r"<script\b.*?</script>", "", html, flags=re.S))
     assert row[3] in visible
+    directory = 'nonalcoholic.html' if row[0] in data['nonalcoholic'] else './'
+    assert f'href="{directory}?id={row[0]}"' in html
     if not item["sources"]:
         assert "Публичная ссылка на исходный ответ отсутствует." in visible
     for key in ("rationale", "scope", "identity", "packaging", "caveats", "evidence_date", "reviewed_at"):

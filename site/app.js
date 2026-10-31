@@ -237,7 +237,7 @@
   function ingest(list) {
     for (const arr of list) {
       const record = unpack(arr);
-      if (NONALCOHOLIC_PAGE ? record.nonalcoholic : !(record.cat === 'Пиво' && record.country === 'Россия')) RECS.push(record);
+      if (NONALCOHOLIC_PAGE ? record.nonalcoholic : !record.nonalcoholic) RECS.push(record);
     }
     RECS.forEach(r => { const display = window.splitDrinkName(window.splitDrinkName.withoutVolume(tr(r.name))); r.displayName = display.title; r.nameDetails = display.details; });
     RECS.sort((a, b) => collator.compare(a.displayName, b.displayName));
@@ -864,6 +864,15 @@
       PRICE_LEVELS = verified.price_levels || {};
       NONALCOHOLIC = verified.nonalcoholic || {};
       NONALCOHOLIC_ONLY_NETWORKS = verified.nonalcoholic_only_networks || [];
+      // Keep existing product links working after moving all NA drinks to their section.
+      const linkedId = verified.aliases?.[state.id] || state.id;
+      if (!NONALCOHOLIC_PAGE && linkedId && Object.hasOwn(NONALCOHOLIC, linkedId)) {
+        const target = new URL('nonalcoholic.html', location.href);
+        target.search = location.search;
+        target.searchParams.set('id', linkedId);
+        location.replace(target.href);
+        return;
+      }
       ingest(verified.records);
       if (state.id && verified.aliases?.[state.id]) {
         state.id = verified.aliases[state.id];

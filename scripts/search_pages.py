@@ -79,7 +79,10 @@ def write_search_pages(out):
         if r[0] in data.get("nonalcoholic", {}):
             facts["Безалкогольный аналог"] = "Да"
         desc = f'{r[3]} — {status.lower()}. {a.get("rationale") or "Основание и область действия решения — в карточке."}'
-        body = f'<p><a data-lang-link href="catalog.html">Все напитки</a></p><h1>{escape(r[3])}</h1>'
+        is_na = r[0] in data.get("nonalcoholic", {})
+        catalog = 'nonalcoholic-catalog.html' if is_na else 'catalog.html'
+        label = 'Безалкогольные аналоги' if is_na else 'Все напитки'
+        body = f'<p><a data-lang-link href="{catalog}">{label}</a></p><h1>{escape(r[3])}</h1>'
         body += f'<p><span class="pill st st-{r[1]}">{status}</span></p>'
         body += section("Почему", a.get("rationale"))
         body += '<dl class="kv">' + "".join(f"<dt>{escape(k)}</dt><dd>{escape(str(v))}</dd>" for k, v in facts.items() if v is not None) + "</dl>"
@@ -94,7 +97,8 @@ def write_search_pages(out):
             body += section("Замечен в продаже", [lookup("networks", n) for n in r[2]])
             body += section("Дата проверки каталога магазина", r[13])
         body += '<p><a data-lang-link href="method.html">Как устроен справочник</a></p>'
-        body += f'<p><a data-lang-link href="./?id={escape(r[0])}">Открыть в справочнике с фильтрами</a></p>'
+        directory = 'nonalcoholic.html' if is_na else './'
+        body += f'<p><a data-lang-link href="{directory}?id={escape(r[0])}">Открыть в справочнике с фильтрами</a></p>'
         save(name, f"{r[3]} — {status.lower()} | Оклейка", desc, body)
         public.append({
             "id": r[0], "url": url, "name": r[3], "status": a["status"],
@@ -109,20 +113,25 @@ def write_search_pages(out):
 
     # Crawlable pagination, bounded page size, all records reachable from ordinary links.
     size = 100
-    count = max(1, (len(public) + size - 1) // size)
-    def catalog_name(i):
-        return "catalog.html" if i == 1 else f"catalog-{i}.html"
-    for i in range(1, count + 1):
-        items = public[(i - 1) * size:i * size]
-        links = "".join(f'<li><a data-lang-link href="{escape(x["url"].removeprefix(BASE))}">{escape(x["name"])}</a> — {STATUS["v" if x["status"] == "vegan" else "n"]}</li>' for x in items)
-        pager = '<nav aria-label="Страницы каталога">' + " · ".join(f'<a data-lang-link href="{catalog_name(j)}">{j}</a>' if j != i else f'<strong aria-current="page">{j}</strong>' for j in range(1, count + 1)) + "</nav>"
-        save(catalog_name(i), f"Все напитки — страница {i} | Оклейка", f"Напитки с проверенным веганским статусом, страница {i}. Основания, ограничения и ссылки на источники.", f"<h1>Все напитки</h1><p>Страница {i} / {count}</p><ul>{links}</ul>{pager}")
+    for is_na in (False, True):
+        subset = [x for x in public if x['nonalcoholic'] == is_na]
+        prefix = 'nonalcoholic-catalog' if is_na else 'catalog'
+        label = 'Безалкогольные аналоги' if is_na else 'Все напитки'
+        count = max(1, (len(subset) + size - 1) // size)
+        def catalog_name(i):
+            return f"{prefix}.html" if i == 1 else f"{prefix}-{i}.html"
+        for i in range(1, count + 1):
+            items = subset[(i - 1) * size:i * size]
+            links = "".join(f'<li><a data-lang-link href="{escape(x["url"].removeprefix(BASE))}">{escape(x["name"])}</a> — {STATUS["v" if x["status"] == "vegan" else "n"]}</li>' for x in items)
+            pager = '<nav aria-label="Страницы каталога">' + " · ".join(f'<a data-lang-link href="{catalog_name(j)}">{j}</a>' if j != i else f'<strong aria-current="page">{j}</strong>' for j in range(1, count + 1)) + "</nav>"
+            save(catalog_name(i), f"{label} — страница {i} | Оклейка", f"Напитки с проверенным веганским статусом, страница {i}. Основания, ограничения и ссылки на источники.", f"<h1>{label}</h1><p>Страница {i} / {count}</p><ul>{links}</ul>{pager}")
 
     # Expose this path to people and crawlers, without changing existing filter behavior.
     for filename in ("index.html", "nonalcoholic.html"):
         path = out / filename
         html = path.read_text(encoding="utf-8")
-        html = html.replace("</main>", '<p class="catalog-access"><a data-lang-link href="catalog.html">Все напитки с источниками</a></p>\n</main>', 1)
+        catalog = 'nonalcoholic-catalog.html' if filename == 'nonalcoholic.html' else 'catalog.html'
+        html = html.replace("</main>", f'<p class="catalog-access"><a data-lang-link href="{catalog}">Все напитки с источниками</a></p>\n</main>', 1)
         if filename == "index.html":
             html = re.sub(r"<title>.*?</title>", f"<title>{TITLE}</title>", html, count=1)
             html = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{DESCRIPTION}">', html, count=1)
@@ -187,7 +196,8 @@ def write_search_pages(out):
         "Absence from the catalogue does not establish a drink's status. "
         "For a specific drink, the permanent record URL and its linked evidence provide the citable source.\n\n"
         f"- [Methodology]({BASE}method.html): how decisions and sources are evaluated.\n"
-        f"- [All drinks]({BASE}catalog.html): paginated HTML directory; every record is readable without JavaScript.\n"
+        f"- [Alcoholic drinks]({BASE}catalog.html): paginated HTML directory, readable without JavaScript.\n"
+        f"- [Alcohol-free drinks]({BASE}nonalcoholic-catalog.html): separate HTML directory with sources.\n"
         f"- [Producer responses]({BASE}producers.html): published manufacturer confirmations and their scope.\n"
         f"- [Russian beer and cider]({BASE}beer.html): brewery-level source records.\n"
         f"- [Structured catalogue]({BASE}data/catalog.json): public records with named fields, permanent URLs and sources.\n"

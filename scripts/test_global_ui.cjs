@@ -4,7 +4,7 @@ const root=path.resolve(__dirname,'../_site');
 const data=JSON.parse(fs.readFileSync(path.join(root,'data/verified.json')));
 const dicts=JSON.parse(fs.readFileSync(path.join(root,'data/meta.json'))).dicts;
 // Main directory excludes delivery-only retailers and Russian alcohol-free beer.
-const mainRows=data.records.filter(r=>!(dicts.categories[r[8]]==='Пиво'&&dicts.countries[r[6]]==='Россия'));
+const mainRows=data.records.filter(r=>!Object.hasOwn(data.nonalcoholic,r[0]));
 const visibleNetworks=r=>r[2].filter(i=>!(data.nonalcoholic_only_networks||[]).includes(dicts.networks[i]));
 (async()=>{
  const browser=await chromium.launch({channel:process.env.BROWSER_CHANNEL||'msedge'});
