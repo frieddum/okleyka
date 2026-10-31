@@ -2,6 +2,10 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'../_site');
 const data=JSON.parse(fs.readFileSync(path.join(root,'data/verified.json')));
+const dicts=JSON.parse(fs.readFileSync(path.join(root,'data/meta.json'))).dicts;
+// Main directory excludes delivery-only retailers and Russian alcohol-free beer.
+const mainRows=data.records.filter(r=>!(dicts.categories[r[8]]==='Пиво'&&dicts.countries[r[6]]==='Россия'));
+const visibleNetworks=r=>r[2].filter(i=>!(data.nonalcoholic_only_networks||[]).includes(dicts.networks[i]));
 (async()=>{
  const browser=await chromium.launch({channel:process.env.BROWSER_CHANNEL||'msedge'});
  try {
@@ -17,16 +21,16 @@ const data=JSON.parse(fs.readFileSync(path.join(root,'data/verified.json')));
    });
    const load=async query=>{await page.goto('http://okleika.test/?lang='+lang+query);await page.locator(query.includes('&id=')?'#card-view h1':'#results .row').first().waitFor();};
    await load('');
-   const retail=data.records.filter(r=>r[1]==='v'&&r[2].length).length;
+   const retail=mainRows.filter(r=>r[1]==='v'&&visibleNetworks(r).length).length;
    assert.equal(Number((await page.locator('#count').innerText()).replace(/[^0-9]/g,'')),retail);
    assert.ok(await page.locator('#global-count a').count());
    assert.equal(await page.locator('#archive-link').isVisible(),false);
    assert.equal(await page.getByRole('checkbox', {name: /^(Пятёрочка|Pyaterochka) /}).count(), 1);
-   for(const id of await page.locator('#results [data-id]').evaluateAll(es=>es.map(e=>e.dataset.id)))assert.ok(data.records.find(r=>r[0]===id)[2].length);
+   for(const id of await page.locator('#results [data-id]').evaluateAll(es=>es.map(e=>e.dataset.id)))assert.ok(visibleNetworks(data.records.find(r=>r[0]===id)).length);
    await page.locator('#global-count a').click();
    await page.waitForURL('**coverage=global');
    await page.locator('#results .section-divider').waitFor();
-   for(const id of await page.locator('#results [data-id]').evaluateAll(es=>es.map(e=>e.dataset.id)))assert.equal(data.records.find(r=>r[0]===id)[2].length,0);
+   for(const id of await page.locator('#results [data-id]').evaluateAll(es=>es.map(e=>e.dataset.id)))assert.equal(visibleNetworks(data.records.find(r=>r[0]===id)).length,0);
    assert.equal(await page.locator('#results .where').count(),0);
    await load('&q='+encodeURIComponent('Ржаная мягкая'));
    assert.ok(await page.locator('[data-id="reply-bash-rzhanaya-soft"]').count());
