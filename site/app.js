@@ -205,7 +205,7 @@
   }
 
   /* ---------- Данные ---------- */
-  let META = null, RECS = [], BY_ID = new Map(), INDEX = null, ASSESS = [], PRICE_LEVELS = {}, NONALCOHOLIC = {};
+  let META = null, RECS = [], BY_ID = new Map(), INDEX = null, ASSESS = [], PRICE_LEVELS = {}, NONALCOHOLIC = {}, NONALCOHOLIC_ONLY_NETWORKS = [];
   const NONALCOHOLIC_PAGE = document.body.dataset.section === 'nonalcoholic';
   let groupTotals = {};
   const collator = new Intl.Collator(window.I18N.lang, { sensitivity: 'base', numeric: true, ignorePunctuation: true });
@@ -213,13 +213,14 @@
   function unpack(arr) {
     const d = META.dicts;
     const at = (list, i) => i < 0 ? null : list[i];
-    const price = window.formatPriceBand(PRICE_LEVELS[arr[0]], window.I18N.lang);
+    const networks = arr[2].map(i => d.networks[i]).filter(n => NONALCOHOLIC_PAGE || !NONALCOHOLIC_ONLY_NETWORKS.includes(n));
+    const price = networks.length ? window.formatPriceBand(PRICE_LEVELS[arr[0]], window.I18N.lang) : null;
     return {
       price,
       nonalcoholic: Object.hasOwn(NONALCOHOLIC, arr[0]),
       abvMax: NONALCOHOLIC[arr[0]]?.abv_max,
       priceLevel: price ? String(PRICE_LEVELS[arr[0]].level) : NONE,
-      id: arr[0], st: arr[1], nets: arr[2].map(i => d.networks[i]), name: arr[3], brand: at(d.brands, arr[4]),
+      id: arr[0], st: arr[1], nets: networks, name: arr[3], brand: at(d.brands, arr[4]),
       producer: at(d.producers, arr[5]), country: at(d.countries, arr[6]), origin: arr[7], cat: at(d.categories, arr[8]),
       volMl: arr[9] ?? window.splitDrinkName.attributes(arr[3]).volumeMl,
       volRaw: arr[10], abv: arr[11] ?? window.splitDrinkName.attributes(arr[3]).abv,
@@ -235,7 +236,8 @@
   }
   function ingest(list) {
     for (const arr of list) {
-      if (!NONALCOHOLIC_PAGE || Object.hasOwn(NONALCOHOLIC, arr[0])) RECS.push(unpack(arr));
+      const record = unpack(arr);
+      if (NONALCOHOLIC_PAGE ? record.nonalcoholic : !(record.cat === 'Пиво' && record.country === 'Россия')) RECS.push(record);
     }
     RECS.forEach(r => { const display = window.splitDrinkName(window.splitDrinkName.withoutVolume(tr(r.name))); r.displayName = display.title; r.nameDetails = display.details; });
     RECS.sort((a, b) => collator.compare(a.displayName, b.displayName));
@@ -856,6 +858,7 @@
       ASSESS = verified.assessments;
       PRICE_LEVELS = verified.price_levels || {};
       NONALCOHOLIC = verified.nonalcoholic || {};
+      NONALCOHOLIC_ONLY_NETWORKS = verified.nonalcoholic_only_networks || [];
       ingest(verified.records);
       if (state.id && verified.aliases?.[state.id]) {
         state.id = verified.aliases[state.id];

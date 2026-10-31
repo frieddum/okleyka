@@ -403,7 +403,7 @@ def main():
     extra_count = 0
     direct_attrs = {}
     # data/manual_additions.json — позиции, проверенные вручную по письмам производителей (тот же формат).
-    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json", ROOT / "data" / "producer_replies.json", ROOT / "data" / "azbuka_additions.json", ROOT / "data" / "global_vegan.json", ROOT / "data" / "vlabel_additions.json", ROOT / "data" / "store_photo_additions.json"):
+    for extra_path in (EXTRA, ROOT / "data" / "manual_additions.json", ROOT / "data" / "coolclever_additions.json", ROOT / "data" / "producer_replies.json", ROOT / "data" / "azbuka_additions.json", ROOT / "data" / "global_vegan.json", ROOT / "data" / "vlabel_additions.json", ROOT / "data" / "store_photo_additions.json", ROOT / "data" / "lavka_additions.json"):
       if not extra_path.exists():
         continue
       direct = extra_path.name == "producer_replies.json"
@@ -595,10 +595,10 @@ def main():
                 rec[2].append(ni)
             rec[13] = max(rec[13] or "", checked)
     verified = records
-    # Russian beer belongs to the brewery directory, including alcohol-free beer.
-    # Reject additions from every import path instead of silently publishing cards.
+    # Russian beer cards are allowed only in the reviewed alcohol-free subset.
+    reviewed_na = json.loads((ROOT / "data/nonalcoholic.json").read_text(encoding="utf-8"))
     for rec in verified:
-        if rec[8] >= 0 and cats.items[rec[8]] == 'Пиво' and rec[6] >= 0 and countries.items[rec[6]] == 'Россия':
+        if rec[8] >= 0 and cats.items[rec[8]] == 'Пиво' and rec[6] >= 0 and countries.items[rec[6]] == 'Россия' and rec[0] not in reviewed_na:
             fail(f"Российское пиво публикуется только в справочнике пивоварен, не отдельной карточкой: {rec[0]}")
     for key in set(overrides) - used_overrides:
         print(f"Внимание: пересмотр не применён, записи нет в снимке: {key[0]} / {key[1]}")
@@ -806,10 +806,17 @@ def main():
         if final_id in nonalcoholic and nonalcoholic[final_id] != attrs:
             fail(f"nonalcoholic: conflicting merged attributes {rid}")
         nonalcoholic[final_id] = attrs
+    retailer_scope = json.loads((ROOT / "data/retailer_scope.json").read_text(encoding="utf-8"))
+    delivery_only = retailer_scope["nonalcoholic_only"]
+    for rec in verified:
+        if any(nets.items[n] in delivery_only for n in rec[2]) and rec[0] not in nonalcoholic:
+            fail(f"Магазин только с доставкой допустим лишь для б/а позиции: {rec[0]}")
     dump("verified.json", {"records": active_records, "assessments": assessments, "aliases": aliases,
+                           "nonalcoholic_only_networks": delivery_only,
                            "nonalcoholic": {rid: a for rid, a in nonalcoholic.items() if rid in {r[0] for r in active_records}},
                            "price_levels": {rid: band for rid, band in prices.items() if rid not in archived and by_id[rid][2]}})
     dump("archive.json", {"records": archived_records, "assessments": assessments, "price_levels": {}, "archived": archived,
+                          "nonalcoholic_only_networks": delivery_only,
                           "nonalcoholic": {rid: a for rid, a in nonalcoholic.items() if rid in {r[0] for r in archived_records}}})
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     brew = ROOT / "data" / "ru_breweries.json"

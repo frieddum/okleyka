@@ -34,7 +34,7 @@ for rid, row in av.items():
     assert row[1] in ('v', 'n')
     kind = meta['categories'][row[8]]
     country = meta['countries'][row[6]] if row[6] >= 0 else None
-    assert not (kind == 'Пиво' and country == 'Россия'), row[3]
+    assert not (kind == 'Пиво' and country == 'Россия') or rid in data['nonalcoholic'], row[3]
     assert len(row[2]) == len(set(row[2]))
     assessment = data['assessments'][row[15]]
     assert assessment['rationale']

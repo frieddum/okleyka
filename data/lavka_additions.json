@@ -1,0 +1,202 @@
+{
+  "copied_at": "2026-10-31",
+  "items": [
+    {
+      "id": "na-vina-albali-sauvignon-blanc",
+      "name": "Viña Albali Sauvignon Blanc — безалкогольное",
+      "company": "Félix Solís",
+      "country": "Испания",
+      "category": "Вино",
+      "volume_ml": 750,
+      "abv": null,
+      "status": "vegan",
+      "rationale": "На официальном сайте Félix Solís эта безалкогольная позиция Viña Albali отмечена Vegan. Дата публикации подтверждения не указана.",
+      "evidence_date": null,
+      "scope": [],
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.felixsolis.com/en/brand/vina-albali/",
+      "chains": [
+        {
+          "network": "Яндекс Лавка",
+          "checked_at": "2026-10-31"
+        }
+      ],
+      "color": "Белое"
+    },
+    {
+      "id": "na-vina-albali-cabernet-tempranillo",
+      "name": "Viña Albali Cabernet Tempranillo — безалкогольное",
+      "company": "Félix Solís",
+      "country": "Испания",
+      "category": "Вино",
+      "volume_ml": 750,
+      "abv": null,
+      "status": "vegan",
+      "rationale": "На официальном сайте Félix Solís эта безалкогольная позиция Viña Albali отмечена Vegan. Дата публикации подтверждения не указана.",
+      "evidence_date": null,
+      "scope": [],
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.felixsolis.com/en/brand/vina-albali/",
+      "chains": [
+        {
+          "network": "Яндекс Лавка",
+          "checked_at": "2026-10-31"
+        }
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "na-vina-albali-sparkling-white",
+      "name": "Viña Albali Sparkling White — безалкогольное",
+      "company": "Félix Solís",
+      "country": "Испания",
+      "category": "Игристое вино",
+      "volume_ml": 750,
+      "abv": null,
+      "status": "vegan",
+      "rationale": "На официальном сайте Félix Solís эта безалкогольная позиция Viña Albali отмечена Vegan. Дата публикации подтверждения не указана.",
+      "evidence_date": null,
+      "scope": [],
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.felixsolis.com/en/brand/vina-albali/",
+      "chains": [
+        {
+          "network": "Яндекс Лавка",
+          "checked_at": "2026-10-31"
+        }
+      ],
+      "color": "Белое"
+    },
+    {
+      "id": "na-le-grand-noir-red",
+      "name": "Le Grand Noir Grenache – Pinot Noir 0,0%",
+      "company": "Les Celliers Jean d’Alibert",
+      "country": "Франция",
+      "category": "Вино",
+      "volume_ml": 750,
+      "abv": 0,
+      "status": "vegan",
+      "rationale": "Le Grand Noir сообщает, что при изготовлении его вин не используются животные продукты. Безалкогольное Grenache – Pinot Noir представлено в официальной линейке Alcohol Free.",
+      "evidence_date": null,
+      "scope": [],
+      "ref_type": "manufacturer",
+      "ref_url": "https://www.legrandnoir.com/our-story/",
+      "chains": [
+        {
+          "network": "Яндекс Лавка",
+          "checked_at": "2026-10-31"
+        }
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "na-baltika-0",
+      "name": "Балтика №0 — безалкогольное",
+      "company": "Балтика",
+      "country": "Россия",
+      "category": "Пиво",
+      "volume_ml": 500,
+      "abv": null,
+      "status": "vegan",
+      "rationale": "В январе 2018 года «Балтика» подтвердила отсутствие животных ингредиентов в пиве, производстве и фильтрации. Состав этой позиции проверен отдельно. Основание — общий ответ производителя, а не новый ответ об этой безалкогольной версии.",
+      "evidence_date": "2018-01",
+      "scope": [],
+      "ref_type": "Barnivore",
+      "ref_url": "https://www.barnivore.com/beer/1427/Baltika-Breweries",
+      "chains": [
+        {
+          "network": "Яндекс Лавка",
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "na-baltika-0-ipa",
+      "name": "Балтика №0 IPA — безалкогольное",
+      "company": "Балтика",
+      "country": "Россия",
+      "category": "Пиво",
+      "volume_ml": 450,
+      "abv": null,
+      "status": "vegan",
+      "rationale": "В январе 2018 года «Балтика» подтвердила отсутствие животных ингредиентов в пиве, производстве и фильтрации. Состав этой позиции проверен отдельно. Основание — общий ответ производителя, а не новый ответ об этой безалкогольной версии.",
+      "evidence_date": "2018-01",
+      "scope": [],
+      "ref_type": "Barnivore",
+      "ref_url": "https://www.barnivore.com/beer/1427/Baltika-Breweries",
+      "chains": [
+        {
+          "network": "Яндекс Лавка",
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "na-krone-lager",
+      "name": "Krone Lager Biere Alcohol Free",
+      "company": "Балтика",
+      "country": "Россия",
+      "category": "Пиво",
+      "volume_ml": 450,
+      "abv": 0.04,
+      "status": "vegan",
+      "rationale": "В январе 2018 года «Балтика» подтвердила отсутствие животных ингредиентов в пиве, производстве и фильтрации. Состав этой позиции проверен отдельно. Основание — общий ответ производителя, а не новый ответ об этой безалкогольной версии.",
+      "evidence_date": "2018-01",
+      "scope": [],
+      "ref_type": "Barnivore",
+      "ref_url": "https://www.barnivore.com/beer/1427/Baltika-Breweries",
+      "chains": [
+        {
+          "network": "Яндекс Лавка",
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "na-gorkovskaya-ipa",
+      "name": "Горьковская пивоварня IPA 0,0",
+      "company": "Балтика",
+      "country": "Россия",
+      "category": "Пиво",
+      "volume_ml": 330,
+      "abv": 0.05,
+      "status": "vegan",
+      "rationale": "В январе 2018 года «Балтика» подтвердила отсутствие животных ингредиентов в пиве, производстве и фильтрации. Состав этой позиции проверен отдельно. Основание — общий ответ производителя, а не новый ответ об этой безалкогольной версии.",
+      "evidence_date": "2018-01",
+      "scope": [],
+      "ref_type": "Barnivore",
+      "ref_url": "https://www.barnivore.com/beer/1427/Baltika-Breweries",
+      "chains": [
+        {
+          "network": "ВкусВилл",
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "na-zhiguli-barnoe",
+      "name": "Жигули Барное — безалкогольное",
+      "company": "Московская пивоваренная компания",
+      "country": "Россия",
+      "category": "Пиво",
+      "volume_ml": 450,
+      "abv": null,
+      "status": "vegan",
+      "rationale": "В ответе, опубликованном VeganRussian в июне 2021 года, МПК подтверждает: пиво и пивные напитки без животных продуктов, фильтрация на мембранах и кизельгуре. Исключение в ответе — медовуха. Состав этой позиции проверен отдельно.",
+      "evidence_date": "2021-06",
+      "scope": [],
+      "ref_type": "VeganRussian",
+      "ref_url": "https://veganrussian.ru/beer-from-moscow-brewing-company/",
+      "chains": [
+        {
+          "network": "Яндекс Лавка",
+          "checked_at": "2026-10-31"
+        },
+        {
+          "network": "ВкусВилл",
+          "checked_at": "2026-10-31"
+        }
+      ]
+    }
+  ]
+}

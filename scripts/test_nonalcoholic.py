@@ -42,11 +42,15 @@ for rid in ['na-clausthaler-dry-hopped', 'na-clausthaler-lemon',
     assert rid in na and 'ВкусВилл' in nets(rid)
     assert rid in data['price_levels']
 for rid in ['na-zhiguli-barnoe', 'na-gorkovskaya-ipa']:
-    assert rid not in rows and rid not in na and rid not in data['price_levels']
-# The Russian-beer rule applies to the full catalogue, including NA products.
+    assert rid in rows and rid in na and rid in data['price_levels']
+# Russian beer cards are allowed in the alcohol-free section only.
 for r in rows.values():
-    assert not (meta['dicts']['categories'][r[8]] == 'Пиво' and r[6] >= 0
-                and meta['dicts']['countries'][r[6]] == 'Россия'), r[0]
+    if meta['dicts']['categories'][r[8]] == 'Пиво' and r[6] >= 0 and meta['dicts']['countries'][r[6]] == 'Россия':
+        assert r[0] in na, r[0]
+assert data['nonalcoholic_only_networks'] == ['Яндекс Лавка']
+lavka = {rid for rid in rows if 'Яндекс Лавка' in nets(rid)}
+assert len(lavka) == 8 and lavka <= na.keys()
+assert lavka <= data['price_levels'].keys()
 breweries = {b['name'] for b in read('_site/data/breweries.json')}
 assert {'Московская пивоваренная компания', 'Горьковская пивоварня', 'Балтика'} <= breweries
 assert 'ВкусВилл' not in nets('deda415bde'), '5% shelf Palm is not established as the 5.2% card'

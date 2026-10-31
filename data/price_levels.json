@@ -20773,5 +20773,59 @@
     "scale": "beer",
     "volume_ml": 500,
     "observed_at": "2026-10-30"
+  },
+  "na-vina-albali-sauvignon-blanc": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-31"
+  },
+  "na-vina-albali-cabernet-tempranillo": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-31"
+  },
+  "na-vina-albali-sparkling-white": {
+    "level": 2,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-10-31"
+  },
+  "na-le-grand-noir-red": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-10-31"
+  },
+  "na-baltika-0": {
+    "level": 1,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-10-31"
+  },
+  "na-baltika-0-ipa": {
+    "level": 1,
+    "scale": "beer",
+    "volume_ml": 450,
+    "observed_at": "2026-10-31"
+  },
+  "na-krone-lager": {
+    "level": 1,
+    "scale": "beer",
+    "volume_ml": 450,
+    "observed_at": "2026-10-31"
+  },
+  "na-gorkovskaya-ipa": {
+    "level": 1,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-10-31"
+  },
+  "na-zhiguli-barnoe": {
+    "level": 1,
+    "scale": "beer",
+    "volume_ml": 450,
+    "observed_at": "2026-10-31"
   }
 }

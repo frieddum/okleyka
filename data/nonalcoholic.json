@@ -22,5 +22,26 @@
   },
   "7eacf7fe73": {},
   "rfa-e3136e955b08": {},
-  "rfa-463c39c34182": {}
+  "rfa-463c39c34182": {},
+  "na-vina-albali-sauvignon-blanc": {
+    "abv_max": 0.5
+  },
+  "na-vina-albali-cabernet-tempranillo": {
+    "abv_max": 0.5
+  },
+  "na-vina-albali-sparkling-white": {
+    "abv_max": 0.5
+  },
+  "na-le-grand-noir-red": {},
+  "na-baltika-0": {
+    "abv_max": 0.5
+  },
+  "na-baltika-0-ipa": {
+    "abv_max": 0.5
+  },
+  "na-krone-lager": {},
+  "na-gorkovskaya-ipa": {},
+  "na-zhiguli-barnoe": {
+    "abv_max": 0.5
+  }
 }
