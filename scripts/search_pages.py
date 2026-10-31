@@ -152,7 +152,9 @@ def write_search_pages(out):
         html = path.read_text(encoding="utf-8")
         title = unescape(re.search(r"<title>(.*?)</title>", html, re.S).group(1))
         match = re.search(r'<meta name="description" content="([^"]*)">', html)
-        description = unescape(match.group(1)) if match else title
+        description = unescape(match.group(1)) if match else title + ". Веганский статус, опубликованные подтверждения и область действия решений в справочнике Оклейка."
+        if not match:
+            html = html.replace("</head>", f'<meta name="description" content="{escape(description, quote=True)}">\n</head>', 1)
         page = {"@type": "WebPage", "@id": url, "url": url, "name": title, "description": description,
                 "inLanguage": "ru", "isPartOf": {"@id": BASE + "#website"}}
         if url in public_by_url:

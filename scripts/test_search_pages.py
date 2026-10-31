@@ -52,7 +52,7 @@ for url in urls:
     html = path.read_text(encoding="utf-8")
     assert html.count('rel="canonical"') == 1
     assert f'rel="canonical" href="{url}"' in html
-    assert 'name="description"' in html
+    assert 'name="description"' in html, path.name
     assert 'noindex' not in html
 assert "User-agent: *\nAllow: /" in (OUT / "robots.txt").read_text()
 assert BASE + "sitemap.xml" in (OUT / "robots.txt").read_text()
