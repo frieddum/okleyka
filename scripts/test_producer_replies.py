@@ -15,7 +15,7 @@ original = json.loads(source.read_text(encoding="utf-8"))
 loaded = load_replies(source, ROOT / "site")
 data = json.loads((ROOT / "_site/data/verified.json").read_text(encoding="utf-8"))
 rows = {r[0]: r for r in data["records"]}
-assert len(loaded["items"]) == 89
+assert len(loaded["items"]) == 97
 ararat = [i for i in loaded["items"] if i["id"].startswith("reply-ararat-")]
 assert len(ararat) == 25
 assert sum(i["status"] == "vegan" for i in ararat) == 24
@@ -42,6 +42,8 @@ for item in loaded["items"]:
         assert assessment["refs"] == [{"type": "producer_reply", "url": "ararat.html"}]
     elif item["reply_id"].startswith("bash-"):
         assert assessment["refs"] == [{"type": "producer_reply", "url": "bashspirt.html"}]
+    elif item["reply_id"].startswith("myskhako-"):
+        assert assessment["refs"] == [{"type": "producer_reply", "url": "myskhako.html"}]
     else:
         assert assessment["refs"] == []
 assert rows["reply-pjk-quarzit-2016"][12] == 2016
@@ -110,6 +112,20 @@ for item in bash_items:
     assert not item.get("publication_pending")
 assert original["replies"]["massandra-gurzuf-2026-10-27"]["publication_pending"]
 page += tat_page + ararat_page + bash_page
+myskhako_page = (ROOT / "_site/myskhako.html").read_text(encoding="utf-8")
+assert 'href="myskhako.html"' in page
+assert 'Microcol Alpha' in myskhako_page
+assert 'Ответ можно опубликовать в справочнике «Оклейка».' in myskhako_page
+assert not re.search(r"Такачева|Тамара|mailto:|mail\.google|myskhako\.ru|\+7", myskhako_page)
+myskhako_items = [i for i in loaded["items"] if i["reply_id"] == "myskhako-2026-11-05"]
+assert len(myskhako_items) == 8
+assert sum(rows[i["id"]][18] for i in myskhako_items) == 3
+assert rows["vr-c8768ac50e"][2] == []
+assert "vr-c8768ac50e" not in data["price_levels"]
+for item in myskhako_items:
+    assert f'?id={item["id"]}' in myskhako_page
+    assert data["assessments"][rows[item["id"]][15]]["evidence_date"] == "2026-11-05"
+page += myskhako_page
 page += (ROOT / "_site/producer-peter-jakob-kuehn.html").read_text(encoding="utf-8")
 page += (ROOT / "_site/kizlyar-brandy-factory.html").read_text(encoding="utf-8")
 ids = {parse_qs(urlsplit(unescape(url)).query)["id"][0]
