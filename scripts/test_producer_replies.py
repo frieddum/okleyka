@@ -115,13 +115,22 @@ page += tat_page + ararat_page + bash_page
 myskhako_page = (ROOT / "_site/myskhako.html").read_text(encoding="utf-8")
 assert 'href="myskhako.html"' in page
 assert 'Microcol Alpha' in myskhako_page
-assert 'Ответ можно опубликовать в справочнике «Оклейка».' in myskhako_page
+assert 'Ответ можно опубликовать' not in myskhako_page
+assert 'не меняется. ?' not in myskhako_page
 assert not re.search(r"Такачева|Тамара|mailto:|mail\.google|myskhako\.ru|\+7", myskhako_page)
 myskhako_items = [i for i in loaded["items"] if i["reply_id"] == "myskhako-2026-11-05"]
 assert len(myskhako_items) == 8
 assert sum(rows[i["id"]][18] for i in myskhako_items) == 3
-assert rows["vr-c8768ac50e"][2] == []
-assert "vr-c8768ac50e" not in data["price_levels"]
+networks = json.loads((ROOT / "_site/data/meta.json").read_text(encoding="utf-8"))["dicts"]["networks"]
+assert [networks[n] for n in rows["vr-c8768ac50e"][2]] == ["Decanter"]
+assert rows["vr-c8768ac50e"][16:18] == ["Розовое", "Сухое"]
+assert rows["vr-c8768ac50e"][9] == 750 and rows["vr-c8768ac50e"][11] == 11.8
+assert data["price_levels"]["vr-c8768ac50e"]["level"] == 3
+assert rows["kb-a60236b901"][2] == []
+assert "kb-a60236b901" not in data["price_levels"]
+for item in myskhako_items:
+    if item["chains"]:
+        assert data["price_levels"][item["id"]]["observed_at"] == "2026-11-06"
 for item in myskhako_items:
     assert f'?id={item["id"]}' in myskhako_page
     assert data["assessments"][rows[item["id"]][15]]["evidence_date"] == "2026-11-05"

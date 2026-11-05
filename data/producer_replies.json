@@ -1597,15 +1597,11 @@
       "id": "kb-a60236b901",
       "name": "Вино Мысхако Квинтэссенция Касание Каберне Совиньон красное сухое 14.7%, 750мл",
       "category": "Вино",
-      "chains": [
-        {
-          "network": "Красное&Белое",
-          "checked_at": "2026-10-25"
-        }
-      ],
+      "chains": [],
       "abv": 14.7,
       "volume_ml": 750.0,
-      "reply_id": "myskhako-2026-11-05"
+      "reply_id": "myskhako-2026-11-05",
+      "retail_optional": true
     },
     {
       "id": "kb-6fcfdfb319",
@@ -1614,7 +1610,7 @@
       "chains": [
         {
           "network": "Красное&Белое",
-          "checked_at": "2026-10-25"
+          "checked_at": "2026-11-06"
         }
       ],
       "abv": 12.0,
@@ -1628,7 +1624,7 @@
       "chains": [
         {
           "network": "Красное&Белое",
-          "checked_at": "2026-10-25"
+          "checked_at": "2026-11-06"
         }
       ],
       "abv": 13.8,
@@ -1642,7 +1638,7 @@
       "chains": [
         {
           "network": "Красное&Белое",
-          "checked_at": "2026-10-25"
+          "checked_at": "2026-11-06"
         }
       ],
       "abv": 13.2,
@@ -1656,7 +1652,7 @@
       "chains": [
         {
           "network": "Красное&Белое",
-          "checked_at": "2026-10-25"
+          "checked_at": "2026-11-06"
         }
       ],
       "abv": 12.0,
@@ -1670,7 +1666,7 @@
       "chains": [
         {
           "network": "Красное&Белое",
-          "checked_at": "2026-10-25"
+          "checked_at": "2026-11-06"
         }
       ],
       "abv": 12.0,
@@ -1684,7 +1680,7 @@
       "chains": [
         {
           "network": "Красное&Белое",
-          "checked_at": "2026-10-25"
+          "checked_at": "2026-11-06"
         }
       ],
       "abv": 12.0,
@@ -1695,9 +1691,17 @@
       "id": "vr-c8768ac50e",
       "name": "Вино Мысхако Квинтэссенция Совиньон Блан",
       "category": "Вино",
-      "chains": [],
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-06"
+        }
+      ],
       "reply_id": "myskhako-2026-11-05",
-      "retail_optional": true
+      "color": "Розовое",
+      "sugar": "Сухое",
+      "abv": 11.8,
+      "volume_ml": 750
     }
   ]
 }

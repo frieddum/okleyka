@@ -15677,29 +15677,23 @@
     "volume_ml": 750,
     "observed_at": null
   },
-  "kb-a60236b901": {
-    "level": 1,
-    "scale": "wine",
-    "volume_ml": 750,
-    "observed_at": null
-  },
   "kb-6fcfdfb319": {
     "level": 1,
     "scale": "wine",
     "volume_ml": 750,
-    "observed_at": null
+    "observed_at": "2026-11-06"
   },
   "kb-f822190a46": {
     "level": 1,
     "scale": "wine",
     "volume_ml": 750,
-    "observed_at": null
+    "observed_at": "2026-11-06"
   },
   "kb-3064484f89": {
     "level": 1,
     "scale": "wine",
     "volume_ml": 750,
-    "observed_at": null
+    "observed_at": "2026-11-06"
   },
   "kb-671fc5d997": {
     "level": 1,
@@ -15729,19 +15723,19 @@
     "level": 1,
     "scale": "sparkling",
     "volume_ml": 750,
-    "observed_at": null
+    "observed_at": "2026-11-06"
   },
   "kb-09b6f2e5c7": {
     "level": 1,
     "scale": "sparkling",
     "volume_ml": 750,
-    "observed_at": null
+    "observed_at": "2026-11-06"
   },
   "kb-97d8966e73": {
     "level": 1,
     "scale": "sparkling",
     "volume_ml": 750,
-    "observed_at": null
+    "observed_at": "2026-11-06"
   },
   "kb-6fd726cc78": {
     "level": 2,
@@ -20827,5 +20821,11 @@
     "scale": "beer",
     "volume_ml": 450,
     "observed_at": "2026-10-31"
+  },
+  "vr-c8768ac50e": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-06"
   }
 }
