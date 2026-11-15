@@ -15,7 +15,7 @@ original = json.loads(source.read_text(encoding="utf-8"))
 loaded = load_replies(source, ROOT / "site")
 data = json.loads((ROOT / "_site/data/verified.json").read_text(encoding="utf-8"))
 rows = {r[0]: r for r in data["records"]}
-assert len(loaded["items"]) == 97
+assert len(loaded["items"]) == 109
 ararat = [i for i in loaded["items"] if i["id"].startswith("reply-ararat-")]
 assert len(ararat) == 25
 assert sum(i["status"] == "vegan" for i in ararat) == 24
@@ -44,6 +44,10 @@ for item in loaded["items"]:
         assert assessment["refs"] == [{"type": "producer_reply", "url": "bashspirt.html"}]
     elif item["reply_id"].startswith("myskhako-"):
         assert assessment["refs"] == [{"type": "producer_reply", "url": "myskhako.html"}]
+    elif item["reply_id"].startswith("gaia-"):
+        assert assessment["refs"] == [{"type": "producer_reply", "url": "gaia-wines.html"}]
+        assert assessment["reviewed_at"] == "2026-11-15"
+        assert not item["chains"]
     else:
         assert assessment["refs"] == []
 assert rows["reply-pjk-quarzit-2016"][12] == 2016
@@ -135,6 +139,7 @@ for item in myskhako_items:
     assert f'?id={item["id"]}' in myskhako_page
     assert data["assessments"][rows[item["id"]][15]]["evidence_date"] == "2026-11-05"
 page += myskhako_page
+page += (ROOT / "_site/gaia-wines.html").read_text(encoding="utf-8")
 page += (ROOT / "_site/producer-peter-jakob-kuehn.html").read_text(encoding="utf-8")
 page += (ROOT / "_site/kizlyar-brandy-factory.html").read_text(encoding="utf-8")
 ids = {parse_qs(urlsplit(unescape(url)).query)["id"][0]
@@ -168,3 +173,11 @@ with TemporaryDirectory() as tmp:
     assert '<script>' not in rendered and '&lt;script&gt;' in rendered
     assert 'DO_NOT_PUBLISH_THIS_FIELD' not in rendered
 print("Producer directory: all product links resolve; HTML escaped; extra private fields excluded")
+
+# Gaia confirmation covers all wines; certification is limited to the named twelve.
+gaia = [i for i in loaded["items"] if i["reply_id"] == "gaia-2026-10-30"]
+assert len(gaia) == 12
+assert all(i["status"] == "vegan" for i in gaia)
+gaia_page = (ROOT / "_site/gaia-wines.html").read_text(encoding="utf-8")
+assert "only the following wines" in gaia_page and "permission to publish" in gaia_page
+assert "@gaiawines.gr" not in gaia_page

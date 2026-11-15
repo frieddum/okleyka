@@ -116,6 +116,18 @@
       "scope": [
         "Вся линейка вин Мысхако, включая Quintessence «Касание» и игристые «Мысхако». Различий по урожаям и партиям нет; сторонние производственные площадки не используются."
       ]
+    },
+    "gaia-2026-10-30": {
+      "company": "Gaia Wines",
+      "country": "Греция",
+      "status": "vegan",
+      "evidence_date": "2026-10-30",
+      "reviewed_at": "2026-11-15",
+      "public_page": "gaia-wines.html",
+      "rationale": "Gaia Wines, ответ от 30.10.2026: все вина линеек Nemea и Santorini веганские. Животные ингредиенты и вспомогательные вещества не используются, в том числе при осветлении и фильтрации.",
+      "scope": [
+        "Все вина Gaia Wines из линеек Nemea и Santorini. Производитель отдельно перечислил 12 вин с официальной веганской сертификацией; наличие сертификата не заявлено для остальных вин."
+      ]
     }
   },
   "items": [
@@ -1702,6 +1714,102 @@
       "sugar": "Сухое",
       "abv": 11.8,
       "volume_ml": 750
+    },
+    {
+      "id": "reply-gaia-monograph-agiorgitiko",
+      "name": "Gaia Wines Monograph Agiorgitiko",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-monograph-assyrtiko",
+      "name": "Gaia Wines Monograph Assyrtiko",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-notios-white",
+      "name": "Gaia Wines Notios White",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-notios-red",
+      "name": "Gaia Wines Notios Red",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-4-6h",
+      "name": "Gaia Wines 4-6h",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-agiorgitiko-by-gaia",
+      "name": "Gaia Wines Agiorgitiko by Gaia",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-gaia-s-red",
+      "name": "Gaia Wines Gaia S Red",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-gaia-s-rose",
+      "name": "Gaia Wines Gaia S Rose",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-gaia-s-white",
+      "name": "Gaia Wines Gaia S White",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-monograph-moschofilero",
+      "name": "Gaia Wines Monograph Moschofilero",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-monograph-rose",
+      "name": "Gaia Wines Monograph Rose",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-moschofilero-by-gaia",
+      "name": "Gaia Wines Moschofilero by Gaia",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [],
+      "retail_optional": true
     }
   ]
 }
