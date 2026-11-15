@@ -24855,6 +24855,35 @@
    "scope": [
     "Только эта версия напитка; проверено по официальному каталогу 27.10.2026."
    ]
+  },
+  {
+   "id": "domashnyaya-kollekciya-osobaya",
+   "name": "Водка «Домашняя коллекция Особая», 40%",
+   "company": null,
+   "category": "Водка",
+   "country": "Россия",
+   "volume_ml": 500,
+   "abv": 40,
+   "status": "nonvegan",
+   "rationale": "Невеганская: при производстве используется очистка молоком. Это указано в характеристиках «Домашней коллекции Особой» у «Пробок & Бутылок» и в описании «Винотеки».",
+   "scope": [
+    "Только водка «Домашняя коллекция Особая», 40%. В «Пробках & Бутылках» — под заказ; наличие в конкретном магазине следует уточнять."
+   ],
+   "evidence_date": null,
+   "reviewed_at": "2026-11-15",
+   "ref_type": "retailer",
+   "ref_url": "https://probkibutylki.ru/shop/vodka/rossija/vodka/rossija/vodka-domashnjaja-kollekcija-osobaja-0-5-l.html",
+   "barnivore_url": null,
+   "chains": [
+    {
+     "network": "WineCantina",
+     "checked_at": "2026-11-15"
+    },
+    {
+     "network": "Пробки & Бутылки",
+     "checked_at": "2026-11-15"
+    }
+   ]
   }
  ]
 }

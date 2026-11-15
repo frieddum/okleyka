@@ -20827,5 +20827,11 @@
     "scale": "wine",
     "volume_ml": 750,
     "observed_at": "2026-11-06"
+  },
+  "domashnyaya-kollekciya-osobaya": {
+    "level": 2,
+    "scale": "vodka",
+    "volume_ml": 500,
+    "observed_at": "2026-11-15"
   }
 }

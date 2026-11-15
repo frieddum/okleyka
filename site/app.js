@@ -605,7 +605,7 @@
   }
   function refHTML(ref) {
     const short = ref.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
-    const label = ref.type === 'Barnivore' ? 'Страница на Barnivore' : ref.type === 'VeganRussian' ? 'VeganRussian' : ref.type === 'producer_reply' ? 'Ответ производителя' : 'Сайт производителя';
+    const label = ref.type === 'Barnivore' ? 'Страница на Barnivore' : ref.type === 'VeganRussian' ? 'VeganRussian' : ref.type === 'producer_reply' ? 'Ответ производителя' : ref.type === 'retailer' ? 'Описание товара в магазине' : 'Сайт производителя';
     return `<li>${label}: <a href="${esc(ref.url)}" rel="noopener nofollow" target="_blank">${esc(short)}</a></li>`;
   }
   function renderCard() {
