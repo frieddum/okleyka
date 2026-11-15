@@ -15,7 +15,7 @@ original = json.loads(source.read_text(encoding="utf-8"))
 loaded = load_replies(source, ROOT / "site")
 data = json.loads((ROOT / "_site/data/verified.json").read_text(encoding="utf-8"))
 rows = {r[0]: r for r in data["records"]}
-assert len(loaded["items"]) == 109
+assert len(loaded["items"]) == 114
 ararat = [i for i in loaded["items"] if i["id"].startswith("reply-ararat-")]
 assert len(ararat) == 25
 assert sum(i["status"] == "vegan" for i in ararat) == 24
@@ -47,7 +47,6 @@ for item in loaded["items"]:
     elif item["reply_id"].startswith("gaia-"):
         assert assessment["refs"] == [{"type": "producer_reply", "url": "gaia-wines.html"}]
         assert assessment["reviewed_at"] == "2026-11-15"
-        assert not item["chains"]
     else:
         assert assessment["refs"] == []
 assert rows["reply-pjk-quarzit-2016"][12] == 2016
@@ -176,8 +175,26 @@ print("Producer directory: all product links resolve; HTML escaped; extra privat
 
 # Gaia confirmation covers all wines; certification is limited to the named twelve.
 gaia = [i for i in loaded["items"] if i["reply_id"] == "gaia-2026-10-30"]
-assert len(gaia) == 12
+assert len(gaia) == 17
 assert all(i["status"] == "vegan" for i in gaia)
 gaia_page = (ROOT / "_site/gaia-wines.html").read_text(encoding="utf-8")
 assert "only the following wines" in gaia_page and "permission to publish" in gaia_page
 assert "@gaiawines.gr" not in gaia_page
+
+# Retail presence enriches a single product; unavailable wines remain public.
+assert len({i["name"] for i in gaia}) == 17
+assert sum(bool(i["chains"]) for i in gaia) == 8
+for item in gaia:
+    row = rows[item["id"]]
+    assert row[1] == "v"
+    if item["chains"]:
+        assert [networks[n] for n in row[2]] == ["Decanter"]
+        assert row[13] == "2026-11-15"
+        assert data["price_levels"][item["id"]]["volume_ml"] == row[9]
+    else:
+        assert row[2] == []
+        assert item["id"] not in data["price_levels"]
+assert rows["reply-gaia-monograph-assyrtiko"][2] == []
+assert rows["reply-gaia-vinsanto-8-years"][9] == 500
+assert rows["reply-gaia-anatolikos"][9] == 500
+assert rows["rfa-eae20e4a65fe"][0] not in {i["id"] for i in gaia}

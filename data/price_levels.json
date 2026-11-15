@@ -20833,5 +20833,53 @@
     "scale": "vodka",
     "volume_ml": 500,
     "observed_at": "2026-11-15"
+  },
+  "reply-gaia-monograph-moschofilero": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-15"
+  },
+  "reply-gaia-ritinitis-nobilis": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-15"
+  },
+  "reply-gaia-ammonite": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-15"
+  },
+  "reply-gaia-vinsanto-8-years": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 500,
+    "observed_at": "2026-11-15"
+  },
+  "reply-gaia-gaia-s-rose": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-15"
+  },
+  "reply-gaia-gaia-s-red": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-15"
+  },
+  "reply-gaia-estate": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-15"
+  },
+  "reply-gaia-anatolikos": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 500,
+    "observed_at": "2026-11-15"
   }
 }

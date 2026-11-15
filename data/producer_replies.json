@@ -1768,16 +1768,36 @@
       "name": "Gaia Wines Gaia S Red",
       "reply_id": "gaia-2026-10-30",
       "category": "Вино",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750,
+      "abv": 14.5,
+      "vintage": 2022,
+      "color": "Красное",
+      "sugar": "Сухое"
     },
     {
       "id": "reply-gaia-gaia-s-rose",
       "name": "Gaia Wines Gaia S Rose",
       "reply_id": "gaia-2026-10-30",
       "category": "Вино",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750,
+      "abv": 13,
+      "vintage": 2025,
+      "color": "Розовое",
+      "sugar": "Сухое"
     },
     {
       "id": "reply-gaia-gaia-s-white",
@@ -1792,8 +1812,18 @@
       "name": "Gaia Wines Monograph Moschofilero",
       "reply_id": "gaia-2026-10-30",
       "category": "Вино",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750,
+      "abv": 12.5,
+      "vintage": 2025,
+      "color": "Белое",
+      "sugar": "Сухое"
     },
     {
       "id": "reply-gaia-monograph-rose",
@@ -1810,6 +1840,96 @@
       "category": "Вино",
       "chains": [],
       "retail_optional": true
+    },
+    {
+      "id": "reply-gaia-ritinitis-nobilis",
+      "name": "Gaia Wines Ritinitis Nobilis",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750,
+      "abv": 12.5,
+      "vintage": 2024,
+      "color": "Белое",
+      "sugar": "Сухое"
+    },
+    {
+      "id": "reply-gaia-ammonite",
+      "name": "Gaia Wines Ammonite",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750,
+      "abv": 14,
+      "vintage": 2023,
+      "color": "Белое",
+      "sugar": "Сухое"
+    },
+    {
+      "id": "reply-gaia-vinsanto-8-years",
+      "name": "Gaia Wines Vinsanto 8 Years",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 11.5,
+      "vintage": 2015,
+      "color": "Белое",
+      "sugar": "Сладкое"
+    },
+    {
+      "id": "reply-gaia-estate",
+      "name": "Gaia Wines Estate",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750,
+      "abv": 14,
+      "vintage": 2021,
+      "color": "Красное",
+      "sugar": "Сухое"
+    },
+    {
+      "id": "reply-gaia-anatolikos",
+      "name": "Gaia Wines Anatolikos",
+      "reply_id": "gaia-2026-10-30",
+      "category": "Вино",
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-15"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 12.5,
+      "vintage": 2012,
+      "color": "Красное",
+      "sugar": "Сладкое"
     }
   ]
 }

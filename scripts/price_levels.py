@@ -72,6 +72,8 @@ def ordinary_volume(ml, scale, name=''):
     if scale == 'cider': return 330 <= ml <= 568
     # These dessert wines have a standard half-litre bottling.
     if scale == 'wine' and ml == 500 and re.search(r'Barberani', name, re.I) and re.search(r'Calcaia|Moscato Passito', name, re.I): return True
+    # Gaia dessert wines are sold in their standard half-litre bottles.
+    if scale == 'wine' and ml == 500 and re.search(r'Gaia Wines (?:Vinsanto 8 Years|Anatolikos)', name, re.I): return True
     # Reviewed retail formats: dessert wine in 500 ml, and the available
     # Chardonnay half-bottle. Its price must retain the 375 ml size in the UI.
     if scale == 'wine' and re.search(r'Viu Manent', name, re.I):
