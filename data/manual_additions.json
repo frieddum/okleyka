@@ -24976,6 +24976,131 @@
      "checked_at": "2026-11-18"
     }
    ]
+  },
+  {
+   "id": "alk-na-6369",
+   "name": "Kasteel Rouge 0.0",
+   "company": "Kasteel Brouwerij Vanhonsebrouck",
+   "category": "Пиво",
+   "country": "Бельгия",
+   "status": "vegan",
+   "rationale": "Beer Gonzo отмечает Kasteel Rouge 0.0 как веганское пиво.",
+   "scope": [],
+   "ref_type": "retailer",
+   "ref_url": "https://www.beergonzo.co.uk/buy/beer/castle-brewery-kasteel-rouge-00-af-p12407",
+   "reviewed_at": "2026-11-18",
+   "volume_ml": 330,
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ],
+   "abv": 0
+  },
+  {
+   "id": "alk-na-6375",
+   "name": "Kasteel Tropical 0.0",
+   "company": "Kasteel Brouwerij Vanhonsebrouck",
+   "category": "Пиво",
+   "country": "Бельгия",
+   "status": "vegan",
+   "rationale": "The Alcohol Free Co отмечает Kasteel Tropical 0.0 как веганское пиво.",
+   "scope": [],
+   "ref_type": "retailer",
+   "ref_url": "https://thealcoholfreeco.co.uk/products/kasteel-alcohol-free-tropical-0-0-non-alcoholic-beer",
+   "reviewed_at": "2026-11-18",
+   "volume_ml": 330,
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ],
+   "abv": 0
+  },
+  {
+   "id": "alk-na-142188",
+   "name": "Corona Cero 0.0",
+   "company": "AB InBev",
+   "category": "Пиво",
+   "country": "Бельгия",
+   "status": "vegan",
+   "rationale": "Colruyt отмечает Corona Cero 0.0 как веганское пиво.",
+   "scope": [],
+   "ref_type": "retailer",
+   "ref_url": "https://www.colruyt.be/nl/producten/2212",
+   "reviewed_at": "2026-11-18",
+   "volume_ml": 330,
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ],
+   "abv": 0
+  },
+  {
+   "id": "alk-na-80113",
+   "name": "UBY Zéro Alcool Sauvignon Blanc",
+   "company": "Domaine UBY",
+   "category": "Вино",
+   "country": "Франция",
+   "status": "vegan",
+   "rationale": "В справочнике безалкогольных вин NeoVina у UBY Zéro Alcool Sauvignon Blanc стоит отметка Vegan.",
+   "scope": [],
+   "ref_type": "directory",
+   "ref_url": "https://www.neovina.com/en/wines/domaine-uby-uby-sauvignon-blanc",
+   "reviewed_at": "2026-11-18",
+   "volume_ml": 750,
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ],
+   "color": "Белое",
+   "sugar": "Полусухое"
+  },
+  {
+   "id": "alk-na-80117",
+   "name": "UBY Zéro Alcool Rosé",
+   "company": "Domaine UBY",
+   "category": "Вино",
+   "country": "Франция",
+   "status": "vegan",
+   "rationale": "В справочнике безалкогольных вин NeoVina у UBY Zéro Alcool Rosé стоит отметка Vegan.",
+   "scope": [],
+   "ref_type": "directory",
+   "ref_url": "https://www.neovina.com/en/wines/domaine-uby-uby-rose",
+   "reviewed_at": "2026-11-18",
+   "volume_ml": 750,
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ],
+   "color": "Розовое",
+   "sugar": "Полусухое"
+  },
+  {
+   "id": "alk-na-93760",
+   "name": "Franc Lizêr Spumante Rosé 0.0",
+   "company": "Lea Winery",
+   "category": "Игристое вино",
+   "country": "Италия",
+   "status": "nonvegan",
+   "rationale": "В анкетах IWSC за 2024 и 2025 годы для этого розового игристого вина указано «Vegan wine — No». Конкретный ингредиент или способ обработки в анкетах не назван.",
+   "scope": [],
+   "ref_type": "competition",
+   "ref_url": "https://iwsc.net/results/detail/160808/franc-lizer-spumante-ros-nv",
+   "reviewed_at": "2026-11-18",
+   "volume_ml": 750,
+   "chains": [],
+   "abv": 0,
+   "color": "Розовое",
+   "sugar": "Полусухое"
   }
  ]
 }

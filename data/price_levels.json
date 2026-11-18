@@ -21387,5 +21387,35 @@
     "scale": "wine",
     "volume_ml": 750,
     "observed_at": "2026-11-18"
+  },
+  "alk-na-6369": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-11-18"
+  },
+  "alk-na-6375": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-11-18"
+  },
+  "alk-na-142188": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 330,
+    "observed_at": "2026-11-18"
+  },
+  "alk-na-80113": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-na-80117": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
   }
 }
