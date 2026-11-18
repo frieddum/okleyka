@@ -837,6 +837,8 @@ def main():
             fail(f"ru_breweries.json: ссылка на источник должна быть https: {b['url']}")
         allowed.add(b["url"])
     allowed |= {"https://veganrussian.ru/", "https://www.barnivore.com/", "https://www.barnivore.com/terms", "http://www.w3.org/2000/svg"}
+    # Manufacturer catalogues linked from the reviewed producer summaries.
+    allowed.update({"https://www.alliance1892.ru/collections/", "https://www.nivaspb.ru/catalog/liker/"})
     allowed |= search_urls
     allowed.add("https://t.me/okleikawin")  # Project channel supplied by the owner.
     allowed_files = {".html", ".js", ".css", ".json", ".woff2", ".svg", ".webp", ".txt", ".xml", ""}
