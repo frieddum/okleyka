@@ -10,13 +10,15 @@ alpha=[i for i in loaded if i['reply_id']=='alpha-2026-11-16']
 niva=[i for i in loaded if i['reply_id'].startswith('niva-')]
 ragnaud=[i for i in loaded if i['reply_id']=='ragnaud-2026-11-16']
 cert=[i for i in loaded if i['reply_id'].startswith('cert-')]
-assert len(alpha)==17 and len(niva)==49 and len(ragnaud)==12 and len(cert)==24
-assert sum(i['status']=='vegan' for i in niva)==38
+assert len(alpha)==17 and len(niva)==48 and len(ragnaud)==12 and len(cert)==24
+assert sum(i['status']=='vegan' for i in niva)==32
 assert all(i['status']=='nonvegan' for i in ragnaud)
-assert len({i['name'].casefold() for i in alpha+niva+ragnaud+cert})==102
+assert len({i['name'].casefold() for i in alpha+niva+ragnaud+cert})==101
 assert all(not rows[i['id']][2] for i in alpha+niva+ragnaud+cert)
 assert all(i['id'] not in d['price_levels'] for i in alpha+niva+ragnaud+cert)
-assert not any(i['name'] in ['Oasis Coffee','Niva Distillery Coffee','Bisquit Chocolate','Bisquit Cream'] for i in loaded)
+assert all(rows[k][1]=='n' for k in ('reply-niva-oasis-coffee','reply-niva-coffee-nd','reply-niva-bisquit-chocolate','reply-niva-bisquit-cream','reply-niva-oasis-maracuja'))
+assert all(rows[i['id']][1]=='v' for i in loaded if i['reply_id']=='alliance-2026-11-16')
+assert len([i for i in loaded if i['reply_id']=='alliance-2026-11-16'])==8
 assert rows['reply-niva-oasis-coffee-cream'][1]=='n'
 assert rows['reply-niva-niva-distillery-creme-de-cassis'][1]=='v'
 old=rows['04ff672a92']
@@ -44,4 +46,4 @@ certificate=pages[1].read_text(encoding='utf-8')
 assert len(re.findall(r'CL-0065-\d{4}',certificate))==25
 assert len(set(re.findall(r'\?id=([^"]+)',certificate)))==25
 assert '2026' in certificate and '31.12.2026' in certificate
-print('November replies: 102 new unique cards, exact certificate scope, exclusions and privacy passed')
+print('November replies: Scoped November cards, exact certificate scope, exclusions and privacy passed')

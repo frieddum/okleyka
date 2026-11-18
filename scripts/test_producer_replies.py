@@ -15,7 +15,7 @@ original = json.loads(source.read_text(encoding="utf-8"))
 loaded = load_replies(source, ROOT / "site")
 data = json.loads((ROOT / "_site/data/verified.json").read_text(encoding="utf-8"))
 rows = {r[0]: r for r in data["records"]}
-assert len(loaded["items"]) == 216
+assert len(loaded["items"]) == 223
 ararat = [i for i in loaded["items"] if i["id"].startswith("reply-ararat-")]
 assert len(ararat) == 25
 assert sum(i["status"] == "vegan" for i in ararat) == 24
@@ -52,6 +52,8 @@ for item in loaded["items"]:
     elif item["reply_id"].startswith("cert-"):
         assert assessment["refs"] == [{"type": "producer_reply", "url": "chadwick-vlabel-2026.html"}]
         assert item["product_scope"][0] in assessment["scope"]
+    elif item["reply_id"].startswith("alliance-"):
+        assert assessment["refs"] == [{"type": "producer_reply", "url": "alliance-1892.html"}]
     elif item["reply_id"].startswith("niva-"):
         assert assessment["refs"] == [{"type": "producer_reply", "url": "niva.html"}]
     elif item["reply_id"].startswith("ragnaud-"):

@@ -149,7 +149,7 @@
       "reviewed_at": "2026-11-18",
       "rationale": "НИВА, ответ от 16.11.2026: животные ингредиенты и материалы в технологических операциях не используются, кроме перечисленных молочных и сливочных ликёров. Веганского сертификата на дату ответа ещё нет.",
       "scope": [
-        "Перечисленные собственные напитки НИВЫ вне молочных исключений. Кофейные ликёры с упоминанием лювака, Bisquit и продукция по рецептам заказчиков этим решением не охвачены. Дата начала действия технологии не подтверждена."
+        "Собственные напитки НИВЫ. По данным завода, исключение касается эмульсионных ликёров Oasis и Bardeco и позиции Niva Distillery Cream."
       ],
       "public_page": "niva.html",
       "summary_only": true
@@ -227,6 +227,45 @@
         "Подтверждение относится только к указанным для каждого вина урожаям. Весь ассортимент бренда, другие урожаи, игристые и Late Harvest автоматически не подтверждены."
       ],
       "public_page": "chadwick-vlabel-2026.html"
+    },
+    "niva-bisquit-label": {
+      "company": "ООО «Опытный завод «НИВА»",
+      "country": "Россия",
+      "status": "nonvegan",
+      "evidence_date": "2026-11-16",
+      "reviewed_at": "2026-11-18",
+      "rationale": "Завод указывает молочную основу у шоколадного и сливочного «Бисквита».",
+      "scope": [
+        "Оба вкуса проверены по каталогу производителя."
+      ],
+      "public_page": "niva.html",
+      "summary_only": true
+    },
+    "niva-coffee-label": {
+      "company": "ООО «Опытный завод «НИВА»",
+      "country": "Россия",
+      "status": "nonvegan",
+      "evidence_date": "2026-11-16",
+      "reviewed_at": "2026-11-18",
+      "rationale": "В описании состава производитель указывает кофе лювак, для получения которого используют животных.",
+      "scope": [
+        "Oasis Coffee и Niva Distillery Coffee."
+      ],
+      "public_page": "niva.html",
+      "summary_only": true
+    },
+    "alliance-2026-11-16": {
+      "company": "Альянс-1892",
+      "country": "Россия",
+      "status": "vegan",
+      "evidence_date": "2026-11-16",
+      "reviewed_at": "2026-11-18",
+      "rationale": "По ответу завода от 16 ноября 2026 года, при производстве виски и джина «Альянс-1892» не использует ингредиенты и вспомогательные материалы животного происхождения.",
+      "scope": [
+        "Завод описал свои операции с момента приёмки дистиллятов. О коньяках он сообщил только об отсутствии оклейки."
+      ],
+      "public_page": "alliance-1892.html",
+      "summary_only": true
     }
   },
   "items": [
@@ -2356,16 +2395,6 @@
       "abv": 15.0
     },
     {
-      "id": "reply-niva-oasis-sambuca",
-      "name": "Oasis Sambuca",
-      "category": "Ликёр",
-      "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true,
-      "volume_ml": 500,
-      "abv": 40.0
-    },
-    {
       "id": "reply-niva-oasis-triple-sec",
       "name": "Oasis Triple Sec",
       "category": "Ликёр",
@@ -2424,56 +2453,6 @@
       "retail_optional": true,
       "volume_ml": 500,
       "abv": 40.0
-    },
-    {
-      "id": "reply-niva-bardeco-aperitivo",
-      "name": "Bardeco Aperitivo",
-      "category": "Аперитив",
-      "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true,
-      "volume_ml": 500,
-      "abv": 20.0
-    },
-    {
-      "id": "reply-niva-bardeco-mojito",
-      "name": "Bardeco Mojito",
-      "category": "Коктейль",
-      "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true,
-      "volume_ml": 500,
-      "abv": 20.0
-    },
-    {
-      "id": "reply-niva-bardeco-negroni",
-      "name": "Bardeco Negroni",
-      "category": "Коктейль",
-      "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true,
-      "volume_ml": 500,
-      "abv": 20.0
-    },
-    {
-      "id": "reply-niva-oasis-daiquiri",
-      "name": "Oasis Daiquiri",
-      "category": "Аперитив",
-      "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true,
-      "volume_ml": 500,
-      "abv": 12.0
-    },
-    {
-      "id": "reply-niva-oasis-mojito",
-      "name": "Oasis Mojito",
-      "category": "Коктейль",
-      "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true,
-      "volume_ml": 500,
-      "abv": 12.0
     },
     {
       "id": "reply-niva-niva-distillery-aperitivo",
@@ -3040,6 +3019,120 @@
         "Подтверждённые урожаи: 2023, 2024, 2025."
       ],
       "color": "Красное"
+    },
+    {
+      "id": "reply-niva-bisquit-chocolate",
+      "name": "Бисквит Шоколадный",
+      "category": "Ликёр",
+      "reply_id": "niva-bisquit-label",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 18
+    },
+    {
+      "id": "reply-niva-bisquit-cream",
+      "name": "Бисквит Сливочный",
+      "category": "Ликёр",
+      "reply_id": "niva-bisquit-label",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 18
+    },
+    {
+      "id": "reply-niva-oasis-coffee",
+      "name": "Oasis Coffee",
+      "category": "Ликёр",
+      "reply_id": "niva-coffee-label",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 20
+    },
+    {
+      "id": "reply-niva-coffee-nd",
+      "name": "Niva Distillery Coffee",
+      "category": "Ликёр",
+      "reply_id": "niva-coffee-label",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 20
+    },
+    {
+      "id": "reply-niva-oasis-maracuja",
+      "name": "Oasis Maracuja",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 15
+    },
+    {
+      "id": "reply-alliance-seven-yards-3-years",
+      "name": "Seven Yards 3 Years",
+      "category": "Виски",
+      "reply_id": "alliance-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-alliance-seven-yards-7-years",
+      "name": "Seven Yards 7 Years",
+      "category": "Виски",
+      "reply_id": "alliance-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-alliance-scotch-terrier-original",
+      "name": "Scotch Terrier Original",
+      "category": "Виски",
+      "reply_id": "alliance-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-alliance-scotch-terrier-aged-5-years",
+      "name": "Scotch Terrier Aged 5 Years",
+      "category": "Виски",
+      "reply_id": "alliance-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-alliance-scotch-terrier-single-cask-43",
+      "name": "Scotch Terrier Single Cask 43%",
+      "category": "Виски",
+      "reply_id": "alliance-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-alliance-scotch-terrier-black",
+      "name": "Scotch Terrier Black",
+      "category": "Виски",
+      "reply_id": "alliance-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-alliance-scotch-terrier-spiced-mix",
+      "name": "Scotch Terrier Spiced Mix",
+      "category": "Висковый напиток",
+      "reply_id": "alliance-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-alliance-royal-post-london-dry-gin",
+      "name": "Royal Post London Dry Gin",
+      "category": "Джин",
+      "reply_id": "alliance-2026-11-16",
+      "chains": [],
+      "retail_optional": true
     }
   ]
 }

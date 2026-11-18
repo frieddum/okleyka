@@ -6,6 +6,7 @@ from html import escape
 from producer_replies import load_replies, render_directory
 
 KNOWN = {
+    'Альянс-1892': ('Альянс-1892', 'alliance-1892.html'),
     'ООО «Опытный завод «НИВА»': ('НИВА', 'niva.html'),
     'Ragnaud-Sabourin': ('Ragnaud-Sabourin', 'ragnaud-sabourin.html'),
     'Alpha Estate': ('Alpha Estate', 'alpha-estate.html'),
@@ -72,7 +73,7 @@ def write_pages(path, vlabel_path, site, out, translations):
     (out / 'producers.html').write_text(template.replace('<!-- PRODUCER_REPLIES -->', render_index(rows)), encoding='utf8')
     vlabel = json.loads(vlabel_path.read_text(encoding='utf8'))['items']
     for row in rows:
-        if row['kind'] == 'existing' or row['page'] in ('ararat.html', 'bashspirt.html', 'myskhako.html', 'gaia-wines.html', 'alpha-estate.html', 'niva.html', 'ragnaud-sabourin.html'):
+        if row['kind'] == 'existing' or row['page'] in ('alliance-1892.html', 'ararat.html', 'bashspirt.html', 'myskhako.html', 'gaia-wines.html', 'alpha-estate.html', 'niva.html', 'ragnaud-sabourin.html'):
             continue
         content = (render_directory(path, site, translations, company_filter=row['company'])
                    if row['kind'] == 'reply' else render_vlabel([i for i in vlabel if i['company'] == row['company']]))
