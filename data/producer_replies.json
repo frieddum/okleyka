@@ -2074,18 +2074,30 @@
       "name": "Alpha Estate Malagouzia Single Vineyard “Turtles”",
       "category": "Вино",
       "reply_id": "alpha-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
-      "color": "Белое"
+      "color": "Белое",
+      "volume_ml": 750
     },
     {
       "id": "reply-alpha-sauvignon-blanc",
       "name": "Alpha Estate Sauvignon Blanc",
       "category": "Вино",
       "reply_id": "alpha-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
-      "color": "Белое"
+      "color": "Белое",
+      "volume_ml": 750
     },
     {
       "id": "reply-alpha-ecosystem-sauvignon-blanc-fume-single-block-kaliva",
@@ -2146,9 +2158,15 @@
       "name": "Alpha Estate Xinomavro Single Vineyard “Hedgehog”",
       "category": "Вино",
       "reply_id": "alpha-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
-      "color": "Красное"
+      "color": "Красное",
+      "volume_ml": 750
     },
     {
       "id": "reply-alpha-syrah-single-vineyard-turtles",
@@ -2191,9 +2209,15 @@
       "name": "Alpha Estate Red (S.M.X)",
       "category": "Вино",
       "reply_id": "alpha-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
-      "color": "Красное"
+      "color": "Красное",
+      "volume_ml": 750
     },
     {
       "id": "reply-alpha-alpha-one",
@@ -2249,7 +2273,12 @@
       "name": "Amaretto San Marco",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
       "volume_ml": 500,
       "abv": 25.0
@@ -2399,7 +2428,12 @@
       "name": "Oasis Triple Sec",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "КРЮ ПРОФИ",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
       "volume_ml": 500,
       "abv": 40.0
@@ -2419,7 +2453,16 @@
       "name": "Niva Distillery Blue Curacao",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
       "volume_ml": 750,
       "abv": 25.0
@@ -2429,7 +2472,12 @@
       "name": "Niva Distillery Crème de Cassis",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
       "volume_ml": 750,
       "abv": 17.0
@@ -2489,8 +2537,14 @@
       "name": "Niva Distillery Triple Sec",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-sambuca",
@@ -2505,72 +2559,142 @@
       "name": "Niva Distillery Hazelnut",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-melon",
       "name": "Niva Distillery Melon",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-coconut",
       "name": "Niva Distillery Coconut",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-creme-de-bananes",
       "name": "Niva Distillery Crème de Bananes",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-apple",
       "name": "Niva Distillery Apple",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-creme-de-peche",
       "name": "Niva Distillery Crème de Pêche",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-raspberry",
       "name": "Niva Distillery Raspberry",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-elderflower",
       "name": "Niva Distillery Elderflower",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-strawberry",
       "name": "Niva Distillery Strawberry",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-cacao-brown",
@@ -2585,16 +2709,28 @@
       "name": "Niva Distillery Lychee",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-maraschino",
       "name": "Niva Distillery Maraschino",
       "category": "Ликёр",
       "reply_id": "niva-vegan-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 750
     },
     {
       "id": "reply-niva-niva-distillery-gin",
@@ -2749,12 +2885,18 @@
       "name": "Rocas de Seña",
       "category": "Вино",
       "reply_id": "cert-sena-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
       "product_scope": [
         "Подтверждённые урожаи: 2020, 2021, 2022, 2023."
       ],
-      "color": "Красное"
+      "color": "Красное",
+      "volume_ml": 750
     },
     {
       "id": "reply-cert-vinedo-chadwick",
@@ -2893,48 +3035,88 @@
       "name": "Arboleda Chardonnay",
       "category": "Вино",
       "reply_id": "cert-arboleda-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Vinela",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
       "product_scope": [
         "Подтверждённые урожаи: 2022, 2023, 2024, 2025."
       ],
-      "color": "Белое"
+      "color": "Белое",
+      "volume_ml": 750
     },
     {
       "id": "reply-cert-arboleda-pinot-noir",
       "name": "Arboleda Pinot Noir",
       "category": "Вино",
       "reply_id": "cert-arboleda-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
       "product_scope": [
         "Подтверждённые урожаи: 2022, 2023, 2024."
       ],
-      "color": "Красное"
+      "color": "Красное",
+      "volume_ml": 750
     },
     {
       "id": "reply-cert-arboleda-carmenere",
       "name": "Arboleda Carmenere",
       "category": "Вино",
       "reply_id": "cert-arboleda-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Мои Винотеки",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
       "product_scope": [
         "Подтверждённые урожаи: 2021, 2022, 2023, 2024."
       ],
-      "color": "Красное"
+      "color": "Красное",
+      "volume_ml": 750
     },
     {
       "id": "reply-cert-arboleda-cabernet-sauvignon",
       "name": "Arboleda Cabernet Sauvignon",
       "category": "Вино",
       "reply_id": "cert-arboleda-2026-11-16",
-      "chains": [],
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        }
+      ],
       "retail_optional": true,
       "product_scope": [
         "Подтверждённые урожаи: 2021, 2022, 2023, 2024."
       ],
-      "color": "Красное"
+      "color": "Красное",
+      "volume_ml": 750
     },
     {
       "id": "reply-cert-arboleda-syrah",
@@ -3075,40 +3257,86 @@
       "name": "Seven Yards 3 Years",
       "category": "Виски",
       "reply_id": "alliance-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "WineHelp",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 500
     },
     {
       "id": "reply-alliance-seven-yards-7-years",
       "name": "Seven Yards 7 Years",
       "category": "Виски",
       "reply_id": "alliance-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "КРЮ ПРОФИ",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 500
     },
     {
       "id": "reply-alliance-scotch-terrier-original",
       "name": "Scotch Terrier Original",
       "category": "Виски",
       "reply_id": "alliance-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Decanter",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Калейдоскоп напитков мира",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Магнит",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 700
     },
     {
       "id": "reply-alliance-scotch-terrier-aged-5-years",
       "name": "Scotch Terrier Aged 5 Years",
       "category": "Виски",
       "reply_id": "alliance-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "КРЮ ПРОФИ",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "Калейдоскоп напитков мира",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 500
     },
     {
       "id": "reply-alliance-scotch-terrier-single-cask-43",
       "name": "Scotch Terrier Single Cask 43%",
       "category": "Виски",
       "reply_id": "alliance-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Винотека (vinotheque.ru)",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "network": "КРЮ ПРОФИ",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 500
     },
     {
       "id": "reply-alliance-scotch-terrier-black",
@@ -3123,16 +3351,28 @@
       "name": "Scotch Terrier Spiced Mix",
       "category": "Висковый напиток",
       "reply_id": "alliance-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "BestWine24",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 500
     },
     {
       "id": "reply-alliance-royal-post-london-dry-gin",
       "name": "Royal Post London Dry Gin",
       "category": "Джин",
       "reply_id": "alliance-2026-11-16",
-      "chains": [],
-      "retail_optional": true
+      "chains": [
+        {
+          "network": "Мастер вин",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "retail_optional": true,
+      "volume_ml": 500
     }
   ]
 }

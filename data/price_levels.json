@@ -19359,8 +19359,7 @@
     "level": 4,
     "scale": "wine",
     "volume_ml": 750,
-    "observed_at": null,
-    "market_estimate": true
+    "observed_at": "2026-11-18"
   },
   "a23a493ba2": {
     "level": 3,
@@ -20881,5 +20880,197 @@
     "scale": "wine",
     "volume_ml": 500,
     "observed_at": "2026-11-15"
+  },
+  "reply-alpha-malagouzia-single-vineyard-turtles": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-alpha-sauvignon-blanc": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-alpha-red-s-m-x": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-alpha-xinomavro-single-vineyard-hedgehog": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-apple": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-blue-curacao": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-coconut": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-creme-de-bananes": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-creme-de-cassis": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-creme-de-peche": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-elderflower": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-hazelnut": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-melon": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-raspberry": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-strawberry": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-triple-sec": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-cert-rocas-de-sena": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-alliance-scotch-terrier-original": {
+    "level": 1,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-11-18"
+  },
+  "reply-cert-arboleda-cabernet-sauvignon": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-cert-arboleda-carmenere": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-maraschino": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-cert-arboleda-chardonnay": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-alliance-scotch-terrier-spiced-mix": {
+    "level": 1,
+    "scale": "whisky",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-amaretto-san-marco": {
+    "level": 1,
+    "scale": "liqueur",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
+  },
+  "reply-cert-arboleda-pinot-noir": {
+    "level": 5,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-niva-distillery-lychee": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-alliance-seven-yards-3-years": {
+    "level": 1,
+    "scale": "whisky",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
+  },
+  "reply-alliance-scotch-terrier-aged-5-years": {
+    "level": 2,
+    "scale": "whisky",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
+  },
+  "reply-alliance-seven-yards-7-years": {
+    "level": 2,
+    "scale": "whisky",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
+  },
+  "reply-alliance-scotch-terrier-single-cask-43": {
+    "level": 1,
+    "scale": "whisky",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
+  },
+  "reply-alliance-royal-post-london-dry-gin": {
+    "level": 2,
+    "scale": "gin",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-oasis-triple-sec": {
+    "level": 1,
+    "scale": "liqueur",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
   }
 }

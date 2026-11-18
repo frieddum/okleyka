@@ -14,16 +14,22 @@ assert len(alpha)==17 and len(niva)==48 and len(ragnaud)==12 and len(cert)==24
 assert sum(i['status']=='vegan' for i in niva)==32
 assert all(i['status']=='nonvegan' for i in ragnaud)
 assert len({i['name'].casefold() for i in alpha+niva+ragnaud+cert})==101
-assert all(not rows[i['id']][2] for i in alpha+niva+ragnaud+cert)
-assert all(i['id'] not in d['price_levels'] for i in alpha+niva+ragnaud+cert)
+november = alpha + niva + ragnaud + cert + [i for i in loaded if i['reply_id']=='alliance-2026-11-16']
+for item in november:
+    rid = item['id']
+    assert bool(rows[rid][2]) == (rid in d['price_levels'])
+    if item['status'] == 'nonvegan':
+        assert not rows[rid][2]
+assert rows['reply-alpha-sauvignon-blanc'][2] and rows['reply-alliance-scotch-terrier-original'][2]
 assert all(rows[k][1]=='n' for k in ('reply-niva-oasis-coffee','reply-niva-coffee-nd','reply-niva-bisquit-chocolate','reply-niva-bisquit-cream','reply-niva-oasis-maracuja'))
 assert all(rows[i['id']][1]=='v' for i in loaded if i['reply_id']=='alliance-2026-11-16')
 assert len([i for i in loaded if i['reply_id']=='alliance-2026-11-16'])==8
 assert rows['reply-niva-oasis-coffee-cream'][1]=='n'
 assert rows['reply-niva-niva-distillery-creme-de-cassis'][1]=='v'
 old=rows['04ff672a92']
-assert old[1]=='v' and old[2]==[]
-assert old[0] not in d['price_levels']
+networks=json.loads((ROOT/'_site/data/meta.json').read_text(encoding='utf-8'))['dicts']['networks']
+assert old[1]=='v' and {networks[n] for n in old[2]} == {'BestWine24'}
+assert d['price_levels'][old[0]]['volume_ml']==750
 assert not any(i['name']=='Errázuriz Reserva Estate Sauvignon Blanc' for i in cert)
 a=d['assessments'][old[15]]
 assert 'Подтверждённые урожаи: 2022, 2023, 2024, 2025, 2026.' in a['scope']

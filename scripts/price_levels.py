@@ -22,7 +22,7 @@ REFERENCE = {
 
 def category(kind, sparkling=False):
     if kind == 'Игристое вино' or (kind == 'Вино' and sparkling): return 'sparkling'
-    return {'Вино':'wine','Водка':'vodka','Виски':'whisky','Коньяк':'cognac',
+    return {'Вино':'wine','Водка':'vodka','Виски':'whisky','Висковый напиток':'whisky','Коньяк':'cognac',
             'Бренди':'brandy','Ром':'rum','Джин':'gin','Текила':'tequila',
             'Ликёр':'liqueur','Пиво':'beer','Сидр':'cider','Соджу':'soju',
             'Сакэ':'sake','Вермут':'vermouth','Аперитив':'aperitif',
