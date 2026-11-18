@@ -3772,5 +3772,569 @@
     "expected_name": "EREBUNI 50",
     "network": "Алкотека",
     "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-142188",
+    "expected_name": "Corona Cero 0.0",
+    "network": "METRO",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-142188",
+    "expected_name": "Corona Cero 0.0",
+    "network": "Ароматный Мир",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-142188",
+    "expected_name": "Corona Cero 0.0",
+    "network": "Лента",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-142188",
+    "expected_name": "Corona Cero 0.0",
+    "network": "Магнит",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-142188",
+    "expected_name": "Corona Cero 0.0",
+    "network": "Пробки & Бутылки",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-142188",
+    "expected_name": "Corona Cero 0.0",
+    "network": "Пятёрочка",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-97422",
+    "expected_name": "Hoegaarden 0.0",
+    "network": "METRO",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-97422",
+    "expected_name": "Hoegaarden 0.0",
+    "network": "Градусы",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-97422",
+    "expected_name": "Hoegaarden 0.0",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-97422",
+    "expected_name": "Hoegaarden 0.0",
+    "network": "Пятёрочка",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-6369",
+    "expected_name": "Kasteel Rouge 0.0",
+    "network": "METRO",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-6369",
+    "expected_name": "Kasteel Rouge 0.0",
+    "network": "Калейдоскоп напитков мира",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-93715",
+    "expected_name": "Mucho Más Tinto 0,0",
+    "network": "BestWine24",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-93715",
+    "expected_name": "Mucho Más Tinto 0,0",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-93715",
+    "expected_name": "Mucho Más Tinto 0,0",
+    "network": "Ароматный Мир",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-93715",
+    "expected_name": "Mucho Más Tinto 0,0",
+    "network": "Градусы",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-93715",
+    "expected_name": "Mucho Más Tinto 0,0",
+    "network": "Магнит",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-93715",
+    "expected_name": "Mucho Más Tinto 0,0",
+    "network": "Пробки & Бутылки",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-93715",
+    "expected_name": "Mucho Más Tinto 0,0",
+    "network": "Пятёрочка",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-48785",
+    "expected_name": "Sangre de Toro Blanco 0,0",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-48785",
+    "expected_name": "Sangre de Toro Blanco 0,0",
+    "network": "Табрис",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-48787",
+    "expected_name": "Sangre de Toro Rosé 0,0",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-48787",
+    "expected_name": "Sangre de Toro Rosé 0,0",
+    "network": "Табрис",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-48783",
+    "expected_name": "Sangre de Toro Tinto 0,0",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-9797",
+    "expected_name": "Stella Artois Безалкогольное",
+    "network": "METRO",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-9797",
+    "expected_name": "Stella Artois Безалкогольное",
+    "network": "Калейдоскоп напитков мира",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-9797",
+    "expected_name": "Stella Artois Безалкогольное",
+    "network": "КуулКлевер / ОТДОХНИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-9797",
+    "expected_name": "Stella Artois Безалкогольное",
+    "network": "Магнит",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-9797",
+    "expected_name": "Stella Artois Безалкогольное",
+    "network": "Пятёрочка",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-6634",
+    "expected_name": "Störtebeker Bernstein-Weizen Alkoholfrei",
+    "network": "METRO",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-41848",
+    "expected_name": "Афанасий Марочное безалкогольное",
+    "network": "Ароматный Мир",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-41848",
+    "expected_name": "Афанасий Марочное безалкогольное",
+    "network": "Пробки & Бутылки",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-41848",
+    "expected_name": "Афанасий Марочное безалкогольное",
+    "network": "Табрис",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-na-15154",
+    "expected_name": "Афанасий Ремесленное безалкогольное светлое",
+    "network": "Ласточка",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-35437",
+    "expected_name": "Мысхако Игристое белое брют",
+    "network": "METRO",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-35437",
+    "expected_name": "Мысхако Игристое белое брют",
+    "network": "Ароматный Мир",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-35439",
+    "expected_name": "Мысхако Игристое белое полусладкое",
+    "network": "METRO",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-35439",
+    "expected_name": "Мысхако Игристое белое полусладкое",
+    "network": "WineHelp",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-35439",
+    "expected_name": "Мысхако Игристое белое полусладкое",
+    "network": "Ароматный Мир",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-35439",
+    "expected_name": "Мысхако Игристое белое полусладкое",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-35439",
+    "expected_name": "Мысхако Игристое белое полусладкое",
+    "network": "Пробки & Бутылки",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-35441",
+    "expected_name": "Мысхако Игристое розовое полусухое",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-75990",
+    "expected_name": "Мысхако Квинтэссенция Вионье",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-75990",
+    "expected_name": "Мысхако Квинтэссенция Вионье",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-75990",
+    "expected_name": "Мысхако Квинтэссенция Вионье",
+    "network": "Лента",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-53654",
+    "expected_name": "Мысхако Квинтэссенция Зинфандель Рипассо",
+    "network": "BestWine24",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-53654",
+    "expected_name": "Мысхако Квинтэссенция Зинфандель Рипассо",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-53654",
+    "expected_name": "Мысхако Квинтэссенция Зинфандель Рипассо",
+    "network": "Лента",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-53654",
+    "expected_name": "Мысхако Квинтэссенция Зинфандель Рипассо",
+    "network": "Перекрёсток",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-53652",
+    "expected_name": "Мысхако Квинтэссенция Каберне Совиньон Рипассо",
+    "network": "BestWine24",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-53652",
+    "expected_name": "Мысхако Квинтэссенция Каберне Совиньон Рипассо",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-53652",
+    "expected_name": "Мысхако Квинтэссенция Каберне Совиньон Рипассо",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-53652",
+    "expected_name": "Мысхако Квинтэссенция Каберне Совиньон Рипассо",
+    "network": "Лента",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-53652",
+    "expected_name": "Мысхако Квинтэссенция Каберне Совиньон Рипассо",
+    "network": "Перекрёсток",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-76406",
+    "expected_name": "Мысхако Квинтэссенция Карменер",
+    "network": "BestWine24",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-76406",
+    "expected_name": "Мысхако Квинтэссенция Карменер",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-76406",
+    "expected_name": "Мысхако Квинтэссенция Карменер",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-76406",
+    "expected_name": "Мысхако Квинтэссенция Карменер",
+    "network": "Ласточка",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-5771",
+    "expected_name": "Мысхако Крафт Семильон Русан",
+    "network": "BestWine24",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-5771",
+    "expected_name": "Мысхако Крафт Семильон Русан",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-144907",
+    "expected_name": "Мысхако Крафт, белое брют",
+    "network": "BestWine24",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-144907",
+    "expected_name": "Мысхако Крафт, белое брют",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-144907",
+    "expected_name": "Мысхако Крафт, белое брют",
+    "network": "Лента",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-141770",
+    "expected_name": "Мысхако Кюве Каберне Совиньон Мерло",
+    "network": "BestWine24",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-141770",
+    "expected_name": "Мысхако Кюве Каберне Совиньон Мерло",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-141770",
+    "expected_name": "Мысхако Кюве Каберне Совиньон Мерло",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-141770",
+    "expected_name": "Мысхако Кюве Каберне Совиньон Мерло",
+    "network": "Лента",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-141770",
+    "expected_name": "Мысхако Кюве Каберне Совиньон Мерло",
+    "network": "Пробки & Бутылки",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-77399",
+    "expected_name": "Мысхако Кюве Мерло Темпранильо",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-77399",
+    "expected_name": "Мысхако Кюве Мерло Темпранильо",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-35430",
+    "expected_name": "Мысхако Кюве Сира Марселан",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-64032",
+    "expected_name": "Мысхако Кюве Совиньон Блан Вионье",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-141769",
+    "expected_name": "Мысхако Кюве Шардоне Совиньон Блан",
+    "network": "BestWine24",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-141769",
+    "expected_name": "Мысхако Кюве Шардоне Совиньон Блан",
+    "network": "WineCantina",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-141769",
+    "expected_name": "Мысхако Кюве Шардоне Совиньон Блан",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-141769",
+    "expected_name": "Мысхако Кюве Шардоне Совиньон Блан",
+    "network": "Лента",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-141769",
+    "expected_name": "Мысхако Кюве Шардоне Совиньон Блан",
+    "network": "Пробки & Бутылки",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-5777",
+    "expected_name": "Мысхако Манно Совиньон Блан Шардоне",
+    "network": "BestWine24",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-5777",
+    "expected_name": "Мысхако Манно Совиньон Блан Шардоне",
+    "network": "Красное&Белое",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-52971",
+    "expected_name": "Мысхако Марселан",
+    "network": "Винотека (vinotheque.ru)",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-52971",
+    "expected_name": "Мысхако Марселан",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-5903",
+    "expected_name": "Мысхако Окс-Редокс Мерло Каберне Фран",
+    "network": "BestWine24",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-5903",
+    "expected_name": "Мысхако Окс-Редокс Мерло Каберне Фран",
+    "network": "Красное&Белое",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-143131",
+    "expected_name": "Мысхако Флюте Вионье Алиготе",
+    "network": "Перекрёсток",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-143131",
+    "expected_name": "Мысхако Флюте Вионье Алиготе",
+    "network": "Табрис",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-143132",
+    "expected_name": "Мысхако Флюте Зинфандель Пино Нуар",
+    "network": "Перекрёсток",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-143132",
+    "expected_name": "Мысхако Флюте Зинфандель Пино Нуар",
+    "network": "Табрис",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-143130",
+    "expected_name": "Мысхако Флюте Совиньон Блан Гевюрцтраминер",
+    "network": "Перекрёсток",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-143130",
+    "expected_name": "Мысхако Флюте Совиньон Блан Гевюрцтраминер",
+    "network": "Табрис",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-75997",
+    "expected_name": "Мысхако Шестое чувство Тропический взрыв",
+    "network": "WineHelp",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-75997",
+    "expected_name": "Мысхако Шестое чувство Тропический взрыв",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-76005",
+    "expected_name": "Мысхако Шестое чувство Фруктовый взрыв",
+    "network": "WineHelp",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-76005",
+    "expected_name": "Мысхако Шестое чувство Фруктовый взрыв",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "alk-myskhako-76003",
+    "expected_name": "Мысхако Шестое чувство Ягодный взрыв",
+    "network": "КРЮ ПРОФИ",
+    "checked_at": "2026-11-18"
   }
 ]
