@@ -448,5 +448,31 @@
     "producer": "Carl Jung GmbH",
     "country": "Германия",
     "reason": "Carl Jung confirms production in Ruedesheim, Germany: https://www.carl-jung.de/haeufig_gestellte_fragen/ . JungWines is the Canadian distributor, not the manufacturing country."
+  },
+  "04ff672a92": {
+    "expected_name": "Белое вино Estate Reserva Совиньон Блан сухое Errazuriz 13% 750мл",
+    "name": "Errázuriz Reserva Estate Sauvignon Blanc",
+    "producer": "Errázuriz",
+    "country": "Чили",
+    "assessment": {
+      "status": "vegan",
+      "reviewed_at": "2026-11-18",
+      "evidence_date": "2026-11-16",
+      "evidence_date_precision": "day",
+      "rationale": "Сертификат V-Label VIÑEDOS FAMILIA CHADWICK SPA., полученный от производителя 16.11.2026, подтверждает перечисленные вина и урожаи. Срок действия сертификата — до 31.12.2026.",
+      "scope": [
+        "Подтверждение относится только к указанным для каждого вина урожаям. Весь ассортимент бренда, другие урожаи, игристые и Late Harvest автоматически не подтверждены.",
+        "Подтверждённые урожаи: 2022, 2023, 2024, 2025, 2026."
+      ],
+      "identity": null,
+      "caveats": [],
+      "refs": [
+        {
+          "type": "producer_reply",
+          "url": "chadwick-vlabel-2026.html"
+        }
+      ]
+    },
+    "reason": "Replace 2018 blanket white-wine verdict with the 2026 certificate, limited to the explicitly certified 2022–2026 vintages. Keep the existing product ID."
   }
 }

@@ -30,15 +30,18 @@ def load_replies(path, site):
         reply = replies[item["reply_id"]]
         if set(item) & set(reply):
             raise ValueError("An item must not override the producer reply")
-        if not item["chains"] and not (reply["status"] == "vegan" and item.get("retail_optional") is True):
+        if not item["chains"] and item.get("retail_optional") is not True:
             raise ValueError("Direct reply is not evidence of retail presence")
+        product_scope = item.get("product_scope", [])
+        if not isinstance(product_scope, list) or any(not isinstance(s, str) or not s.strip() for s in product_scope):
+            raise ValueError("Invalid product-specific scope")
         for chain in item["chains"]:
             if not chain["network"]:
                 raise ValueError("Missing retail chain")
             date.fromisoformat(chain["checked_at"])
         refs = ([{"type": "producer_reply", "url": reply["public_page"]}]
                 if reply.get("public_page") else [])
-        items.append({**item, **reply, "refs": refs})
+        items.append({**item, **reply, "scope": [*reply["scope"], *product_scope], "refs": refs})
     return {"items": items, "copied_at": max(r["evidence_date"] for r in replies.values())}
 
 
@@ -93,7 +96,8 @@ def render_directory(path, site, translations, company_filter=None):
             for scope in reply["scope"]:
                 parts.append(f'<p class="reply-scope"><strong>Область действия:</strong> <span>{escape(scope)}</span></p>')
             if reply.get("public_page"):
-                parts.append(f'<a class="reply-original" data-lang-link href="{escape(reply["public_page"])}">Оригинал ответа</a>')
+                source_label = "Описание ответа" if reply.get("summary_only") else "Оригинал ответа"
+                parts.append(f'<a class="reply-original" data-lang-link href="{escape(reply["public_page"])}">{source_label}</a>')
             if items:
                 parts.append(f'<details class="reply-products"><summary><span>Напитки в справочнике</span> ({len(items)})</summary><ul>')
                 for item in items:

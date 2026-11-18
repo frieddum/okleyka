@@ -128,6 +128,105 @@
       "scope": [
         "Все вина Gaia Wines из линеек Nemea и Santorini. Производитель отдельно перечислил 12 вин с официальной веганской сертификацией; наличие сертификата не заявлено для остальных вин."
       ]
+    },
+    "alpha-2026-11-16": {
+      "company": "Alpha Estate",
+      "country": "Греция",
+      "status": "vegan",
+      "evidence_date": "2026-11-16",
+      "reviewed_at": "2026-11-18",
+      "rationale": "Alpha Estate, ответ от 16.11.2026: весь ассортимент вин, включая Omega Late Harvest, имеет веганскую сертификацию. Животные ингредиенты и технологические вспомогательные вещества не используются, в том числе при осветлении и фильтрации.",
+      "scope": [
+        "Текущий ассортимент вин Alpha Estate. Ответ не устанавливает начальный урожай для старых бутылок и не распространяется на другие хозяйства."
+      ],
+      "public_page": "alpha-estate.html"
+    },
+    "niva-vegan-2026-11-16": {
+      "company": "ООО «Опытный завод «НИВА»",
+      "country": "Россия",
+      "status": "vegan",
+      "evidence_date": "2026-11-16",
+      "reviewed_at": "2026-11-18",
+      "rationale": "НИВА, ответ от 16.11.2026: животные ингредиенты и материалы в технологических операциях не используются, кроме перечисленных молочных и сливочных ликёров. Веганского сертификата на дату ответа ещё нет.",
+      "scope": [
+        "Перечисленные собственные напитки НИВЫ вне молочных исключений. Кофейные ликёры с упоминанием лювака, Bisquit и продукция по рецептам заказчиков этим решением не охвачены. Дата начала действия технологии не подтверждена."
+      ],
+      "public_page": "niva.html",
+      "summary_only": true
+    },
+    "niva-milk-2026-11-16": {
+      "company": "ООО «Опытный завод «НИВА»",
+      "country": "Россия",
+      "status": "nonvegan",
+      "evidence_date": "2026-11-16",
+      "reviewed_at": "2026-11-18",
+      "rationale": "НИВА, ответ от 16.11.2026: молочные и сливочные эмульсионные ликёры Oasis, Bardeco и Niva Distillery Cream не подходят веганам.",
+      "scope": [
+        "Только перечисленные молочные и сливочные версии. Это решение не относится к немолочным напиткам Oasis, Bardeco и Niva Distillery."
+      ],
+      "public_page": "niva.html",
+      "summary_only": true
+    },
+    "ragnaud-2026-11-16": {
+      "company": "Ragnaud-Sabourin",
+      "country": "Франция",
+      "status": "nonvegan",
+      "evidence_date": "2026-11-16",
+      "reviewed_at": "2026-11-18",
+      "rationale": "Ragnaud-Sabourin, ответ от 16.11.2026: производитель сообщил, что его продукция не относится к веганской. Конкретная причина в ответе не названа.",
+      "scope": [
+        "Коньяки Ragnaud-Sabourin из текущего каталога производителя. Не распространяется на другие дома с похожими названиями."
+      ],
+      "public_page": "ragnaud-sabourin.html",
+      "summary_only": true
+    },
+    "cert-sena-2026-11-16": {
+      "company": "Seña",
+      "country": "Чили",
+      "status": "vegan",
+      "evidence_date": "2026-11-16",
+      "reviewed_at": "2026-11-18",
+      "rationale": "Сертификат V-Label VIÑEDOS FAMILIA CHADWICK SPA., полученный от производителя 16.11.2026, подтверждает перечисленные вина и урожаи. Срок действия сертификата — до 31.12.2026.",
+      "scope": [
+        "Подтверждение относится только к указанным для каждого вина урожаям. Весь ассортимент бренда, другие урожаи, игристые и Late Harvest автоматически не подтверждены."
+      ],
+      "public_page": "chadwick-vlabel-2026.html"
+    },
+    "cert-vinedo-chadwick-2026-11-16": {
+      "company": "Viñedo Chadwick",
+      "country": "Чили",
+      "status": "vegan",
+      "evidence_date": "2026-11-16",
+      "reviewed_at": "2026-11-18",
+      "rationale": "Сертификат V-Label VIÑEDOS FAMILIA CHADWICK SPA., полученный от производителя 16.11.2026, подтверждает перечисленные вина и урожаи. Срок действия сертификата — до 31.12.2026.",
+      "scope": [
+        "Подтверждение относится только к указанным для каждого вина урожаям. Весь ассортимент бренда, другие урожаи, игристые и Late Harvest автоматически не подтверждены."
+      ],
+      "public_page": "chadwick-vlabel-2026.html"
+    },
+    "cert-errazuriz-2026-11-16": {
+      "company": "Errázuriz",
+      "country": "Чили",
+      "status": "vegan",
+      "evidence_date": "2026-11-16",
+      "reviewed_at": "2026-11-18",
+      "rationale": "Сертификат V-Label VIÑEDOS FAMILIA CHADWICK SPA., полученный от производителя 16.11.2026, подтверждает перечисленные вина и урожаи. Срок действия сертификата — до 31.12.2026.",
+      "scope": [
+        "Подтверждение относится только к указанным для каждого вина урожаям. Весь ассортимент бренда, другие урожаи, игристые и Late Harvest автоматически не подтверждены."
+      ],
+      "public_page": "chadwick-vlabel-2026.html"
+    },
+    "cert-arboleda-2026-11-16": {
+      "company": "Arboleda",
+      "country": "Чили",
+      "status": "vegan",
+      "evidence_date": "2026-11-16",
+      "reviewed_at": "2026-11-18",
+      "rationale": "Сертификат V-Label VIÑEDOS FAMILIA CHADWICK SPA., полученный от производителя 16.11.2026, подтверждает перечисленные вина и урожаи. Срок действия сертификата — до 31.12.2026.",
+      "scope": [
+        "Подтверждение относится только к указанным для каждого вина урожаям. Весь ассортимент бренда, другие урожаи, игристые и Late Harvest автоматически не подтверждены."
+      ],
+      "public_page": "chadwick-vlabel-2026.html"
     }
   },
   "items": [
@@ -1930,6 +2029,1017 @@
       "vintage": 2012,
       "color": "Красное",
       "sugar": "Сладкое"
+    },
+    {
+      "id": "reply-alpha-malagouzia-single-vineyard-turtles",
+      "name": "Alpha Estate Malagouzia Single Vineyard “Turtles”",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Белое"
+    },
+    {
+      "id": "reply-alpha-sauvignon-blanc",
+      "name": "Alpha Estate Sauvignon Blanc",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Белое"
+    },
+    {
+      "id": "reply-alpha-ecosystem-sauvignon-blanc-fume-single-block-kaliva",
+      "name": "Alpha Estate Ecosystem Sauvignon Blanc Fume Single Block “Kaliva”",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Белое"
+    },
+    {
+      "id": "reply-alpha-ecosystem-chardonnay-single-block-tramonto",
+      "name": "Alpha Estate Ecosystem Chardonnay Single Block “Tramonto”",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Белое"
+    },
+    {
+      "id": "reply-alpha-assyrtiko-single-block-aghia-kiriaki",
+      "name": "Alpha Estate Assyrtiko Single Block “Aghia Kiriaki”",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Белое"
+    },
+    {
+      "id": "reply-alpha-ecosystem-malagouzia-single-block-latipes",
+      "name": "Alpha Estate Ecosystem Malagouzia Single Block “Latipes”",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Белое"
+    },
+    {
+      "id": "reply-alpha-rose",
+      "name": "Alpha Estate Rose",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Розовое"
+    },
+    {
+      "id": "reply-alpha-axia-red",
+      "name": "Alpha Estate Axia Red",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Красное"
+    },
+    {
+      "id": "reply-alpha-xinomavro-single-vineyard-hedgehog",
+      "name": "Alpha Estate Xinomavro Single Vineyard “Hedgehog”",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Красное"
+    },
+    {
+      "id": "reply-alpha-syrah-single-vineyard-turtles",
+      "name": "Alpha Estate Syrah Single Vineyard “Turtles”",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Красное"
+    },
+    {
+      "id": "reply-alpha-ecosystem-pinot-noir-single-block-strofi",
+      "name": "Alpha Estate Ecosystem Pinot Noir Single Block “Strofi”",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Красное"
+    },
+    {
+      "id": "reply-alpha-ecosystem-xinomavro-reserve-vieilles-vignes-single-block-barba-yannis",
+      "name": "Alpha Estate Ecosystem Xinomavro Reserve Vieilles Vignes Single Block “Barba Yannis”",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Красное"
+    },
+    {
+      "id": "reply-alpha-ecosystem-tannat-single-block-vrachos",
+      "name": "Alpha Estate Ecosystem Tannat Single Block “Vrachos”",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Красное"
+    },
+    {
+      "id": "reply-alpha-red-s-m-x",
+      "name": "Alpha Estate Red (S.M.X)",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Красное"
+    },
+    {
+      "id": "reply-alpha-alpha-one",
+      "name": "Alpha Estate Alpha One",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Красное"
+    },
+    {
+      "id": "reply-alpha-omega-sweet-white",
+      "name": "Alpha Estate Omega Sweet White",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Белое",
+      "sugar": "Сладкое"
+    },
+    {
+      "id": "reply-alpha-xinomavro-red-sweet-wine",
+      "name": "Alpha Estate Xinomavro Red Sweet Wine",
+      "category": "Вино",
+      "reply_id": "alpha-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "color": "Красное",
+      "sugar": "Сладкое"
+    },
+    {
+      "id": "reply-niva-oasis-absinthe",
+      "name": "Oasis Absinthe",
+      "category": "Настойка",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 55.0
+    },
+    {
+      "id": "reply-niva-dickens-gin",
+      "name": "Dicken’s Gin",
+      "category": "Джин",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-niva-amaretto-san-marco",
+      "name": "Amaretto San Marco",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 25.0
+    },
+    {
+      "id": "reply-niva-amaretto-san-remo-original",
+      "name": "Amaretto San Remo Original",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 20.0
+    },
+    {
+      "id": "reply-niva-bardeco-cherry-and-chocolate",
+      "name": "Bardeco Cherry and Chocolate",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 19.0
+    },
+    {
+      "id": "reply-niva-bardeco-creamy",
+      "name": "Bardeco Creamy",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 19.0
+    },
+    {
+      "id": "reply-niva-bardeco-dubai-chocolate",
+      "name": "Bardeco Dubai Chocolate",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 19.0
+    },
+    {
+      "id": "reply-niva-konigstein-classic",
+      "name": "Konigstein Classic",
+      "category": "Бальзам",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 35.0
+    },
+    {
+      "id": "reply-niva-limoncello-san-lorenzo",
+      "name": "Limoncello San Lorenzo",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 25.0
+    },
+    {
+      "id": "reply-niva-bardeco-mango-and-maracuja",
+      "name": "Bardeco Mango and Maracuja",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 19.0
+    },
+    {
+      "id": "reply-niva-bardeco-salted-caramel",
+      "name": "Bardeco Salted Caramel",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 19.0
+    },
+    {
+      "id": "reply-niva-niva-distillery-cream",
+      "name": "Niva Distillery Cream",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 750,
+      "abv": 17.0
+    },
+    {
+      "id": "reply-niva-oasis-coffee-cream",
+      "name": "Oasis Coffee & Cream",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 15.0
+    },
+    {
+      "id": "reply-niva-oasis-cream-liqueur",
+      "name": "Oasis Cream Liqueur",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 15.0
+    },
+    {
+      "id": "reply-niva-oasis-raspberry-cream",
+      "name": "Oasis Raspberry Cream",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 15.0
+    },
+    {
+      "id": "reply-niva-oasis-pina-colada",
+      "name": "Oasis Pina Colada",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 15.0
+    },
+    {
+      "id": "reply-niva-oasis-strawberry-cream",
+      "name": "Oasis Strawberry & Cream",
+      "category": "Ликёр",
+      "reply_id": "niva-milk-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 15.0
+    },
+    {
+      "id": "reply-niva-oasis-sambuca",
+      "name": "Oasis Sambuca",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-niva-oasis-triple-sec",
+      "name": "Oasis Triple Sec",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-niva-niva-distillery-herbal-bitter",
+      "name": "Niva Distillery Herbal Bitter",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 750,
+      "abv": 25.0
+    },
+    {
+      "id": "reply-niva-niva-distillery-blue-curacao",
+      "name": "Niva Distillery Blue Curacao",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 750,
+      "abv": 25.0
+    },
+    {
+      "id": "reply-niva-niva-distillery-creme-de-cassis",
+      "name": "Niva Distillery Crème de Cassis",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 750,
+      "abv": 17.0
+    },
+    {
+      "id": "reply-niva-serenity-vodka",
+      "name": "Serenity Vodka",
+      "category": "Водка",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 700,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-niva-stolbovaya-vodka",
+      "name": "Stolbovaya Vodka",
+      "category": "Водка",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-niva-bardeco-aperitivo",
+      "name": "Bardeco Aperitivo",
+      "category": "Аперитив",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 20.0
+    },
+    {
+      "id": "reply-niva-bardeco-mojito",
+      "name": "Bardeco Mojito",
+      "category": "Коктейль",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 20.0
+    },
+    {
+      "id": "reply-niva-bardeco-negroni",
+      "name": "Bardeco Negroni",
+      "category": "Коктейль",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 20.0
+    },
+    {
+      "id": "reply-niva-oasis-daiquiri",
+      "name": "Oasis Daiquiri",
+      "category": "Аперитив",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 12.0
+    },
+    {
+      "id": "reply-niva-oasis-mojito",
+      "name": "Oasis Mojito",
+      "category": "Коктейль",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 12.0
+    },
+    {
+      "id": "reply-niva-niva-distillery-aperitivo",
+      "name": "Niva Distillery Aperitivo",
+      "category": "Аперитив",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 750,
+      "abv": 12.0
+    },
+    {
+      "id": "reply-niva-corsair-rum-tincture",
+      "name": "Corsair Rum Tincture",
+      "category": "Настойка",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-niva-old-harbour-whiskey-tincture",
+      "name": "Old Harbour Whiskey Tincture",
+      "category": "Настойка",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "volume_ml": 500,
+      "abv": 40.0
+    },
+    {
+      "id": "reply-niva-niva-distillery-triple-sec",
+      "name": "Niva Distillery Triple Sec",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-sambuca",
+      "name": "Niva Distillery Sambuca",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-hazelnut",
+      "name": "Niva Distillery Hazelnut",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-melon",
+      "name": "Niva Distillery Melon",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-coconut",
+      "name": "Niva Distillery Coconut",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-creme-de-bananes",
+      "name": "Niva Distillery Crème de Bananes",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-apple",
+      "name": "Niva Distillery Apple",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-creme-de-peche",
+      "name": "Niva Distillery Crème de Pêche",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-raspberry",
+      "name": "Niva Distillery Raspberry",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-elderflower",
+      "name": "Niva Distillery Elderflower",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-strawberry",
+      "name": "Niva Distillery Strawberry",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-cacao-brown",
+      "name": "Niva Distillery Cacao Brown",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-lychee",
+      "name": "Niva Distillery Lychee",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-maraschino",
+      "name": "Niva Distillery Maraschino",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-gin",
+      "name": "Niva Distillery Gin",
+      "category": "Джин",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-absinthe",
+      "name": "Niva Distillery Absinthe",
+      "category": "Абсент",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-niva-niva-distillery-mint",
+      "name": "Niva Distillery Mint",
+      "category": "Ликёр",
+      "reply_id": "niva-vegan-2026-11-16",
+      "chains": [],
+      "retail_optional": true
+    },
+    {
+      "id": "reply-ragnaud-vs",
+      "name": "Ragnaud-Sabourin VS",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 41
+    },
+    {
+      "id": "reply-ragnaud-vsop",
+      "name": "Ragnaud-Sabourin VSOP",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 41
+    },
+    {
+      "id": "reply-ragnaud-reserve-speciale",
+      "name": "Ragnaud-Sabourin Reserve Speciale",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 43
+    },
+    {
+      "id": "reply-ragnaud-xo",
+      "name": "Ragnaud-Sabourin XO",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 40
+    },
+    {
+      "id": "reply-ragnaud-xxo",
+      "name": "Ragnaud-Sabourin XXO",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 40
+    },
+    {
+      "id": "reply-ragnaud-fontvieille",
+      "name": "Ragnaud-Sabourin Fontvieille",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 43
+    },
+    {
+      "id": "reply-ragnaud-florilege",
+      "name": "Ragnaud-Sabourin Florilege",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 46
+    },
+    {
+      "id": "reply-ragnaud-vintage-1989",
+      "name": "Ragnaud-Sabourin Vintage 1989",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 40,
+      "vintage": 1989
+    },
+    {
+      "id": "reply-ragnaud-vintage-1991",
+      "name": "Ragnaud-Sabourin Vintage 1991",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 43,
+      "vintage": 1991
+    },
+    {
+      "id": "reply-ragnaud-vintage-1992",
+      "name": "Ragnaud-Sabourin Vintage 1992",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 41,
+      "vintage": 1992
+    },
+    {
+      "id": "reply-ragnaud-vintage-1994",
+      "name": "Ragnaud-Sabourin Vintage 1994",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 43,
+      "vintage": 1994
+    },
+    {
+      "id": "reply-ragnaud-paradis",
+      "name": "Ragnaud-Sabourin Paradis",
+      "category": "Коньяк",
+      "reply_id": "ragnaud-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "abv": 41
+    },
+    {
+      "id": "reply-cert-sena",
+      "name": "Seña",
+      "category": "Вино",
+      "reply_id": "cert-sena-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2020, 2021, 2022, 2023."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-rocas-de-sena",
+      "name": "Rocas de Seña",
+      "category": "Вино",
+      "reply_id": "cert-sena-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2020, 2021, 2022, 2023."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-vinedo-chadwick",
+      "name": "Viñedo Chadwick",
+      "category": "Вино",
+      "reply_id": "cert-vinedo-chadwick-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2020, 2021, 2022, 2023."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-errazuriz-rose",
+      "name": "Errázuriz Rosé",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024, 2025, 2026."
+      ],
+      "color": "Розовое"
+    },
+    {
+      "id": "reply-cert-errazuriz-reserva-estate-chardonnay",
+      "name": "Errázuriz Reserva Estate Chardonnay",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024, 2025."
+      ],
+      "color": "Белое"
+    },
+    {
+      "id": "reply-cert-errazuriz-reserva-estate-carmenere",
+      "name": "Errázuriz Reserva Estate Carmenere",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024, 2025."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-errazuriz-reserva-estate-pinot-noir",
+      "name": "Errázuriz Reserva Estate Pinot Noir",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024, 2025."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-errazuriz-reserva-estate-cabernet-sauvignon",
+      "name": "Errázuriz Reserva Estate Cabernet Sauvignon",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024, 2025."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-errazuriz-reserva-estate-cabernet-sauvignon-maipo-valley",
+      "name": "Errázuriz Reserva Estate Cabernet Sauvignon Maipo Valley",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-errazuriz-reserva-estate-merlot",
+      "name": "Errázuriz Reserva Estate Merlot",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024, 2025."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-errazuriz-reserva-estate-pinot-grigio",
+      "name": "Errázuriz Reserva Estate Pinot Grigio",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024, 2025."
+      ],
+      "color": "Белое"
+    },
+    {
+      "id": "reply-cert-errazuriz-reserva-estate-syrah",
+      "name": "Errázuriz Reserva Estate Syrah",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-arboleda-sauvignon-blanc",
+      "name": "Arboleda Sauvignon Blanc",
+      "category": "Вино",
+      "reply_id": "cert-arboleda-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2023, 2024, 2025, 2026."
+      ],
+      "color": "Белое"
+    },
+    {
+      "id": "reply-cert-arboleda-chardonnay",
+      "name": "Arboleda Chardonnay",
+      "category": "Вино",
+      "reply_id": "cert-arboleda-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024, 2025."
+      ],
+      "color": "Белое"
+    },
+    {
+      "id": "reply-cert-arboleda-pinot-noir",
+      "name": "Arboleda Pinot Noir",
+      "category": "Вино",
+      "reply_id": "cert-arboleda-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-arboleda-carmenere",
+      "name": "Arboleda Carmenere",
+      "category": "Вино",
+      "reply_id": "cert-arboleda-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2021, 2022, 2023, 2024."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-arboleda-cabernet-sauvignon",
+      "name": "Arboleda Cabernet Sauvignon",
+      "category": "Вино",
+      "reply_id": "cert-arboleda-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2021, 2022, 2023, 2024."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-arboleda-syrah",
+      "name": "Arboleda Syrah",
+      "category": "Вино",
+      "reply_id": "cert-arboleda-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2021, 2022, 2023, 2024."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-arboleda-brisa",
+      "name": "Arboleda Brisa",
+      "category": "Вино",
+      "reply_id": "cert-arboleda-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2021, 2022, 2023."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-errazuriz-aconcagua-cuvee-carmenere",
+      "name": "Errázuriz Aconcagua Cuvée Carmenere",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-errazuriz-aconcagua-cuvee-pinot-noir",
+      "name": "Errázuriz Aconcagua Cuvée Pinot Noir",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2023, 2024, 2025."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-errazuriz-aconcagua-cuvee-chardonnay",
+      "name": "Errázuriz Aconcagua Cuvée Chardonnay",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2023, 2024, 2025."
+      ],
+      "color": "Белое"
+    },
+    {
+      "id": "reply-cert-errazuriz-aconcagua-cuvee-cabernet-sauvignon",
+      "name": "Errázuriz Aconcagua Cuvée Cabernet Sauvignon",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2022, 2023, 2024."
+      ],
+      "color": "Красное"
+    },
+    {
+      "id": "reply-cert-errazuriz-malbec-estate",
+      "name": "Errázuriz Malbec Estate",
+      "category": "Вино",
+      "reply_id": "cert-errazuriz-2026-11-16",
+      "chains": [],
+      "retail_optional": true,
+      "product_scope": [
+        "Подтверждённые урожаи: 2023, 2024, 2025."
+      ],
+      "color": "Красное"
     }
   ]
 }

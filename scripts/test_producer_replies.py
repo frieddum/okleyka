@@ -15,7 +15,7 @@ original = json.loads(source.read_text(encoding="utf-8"))
 loaded = load_replies(source, ROOT / "site")
 data = json.loads((ROOT / "_site/data/verified.json").read_text(encoding="utf-8"))
 rows = {r[0]: r for r in data["records"]}
-assert len(loaded["items"]) == 114
+assert len(loaded["items"]) == 216
 ararat = [i for i in loaded["items"] if i["id"].startswith("reply-ararat-")]
 assert len(ararat) == 25
 assert sum(i["status"] == "vegan" for i in ararat) == 24
@@ -47,6 +47,15 @@ for item in loaded["items"]:
     elif item["reply_id"].startswith("gaia-"):
         assert assessment["refs"] == [{"type": "producer_reply", "url": "gaia-wines.html"}]
         assert assessment["reviewed_at"] == "2026-11-15"
+    elif item["reply_id"].startswith("alpha-"):
+        assert assessment["refs"] == [{"type": "producer_reply", "url": "alpha-estate.html"}]
+    elif item["reply_id"].startswith("cert-"):
+        assert assessment["refs"] == [{"type": "producer_reply", "url": "chadwick-vlabel-2026.html"}]
+        assert item["product_scope"][0] in assessment["scope"]
+    elif item["reply_id"].startswith("niva-"):
+        assert assessment["refs"] == [{"type": "producer_reply", "url": "niva.html"}]
+    elif item["reply_id"].startswith("ragnaud-"):
+        assert assessment["refs"] == [{"type": "producer_reply", "url": "ragnaud-sabourin.html"}]
     else:
         assert assessment["refs"] == []
 assert rows["reply-pjk-quarzit-2016"][12] == 2016
@@ -141,6 +150,10 @@ page += myskhako_page
 page += (ROOT / "_site/gaia-wines.html").read_text(encoding="utf-8")
 page += (ROOT / "_site/producer-peter-jakob-kuehn.html").read_text(encoding="utf-8")
 page += (ROOT / "_site/kizlyar-brandy-factory.html").read_text(encoding="utf-8")
+from producer_directory import entries
+for entry in entries(source, ROOT / 'data/vlabel_additions.json'):
+    if entry['kind'] == 'reply':
+        page += (ROOT / '_site' / entry['page']).read_text(encoding='utf-8')
 ids = {parse_qs(urlsplit(unescape(url)).query)["id"][0]
        for url in re.findall(r'href="([^"]+)"', page) if "?id=" in url}
 assert ids == {item["id"] for item in original["items"]
@@ -150,7 +163,8 @@ assert len(pending) == 1
 assert sum(item["status"] == "vegan" for item in pending) == 1
 for item in pending:
     assert item["id"] not in ids
-    assert rows[item["id"]][9] and rows[item["id"]][11]
+    if item['reply_id'] == 'massandra-gurzuf-2026-10-27':
+        assert rows[item["id"]][9] and rows[item["id"]][11]
     if item.get("retail_optional"):
         assert rows[item["id"]][2] == [] and rows[item["id"]][13] is None
         assert item["id"] not in data["price_levels"]

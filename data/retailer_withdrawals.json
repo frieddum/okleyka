@@ -1264,5 +1264,11 @@
     "network": "Пятёрочка",
     "checked_at": "2026-10-30",
     "reason": "Official product page has no displayed price and says out of stock; browser and page text checked. No inference about all Russian stores."
+  },
+  {
+    "id": "04ff672a92",
+    "network": "Магнит",
+    "checked_at": "2026-11-18",
+    "reason": "Урожай бутылки в прежней привязке не установлен; наличие одного из сертифицированных урожаев 2022–2026 не подтверждено."
   }
 ]
