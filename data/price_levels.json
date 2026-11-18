@@ -21072,5 +21072,23 @@
     "scale": "liqueur",
     "volume_ml": 500,
     "observed_at": "2026-11-18"
+  },
+  "reply-niva-oasis-sambuca": {
+    "level": 2,
+    "scale": "liqueur",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-oasis-mojito": {
+    "level": 1,
+    "scale": "aperitif",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
+  },
+  "reply-niva-oasis-absinthe": {
+    "level": 4,
+    "scale": "other",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
   }
 }
