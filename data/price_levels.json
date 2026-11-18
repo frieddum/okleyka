@@ -21417,5 +21417,30 @@
     "scale": "wine",
     "volume_ml": 750,
     "observed_at": "2026-11-18"
+  },
+  "alk-na-41848": {
+    "level": 2,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
+  },
+  "alk-na-15154": {
+    "level": 1,
+    "scale": "beer",
+    "volume_ml": 1000,
+    "observed_at": "2026-11-18",
+    "estimated_for_ml": 500
+  },
+  "alk-na-9797": {
+    "level": 1,
+    "scale": "beer",
+    "volume_ml": 440,
+    "observed_at": "2026-11-18"
+  },
+  "alk-na-97422": {
+    "level": 1,
+    "scale": "beer",
+    "volume_ml": 450,
+    "observed_at": "2026-11-18"
   }
 }

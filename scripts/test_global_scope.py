@@ -21,6 +21,11 @@ replies = read('data/producer_replies.json')
 confirmed_without_retail = {i['id'] for i in replies['items']
                            if i.get('retail_optional') is True
                            and replies['replies'][i['reply_id']]['status'] in ('vegan', 'nonvegan')}
+confirmed_without_retail.update(
+    i['id'] for i in read('data/manual_additions.json')['items']
+    if i.get('retail_optional') is True and i['status'] == 'nonvegan'
+    and not i['chains'] and i.get('ref_url', '').startswith('https://')
+)
 for r in data["records"]:
     if not r[2]:
         assert r[13] is None and r[0] not in data["price_levels"]

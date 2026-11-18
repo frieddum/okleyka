@@ -25100,7 +25100,89 @@
    "chains": [],
    "abv": 0,
    "color": "Розовое",
-   "sugar": "Полусухое"
+   "sugar": "Полусухое",
+   "retail_optional": true
+  },
+  {
+   "id": "alk-na-41848",
+   "name": "Афанасий Марочное безалкогольное",
+   "company": "Афанасий",
+   "category": "Пиво",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "В ответе, опубликованном Vegan Russian в 2020 году, пивоварня «Афанасий» указывает, что использует растительные ингредиенты и фильтрует пиво через кварцевый песок. Этот сорт назван в списке.",
+   "scope": [],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/holding-afanaciy/",
+   "reviewed_at": "2026-11-18",
+   "volume_ml": 500,
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "alk-na-15154",
+   "name": "Афанасий Ремесленное безалкогольное светлое",
+   "company": "Афанасий",
+   "category": "Пиво",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "В ответе, опубликованном Vegan Russian в 2020 году, пивоварня «Афанасий» указывает, что использует растительные ингредиенты и фильтрует пиво через кварцевый песок. Этот сорт назван в списке.",
+   "scope": [],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/holding-afanaciy/",
+   "reviewed_at": "2026-11-18",
+   "volume_ml": 1000,
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "alk-na-9797",
+   "name": "Stella Artois Безалкогольное",
+   "company": "AB InBev Efes",
+   "category": "Пиво",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "В июне 2021 года российская AB InBev Efes сообщила Vegan Russian, что её продукция подходит веганам, а для фильтрации используются неорганические материалы. Этот безалкогольный сорт входил в российский ассортимент на дату ответа.",
+   "scope": [],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/ab-inbev-efes/",
+   "reviewed_at": "2026-11-18",
+   "volume_ml": 440,
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "alk-na-97422",
+   "name": "Hoegaarden 0.0",
+   "company": "AB InBev Efes",
+   "category": "Пиво",
+   "country": "Россия",
+   "status": "vegan",
+   "rationale": "В июне 2021 года российская AB InBev Efes сообщила Vegan Russian, что её продукция подходит веганам, а для фильтрации используются неорганические материалы. Этот безалкогольный сорт входил в российский ассортимент на дату ответа.",
+   "scope": [],
+   "ref_type": "VeganRussian",
+   "ref_url": "https://veganrussian.ru/ab-inbev-efes/",
+   "reviewed_at": "2026-11-18",
+   "volume_ml": 450,
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ],
+   "abv": 0
   }
  ]
 }
