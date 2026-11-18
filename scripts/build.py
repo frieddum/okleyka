@@ -415,11 +415,18 @@ def main():
             if direct or extra_path.name == "azbuka_additions.json":
                 direct_attrs[it["id"]] = it
             name = clean_name(it["name"])
-            refs = it["refs"] if direct else [{"type": it.get("ref_type", "Barnivore"), "url": it.get("ref_url") or it["barnivore_url"]}]
+            if direct:
+                refs = it["refs"]
+            elif it.get("refs"):
+                refs = it["refs"]
+                if any(ref.get("type") not in ALLOWED_REF_TYPES or not str(ref.get("url", "")).startswith("https://") for ref in refs):
+                    fail(f"Недопустимый источник для {it['id']}")
+            else:
+                refs = [{"type": it.get("ref_type", "Barnivore"), "url": it.get("ref_url") or it["barnivore_url"]}]
             pub = {"status": it["status"], "reviewed_at": date_only(it.get("reviewed_at") or extra.get("copied_at")), "evidence_date": clean(it.get("evidence_date")),
-                   "evidence_date_precision": None, "rationale": clean(it["rationale"]),
+                   "evidence_date_precision": clean(it.get("evidence_date_precision")), "rationale": clean(it["rationale"]),
                    "scope": [clean(x)[0].upper() + clean(x)[1:] for x in it.get("scope") or [] if clean(x)], "identity": None,
-                   "packaging": None, "caveats": [], "refs": refs}
+                   "packaging": clean(it.get("packaging")), "caveats": [], "refs": refs}
             k = json.dumps(pub, ensure_ascii=False, sort_keys=True)
             if k not in assess_index:
                 assess_index[k] = len(assessments)

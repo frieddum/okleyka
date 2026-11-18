@@ -21442,5 +21442,11 @@
     "scale": "beer",
     "volume_ml": 450,
     "observed_at": "2026-11-18"
+  },
+  "alk-na-6634": {
+    "level": 3,
+    "scale": "beer",
+    "volume_ml": 500,
+    "observed_at": "2026-11-18"
   }
 }

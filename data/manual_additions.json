@@ -25183,6 +25183,37 @@
     }
    ],
    "abv": 0
+  },
+  {
+   "id": "alk-na-6634",
+   "name": "Störtebeker Bernstein-Weizen Alkoholfrei",
+   "company": "Störtebeker Braumanufaktur GmbH",
+   "category": "Пиво",
+   "country": "Германия",
+   "status": "vegan",
+   "rationale": "В ответах Barnivore в ноябре 2015 и ноябре 2017 года пивоварня Störtebeker сообщила, что варит пиво без ингредиентов животного происхождения. На сайте пивоварни этот безалкогольный сорт указан с крепостью менее 0,5%.",
+   "packaging": "В ноябре 2017 года пивоварня уточнила, что клей для бутылочных этикеток содержал казеин — молочный белок. Отметка «веганское» относится к напитку. Актуальный состав клея не подтверждён.",
+   "scope": [],
+   "refs": [
+    {
+     "type": "Barnivore",
+     "url": "https://www.barnivore.com/products/24659-st-rtebeker-beers"
+    },
+    {
+     "type": "manufacturer",
+     "url": "https://www.stoertebeker.com/brauspezialitaten/sorten/bernstein-weizen-alkoholfrei"
+    }
+   ],
+   "evidence_date": "2017-11",
+   "evidence_date_precision": "month",
+   "reviewed_at": "2026-11-18",
+   "volume_ml": 500,
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ]
   }
  ]
 }
