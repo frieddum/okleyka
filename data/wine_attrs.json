@@ -13205,5 +13205,21 @@
   "abv": 14.0,
   "color": "Красное",
   "sugar": "Сухое"
+ },
+ "sangre de toro tinto 0 0": {
+  "color": "Красное",
+  "sugar": "Полусладкое"
+ },
+ "sangre de toro blanco 0 0": {
+  "color": "Белое",
+  "sugar": "Полусладкое"
+ },
+ "sangre de toro ros 0 0": {
+  "color": "Розовое",
+  "sugar": "Полусладкое"
+ },
+ "mucho m s tinto 0 0": {
+  "color": "Красное",
+  "sugar": "Полусухое"
  }
 }

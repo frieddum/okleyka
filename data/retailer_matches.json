@@ -3226,5 +3226,551 @@
     "expected_name": "Errázuriz Reserva Estate Sauvignon Blanc",
     "network": "BestWine24",
     "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-3-stars",
+    "expected_name": "ARARAT 3 звезды",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-c0c8cc3f7a18",
+    "expected_name": "Виски Glenfarclas Aged 12 Years Old",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr-34d496c2a2",
+    "expected_name": "Водка Чистые Росы Из Ржаного Зерна",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "kb-b7990f0378",
+    "expected_name": "Виски Мэйкерс Марк 45%, 700мл",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-5-stars",
+    "expected_name": "ARARAT 5 звёзд",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "1ff62325c4",
+    "expected_name": "Ликер Cointreau 40%",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr-70b06642a3",
+    "expected_name": "Водка Хаски",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr3-bcc8e79a3e",
+    "expected_name": "Водка Finlandia",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "prk-4ba45814cb",
+    "expected_name": "Коньяк Courvoisier VS 40%",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-031d5c01604a",
+    "expected_name": "Виски Glenfarclas Aged 10 Years Old",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr-456e26fc31",
+    "expected_name": "Водка Чистые Росы",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-57083f944c6f",
+    "expected_name": "Виски Jura 10 Years Old",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-9be384031e5f",
+    "expected_name": "Водка Грей Гуз",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "edaaf3f5e2",
+    "expected_name": "Бренди Торрес 10 Смоукд Баррел 38% 700мл",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "prk-6e9f8f7031",
+    "expected_name": "Водка Легенда Кремля 40%, 500мл",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-4cecc3ad08e7",
+    "expected_name": "Водка Absolut",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "prk-3408b289d1",
+    "expected_name": "Коньяк Courvoisier VSOP 40%",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr-068c973e66",
+    "expected_name": "Водка Балчуг 19 век",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-677afaab3878",
+    "expected_name": "Виски Monkey Shoulder",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "prk-7dab44d769",
+    "expected_name": "Водка Балчуг 21 век 40%",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-3713715e30ab",
+    "expected_name": "Коньяк Hennessy VS",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-e4bd9432f9bd",
+    "expected_name": "Виски Glen Grant 12 Years Old",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-fcbdac4662cc",
+    "expected_name": "Виски Glenfarclas Aged 25 Years",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-07ec7d5778d3",
+    "expected_name": "Виски Bunnahabhain Aged 12 Years Old",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-871b7709e92b",
+    "expected_name": "Виски Glenmorangie Original, 10 летней выдержки",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "bv-product-16559",
+    "expected_name": "Glenfarclas 15 Year Old Whisky",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-ea7234c77ff7",
+    "expected_name": "Виски Glenfiddich 18 Years Old",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr-454b7c9500",
+    "expected_name": "Водка Чистые Росы Юбилейный Выпуск",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "bv-product-16565",
+    "expected_name": "Glenfarclas 40 Year Old Whisky",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "20fd761953",
+    "expected_name": "Ром Барсело Империал оникс 38% 700мл",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr-48351c6a15",
+    "expected_name": "Водка Пять Озер",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "jo-e654f63948",
+    "expected_name": "Коньяк Хеннесси Паради, 0.7л",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-fd16879d141e",
+    "expected_name": "Виски Glenfiddich 30 лет",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "dx-bbde099d6c",
+    "expected_name": "Водка Пять озер Премиум 40%",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "prk-2b83a80caa",
+    "expected_name": "Водка Русский Стандарт Платинум 40%, 500мл",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-25",
+    "expected_name": "ARARAT 25",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "jo-640d187575",
+    "expected_name": "Текила Дон Хулио Аньехо, 0.75л",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr-85d34dffe9",
+    "expected_name": "Вино Лыхны",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-kkz-five-stars",
+    "expected_name": "Кизлярский Пять звездочек, 5 лет",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-b8fe46dd488c",
+    "expected_name": "Ром Havana Club Anejo, 7 летней выдержки",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-350c0cdd628d",
+    "expected_name": "Люксардо Аперетиво",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr3-35b1f54308",
+    "expected_name": "Водка Русский Стандарт Империя",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-39c22749ca5d",
+    "expected_name": "Виски Glenfarclas 8 YO",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "4d69602031",
+    "expected_name": "Ром Havana Club Аньехо 3 года белый 40% 700мл",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-kkz-lezginka-kv",
+    "expected_name": "Лезгинка КВ, 6 лет",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "bv-product-16561",
+    "expected_name": "Glenfarclas 21 Year Old Whisky",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-kkz-three-stars",
+    "expected_name": "Кизлярский Три звездочки, 3 года",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "jo-2d2b23684c",
+    "expected_name": "Ром Закапа Сэнтэнарио Солера Гран Резерва 23, 0.7л",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-655434baf7b5",
+    "expected_name": "Виски Glenfiddich 21 Years Old",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "prk-19e4f8d84f",
+    "expected_name": "Бренди Torres Гран Ресерва 10 38%",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-a590b8c21897",
+    "expected_name": "Шампанское Moet & Chandon Ice Imperial Rose",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr-0e93764df0",
+    "expected_name": "Винодельня Узунов Моно Каберне Совиньон",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-f60d76327010",
+    "expected_name": "Виски Glenmorangie X",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-c52a554f4ede",
+    "expected_name": "Люксардо Амаретто ди Саскира",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr-66117c3923",
+    "expected_name": "Джин Барристер пинк Ладога",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr-f189fded0a",
+    "expected_name": "Водка Чистые Росы из ячменного зерна",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "vr-d2db78be75",
+    "expected_name": "Джин Барристер драй Ладога",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "jo-fd25bb76a3",
+    "expected_name": "Виски Бенриах Ориджинал, 10 лет, в тубе, 0.7л",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-cf141e5c0878",
+    "expected_name": "Виски Чивас Ригал 12 лет (Шотландия)",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "bv-product-16563",
+    "expected_name": "Glenfarclas 30 Year Old Whisky",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "0bfedfa5c6",
+    "expected_name": "Пиво Clausthaler Classic светлое фильтрованное пастеризованное безалкогольное 0.5%",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "na-clausthaler-lemon",
+    "expected_name": "Clausthaler Lemon — безалкогольное",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "na-clausthaler-grapefruit",
+    "expected_name": "Clausthaler Grapefruit — безалкогольное",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "7eacf7fe73",
+    "expected_name": "Светлое пиво фильтрованное Bakalar 0.5% 500мл",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "av-1008759",
+    "expected_name": "Guinness Draught Zero — безалкогольное",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-dd6823095d52",
+    "expected_name": "Пиво Paulaner, Hefe-Weissbier Non-Alcoholic",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "c3748ab78c",
+    "expected_name": "Пиво Guinness Draught темное 4.2% 440мл",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-24787ea5f9f0",
+    "expected_name": "Виски Glenmorangie A Tale of Tokyo",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-a93c52b5c1ba",
+    "expected_name": "Виски Glenmorangie Signet",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-dfc388034089",
+    "expected_name": "Виски Glenmorangie The Lasanta 15 Years Old",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-1e869b029ce0",
+    "expected_name": "Виски Glenmorangie The Quinta Ruban 14 Years",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-cecb310af701",
+    "expected_name": "Виски Glenmorangie Nectar D'Or",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-885888bcfca3",
+    "expected_name": "Виски Glenmorangie The Original 12 Years Old",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-36c448afa169",
+    "expected_name": "Виски Glenfarclas Heritage",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "ln-86d96c71f7",
+    "expected_name": "Виски GLENFIDDICH Шотландский солодовый 15 лет 40%",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "prk-83fc2ab8b6",
+    "expected_name": "Виски Glenfiddich 12-летний шотландский односолодовый 40%",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "d7a4216c61",
+    "expected_name": "Виски Лагавулин односолодовый 16лет 43% 700мл",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "rfa-44091d2819c0",
+    "expected_name": "Коньяк Hennessy XO",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "8d9119b292",
+    "expected_name": "Виски Джемесон Ирландский купажированный 40%",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-dvin",
+    "expected_name": "ARARAT DVIN",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-apricot",
+    "expected_name": "ARARAT Apricot — со вкусом абрикоса",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-akhtamar",
+    "expected_name": "ARARAT AKHTAMAR",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-vaspurakan",
+    "expected_name": "ARARAT VASPURAKAN",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-nairi",
+    "expected_name": "ARARAT NAIRI",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-coffee",
+    "expected_name": "ARARAT Coffee — со вкусом кофе",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-aznavour",
+    "expected_name": "ARARAT CHARLES AZNAVOUR SIGNATURE BLEND",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-cherry",
+    "expected_name": "ARARAT Cherry — со вкусом вишни",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-armenia",
+    "expected_name": "ARARAT ARMENIA",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-otborny",
+    "expected_name": "ARARAT OTBORNY",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-erebuni-30",
+    "expected_name": "EREBUNI 30",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "record_id": "reply-ararat-erebuni-50",
+    "expected_name": "EREBUNI 50",
+    "network": "Алкотека",
+    "checked_at": "2026-11-18"
   }
 ]

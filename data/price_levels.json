@@ -19602,9 +19602,8 @@
   "d7a4216c61": {
     "level": 5,
     "scale": "whisky",
-    "volume_ml": 700,
-    "observed_at": null,
-    "market_estimate": true
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
   },
   "0e50cdecaa": {
     "level": 4,
@@ -20191,8 +20190,7 @@
     "level": 4,
     "scale": "whisky",
     "volume_ml": 700,
-    "observed_at": null,
-    "market_estimate": true
+    "observed_at": "2026-11-18"
   },
   "jo-a8f8c9da68": {
     "level": 4,
@@ -20386,9 +20384,8 @@
   "7eacf7fe73": {
     "level": 2,
     "scale": "beer",
-    "volume_ml": 500,
-    "observed_at": null,
-    "market_estimate": true
+    "volume_ml": 330,
+    "observed_at": "2026-11-18"
   },
   "rfa-af145c937720": {
     "level": 1,
@@ -21089,6 +21086,306 @@
     "level": 4,
     "scale": "other",
     "volume_ml": 500,
+    "observed_at": "2026-11-18"
+  },
+  "bv-product-16565": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-11-18"
+  },
+  "rfa-fd16879d141e": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-11-18"
+  },
+  "bv-product-16561": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-11-18"
+  },
+  "bv-product-16563": {
+    "level": 5,
+    "scale": "whisky",
+    "volume_ml": 700,
+    "observed_at": "2026-11-18"
+  },
+  "reply-ararat-aznavour": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "reply-ararat-erebuni-50": {
+    "level": 5,
+    "scale": "cognac",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-141769": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-141770": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-143130": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-143131": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-143132": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-144907": {
+    "level": 2,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-144908": {
+    "level": 2,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-144924": {
+    "level": 3,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-145029": {
+    "level": 4,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-35437": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-35439": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-35441": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-38124": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-42465": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-35420": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-35430": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-43098": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-52971": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-53652": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-53654": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-5771": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-5773": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-5777": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-5779": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-5903": {
+    "level": 3,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-64032": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-64042": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-6917": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-6921": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-75990": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-75997": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-76003": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-76005": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-76406": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-76651": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-77397": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-77399": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-77915": {
+    "level": 1,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-78194": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-myskhako-80778": {
+    "level": 1,
+    "scale": "sparkling",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-na-48783": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-na-48785": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-na-48787": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
+    "observed_at": "2026-11-18"
+  },
+  "alk-na-93715": {
+    "level": 2,
+    "scale": "wine",
+    "volume_ml": 750,
     "observed_at": "2026-11-18"
   }
 }

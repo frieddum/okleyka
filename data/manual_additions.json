@@ -24884,6 +24884,98 @@
      "checked_at": "2026-11-15"
     }
    ]
+  },
+  {
+   "id": "alk-na-48783",
+   "name": "Sangre de Toro Tinto 0,0",
+   "company": "Miguel Torres",
+   "category": "Вино",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "Производитель указывает на сайте, что Sangre de Toro Tinto 0,0 подходит веганам.",
+   "scope": [],
+   "ref_type": "manufacturer",
+   "ref_url": "https://www.sangredetoro.com/vinos/tinto-00/",
+   "reviewed_at": "2026-11-18",
+   "abv": 0,
+   "volume_ml": 750,
+   "color": "Красное",
+   "sugar": "Полусладкое",
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "alk-na-48785",
+   "name": "Sangre de Toro Blanco 0,0",
+   "company": "Miguel Torres",
+   "category": "Вино",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "Производитель указывает на сайте, что Sangre de Toro Blanco 0,0 подходит веганам.",
+   "scope": [],
+   "ref_type": "manufacturer",
+   "ref_url": "https://www.sangredetoro.com/en/wines/white-00/",
+   "reviewed_at": "2026-11-18",
+   "abv": 0,
+   "volume_ml": 750,
+   "color": "Белое",
+   "sugar": "Полусладкое",
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "alk-na-48787",
+   "name": "Sangre de Toro Rosé 0,0",
+   "company": "Miguel Torres",
+   "category": "Вино",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "Производитель указывает на сайте, что Sangre de Toro Rosé 0,0 подходит веганам.",
+   "scope": [],
+   "ref_type": "manufacturer",
+   "ref_url": "https://www.sangredetoro.com/en/wines/rose-00/",
+   "reviewed_at": "2026-11-18",
+   "abv": 0,
+   "volume_ml": 750,
+   "color": "Розовое",
+   "sugar": "Полусладкое",
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "id": "alk-na-93715",
+   "name": "Mucho Más Tinto 0,0",
+   "company": "Félix Solís",
+   "category": "Вино",
+   "country": "Испания",
+   "status": "vegan",
+   "rationale": "Производитель указывает на сайте, что Mucho Más Tinto 0,0 подходит веганам.",
+   "scope": [],
+   "ref_type": "manufacturer",
+   "ref_url": "https://www.felixsolis.com/en/brand/mucho-mas/",
+   "reviewed_at": "2026-11-18",
+   "abv": 0,
+   "volume_ml": 750,
+   "color": "Красное",
+   "sugar": "Полусухое",
+   "chains": [
+    {
+     "network": "Алкотека",
+     "checked_at": "2026-11-18"
+    }
+   ]
   }
  ]
 }

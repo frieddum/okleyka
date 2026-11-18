@@ -3417,6 +3417,641 @@
       "product_scope": [
         "Состав Oasis Mojito: вода питьевая исправленная, спирт этиловый ректификованный из пищевого сырья «Люкс», сахарный сироп, регулятор кислотности лимонная кислота, натуральные ароматизаторы «Лимон-Лайм» и «Мята садовая», комплексная пищевая добавка «Нейтральная» (стабилизатор гуммиарабик, антиокислители токоферолы, регулятор кислотности лимонная кислота, консервант сорбат калия), натуральный ароматизатор «Ром», регулятор кислотности цитрат натрия, консервант бензоат натрия, натуральный ароматизатор «Холодок», красители жёлтый хинолиновый и тартразин."
       ]
+    },
+    {
+      "id": "alk-myskhako-141769",
+      "name": "Мысхако Кюве Шардоне Совиньон Блан",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Сухое",
+      "abv": 12.8
+    },
+    {
+      "id": "alk-myskhako-141770",
+      "name": "Мысхако Кюве Каберне Совиньон Мерло",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Сухое",
+      "abv": 14.2
+    },
+    {
+      "id": "alk-myskhako-143130",
+      "name": "Мысхако Флюте Совиньон Блан Гевюрцтраминер",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Брют",
+      "abv": 13.5
+    },
+    {
+      "id": "alk-myskhako-143131",
+      "name": "Мысхако Флюте Вионье Алиготе",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Брют",
+      "abv": 13.5
+    },
+    {
+      "id": "alk-myskhako-143132",
+      "name": "Мысхако Флюте Зинфандель Пино Нуар",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Розовое",
+      "sugar": "Брют",
+      "abv": 13.5
+    },
+    {
+      "id": "alk-myskhako-144907",
+      "name": "Мысхако Крафт, белое брют",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Брют"
+    },
+    {
+      "id": "alk-myskhako-144908",
+      "name": "Мысхако Крафт, белое полусухое",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Полусухое"
+    },
+    {
+      "id": "alk-myskhako-144924",
+      "name": "Мысхако Ноубл Эйдж Пино Нуар, белое брют",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Брют"
+    },
+    {
+      "id": "alk-myskhako-145029",
+      "name": "Мысхако Ноубл Эйдж Мерло Каберне Фран, 6 урожаев",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Полусухое",
+      "abv": 14.5
+    },
+    {
+      "id": "alk-myskhako-35437",
+      "name": "Мысхако Игристое белое брют",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Брют",
+      "abv": 12
+    },
+    {
+      "id": "alk-myskhako-35439",
+      "name": "Мысхако Игристое белое полусладкое",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Полусладкое",
+      "abv": 12.2
+    },
+    {
+      "id": "alk-myskhako-35441",
+      "name": "Мысхако Игристое розовое полусухое",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Розовое",
+      "sugar": "Полусухое",
+      "abv": 12.4
+    },
+    {
+      "id": "alk-myskhako-38124",
+      "name": "Мысхако Игристое розовое брют",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Розовое",
+      "sugar": "Брют",
+      "abv": 13.5
+    },
+    {
+      "id": "alk-myskhako-42465",
+      "name": "Мысхако Южный Терруар, белое полусладкое",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Полусладкое",
+      "abv": 13.2
+    },
+    {
+      "id": "alk-myskhako-35420",
+      "name": "Мысхако Южный Терруар, красное полусладкое",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Полусладкое",
+      "abv": 13.4
+    },
+    {
+      "id": "alk-myskhako-35430",
+      "name": "Мысхако Кюве Сира Марселан",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Сухое",
+      "abv": 13.6
+    },
+    {
+      "id": "alk-myskhako-43098",
+      "name": "Мысхако Кюве Шардоне Алиготе",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Сухое",
+      "abv": 14.3
+    },
+    {
+      "id": "alk-myskhako-52971",
+      "name": "Мысхако Марселан",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Сухое",
+      "abv": 14.4
+    },
+    {
+      "id": "alk-myskhako-53652",
+      "name": "Мысхако Квинтэссенция Каберне Совиньон Рипассо",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Сухое",
+      "abv": 14.8
+    },
+    {
+      "id": "alk-myskhako-53654",
+      "name": "Мысхако Квинтэссенция Зинфандель Рипассо",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Полусухое",
+      "abv": 14.7
+    },
+    {
+      "id": "alk-myskhako-5771",
+      "name": "Мысхако Крафт Семильон Русан",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Сухое",
+      "abv": 12.5
+    },
+    {
+      "id": "alk-myskhako-5773",
+      "name": "Мысхако Крафт Достойный Саперави",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Сухое",
+      "abv": 13.5
+    },
+    {
+      "id": "alk-myskhako-5777",
+      "name": "Мысхако Манно Совиньон Блан Шардоне",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Сухое",
+      "abv": 13.5
+    },
+    {
+      "id": "alk-myskhako-5779",
+      "name": "Мысхако Ноубл Эйдж Алиготе Семильон, 6 урожаев",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Сухое",
+      "abv": 13.1
+    },
+    {
+      "id": "alk-myskhako-5903",
+      "name": "Мысхако Окс-Редокс Мерло Каберне Фран",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Сухое",
+      "abv": 16
+    },
+    {
+      "id": "alk-myskhako-64032",
+      "name": "Мысхако Кюве Совиньон Блан Вионье",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Сухое",
+      "abv": 12.5
+    },
+    {
+      "id": "alk-myskhako-64042",
+      "name": "Мысхако Квинтэссенция Шторм Мерло",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Сладкое",
+      "abv": 14.7
+    },
+    {
+      "id": "alk-myskhako-6917",
+      "name": "Мысхако Шестое чувство, белое брют",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Брют"
+    },
+    {
+      "id": "alk-myskhako-6921",
+      "name": "Мысхако Шестое чувство, белое полусухое игристое",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Полусухое"
+    },
+    {
+      "id": "alk-myskhako-75990",
+      "name": "Мысхако Квинтэссенция Вионье",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Сухое",
+      "abv": 13
+    },
+    {
+      "id": "alk-myskhako-75997",
+      "name": "Мысхако Шестое чувство Тропический взрыв",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Сухое",
+      "abv": 12
+    },
+    {
+      "id": "alk-myskhako-76003",
+      "name": "Мысхако Шестое чувство Ягодный взрыв",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Розовое",
+      "sugar": "Сухое",
+      "abv": 12.2
+    },
+    {
+      "id": "alk-myskhako-76005",
+      "name": "Мысхако Шестое чувство Фруктовый взрыв",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Сухое",
+      "abv": 15.5
+    },
+    {
+      "id": "alk-myskhako-76406",
+      "name": "Мысхако Квинтэссенция Карменер",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Сухое",
+      "abv": 14.6
+    },
+    {
+      "id": "alk-myskhako-76651",
+      "name": "Мысхако Квинтэссенция Вионье Брют",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Брют",
+      "abv": 12.5
+    },
+    {
+      "id": "alk-myskhako-77397",
+      "name": "Мысхако Кюве Алиготе Вионье",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Полусладкое",
+      "abv": 12.5
+    },
+    {
+      "id": "alk-myskhako-77399",
+      "name": "Мысхако Кюве Мерло Темпранильо",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Красное",
+      "sugar": "Полусладкое",
+      "abv": 13.5
+    },
+    {
+      "id": "alk-myskhako-77915",
+      "name": "Мысхако Шардоне",
+      "category": "Вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Сухое",
+      "abv": 12.5
+    },
+    {
+      "id": "alk-myskhako-78194",
+      "name": "Мысхако Квинтэссенция Блауфранкиш Брют",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Розовое",
+      "sugar": "Брют",
+      "abv": 12.5
+    },
+    {
+      "id": "alk-myskhako-80778",
+      "name": "Мысхако Квинтэссенция Мускат Брют",
+      "category": "Игристое вино",
+      "reply_id": "myskhako-2026-11-05",
+      "chains": [
+        {
+          "network": "Алкотека",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "volume_ml": 750,
+      "color": "Белое",
+      "sugar": "Брют",
+      "abv": 12.5
     }
   ]
 }

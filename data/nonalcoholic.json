@@ -43,5 +43,17 @@
   "na-gorkovskaya-ipa": {},
   "na-zhiguli-barnoe": {
     "abv_max": 0.5
+  },
+  "alk-na-48783": {
+    "abv_max": 0.5
+  },
+  "alk-na-48785": {
+    "abv_max": 0.5
+  },
+  "alk-na-48787": {
+    "abv_max": 0.5
+  },
+  "alk-na-93715": {
+    "abv_max": 0.5
   }
 }

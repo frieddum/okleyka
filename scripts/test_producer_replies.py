@@ -15,7 +15,7 @@ original = json.loads(source.read_text(encoding="utf-8"))
 loaded = load_replies(source, ROOT / "site")
 data = json.loads((ROOT / "_site/data/verified.json").read_text(encoding="utf-8"))
 rows = {r[0]: r for r in data["records"]}
-assert len(loaded["items"]) == 225
+assert len(loaded["items"]) == 265
 ararat = [i for i in loaded["items"] if i["id"].startswith("reply-ararat-")]
 assert len(ararat) == 25
 assert sum(i["status"] == "vegan" for i in ararat) == 24
@@ -133,8 +133,8 @@ assert 'Ответ можно опубликовать' not in myskhako_page
 assert 'не меняется. ?' not in myskhako_page
 assert not re.search(r"Такачева|Тамара|mailto:|mail\.google|myskhako\.ru|\+7", myskhako_page)
 myskhako_items = [i for i in loaded["items"] if i["reply_id"] == "myskhako-2026-11-05"]
-assert len(myskhako_items) == 8
-assert sum(rows[i["id"]][18] for i in myskhako_items) == 3
+assert len(myskhako_items) == 48
+assert sum(rows[i["id"]][18] for i in myskhako_items) == 18
 networks = json.loads((ROOT / "_site/data/meta.json").read_text(encoding="utf-8"))["dicts"]["networks"]
 assert [networks[n] for n in rows["vr-c8768ac50e"][2]] == ["Decanter"]
 assert rows["vr-c8768ac50e"][16:18] == ["Розовое", "Сухое"]
@@ -144,7 +144,7 @@ assert rows["kb-a60236b901"][2] == []
 assert "kb-a60236b901" not in data["price_levels"]
 for item in myskhako_items:
     if item["chains"]:
-        assert data["price_levels"][item["id"]]["observed_at"] == "2026-11-06"
+        assert data["price_levels"][item["id"]]["observed_at"] == max(c["checked_at"] for c in item["chains"])
 for item in myskhako_items:
     assert f'?id={item["id"]}' in myskhako_page
     assert data["assessments"][rows[item["id"]][15]]["evidence_date"] == "2026-11-05"
